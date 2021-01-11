@@ -1,0 +1,733 @@
+{
+  "packageName": "Msdyn365.Commerce.Online",
+  "version": "1.0.0",
+  "submissionId": "unknown",
+  "build": {},
+  "buildTime": "2021-01-11 05:24:10",
+  "buildVersion": "a0ecf1",
+  "MSDyn365-Commerce": [
+    {
+      "packageName": "action-internal",
+      "versionDetails": [
+        {
+          "rootPackageVersion": "--",
+          "hoistedVersion": "1.25.17"
+        }
+      ]
+    },
+    {
+      "packageName": "bootloader",
+      "versionDetails": [
+        {
+          "rootPackageVersion": "^1.0.0",
+          "hoistedVersion": "1.25.17"
+        }
+      ]
+    },
+    {
+      "packageName": "build-scripts-internal",
+      "versionDetails": [
+        {
+          "rootPackageVersion": "--",
+          "hoistedVersion": "1.25.17",
+          "@msdyn365-commerce-bootloader-package-json-version": "1.25.17",
+          "@msdyn365-commerce-bootloader-node-modules-version": "HOISTED: Using version 1.25.17"
+        }
+      ]
+    },
+    {
+      "packageName": "cache-internal",
+      "versionDetails": [
+        {
+          "rootPackageVersion": "--",
+          "hoistedVersion": "1.25.17"
+        }
+      ]
+    },
+    {
+      "packageName": "cli-internal",
+      "versionDetails": [
+        {
+          "rootPackageVersion": "--",
+          "hoistedVersion": "1.25.17",
+          "@msdyn365-commerce-bootloader-package-json-version": "1.25.17",
+          "@msdyn365-commerce-bootloader-node-modules-version": "HOISTED: Using version 1.25.17"
+        }
+      ]
+    },
+    {
+      "packageName": "cli-template-internal",
+      "versionDetails": [
+        {
+          "rootPackageVersion": "--",
+          "hoistedVersion": "1.25.17"
+        }
+      ]
+    },
+    {
+      "packageName": "commerce-entities",
+      "versionDetails": [
+        {
+          "rootPackageVersion": "--",
+          "hoistedVersion": "9.24.14"
+        }
+      ]
+    },
+    {
+      "packageName": "components",
+      "versionDetails": [
+        {
+          "rootPackageVersion": "--",
+          "hoistedVersion": "9.24.14"
+        }
+      ]
+    },
+    {
+      "packageName": "core",
+      "versionDetails": [
+        {
+          "rootPackageVersion": "--",
+          "hoistedVersion": "1.25.17",
+          "@msdyn365-commerce-bootloader-package-json-version": "1.25.17",
+          "@msdyn365-commerce-bootloader-node-modules-version": "HOISTED: Using version 1.25.17"
+        }
+      ]
+    },
+    {
+      "packageName": "core-internal",
+      "versionDetails": [
+        {
+          "rootPackageVersion": "--",
+          "hoistedVersion": "1.25.17"
+        }
+      ]
+    },
+    {
+      "packageName": "definition-generator-internal",
+      "versionDetails": [
+        {
+          "rootPackageVersion": "--",
+          "hoistedVersion": "1.25.17",
+          "@msdyn365-commerce-bootloader-package-json-version": "1.25.17",
+          "@msdyn365-commerce-bootloader-node-modules-version": "HOISTED: Using version 1.25.17"
+        }
+      ]
+    },
+    {
+      "packageName": "global-state",
+      "versionDetails": [
+        {
+          "rootPackageVersion": "--",
+          "hoistedVersion": "9.24.14"
+        }
+      ]
+    },
+    {
+      "packageName": "release-scripts",
+      "versionDetails": [
+        {
+          "rootPackageVersion": "--",
+          "hoistedVersion": "1.25.17",
+          "@msdyn365-commerce-bootloader-package-json-version": "1.25.17",
+          "@msdyn365-commerce-bootloader-node-modules-version": "HOISTED: Using version 1.25.17"
+        }
+      ]
+    },
+    {
+      "packageName": "retail-proxy",
+      "versionDetails": [
+        {
+          "rootPackageVersion": "9.24",
+          "hoistedVersion": "9.24.5"
+        }
+      ]
+    },
+    {
+      "packageName": "runtime-internal",
+      "versionDetails": [
+        {
+          "rootPackageVersion": "--",
+          "hoistedVersion": "1.25.17",
+          "@msdyn365-commerce-bootloader-package-json-version": "1.25.17",
+          "@msdyn365-commerce-bootloader-node-modules-version": "HOISTED: Using version 1.25.17"
+        }
+      ]
+    },
+    {
+      "packageName": "telemetry-internal",
+      "versionDetails": [
+        {
+          "rootPackageVersion": "--",
+          "hoistedVersion": "1.25.17"
+        }
+      ]
+    },
+    {
+      "packageName": "theming-internal",
+      "versionDetails": [
+        {
+          "rootPackageVersion": "--",
+          "hoistedVersion": "1.25.17"
+        }
+      ]
+    },
+    {
+      "packageName": "tslint-rules",
+      "versionDetails": [
+        {
+          "rootPackageVersion": "--",
+          "hoistedVersion": "1.25.17",
+          "@msdyn365-commerce-bootloader-package-json-version": "1.25.17",
+          "@msdyn365-commerce-bootloader-node-modules-version": "HOISTED: Using version 1.25.17"
+        }
+      ]
+    },
+    {
+      "packageName": "utilities-internal",
+      "versionDetails": [
+        {
+          "rootPackageVersion": "--",
+          "hoistedVersion": "1.25.17",
+          "@msdyn365-commerce-bootloader-package-json-version": "1.25.17",
+          "@msdyn365-commerce-bootloader-node-modules-version": "HOISTED: Using version 1.25.17"
+        }
+      ]
+    }
+  ],
+  "MSDyn365-Commerce-Modules": [
+    {
+      "packageName": "accordion",
+      "versionDetails": [
+        {
+          "rootPackageVersion": "--",
+          "hoistedVersion": "9.24.14",
+          "starter-pack-package-json-version": "9.24.14",
+          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.14"
+        }
+      ]
+    },
+    {
+      "packageName": "account-management",
+      "versionDetails": [
+        {
+          "rootPackageVersion": "--",
+          "hoistedVersion": "9.24.14",
+          "starter-pack-package-json-version": "9.24.14",
+          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.14"
+        }
+      ]
+    },
+    {
+      "packageName": "address",
+      "versionDetails": [
+        {
+          "rootPackageVersion": "--",
+          "hoistedVersion": "9.24.14",
+          "starter-pack-package-json-version": "9.24.14",
+          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.14"
+        }
+      ]
+    },
+    {
+      "packageName": "automation-utilities",
+      "versionDetails": [
+        {
+          "rootPackageVersion": "--",
+          "hoistedVersion": "9.24.14",
+          "starter-pack-package-json-version": "9.24.14",
+          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.14"
+        }
+      ]
+    },
+    {
+      "packageName": "bopis-utilities",
+      "versionDetails": [
+        {
+          "rootPackageVersion": "--",
+          "hoistedVersion": "9.24.14"
+        }
+      ]
+    },
+    {
+      "packageName": "breadcrumb",
+      "versionDetails": [
+        {
+          "rootPackageVersion": "--",
+          "hoistedVersion": "9.24.14",
+          "starter-pack-package-json-version": "9.24.14",
+          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.14"
+        }
+      ]
+    },
+    {
+      "packageName": "business-account-management",
+      "versionDetails": [
+        {
+          "rootPackageVersion": "--",
+          "hoistedVersion": "9.24.14",
+          "starter-pack-package-json-version": "9.24.14",
+          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.14"
+        }
+      ]
+    },
+    {
+      "packageName": "business-organization-list",
+      "versionDetails": [
+        {
+          "rootPackageVersion": "--",
+          "hoistedVersion": "9.24.14",
+          "starter-pack-package-json-version": "9.24.14",
+          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.14"
+        }
+      ]
+    },
+    {
+      "packageName": "buybox",
+      "versionDetails": [
+        {
+          "rootPackageVersion": "--",
+          "hoistedVersion": "9.24.14",
+          "starter-pack-package-json-version": "9.24.14",
+          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.14"
+        }
+      ]
+    },
+    {
+      "packageName": "carousel",
+      "versionDetails": [
+        {
+          "rootPackageVersion": "--",
+          "hoistedVersion": "9.24.14",
+          "starter-pack-package-json-version": "9.24.14",
+          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.14"
+        }
+      ]
+    },
+    {
+      "packageName": "cart",
+      "versionDetails": [
+        {
+          "rootPackageVersion": "--",
+          "hoistedVersion": "9.24.14",
+          "starter-pack-package-json-version": "9.24.14",
+          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.14"
+        }
+      ]
+    },
+    {
+      "packageName": "checkout",
+      "versionDetails": [
+        {
+          "rootPackageVersion": "--",
+          "hoistedVersion": "9.24.14",
+          "starter-pack-package-json-version": "9.24.14",
+          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.14"
+        }
+      ]
+    },
+    {
+      "packageName": "checkout-utilities",
+      "versionDetails": [
+        {
+          "rootPackageVersion": "--",
+          "hoistedVersion": "9.24.14",
+          "starter-pack-package-json-version": "9.24.14",
+          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.14"
+        }
+      ]
+    },
+    {
+      "packageName": "content-block",
+      "versionDetails": [
+        {
+          "rootPackageVersion": "--",
+          "hoistedVersion": "9.24.14",
+          "starter-pack-package-json-version": "9.24.14",
+          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.14"
+        }
+      ]
+    },
+    {
+      "packageName": "cookie-compliance",
+      "versionDetails": [
+        {
+          "rootPackageVersion": "--",
+          "hoistedVersion": "9.24.14",
+          "starter-pack-package-json-version": "9.24.14",
+          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.14"
+        }
+      ]
+    },
+    {
+      "packageName": "core-components",
+      "versionDetails": [
+        {
+          "rootPackageVersion": "--",
+          "hoistedVersion": "1.25.17"
+        }
+      ]
+    },
+    {
+      "packageName": "data-types",
+      "versionDetails": [
+        {
+          "rootPackageVersion": "--",
+          "hoistedVersion": "9.24.14",
+          "starter-pack-package-json-version": "9.24.14",
+          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.14"
+        }
+      ]
+    },
+    {
+      "packageName": "definitions",
+      "versionDetails": [
+        {
+          "rootPackageVersion": "--",
+          "hoistedVersion": "9.24.14"
+        }
+      ]
+    },
+    {
+      "packageName": "fabrikam-design-kit",
+      "versionDetails": [
+        {
+          "rootPackageVersion": "9.24",
+          "hoistedVersion": "9.24.14"
+        }
+      ]
+    },
+    {
+      "packageName": "footer",
+      "versionDetails": [
+        {
+          "rootPackageVersion": "--",
+          "hoistedVersion": "9.24.14",
+          "starter-pack-package-json-version": "9.24.14",
+          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.14"
+        }
+      ]
+    },
+    {
+      "packageName": "header",
+      "versionDetails": [
+        {
+          "rootPackageVersion": "--",
+          "hoistedVersion": "9.24.14",
+          "starter-pack-package-json-version": "9.24.14",
+          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.14"
+        }
+      ]
+    },
+    {
+      "packageName": "iframe",
+      "versionDetails": [
+        {
+          "rootPackageVersion": "--",
+          "hoistedVersion": "9.24.14",
+          "starter-pack-package-json-version": "9.24.14",
+          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.14"
+        }
+      ]
+    },
+    {
+      "packageName": "map",
+      "versionDetails": [
+        {
+          "rootPackageVersion": "--",
+          "hoistedVersion": "9.24.14",
+          "starter-pack-package-json-version": "9.24.14",
+          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.14"
+        }
+      ]
+    },
+    {
+      "packageName": "media-gallery",
+      "versionDetails": [
+        {
+          "rootPackageVersion": "--",
+          "hoistedVersion": "9.24.14",
+          "starter-pack-package-json-version": "9.24.14",
+          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.14"
+        }
+      ]
+    },
+    {
+      "packageName": "navigation-menu",
+      "versionDetails": [
+        {
+          "rootPackageVersion": "--",
+          "hoistedVersion": "9.24.14",
+          "starter-pack-package-json-version": "9.24.14",
+          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.14"
+        }
+      ]
+    },
+    {
+      "packageName": "order-management",
+      "versionDetails": [
+        {
+          "rootPackageVersion": "--",
+          "hoistedVersion": "9.24.14",
+          "starter-pack-package-json-version": "9.24.14",
+          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.14"
+        }
+      ]
+    },
+    {
+      "packageName": "order-summary-utilities",
+      "versionDetails": [
+        {
+          "rootPackageVersion": "--",
+          "hoistedVersion": "9.24.14"
+        }
+      ]
+    },
+    {
+      "packageName": "order-template",
+      "versionDetails": [
+        {
+          "rootPackageVersion": "--",
+          "hoistedVersion": "9.24.14",
+          "starter-pack-package-json-version": "9.24.14",
+          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.14"
+        }
+      ]
+    },
+    {
+      "packageName": "page-summary",
+      "versionDetails": [
+        {
+          "rootPackageVersion": "--",
+          "hoistedVersion": "9.24.14",
+          "starter-pack-package-json-version": "9.24.14",
+          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.14"
+        }
+      ]
+    },
+    {
+      "packageName": "product-collection",
+      "versionDetails": [
+        {
+          "rootPackageVersion": "--",
+          "hoistedVersion": "9.24.14",
+          "starter-pack-package-json-version": "9.24.14",
+          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.14"
+        }
+      ]
+    },
+    {
+      "packageName": "product-specification",
+      "versionDetails": [
+        {
+          "rootPackageVersion": "--",
+          "hoistedVersion": "9.24.14",
+          "starter-pack-package-json-version": "9.24.14",
+          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.14"
+        }
+      ]
+    },
+    {
+      "packageName": "promo-banner",
+      "versionDetails": [
+        {
+          "rootPackageVersion": "--",
+          "hoistedVersion": "9.24.14",
+          "starter-pack-package-json-version": "9.24.14",
+          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.14"
+        }
+      ]
+    },
+    {
+      "packageName": "ratings-reviews",
+      "versionDetails": [
+        {
+          "rootPackageVersion": "--",
+          "hoistedVersion": "9.24.14",
+          "starter-pack-package-json-version": "9.24.14",
+          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.14"
+        }
+      ]
+    },
+    {
+      "packageName": "resources",
+      "versionDetails": [
+        {
+          "rootPackageVersion": "--",
+          "hoistedVersion": "9.24.14",
+          "starter-pack-package-json-version": "9.24.14",
+          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.14"
+        }
+      ]
+    },
+    {
+      "packageName": "retail-actions",
+      "versionDetails": [
+        {
+          "rootPackageVersion": "--",
+          "hoistedVersion": "9.24.14",
+          "starter-pack-package-json-version": "9.24.14",
+          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.14"
+        }
+      ]
+    },
+    {
+      "packageName": "search",
+      "versionDetails": [
+        {
+          "rootPackageVersion": "--",
+          "hoistedVersion": "9.24.14",
+          "starter-pack-package-json-version": "9.24.14",
+          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.14"
+        }
+      ]
+    },
+    {
+      "packageName": "search-result-container",
+      "versionDetails": [
+        {
+          "rootPackageVersion": "--",
+          "hoistedVersion": "9.24.14",
+          "starter-pack-package-json-version": "9.24.14",
+          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.14"
+        }
+      ]
+    },
+    {
+      "packageName": "search-utilities",
+      "versionDetails": [
+        {
+          "rootPackageVersion": "--",
+          "hoistedVersion": "9.24.14"
+        }
+      ]
+    },
+    {
+      "packageName": "site-picker",
+      "versionDetails": [
+        {
+          "rootPackageVersion": "--",
+          "hoistedVersion": "9.24.14",
+          "starter-pack-package-json-version": "9.24.14",
+          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.14"
+        }
+      ]
+    },
+    {
+      "packageName": "social-share",
+      "versionDetails": [
+        {
+          "rootPackageVersion": "--",
+          "hoistedVersion": "9.24.14",
+          "starter-pack-package-json-version": "9.24.14",
+          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.14"
+        }
+      ]
+    },
+    {
+      "packageName": "spacer",
+      "versionDetails": [
+        {
+          "rootPackageVersion": "--",
+          "hoistedVersion": "9.24.14",
+          "starter-pack-package-json-version": "9.24.14",
+          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.14"
+        }
+      ]
+    },
+    {
+      "packageName": "starter-pack",
+      "versionDetails": [
+        {
+          "rootPackageVersion": "9.24",
+          "hoistedVersion": "9.24.14"
+        }
+      ]
+    },
+    {
+      "packageName": "starter-theme-pack",
+      "versionDetails": [
+        {
+          "rootPackageVersion": "--",
+          "hoistedVersion": "9.24.14",
+          "starter-pack-package-json-version": "9.24.14",
+          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.14"
+        }
+      ]
+    },
+    {
+      "packageName": "store-selector",
+      "versionDetails": [
+        {
+          "rootPackageVersion": "--",
+          "hoistedVersion": "9.24.14",
+          "starter-pack-package-json-version": "9.24.14",
+          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.14"
+        }
+      ]
+    },
+    {
+      "packageName": "tab",
+      "versionDetails": [
+        {
+          "rootPackageVersion": "--",
+          "hoistedVersion": "9.24.14",
+          "starter-pack-package-json-version": "9.24.14",
+          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.14"
+        }
+      ]
+    },
+    {
+      "packageName": "text-block",
+      "versionDetails": [
+        {
+          "rootPackageVersion": "--",
+          "hoistedVersion": "9.24.14",
+          "starter-pack-package-json-version": "9.24.14",
+          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.14"
+        }
+      ]
+    },
+    {
+      "packageName": "utilities",
+      "versionDetails": [
+        {
+          "rootPackageVersion": "--",
+          "hoistedVersion": "9.24.14",
+          "starter-pack-package-json-version": "9.24.14",
+          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.14"
+        }
+      ]
+    },
+    {
+      "packageName": "video-player",
+      "versionDetails": [
+        {
+          "rootPackageVersion": "--",
+          "hoistedVersion": "9.24.14",
+          "starter-pack-package-json-version": "9.24.14",
+          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.14"
+        }
+      ]
+    },
+    {
+      "packageName": "wishlist",
+      "versionDetails": [
+        {
+          "rootPackageVersion": "--",
+          "hoistedVersion": "9.24.14",
+          "starter-pack-package-json-version": "9.24.14",
+          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.14"
+        }
+      ]
+    }
+  ],
+  "themes": {
+    "localThemes": [
+      {
+        "themeName": "wkea",
+        "version": "--"
+      }
+    ],
+    "installedThemes": []
+  }
+}

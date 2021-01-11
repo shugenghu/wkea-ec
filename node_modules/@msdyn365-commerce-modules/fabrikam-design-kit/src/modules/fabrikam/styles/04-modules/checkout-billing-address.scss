@@ -1,0 +1,66 @@
+$msv-checkout-billing-address-margin: 8px;
+$msv-checkout-input-margin-left: 0px;
+$msv-checkout-input-dimensions: 16px;
+$msv-checkout-shipping-address-label-margin-bottom: 12px;
+$msv-checkout-shipping-address-checkbox-margin-left: 8px;
+$msv-checkout-address-detail-margin-left: 0px;
+$msv-checkout-address-detail-padding-bottom: 20px;
+
+//style presets
+:root {
+  --msv-checkout-address-font-size: var(--msv-body-font-size-m);
+  --msv-checkout-address-font-color: var(--msv-font-primary-color);
+
+  // heading
+  --msv-checkout-address-heading-font-color: var(--msv-font-primary-color);
+  --msv-checkout-address-heading-font-size: var(--msv-body-font-size-s);
+  
+  // secondary button
+  --msv-checkout-address-secondary-btn-bg: var(--msv-bg-color);
+  --msv-checkout-address-secondary-btn-font-color: var(--msv-font-primary-color);
+  --msv-checkout-address-secondary-btn-border: var(--msv-accent-brand-color);
+
+}
+
+.ms-checkout-billing-address {
+  &__heading {
+    @include font-content(var(--msv-font-weight-bold), var(--msv-checkout-address-heading-font-size), $msv-line-height-s);
+    color: var(--msv-checkout-address-heading-font-color);
+    margin-bottom: $msv-checkout-billing-address-margin;
+  }
+
+  .msc-address-detail {
+    @include font-content(var(--msv-font-weight-normal), var(--msv-checkout-address-font-size), $msv-line-height-m);
+    color: var(--msv-checkout-address-font-color);
+    margin-left: $msv-checkout-address-detail-margin-left;
+  }
+
+  &__shipping-address-label {
+    display: flex;
+    margin-bottom: $msv-checkout-shipping-address-label-margin-bottom;
+  }
+
+  &__input {
+    min-width: $msv-checkout-input-dimensions;
+    min-height: $msv-checkout-input-dimensions;
+    margin-left: $msv-checkout-input-margin-left;
+  }
+
+  &__shipping-address-checkbox-text {
+    @include font-content(var(--msv-font-weight-normal), var(--msv-checkout-address-font-size), $msv-line-height-m);
+    margin-left: $msv-checkout-shipping-address-checkbox-margin-left;
+    align-self: center;
+  }
+}
+
+.ms-checkout-shipping-address {
+  .msc-address-select__button-add {
+    @include secondary-button(var(--msv-checkout-address-secondary-btn-bg),var(--msv-checkout-address-secondary-btn-font-color), var(--msv-checkout-address-secondary-btn-border));
+  }
+
+  .msc-address-detail {
+    @include font-content(var(--msv-font-weight-normal), var(--msv-checkout-address-font-size), $msv-line-height-m);
+    color: var(--msv-checkout-address-font-color);
+    padding-bottom: $msv-checkout-address-detail-padding-bottom;
+  }
+}

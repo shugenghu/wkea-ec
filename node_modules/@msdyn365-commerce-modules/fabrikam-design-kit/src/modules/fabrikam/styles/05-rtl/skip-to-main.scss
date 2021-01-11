@@ -1,0 +1,13 @@
+$skip-to-main-left: 0px;
+$skip-to-main-right: -999px;
+$skip-to-main-right-focus: 0px;
+
+[dir="rtl"] {
+    .skip-to-main {
+        left: $skip-to-main-left;
+        right: $skip-to-main-right;
+        &:focus, &:active {
+            right: $skip-to-main-right-focus;
+        }
+    }
+}

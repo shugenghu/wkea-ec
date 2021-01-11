@@ -1,0 +1,16 @@
+{
+    "themes": {
+        "fabrikam": {
+            "dev": "static/css/fabrikam/fabrikam.css",
+            "prod": "static/css/fabrikam/fabrikam.min.css"
+        },
+        "starter": {
+            "dev": "static/css/starter/starter.css",
+            "prod": "static/css/starter/starter.min.css"
+        },
+        "wkea": {
+            "dev": "static/css/wkea/wkea.css",
+            "prod": "static/css/wkea/wkea.min.css"
+        }
+    }
+}

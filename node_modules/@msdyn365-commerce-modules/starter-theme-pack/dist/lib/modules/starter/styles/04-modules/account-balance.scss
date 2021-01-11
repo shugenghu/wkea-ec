@@ -1,0 +1,109 @@
+//style presets
+:root {
+  // text
+  --msv-account-balance-text-font-size: var(--msv-body-font-size-m);
+  --msv-account-balance-text-font-weight: var(--msv-font-weight-light);
+
+  // bolder text
+  --msv-account-balance-bolder-text-font-weight: var(--msv-font-weight-bold);
+
+  // title
+  --msv-account-balance-title-font-size: var(--msv-body-font-size-xl);
+  --msv-account-balance-title-font-weight: var(--msv-font-weight-light);
+
+  // account details section title
+  --msv-account-balance-details-section-title-font-size: var(--msv-body-font-size-xl);
+  --msv-account-balance-details-section-title-font-weight: var(--msv-font-weight-light);
+
+  // customer account number text
+  --msv-account-balance-customer-account-number-text-font-size: #{$msv-heading-text-size};
+
+  // credit amount text
+  --msv-account-balance-credit-amount-text-font-size: var(--msv-body-font-size-xxl);
+}
+
+.ms-account {
+  &-customer-balance {
+    max-width: 640px;
+    font-weight: var(--msv-account-balance-text-font-weight);
+    font-size: var(--msv-account-balance-text-font-size);
+
+    h2 {
+      padding: 25px 0;
+      border-bottom: 1px solid #616365;
+      font-weight: var(--msv-account-balance-title-font-weight);
+      font-size: var(--msv-account-balance-title-font-size);
+      line-height: normal;
+    }
+
+    h3 {
+      padding-top: 30px;
+    }
+
+    .ms-account-customer-balance__credit-summary-heading {
+      @include add-icon($msv-ListAlt, before);
+      &:before {
+        padding-right: 5px;
+      }
+    }
+
+    &__account,
+    &__credit-summary {
+      display: flex;
+      padding: 1rem 0;
+      justify-content: space-between;
+
+      div {
+        width: 100%;
+        padding: 0.5rem 0;
+      }
+    }
+
+    &__account {
+      border-bottom: 1px dashed #616365;
+
+      &__details {
+        h4 {
+          padding: 0.5rem 0;
+          font-weight: var(--msv-account-balance-details-section-title-font-weight);
+          font-size: var(--msv-account-balance-details-section-title-font-size);
+        }
+
+        .ms-account-customer-balance__account-number {
+          font-size: var(--msv-account-balance-customer-account-number-text-font-size);
+        }
+      }
+    }
+
+    &__account__credit,
+    &__credit-summary__values {
+      > div {
+        font-weight: var(--msv-account-balance-bolder-text-font-weight);
+        text-align: right;
+      }
+    }
+
+    &__credit-summary__values {
+      .ms-account-customer-balance__excess-credit-label {
+        &:before {
+          content: '(';
+        }
+        &:after {
+          content: ')';
+        }
+      }
+    }
+
+    &__account__credit {
+      .ms-account-customer-balance__available-credit-label {
+        font-weight: var(--msv-account-balance-text-font-weight);
+        font-size: var(--msv-account-balance-customer-account-number-text-font-size);
+      }
+      .ms-account-customer-balance__available-credit-amount {
+        font-weight: var(--msv-account-balance-text-font-weight);
+        font-size: var(--msv-account-balance-credit-amount-text-font-size);
+        line-height: 3rem;
+      }
+    }
+  }
+}

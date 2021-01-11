@@ -1,0 +1,24 @@
+$rtl-nav-button-margin-right: 8px;
+$rtl-nav-parent-menu-margin-left: 24px;
+
+[dir="rtl"] {
+    .ms-nav {
+        @media screen and (min-width: $msv-breakpoint-l) {
+            &__list {
+                &__item__button {
+                    &::after {
+                        margin-left: unset;
+                        margin-right: $rtl-nav-button-margin-right;
+                    }
+                }
+            }
+
+            .ms-nav__list {
+                .ms-nav__list__item:first-child {
+                    margin-right: 0;
+                    margin-left: $rtl-nav-parent-menu-margin-left;
+                }
+            }
+        }
+    }
+}

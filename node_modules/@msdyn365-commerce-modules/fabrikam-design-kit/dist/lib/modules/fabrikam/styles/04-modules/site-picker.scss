@@ -1,0 +1,73 @@
+
+//Variables
+$site-picker-list-item-bg-color: #f3f3f3;
+$site-picker-list-item-img-padding: 10px 10px 1px 0px;
+$site-picker-list-margin: 5px;
+$site-picker-list-item-padding-top: 10px;
+$site-picker-list-item-padding-bottom: 10px;
+$site-picker-list-item-padding-left: 10px;
+$site-picker-list-item-padding-right: 10px;
+$site-picker-height: 48px;
+
+//style presets
+:root {
+    --ms-site-picker-font-size: var(--msv-body-font-size-m);
+    --ms-site-picker-color: var(--msv-font-primary-color);
+    --ms-site-picker-gray-500: #{$msv-gray-500};
+}
+.ms-site-picker {
+    z-index: 1005;
+    margin-left:15px;
+    align-self: flex-start;
+    align-items: self-end;
+    font-size: var(--ms-site-picker-font-size);
+    height: $site-picker-height;
+    &__button {
+        background-color:transparent;
+        border:none;
+        cursor:pointer;
+        height: 100%;
+        width: 100%;
+        &:focus {
+            border: 1px dashed var(--ms-site-picker-gray-500);
+            outline: none;
+          }
+    }
+    &__span{
+        &:after{
+            @include msv-icon();
+            content: $msv-ChevronDown;
+            color:var(--ms-site-picker-color);
+            margin-left: 8px;
+            line-height: 40px;
+        }
+    }
+    &__list {
+        display: block;
+        position: absolute;
+        list-style-type: none;
+		padding-left:0px;
+		margin: $site-picker-list-margin;
+        &__item {
+            background-color:$site-picker-list-item-bg-color;
+			cursor: pointer;
+            &__link{
+                flex-direction: row-reverse;
+                justify-content: flex-end;
+                padding-bottom: $site-picker-list-item-padding-bottom;
+                padding-left: $site-picker-list-item-padding-left;
+                padding-top: $site-picker-list-item-padding-top;
+                padding-right: $site-picker-list-item-padding-right;
+                align-items: flex-end;
+                width: 100%;
+                &:focus{
+                    border: 1px dashed var(--ms-site-picker-gray-500);
+                    outline: none;
+                }
+            }
+            &__img{
+                padding: $site-picker-list-item-img-padding;
+            }            
+        }
+    }
+}
