@@ -206,40 +206,41 @@
     line-height: 58px;
     background-color: #009ce1;
 }
-.wkea-header-top-content-input div{
-    margin-top: 5px;
-}
-.wkea-header-top-content-input div ul{
-    padding: 0px;
-}
-.wkea-header-top-content-input div ul li{
-    padding-left: 15px;
-    padding-right: 15px;
-}
-.wkea-header-top-content-input div ul li a{
-    font-size: 14px;
-    color: #72899B;
-}
-.wkea-header-top-content-input div ul li a:hover{
-    text-decoration: none;
-}
 .wkea-header-top .wkea-header-top-nav ul li a:hover {
     text-decoration: none;
 }
 
 .wkea-header-top .wkea-header-top-nav ul li a {
     color: white;
+    font-size: 18px;
     font-family: "微软雅黑";
 }
 
 .wkea-header-top .wkea-header-top-nav ul li+li a {
     color: #34495E;
     font-family: "微软雅黑";
-    font-weight: lighter;
+    font-weight: 500;
 }
 
 .wkea-header-top .wkea-header-top-nav ul li+li {
     margin-right: 0px;
     width: 120px;
     background-color: white;
+}
+.top-content-recommended{
+    margin-top: 5px;
+}
+.top-content-recommended ul{
+    padding: 0px;
+}
+.top-content-recommended ul li{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.top-content-recommended  ul li a{
+    font-size: 14px;
+    color: #72899B;
+}
+.top-content-recommended ul li a:hover{
+    text-decoration: none;
 }

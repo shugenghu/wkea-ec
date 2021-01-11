@@ -58,33 +58,34 @@ const headerView: React.FC<IHeaderViewProps> = props => {
                                 {_renderReactFragment(props.search)}
                             </div>
                             <img src="https://images-ap-prod.cms.commerce.dynamics.com/cms/api/nmmnlvcthh/imageFileData/MF2Bx?pubver=1" width="26" height="26" alt="" /><input type="text" placeholder="搜索/品牌/型号" /><button>搜索</button>
-                            <div>
-                                <ul className="clear">
-                                    <li>
-                                        <a href="">轴承</a>
-                                    </li>
-                                    <li>
-                                        <a href="">弹簧</a>
-                                    </li>
-                                    <li>
-                                        <a href="">联轴器</a>
-                                    </li>
-                                    <li>
-                                        <a href="">气缸</a>
-                                    </li>
-                                    <li>
-                                        <a href="">同步带</a>
-                                    </li>
-                                </ul>
-                            </div>
                         </div>
                         <div className="wkea-header-top-content-cart">
                             <img src="https://images-ap-prod.cms.commerce.dynamics.com/cms/api/nmmnlvcthh/imageFileData/MF2Bu?pubver=1" width="16" height="16" alt="" />
                             <span className="wkea-header-top-content-cart-cart">&nbsp;购物车</span><span className="wkea-header-numberCircle">0</span>
                         </div>
+                        <div className="top-content-recommended">
+                            <ul className="clear">
+                                <li>
+                                    <a href="">轴承</a>
+                                </li>
+                                <li>
+                                    <a href="">弹簧</a>
+                                </li>
+                                <li>
+                                    <a href="">联轴器</a>
+                                </li>
+                                <li>
+                                    <a href="">气缸</a>
+                                </li>
+                                <li>
+                                    <a href="">同步带</a>
+                                </li>
+                            </ul>
+                        </div>
                         <div className="wkea-header-top-nav centre">
                             <ul className="clear">
                                 <li><a href="wkea-header.html">全部商品分类</a></li>
+                                <li><a href="">维嘉品牌</a></li>
                                 <li><a href="">供应商合作</a></li>
                                 <li><a href="wkea-sale.html">售后服务</a></li>
                             </ul>
