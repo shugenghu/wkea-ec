@@ -1,0 +1,9 @@
+{
+    "rules":{
+        "no-void-expression": false
+    },
+    "semicolon": [
+        false,
+        "always"
+    ]
+}
