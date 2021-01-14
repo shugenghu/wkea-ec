@@ -10,6 +10,8 @@ export default (props: ITestViewProps) => {
     return (
         <div className='row'>
             test
+            test
+            case
         </div>
     );
 };
