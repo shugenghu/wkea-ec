@@ -1,0 +1,19 @@
+
+/* 头部边框样式 */
+.wk-content {
+    border-top: 2px solid #009CE1;
+}
+
+/* 头部导航样式
+    固定高度
+    例： 首页>我的购物车
+    固定是用这个样式
+*/
+.wk-nav-top {
+    line-height: 80px;
+    height: 80px;
+}
+/* 清除浮动样式 */
+.clearboth{
+    clear: both;
+}
