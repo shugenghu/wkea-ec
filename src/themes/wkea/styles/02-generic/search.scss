@@ -1,0 +1,23 @@
+.ms-search__label{
+    display: none;
+}
+.ms-search__autoSuggest .msc-autoSuggest__screen-reader{
+    display: none;
+}
+.wkea-header-top-content-input button::before{
+    content: "搜索";
+}
+.ms-search__autoSuggest{
+    width: 666px;
+    background-color: white;
+}
+.ms-search{
+
+    width: 700px;
+}
+.ms-search__autoSuggest ul{
+    list-style: none;
+}
+.ms-search__autoSuggest ul a{
+    color: #34495E;
+}
