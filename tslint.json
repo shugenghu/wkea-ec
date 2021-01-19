@@ -1,9 +1,18 @@
 {
     "rules":{
-        "no-void-expression": false
+        "no-void-expression": false,
+        "ordered-imports": false,
+        "semicolon": [
+            false,
+            "always"
+        ],
+        "jsx-no-lambda": [false],
+        "react-this-binding-issue": [false],
+        "no-any": false
     },
-    "semicolon": [
-        false,
-        "always"
-    ]
+    "linterOptions": {
+        "exclude": [
+            "./src/actions/*.g.ts"
+        ]
+    }
 }

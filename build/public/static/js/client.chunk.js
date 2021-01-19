@@ -95,19 +95,21 @@ __webpack_require__.r(__webpack_exports__);
 /* WEBPACK VAR INJECTION */(function(process, __dirname) {/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "registerAllModules", function() { return registerAllModules; });
 /* harmony import */ var core_js_modules_es_promise_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! core-js/modules/es.promise.js */ "./node_modules/@msdyn365-commerce/bootloader/node_modules/core-js/modules/es.promise.js");
 /* harmony import */ var core_js_modules_es_promise_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_promise_js__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var core_js_modules_web_dom_collections_iterator_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! core-js/modules/web.dom-collections.iterator.js */ "./node_modules/@msdyn365-commerce/bootloader/node_modules/core-js/modules/web.dom-collections.iterator.js");
-/* harmony import */ var core_js_modules_web_dom_collections_iterator_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_web_dom_collections_iterator_js__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var path__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! path */ "./node_modules/path-browserify/index.js");
-/* harmony import */ var path__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(path__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! babel-plugin-universal-import/universalImport */ "./node_modules/babel-plugin-universal-import/universalImport.js");
-/* harmony import */ var babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var core_js_modules_es_string_search_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! core-js/modules/es.string.search.js */ "./node_modules/@msdyn365-commerce/bootloader/node_modules/core-js/modules/es.string.search.js");
+/* harmony import */ var core_js_modules_es_string_search_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_string_search_js__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var core_js_modules_web_dom_collections_iterator_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! core-js/modules/web.dom-collections.iterator.js */ "./node_modules/@msdyn365-commerce/bootloader/node_modules/core-js/modules/web.dom-collections.iterator.js");
+/* harmony import */ var core_js_modules_web_dom_collections_iterator_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_web_dom_collections_iterator_js__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var path__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! path */ "./node_modules/path-browserify/index.js");
+/* harmony import */ var path__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(path__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! babel-plugin-universal-import/universalImport */ "./node_modules/babel-plugin-universal-import/universalImport.js");
+/* harmony import */ var babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_4__);
 /**
  * Copyright (c) 2018 Microsoft Corporation
  * Modules Registration
  * THIS FILE IS AUTO-GENERATED - MANUAL MODIFICATIONS WILL BE LOST
  */const universal=__webpack_require__(/*! react-universal-component */ "./node_modules/react-universal-component/dist/index.js").default;/**
  * Register all available modules
- */const registerAllModules=requiredModules=>{let binding={modules:{},dataActions:{}};const{log,error}=console;const detailedWebpackError=(msg,errorObject)=>{error(msg);error(errorObject); false&&false;process.exit(50);};const handleError=(modPath,errObject)=>{detailedWebpackError('Error with path: '+modPath,errObject);};if(requiredModules){requiredModules=requiredModules.map(module=>module.toLowerCase());}const isNotRegistered=moduleName=>{return!requiredModules||requiredModules.length<=0||requiredModules.findIndex(module=>module===moduleName)!==-1;};isNotRegistered('footer')&&(binding.modules['footer']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"partner/modules/footer/footer",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! partner/modules/footer/footer */ "./src/modules/footer/footer.tsx"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'partner/modules/footer/footer'),resolve:()=>/*require.resolve*/(/*! partner/modules/footer/footer */ "./src/modules/footer/footer.tsx"),chunkName:()=>"partner-modules-footer-footer"}),{chunkName:()=>'partner-modules-footer-footer',ignoreBabelRename:true}),$type:'contentModule',dataActions:[],definitionPath:'src/modules/footer/footer.definition.json',isNodeModule:false,moduleNamespace:'__local__',name:'footer',packageName:'__local__',parentDefinitionPath:'',moduleDirectory:'src/modules/footer'});isNotRegistered('header')&&(binding.modules['header']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"partner/modules/header/header",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! partner/modules/header/header */ "./src/modules/header/header.tsx"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'partner/modules/header/header'),resolve:()=>/*require.resolve*/(/*! partner/modules/header/header */ "./src/modules/header/header.tsx"),chunkName:()=>"partner-modules-header-header"}),{chunkName:()=>'partner-modules-header-header',ignoreBabelRename:true}),$type:'containerModule',dataActions:[{name:'accountInformation',path:'@msdyn365-commerce-modules/retail-actions/dist/lib/get-customer',runOn:0},{name:'cart',path:'@msdyn365-commerce/global-state/dist/lib/data-actions/cart-state-data-action',runOn:0}],definitionPath:'src/modules/header/header.definition.json',isNodeModule:false,moduleNamespace:'__local__',name:'header',packageName:'__local__',parentDefinitionPath:'',moduleDirectory:'src/modules/header'});isNotRegistered('index-carousel')&&(binding.modules['index-carousel']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"partner/modules/index-carousel/index-carousel",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! partner/modules/index-carousel/index-carousel */ "./src/modules/index-carousel/index-carousel.tsx"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'partner/modules/index-carousel/index-carousel'),resolve:()=>/*require.resolve*/(/*! partner/modules/index-carousel/index-carousel */ "./src/modules/index-carousel/index-carousel.tsx"),chunkName:()=>"partner-modules-index-carousel-index-carousel"}),{chunkName:()=>'partner-modules-index-carousel-index-carousel',ignoreBabelRename:true}),$type:'contentModule',dataActions:[],definitionPath:'src/modules/index-carousel/index-carousel.definition.json',isNodeModule:false,moduleNamespace:'__local__',name:'index-carousel',packageName:'__local__',parentDefinitionPath:'',moduleDirectory:'src/modules/index-carousel'});isNotRegistered('index-nav')&&(binding.modules['index-nav']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"partner/modules/index-nav/index-nav",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! partner/modules/index-nav/index-nav */ "./src/modules/index-nav/index-nav.tsx"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'partner/modules/index-nav/index-nav'),resolve:()=>/*require.resolve*/(/*! partner/modules/index-nav/index-nav */ "./src/modules/index-nav/index-nav.tsx"),chunkName:()=>"partner-modules-index-nav-index-nav"}),{chunkName:()=>'partner-modules-index-nav-index-nav',ignoreBabelRename:true}),$type:'contentModule',dataActions:[],definitionPath:'src/modules/index-nav/index-nav.definition.json',isNodeModule:false,moduleNamespace:'__local__',name:'index-nav',packageName:'__local__',parentDefinitionPath:'',moduleDirectory:'src/modules/index-nav'});isNotRegistered('index-person')&&(binding.modules['index-person']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"partner/modules/index-person/index-person",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! partner/modules/index-person/index-person */ "./src/modules/index-person/index-person.tsx"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'partner/modules/index-person/index-person'),resolve:()=>/*require.resolve*/(/*! partner/modules/index-person/index-person */ "./src/modules/index-person/index-person.tsx"),chunkName:()=>"partner-modules-index-person-index-person"}),{chunkName:()=>'partner-modules-index-person-index-person',ignoreBabelRename:true}),$type:'contentModule',dataActions:[],definitionPath:'src/modules/index-person/index-person.definition.json',isNodeModule:false,moduleNamespace:'__local__',name:'index-person',packageName:'__local__',parentDefinitionPath:'',moduleDirectory:'src/modules/index-person'});isNotRegistered('index-product')&&(binding.modules['index-product']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"partner/modules/index-product/index-product",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! partner/modules/index-product/index-product */ "./src/modules/index-product/index-product.tsx"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'partner/modules/index-product/index-product'),resolve:()=>/*require.resolve*/(/*! partner/modules/index-product/index-product */ "./src/modules/index-product/index-product.tsx"),chunkName:()=>"partner-modules-index-product-index-product"}),{chunkName:()=>'partner-modules-index-product-index-product',ignoreBabelRename:true}),$type:'contentModule',dataActions:[],definitionPath:'src/modules/index-product/index-product.definition.json',isNodeModule:false,moduleNamespace:'__local__',name:'index-product',packageName:'__local__',parentDefinitionPath:'',moduleDirectory:'src/modules/index-product'});isNotRegistered('sale')&&(binding.modules['sale']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"partner/modules/sale/sale",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! partner/modules/sale/sale */ "./src/modules/sale/sale.tsx"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'partner/modules/sale/sale'),resolve:()=>/*require.resolve*/(/*! partner/modules/sale/sale */ "./src/modules/sale/sale.tsx"),chunkName:()=>"partner-modules-sale-sale"}),{chunkName:()=>'partner-modules-sale-sale',ignoreBabelRename:true}),$type:'contentModule',dataActions:[],definitionPath:'src/modules/sale/sale.definition.json',isNodeModule:false,moduleNamespace:'__local__',name:'sale',packageName:'__local__',parentDefinitionPath:'',moduleDirectory:'src/modules/sale'});isNotRegistered('wkea')&&(binding.modules['wkea']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"partner/themes/wkea/wkea",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! partner/themes/wkea/wkea */ "./src/themes/wkea/wkea.tsx"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'partner/themes/wkea/wkea'),resolve:()=>/*require.resolve*/(/*! partner/themes/wkea/wkea */ "./src/themes/wkea/wkea.tsx"),chunkName:()=>"partner-themes-wkea-wkea"}),{chunkName:()=>'partner-themes-wkea-wkea',ignoreBabelRename:true}),$type:'themeModule',dataActions:[],definitionPath:'src/themes/wkea/wkea.definition.json',isNodeModule:false,moduleNamespace:'__local__',name:'wkea',packageName:'__local__',parentDefinitionPath:'',themeSettings:'wkea.theme.settings.json',moduleDirectory:'src/themes/wkea'});try{if(isNotRegistered('header')){const sanitizedActionPath='@msdyn365-commerce-modules/retail-actions/dist/lib/get-customer';let dataAction=__webpack_require__(/*! @msdyn365-commerce-modules/retail-actions/dist/lib/get-customer */ "./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-customer.js");if(!dataAction.default){throw new Error('Data action path does not have a default export');}if(!(dataAction.default.prototype.id&&binding.dataActions[dataAction.default.prototype.id])||!binding.dataActions[sanitizedActionPath]){binding.dataActions[sanitizedActionPath]=dataAction;}}}catch(e){binding.dataActions['@msdyn365-commerce-modules/retail-actions/dist/lib/get-customer']=undefined;handleError('@msdyn365-commerce-modules/retail-actions/dist/lib/get-customer',e);}try{if(isNotRegistered('header')){const sanitizedActionPath='@msdyn365-commerce/global-state/dist/lib/data-actions/cart-state-data-action';let dataAction=__webpack_require__(/*! @msdyn365-commerce/global-state/dist/lib/data-actions/cart-state-data-action */ "./node_modules/@msdyn365-commerce/global-state/dist/lib/data-actions/cart-state-data-action.js");if(!dataAction.default){throw new Error('Data action path does not have a default export');}if(!(dataAction.default.prototype.id&&binding.dataActions[dataAction.default.prototype.id])||!binding.dataActions[sanitizedActionPath]){binding.dataActions[sanitizedActionPath]=dataAction;}}}catch(e){binding.dataActions['@msdyn365-commerce/global-state/dist/lib/data-actions/cart-state-data-action']=undefined;handleError('@msdyn365-commerce/global-state/dist/lib/data-actions/cart-state-data-action',e);}return binding;};
+ */const registerAllModules=requiredModules=>{let binding={modules:{},dataActions:{}};const{log,error}=console;const detailedWebpackError=(msg,errorObject)=>{error(msg);error(errorObject); false&&false;process.exit(50);};const handleError=(modPath,errObject)=>{detailedWebpackError('Error with path: '+modPath,errObject);};if(requiredModules){requiredModules=requiredModules.map(module=>module.toLowerCase());}const isNotRegistered=moduleName=>{return!requiredModules||requiredModules.length<=0||requiredModules.findIndex(module=>module===moduleName)!==-1;};isNotRegistered('cart')&&(binding.modules['cart']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_4___default()({id:"partner/modules/cart/cart",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! partner/modules/cart/cart */ "./src/modules/cart/cart.tsx"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_3___default.a.join(__dirname,'partner/modules/cart/cart'),resolve:()=>/*require.resolve*/(/*! partner/modules/cart/cart */ "./src/modules/cart/cart.tsx"),chunkName:()=>"partner-modules-cart-cart"}),{chunkName:()=>'partner-modules-cart-cart',ignoreBabelRename:true}),$type:'containerModule',dataActions:[{name:'cart',path:'@msdyn365-commerce/global-state/dist/lib/data-actions/cart-state-data-action',runOn:0},{name:'customerInformation',path:'@msdyn365-commerce-modules/retail-actions/dist/lib/get-customer',runOn:0},{name:'deliveryOptions',path:'@msdyn365-commerce-modules/retail-actions/dist/lib/get-delivery-options-for-cartlines',runOn:0},{name:'featureState',path:'@msdyn365-commerce-modules/retail-actions/dist/lib/get-feature-state',runOn:0},{name:'orderTemplates',path:'@msdyn365-commerce-modules/retail-actions/dist/lib/order-templates/get-order-templates-preview',runOn:1},{name:'orgUnitLocations',path:'@msdyn365-commerce-modules/retail-actions/dist/lib/search-org-unit-locations',runOn:0},{name:'productAvailabilites',path:'@msdyn365-commerce-modules/retail-actions/dist/lib/get-availabilities-cartlines',runOn:0},{name:'products',path:'@msdyn365-commerce-modules/retail-actions/dist/lib/get-products-in-active-cart',runOn:0},{name:'storeSelectorStateManager',path:'@msdyn365-commerce-modules/bopis-utilities/dist/lib/store-selector-state-manager/store-selector-state-manager-data-action',runOn:0},{name:'wishlistItems',path:'@msdyn365-commerce-modules/retail-actions/dist/lib/get-items-in-wishlist',runOn:1},{name:'wishlists',path:'@msdyn365-commerce-modules/retail-actions/dist/lib/get-wishlist-by-customer-id',runOn:1}],definitionPath:'src/modules/cart/cart.definition.json',isNodeModule:false,moduleNamespace:'__local__',name:'cart',packageName:'__local__',parentDefinitionPath:'',moduleDirectory:'src/modules/cart'});isNotRegistered('footer')&&(binding.modules['footer']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_4___default()({id:"partner/modules/footer/footer",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! partner/modules/footer/footer */ "./src/modules/footer/footer.tsx"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_3___default.a.join(__dirname,'partner/modules/footer/footer'),resolve:()=>/*require.resolve*/(/*! partner/modules/footer/footer */ "./src/modules/footer/footer.tsx"),chunkName:()=>"partner-modules-footer-footer"}),{chunkName:()=>'partner-modules-footer-footer',ignoreBabelRename:true}),$type:'contentModule',dataActions:[],definitionPath:'src/modules/footer/footer.definition.json',isNodeModule:false,moduleNamespace:'__local__',name:'footer',packageName:'__local__',parentDefinitionPath:'',moduleDirectory:'src/modules/footer'});isNotRegistered('header')&&(binding.modules['header']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_4___default()({id:"partner/modules/header/header",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! partner/modules/header/header */ "./src/modules/header/header.tsx"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_3___default.a.join(__dirname,'partner/modules/header/header'),resolve:()=>/*require.resolve*/(/*! partner/modules/header/header */ "./src/modules/header/header.tsx"),chunkName:()=>"partner-modules-header-header"}),{chunkName:()=>'partner-modules-header-header',ignoreBabelRename:true}),$type:'containerModule',dataActions:[{name:'accountInformation',path:'@msdyn365-commerce-modules/retail-actions/dist/lib/get-customer',runOn:0},{name:'cart',path:'@msdyn365-commerce/global-state/dist/lib/data-actions/cart-state-data-action',runOn:0}],definitionPath:'src/modules/header/header.definition.json',isNodeModule:false,moduleNamespace:'__local__',name:'header',packageName:'__local__',parentDefinitionPath:'',moduleDirectory:'src/modules/header'});isNotRegistered('index-carousel')&&(binding.modules['index-carousel']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_4___default()({id:"partner/modules/index-carousel/index-carousel",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! partner/modules/index-carousel/index-carousel */ "./src/modules/index-carousel/index-carousel.tsx"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_3___default.a.join(__dirname,'partner/modules/index-carousel/index-carousel'),resolve:()=>/*require.resolve*/(/*! partner/modules/index-carousel/index-carousel */ "./src/modules/index-carousel/index-carousel.tsx"),chunkName:()=>"partner-modules-index-carousel-index-carousel"}),{chunkName:()=>'partner-modules-index-carousel-index-carousel',ignoreBabelRename:true}),$type:'contentModule',dataActions:[],definitionPath:'src/modules/index-carousel/index-carousel.definition.json',isNodeModule:false,moduleNamespace:'__local__',name:'index-carousel',packageName:'__local__',parentDefinitionPath:'',moduleDirectory:'src/modules/index-carousel'});isNotRegistered('index-person')&&(binding.modules['index-person']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_4___default()({id:"partner/modules/index-person/index-person",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! partner/modules/index-person/index-person */ "./src/modules/index-person/index-person.tsx"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_3___default.a.join(__dirname,'partner/modules/index-person/index-person'),resolve:()=>/*require.resolve*/(/*! partner/modules/index-person/index-person */ "./src/modules/index-person/index-person.tsx"),chunkName:()=>"partner-modules-index-person-index-person"}),{chunkName:()=>'partner-modules-index-person-index-person',ignoreBabelRename:true}),$type:'contentModule',dataActions:[],definitionPath:'src/modules/index-person/index-person.definition.json',isNodeModule:false,moduleNamespace:'__local__',name:'index-person',packageName:'__local__',parentDefinitionPath:'',moduleDirectory:'src/modules/index-person'});isNotRegistered('index-product')&&(binding.modules['index-product']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_4___default()({id:"partner/modules/index-product/index-product",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! partner/modules/index-product/index-product */ "./src/modules/index-product/index-product.tsx"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_3___default.a.join(__dirname,'partner/modules/index-product/index-product'),resolve:()=>/*require.resolve*/(/*! partner/modules/index-product/index-product */ "./src/modules/index-product/index-product.tsx"),chunkName:()=>"partner-modules-index-product-index-product"}),{chunkName:()=>'partner-modules-index-product-index-product',ignoreBabelRename:true}),$type:'contentModule',dataActions:[],definitionPath:'src/modules/index-product/index-product.definition.json',isNodeModule:false,moduleNamespace:'__local__',name:'index-product',packageName:'__local__',parentDefinitionPath:'',moduleDirectory:'src/modules/index-product'});isNotRegistered('navigation-menu')&&(binding.modules['navigation-menu']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_4___default()({id:"partner/modules/navigation-menu/navigation-menu",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! partner/modules/navigation-menu/navigation-menu */ "./src/modules/navigation-menu/navigation-menu.tsx"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_3___default.a.join(__dirname,'partner/modules/navigation-menu/navigation-menu'),resolve:()=>/*require.resolve*/(/*! partner/modules/navigation-menu/navigation-menu */ "./src/modules/navigation-menu/navigation-menu.tsx"),chunkName:()=>"partner-modules-navigation-menu-navigation-menu"}),{chunkName:()=>'partner-modules-navigation-menu-navigation-menu',ignoreBabelRename:true}),$type:'contentModule',dataActions:[{name:'categories',path:'@msdyn365-commerce-modules/retail-actions/dist/lib/get-categories-hierarchy',runOn:0}],definitionPath:'src/modules/navigation-menu/navigation-menu.definition.json',isNodeModule:false,moduleNamespace:'__local__',name:'navigation-menu',packageName:'__local__',parentDefinitionPath:'',moduleDirectory:'src/modules/navigation-menu'});isNotRegistered('sale')&&(binding.modules['sale']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_4___default()({id:"partner/modules/sale/sale",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! partner/modules/sale/sale */ "./src/modules/sale/sale.tsx"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_3___default.a.join(__dirname,'partner/modules/sale/sale'),resolve:()=>/*require.resolve*/(/*! partner/modules/sale/sale */ "./src/modules/sale/sale.tsx"),chunkName:()=>"partner-modules-sale-sale"}),{chunkName:()=>'partner-modules-sale-sale',ignoreBabelRename:true}),$type:'contentModule',dataActions:[],definitionPath:'src/modules/sale/sale.definition.json',isNodeModule:false,moduleNamespace:'__local__',name:'sale',packageName:'__local__',parentDefinitionPath:'',moduleDirectory:'src/modules/sale'});isNotRegistered('search')&&(binding.modules['search']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_4___default()({id:"partner/modules/search/search",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! partner/modules/search/search */ "./src/modules/search/search.tsx"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_3___default.a.join(__dirname,'partner/modules/search/search'),resolve:()=>/*require.resolve*/(/*! partner/modules/search/search */ "./src/modules/search/search.tsx"),chunkName:()=>"partner-modules-search-search"}),{chunkName:()=>'partner-modules-search-search',ignoreBabelRename:true}),$type:'contentModule',dataActions:[{name:'searchState',path:'@msdyn365-commerce-modules/search-utilities/dist/lib/search-state-data-action',runOn:1}],definitionPath:'src/modules/search/search.definition.json',isNodeModule:false,moduleNamespace:'__local__',name:'search',packageName:'__local__',parentDefinitionPath:'',moduleDirectory:'src/modules/search'});isNotRegistered('search-result-container')&&(binding.modules['search-result-container']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_4___default()({id:"partner/modules/search-result-container/search-result-container",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! partner/modules/search-result-container/search-result-container */ "./src/modules/search-result-container/search-result-container.tsx"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_3___default.a.join(__dirname,'partner/modules/search-result-container/search-result-container'),resolve:()=>/*require.resolve*/(/*! partner/modules/search-result-container/search-result-container */ "./src/modules/search-result-container/search-result-container.tsx"),chunkName:()=>"partner-modules-search-result-container-search-result-container"}),{chunkName:()=>'partner-modules-search-result-container-search-result-container',ignoreBabelRename:true}),$type:'contentModule',dataActions:[{name:'category',path:'@msdyn365-commerce-modules/retail-actions/dist/lib/get-current-category',runOn:0},{name:'categoryHierarchy',path:'@msdyn365-commerce-modules/retail-actions/dist/lib/get-current-category-hierarchy',runOn:0},{name:'featureProduct',path:'@msdyn365-commerce-modules/retail-actions/dist/lib/get-selected-variant',runOn:0},{name:'listPageState',path:'modules/search-result-container/list-page-state',runOn:0},{name:'products',path:'modules/search-result-container/actions/get-full-products-by-collection',runOn:0},{name:'refiners',path:'modules/search-result-container/actions/get-refiners-for-collection',runOn:0},{name:'searchConfiguration',path:'modules/search-result-container/actions/get-mapped-search-configuration',runOn:0}],definitionPath:'src/modules/search-result-container/search-result-container.definition.json',isNodeModule:false,moduleNamespace:'__local__',name:'search-result-container',packageName:'__local__',parentDefinitionPath:'',moduleDirectory:'src/modules/search-result-container'});isNotRegistered('wkea')&&(binding.modules['wkea']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_4___default()({id:"partner/themes/wkea/wkea",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! partner/themes/wkea/wkea */ "./src/themes/wkea/wkea.tsx"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_3___default.a.join(__dirname,'partner/themes/wkea/wkea'),resolve:()=>/*require.resolve*/(/*! partner/themes/wkea/wkea */ "./src/themes/wkea/wkea.tsx"),chunkName:()=>"partner-themes-wkea-wkea"}),{chunkName:()=>'partner-themes-wkea-wkea',ignoreBabelRename:true}),$type:'themeModule',dataActions:[],definitionPath:'src/themes/wkea/wkea.definition.json',isNodeModule:false,moduleNamespace:'__local__',name:'wkea',packageName:'__local__',parentDefinitionPath:'',themeSettings:'wkea.theme.settings.json',moduleDirectory:'src/themes/wkea'});try{if(isNotRegistered('cart')){const sanitizedActionPath='@msdyn365-commerce-modules/bopis-utilities/dist/lib/store-selector-state-manager/store-selector-state-manager-data-action';let dataAction=__webpack_require__(/*! @msdyn365-commerce-modules/bopis-utilities/dist/lib/store-selector-state-manager/store-selector-state-manager-data-action */ "./node_modules/@msdyn365-commerce-modules/bopis-utilities/dist/lib/store-selector-state-manager/store-selector-state-manager-data-action.js");if(!dataAction.default){throw new Error('Data action path does not have a default export');}if(!(dataAction.default.prototype.id&&binding.dataActions[dataAction.default.prototype.id])||!binding.dataActions[sanitizedActionPath]){binding.dataActions[sanitizedActionPath]=dataAction;}}}catch(e){binding.dataActions['@msdyn365-commerce-modules/bopis-utilities/dist/lib/store-selector-state-manager/store-selector-state-manager-data-action']=undefined;handleError('@msdyn365-commerce-modules/bopis-utilities/dist/lib/store-selector-state-manager/store-selector-state-manager-data-action',e);}try{if(isNotRegistered('cart')){const sanitizedActionPath='@msdyn365-commerce-modules/retail-actions/dist/lib/get-availabilities-cartlines';let dataAction=__webpack_require__(/*! @msdyn365-commerce-modules/retail-actions/dist/lib/get-availabilities-cartlines */ "./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-availabilities-cartlines.js");if(!dataAction.default){throw new Error('Data action path does not have a default export');}if(!(dataAction.default.prototype.id&&binding.dataActions[dataAction.default.prototype.id])||!binding.dataActions[sanitizedActionPath]){binding.dataActions[sanitizedActionPath]=dataAction;}}}catch(e){binding.dataActions['@msdyn365-commerce-modules/retail-actions/dist/lib/get-availabilities-cartlines']=undefined;handleError('@msdyn365-commerce-modules/retail-actions/dist/lib/get-availabilities-cartlines',e);}try{if(isNotRegistered('cart')){const sanitizedActionPath='@msdyn365-commerce-modules/retail-actions/dist/lib/get-customer';let dataAction=__webpack_require__(/*! @msdyn365-commerce-modules/retail-actions/dist/lib/get-customer */ "./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-customer.js");if(!dataAction.default){throw new Error('Data action path does not have a default export');}if(!(dataAction.default.prototype.id&&binding.dataActions[dataAction.default.prototype.id])||!binding.dataActions[sanitizedActionPath]){binding.dataActions[sanitizedActionPath]=dataAction;}}}catch(e){binding.dataActions['@msdyn365-commerce-modules/retail-actions/dist/lib/get-customer']=undefined;handleError('@msdyn365-commerce-modules/retail-actions/dist/lib/get-customer',e);}try{if(isNotRegistered('cart')){const sanitizedActionPath='@msdyn365-commerce-modules/retail-actions/dist/lib/get-delivery-options-for-cartlines';let dataAction=__webpack_require__(/*! @msdyn365-commerce-modules/retail-actions/dist/lib/get-delivery-options-for-cartlines */ "./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-delivery-options-for-cartlines.js");if(!dataAction.default){throw new Error('Data action path does not have a default export');}if(!(dataAction.default.prototype.id&&binding.dataActions[dataAction.default.prototype.id])||!binding.dataActions[sanitizedActionPath]){binding.dataActions[sanitizedActionPath]=dataAction;}}}catch(e){binding.dataActions['@msdyn365-commerce-modules/retail-actions/dist/lib/get-delivery-options-for-cartlines']=undefined;handleError('@msdyn365-commerce-modules/retail-actions/dist/lib/get-delivery-options-for-cartlines',e);}try{if(isNotRegistered('cart')){const sanitizedActionPath='@msdyn365-commerce-modules/retail-actions/dist/lib/get-feature-state';let dataAction=__webpack_require__(/*! @msdyn365-commerce-modules/retail-actions/dist/lib/get-feature-state */ "./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-feature-state.js");if(!dataAction.default){throw new Error('Data action path does not have a default export');}if(!(dataAction.default.prototype.id&&binding.dataActions[dataAction.default.prototype.id])||!binding.dataActions[sanitizedActionPath]){binding.dataActions[sanitizedActionPath]=dataAction;}}}catch(e){binding.dataActions['@msdyn365-commerce-modules/retail-actions/dist/lib/get-feature-state']=undefined;handleError('@msdyn365-commerce-modules/retail-actions/dist/lib/get-feature-state',e);}try{if(isNotRegistered('cart')){const sanitizedActionPath='@msdyn365-commerce-modules/retail-actions/dist/lib/get-items-in-wishlist';let dataAction=__webpack_require__(/*! @msdyn365-commerce-modules/retail-actions/dist/lib/get-items-in-wishlist */ "./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-items-in-wishlist.js");if(!dataAction.default){throw new Error('Data action path does not have a default export');}if(!(dataAction.default.prototype.id&&binding.dataActions[dataAction.default.prototype.id])||!binding.dataActions[sanitizedActionPath]){binding.dataActions[sanitizedActionPath]=dataAction;}}}catch(e){binding.dataActions['@msdyn365-commerce-modules/retail-actions/dist/lib/get-items-in-wishlist']=undefined;handleError('@msdyn365-commerce-modules/retail-actions/dist/lib/get-items-in-wishlist',e);}try{if(isNotRegistered('cart')){const sanitizedActionPath='@msdyn365-commerce-modules/retail-actions/dist/lib/get-products-in-active-cart';let dataAction=__webpack_require__(/*! @msdyn365-commerce-modules/retail-actions/dist/lib/get-products-in-active-cart */ "./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-products-in-active-cart.js");if(!dataAction.default){throw new Error('Data action path does not have a default export');}if(!(dataAction.default.prototype.id&&binding.dataActions[dataAction.default.prototype.id])||!binding.dataActions[sanitizedActionPath]){binding.dataActions[sanitizedActionPath]=dataAction;}}}catch(e){binding.dataActions['@msdyn365-commerce-modules/retail-actions/dist/lib/get-products-in-active-cart']=undefined;handleError('@msdyn365-commerce-modules/retail-actions/dist/lib/get-products-in-active-cart',e);}try{if(isNotRegistered('cart')){const sanitizedActionPath='@msdyn365-commerce-modules/retail-actions/dist/lib/get-wishlist-by-customer-id';let dataAction=__webpack_require__(/*! @msdyn365-commerce-modules/retail-actions/dist/lib/get-wishlist-by-customer-id */ "./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-wishlist-by-customer-id.js");if(!dataAction.default){throw new Error('Data action path does not have a default export');}if(!(dataAction.default.prototype.id&&binding.dataActions[dataAction.default.prototype.id])||!binding.dataActions[sanitizedActionPath]){binding.dataActions[sanitizedActionPath]=dataAction;}}}catch(e){binding.dataActions['@msdyn365-commerce-modules/retail-actions/dist/lib/get-wishlist-by-customer-id']=undefined;handleError('@msdyn365-commerce-modules/retail-actions/dist/lib/get-wishlist-by-customer-id',e);}try{if(isNotRegistered('cart')){const sanitizedActionPath='@msdyn365-commerce-modules/retail-actions/dist/lib/order-templates/get-order-templates-preview';let dataAction=__webpack_require__(/*! @msdyn365-commerce-modules/retail-actions/dist/lib/order-templates/get-order-templates-preview */ "./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/order-templates/get-order-templates-preview.js");if(!dataAction.default){throw new Error('Data action path does not have a default export');}if(!(dataAction.default.prototype.id&&binding.dataActions[dataAction.default.prototype.id])||!binding.dataActions[sanitizedActionPath]){binding.dataActions[sanitizedActionPath]=dataAction;}}}catch(e){binding.dataActions['@msdyn365-commerce-modules/retail-actions/dist/lib/order-templates/get-order-templates-preview']=undefined;handleError('@msdyn365-commerce-modules/retail-actions/dist/lib/order-templates/get-order-templates-preview',e);}try{if(isNotRegistered('cart')){const sanitizedActionPath='@msdyn365-commerce-modules/retail-actions/dist/lib/search-org-unit-locations';let dataAction=__webpack_require__(/*! @msdyn365-commerce-modules/retail-actions/dist/lib/search-org-unit-locations */ "./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/search-org-unit-locations.js");if(!dataAction.default){throw new Error('Data action path does not have a default export');}if(!(dataAction.default.prototype.id&&binding.dataActions[dataAction.default.prototype.id])||!binding.dataActions[sanitizedActionPath]){binding.dataActions[sanitizedActionPath]=dataAction;}}}catch(e){binding.dataActions['@msdyn365-commerce-modules/retail-actions/dist/lib/search-org-unit-locations']=undefined;handleError('@msdyn365-commerce-modules/retail-actions/dist/lib/search-org-unit-locations',e);}try{if(isNotRegistered('cart')){const sanitizedActionPath='@msdyn365-commerce/global-state/dist/lib/data-actions/cart-state-data-action';let dataAction=__webpack_require__(/*! @msdyn365-commerce/global-state/dist/lib/data-actions/cart-state-data-action */ "./node_modules/@msdyn365-commerce/global-state/dist/lib/data-actions/cart-state-data-action.js");if(!dataAction.default){throw new Error('Data action path does not have a default export');}if(!(dataAction.default.prototype.id&&binding.dataActions[dataAction.default.prototype.id])||!binding.dataActions[sanitizedActionPath]){binding.dataActions[sanitizedActionPath]=dataAction;}}}catch(e){binding.dataActions['@msdyn365-commerce/global-state/dist/lib/data-actions/cart-state-data-action']=undefined;handleError('@msdyn365-commerce/global-state/dist/lib/data-actions/cart-state-data-action',e);}try{if(isNotRegistered('header')){const sanitizedActionPath='@msdyn365-commerce-modules/retail-actions/dist/lib/get-customer';let dataAction=__webpack_require__(/*! @msdyn365-commerce-modules/retail-actions/dist/lib/get-customer */ "./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-customer.js");if(!dataAction.default){throw new Error('Data action path does not have a default export');}if(!(dataAction.default.prototype.id&&binding.dataActions[dataAction.default.prototype.id])||!binding.dataActions[sanitizedActionPath]){binding.dataActions[sanitizedActionPath]=dataAction;}}}catch(e){binding.dataActions['@msdyn365-commerce-modules/retail-actions/dist/lib/get-customer']=undefined;handleError('@msdyn365-commerce-modules/retail-actions/dist/lib/get-customer',e);}try{if(isNotRegistered('header')){const sanitizedActionPath='@msdyn365-commerce/global-state/dist/lib/data-actions/cart-state-data-action';let dataAction=__webpack_require__(/*! @msdyn365-commerce/global-state/dist/lib/data-actions/cart-state-data-action */ "./node_modules/@msdyn365-commerce/global-state/dist/lib/data-actions/cart-state-data-action.js");if(!dataAction.default){throw new Error('Data action path does not have a default export');}if(!(dataAction.default.prototype.id&&binding.dataActions[dataAction.default.prototype.id])||!binding.dataActions[sanitizedActionPath]){binding.dataActions[sanitizedActionPath]=dataAction;}}}catch(e){binding.dataActions['@msdyn365-commerce/global-state/dist/lib/data-actions/cart-state-data-action']=undefined;handleError('@msdyn365-commerce/global-state/dist/lib/data-actions/cart-state-data-action',e);}try{if(isNotRegistered('navigation-menu')){const sanitizedActionPath='@msdyn365-commerce-modules/retail-actions/dist/lib/get-categories-hierarchy';let dataAction=__webpack_require__(/*! @msdyn365-commerce-modules/retail-actions/dist/lib/get-categories-hierarchy */ "./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-categories-hierarchy.js");if(!dataAction.default){throw new Error('Data action path does not have a default export');}if(!(dataAction.default.prototype.id&&binding.dataActions[dataAction.default.prototype.id])||!binding.dataActions[sanitizedActionPath]){binding.dataActions[sanitizedActionPath]=dataAction;}}}catch(e){binding.dataActions['@msdyn365-commerce-modules/retail-actions/dist/lib/get-categories-hierarchy']=undefined;handleError('@msdyn365-commerce-modules/retail-actions/dist/lib/get-categories-hierarchy',e);}try{if(isNotRegistered('search')){const sanitizedActionPath='@msdyn365-commerce-modules/search-utilities/dist/lib/search-state-data-action';let dataAction=__webpack_require__(/*! @msdyn365-commerce-modules/search-utilities/dist/lib/search-state-data-action */ "./node_modules/@msdyn365-commerce-modules/search-utilities/dist/lib/search-state-data-action.js");if(!dataAction.default){throw new Error('Data action path does not have a default export');}if(!(dataAction.default.prototype.id&&binding.dataActions[dataAction.default.prototype.id])||!binding.dataActions[sanitizedActionPath]){binding.dataActions[sanitizedActionPath]=dataAction;}}}catch(e){binding.dataActions['@msdyn365-commerce-modules/search-utilities/dist/lib/search-state-data-action']=undefined;handleError('@msdyn365-commerce-modules/search-utilities/dist/lib/search-state-data-action',e);}try{if(isNotRegistered('search-result-container')){const sanitizedActionPath='@msdyn365-commerce-modules/retail-actions/dist/lib/get-current-category';let dataAction=__webpack_require__(/*! @msdyn365-commerce-modules/retail-actions/dist/lib/get-current-category */ "./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-current-category.js");if(!dataAction.default){throw new Error('Data action path does not have a default export');}if(!(dataAction.default.prototype.id&&binding.dataActions[dataAction.default.prototype.id])||!binding.dataActions[sanitizedActionPath]){binding.dataActions[sanitizedActionPath]=dataAction;}}}catch(e){binding.dataActions['@msdyn365-commerce-modules/retail-actions/dist/lib/get-current-category']=undefined;handleError('@msdyn365-commerce-modules/retail-actions/dist/lib/get-current-category',e);}try{if(isNotRegistered('search-result-container')){const sanitizedActionPath='@msdyn365-commerce-modules/retail-actions/dist/lib/get-current-category-hierarchy';let dataAction=__webpack_require__(/*! @msdyn365-commerce-modules/retail-actions/dist/lib/get-current-category-hierarchy */ "./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-current-category-hierarchy.js");if(!dataAction.default){throw new Error('Data action path does not have a default export');}if(!(dataAction.default.prototype.id&&binding.dataActions[dataAction.default.prototype.id])||!binding.dataActions[sanitizedActionPath]){binding.dataActions[sanitizedActionPath]=dataAction;}}}catch(e){binding.dataActions['@msdyn365-commerce-modules/retail-actions/dist/lib/get-current-category-hierarchy']=undefined;handleError('@msdyn365-commerce-modules/retail-actions/dist/lib/get-current-category-hierarchy',e);}try{if(isNotRegistered('search-result-container')){const sanitizedActionPath='@msdyn365-commerce-modules/retail-actions/dist/lib/get-selected-variant';let dataAction=__webpack_require__(/*! @msdyn365-commerce-modules/retail-actions/dist/lib/get-selected-variant */ "./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-selected-variant.js");if(!dataAction.default){throw new Error('Data action path does not have a default export');}if(!(dataAction.default.prototype.id&&binding.dataActions[dataAction.default.prototype.id])||!binding.dataActions[sanitizedActionPath]){binding.dataActions[sanitizedActionPath]=dataAction;}}}catch(e){binding.dataActions['@msdyn365-commerce-modules/retail-actions/dist/lib/get-selected-variant']=undefined;handleError('@msdyn365-commerce-modules/retail-actions/dist/lib/get-selected-variant',e);}try{if(isNotRegistered('search-result-container')){const sanitizedActionPath='modules/search-result-container/actions/get-full-products-by-collection';let dataAction=__webpack_require__(/*! partner/modules/search-result-container/actions/get-full-products-by-collection */ "./src/modules/search-result-container/actions/get-full-products-by-collection.ts");if(!dataAction.default){throw new Error('Data action path does not have a default export');}if(!(dataAction.default.prototype.id&&binding.dataActions[dataAction.default.prototype.id])||!binding.dataActions[sanitizedActionPath]){binding.dataActions[sanitizedActionPath]=dataAction;}}}catch(e){binding.dataActions['modules/search-result-container/actions/get-full-products-by-collection']=undefined;handleError('modules/search-result-container/actions/get-full-products-by-collection',e);}try{if(isNotRegistered('search-result-container')){const sanitizedActionPath='modules/search-result-container/actions/get-mapped-search-configuration';let dataAction=__webpack_require__(/*! partner/modules/search-result-container/actions/get-mapped-search-configuration */ "./src/modules/search-result-container/actions/get-mapped-search-configuration.ts");if(!dataAction.default){throw new Error('Data action path does not have a default export');}if(!(dataAction.default.prototype.id&&binding.dataActions[dataAction.default.prototype.id])||!binding.dataActions[sanitizedActionPath]){binding.dataActions[sanitizedActionPath]=dataAction;}}}catch(e){binding.dataActions['modules/search-result-container/actions/get-mapped-search-configuration']=undefined;handleError('modules/search-result-container/actions/get-mapped-search-configuration',e);}try{if(isNotRegistered('search-result-container')){const sanitizedActionPath='modules/search-result-container/actions/get-refiners-for-collection';let dataAction=__webpack_require__(/*! partner/modules/search-result-container/actions/get-refiners-for-collection */ "./src/modules/search-result-container/actions/get-refiners-for-collection.ts");if(!dataAction.default){throw new Error('Data action path does not have a default export');}if(!(dataAction.default.prototype.id&&binding.dataActions[dataAction.default.prototype.id])||!binding.dataActions[sanitizedActionPath]){binding.dataActions[sanitizedActionPath]=dataAction;}}}catch(e){binding.dataActions['modules/search-result-container/actions/get-refiners-for-collection']=undefined;handleError('modules/search-result-container/actions/get-refiners-for-collection',e);}try{if(isNotRegistered('search-result-container')){const sanitizedActionPath='modules/search-result-container/list-page-state';let dataAction=__webpack_require__(/*! partner/modules/search-result-container/list-page-state */ "./src/modules/search-result-container/list-page-state.ts");if(!dataAction.default){throw new Error('Data action path does not have a default export');}if(!(dataAction.default.prototype.id&&binding.dataActions[dataAction.default.prototype.id])||!binding.dataActions[sanitizedActionPath]){binding.dataActions[sanitizedActionPath]=dataAction;}}}catch(e){binding.dataActions['modules/search-result-container/list-page-state']=undefined;handleError('modules/search-result-container/list-page-state',e);}return binding;};
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../node_modules/process/browser.js */ "./node_modules/process/browser.js"), "/"))
 
 /***/ }),
@@ -135,7 +137,7 @@ __webpack_require__.r(__webpack_exports__);
 * Copyright (c) 2018 Microsoft Corporation
 * Modules Registration
 * THIS FILE IS AUTO-GENERATED - MANUAL MODIFICATIONS WILL BE LOST
-*/const universal=__webpack_require__(/*! react-universal-component */ "./node_modules/react-universal-component/dist/index.js").default;const viewDictionary={};viewDictionary['__local__|__local__|modules|footer|footer']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"partner/modules/footer/footer.view.tsx",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! partner/modules/footer/footer.view.tsx */ "./src/modules/footer/footer.view.tsx"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'partner/modules/footer/footer.view.tsx'),resolve:()=>/*require.resolve*/(/*! partner/modules/footer/footer.view.tsx */ "./src/modules/footer/footer.view.tsx"),chunkName:()=>"partner-modules-footer-footer.view.tsx"}),{chunkName:()=>'partner-modules-footer-footer.view.tsx',ignoreBabelRename:true})};viewDictionary['__local__|__local__|modules|header|header']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"partner/modules/header/header.view.tsx",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! partner/modules/header/header.view.tsx */ "./src/modules/header/header.view.tsx"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'partner/modules/header/header.view.tsx'),resolve:()=>/*require.resolve*/(/*! partner/modules/header/header.view.tsx */ "./src/modules/header/header.view.tsx"),chunkName:()=>"partner-modules-header-header.view.tsx"}),{chunkName:()=>'partner-modules-header-header.view.tsx',ignoreBabelRename:true})};viewDictionary['__local__|__local__|modules|index-carousel|index-carousel']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"partner/modules/index-carousel/index-carousel.view.tsx",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! partner/modules/index-carousel/index-carousel.view.tsx */ "./src/modules/index-carousel/index-carousel.view.tsx"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'partner/modules/index-carousel/index-carousel.view.tsx'),resolve:()=>/*require.resolve*/(/*! partner/modules/index-carousel/index-carousel.view.tsx */ "./src/modules/index-carousel/index-carousel.view.tsx"),chunkName:()=>"partner-modules-index-carousel-index-carousel.view.tsx"}),{chunkName:()=>'partner-modules-index-carousel-index-carousel.view.tsx',ignoreBabelRename:true})};viewDictionary['__local__|__local__|modules|index-nav|index-nav']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"partner/modules/index-nav/index-nav.view.tsx",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! partner/modules/index-nav/index-nav.view.tsx */ "./src/modules/index-nav/index-nav.view.tsx"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'partner/modules/index-nav/index-nav.view.tsx'),resolve:()=>/*require.resolve*/(/*! partner/modules/index-nav/index-nav.view.tsx */ "./src/modules/index-nav/index-nav.view.tsx"),chunkName:()=>"partner-modules-index-nav-index-nav.view.tsx"}),{chunkName:()=>'partner-modules-index-nav-index-nav.view.tsx',ignoreBabelRename:true})};viewDictionary['__local__|__local__|modules|index-person|index-person']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"partner/modules/index-person/index-person.view.tsx",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! partner/modules/index-person/index-person.view.tsx */ "./src/modules/index-person/index-person.view.tsx"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'partner/modules/index-person/index-person.view.tsx'),resolve:()=>/*require.resolve*/(/*! partner/modules/index-person/index-person.view.tsx */ "./src/modules/index-person/index-person.view.tsx"),chunkName:()=>"partner-modules-index-person-index-person.view.tsx"}),{chunkName:()=>'partner-modules-index-person-index-person.view.tsx',ignoreBabelRename:true})};viewDictionary['__local__|__local__|modules|index-product|index-product']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"partner/modules/index-product/index-product.view.tsx",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! partner/modules/index-product/index-product.view.tsx */ "./src/modules/index-product/index-product.view.tsx"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'partner/modules/index-product/index-product.view.tsx'),resolve:()=>/*require.resolve*/(/*! partner/modules/index-product/index-product.view.tsx */ "./src/modules/index-product/index-product.view.tsx"),chunkName:()=>"partner-modules-index-product-index-product.view.tsx"}),{chunkName:()=>'partner-modules-index-product-index-product.view.tsx',ignoreBabelRename:true})};viewDictionary['__local__|__local__|modules|sale|sale']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"partner/modules/sale/sale.view.tsx",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! partner/modules/sale/sale.view.tsx */ "./src/modules/sale/sale.view.tsx"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'partner/modules/sale/sale.view.tsx'),resolve:()=>/*require.resolve*/(/*! partner/modules/sale/sale.view.tsx */ "./src/modules/sale/sale.view.tsx"),chunkName:()=>"partner-modules-sale-sale.view.tsx"}),{chunkName:()=>'partner-modules-sale-sale.view.tsx',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|accordion|modules|accordion-item|accordion-item']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/accordion/dist/lib/modules/accordion-item/accordion-item.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/accordion/dist/lib/modules/accordion-item/accordion-item.view.js */ "./node_modules/@msdyn365-commerce-modules/accordion/dist/lib/modules/accordion-item/accordion-item.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/accordion/dist/lib/modules/accordion-item/accordion-item.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/accordion/dist/lib/modules/accordion-item/accordion-item.view.js */ "./node_modules/@msdyn365-commerce-modules/accordion/dist/lib/modules/accordion-item/accordion-item.view.js"),chunkName:()=>"@msdyn365-commerce-modules-accordion-dist-lib-modules-accordion-item-accordion-item.view"}),{chunkName:()=>'@msdyn365-commerce-modules-accordion-dist-lib-modules-accordion-item-accordion-item.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|accordion|modules|accordion|accordion']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/accordion/dist/lib/modules/accordion/accordion.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/accordion/dist/lib/modules/accordion/accordion.view.js */ "./node_modules/@msdyn365-commerce-modules/accordion/dist/lib/modules/accordion/accordion.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/accordion/dist/lib/modules/accordion/accordion.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/accordion/dist/lib/modules/accordion/accordion.view.js */ "./node_modules/@msdyn365-commerce-modules/accordion/dist/lib/modules/accordion/accordion.view.js"),chunkName:()=>"@msdyn365-commerce-modules-accordion-dist-lib-modules-accordion-accordion.view"}),{chunkName:()=>'@msdyn365-commerce-modules-accordion-dist-lib-modules-accordion-accordion.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|account-management|modules|account-address-tile|account-address-tile']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/account-management/dist/lib/modules/account-address-tile/account-address-tile.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/account-management/dist/lib/modules/account-address-tile/account-address-tile.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/account-address-tile/account-address-tile.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/account-management/dist/lib/modules/account-address-tile/account-address-tile.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/account-management/dist/lib/modules/account-address-tile/account-address-tile.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/account-address-tile/account-address-tile.view.js"),chunkName:()=>"@msdyn365-commerce-modules-account-management-dist-lib-modules-account-address-tile-account-address-tile.view"}),{chunkName:()=>'@msdyn365-commerce-modules-account-management-dist-lib-modules-account-address-tile-account-address-tile.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|account-management|modules|account-customer-balance-tile|account-customer-balance-tile']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/account-management/dist/lib/modules/account-customer-balance-tile/account-customer-balance-tile.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/account-management/dist/lib/modules/account-customer-balance-tile/account-customer-balance-tile.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/account-customer-balance-tile/account-customer-balance-tile.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/account-management/dist/lib/modules/account-customer-balance-tile/account-customer-balance-tile.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/account-management/dist/lib/modules/account-customer-balance-tile/account-customer-balance-tile.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/account-customer-balance-tile/account-customer-balance-tile.view.js"),chunkName:()=>"@msdyn365-commerce-modules-account-management-dist-lib-modules-account-customer-balance-tile-account-customer-balance-tile.view"}),{chunkName:()=>'@msdyn365-commerce-modules-account-management-dist-lib-modules-account-customer-balance-tile-account-customer-balance-tile.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|account-management|modules|account-customer-balance|account-customer-balance']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/account-management/dist/lib/modules/account-customer-balance/account-customer-balance.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/account-management/dist/lib/modules/account-customer-balance/account-customer-balance.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/account-customer-balance/account-customer-balance.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/account-management/dist/lib/modules/account-customer-balance/account-customer-balance.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/account-management/dist/lib/modules/account-customer-balance/account-customer-balance.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/account-customer-balance/account-customer-balance.view.js"),chunkName:()=>"@msdyn365-commerce-modules-account-management-dist-lib-modules-account-customer-balance-account-customer-balance.view"}),{chunkName:()=>'@msdyn365-commerce-modules-account-management-dist-lib-modules-account-customer-balance-account-customer-balance.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|account-management|modules|account-generic-tile|account-generic-tile']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/account-management/dist/lib/modules/account-generic-tile/account-generic-tile.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/account-management/dist/lib/modules/account-generic-tile/account-generic-tile.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/account-generic-tile/account-generic-tile.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/account-management/dist/lib/modules/account-generic-tile/account-generic-tile.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/account-management/dist/lib/modules/account-generic-tile/account-generic-tile.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/account-generic-tile/account-generic-tile.view.js"),chunkName:()=>"@msdyn365-commerce-modules-account-management-dist-lib-modules-account-generic-tile-account-generic-tile.view"}),{chunkName:()=>'@msdyn365-commerce-modules-account-management-dist-lib-modules-account-generic-tile-account-generic-tile.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|account-management|modules|account-loyalty-tile|account-loyalty-tile']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/account-management/dist/lib/modules/account-loyalty-tile/account-loyalty-tile.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/account-management/dist/lib/modules/account-loyalty-tile/account-loyalty-tile.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/account-loyalty-tile/account-loyalty-tile.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/account-management/dist/lib/modules/account-loyalty-tile/account-loyalty-tile.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/account-management/dist/lib/modules/account-loyalty-tile/account-loyalty-tile.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/account-loyalty-tile/account-loyalty-tile.view.js"),chunkName:()=>"@msdyn365-commerce-modules-account-management-dist-lib-modules-account-loyalty-tile-account-loyalty-tile.view"}),{chunkName:()=>'@msdyn365-commerce-modules-account-management-dist-lib-modules-account-loyalty-tile-account-loyalty-tile.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|account-management|modules|account-loyalty|account-loyalty']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/account-management/dist/lib/modules/account-loyalty/account-loyalty.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/account-management/dist/lib/modules/account-loyalty/account-loyalty.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/account-loyalty/account-loyalty.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/account-management/dist/lib/modules/account-loyalty/account-loyalty.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/account-management/dist/lib/modules/account-loyalty/account-loyalty.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/account-loyalty/account-loyalty.view.js"),chunkName:()=>"@msdyn365-commerce-modules-account-management-dist-lib-modules-account-loyalty-account-loyalty.view"}),{chunkName:()=>'@msdyn365-commerce-modules-account-management-dist-lib-modules-account-loyalty-account-loyalty.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|account-management|modules|account-order-templates-tile|account-order-templates-tile']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/account-management/dist/lib/modules/account-order-templates-tile/account-order-templates-tile.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/account-management/dist/lib/modules/account-order-templates-tile/account-order-templates-tile.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/account-order-templates-tile/account-order-templates-tile.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/account-management/dist/lib/modules/account-order-templates-tile/account-order-templates-tile.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/account-management/dist/lib/modules/account-order-templates-tile/account-order-templates-tile.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/account-order-templates-tile/account-order-templates-tile.view.js"),chunkName:()=>"@msdyn365-commerce-modules-account-management-dist-lib-modules-account-order-templates-tile-account-order-templates-tile.view"}),{chunkName:()=>'@msdyn365-commerce-modules-account-management-dist-lib-modules-account-order-templates-tile-account-order-templates-tile.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|account-management|modules|account-profile-edit|account-profile-edit']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/account-management/dist/lib/modules/account-profile-edit/account-profile-edit.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/account-management/dist/lib/modules/account-profile-edit/account-profile-edit.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/account-profile-edit/account-profile-edit.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/account-management/dist/lib/modules/account-profile-edit/account-profile-edit.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/account-management/dist/lib/modules/account-profile-edit/account-profile-edit.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/account-profile-edit/account-profile-edit.view.js"),chunkName:()=>"@msdyn365-commerce-modules-account-management-dist-lib-modules-account-profile-edit-account-profile-edit.view"}),{chunkName:()=>'@msdyn365-commerce-modules-account-management-dist-lib-modules-account-profile-edit-account-profile-edit.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|account-management|modules|account-profile|account-profile']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/account-management/dist/lib/modules/account-profile/account-profile.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/account-management/dist/lib/modules/account-profile/account-profile.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/account-profile/account-profile.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/account-management/dist/lib/modules/account-profile/account-profile.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/account-management/dist/lib/modules/account-profile/account-profile.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/account-profile/account-profile.view.js"),chunkName:()=>"@msdyn365-commerce-modules-account-management-dist-lib-modules-account-profile-account-profile.view"}),{chunkName:()=>'@msdyn365-commerce-modules-account-management-dist-lib-modules-account-profile-account-profile.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|account-management|modules|account-welcome-tile|account-welcome-tile']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/account-management/dist/lib/modules/account-welcome-tile/account-welcome-tile.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/account-management/dist/lib/modules/account-welcome-tile/account-welcome-tile.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/account-welcome-tile/account-welcome-tile.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/account-management/dist/lib/modules/account-welcome-tile/account-welcome-tile.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/account-management/dist/lib/modules/account-welcome-tile/account-welcome-tile.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/account-welcome-tile/account-welcome-tile.view.js"),chunkName:()=>"@msdyn365-commerce-modules-account-management-dist-lib-modules-account-welcome-tile-account-welcome-tile.view"}),{chunkName:()=>'@msdyn365-commerce-modules-account-management-dist-lib-modules-account-welcome-tile-account-welcome-tile.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|account-management|modules|account-wishlist-tile|account-wishlist-tile']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/account-management/dist/lib/modules/account-wishlist-tile/account-wishlist-tile.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/account-management/dist/lib/modules/account-wishlist-tile/account-wishlist-tile.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/account-wishlist-tile/account-wishlist-tile.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/account-management/dist/lib/modules/account-wishlist-tile/account-wishlist-tile.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/account-management/dist/lib/modules/account-wishlist-tile/account-wishlist-tile.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/account-wishlist-tile/account-wishlist-tile.view.js"),chunkName:()=>"@msdyn365-commerce-modules-account-management-dist-lib-modules-account-wishlist-tile-account-wishlist-tile.view"}),{chunkName:()=>'@msdyn365-commerce-modules-account-management-dist-lib-modules-account-wishlist-tile-account-wishlist-tile.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|account-management|modules|loyalty-sign-up|loyalty-sign-up']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/account-management/dist/lib/modules/loyalty-sign-up/loyalty-sign-up.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/account-management/dist/lib/modules/loyalty-sign-up/loyalty-sign-up.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/loyalty-sign-up/loyalty-sign-up.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/account-management/dist/lib/modules/loyalty-sign-up/loyalty-sign-up.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/account-management/dist/lib/modules/loyalty-sign-up/loyalty-sign-up.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/loyalty-sign-up/loyalty-sign-up.view.js"),chunkName:()=>"@msdyn365-commerce-modules-account-management-dist-lib-modules-loyalty-sign-up-loyalty-sign-up.view"}),{chunkName:()=>'@msdyn365-commerce-modules-account-management-dist-lib-modules-loyalty-sign-up-loyalty-sign-up.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|account-management|modules|loyalty-terms|loyalty-terms']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/account-management/dist/lib/modules/loyalty-terms/loyalty-terms.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/account-management/dist/lib/modules/loyalty-terms/loyalty-terms.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/loyalty-terms/loyalty-terms.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/account-management/dist/lib/modules/loyalty-terms/loyalty-terms.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/account-management/dist/lib/modules/loyalty-terms/loyalty-terms.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/loyalty-terms/loyalty-terms.view.js"),chunkName:()=>"@msdyn365-commerce-modules-account-management-dist-lib-modules-loyalty-terms-loyalty-terms.view"}),{chunkName:()=>'@msdyn365-commerce-modules-account-management-dist-lib-modules-loyalty-terms-loyalty-terms.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|account-management|modules|organization-users-tile|organization-users-tile']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/account-management/dist/lib/modules/organization-users-tile/organization-users-tile.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/account-management/dist/lib/modules/organization-users-tile/organization-users-tile.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/organization-users-tile/organization-users-tile.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/account-management/dist/lib/modules/organization-users-tile/organization-users-tile.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/account-management/dist/lib/modules/organization-users-tile/organization-users-tile.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/organization-users-tile/organization-users-tile.view.js"),chunkName:()=>"@msdyn365-commerce-modules-account-management-dist-lib-modules-organization-users-tile-organization-users-tile.view"}),{chunkName:()=>'@msdyn365-commerce-modules-account-management-dist-lib-modules-organization-users-tile-organization-users-tile.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|account-management|modules|password-reset-verification|password-reset-verification']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/account-management/dist/lib/modules/password-reset-verification/password-reset-verification.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/account-management/dist/lib/modules/password-reset-verification/password-reset-verification.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/password-reset-verification/password-reset-verification.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/account-management/dist/lib/modules/password-reset-verification/password-reset-verification.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/account-management/dist/lib/modules/password-reset-verification/password-reset-verification.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/password-reset-verification/password-reset-verification.view.js"),chunkName:()=>"@msdyn365-commerce-modules-account-management-dist-lib-modules-password-reset-verification-password-reset-verification.view"}),{chunkName:()=>'@msdyn365-commerce-modules-account-management-dist-lib-modules-password-reset-verification-password-reset-verification.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|account-management|modules|password-reset|password-reset']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/account-management/dist/lib/modules/password-reset/password-reset.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/account-management/dist/lib/modules/password-reset/password-reset.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/password-reset/password-reset.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/account-management/dist/lib/modules/password-reset/password-reset.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/account-management/dist/lib/modules/password-reset/password-reset.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/password-reset/password-reset.view.js"),chunkName:()=>"@msdyn365-commerce-modules-account-management-dist-lib-modules-password-reset-password-reset.view"}),{chunkName:()=>'@msdyn365-commerce-modules-account-management-dist-lib-modules-password-reset-password-reset.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|account-management|modules|sign-in|sign-in']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/account-management/dist/lib/modules/sign-in/sign-in.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/account-management/dist/lib/modules/sign-in/sign-in.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/sign-in/sign-in.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/account-management/dist/lib/modules/sign-in/sign-in.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/account-management/dist/lib/modules/sign-in/sign-in.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/sign-in/sign-in.view.js"),chunkName:()=>"@msdyn365-commerce-modules-account-management-dist-lib-modules-sign-in-sign-in.view"}),{chunkName:()=>'@msdyn365-commerce-modules-account-management-dist-lib-modules-sign-in-sign-in.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|account-management|modules|sign-up|sign-up']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/account-management/dist/lib/modules/sign-up/sign-up.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/account-management/dist/lib/modules/sign-up/sign-up.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/sign-up/sign-up.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/account-management/dist/lib/modules/sign-up/sign-up.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/account-management/dist/lib/modules/sign-up/sign-up.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/sign-up/sign-up.view.js"),chunkName:()=>"@msdyn365-commerce-modules-account-management-dist-lib-modules-sign-up-sign-up.view"}),{chunkName:()=>'@msdyn365-commerce-modules-account-management-dist-lib-modules-sign-up-sign-up.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|address|modules|account-management-address|account-management-address']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/address/dist/lib/modules/account-management-address/account-management-address.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/address/dist/lib/modules/account-management-address/account-management-address.view.js */ "./node_modules/@msdyn365-commerce-modules/address/dist/lib/modules/account-management-address/account-management-address.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/address/dist/lib/modules/account-management-address/account-management-address.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/address/dist/lib/modules/account-management-address/account-management-address.view.js */ "./node_modules/@msdyn365-commerce-modules/address/dist/lib/modules/account-management-address/account-management-address.view.js"),chunkName:()=>"@msdyn365-commerce-modules-address-dist-lib-modules-account-management-address-account-management-address.view"}),{chunkName:()=>'@msdyn365-commerce-modules-address-dist-lib-modules-account-management-address-account-management-address.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|address|modules|business-account-address|business-account-address']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/address/dist/lib/modules/business-account-address/business-account-address.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/address/dist/lib/modules/business-account-address/business-account-address.view.js */ "./node_modules/@msdyn365-commerce-modules/address/dist/lib/modules/business-account-address/business-account-address.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/address/dist/lib/modules/business-account-address/business-account-address.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/address/dist/lib/modules/business-account-address/business-account-address.view.js */ "./node_modules/@msdyn365-commerce-modules/address/dist/lib/modules/business-account-address/business-account-address.view.js"),chunkName:()=>"@msdyn365-commerce-modules-address-dist-lib-modules-business-account-address-business-account-address.view"}),{chunkName:()=>'@msdyn365-commerce-modules-address-dist-lib-modules-business-account-address-business-account-address.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|address|modules|checkout-billing-address|checkout-billing-address']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/address/dist/lib/modules/checkout-billing-address/checkout-billing-address.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/address/dist/lib/modules/checkout-billing-address/checkout-billing-address.view.js */ "./node_modules/@msdyn365-commerce-modules/address/dist/lib/modules/checkout-billing-address/checkout-billing-address.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/address/dist/lib/modules/checkout-billing-address/checkout-billing-address.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/address/dist/lib/modules/checkout-billing-address/checkout-billing-address.view.js */ "./node_modules/@msdyn365-commerce-modules/address/dist/lib/modules/checkout-billing-address/checkout-billing-address.view.js"),chunkName:()=>"@msdyn365-commerce-modules-address-dist-lib-modules-checkout-billing-address-checkout-billing-address.view"}),{chunkName:()=>'@msdyn365-commerce-modules-address-dist-lib-modules-checkout-billing-address-checkout-billing-address.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|address|modules|checkout-shipping-address|checkout-shipping-address']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/address/dist/lib/modules/checkout-shipping-address/checkout-shipping-address.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/address/dist/lib/modules/checkout-shipping-address/checkout-shipping-address.view.js */ "./node_modules/@msdyn365-commerce-modules/address/dist/lib/modules/checkout-shipping-address/checkout-shipping-address.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/address/dist/lib/modules/checkout-shipping-address/checkout-shipping-address.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/address/dist/lib/modules/checkout-shipping-address/checkout-shipping-address.view.js */ "./node_modules/@msdyn365-commerce-modules/address/dist/lib/modules/checkout-shipping-address/checkout-shipping-address.view.js"),chunkName:()=>"@msdyn365-commerce-modules-address-dist-lib-modules-checkout-shipping-address-checkout-shipping-address.view"}),{chunkName:()=>'@msdyn365-commerce-modules-address-dist-lib-modules-checkout-shipping-address-checkout-shipping-address.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|breadcrumb|modules|breadcrumb|breadcrumb']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/breadcrumb/dist/lib/modules/breadcrumb/breadcrumb.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/breadcrumb/dist/lib/modules/breadcrumb/breadcrumb.view.js */ "./node_modules/@msdyn365-commerce-modules/breadcrumb/dist/lib/modules/breadcrumb/breadcrumb.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/breadcrumb/dist/lib/modules/breadcrumb/breadcrumb.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/breadcrumb/dist/lib/modules/breadcrumb/breadcrumb.view.js */ "./node_modules/@msdyn365-commerce-modules/breadcrumb/dist/lib/modules/breadcrumb/breadcrumb.view.js"),chunkName:()=>"@msdyn365-commerce-modules-breadcrumb-dist-lib-modules-breadcrumb-breadcrumb.view"}),{chunkName:()=>'@msdyn365-commerce-modules-breadcrumb-dist-lib-modules-breadcrumb-breadcrumb.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|business-account-management|modules|business-sign-up|business-sign-up']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/business-account-management/dist/lib/modules/business-sign-up/business-sign-up.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/business-account-management/dist/lib/modules/business-sign-up/business-sign-up.view.js */ "./node_modules/@msdyn365-commerce-modules/business-account-management/dist/lib/modules/business-sign-up/business-sign-up.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/business-account-management/dist/lib/modules/business-sign-up/business-sign-up.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/business-account-management/dist/lib/modules/business-sign-up/business-sign-up.view.js */ "./node_modules/@msdyn365-commerce-modules/business-account-management/dist/lib/modules/business-sign-up/business-sign-up.view.js"),chunkName:()=>"@msdyn365-commerce-modules-business-account-management-dist-lib-modules-business-sign-up-business-sign-up.view"}),{chunkName:()=>'@msdyn365-commerce-modules-business-account-management-dist-lib-modules-business-sign-up-business-sign-up.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|business-organization-list|modules|business-organization-list|business-organization-list']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/business-organization-list/dist/lib/modules/business-organization-list/business-organization-list.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/business-organization-list/dist/lib/modules/business-organization-list/business-organization-list.view.js */ "./node_modules/@msdyn365-commerce-modules/business-organization-list/dist/lib/modules/business-organization-list/business-organization-list.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/business-organization-list/dist/lib/modules/business-organization-list/business-organization-list.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/business-organization-list/dist/lib/modules/business-organization-list/business-organization-list.view.js */ "./node_modules/@msdyn365-commerce-modules/business-organization-list/dist/lib/modules/business-organization-list/business-organization-list.view.js"),chunkName:()=>"@msdyn365-commerce-modules-business-organization-list-dist-lib-modules-business-organization-list-business-organization-list.view"}),{chunkName:()=>'@msdyn365-commerce-modules-business-organization-list-dist-lib-modules-business-organization-list-business-organization-list.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|buybox|modules|buybox|buybox']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/buybox/dist/lib/modules/buybox/buybox.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/buybox/dist/lib/modules/buybox/buybox.view.js */ "./node_modules/@msdyn365-commerce-modules/buybox/dist/lib/modules/buybox/buybox.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/buybox/dist/lib/modules/buybox/buybox.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/buybox/dist/lib/modules/buybox/buybox.view.js */ "./node_modules/@msdyn365-commerce-modules/buybox/dist/lib/modules/buybox/buybox.view.js"),chunkName:()=>"@msdyn365-commerce-modules-buybox-dist-lib-modules-buybox-buybox.view"}),{chunkName:()=>'@msdyn365-commerce-modules-buybox-dist-lib-modules-buybox-buybox.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|carousel|modules|carousel|carousel']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/carousel/dist/lib/modules/carousel/carousel.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/carousel/dist/lib/modules/carousel/carousel.view.js */ "./node_modules/@msdyn365-commerce-modules/carousel/dist/lib/modules/carousel/carousel.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/carousel/dist/lib/modules/carousel/carousel.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/carousel/dist/lib/modules/carousel/carousel.view.js */ "./node_modules/@msdyn365-commerce-modules/carousel/dist/lib/modules/carousel/carousel.view.js"),chunkName:()=>"@msdyn365-commerce-modules-carousel-dist-lib-modules-carousel-carousel.view"}),{chunkName:()=>'@msdyn365-commerce-modules-carousel-dist-lib-modules-carousel-carousel.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|cart|modules|cart-icon|cart-icon']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/cart/dist/lib/modules/cart-icon/cart-icon.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/cart/dist/lib/modules/cart-icon/cart-icon.view.js */ "./node_modules/@msdyn365-commerce-modules/cart/dist/lib/modules/cart-icon/cart-icon.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/cart/dist/lib/modules/cart-icon/cart-icon.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/cart/dist/lib/modules/cart-icon/cart-icon.view.js */ "./node_modules/@msdyn365-commerce-modules/cart/dist/lib/modules/cart-icon/cart-icon.view.js"),chunkName:()=>"@msdyn365-commerce-modules-cart-dist-lib-modules-cart-icon-cart-icon.view"}),{chunkName:()=>'@msdyn365-commerce-modules-cart-dist-lib-modules-cart-icon-cart-icon.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|cart|modules|cart|cart']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/cart/dist/lib/modules/cart/cart.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/cart/dist/lib/modules/cart/cart.view.js */ "./node_modules/@msdyn365-commerce-modules/cart/dist/lib/modules/cart/cart.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/cart/dist/lib/modules/cart/cart.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/cart/dist/lib/modules/cart/cart.view.js */ "./node_modules/@msdyn365-commerce-modules/cart/dist/lib/modules/cart/cart.view.js"),chunkName:()=>"@msdyn365-commerce-modules-cart-dist-lib-modules-cart-cart.view"}),{chunkName:()=>'@msdyn365-commerce-modules-cart-dist-lib-modules-cart-cart.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|checkout|modules|checkout-customer-account-payment|checkout-customer-account-payment']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-customer-account-payment/checkout-customer-account-payment.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-customer-account-payment/checkout-customer-account-payment.view.js */ "./node_modules/@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-customer-account-payment/checkout-customer-account-payment.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-customer-account-payment/checkout-customer-account-payment.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-customer-account-payment/checkout-customer-account-payment.view.js */ "./node_modules/@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-customer-account-payment/checkout-customer-account-payment.view.js"),chunkName:()=>"@msdyn365-commerce-modules-checkout-dist-lib-modules-checkout-customer-account-payment-checkout-customer-account-payment.view"}),{chunkName:()=>'@msdyn365-commerce-modules-checkout-dist-lib-modules-checkout-customer-account-payment-checkout-customer-account-payment.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|checkout|modules|checkout-delivery-options|checkout-delivery-options']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-delivery-options/checkout-delivery-options.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-delivery-options/checkout-delivery-options.view.js */ "./node_modules/@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-delivery-options/checkout-delivery-options.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-delivery-options/checkout-delivery-options.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-delivery-options/checkout-delivery-options.view.js */ "./node_modules/@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-delivery-options/checkout-delivery-options.view.js"),chunkName:()=>"@msdyn365-commerce-modules-checkout-dist-lib-modules-checkout-delivery-options-checkout-delivery-options.view"}),{chunkName:()=>'@msdyn365-commerce-modules-checkout-dist-lib-modules-checkout-delivery-options-checkout-delivery-options.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|checkout|modules|checkout-gift-card|checkout-gift-card']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-gift-card/checkout-gift-card.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-gift-card/checkout-gift-card.view.js */ "./node_modules/@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-gift-card/checkout-gift-card.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-gift-card/checkout-gift-card.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-gift-card/checkout-gift-card.view.js */ "./node_modules/@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-gift-card/checkout-gift-card.view.js"),chunkName:()=>"@msdyn365-commerce-modules-checkout-dist-lib-modules-checkout-gift-card-checkout-gift-card.view"}),{chunkName:()=>'@msdyn365-commerce-modules-checkout-dist-lib-modules-checkout-gift-card-checkout-gift-card.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|checkout|modules|checkout-guest-profile|checkout-guest-profile']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-guest-profile/checkout-guest-profile.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-guest-profile/checkout-guest-profile.view.js */ "./node_modules/@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-guest-profile/checkout-guest-profile.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-guest-profile/checkout-guest-profile.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-guest-profile/checkout-guest-profile.view.js */ "./node_modules/@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-guest-profile/checkout-guest-profile.view.js"),chunkName:()=>"@msdyn365-commerce-modules-checkout-dist-lib-modules-checkout-guest-profile-checkout-guest-profile.view"}),{chunkName:()=>'@msdyn365-commerce-modules-checkout-dist-lib-modules-checkout-guest-profile-checkout-guest-profile.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|checkout|modules|checkout-loyalty|checkout-loyalty']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-loyalty/checkout-loyalty.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-loyalty/checkout-loyalty.view.js */ "./node_modules/@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-loyalty/checkout-loyalty.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-loyalty/checkout-loyalty.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-loyalty/checkout-loyalty.view.js */ "./node_modules/@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-loyalty/checkout-loyalty.view.js"),chunkName:()=>"@msdyn365-commerce-modules-checkout-dist-lib-modules-checkout-loyalty-checkout-loyalty.view"}),{chunkName:()=>'@msdyn365-commerce-modules-checkout-dist-lib-modules-checkout-loyalty-checkout-loyalty.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|checkout|modules|checkout-payment-instrument|checkout-payment-instrument']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-payment-instrument/checkout-payment-instrument.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-payment-instrument/checkout-payment-instrument.view.js */ "./node_modules/@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-payment-instrument/checkout-payment-instrument.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-payment-instrument/checkout-payment-instrument.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-payment-instrument/checkout-payment-instrument.view.js */ "./node_modules/@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-payment-instrument/checkout-payment-instrument.view.js"),chunkName:()=>"@msdyn365-commerce-modules-checkout-dist-lib-modules-checkout-payment-instrument-checkout-payment-instrument.view"}),{chunkName:()=>'@msdyn365-commerce-modules-checkout-dist-lib-modules-checkout-payment-instrument-checkout-payment-instrument.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|checkout|modules|checkout-section-container|checkout-section-container']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-section-container/checkout-section-container.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-section-container/checkout-section-container.view.js */ "./node_modules/@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-section-container/checkout-section-container.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-section-container/checkout-section-container.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-section-container/checkout-section-container.view.js */ "./node_modules/@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-section-container/checkout-section-container.view.js"),chunkName:()=>"@msdyn365-commerce-modules-checkout-dist-lib-modules-checkout-section-container-checkout-section-container.view"}),{chunkName:()=>'@msdyn365-commerce-modules-checkout-dist-lib-modules-checkout-section-container-checkout-section-container.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|checkout|modules|checkout-terms-and-conditions|checkout-terms-and-conditions']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-terms-and-conditions/checkout-terms-and-conditions.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-terms-and-conditions/checkout-terms-and-conditions.view.js */ "./node_modules/@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-terms-and-conditions/checkout-terms-and-conditions.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-terms-and-conditions/checkout-terms-and-conditions.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-terms-and-conditions/checkout-terms-and-conditions.view.js */ "./node_modules/@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-terms-and-conditions/checkout-terms-and-conditions.view.js"),chunkName:()=>"@msdyn365-commerce-modules-checkout-dist-lib-modules-checkout-terms-and-conditions-checkout-terms-and-conditions.view"}),{chunkName:()=>'@msdyn365-commerce-modules-checkout-dist-lib-modules-checkout-terms-and-conditions-checkout-terms-and-conditions.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|checkout|modules|checkout|checkout']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout/checkout.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/checkout/dist/lib/modules/checkout/checkout.view.js */ "./node_modules/@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout/checkout.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout/checkout.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/checkout/dist/lib/modules/checkout/checkout.view.js */ "./node_modules/@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout/checkout.view.js"),chunkName:()=>"@msdyn365-commerce-modules-checkout-dist-lib-modules-checkout-checkout.view"}),{chunkName:()=>'@msdyn365-commerce-modules-checkout-dist-lib-modules-checkout-checkout.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|checkout|modules|gift-card-balance-check|gift-card-balance-check']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/checkout/dist/lib/modules/gift-card-balance-check/gift-card-balance-check.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/checkout/dist/lib/modules/gift-card-balance-check/gift-card-balance-check.view.js */ "./node_modules/@msdyn365-commerce-modules/checkout/dist/lib/modules/gift-card-balance-check/gift-card-balance-check.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/checkout/dist/lib/modules/gift-card-balance-check/gift-card-balance-check.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/checkout/dist/lib/modules/gift-card-balance-check/gift-card-balance-check.view.js */ "./node_modules/@msdyn365-commerce-modules/checkout/dist/lib/modules/gift-card-balance-check/gift-card-balance-check.view.js"),chunkName:()=>"@msdyn365-commerce-modules-checkout-dist-lib-modules-gift-card-balance-check-gift-card-balance-check.view"}),{chunkName:()=>'@msdyn365-commerce-modules-checkout-dist-lib-modules-gift-card-balance-check-gift-card-balance-check.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|content-block|modules|content-block|content-block']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/content-block/dist/lib/modules/content-block/content-block.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/content-block/dist/lib/modules/content-block/content-block.view.js */ "./node_modules/@msdyn365-commerce-modules/content-block/dist/lib/modules/content-block/content-block.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/content-block/dist/lib/modules/content-block/content-block.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/content-block/dist/lib/modules/content-block/content-block.view.js */ "./node_modules/@msdyn365-commerce-modules/content-block/dist/lib/modules/content-block/content-block.view.js"),chunkName:()=>"@msdyn365-commerce-modules-content-block-dist-lib-modules-content-block-content-block.view"}),{chunkName:()=>'@msdyn365-commerce-modules-content-block-dist-lib-modules-content-block-content-block.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|cookie-compliance|modules|cookie-compliance|cookie-compliance']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/cookie-compliance/dist/lib/modules/cookie-compliance/cookie-compliance.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/cookie-compliance/dist/lib/modules/cookie-compliance/cookie-compliance.view.js */ "./node_modules/@msdyn365-commerce-modules/cookie-compliance/dist/lib/modules/cookie-compliance/cookie-compliance.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/cookie-compliance/dist/lib/modules/cookie-compliance/cookie-compliance.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/cookie-compliance/dist/lib/modules/cookie-compliance/cookie-compliance.view.js */ "./node_modules/@msdyn365-commerce-modules/cookie-compliance/dist/lib/modules/cookie-compliance/cookie-compliance.view.js"),chunkName:()=>"@msdyn365-commerce-modules-cookie-compliance-dist-lib-modules-cookie-compliance-cookie-compliance.view"}),{chunkName:()=>'@msdyn365-commerce-modules-cookie-compliance-dist-lib-modules-cookie-compliance-cookie-compliance.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|fabrikam-design-kit|modules|fabrikam|views|buybox']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/buybox.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/buybox.view.js */ "./node_modules/@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/buybox.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/buybox.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/buybox.view.js */ "./node_modules/@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/buybox.view.js"),chunkName:()=>"@msdyn365-commerce-modules-fabrikam-design-kit-dist-lib-modules-fabrikam-views-buybox.view"}),{chunkName:()=>'@msdyn365-commerce-modules-fabrikam-design-kit-dist-lib-modules-fabrikam-views-buybox.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|fabrikam-design-kit|modules|fabrikam|views|cart']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/cart.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/cart.view.js */ "./node_modules/@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/cart.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/cart.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/cart.view.js */ "./node_modules/@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/cart.view.js"),chunkName:()=>"@msdyn365-commerce-modules-fabrikam-design-kit-dist-lib-modules-fabrikam-views-cart.view"}),{chunkName:()=>'@msdyn365-commerce-modules-fabrikam-design-kit-dist-lib-modules-fabrikam-views-cart.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|fabrikam-design-kit|modules|fabrikam|views|header']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/header.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/header.view.js */ "./node_modules/@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/header.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/header.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/header.view.js */ "./node_modules/@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/header.view.js"),chunkName:()=>"@msdyn365-commerce-modules-fabrikam-design-kit-dist-lib-modules-fabrikam-views-header.view"}),{chunkName:()=>'@msdyn365-commerce-modules-fabrikam-design-kit-dist-lib-modules-fabrikam-views-header.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|fabrikam-design-kit|modules|fabrikam|views|navigation-menu']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/navigation-menu.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/navigation-menu.view.js */ "./node_modules/@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/navigation-menu.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/navigation-menu.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/navigation-menu.view.js */ "./node_modules/@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/navigation-menu.view.js"),chunkName:()=>"@msdyn365-commerce-modules-fabrikam-design-kit-dist-lib-modules-fabrikam-views-navigation-menu.view"}),{chunkName:()=>'@msdyn365-commerce-modules-fabrikam-design-kit-dist-lib-modules-fabrikam-views-navigation-menu.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|fabrikam-design-kit|modules|fabrikam|views|order-details']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/order-details.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/order-details.view.js */ "./node_modules/@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/order-details.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/order-details.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/order-details.view.js */ "./node_modules/@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/order-details.view.js"),chunkName:()=>"@msdyn365-commerce-modules-fabrikam-design-kit-dist-lib-modules-fabrikam-views-order-details.view"}),{chunkName:()=>'@msdyn365-commerce-modules-fabrikam-design-kit-dist-lib-modules-fabrikam-views-order-details.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|fabrikam-design-kit|modules|fabrikam|views|order-history']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/order-history.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/order-history.view.js */ "./node_modules/@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/order-history.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/order-history.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/order-history.view.js */ "./node_modules/@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/order-history.view.js"),chunkName:()=>"@msdyn365-commerce-modules-fabrikam-design-kit-dist-lib-modules-fabrikam-views-order-history.view"}),{chunkName:()=>'@msdyn365-commerce-modules-fabrikam-design-kit-dist-lib-modules-fabrikam-views-order-history.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|fabrikam-design-kit|modules|fabrikam|views|ratings-histogram']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/ratings-histogram.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/ratings-histogram.view.js */ "./node_modules/@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/ratings-histogram.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/ratings-histogram.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/ratings-histogram.view.js */ "./node_modules/@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/ratings-histogram.view.js"),chunkName:()=>"@msdyn365-commerce-modules-fabrikam-design-kit-dist-lib-modules-fabrikam-views-ratings-histogram.view"}),{chunkName:()=>'@msdyn365-commerce-modules-fabrikam-design-kit-dist-lib-modules-fabrikam-views-ratings-histogram.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|fabrikam-design-kit|modules|fabrikam|views|reviews-list']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/reviews-list.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/reviews-list.view.js */ "./node_modules/@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/reviews-list.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/reviews-list.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/reviews-list.view.js */ "./node_modules/@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/reviews-list.view.js"),chunkName:()=>"@msdyn365-commerce-modules-fabrikam-design-kit-dist-lib-modules-fabrikam-views-reviews-list.view"}),{chunkName:()=>'@msdyn365-commerce-modules-fabrikam-design-kit-dist-lib-modules-fabrikam-views-reviews-list.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|fabrikam-design-kit|modules|fabrikam|views|search-result-container']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/search-result-container.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/search-result-container.view.js */ "./node_modules/@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/search-result-container.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/search-result-container.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/search-result-container.view.js */ "./node_modules/@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/search-result-container.view.js"),chunkName:()=>"@msdyn365-commerce-modules-fabrikam-design-kit-dist-lib-modules-fabrikam-views-search-result-container.view"}),{chunkName:()=>'@msdyn365-commerce-modules-fabrikam-design-kit-dist-lib-modules-fabrikam-views-search-result-container.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|footer|modules|footer-category|footer-category']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/footer/dist/lib/modules/footer-category/footer-category.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/footer/dist/lib/modules/footer-category/footer-category.view.js */ "./node_modules/@msdyn365-commerce-modules/footer/dist/lib/modules/footer-category/footer-category.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/footer/dist/lib/modules/footer-category/footer-category.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/footer/dist/lib/modules/footer-category/footer-category.view.js */ "./node_modules/@msdyn365-commerce-modules/footer/dist/lib/modules/footer-category/footer-category.view.js"),chunkName:()=>"@msdyn365-commerce-modules-footer-dist-lib-modules-footer-category-footer-category.view"}),{chunkName:()=>'@msdyn365-commerce-modules-footer-dist-lib-modules-footer-category-footer-category.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|footer|modules|footer-item|footer-item']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/footer/dist/lib/modules/footer-item/footer-item.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/footer/dist/lib/modules/footer-item/footer-item.view.js */ "./node_modules/@msdyn365-commerce-modules/footer/dist/lib/modules/footer-item/footer-item.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/footer/dist/lib/modules/footer-item/footer-item.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/footer/dist/lib/modules/footer-item/footer-item.view.js */ "./node_modules/@msdyn365-commerce-modules/footer/dist/lib/modules/footer-item/footer-item.view.js"),chunkName:()=>"@msdyn365-commerce-modules-footer-dist-lib-modules-footer-item-footer-item.view"}),{chunkName:()=>'@msdyn365-commerce-modules-footer-dist-lib-modules-footer-item-footer-item.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|header|modules|header|header']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/header/dist/lib/modules/header/header.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/header/dist/lib/modules/header/header.view.js */ "./node_modules/@msdyn365-commerce-modules/header/dist/lib/modules/header/header.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/header/dist/lib/modules/header/header.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/header/dist/lib/modules/header/header.view.js */ "./node_modules/@msdyn365-commerce-modules/header/dist/lib/modules/header/header.view.js"),chunkName:()=>"@msdyn365-commerce-modules-header-dist-lib-modules-header-header.view"}),{chunkName:()=>'@msdyn365-commerce-modules-header-dist-lib-modules-header-header.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|iframe|modules|iframe|iframe']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/iframe/dist/lib/modules/iframe/iframe.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/iframe/dist/lib/modules/iframe/iframe.view.js */ "./node_modules/@msdyn365-commerce-modules/iframe/dist/lib/modules/iframe/iframe.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/iframe/dist/lib/modules/iframe/iframe.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/iframe/dist/lib/modules/iframe/iframe.view.js */ "./node_modules/@msdyn365-commerce-modules/iframe/dist/lib/modules/iframe/iframe.view.js"),chunkName:()=>"@msdyn365-commerce-modules-iframe-dist-lib-modules-iframe-iframe.view"}),{chunkName:()=>'@msdyn365-commerce-modules-iframe-dist-lib-modules-iframe-iframe.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|map|modules|map|map']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/map/dist/lib/modules/map/map.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/map/dist/lib/modules/map/map.view.js */ "./node_modules/@msdyn365-commerce-modules/map/dist/lib/modules/map/map.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/map/dist/lib/modules/map/map.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/map/dist/lib/modules/map/map.view.js */ "./node_modules/@msdyn365-commerce-modules/map/dist/lib/modules/map/map.view.js"),chunkName:()=>"@msdyn365-commerce-modules-map-dist-lib-modules-map-map.view"}),{chunkName:()=>'@msdyn365-commerce-modules-map-dist-lib-modules-map-map.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|media-gallery|modules|media-gallery|media-gallery']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/media-gallery/dist/lib/modules/media-gallery/media-gallery.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/media-gallery/dist/lib/modules/media-gallery/media-gallery.view.js */ "./node_modules/@msdyn365-commerce-modules/media-gallery/dist/lib/modules/media-gallery/media-gallery.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/media-gallery/dist/lib/modules/media-gallery/media-gallery.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/media-gallery/dist/lib/modules/media-gallery/media-gallery.view.js */ "./node_modules/@msdyn365-commerce-modules/media-gallery/dist/lib/modules/media-gallery/media-gallery.view.js"),chunkName:()=>"@msdyn365-commerce-modules-media-gallery-dist-lib-modules-media-gallery-media-gallery.view"}),{chunkName:()=>'@msdyn365-commerce-modules-media-gallery-dist-lib-modules-media-gallery-media-gallery.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|navigation-menu|modules|navigation-menu|navigation-menu']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/navigation-menu/dist/lib/modules/navigation-menu/navigation-menu.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/navigation-menu/dist/lib/modules/navigation-menu/navigation-menu.view.js */ "./node_modules/@msdyn365-commerce-modules/navigation-menu/dist/lib/modules/navigation-menu/navigation-menu.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/navigation-menu/dist/lib/modules/navigation-menu/navigation-menu.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/navigation-menu/dist/lib/modules/navigation-menu/navigation-menu.view.js */ "./node_modules/@msdyn365-commerce-modules/navigation-menu/dist/lib/modules/navigation-menu/navigation-menu.view.js"),chunkName:()=>"@msdyn365-commerce-modules-navigation-menu-dist-lib-modules-navigation-menu-navigation-menu.view"}),{chunkName:()=>'@msdyn365-commerce-modules-navigation-menu-dist-lib-modules-navigation-menu-navigation-menu.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|order-management|modules|checkout-order-confirmation|checkout-order-confirmation']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/order-management/dist/lib/modules/checkout-order-confirmation/checkout-order-confirmation.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/order-management/dist/lib/modules/checkout-order-confirmation/checkout-order-confirmation.view.js */ "./node_modules/@msdyn365-commerce-modules/order-management/dist/lib/modules/checkout-order-confirmation/checkout-order-confirmation.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/order-management/dist/lib/modules/checkout-order-confirmation/checkout-order-confirmation.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/order-management/dist/lib/modules/checkout-order-confirmation/checkout-order-confirmation.view.js */ "./node_modules/@msdyn365-commerce-modules/order-management/dist/lib/modules/checkout-order-confirmation/checkout-order-confirmation.view.js"),chunkName:()=>"@msdyn365-commerce-modules-order-management-dist-lib-modules-checkout-order-confirmation-checkout-order-confirmation.view"}),{chunkName:()=>'@msdyn365-commerce-modules-order-management-dist-lib-modules-checkout-order-confirmation-checkout-order-confirmation.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|order-management|modules|order-confirmation|order-confirmation']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/order-management/dist/lib/modules/order-confirmation/order-confirmation.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/order-management/dist/lib/modules/order-confirmation/order-confirmation.view.js */ "./node_modules/@msdyn365-commerce-modules/order-management/dist/lib/modules/order-confirmation/order-confirmation.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/order-management/dist/lib/modules/order-confirmation/order-confirmation.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/order-management/dist/lib/modules/order-confirmation/order-confirmation.view.js */ "./node_modules/@msdyn365-commerce-modules/order-management/dist/lib/modules/order-confirmation/order-confirmation.view.js"),chunkName:()=>"@msdyn365-commerce-modules-order-management-dist-lib-modules-order-confirmation-order-confirmation.view"}),{chunkName:()=>'@msdyn365-commerce-modules-order-management-dist-lib-modules-order-confirmation-order-confirmation.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|order-management|modules|order-details|order-details']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/order-management/dist/lib/modules/order-details/order-details.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/order-management/dist/lib/modules/order-details/order-details.view.js */ "./node_modules/@msdyn365-commerce-modules/order-management/dist/lib/modules/order-details/order-details.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/order-management/dist/lib/modules/order-details/order-details.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/order-management/dist/lib/modules/order-details/order-details.view.js */ "./node_modules/@msdyn365-commerce-modules/order-management/dist/lib/modules/order-details/order-details.view.js"),chunkName:()=>"@msdyn365-commerce-modules-order-management-dist-lib-modules-order-details-order-details.view"}),{chunkName:()=>'@msdyn365-commerce-modules-order-management-dist-lib-modules-order-details-order-details.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|order-management|modules|order-history|order-history']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/order-management/dist/lib/modules/order-history/order-history.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/order-management/dist/lib/modules/order-history/order-history.view.js */ "./node_modules/@msdyn365-commerce-modules/order-management/dist/lib/modules/order-history/order-history.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/order-management/dist/lib/modules/order-history/order-history.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/order-management/dist/lib/modules/order-history/order-history.view.js */ "./node_modules/@msdyn365-commerce-modules/order-management/dist/lib/modules/order-history/order-history.view.js"),chunkName:()=>"@msdyn365-commerce-modules-order-management-dist-lib-modules-order-history-order-history.view"}),{chunkName:()=>'@msdyn365-commerce-modules-order-management-dist-lib-modules-order-history-order-history.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|order-template|modules|order-template-list|order-template-list']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/order-template/dist/lib/modules/order-template-list/order-template-list.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/order-template/dist/lib/modules/order-template-list/order-template-list.view.js */ "./node_modules/@msdyn365-commerce-modules/order-template/dist/lib/modules/order-template-list/order-template-list.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/order-template/dist/lib/modules/order-template-list/order-template-list.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/order-template/dist/lib/modules/order-template-list/order-template-list.view.js */ "./node_modules/@msdyn365-commerce-modules/order-template/dist/lib/modules/order-template-list/order-template-list.view.js"),chunkName:()=>"@msdyn365-commerce-modules-order-template-dist-lib-modules-order-template-list-order-template-list.view"}),{chunkName:()=>'@msdyn365-commerce-modules-order-template-dist-lib-modules-order-template-list-order-template-list.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|order-template|modules|order-template|order-template']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/order-template/dist/lib/modules/order-template/order-template.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/order-template/dist/lib/modules/order-template/order-template.view.js */ "./node_modules/@msdyn365-commerce-modules/order-template/dist/lib/modules/order-template/order-template.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/order-template/dist/lib/modules/order-template/order-template.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/order-template/dist/lib/modules/order-template/order-template.view.js */ "./node_modules/@msdyn365-commerce-modules/order-template/dist/lib/modules/order-template/order-template.view.js"),chunkName:()=>"@msdyn365-commerce-modules-order-template-dist-lib-modules-order-template-order-template.view"}),{chunkName:()=>'@msdyn365-commerce-modules-order-template-dist-lib-modules-order-template-order-template.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|product-collection|modules|product-collection|product-collection']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/product-collection/dist/lib/modules/product-collection/product-collection.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/product-collection/dist/lib/modules/product-collection/product-collection.view.js */ "./node_modules/@msdyn365-commerce-modules/product-collection/dist/lib/modules/product-collection/product-collection.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/product-collection/dist/lib/modules/product-collection/product-collection.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/product-collection/dist/lib/modules/product-collection/product-collection.view.js */ "./node_modules/@msdyn365-commerce-modules/product-collection/dist/lib/modules/product-collection/product-collection.view.js"),chunkName:()=>"@msdyn365-commerce-modules-product-collection-dist-lib-modules-product-collection-product-collection.view"}),{chunkName:()=>'@msdyn365-commerce-modules-product-collection-dist-lib-modules-product-collection-product-collection.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|product-specification|modules|product-specification|product-specification']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/product-specification/dist/lib/modules/product-specification/product-specification.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/product-specification/dist/lib/modules/product-specification/product-specification.view.js */ "./node_modules/@msdyn365-commerce-modules/product-specification/dist/lib/modules/product-specification/product-specification.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/product-specification/dist/lib/modules/product-specification/product-specification.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/product-specification/dist/lib/modules/product-specification/product-specification.view.js */ "./node_modules/@msdyn365-commerce-modules/product-specification/dist/lib/modules/product-specification/product-specification.view.js"),chunkName:()=>"@msdyn365-commerce-modules-product-specification-dist-lib-modules-product-specification-product-specification.view"}),{chunkName:()=>'@msdyn365-commerce-modules-product-specification-dist-lib-modules-product-specification-product-specification.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|promo-banner|modules|promo-banner|promo-banner']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/promo-banner/dist/lib/modules/promo-banner/promo-banner.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/promo-banner/dist/lib/modules/promo-banner/promo-banner.view.js */ "./node_modules/@msdyn365-commerce-modules/promo-banner/dist/lib/modules/promo-banner/promo-banner.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/promo-banner/dist/lib/modules/promo-banner/promo-banner.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/promo-banner/dist/lib/modules/promo-banner/promo-banner.view.js */ "./node_modules/@msdyn365-commerce-modules/promo-banner/dist/lib/modules/promo-banner/promo-banner.view.js"),chunkName:()=>"@msdyn365-commerce-modules-promo-banner-dist-lib-modules-promo-banner-promo-banner.view"}),{chunkName:()=>'@msdyn365-commerce-modules-promo-banner-dist-lib-modules-promo-banner-promo-banner.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|ratings-reviews|modules|ratings-histogram|ratings-histogram']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/ratings-reviews/dist/lib/modules/ratings-histogram/ratings-histogram.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/ratings-reviews/dist/lib/modules/ratings-histogram/ratings-histogram.view.js */ "./node_modules/@msdyn365-commerce-modules/ratings-reviews/dist/lib/modules/ratings-histogram/ratings-histogram.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/ratings-reviews/dist/lib/modules/ratings-histogram/ratings-histogram.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/ratings-reviews/dist/lib/modules/ratings-histogram/ratings-histogram.view.js */ "./node_modules/@msdyn365-commerce-modules/ratings-reviews/dist/lib/modules/ratings-histogram/ratings-histogram.view.js"),chunkName:()=>"@msdyn365-commerce-modules-ratings-reviews-dist-lib-modules-ratings-histogram-ratings-histogram.view"}),{chunkName:()=>'@msdyn365-commerce-modules-ratings-reviews-dist-lib-modules-ratings-histogram-ratings-histogram.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|ratings-reviews|modules|reviews-list|reviews-list']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/ratings-reviews/dist/lib/modules/reviews-list/reviews-list.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/ratings-reviews/dist/lib/modules/reviews-list/reviews-list.view.js */ "./node_modules/@msdyn365-commerce-modules/ratings-reviews/dist/lib/modules/reviews-list/reviews-list.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/ratings-reviews/dist/lib/modules/reviews-list/reviews-list.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/ratings-reviews/dist/lib/modules/reviews-list/reviews-list.view.js */ "./node_modules/@msdyn365-commerce-modules/ratings-reviews/dist/lib/modules/reviews-list/reviews-list.view.js"),chunkName:()=>"@msdyn365-commerce-modules-ratings-reviews-dist-lib-modules-reviews-list-reviews-list.view"}),{chunkName:()=>'@msdyn365-commerce-modules-ratings-reviews-dist-lib-modules-reviews-list-reviews-list.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|ratings-reviews|modules|write-review|write-review']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/ratings-reviews/dist/lib/modules/write-review/write-review.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/ratings-reviews/dist/lib/modules/write-review/write-review.view.js */ "./node_modules/@msdyn365-commerce-modules/ratings-reviews/dist/lib/modules/write-review/write-review.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/ratings-reviews/dist/lib/modules/write-review/write-review.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/ratings-reviews/dist/lib/modules/write-review/write-review.view.js */ "./node_modules/@msdyn365-commerce-modules/ratings-reviews/dist/lib/modules/write-review/write-review.view.js"),chunkName:()=>"@msdyn365-commerce-modules-ratings-reviews-dist-lib-modules-write-review-write-review.view"}),{chunkName:()=>'@msdyn365-commerce-modules-ratings-reviews-dist-lib-modules-write-review-write-review.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|search-result-container|modules|search-result-container|search-result-container']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/search-result-container/dist/lib/modules/search-result-container/search-result-container.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/search-result-container/dist/lib/modules/search-result-container/search-result-container.view.js */ "./node_modules/@msdyn365-commerce-modules/search-result-container/dist/lib/modules/search-result-container/search-result-container.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/search-result-container/dist/lib/modules/search-result-container/search-result-container.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/search-result-container/dist/lib/modules/search-result-container/search-result-container.view.js */ "./node_modules/@msdyn365-commerce-modules/search-result-container/dist/lib/modules/search-result-container/search-result-container.view.js"),chunkName:()=>"@msdyn365-commerce-modules-search-result-container-dist-lib-modules-search-result-container-search-result-container.view"}),{chunkName:()=>'@msdyn365-commerce-modules-search-result-container-dist-lib-modules-search-result-container-search-result-container.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|search|modules|search|search']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/search/dist/lib/modules/search/search.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/search/dist/lib/modules/search/search.view.js */ "./node_modules/@msdyn365-commerce-modules/search/dist/lib/modules/search/search.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/search/dist/lib/modules/search/search.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/search/dist/lib/modules/search/search.view.js */ "./node_modules/@msdyn365-commerce-modules/search/dist/lib/modules/search/search.view.js"),chunkName:()=>"@msdyn365-commerce-modules-search-dist-lib-modules-search-search.view"}),{chunkName:()=>'@msdyn365-commerce-modules-search-dist-lib-modules-search-search.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|site-picker|modules|site-picker|site-picker']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/site-picker/dist/lib/modules/site-picker/site-picker.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/site-picker/dist/lib/modules/site-picker/site-picker.view.js */ "./node_modules/@msdyn365-commerce-modules/site-picker/dist/lib/modules/site-picker/site-picker.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/site-picker/dist/lib/modules/site-picker/site-picker.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/site-picker/dist/lib/modules/site-picker/site-picker.view.js */ "./node_modules/@msdyn365-commerce-modules/site-picker/dist/lib/modules/site-picker/site-picker.view.js"),chunkName:()=>"@msdyn365-commerce-modules-site-picker-dist-lib-modules-site-picker-site-picker.view"}),{chunkName:()=>'@msdyn365-commerce-modules-site-picker-dist-lib-modules-site-picker-site-picker.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|social-share|modules|social-share-item|social-share-item']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/social-share/dist/lib/modules/social-share-item/social-share-item.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/social-share/dist/lib/modules/social-share-item/social-share-item.view.js */ "./node_modules/@msdyn365-commerce-modules/social-share/dist/lib/modules/social-share-item/social-share-item.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/social-share/dist/lib/modules/social-share-item/social-share-item.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/social-share/dist/lib/modules/social-share-item/social-share-item.view.js */ "./node_modules/@msdyn365-commerce-modules/social-share/dist/lib/modules/social-share-item/social-share-item.view.js"),chunkName:()=>"@msdyn365-commerce-modules-social-share-dist-lib-modules-social-share-item-social-share-item.view"}),{chunkName:()=>'@msdyn365-commerce-modules-social-share-dist-lib-modules-social-share-item-social-share-item.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|social-share|modules|social-share|social-share']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/social-share/dist/lib/modules/social-share/social-share.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/social-share/dist/lib/modules/social-share/social-share.view.js */ "./node_modules/@msdyn365-commerce-modules/social-share/dist/lib/modules/social-share/social-share.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/social-share/dist/lib/modules/social-share/social-share.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/social-share/dist/lib/modules/social-share/social-share.view.js */ "./node_modules/@msdyn365-commerce-modules/social-share/dist/lib/modules/social-share/social-share.view.js"),chunkName:()=>"@msdyn365-commerce-modules-social-share-dist-lib-modules-social-share-social-share.view"}),{chunkName:()=>'@msdyn365-commerce-modules-social-share-dist-lib-modules-social-share-social-share.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|spacer|modules|spacer|spacer']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/spacer/dist/lib/modules/spacer/spacer.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/spacer/dist/lib/modules/spacer/spacer.view.js */ "./node_modules/@msdyn365-commerce-modules/spacer/dist/lib/modules/spacer/spacer.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/spacer/dist/lib/modules/spacer/spacer.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/spacer/dist/lib/modules/spacer/spacer.view.js */ "./node_modules/@msdyn365-commerce-modules/spacer/dist/lib/modules/spacer/spacer.view.js"),chunkName:()=>"@msdyn365-commerce-modules-spacer-dist-lib-modules-spacer-spacer.view"}),{chunkName:()=>'@msdyn365-commerce-modules-spacer-dist-lib-modules-spacer-spacer.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|store-selector|modules|store-selector|store-selector']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/store-selector/dist/lib/modules/store-selector/store-selector.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/store-selector/dist/lib/modules/store-selector/store-selector.view.js */ "./node_modules/@msdyn365-commerce-modules/store-selector/dist/lib/modules/store-selector/store-selector.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/store-selector/dist/lib/modules/store-selector/store-selector.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/store-selector/dist/lib/modules/store-selector/store-selector.view.js */ "./node_modules/@msdyn365-commerce-modules/store-selector/dist/lib/modules/store-selector/store-selector.view.js"),chunkName:()=>"@msdyn365-commerce-modules-store-selector-dist-lib-modules-store-selector-store-selector.view"}),{chunkName:()=>'@msdyn365-commerce-modules-store-selector-dist-lib-modules-store-selector-store-selector.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|tab|modules|tab-item|tab-item']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/tab/dist/lib/modules/tab-item/tab-item.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/tab/dist/lib/modules/tab-item/tab-item.view.js */ "./node_modules/@msdyn365-commerce-modules/tab/dist/lib/modules/tab-item/tab-item.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/tab/dist/lib/modules/tab-item/tab-item.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/tab/dist/lib/modules/tab-item/tab-item.view.js */ "./node_modules/@msdyn365-commerce-modules/tab/dist/lib/modules/tab-item/tab-item.view.js"),chunkName:()=>"@msdyn365-commerce-modules-tab-dist-lib-modules-tab-item-tab-item.view"}),{chunkName:()=>'@msdyn365-commerce-modules-tab-dist-lib-modules-tab-item-tab-item.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|tab|modules|tab|tab']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/tab/dist/lib/modules/tab/tab.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/tab/dist/lib/modules/tab/tab.view.js */ "./node_modules/@msdyn365-commerce-modules/tab/dist/lib/modules/tab/tab.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/tab/dist/lib/modules/tab/tab.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/tab/dist/lib/modules/tab/tab.view.js */ "./node_modules/@msdyn365-commerce-modules/tab/dist/lib/modules/tab/tab.view.js"),chunkName:()=>"@msdyn365-commerce-modules-tab-dist-lib-modules-tab-tab.view"}),{chunkName:()=>'@msdyn365-commerce-modules-tab-dist-lib-modules-tab-tab.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|text-block|modules|text-block|text-block']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/text-block/dist/lib/modules/text-block/text-block.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/text-block/dist/lib/modules/text-block/text-block.view.js */ "./node_modules/@msdyn365-commerce-modules/text-block/dist/lib/modules/text-block/text-block.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/text-block/dist/lib/modules/text-block/text-block.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/text-block/dist/lib/modules/text-block/text-block.view.js */ "./node_modules/@msdyn365-commerce-modules/text-block/dist/lib/modules/text-block/text-block.view.js"),chunkName:()=>"@msdyn365-commerce-modules-text-block-dist-lib-modules-text-block-text-block.view"}),{chunkName:()=>'@msdyn365-commerce-modules-text-block-dist-lib-modules-text-block-text-block.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|video-player|modules|video-player|video-player']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/video-player/dist/lib/modules/video-player/video-player.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/video-player/dist/lib/modules/video-player/video-player.view.js */ "./node_modules/@msdyn365-commerce-modules/video-player/dist/lib/modules/video-player/video-player.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/video-player/dist/lib/modules/video-player/video-player.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/video-player/dist/lib/modules/video-player/video-player.view.js */ "./node_modules/@msdyn365-commerce-modules/video-player/dist/lib/modules/video-player/video-player.view.js"),chunkName:()=>"@msdyn365-commerce-modules-video-player-dist-lib-modules-video-player-video-player.view"}),{chunkName:()=>'@msdyn365-commerce-modules-video-player-dist-lib-modules-video-player-video-player.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|wishlist|modules|wishlist-items|wishlist-items']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/wishlist/dist/lib/modules/wishlist-items/wishlist-items.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/wishlist/dist/lib/modules/wishlist-items/wishlist-items.view.js */ "./node_modules/@msdyn365-commerce-modules/wishlist/dist/lib/modules/wishlist-items/wishlist-items.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/wishlist/dist/lib/modules/wishlist-items/wishlist-items.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/wishlist/dist/lib/modules/wishlist-items/wishlist-items.view.js */ "./node_modules/@msdyn365-commerce-modules/wishlist/dist/lib/modules/wishlist-items/wishlist-items.view.js"),chunkName:()=>"@msdyn365-commerce-modules-wishlist-dist-lib-modules-wishlist-items-wishlist-items.view"}),{chunkName:()=>'@msdyn365-commerce-modules-wishlist-dist-lib-modules-wishlist-items-wishlist-items.view.js',ignoreBabelRename:true})};
+*/const universal=__webpack_require__(/*! react-universal-component */ "./node_modules/react-universal-component/dist/index.js").default;const viewDictionary={};viewDictionary['__local__|__local__|modules|cart|cart']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"partner/modules/cart/cart.view.tsx",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! partner/modules/cart/cart.view.tsx */ "./src/modules/cart/cart.view.tsx"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'partner/modules/cart/cart.view.tsx'),resolve:()=>/*require.resolve*/(/*! partner/modules/cart/cart.view.tsx */ "./src/modules/cart/cart.view.tsx"),chunkName:()=>"partner-modules-cart-cart.view.tsx"}),{chunkName:()=>'partner-modules-cart-cart.view.tsx',ignoreBabelRename:true})};viewDictionary['__local__|__local__|modules|footer|footer']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"partner/modules/footer/footer.view.tsx",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! partner/modules/footer/footer.view.tsx */ "./src/modules/footer/footer.view.tsx"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'partner/modules/footer/footer.view.tsx'),resolve:()=>/*require.resolve*/(/*! partner/modules/footer/footer.view.tsx */ "./src/modules/footer/footer.view.tsx"),chunkName:()=>"partner-modules-footer-footer.view.tsx"}),{chunkName:()=>'partner-modules-footer-footer.view.tsx',ignoreBabelRename:true})};viewDictionary['__local__|__local__|modules|header|header']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"partner/modules/header/header.view.tsx",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! partner/modules/header/header.view.tsx */ "./src/modules/header/header.view.tsx"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'partner/modules/header/header.view.tsx'),resolve:()=>/*require.resolve*/(/*! partner/modules/header/header.view.tsx */ "./src/modules/header/header.view.tsx"),chunkName:()=>"partner-modules-header-header.view.tsx"}),{chunkName:()=>'partner-modules-header-header.view.tsx',ignoreBabelRename:true})};viewDictionary['__local__|__local__|modules|index-carousel|index-carousel']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"partner/modules/index-carousel/index-carousel.view.tsx",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! partner/modules/index-carousel/index-carousel.view.tsx */ "./src/modules/index-carousel/index-carousel.view.tsx"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'partner/modules/index-carousel/index-carousel.view.tsx'),resolve:()=>/*require.resolve*/(/*! partner/modules/index-carousel/index-carousel.view.tsx */ "./src/modules/index-carousel/index-carousel.view.tsx"),chunkName:()=>"partner-modules-index-carousel-index-carousel.view.tsx"}),{chunkName:()=>'partner-modules-index-carousel-index-carousel.view.tsx',ignoreBabelRename:true})};viewDictionary['__local__|__local__|modules|index-person|index-person']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"partner/modules/index-person/index-person.view.tsx",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! partner/modules/index-person/index-person.view.tsx */ "./src/modules/index-person/index-person.view.tsx"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'partner/modules/index-person/index-person.view.tsx'),resolve:()=>/*require.resolve*/(/*! partner/modules/index-person/index-person.view.tsx */ "./src/modules/index-person/index-person.view.tsx"),chunkName:()=>"partner-modules-index-person-index-person.view.tsx"}),{chunkName:()=>'partner-modules-index-person-index-person.view.tsx',ignoreBabelRename:true})};viewDictionary['__local__|__local__|modules|index-product|index-product']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"partner/modules/index-product/index-product.view.tsx",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! partner/modules/index-product/index-product.view.tsx */ "./src/modules/index-product/index-product.view.tsx"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'partner/modules/index-product/index-product.view.tsx'),resolve:()=>/*require.resolve*/(/*! partner/modules/index-product/index-product.view.tsx */ "./src/modules/index-product/index-product.view.tsx"),chunkName:()=>"partner-modules-index-product-index-product.view.tsx"}),{chunkName:()=>'partner-modules-index-product-index-product.view.tsx',ignoreBabelRename:true})};viewDictionary['__local__|__local__|modules|navigation-menu|navigation-menu']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"partner/modules/navigation-menu/navigation-menu.view.tsx",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! partner/modules/navigation-menu/navigation-menu.view.tsx */ "./src/modules/navigation-menu/navigation-menu.view.tsx"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'partner/modules/navigation-menu/navigation-menu.view.tsx'),resolve:()=>/*require.resolve*/(/*! partner/modules/navigation-menu/navigation-menu.view.tsx */ "./src/modules/navigation-menu/navigation-menu.view.tsx"),chunkName:()=>"partner-modules-navigation-menu-navigation-menu.view.tsx"}),{chunkName:()=>'partner-modules-navigation-menu-navigation-menu.view.tsx',ignoreBabelRename:true})};viewDictionary['__local__|__local__|modules|sale|sale']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"partner/modules/sale/sale.view.tsx",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! partner/modules/sale/sale.view.tsx */ "./src/modules/sale/sale.view.tsx"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'partner/modules/sale/sale.view.tsx'),resolve:()=>/*require.resolve*/(/*! partner/modules/sale/sale.view.tsx */ "./src/modules/sale/sale.view.tsx"),chunkName:()=>"partner-modules-sale-sale.view.tsx"}),{chunkName:()=>'partner-modules-sale-sale.view.tsx',ignoreBabelRename:true})};viewDictionary['__local__|__local__|modules|search-result-container|search-result-container']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"partner/modules/search-result-container/search-result-container.view.tsx",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! partner/modules/search-result-container/search-result-container.view.tsx */ "./src/modules/search-result-container/search-result-container.view.tsx"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'partner/modules/search-result-container/search-result-container.view.tsx'),resolve:()=>/*require.resolve*/(/*! partner/modules/search-result-container/search-result-container.view.tsx */ "./src/modules/search-result-container/search-result-container.view.tsx"),chunkName:()=>"partner-modules-search-result-container-search-result-container.view.tsx"}),{chunkName:()=>'partner-modules-search-result-container-search-result-container.view.tsx',ignoreBabelRename:true})};viewDictionary['__local__|__local__|modules|search|search']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"partner/modules/search/search.view.tsx",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! partner/modules/search/search.view.tsx */ "./src/modules/search/search.view.tsx"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'partner/modules/search/search.view.tsx'),resolve:()=>/*require.resolve*/(/*! partner/modules/search/search.view.tsx */ "./src/modules/search/search.view.tsx"),chunkName:()=>"partner-modules-search-search.view.tsx"}),{chunkName:()=>'partner-modules-search-search.view.tsx',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|accordion|modules|accordion-item|accordion-item']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/accordion/dist/lib/modules/accordion-item/accordion-item.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/accordion/dist/lib/modules/accordion-item/accordion-item.view.js */ "./node_modules/@msdyn365-commerce-modules/accordion/dist/lib/modules/accordion-item/accordion-item.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/accordion/dist/lib/modules/accordion-item/accordion-item.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/accordion/dist/lib/modules/accordion-item/accordion-item.view.js */ "./node_modules/@msdyn365-commerce-modules/accordion/dist/lib/modules/accordion-item/accordion-item.view.js"),chunkName:()=>"@msdyn365-commerce-modules-accordion-dist-lib-modules-accordion-item-accordion-item.view"}),{chunkName:()=>'@msdyn365-commerce-modules-accordion-dist-lib-modules-accordion-item-accordion-item.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|accordion|modules|accordion|accordion']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/accordion/dist/lib/modules/accordion/accordion.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/accordion/dist/lib/modules/accordion/accordion.view.js */ "./node_modules/@msdyn365-commerce-modules/accordion/dist/lib/modules/accordion/accordion.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/accordion/dist/lib/modules/accordion/accordion.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/accordion/dist/lib/modules/accordion/accordion.view.js */ "./node_modules/@msdyn365-commerce-modules/accordion/dist/lib/modules/accordion/accordion.view.js"),chunkName:()=>"@msdyn365-commerce-modules-accordion-dist-lib-modules-accordion-accordion.view"}),{chunkName:()=>'@msdyn365-commerce-modules-accordion-dist-lib-modules-accordion-accordion.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|account-management|modules|account-address-tile|account-address-tile']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/account-management/dist/lib/modules/account-address-tile/account-address-tile.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/account-management/dist/lib/modules/account-address-tile/account-address-tile.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/account-address-tile/account-address-tile.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/account-management/dist/lib/modules/account-address-tile/account-address-tile.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/account-management/dist/lib/modules/account-address-tile/account-address-tile.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/account-address-tile/account-address-tile.view.js"),chunkName:()=>"@msdyn365-commerce-modules-account-management-dist-lib-modules-account-address-tile-account-address-tile.view"}),{chunkName:()=>'@msdyn365-commerce-modules-account-management-dist-lib-modules-account-address-tile-account-address-tile.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|account-management|modules|account-customer-balance-tile|account-customer-balance-tile']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/account-management/dist/lib/modules/account-customer-balance-tile/account-customer-balance-tile.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/account-management/dist/lib/modules/account-customer-balance-tile/account-customer-balance-tile.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/account-customer-balance-tile/account-customer-balance-tile.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/account-management/dist/lib/modules/account-customer-balance-tile/account-customer-balance-tile.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/account-management/dist/lib/modules/account-customer-balance-tile/account-customer-balance-tile.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/account-customer-balance-tile/account-customer-balance-tile.view.js"),chunkName:()=>"@msdyn365-commerce-modules-account-management-dist-lib-modules-account-customer-balance-tile-account-customer-balance-tile.view"}),{chunkName:()=>'@msdyn365-commerce-modules-account-management-dist-lib-modules-account-customer-balance-tile-account-customer-balance-tile.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|account-management|modules|account-customer-balance|account-customer-balance']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/account-management/dist/lib/modules/account-customer-balance/account-customer-balance.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/account-management/dist/lib/modules/account-customer-balance/account-customer-balance.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/account-customer-balance/account-customer-balance.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/account-management/dist/lib/modules/account-customer-balance/account-customer-balance.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/account-management/dist/lib/modules/account-customer-balance/account-customer-balance.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/account-customer-balance/account-customer-balance.view.js"),chunkName:()=>"@msdyn365-commerce-modules-account-management-dist-lib-modules-account-customer-balance-account-customer-balance.view"}),{chunkName:()=>'@msdyn365-commerce-modules-account-management-dist-lib-modules-account-customer-balance-account-customer-balance.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|account-management|modules|account-generic-tile|account-generic-tile']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/account-management/dist/lib/modules/account-generic-tile/account-generic-tile.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/account-management/dist/lib/modules/account-generic-tile/account-generic-tile.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/account-generic-tile/account-generic-tile.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/account-management/dist/lib/modules/account-generic-tile/account-generic-tile.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/account-management/dist/lib/modules/account-generic-tile/account-generic-tile.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/account-generic-tile/account-generic-tile.view.js"),chunkName:()=>"@msdyn365-commerce-modules-account-management-dist-lib-modules-account-generic-tile-account-generic-tile.view"}),{chunkName:()=>'@msdyn365-commerce-modules-account-management-dist-lib-modules-account-generic-tile-account-generic-tile.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|account-management|modules|account-loyalty-tile|account-loyalty-tile']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/account-management/dist/lib/modules/account-loyalty-tile/account-loyalty-tile.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/account-management/dist/lib/modules/account-loyalty-tile/account-loyalty-tile.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/account-loyalty-tile/account-loyalty-tile.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/account-management/dist/lib/modules/account-loyalty-tile/account-loyalty-tile.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/account-management/dist/lib/modules/account-loyalty-tile/account-loyalty-tile.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/account-loyalty-tile/account-loyalty-tile.view.js"),chunkName:()=>"@msdyn365-commerce-modules-account-management-dist-lib-modules-account-loyalty-tile-account-loyalty-tile.view"}),{chunkName:()=>'@msdyn365-commerce-modules-account-management-dist-lib-modules-account-loyalty-tile-account-loyalty-tile.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|account-management|modules|account-loyalty|account-loyalty']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/account-management/dist/lib/modules/account-loyalty/account-loyalty.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/account-management/dist/lib/modules/account-loyalty/account-loyalty.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/account-loyalty/account-loyalty.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/account-management/dist/lib/modules/account-loyalty/account-loyalty.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/account-management/dist/lib/modules/account-loyalty/account-loyalty.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/account-loyalty/account-loyalty.view.js"),chunkName:()=>"@msdyn365-commerce-modules-account-management-dist-lib-modules-account-loyalty-account-loyalty.view"}),{chunkName:()=>'@msdyn365-commerce-modules-account-management-dist-lib-modules-account-loyalty-account-loyalty.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|account-management|modules|account-order-templates-tile|account-order-templates-tile']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/account-management/dist/lib/modules/account-order-templates-tile/account-order-templates-tile.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/account-management/dist/lib/modules/account-order-templates-tile/account-order-templates-tile.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/account-order-templates-tile/account-order-templates-tile.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/account-management/dist/lib/modules/account-order-templates-tile/account-order-templates-tile.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/account-management/dist/lib/modules/account-order-templates-tile/account-order-templates-tile.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/account-order-templates-tile/account-order-templates-tile.view.js"),chunkName:()=>"@msdyn365-commerce-modules-account-management-dist-lib-modules-account-order-templates-tile-account-order-templates-tile.view"}),{chunkName:()=>'@msdyn365-commerce-modules-account-management-dist-lib-modules-account-order-templates-tile-account-order-templates-tile.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|account-management|modules|account-profile-edit|account-profile-edit']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/account-management/dist/lib/modules/account-profile-edit/account-profile-edit.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/account-management/dist/lib/modules/account-profile-edit/account-profile-edit.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/account-profile-edit/account-profile-edit.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/account-management/dist/lib/modules/account-profile-edit/account-profile-edit.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/account-management/dist/lib/modules/account-profile-edit/account-profile-edit.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/account-profile-edit/account-profile-edit.view.js"),chunkName:()=>"@msdyn365-commerce-modules-account-management-dist-lib-modules-account-profile-edit-account-profile-edit.view"}),{chunkName:()=>'@msdyn365-commerce-modules-account-management-dist-lib-modules-account-profile-edit-account-profile-edit.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|account-management|modules|account-profile|account-profile']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/account-management/dist/lib/modules/account-profile/account-profile.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/account-management/dist/lib/modules/account-profile/account-profile.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/account-profile/account-profile.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/account-management/dist/lib/modules/account-profile/account-profile.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/account-management/dist/lib/modules/account-profile/account-profile.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/account-profile/account-profile.view.js"),chunkName:()=>"@msdyn365-commerce-modules-account-management-dist-lib-modules-account-profile-account-profile.view"}),{chunkName:()=>'@msdyn365-commerce-modules-account-management-dist-lib-modules-account-profile-account-profile.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|account-management|modules|account-welcome-tile|account-welcome-tile']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/account-management/dist/lib/modules/account-welcome-tile/account-welcome-tile.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/account-management/dist/lib/modules/account-welcome-tile/account-welcome-tile.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/account-welcome-tile/account-welcome-tile.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/account-management/dist/lib/modules/account-welcome-tile/account-welcome-tile.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/account-management/dist/lib/modules/account-welcome-tile/account-welcome-tile.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/account-welcome-tile/account-welcome-tile.view.js"),chunkName:()=>"@msdyn365-commerce-modules-account-management-dist-lib-modules-account-welcome-tile-account-welcome-tile.view"}),{chunkName:()=>'@msdyn365-commerce-modules-account-management-dist-lib-modules-account-welcome-tile-account-welcome-tile.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|account-management|modules|account-wishlist-tile|account-wishlist-tile']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/account-management/dist/lib/modules/account-wishlist-tile/account-wishlist-tile.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/account-management/dist/lib/modules/account-wishlist-tile/account-wishlist-tile.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/account-wishlist-tile/account-wishlist-tile.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/account-management/dist/lib/modules/account-wishlist-tile/account-wishlist-tile.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/account-management/dist/lib/modules/account-wishlist-tile/account-wishlist-tile.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/account-wishlist-tile/account-wishlist-tile.view.js"),chunkName:()=>"@msdyn365-commerce-modules-account-management-dist-lib-modules-account-wishlist-tile-account-wishlist-tile.view"}),{chunkName:()=>'@msdyn365-commerce-modules-account-management-dist-lib-modules-account-wishlist-tile-account-wishlist-tile.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|account-management|modules|loyalty-sign-up|loyalty-sign-up']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/account-management/dist/lib/modules/loyalty-sign-up/loyalty-sign-up.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/account-management/dist/lib/modules/loyalty-sign-up/loyalty-sign-up.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/loyalty-sign-up/loyalty-sign-up.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/account-management/dist/lib/modules/loyalty-sign-up/loyalty-sign-up.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/account-management/dist/lib/modules/loyalty-sign-up/loyalty-sign-up.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/loyalty-sign-up/loyalty-sign-up.view.js"),chunkName:()=>"@msdyn365-commerce-modules-account-management-dist-lib-modules-loyalty-sign-up-loyalty-sign-up.view"}),{chunkName:()=>'@msdyn365-commerce-modules-account-management-dist-lib-modules-loyalty-sign-up-loyalty-sign-up.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|account-management|modules|loyalty-terms|loyalty-terms']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/account-management/dist/lib/modules/loyalty-terms/loyalty-terms.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/account-management/dist/lib/modules/loyalty-terms/loyalty-terms.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/loyalty-terms/loyalty-terms.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/account-management/dist/lib/modules/loyalty-terms/loyalty-terms.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/account-management/dist/lib/modules/loyalty-terms/loyalty-terms.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/loyalty-terms/loyalty-terms.view.js"),chunkName:()=>"@msdyn365-commerce-modules-account-management-dist-lib-modules-loyalty-terms-loyalty-terms.view"}),{chunkName:()=>'@msdyn365-commerce-modules-account-management-dist-lib-modules-loyalty-terms-loyalty-terms.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|account-management|modules|organization-users-tile|organization-users-tile']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/account-management/dist/lib/modules/organization-users-tile/organization-users-tile.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/account-management/dist/lib/modules/organization-users-tile/organization-users-tile.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/organization-users-tile/organization-users-tile.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/account-management/dist/lib/modules/organization-users-tile/organization-users-tile.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/account-management/dist/lib/modules/organization-users-tile/organization-users-tile.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/organization-users-tile/organization-users-tile.view.js"),chunkName:()=>"@msdyn365-commerce-modules-account-management-dist-lib-modules-organization-users-tile-organization-users-tile.view"}),{chunkName:()=>'@msdyn365-commerce-modules-account-management-dist-lib-modules-organization-users-tile-organization-users-tile.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|account-management|modules|password-reset-verification|password-reset-verification']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/account-management/dist/lib/modules/password-reset-verification/password-reset-verification.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/account-management/dist/lib/modules/password-reset-verification/password-reset-verification.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/password-reset-verification/password-reset-verification.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/account-management/dist/lib/modules/password-reset-verification/password-reset-verification.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/account-management/dist/lib/modules/password-reset-verification/password-reset-verification.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/password-reset-verification/password-reset-verification.view.js"),chunkName:()=>"@msdyn365-commerce-modules-account-management-dist-lib-modules-password-reset-verification-password-reset-verification.view"}),{chunkName:()=>'@msdyn365-commerce-modules-account-management-dist-lib-modules-password-reset-verification-password-reset-verification.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|account-management|modules|password-reset|password-reset']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/account-management/dist/lib/modules/password-reset/password-reset.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/account-management/dist/lib/modules/password-reset/password-reset.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/password-reset/password-reset.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/account-management/dist/lib/modules/password-reset/password-reset.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/account-management/dist/lib/modules/password-reset/password-reset.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/password-reset/password-reset.view.js"),chunkName:()=>"@msdyn365-commerce-modules-account-management-dist-lib-modules-password-reset-password-reset.view"}),{chunkName:()=>'@msdyn365-commerce-modules-account-management-dist-lib-modules-password-reset-password-reset.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|account-management|modules|sign-in|sign-in']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/account-management/dist/lib/modules/sign-in/sign-in.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/account-management/dist/lib/modules/sign-in/sign-in.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/sign-in/sign-in.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/account-management/dist/lib/modules/sign-in/sign-in.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/account-management/dist/lib/modules/sign-in/sign-in.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/sign-in/sign-in.view.js"),chunkName:()=>"@msdyn365-commerce-modules-account-management-dist-lib-modules-sign-in-sign-in.view"}),{chunkName:()=>'@msdyn365-commerce-modules-account-management-dist-lib-modules-sign-in-sign-in.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|account-management|modules|sign-up|sign-up']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/account-management/dist/lib/modules/sign-up/sign-up.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/account-management/dist/lib/modules/sign-up/sign-up.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/sign-up/sign-up.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/account-management/dist/lib/modules/sign-up/sign-up.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/account-management/dist/lib/modules/sign-up/sign-up.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/sign-up/sign-up.view.js"),chunkName:()=>"@msdyn365-commerce-modules-account-management-dist-lib-modules-sign-up-sign-up.view"}),{chunkName:()=>'@msdyn365-commerce-modules-account-management-dist-lib-modules-sign-up-sign-up.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|address|modules|account-management-address|account-management-address']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/address/dist/lib/modules/account-management-address/account-management-address.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/address/dist/lib/modules/account-management-address/account-management-address.view.js */ "./node_modules/@msdyn365-commerce-modules/address/dist/lib/modules/account-management-address/account-management-address.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/address/dist/lib/modules/account-management-address/account-management-address.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/address/dist/lib/modules/account-management-address/account-management-address.view.js */ "./node_modules/@msdyn365-commerce-modules/address/dist/lib/modules/account-management-address/account-management-address.view.js"),chunkName:()=>"@msdyn365-commerce-modules-address-dist-lib-modules-account-management-address-account-management-address.view"}),{chunkName:()=>'@msdyn365-commerce-modules-address-dist-lib-modules-account-management-address-account-management-address.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|address|modules|business-account-address|business-account-address']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/address/dist/lib/modules/business-account-address/business-account-address.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/address/dist/lib/modules/business-account-address/business-account-address.view.js */ "./node_modules/@msdyn365-commerce-modules/address/dist/lib/modules/business-account-address/business-account-address.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/address/dist/lib/modules/business-account-address/business-account-address.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/address/dist/lib/modules/business-account-address/business-account-address.view.js */ "./node_modules/@msdyn365-commerce-modules/address/dist/lib/modules/business-account-address/business-account-address.view.js"),chunkName:()=>"@msdyn365-commerce-modules-address-dist-lib-modules-business-account-address-business-account-address.view"}),{chunkName:()=>'@msdyn365-commerce-modules-address-dist-lib-modules-business-account-address-business-account-address.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|address|modules|checkout-billing-address|checkout-billing-address']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/address/dist/lib/modules/checkout-billing-address/checkout-billing-address.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/address/dist/lib/modules/checkout-billing-address/checkout-billing-address.view.js */ "./node_modules/@msdyn365-commerce-modules/address/dist/lib/modules/checkout-billing-address/checkout-billing-address.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/address/dist/lib/modules/checkout-billing-address/checkout-billing-address.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/address/dist/lib/modules/checkout-billing-address/checkout-billing-address.view.js */ "./node_modules/@msdyn365-commerce-modules/address/dist/lib/modules/checkout-billing-address/checkout-billing-address.view.js"),chunkName:()=>"@msdyn365-commerce-modules-address-dist-lib-modules-checkout-billing-address-checkout-billing-address.view"}),{chunkName:()=>'@msdyn365-commerce-modules-address-dist-lib-modules-checkout-billing-address-checkout-billing-address.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|address|modules|checkout-shipping-address|checkout-shipping-address']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/address/dist/lib/modules/checkout-shipping-address/checkout-shipping-address.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/address/dist/lib/modules/checkout-shipping-address/checkout-shipping-address.view.js */ "./node_modules/@msdyn365-commerce-modules/address/dist/lib/modules/checkout-shipping-address/checkout-shipping-address.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/address/dist/lib/modules/checkout-shipping-address/checkout-shipping-address.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/address/dist/lib/modules/checkout-shipping-address/checkout-shipping-address.view.js */ "./node_modules/@msdyn365-commerce-modules/address/dist/lib/modules/checkout-shipping-address/checkout-shipping-address.view.js"),chunkName:()=>"@msdyn365-commerce-modules-address-dist-lib-modules-checkout-shipping-address-checkout-shipping-address.view"}),{chunkName:()=>'@msdyn365-commerce-modules-address-dist-lib-modules-checkout-shipping-address-checkout-shipping-address.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|breadcrumb|modules|breadcrumb|breadcrumb']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/breadcrumb/dist/lib/modules/breadcrumb/breadcrumb.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/breadcrumb/dist/lib/modules/breadcrumb/breadcrumb.view.js */ "./node_modules/@msdyn365-commerce-modules/breadcrumb/dist/lib/modules/breadcrumb/breadcrumb.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/breadcrumb/dist/lib/modules/breadcrumb/breadcrumb.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/breadcrumb/dist/lib/modules/breadcrumb/breadcrumb.view.js */ "./node_modules/@msdyn365-commerce-modules/breadcrumb/dist/lib/modules/breadcrumb/breadcrumb.view.js"),chunkName:()=>"@msdyn365-commerce-modules-breadcrumb-dist-lib-modules-breadcrumb-breadcrumb.view"}),{chunkName:()=>'@msdyn365-commerce-modules-breadcrumb-dist-lib-modules-breadcrumb-breadcrumb.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|business-account-management|modules|business-sign-up|business-sign-up']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/business-account-management/dist/lib/modules/business-sign-up/business-sign-up.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/business-account-management/dist/lib/modules/business-sign-up/business-sign-up.view.js */ "./node_modules/@msdyn365-commerce-modules/business-account-management/dist/lib/modules/business-sign-up/business-sign-up.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/business-account-management/dist/lib/modules/business-sign-up/business-sign-up.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/business-account-management/dist/lib/modules/business-sign-up/business-sign-up.view.js */ "./node_modules/@msdyn365-commerce-modules/business-account-management/dist/lib/modules/business-sign-up/business-sign-up.view.js"),chunkName:()=>"@msdyn365-commerce-modules-business-account-management-dist-lib-modules-business-sign-up-business-sign-up.view"}),{chunkName:()=>'@msdyn365-commerce-modules-business-account-management-dist-lib-modules-business-sign-up-business-sign-up.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|business-organization-list|modules|business-organization-list|business-organization-list']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/business-organization-list/dist/lib/modules/business-organization-list/business-organization-list.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/business-organization-list/dist/lib/modules/business-organization-list/business-organization-list.view.js */ "./node_modules/@msdyn365-commerce-modules/business-organization-list/dist/lib/modules/business-organization-list/business-organization-list.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/business-organization-list/dist/lib/modules/business-organization-list/business-organization-list.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/business-organization-list/dist/lib/modules/business-organization-list/business-organization-list.view.js */ "./node_modules/@msdyn365-commerce-modules/business-organization-list/dist/lib/modules/business-organization-list/business-organization-list.view.js"),chunkName:()=>"@msdyn365-commerce-modules-business-organization-list-dist-lib-modules-business-organization-list-business-organization-list.view"}),{chunkName:()=>'@msdyn365-commerce-modules-business-organization-list-dist-lib-modules-business-organization-list-business-organization-list.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|buybox|modules|buybox|buybox']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/buybox/dist/lib/modules/buybox/buybox.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/buybox/dist/lib/modules/buybox/buybox.view.js */ "./node_modules/@msdyn365-commerce-modules/buybox/dist/lib/modules/buybox/buybox.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/buybox/dist/lib/modules/buybox/buybox.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/buybox/dist/lib/modules/buybox/buybox.view.js */ "./node_modules/@msdyn365-commerce-modules/buybox/dist/lib/modules/buybox/buybox.view.js"),chunkName:()=>"@msdyn365-commerce-modules-buybox-dist-lib-modules-buybox-buybox.view"}),{chunkName:()=>'@msdyn365-commerce-modules-buybox-dist-lib-modules-buybox-buybox.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|carousel|modules|carousel|carousel']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/carousel/dist/lib/modules/carousel/carousel.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/carousel/dist/lib/modules/carousel/carousel.view.js */ "./node_modules/@msdyn365-commerce-modules/carousel/dist/lib/modules/carousel/carousel.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/carousel/dist/lib/modules/carousel/carousel.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/carousel/dist/lib/modules/carousel/carousel.view.js */ "./node_modules/@msdyn365-commerce-modules/carousel/dist/lib/modules/carousel/carousel.view.js"),chunkName:()=>"@msdyn365-commerce-modules-carousel-dist-lib-modules-carousel-carousel.view"}),{chunkName:()=>'@msdyn365-commerce-modules-carousel-dist-lib-modules-carousel-carousel.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|cart|modules|cart-icon|cart-icon']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/cart/dist/lib/modules/cart-icon/cart-icon.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/cart/dist/lib/modules/cart-icon/cart-icon.view.js */ "./node_modules/@msdyn365-commerce-modules/cart/dist/lib/modules/cart-icon/cart-icon.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/cart/dist/lib/modules/cart-icon/cart-icon.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/cart/dist/lib/modules/cart-icon/cart-icon.view.js */ "./node_modules/@msdyn365-commerce-modules/cart/dist/lib/modules/cart-icon/cart-icon.view.js"),chunkName:()=>"@msdyn365-commerce-modules-cart-dist-lib-modules-cart-icon-cart-icon.view"}),{chunkName:()=>'@msdyn365-commerce-modules-cart-dist-lib-modules-cart-icon-cart-icon.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|cart|modules|cart|cart']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/cart/dist/lib/modules/cart/cart.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/cart/dist/lib/modules/cart/cart.view.js */ "./node_modules/@msdyn365-commerce-modules/cart/dist/lib/modules/cart/cart.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/cart/dist/lib/modules/cart/cart.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/cart/dist/lib/modules/cart/cart.view.js */ "./node_modules/@msdyn365-commerce-modules/cart/dist/lib/modules/cart/cart.view.js"),chunkName:()=>"@msdyn365-commerce-modules-cart-dist-lib-modules-cart-cart.view"}),{chunkName:()=>'@msdyn365-commerce-modules-cart-dist-lib-modules-cart-cart.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|checkout|modules|checkout-customer-account-payment|checkout-customer-account-payment']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-customer-account-payment/checkout-customer-account-payment.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-customer-account-payment/checkout-customer-account-payment.view.js */ "./node_modules/@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-customer-account-payment/checkout-customer-account-payment.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-customer-account-payment/checkout-customer-account-payment.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-customer-account-payment/checkout-customer-account-payment.view.js */ "./node_modules/@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-customer-account-payment/checkout-customer-account-payment.view.js"),chunkName:()=>"@msdyn365-commerce-modules-checkout-dist-lib-modules-checkout-customer-account-payment-checkout-customer-account-payment.view"}),{chunkName:()=>'@msdyn365-commerce-modules-checkout-dist-lib-modules-checkout-customer-account-payment-checkout-customer-account-payment.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|checkout|modules|checkout-delivery-options|checkout-delivery-options']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-delivery-options/checkout-delivery-options.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-delivery-options/checkout-delivery-options.view.js */ "./node_modules/@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-delivery-options/checkout-delivery-options.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-delivery-options/checkout-delivery-options.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-delivery-options/checkout-delivery-options.view.js */ "./node_modules/@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-delivery-options/checkout-delivery-options.view.js"),chunkName:()=>"@msdyn365-commerce-modules-checkout-dist-lib-modules-checkout-delivery-options-checkout-delivery-options.view"}),{chunkName:()=>'@msdyn365-commerce-modules-checkout-dist-lib-modules-checkout-delivery-options-checkout-delivery-options.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|checkout|modules|checkout-gift-card|checkout-gift-card']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-gift-card/checkout-gift-card.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-gift-card/checkout-gift-card.view.js */ "./node_modules/@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-gift-card/checkout-gift-card.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-gift-card/checkout-gift-card.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-gift-card/checkout-gift-card.view.js */ "./node_modules/@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-gift-card/checkout-gift-card.view.js"),chunkName:()=>"@msdyn365-commerce-modules-checkout-dist-lib-modules-checkout-gift-card-checkout-gift-card.view"}),{chunkName:()=>'@msdyn365-commerce-modules-checkout-dist-lib-modules-checkout-gift-card-checkout-gift-card.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|checkout|modules|checkout-guest-profile|checkout-guest-profile']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-guest-profile/checkout-guest-profile.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-guest-profile/checkout-guest-profile.view.js */ "./node_modules/@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-guest-profile/checkout-guest-profile.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-guest-profile/checkout-guest-profile.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-guest-profile/checkout-guest-profile.view.js */ "./node_modules/@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-guest-profile/checkout-guest-profile.view.js"),chunkName:()=>"@msdyn365-commerce-modules-checkout-dist-lib-modules-checkout-guest-profile-checkout-guest-profile.view"}),{chunkName:()=>'@msdyn365-commerce-modules-checkout-dist-lib-modules-checkout-guest-profile-checkout-guest-profile.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|checkout|modules|checkout-loyalty|checkout-loyalty']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-loyalty/checkout-loyalty.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-loyalty/checkout-loyalty.view.js */ "./node_modules/@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-loyalty/checkout-loyalty.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-loyalty/checkout-loyalty.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-loyalty/checkout-loyalty.view.js */ "./node_modules/@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-loyalty/checkout-loyalty.view.js"),chunkName:()=>"@msdyn365-commerce-modules-checkout-dist-lib-modules-checkout-loyalty-checkout-loyalty.view"}),{chunkName:()=>'@msdyn365-commerce-modules-checkout-dist-lib-modules-checkout-loyalty-checkout-loyalty.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|checkout|modules|checkout-payment-instrument|checkout-payment-instrument']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-payment-instrument/checkout-payment-instrument.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-payment-instrument/checkout-payment-instrument.view.js */ "./node_modules/@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-payment-instrument/checkout-payment-instrument.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-payment-instrument/checkout-payment-instrument.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-payment-instrument/checkout-payment-instrument.view.js */ "./node_modules/@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-payment-instrument/checkout-payment-instrument.view.js"),chunkName:()=>"@msdyn365-commerce-modules-checkout-dist-lib-modules-checkout-payment-instrument-checkout-payment-instrument.view"}),{chunkName:()=>'@msdyn365-commerce-modules-checkout-dist-lib-modules-checkout-payment-instrument-checkout-payment-instrument.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|checkout|modules|checkout-section-container|checkout-section-container']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-section-container/checkout-section-container.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-section-container/checkout-section-container.view.js */ "./node_modules/@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-section-container/checkout-section-container.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-section-container/checkout-section-container.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-section-container/checkout-section-container.view.js */ "./node_modules/@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-section-container/checkout-section-container.view.js"),chunkName:()=>"@msdyn365-commerce-modules-checkout-dist-lib-modules-checkout-section-container-checkout-section-container.view"}),{chunkName:()=>'@msdyn365-commerce-modules-checkout-dist-lib-modules-checkout-section-container-checkout-section-container.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|checkout|modules|checkout-terms-and-conditions|checkout-terms-and-conditions']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-terms-and-conditions/checkout-terms-and-conditions.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-terms-and-conditions/checkout-terms-and-conditions.view.js */ "./node_modules/@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-terms-and-conditions/checkout-terms-and-conditions.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-terms-and-conditions/checkout-terms-and-conditions.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-terms-and-conditions/checkout-terms-and-conditions.view.js */ "./node_modules/@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-terms-and-conditions/checkout-terms-and-conditions.view.js"),chunkName:()=>"@msdyn365-commerce-modules-checkout-dist-lib-modules-checkout-terms-and-conditions-checkout-terms-and-conditions.view"}),{chunkName:()=>'@msdyn365-commerce-modules-checkout-dist-lib-modules-checkout-terms-and-conditions-checkout-terms-and-conditions.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|checkout|modules|checkout|checkout']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout/checkout.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/checkout/dist/lib/modules/checkout/checkout.view.js */ "./node_modules/@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout/checkout.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout/checkout.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/checkout/dist/lib/modules/checkout/checkout.view.js */ "./node_modules/@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout/checkout.view.js"),chunkName:()=>"@msdyn365-commerce-modules-checkout-dist-lib-modules-checkout-checkout.view"}),{chunkName:()=>'@msdyn365-commerce-modules-checkout-dist-lib-modules-checkout-checkout.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|checkout|modules|gift-card-balance-check|gift-card-balance-check']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/checkout/dist/lib/modules/gift-card-balance-check/gift-card-balance-check.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/checkout/dist/lib/modules/gift-card-balance-check/gift-card-balance-check.view.js */ "./node_modules/@msdyn365-commerce-modules/checkout/dist/lib/modules/gift-card-balance-check/gift-card-balance-check.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/checkout/dist/lib/modules/gift-card-balance-check/gift-card-balance-check.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/checkout/dist/lib/modules/gift-card-balance-check/gift-card-balance-check.view.js */ "./node_modules/@msdyn365-commerce-modules/checkout/dist/lib/modules/gift-card-balance-check/gift-card-balance-check.view.js"),chunkName:()=>"@msdyn365-commerce-modules-checkout-dist-lib-modules-gift-card-balance-check-gift-card-balance-check.view"}),{chunkName:()=>'@msdyn365-commerce-modules-checkout-dist-lib-modules-gift-card-balance-check-gift-card-balance-check.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|content-block|modules|content-block|content-block']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/content-block/dist/lib/modules/content-block/content-block.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/content-block/dist/lib/modules/content-block/content-block.view.js */ "./node_modules/@msdyn365-commerce-modules/content-block/dist/lib/modules/content-block/content-block.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/content-block/dist/lib/modules/content-block/content-block.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/content-block/dist/lib/modules/content-block/content-block.view.js */ "./node_modules/@msdyn365-commerce-modules/content-block/dist/lib/modules/content-block/content-block.view.js"),chunkName:()=>"@msdyn365-commerce-modules-content-block-dist-lib-modules-content-block-content-block.view"}),{chunkName:()=>'@msdyn365-commerce-modules-content-block-dist-lib-modules-content-block-content-block.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|cookie-compliance|modules|cookie-compliance|cookie-compliance']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/cookie-compliance/dist/lib/modules/cookie-compliance/cookie-compliance.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/cookie-compliance/dist/lib/modules/cookie-compliance/cookie-compliance.view.js */ "./node_modules/@msdyn365-commerce-modules/cookie-compliance/dist/lib/modules/cookie-compliance/cookie-compliance.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/cookie-compliance/dist/lib/modules/cookie-compliance/cookie-compliance.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/cookie-compliance/dist/lib/modules/cookie-compliance/cookie-compliance.view.js */ "./node_modules/@msdyn365-commerce-modules/cookie-compliance/dist/lib/modules/cookie-compliance/cookie-compliance.view.js"),chunkName:()=>"@msdyn365-commerce-modules-cookie-compliance-dist-lib-modules-cookie-compliance-cookie-compliance.view"}),{chunkName:()=>'@msdyn365-commerce-modules-cookie-compliance-dist-lib-modules-cookie-compliance-cookie-compliance.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|fabrikam-design-kit|modules|fabrikam|views|buybox']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/buybox.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/buybox.view.js */ "./node_modules/@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/buybox.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/buybox.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/buybox.view.js */ "./node_modules/@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/buybox.view.js"),chunkName:()=>"@msdyn365-commerce-modules-fabrikam-design-kit-dist-lib-modules-fabrikam-views-buybox.view"}),{chunkName:()=>'@msdyn365-commerce-modules-fabrikam-design-kit-dist-lib-modules-fabrikam-views-buybox.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|fabrikam-design-kit|modules|fabrikam|views|cart']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/cart.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/cart.view.js */ "./node_modules/@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/cart.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/cart.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/cart.view.js */ "./node_modules/@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/cart.view.js"),chunkName:()=>"@msdyn365-commerce-modules-fabrikam-design-kit-dist-lib-modules-fabrikam-views-cart.view"}),{chunkName:()=>'@msdyn365-commerce-modules-fabrikam-design-kit-dist-lib-modules-fabrikam-views-cart.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|fabrikam-design-kit|modules|fabrikam|views|header']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/header.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/header.view.js */ "./node_modules/@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/header.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/header.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/header.view.js */ "./node_modules/@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/header.view.js"),chunkName:()=>"@msdyn365-commerce-modules-fabrikam-design-kit-dist-lib-modules-fabrikam-views-header.view"}),{chunkName:()=>'@msdyn365-commerce-modules-fabrikam-design-kit-dist-lib-modules-fabrikam-views-header.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|fabrikam-design-kit|modules|fabrikam|views|navigation-menu']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/navigation-menu.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/navigation-menu.view.js */ "./node_modules/@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/navigation-menu.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/navigation-menu.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/navigation-menu.view.js */ "./node_modules/@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/navigation-menu.view.js"),chunkName:()=>"@msdyn365-commerce-modules-fabrikam-design-kit-dist-lib-modules-fabrikam-views-navigation-menu.view"}),{chunkName:()=>'@msdyn365-commerce-modules-fabrikam-design-kit-dist-lib-modules-fabrikam-views-navigation-menu.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|fabrikam-design-kit|modules|fabrikam|views|order-details']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/order-details.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/order-details.view.js */ "./node_modules/@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/order-details.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/order-details.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/order-details.view.js */ "./node_modules/@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/order-details.view.js"),chunkName:()=>"@msdyn365-commerce-modules-fabrikam-design-kit-dist-lib-modules-fabrikam-views-order-details.view"}),{chunkName:()=>'@msdyn365-commerce-modules-fabrikam-design-kit-dist-lib-modules-fabrikam-views-order-details.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|fabrikam-design-kit|modules|fabrikam|views|order-history']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/order-history.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/order-history.view.js */ "./node_modules/@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/order-history.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/order-history.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/order-history.view.js */ "./node_modules/@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/order-history.view.js"),chunkName:()=>"@msdyn365-commerce-modules-fabrikam-design-kit-dist-lib-modules-fabrikam-views-order-history.view"}),{chunkName:()=>'@msdyn365-commerce-modules-fabrikam-design-kit-dist-lib-modules-fabrikam-views-order-history.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|fabrikam-design-kit|modules|fabrikam|views|ratings-histogram']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/ratings-histogram.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/ratings-histogram.view.js */ "./node_modules/@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/ratings-histogram.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/ratings-histogram.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/ratings-histogram.view.js */ "./node_modules/@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/ratings-histogram.view.js"),chunkName:()=>"@msdyn365-commerce-modules-fabrikam-design-kit-dist-lib-modules-fabrikam-views-ratings-histogram.view"}),{chunkName:()=>'@msdyn365-commerce-modules-fabrikam-design-kit-dist-lib-modules-fabrikam-views-ratings-histogram.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|fabrikam-design-kit|modules|fabrikam|views|reviews-list']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/reviews-list.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/reviews-list.view.js */ "./node_modules/@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/reviews-list.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/reviews-list.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/reviews-list.view.js */ "./node_modules/@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/reviews-list.view.js"),chunkName:()=>"@msdyn365-commerce-modules-fabrikam-design-kit-dist-lib-modules-fabrikam-views-reviews-list.view"}),{chunkName:()=>'@msdyn365-commerce-modules-fabrikam-design-kit-dist-lib-modules-fabrikam-views-reviews-list.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|fabrikam-design-kit|modules|fabrikam|views|search-result-container']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/search-result-container.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/search-result-container.view.js */ "./node_modules/@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/search-result-container.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/search-result-container.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/search-result-container.view.js */ "./node_modules/@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/search-result-container.view.js"),chunkName:()=>"@msdyn365-commerce-modules-fabrikam-design-kit-dist-lib-modules-fabrikam-views-search-result-container.view"}),{chunkName:()=>'@msdyn365-commerce-modules-fabrikam-design-kit-dist-lib-modules-fabrikam-views-search-result-container.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|footer|modules|footer-category|footer-category']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/footer/dist/lib/modules/footer-category/footer-category.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/footer/dist/lib/modules/footer-category/footer-category.view.js */ "./node_modules/@msdyn365-commerce-modules/footer/dist/lib/modules/footer-category/footer-category.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/footer/dist/lib/modules/footer-category/footer-category.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/footer/dist/lib/modules/footer-category/footer-category.view.js */ "./node_modules/@msdyn365-commerce-modules/footer/dist/lib/modules/footer-category/footer-category.view.js"),chunkName:()=>"@msdyn365-commerce-modules-footer-dist-lib-modules-footer-category-footer-category.view"}),{chunkName:()=>'@msdyn365-commerce-modules-footer-dist-lib-modules-footer-category-footer-category.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|footer|modules|footer-item|footer-item']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/footer/dist/lib/modules/footer-item/footer-item.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/footer/dist/lib/modules/footer-item/footer-item.view.js */ "./node_modules/@msdyn365-commerce-modules/footer/dist/lib/modules/footer-item/footer-item.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/footer/dist/lib/modules/footer-item/footer-item.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/footer/dist/lib/modules/footer-item/footer-item.view.js */ "./node_modules/@msdyn365-commerce-modules/footer/dist/lib/modules/footer-item/footer-item.view.js"),chunkName:()=>"@msdyn365-commerce-modules-footer-dist-lib-modules-footer-item-footer-item.view"}),{chunkName:()=>'@msdyn365-commerce-modules-footer-dist-lib-modules-footer-item-footer-item.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|header|modules|header|header']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/header/dist/lib/modules/header/header.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/header/dist/lib/modules/header/header.view.js */ "./node_modules/@msdyn365-commerce-modules/header/dist/lib/modules/header/header.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/header/dist/lib/modules/header/header.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/header/dist/lib/modules/header/header.view.js */ "./node_modules/@msdyn365-commerce-modules/header/dist/lib/modules/header/header.view.js"),chunkName:()=>"@msdyn365-commerce-modules-header-dist-lib-modules-header-header.view"}),{chunkName:()=>'@msdyn365-commerce-modules-header-dist-lib-modules-header-header.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|iframe|modules|iframe|iframe']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/iframe/dist/lib/modules/iframe/iframe.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/iframe/dist/lib/modules/iframe/iframe.view.js */ "./node_modules/@msdyn365-commerce-modules/iframe/dist/lib/modules/iframe/iframe.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/iframe/dist/lib/modules/iframe/iframe.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/iframe/dist/lib/modules/iframe/iframe.view.js */ "./node_modules/@msdyn365-commerce-modules/iframe/dist/lib/modules/iframe/iframe.view.js"),chunkName:()=>"@msdyn365-commerce-modules-iframe-dist-lib-modules-iframe-iframe.view"}),{chunkName:()=>'@msdyn365-commerce-modules-iframe-dist-lib-modules-iframe-iframe.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|map|modules|map|map']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/map/dist/lib/modules/map/map.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/map/dist/lib/modules/map/map.view.js */ "./node_modules/@msdyn365-commerce-modules/map/dist/lib/modules/map/map.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/map/dist/lib/modules/map/map.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/map/dist/lib/modules/map/map.view.js */ "./node_modules/@msdyn365-commerce-modules/map/dist/lib/modules/map/map.view.js"),chunkName:()=>"@msdyn365-commerce-modules-map-dist-lib-modules-map-map.view"}),{chunkName:()=>'@msdyn365-commerce-modules-map-dist-lib-modules-map-map.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|media-gallery|modules|media-gallery|media-gallery']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/media-gallery/dist/lib/modules/media-gallery/media-gallery.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/media-gallery/dist/lib/modules/media-gallery/media-gallery.view.js */ "./node_modules/@msdyn365-commerce-modules/media-gallery/dist/lib/modules/media-gallery/media-gallery.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/media-gallery/dist/lib/modules/media-gallery/media-gallery.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/media-gallery/dist/lib/modules/media-gallery/media-gallery.view.js */ "./node_modules/@msdyn365-commerce-modules/media-gallery/dist/lib/modules/media-gallery/media-gallery.view.js"),chunkName:()=>"@msdyn365-commerce-modules-media-gallery-dist-lib-modules-media-gallery-media-gallery.view"}),{chunkName:()=>'@msdyn365-commerce-modules-media-gallery-dist-lib-modules-media-gallery-media-gallery.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|navigation-menu|modules|navigation-menu|navigation-menu']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/navigation-menu/dist/lib/modules/navigation-menu/navigation-menu.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/navigation-menu/dist/lib/modules/navigation-menu/navigation-menu.view.js */ "./node_modules/@msdyn365-commerce-modules/navigation-menu/dist/lib/modules/navigation-menu/navigation-menu.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/navigation-menu/dist/lib/modules/navigation-menu/navigation-menu.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/navigation-menu/dist/lib/modules/navigation-menu/navigation-menu.view.js */ "./node_modules/@msdyn365-commerce-modules/navigation-menu/dist/lib/modules/navigation-menu/navigation-menu.view.js"),chunkName:()=>"@msdyn365-commerce-modules-navigation-menu-dist-lib-modules-navigation-menu-navigation-menu.view"}),{chunkName:()=>'@msdyn365-commerce-modules-navigation-menu-dist-lib-modules-navigation-menu-navigation-menu.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|order-management|modules|checkout-order-confirmation|checkout-order-confirmation']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/order-management/dist/lib/modules/checkout-order-confirmation/checkout-order-confirmation.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/order-management/dist/lib/modules/checkout-order-confirmation/checkout-order-confirmation.view.js */ "./node_modules/@msdyn365-commerce-modules/order-management/dist/lib/modules/checkout-order-confirmation/checkout-order-confirmation.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/order-management/dist/lib/modules/checkout-order-confirmation/checkout-order-confirmation.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/order-management/dist/lib/modules/checkout-order-confirmation/checkout-order-confirmation.view.js */ "./node_modules/@msdyn365-commerce-modules/order-management/dist/lib/modules/checkout-order-confirmation/checkout-order-confirmation.view.js"),chunkName:()=>"@msdyn365-commerce-modules-order-management-dist-lib-modules-checkout-order-confirmation-checkout-order-confirmation.view"}),{chunkName:()=>'@msdyn365-commerce-modules-order-management-dist-lib-modules-checkout-order-confirmation-checkout-order-confirmation.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|order-management|modules|order-confirmation|order-confirmation']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/order-management/dist/lib/modules/order-confirmation/order-confirmation.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/order-management/dist/lib/modules/order-confirmation/order-confirmation.view.js */ "./node_modules/@msdyn365-commerce-modules/order-management/dist/lib/modules/order-confirmation/order-confirmation.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/order-management/dist/lib/modules/order-confirmation/order-confirmation.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/order-management/dist/lib/modules/order-confirmation/order-confirmation.view.js */ "./node_modules/@msdyn365-commerce-modules/order-management/dist/lib/modules/order-confirmation/order-confirmation.view.js"),chunkName:()=>"@msdyn365-commerce-modules-order-management-dist-lib-modules-order-confirmation-order-confirmation.view"}),{chunkName:()=>'@msdyn365-commerce-modules-order-management-dist-lib-modules-order-confirmation-order-confirmation.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|order-management|modules|order-details|order-details']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/order-management/dist/lib/modules/order-details/order-details.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/order-management/dist/lib/modules/order-details/order-details.view.js */ "./node_modules/@msdyn365-commerce-modules/order-management/dist/lib/modules/order-details/order-details.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/order-management/dist/lib/modules/order-details/order-details.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/order-management/dist/lib/modules/order-details/order-details.view.js */ "./node_modules/@msdyn365-commerce-modules/order-management/dist/lib/modules/order-details/order-details.view.js"),chunkName:()=>"@msdyn365-commerce-modules-order-management-dist-lib-modules-order-details-order-details.view"}),{chunkName:()=>'@msdyn365-commerce-modules-order-management-dist-lib-modules-order-details-order-details.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|order-management|modules|order-history|order-history']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/order-management/dist/lib/modules/order-history/order-history.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/order-management/dist/lib/modules/order-history/order-history.view.js */ "./node_modules/@msdyn365-commerce-modules/order-management/dist/lib/modules/order-history/order-history.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/order-management/dist/lib/modules/order-history/order-history.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/order-management/dist/lib/modules/order-history/order-history.view.js */ "./node_modules/@msdyn365-commerce-modules/order-management/dist/lib/modules/order-history/order-history.view.js"),chunkName:()=>"@msdyn365-commerce-modules-order-management-dist-lib-modules-order-history-order-history.view"}),{chunkName:()=>'@msdyn365-commerce-modules-order-management-dist-lib-modules-order-history-order-history.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|order-template|modules|order-template-list|order-template-list']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/order-template/dist/lib/modules/order-template-list/order-template-list.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/order-template/dist/lib/modules/order-template-list/order-template-list.view.js */ "./node_modules/@msdyn365-commerce-modules/order-template/dist/lib/modules/order-template-list/order-template-list.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/order-template/dist/lib/modules/order-template-list/order-template-list.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/order-template/dist/lib/modules/order-template-list/order-template-list.view.js */ "./node_modules/@msdyn365-commerce-modules/order-template/dist/lib/modules/order-template-list/order-template-list.view.js"),chunkName:()=>"@msdyn365-commerce-modules-order-template-dist-lib-modules-order-template-list-order-template-list.view"}),{chunkName:()=>'@msdyn365-commerce-modules-order-template-dist-lib-modules-order-template-list-order-template-list.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|order-template|modules|order-template|order-template']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/order-template/dist/lib/modules/order-template/order-template.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/order-template/dist/lib/modules/order-template/order-template.view.js */ "./node_modules/@msdyn365-commerce-modules/order-template/dist/lib/modules/order-template/order-template.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/order-template/dist/lib/modules/order-template/order-template.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/order-template/dist/lib/modules/order-template/order-template.view.js */ "./node_modules/@msdyn365-commerce-modules/order-template/dist/lib/modules/order-template/order-template.view.js"),chunkName:()=>"@msdyn365-commerce-modules-order-template-dist-lib-modules-order-template-order-template.view"}),{chunkName:()=>'@msdyn365-commerce-modules-order-template-dist-lib-modules-order-template-order-template.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|product-collection|modules|product-collection|product-collection']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/product-collection/dist/lib/modules/product-collection/product-collection.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/product-collection/dist/lib/modules/product-collection/product-collection.view.js */ "./node_modules/@msdyn365-commerce-modules/product-collection/dist/lib/modules/product-collection/product-collection.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/product-collection/dist/lib/modules/product-collection/product-collection.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/product-collection/dist/lib/modules/product-collection/product-collection.view.js */ "./node_modules/@msdyn365-commerce-modules/product-collection/dist/lib/modules/product-collection/product-collection.view.js"),chunkName:()=>"@msdyn365-commerce-modules-product-collection-dist-lib-modules-product-collection-product-collection.view"}),{chunkName:()=>'@msdyn365-commerce-modules-product-collection-dist-lib-modules-product-collection-product-collection.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|product-specification|modules|product-specification|product-specification']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/product-specification/dist/lib/modules/product-specification/product-specification.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/product-specification/dist/lib/modules/product-specification/product-specification.view.js */ "./node_modules/@msdyn365-commerce-modules/product-specification/dist/lib/modules/product-specification/product-specification.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/product-specification/dist/lib/modules/product-specification/product-specification.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/product-specification/dist/lib/modules/product-specification/product-specification.view.js */ "./node_modules/@msdyn365-commerce-modules/product-specification/dist/lib/modules/product-specification/product-specification.view.js"),chunkName:()=>"@msdyn365-commerce-modules-product-specification-dist-lib-modules-product-specification-product-specification.view"}),{chunkName:()=>'@msdyn365-commerce-modules-product-specification-dist-lib-modules-product-specification-product-specification.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|promo-banner|modules|promo-banner|promo-banner']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/promo-banner/dist/lib/modules/promo-banner/promo-banner.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/promo-banner/dist/lib/modules/promo-banner/promo-banner.view.js */ "./node_modules/@msdyn365-commerce-modules/promo-banner/dist/lib/modules/promo-banner/promo-banner.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/promo-banner/dist/lib/modules/promo-banner/promo-banner.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/promo-banner/dist/lib/modules/promo-banner/promo-banner.view.js */ "./node_modules/@msdyn365-commerce-modules/promo-banner/dist/lib/modules/promo-banner/promo-banner.view.js"),chunkName:()=>"@msdyn365-commerce-modules-promo-banner-dist-lib-modules-promo-banner-promo-banner.view"}),{chunkName:()=>'@msdyn365-commerce-modules-promo-banner-dist-lib-modules-promo-banner-promo-banner.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|ratings-reviews|modules|ratings-histogram|ratings-histogram']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/ratings-reviews/dist/lib/modules/ratings-histogram/ratings-histogram.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/ratings-reviews/dist/lib/modules/ratings-histogram/ratings-histogram.view.js */ "./node_modules/@msdyn365-commerce-modules/ratings-reviews/dist/lib/modules/ratings-histogram/ratings-histogram.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/ratings-reviews/dist/lib/modules/ratings-histogram/ratings-histogram.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/ratings-reviews/dist/lib/modules/ratings-histogram/ratings-histogram.view.js */ "./node_modules/@msdyn365-commerce-modules/ratings-reviews/dist/lib/modules/ratings-histogram/ratings-histogram.view.js"),chunkName:()=>"@msdyn365-commerce-modules-ratings-reviews-dist-lib-modules-ratings-histogram-ratings-histogram.view"}),{chunkName:()=>'@msdyn365-commerce-modules-ratings-reviews-dist-lib-modules-ratings-histogram-ratings-histogram.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|ratings-reviews|modules|reviews-list|reviews-list']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/ratings-reviews/dist/lib/modules/reviews-list/reviews-list.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/ratings-reviews/dist/lib/modules/reviews-list/reviews-list.view.js */ "./node_modules/@msdyn365-commerce-modules/ratings-reviews/dist/lib/modules/reviews-list/reviews-list.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/ratings-reviews/dist/lib/modules/reviews-list/reviews-list.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/ratings-reviews/dist/lib/modules/reviews-list/reviews-list.view.js */ "./node_modules/@msdyn365-commerce-modules/ratings-reviews/dist/lib/modules/reviews-list/reviews-list.view.js"),chunkName:()=>"@msdyn365-commerce-modules-ratings-reviews-dist-lib-modules-reviews-list-reviews-list.view"}),{chunkName:()=>'@msdyn365-commerce-modules-ratings-reviews-dist-lib-modules-reviews-list-reviews-list.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|ratings-reviews|modules|write-review|write-review']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/ratings-reviews/dist/lib/modules/write-review/write-review.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/ratings-reviews/dist/lib/modules/write-review/write-review.view.js */ "./node_modules/@msdyn365-commerce-modules/ratings-reviews/dist/lib/modules/write-review/write-review.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/ratings-reviews/dist/lib/modules/write-review/write-review.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/ratings-reviews/dist/lib/modules/write-review/write-review.view.js */ "./node_modules/@msdyn365-commerce-modules/ratings-reviews/dist/lib/modules/write-review/write-review.view.js"),chunkName:()=>"@msdyn365-commerce-modules-ratings-reviews-dist-lib-modules-write-review-write-review.view"}),{chunkName:()=>'@msdyn365-commerce-modules-ratings-reviews-dist-lib-modules-write-review-write-review.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|search-result-container|modules|search-result-container|search-result-container']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/search-result-container/dist/lib/modules/search-result-container/search-result-container.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/search-result-container/dist/lib/modules/search-result-container/search-result-container.view.js */ "./node_modules/@msdyn365-commerce-modules/search-result-container/dist/lib/modules/search-result-container/search-result-container.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/search-result-container/dist/lib/modules/search-result-container/search-result-container.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/search-result-container/dist/lib/modules/search-result-container/search-result-container.view.js */ "./node_modules/@msdyn365-commerce-modules/search-result-container/dist/lib/modules/search-result-container/search-result-container.view.js"),chunkName:()=>"@msdyn365-commerce-modules-search-result-container-dist-lib-modules-search-result-container-search-result-container.view"}),{chunkName:()=>'@msdyn365-commerce-modules-search-result-container-dist-lib-modules-search-result-container-search-result-container.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|search|modules|search|search']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/search/dist/lib/modules/search/search.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/search/dist/lib/modules/search/search.view.js */ "./node_modules/@msdyn365-commerce-modules/search/dist/lib/modules/search/search.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/search/dist/lib/modules/search/search.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/search/dist/lib/modules/search/search.view.js */ "./node_modules/@msdyn365-commerce-modules/search/dist/lib/modules/search/search.view.js"),chunkName:()=>"@msdyn365-commerce-modules-search-dist-lib-modules-search-search.view"}),{chunkName:()=>'@msdyn365-commerce-modules-search-dist-lib-modules-search-search.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|site-picker|modules|site-picker|site-picker']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/site-picker/dist/lib/modules/site-picker/site-picker.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/site-picker/dist/lib/modules/site-picker/site-picker.view.js */ "./node_modules/@msdyn365-commerce-modules/site-picker/dist/lib/modules/site-picker/site-picker.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/site-picker/dist/lib/modules/site-picker/site-picker.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/site-picker/dist/lib/modules/site-picker/site-picker.view.js */ "./node_modules/@msdyn365-commerce-modules/site-picker/dist/lib/modules/site-picker/site-picker.view.js"),chunkName:()=>"@msdyn365-commerce-modules-site-picker-dist-lib-modules-site-picker-site-picker.view"}),{chunkName:()=>'@msdyn365-commerce-modules-site-picker-dist-lib-modules-site-picker-site-picker.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|social-share|modules|social-share-item|social-share-item']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/social-share/dist/lib/modules/social-share-item/social-share-item.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/social-share/dist/lib/modules/social-share-item/social-share-item.view.js */ "./node_modules/@msdyn365-commerce-modules/social-share/dist/lib/modules/social-share-item/social-share-item.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/social-share/dist/lib/modules/social-share-item/social-share-item.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/social-share/dist/lib/modules/social-share-item/social-share-item.view.js */ "./node_modules/@msdyn365-commerce-modules/social-share/dist/lib/modules/social-share-item/social-share-item.view.js"),chunkName:()=>"@msdyn365-commerce-modules-social-share-dist-lib-modules-social-share-item-social-share-item.view"}),{chunkName:()=>'@msdyn365-commerce-modules-social-share-dist-lib-modules-social-share-item-social-share-item.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|social-share|modules|social-share|social-share']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/social-share/dist/lib/modules/social-share/social-share.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/social-share/dist/lib/modules/social-share/social-share.view.js */ "./node_modules/@msdyn365-commerce-modules/social-share/dist/lib/modules/social-share/social-share.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/social-share/dist/lib/modules/social-share/social-share.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/social-share/dist/lib/modules/social-share/social-share.view.js */ "./node_modules/@msdyn365-commerce-modules/social-share/dist/lib/modules/social-share/social-share.view.js"),chunkName:()=>"@msdyn365-commerce-modules-social-share-dist-lib-modules-social-share-social-share.view"}),{chunkName:()=>'@msdyn365-commerce-modules-social-share-dist-lib-modules-social-share-social-share.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|spacer|modules|spacer|spacer']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/spacer/dist/lib/modules/spacer/spacer.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/spacer/dist/lib/modules/spacer/spacer.view.js */ "./node_modules/@msdyn365-commerce-modules/spacer/dist/lib/modules/spacer/spacer.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/spacer/dist/lib/modules/spacer/spacer.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/spacer/dist/lib/modules/spacer/spacer.view.js */ "./node_modules/@msdyn365-commerce-modules/spacer/dist/lib/modules/spacer/spacer.view.js"),chunkName:()=>"@msdyn365-commerce-modules-spacer-dist-lib-modules-spacer-spacer.view"}),{chunkName:()=>'@msdyn365-commerce-modules-spacer-dist-lib-modules-spacer-spacer.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|store-selector|modules|store-selector|store-selector']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/store-selector/dist/lib/modules/store-selector/store-selector.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/store-selector/dist/lib/modules/store-selector/store-selector.view.js */ "./node_modules/@msdyn365-commerce-modules/store-selector/dist/lib/modules/store-selector/store-selector.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/store-selector/dist/lib/modules/store-selector/store-selector.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/store-selector/dist/lib/modules/store-selector/store-selector.view.js */ "./node_modules/@msdyn365-commerce-modules/store-selector/dist/lib/modules/store-selector/store-selector.view.js"),chunkName:()=>"@msdyn365-commerce-modules-store-selector-dist-lib-modules-store-selector-store-selector.view"}),{chunkName:()=>'@msdyn365-commerce-modules-store-selector-dist-lib-modules-store-selector-store-selector.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|tab|modules|tab-item|tab-item']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/tab/dist/lib/modules/tab-item/tab-item.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/tab/dist/lib/modules/tab-item/tab-item.view.js */ "./node_modules/@msdyn365-commerce-modules/tab/dist/lib/modules/tab-item/tab-item.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/tab/dist/lib/modules/tab-item/tab-item.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/tab/dist/lib/modules/tab-item/tab-item.view.js */ "./node_modules/@msdyn365-commerce-modules/tab/dist/lib/modules/tab-item/tab-item.view.js"),chunkName:()=>"@msdyn365-commerce-modules-tab-dist-lib-modules-tab-item-tab-item.view"}),{chunkName:()=>'@msdyn365-commerce-modules-tab-dist-lib-modules-tab-item-tab-item.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|tab|modules|tab|tab']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/tab/dist/lib/modules/tab/tab.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/tab/dist/lib/modules/tab/tab.view.js */ "./node_modules/@msdyn365-commerce-modules/tab/dist/lib/modules/tab/tab.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/tab/dist/lib/modules/tab/tab.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/tab/dist/lib/modules/tab/tab.view.js */ "./node_modules/@msdyn365-commerce-modules/tab/dist/lib/modules/tab/tab.view.js"),chunkName:()=>"@msdyn365-commerce-modules-tab-dist-lib-modules-tab-tab.view"}),{chunkName:()=>'@msdyn365-commerce-modules-tab-dist-lib-modules-tab-tab.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|text-block|modules|text-block|text-block']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/text-block/dist/lib/modules/text-block/text-block.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/text-block/dist/lib/modules/text-block/text-block.view.js */ "./node_modules/@msdyn365-commerce-modules/text-block/dist/lib/modules/text-block/text-block.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/text-block/dist/lib/modules/text-block/text-block.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/text-block/dist/lib/modules/text-block/text-block.view.js */ "./node_modules/@msdyn365-commerce-modules/text-block/dist/lib/modules/text-block/text-block.view.js"),chunkName:()=>"@msdyn365-commerce-modules-text-block-dist-lib-modules-text-block-text-block.view"}),{chunkName:()=>'@msdyn365-commerce-modules-text-block-dist-lib-modules-text-block-text-block.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|video-player|modules|video-player|video-player']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/video-player/dist/lib/modules/video-player/video-player.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/video-player/dist/lib/modules/video-player/video-player.view.js */ "./node_modules/@msdyn365-commerce-modules/video-player/dist/lib/modules/video-player/video-player.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/video-player/dist/lib/modules/video-player/video-player.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/video-player/dist/lib/modules/video-player/video-player.view.js */ "./node_modules/@msdyn365-commerce-modules/video-player/dist/lib/modules/video-player/video-player.view.js"),chunkName:()=>"@msdyn365-commerce-modules-video-player-dist-lib-modules-video-player-video-player.view"}),{chunkName:()=>'@msdyn365-commerce-modules-video-player-dist-lib-modules-video-player-video-player.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|wishlist|modules|wishlist-items|wishlist-items']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/wishlist/dist/lib/modules/wishlist-items/wishlist-items.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/wishlist/dist/lib/modules/wishlist-items/wishlist-items.view.js */ "./node_modules/@msdyn365-commerce-modules/wishlist/dist/lib/modules/wishlist-items/wishlist-items.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/wishlist/dist/lib/modules/wishlist-items/wishlist-items.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/wishlist/dist/lib/modules/wishlist-items/wishlist-items.view.js */ "./node_modules/@msdyn365-commerce-modules/wishlist/dist/lib/modules/wishlist-items/wishlist-items.view.js"),chunkName:()=>"@msdyn365-commerce-modules-wishlist-dist-lib-modules-wishlist-items-wishlist-items.view"}),{chunkName:()=>'@msdyn365-commerce-modules-wishlist-dist-lib-modules-wishlist-items-wishlist-items.view.js',ignoreBabelRename:true})};
 /* WEBPACK VAR INJECTION */}.call(this, "/"))
 
 /***/ }),
@@ -3017,7 +3019,7 @@ const _renderCartlines=(cartLines,props)=>{if(!cartLines){props.context.telemetr
   !*** ./node_modules/@msdyn365-commerce-modules/cart/dist/lib/modules/cart/cart.js + 2 modules ***!
   \************************************************************************************************/
 /*! exports provided: default */
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@msdyn365-commerce-modules/order-summary-utilities/dist/lib/index.js because of ./node_modules/@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout/checkout.js */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@msdyn365-commerce-modules/order-summary-utilities/dist/lib/index.js because of ./src/modules/cart/cart.tsx */
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/index.js (<- Module is referenced from these modules with unsupported syntax: ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/popup/Popup.js (referenced with cjs require)) */
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/index.js (<- Module is not an ECMAScript module) */
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@msdyn365-commerce/components/dist/lib/index.js */
@@ -8106,7 +8108,7 @@ if(!input){throw new Error('[getAvailabilitiesForCartLineItems]No valid Input wa
   !*** ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-categories-hierarchy.js ***!
   \*****************************************************************************************************/
 /*! exports provided: CategoriesInput, mapCategoryToHierarchy, createCategoriesHierarchyInput, getCategoryHierarchyAction, default */
-/*! ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: ./lib/module-registration.js (referenced with cjs require) */
+/*! ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: ./lib/module-registration.js (referenced with cjs require), ./lib/module-registration.local.js (referenced with cjs require) */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8203,7 +8205,7 @@ __webpack_require__.r(__webpack_exports__);
   !*** ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-current-category-hierarchy.js ***!
   \***********************************************************************************************************/
 /*! exports provided: CurrentCategoryHierarchyInput, createCategoriesHierarchyInput, getCurrentCategoryHierarchyAction, default */
-/*! ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: ./lib/module-registration.js (referenced with cjs require) */
+/*! ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: ./lib/module-registration.js (referenced with cjs require), ./lib/module-registration.local.js (referenced with cjs require) */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8234,7 +8236,7 @@ this.getCacheObjectType=()=>'CurrentCategoryHierarchy';this.getCacheKey=()=>"".c
   !*** ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-current-category.js ***!
   \*************************************************************************************************/
 /*! exports provided: CurrentCategoryInput, createGetCurrentCategoryInput, searchCategory, getCurrentCategoryAction, default */
-/*! ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: ./lib/module-registration.js (referenced with cjs require) */
+/*! ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: ./lib/module-registration.js (referenced with cjs require), ./lib/module-registration.local.js (referenced with cjs require) */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8342,7 +8344,7 @@ return Object(_msdyn365_commerce_retail_proxy_dist_DataActions_CustomersDataActi
   !*** ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-delivery-options-for-cartlines.js ***!
   \***************************************************************************************************************/
 /*! exports provided: ProductDeliveryOptionsForCartLineItems, getDeliveryOptionsForCartLineItems, default */
-/*! ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: ./lib/module-registration.js (referenced with cjs require) */
+/*! ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: ./lib/module-registration.js (referenced with cjs require), ./lib/module-registration.local.js (referenced with cjs require) */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8437,7 +8439,7 @@ null);const fullDimension=_objectSpread(_objectSpread({},dimension),{},{Dimensio
   !*** ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-feature-state.js ***!
   \**********************************************************************************************/
 /*! exports provided: FeatureStateInput, createGetFeatureStateInput, getFeatureStateAction, default */
-/*! ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: ./lib/module-registration.js (referenced with cjs require) */
+/*! ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: ./lib/module-registration.js (referenced with cjs require), ./lib/module-registration.local.js (referenced with cjs require) */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8523,7 +8525,7 @@ const storeMap=new Map();stores.forEach(store=>{if(store.InventoryLocationId){st
   !*** ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-items-in-wishlist.js ***!
   \**************************************************************************************************/
 /*! exports provided: ActiveWishlistInput, getActiveWishlistItems, default */
-/*! ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: ./lib/module-registration.js (referenced with cjs require) */
+/*! ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: ./lib/module-registration.js (referenced with cjs require), ./lib/module-registration.local.js (referenced with cjs require) */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8781,7 +8783,7 @@ __webpack_require__.r(__webpack_exports__);
   !*** ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-products-in-active-cart.js ***!
   \********************************************************************************************************/
 /*! exports provided: ActiveCartProductsInput, getActiveCartProductsAction, default */
-/*! ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: ./lib/module-registration.js (referenced with cjs require) */
+/*! ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: ./lib/module-registration.js (referenced with cjs require), ./lib/module-registration.local.js (referenced with cjs require) */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8835,7 +8837,7 @@ __webpack_require__.r(__webpack_exports__);
   !*** ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-selected-variant.js ***!
   \*************************************************************************************************/
 /*! exports provided: SelectedVariantInput, default */
-/*! ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: ./lib/module-registration.js (referenced with cjs require) */
+/*! ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: ./lib/module-registration.js (referenced with cjs require), ./lib/module-registration.local.js (referenced with cjs require) */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8913,7 +8915,7 @@ return[];}const searchArea={Latitude:input.Latitude,Longitude:input.Longitude,Ra
   !*** ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-wishlist-by-customer-id.js ***!
   \********************************************************************************************************/
 /*! exports provided: default */
-/*! ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: ./lib/module-registration.js (referenced with cjs require) */
+/*! ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: ./lib/module-registration.js (referenced with cjs require), ./lib/module-registration.local.js (referenced with cjs require) */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8935,20 +8937,20 @@ const createWishlistInput=inputData=>{if(inputData.requestContext&&inputData.req
 /*! exports provided: getCategoryUrl, getCategorySlug, getProductUrlSync, getProductPageUrlSync, parameterize, OrderTemplateLine, OrderTemplate, getOrderTemplates, GetOrderTemplatesInput, createGetOrderTemplatesInput, AddOrganizationUserInput, addOrganizationUser, addAddress, AddressInput, AddressManagementInput, buildCacheKey, buildCacheKeyWithUrlTokens, buildCartLine, buildQueryResultSettings, buildWishlistLine, CategoriesInput, checkout, CheckOutInput, createGetFeatureStateInput, createRefinersByCategoryInput, createRefinersByTextInput, CurrentCategoryInput, deleteAddress, deleteOrganizationUser, DeleteOrganizationUserInput, editOrganizationUser, EditOrganizationUserInput, FullProductInput, FullProductsRefineSearchByCategoryInput, FullProductsRefineSearchByTextInput, generateImageUrl, generateProductImageUrl, GenericInput, getAddress, getAttributeDefinitions, GetAttributeDefinitionsInput, getCategories, getCategoriesHierarchy, getCheckoutCart, GetCheckoutCartInput, getCurrentCategory, getCurrentCategoryHierarchy, getCustomer, GetCustomerInput, getCustomerBalance, GetCustomerBalanceInput, getCustomerLoyaltyCards, getDeliveryOptionsForSelectedVariant, GetDeliveryOptionsForSelectedVariantInput, getDeliveryOptionsForCartLineItems, getDimensionsForSelectedVariant, GetDimensionsForSelectedVariantInput, getFeatureState, getFullAvailableInventoryNearby, GetFullAvailableInventoryNearbyInput, getOrganizationUsersCount, getOrgUnitLocationsByArea, GetOrgUnitLocationsByAreaInput, getFullProducts, getFullProductByRefineSearchCategory, getFullProductByRefineSearchText, getGenericAction, getList, getLoyalty, GetLoyaltyCardInput, getLoyaltyTransactionEstimation, GetLoyaltyTransactionEstimationInput, getMediaLocationsForSelectedVariant, MediaLocationsByIdInput, getMediaLocationsById, getOrderHistory, getOrganizationUsers, OrganizationUsersInput, getOrgUnitConfiguration, getPriceForSelectedVariant, getProductsByCategory, getProductAvailabilitiesForSelectedVariant, getProductDetailsCriteriaFromActionInput, GetRatingsSummaryInput, getRatingsSummary, getRefinersByCategory, getRefinersByText, getRelatedProducts, GetRelatedProductsInput, getRnrAuthEndpointId, getRnrEndpointId, getRnrPartnerId, getSearchConfiguration, getSelectedProductIdFromActionInput, getSelectedVariant, getSimpleProducts, getCategoryPaths, getFallbackImageUrl, issueLoyalty, IssueLoyaltyInput, ListInput, MediaLocationsForSelectedVariantInput, PriceForSelectedVariantInput, ProductAvailabilitiesForSelectedVariantInput, ProductDeliveryOptionsForCartLineItems, ProductDetailsCriteria, ProductInput, RefinersByCategoryInput, RefinersByTextInput, refineSearchByCategory, RefineSearchByCriteriaInput, searchByText, SearchConfigurationInput, SelectedVariantInput, updateAddress, updatePrimaryAddress, wrapInResolvedAsyncResult, wrapInRejectedAsyncResult, getActiveCartProductsAction, ActiveCartProductsInput, getActiveWishlistItems, ActiveWishlistInput, getAvailabilitiesForCartLineItems, ProductAvailabilitiesForCartLineItems, updateCustomerPersonalization, updateCustomerPersonalizationInput, mapProductInventoryInformation, CreateOrderTemplateInput, createOrderTemplate, updateCustomerAttributes, updateCustomerAttributesInput, UpdateOrderTemplateHeaderInput, updateOrderTemplateHeader, AddOrderTemplateToCartInput, addOrderTemplateToCartAction, AddItemToOrderTemplateInput, addItemToOrderTemplate, GetFullOrderTemplateInput, getFullOrderTemplate, GetFullOrderTemplatesInput, getFullOrderTemplates, UpdateOrderTemplateInput, updateOrderTemplateAction, GetPaginatedOrderTemplateLinesInput, getPaginatedOrderTemplateLinesAction, GetOrderTemplatesPreviewInput, getOrderTemplatesPreview, QueryResultSettingsProxy */
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-address.js (<- Module is referenced from these modules with unsupported syntax: ./lib/module-registration.js (referenced with cjs require)) */
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-attribute-definitions.js (<- Module is referenced from these modules with unsupported syntax: ./lib/module-registration.js (referenced with cjs require)) */
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-availabilities-cartlines.js (<- Module is referenced from these modules with unsupported syntax: ./lib/module-registration.js (referenced with cjs require)) */
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-categories-hierarchy.js (<- Module is referenced from these modules with unsupported syntax: ./lib/module-registration.js (referenced with cjs require)) */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-availabilities-cartlines.js (<- Module is referenced from these modules with unsupported syntax: ./lib/module-registration.js (referenced with cjs require), ./lib/module-registration.local.js (referenced with cjs require)) */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-categories-hierarchy.js (<- Module is referenced from these modules with unsupported syntax: ./lib/module-registration.js (referenced with cjs require), ./lib/module-registration.local.js (referenced with cjs require)) */
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-categories.js because of ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-categories-hierarchy.js */
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-category-paths.js (<- Module is referenced from these modules with unsupported syntax: ./lib/module-registration.js (referenced with cjs require)) */
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-current-category-hierarchy.js (<- Module is referenced from these modules with unsupported syntax: ./lib/module-registration.js (referenced with cjs require)) */
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-current-category.js (<- Module is referenced from these modules with unsupported syntax: ./lib/module-registration.js (referenced with cjs require)) */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-current-category-hierarchy.js (<- Module is referenced from these modules with unsupported syntax: ./lib/module-registration.js (referenced with cjs require), ./lib/module-registration.local.js (referenced with cjs require)) */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-current-category.js (<- Module is referenced from these modules with unsupported syntax: ./lib/module-registration.js (referenced with cjs require), ./lib/module-registration.local.js (referenced with cjs require)) */
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-customer-balance.js (<- Module is referenced from these modules with unsupported syntax: ./lib/module-registration.js (referenced with cjs require)) */
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-customer.js (<- Module is referenced from these modules with unsupported syntax: ./lib/module-registration.js (referenced with cjs require), ./lib/module-registration.local.js (referenced with cjs require)) */
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-delivery-options-for-cartlines.js (<- Module is referenced from these modules with unsupported syntax: ./lib/module-registration.js (referenced with cjs require)) */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-delivery-options-for-cartlines.js (<- Module is referenced from these modules with unsupported syntax: ./lib/module-registration.js (referenced with cjs require), ./lib/module-registration.local.js (referenced with cjs require)) */
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-delivery-options-for-selected-variant.js (<- Module is referenced from these modules with unsupported syntax: ./lib/module-registration.js (referenced with cjs require)) */
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-dimensions-for-selected-variant.js (<- Module is referenced from these modules with unsupported syntax: ./lib/module-registration.js (referenced with cjs require)) */
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-feature-state.js (<- Module is referenced from these modules with unsupported syntax: ./lib/module-registration.js (referenced with cjs require)) */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-feature-state.js (<- Module is referenced from these modules with unsupported syntax: ./lib/module-registration.js (referenced with cjs require), ./lib/module-registration.local.js (referenced with cjs require)) */
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-full-available-inventory-nearby.js (<- Module is referenced from these modules with unsupported syntax: ./lib/module-registration.js (referenced with cjs require)) */
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-items-in-wishlist.js (<- Module is referenced from these modules with unsupported syntax: ./lib/module-registration.js (referenced with cjs require)) */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-items-in-wishlist.js (<- Module is referenced from these modules with unsupported syntax: ./lib/module-registration.js (referenced with cjs require), ./lib/module-registration.local.js (referenced with cjs require)) */
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-loyalty-card.js (<- Module is referenced from these modules with unsupported syntax: ./lib/module-registration.js (referenced with cjs require)) */
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-loyalty-transaction-estimation.js (<- Module is referenced from these modules with unsupported syntax: ./lib/module-registration.js (referenced with cjs require)) */
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-media-locations-by-id.js (<- Module is referenced from these modules with unsupported syntax: ./lib/module-registration.js (referenced with cjs require)) */
@@ -8956,12 +8958,12 @@ const createWishlistInput=inputData=>{if(inputData.requestContext&&inputData.req
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-organization-users.js (<- Module is referenced from these modules with unsupported syntax: ./lib/module-registration.js (referenced with cjs require)) */
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-price-for-selected-variant.js (<- Module is referenced from these modules with unsupported syntax: ./lib/module-registration.js (referenced with cjs require)) */
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-product-availabilities-for-selected-variant.js (<- Module is referenced from these modules with unsupported syntax: ./lib/module-registration.js (referenced with cjs require)) */
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-products-in-active-cart.js (<- Module is referenced from these modules with unsupported syntax: ./lib/module-registration.js (referenced with cjs require)) */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-products-in-active-cart.js (<- Module is referenced from these modules with unsupported syntax: ./lib/module-registration.js (referenced with cjs require), ./lib/module-registration.local.js (referenced with cjs require)) */
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-ratings-summary.js (<- Module is referenced from these modules with unsupported syntax: ./lib/module-registration.js (referenced with cjs require)) */
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-selected-variant.js (<- Module is referenced from these modules with unsupported syntax: ./lib/module-registration.js (referenced with cjs require)) */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-selected-variant.js (<- Module is referenced from these modules with unsupported syntax: ./lib/module-registration.js (referenced with cjs require), ./lib/module-registration.local.js (referenced with cjs require)) */
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-store-location-information.js (<- Module is referenced from these modules with unsupported syntax: ./lib/module-registration.js (referenced with cjs require)) */
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/order-templates/get-full-order-templates.js because of ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/order-templates/get-order-templates-preview.js */
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/order-templates/get-order-templates-preview.js (<- Module is referenced from these modules with unsupported syntax: ./lib/module-registration.js (referenced with cjs require)) */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/order-templates/get-order-templates-preview.js (<- Module is referenced from these modules with unsupported syntax: ./lib/module-registration.js (referenced with cjs require), ./lib/module-registration.local.js (referenced with cjs require)) */
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/order-templates/get-order-templates.js (<- Module is referenced from these modules with unsupported syntax: ./lib/module-registration.js (referenced with cjs require)) */
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/utilities/QueryResultSettingsProxy.js because of ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/order-templates/get-order-templates-preview.js */
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/utilities/Url-builder/index.js because of ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-categories-hierarchy.js */
@@ -9820,7 +9822,7 @@ __webpack_require__.r(__webpack_exports__);
   !*** ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/order-templates/get-order-templates-preview.js ***!
   \************************************************************************************************************************/
 /*! exports provided: GetOrderTemplatesPreviewInput, createGetOrderTemplatesPreviewInput, getOrderTemplatesPreview, default */
-/*! ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: ./lib/module-registration.js (referenced with cjs require) */
+/*! ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: ./lib/module-registration.js (referenced with cjs require), ./lib/module-registration.local.js (referenced with cjs require) */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -9889,7 +9891,7 @@ __webpack_require__.r(__webpack_exports__);
   !*** ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/search-org-unit-locations.js ***!
   \******************************************************************************************************/
 /*! exports provided: createSearchOrgUnitLocationsInputFunc, default */
-/*! ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: ./lib/module-registration.js (referenced with cjs require) */
+/*! ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: ./lib/module-registration.js (referenced with cjs require), ./lib/module-registration.local.js (referenced with cjs require) */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -10472,12 +10474,49 @@ const SearchResultContainerView=props=>{const{SearchResultContainer,products,pag
 
 /***/ }),
 
+/***/ "./node_modules/@msdyn365-commerce-modules/search-utilities/dist/lib/index.js":
+/*!************************************************************************************************!*\
+  !*** ./node_modules/@msdyn365-commerce-modules/search-utilities/dist/lib/index.js + 1 modules ***!
+  \************************************************************************************************/
+/*! exports provided: createSearchStateInput, SearchState, searchStateDataAction */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@msdyn365-commerce-modules/search-utilities/dist/lib/search-state-data-action.js (<- Module is referenced from these modules with unsupported syntax: ./lib/module-registration.js (referenced with cjs require), ./lib/module-registration.local.js (referenced with cjs require)) */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/mobx/lib/mobx.module.js (<- Module uses injected variables (global, process, module)) */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/tslib/tslib.es6.js (<- Module is referenced from these modules with unsupported syntax: ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/alert/Alert.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/back-to-top/BackToTop.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/button/Button.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/collapse/Collapse.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/drawer/ControlledDrawer.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/drawer/Drawer.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/fade/Fade.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/flipper/Flipper.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/heading/Heading.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/index.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/labeled-dropdown/LabeledDropdown.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/modal/Modal.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/modal/ModalBody.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/modal/ModalFooter.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/modal/ModalHeader.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/modal/Portal.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/modal/index.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/pagination/Pagination.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/pagination/PaginationItem.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/pagination/PaginationLink.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/pagination/UncontrolledPagination.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/popover/Popover.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/popover/index.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/popper-content/PopperContent.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/popup-products/Popup-products.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/popup/Popup.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/progress/Progress.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/quantity/Quantity.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/quantity/index.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/single-slide-carousel/SingleSlideCarousel.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/slider/Slider.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/slider/SliderThumb.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/table/Table.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/table/checkbox.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/table/index.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/tooltip/Tooltip.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/tooltip/UncontrolledTooltip.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/waiting/Waiting.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/wrapper/module.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/wrapper/node.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/zoom-image/ImagefullView.js (referenced with cjs require)) */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+// ESM COMPAT FLAG
+__webpack_require__.r(__webpack_exports__);
+
+// EXPORTS
+__webpack_require__.d(__webpack_exports__, "createSearchStateInput", function() { return /* reexport */ search_state_data_action["createSearchStateInput"]; });
+__webpack_require__.d(__webpack_exports__, "SearchState", function() { return /* reexport */ SearchState; });
+__webpack_require__.d(__webpack_exports__, "searchStateDataAction", function() { return /* reexport */ search_state_data_action["default"]; });
+
+// EXTERNAL MODULE: ./node_modules/@msdyn365-commerce-modules/search-utilities/dist/lib/search-state-data-action.js
+var search_state_data_action = __webpack_require__("./node_modules/@msdyn365-commerce-modules/search-utilities/dist/lib/search-state-data-action.js");
+
+// EXTERNAL MODULE: ./node_modules/tslib/tslib.es6.js
+var tslib_es6 = __webpack_require__("./node_modules/tslib/tslib.es6.js");
+
+// EXTERNAL MODULE: ./node_modules/mobx/lib/mobx.module.js
+var mobx_module = __webpack_require__("./node_modules/mobx/lib/mobx.module.js");
+
+// CONCATENATED MODULE: ./node_modules/@msdyn365-commerce-modules/search-utilities/dist/lib/search-state.js
+/**
+ * State information related to what is needed to succesfully perform a autosuggest
+ */class SearchState{}Object(tslib_es6["__decorate"])([mobx_module["observable"]],SearchState.prototype,"searchText",void 0);Object(tslib_es6["__decorate"])([mobx_module["observable"]],SearchState.prototype,"defaultBasicSearchUrl",void 0);Object(tslib_es6["__decorate"])([mobx_module["observable"]],SearchState.prototype,"searchQueryStringParameter",void 0);
+// CONCATENATED MODULE: ./node_modules/@msdyn365-commerce-modules/search-utilities/dist/lib/index.js
+
+
+/***/ }),
+
 /***/ "./node_modules/@msdyn365-commerce-modules/search-utilities/dist/lib/search-state-data-action.js":
 /*!*******************************************************************************************************!*\
   !*** ./node_modules/@msdyn365-commerce-modules/search-utilities/dist/lib/search-state-data-action.js ***!
   \*******************************************************************************************************/
 /*! exports provided: createSearchStateInput, default */
-/*! ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: ./lib/module-registration.js (referenced with cjs require) */
+/*! ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: ./lib/module-registration.js (referenced with cjs require), ./lib/module-registration.local.js (referenced with cjs require) */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -10491,11 +10530,11 @@ function createSearchStateInput(result){return new _msdyn365_commerce_modules_re
 
 /***/ "./node_modules/@msdyn365-commerce-modules/search/dist/lib/modules/search/search.js":
 /*!******************************************************************************************************!*\
-  !*** ./node_modules/@msdyn365-commerce-modules/search/dist/lib/modules/search/search.js + 9 modules ***!
+  !*** ./node_modules/@msdyn365-commerce-modules/search/dist/lib/modules/search/search.js + 7 modules ***!
   \******************************************************************************************************/
 /*! exports provided: default */
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/index.js (<- Module is referenced from these modules with unsupported syntax: ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/popup/Popup.js (referenced with cjs require)) */
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@msdyn365-commerce-modules/search-utilities/dist/lib/search-state-data-action.js (<- Module is referenced from these modules with unsupported syntax: ./lib/module-registration.js (referenced with cjs require)) */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@msdyn365-commerce-modules/search-utilities/dist/lib/index.js because of ./src/modules/search/search.tsx */
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/index.js (<- Module is not an ECMAScript module) */
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@msdyn365-commerce/components/dist/lib/index.js */
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@msdyn365-commerce/core/dist/lib/index.js (<- Module is referenced from these modules with unsupported syntax: ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/back-to-top/BackToTop.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/common/telemetryHelper.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/drawer/ControlledDrawer.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/popup/Popup.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/slider/Slider.js (referenced with cjs require)) */
@@ -10504,8 +10543,6 @@ function createSearchStateInput(result){return new _msdyn365_commerce_modules_re
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@babel/runtime/helpers/esm/defineProperty.js */
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/classnames/index.js (<- Module is not an ECMAScript module) */
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/lodash/debounce.js (<- Module is not an ECMAScript module) */
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/mobx/lib/mobx.module.js (<- Module uses injected variables (global, process, module)) */
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/tslib/tslib.es6.js (<- Module is referenced from these modules with unsupported syntax: ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/alert/Alert.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/back-to-top/BackToTop.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/button/Button.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/collapse/Collapse.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/drawer/ControlledDrawer.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/drawer/Drawer.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/fade/Fade.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/flipper/Flipper.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/heading/Heading.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/index.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/labeled-dropdown/LabeledDropdown.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/modal/Modal.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/modal/ModalBody.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/modal/ModalFooter.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/modal/ModalHeader.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/modal/Portal.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/modal/index.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/pagination/Pagination.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/pagination/PaginationItem.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/pagination/PaginationLink.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/pagination/UncontrolledPagination.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/popover/Popover.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/popover/index.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/popper-content/PopperContent.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/popup-products/Popup-products.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/popup/Popup.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/progress/Progress.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/quantity/Quantity.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/quantity/index.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/single-slide-carousel/SingleSlideCarousel.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/slider/Slider.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/slider/SliderThumb.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/table/Table.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/table/checkbox.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/table/index.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/tooltip/Tooltip.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/tooltip/UncontrolledTooltip.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/waiting/Waiting.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/wrapper/module.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/wrapper/node.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/zoom-image/ImagefullView.js (referenced with cjs require)) */
 /*! ModuleConcatenation bailout: Cannot concat with external "React" (<- Module is not an ECMAScript module) */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -10526,26 +10563,14 @@ var defineProperty = __webpack_require__("./node_modules/@babel/runtime/helpers/
 var debounce = __webpack_require__("./node_modules/lodash/debounce.js");
 var debounce_default = /*#__PURE__*/__webpack_require__.n(debounce);
 
-// EXTERNAL MODULE: ./node_modules/@msdyn365-commerce-modules/search-utilities/dist/lib/search-state-data-action.js
-var search_state_data_action = __webpack_require__("./node_modules/@msdyn365-commerce-modules/search-utilities/dist/lib/search-state-data-action.js");
-
-// EXTERNAL MODULE: ./node_modules/tslib/tslib.es6.js
-var tslib_es6 = __webpack_require__("./node_modules/tslib/tslib.es6.js");
-
-// EXTERNAL MODULE: ./node_modules/mobx/lib/mobx.module.js
-var mobx_module = __webpack_require__("./node_modules/mobx/lib/mobx.module.js");
-
-// CONCATENATED MODULE: ./node_modules/@msdyn365-commerce-modules/search-utilities/dist/lib/search-state.js
-/**
- * State information related to what is needed to succesfully perform a autosuggest
- */class SearchState{}Object(tslib_es6["__decorate"])([mobx_module["observable"]],SearchState.prototype,"searchText",void 0);Object(tslib_es6["__decorate"])([mobx_module["observable"]],SearchState.prototype,"defaultBasicSearchUrl",void 0);Object(tslib_es6["__decorate"])([mobx_module["observable"]],SearchState.prototype,"searchQueryStringParameter",void 0);
-// CONCATENATED MODULE: ./node_modules/@msdyn365-commerce-modules/search-utilities/dist/lib/index.js
+// EXTERNAL MODULE: ./node_modules/@msdyn365-commerce-modules/search-utilities/dist/lib/index.js + 1 modules
+var lib = __webpack_require__("./node_modules/@msdyn365-commerce-modules/search-utilities/dist/lib/index.js");
 
 // EXTERNAL MODULE: ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/index.js
-var lib = __webpack_require__("./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/index.js");
+var dist_lib = __webpack_require__("./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/index.js");
 
 // EXTERNAL MODULE: ./node_modules/@msdyn365-commerce/core/dist/lib/index.js
-var dist_lib = __webpack_require__("./node_modules/@msdyn365-commerce/core/dist/lib/index.js");
+var core_dist_lib = __webpack_require__("./node_modules/@msdyn365-commerce/core/dist/lib/index.js");
 
 // EXTERNAL MODULE: ./node_modules/@msdyn365-commerce/retail-proxy/dist/DataActions/ProductsDataActions.g.js
 var ProductsDataActions_g = __webpack_require__("./node_modules/@msdyn365-commerce/retail-proxy/dist/DataActions/ProductsDataActions.g.js");
@@ -10567,7 +10592,7 @@ var retail_actions_dist_lib = __webpack_require__("./node_modules/@msdyn365-comm
 var StoreOperationsDataActions_g = __webpack_require__("./node_modules/@msdyn365-commerce/retail-proxy/dist/DataActions/StoreOperationsDataActions.g.js");
 
 // CONCATENATED MODULE: ./node_modules/@msdyn365-commerce-modules/search/dist/lib/modules/search/actions/get-auto-suggest-suggestions.js
-class AutoSuggestInput{constructor(searchText,top,suggestionType,hitPrefix,hitSuffix){this.getCacheKey=()=>"AutoSuggestSearchSuggestions";this.getCacheObjectType=()=>'AutoSuggestSearchSuggestions';this.dataCacheType=()=>'none';this.searchQuery=searchText;this.topResultsCount=top;this.suggestionType=suggestionType;this.hitPrefix=hitPrefix;this.hitSuffix=hitSuffix;}}const createInput=inputData=>{return new AutoSuggestInput();};async function getSearchSuggestionsAction(input,ctx){if(!input||!input.searchQuery){throw new Error('[getSearchSuggestionsAction]No valid Input was provided, failing');}const autosuggest={};const autoSuggestPromises=[_getAutoSuggest(input,autosuggest,ctx)];return Promise.all(autoSuggestPromises).then(()=>{return autosuggest;});}async function _getAutoSuggest(input,autosuggest,ctx){const searchCriteria={ProductSearchCriteria:{SearchCondition:input.searchQuery&&input.searchQuery.length>0?input.searchQuery:'',Context:{ChannelId:+ctx.requestContext.apiSettings.channelId,CatalogId:+ctx.requestContext.apiSettings.catalogId}},HitPrefix:input.hitPrefix,HitSuffix:input.hitSuffix,SuggestionType:input.suggestionType};const searchSuggestions=await Object(StoreOperationsDataActions_g["getSearchSuggestionsAsync"])({callerContext:ctx,queryResultSettings:{Paging:{Top:input.topResultsCount}}},searchCriteria);if(searchSuggestions&&searchSuggestions.length>0){searchSuggestions.map(item=>item.ImageUrl=item.ImageUrl?Object(retail_actions_dist_lib["generateImageUrl"])(item.ImageUrl,ctx.requestContext.apiSettings):'');autosuggest.AllSearchResults=searchSuggestions;}else{ctx.telemetry.error("[getSearchSuggestionsAction] unable to get availabilites for search with suggestion type ".concat(searchCriteria.SuggestionType));}}/* harmony default export */ var get_auto_suggest_suggestions = (Object(dist_lib["createObservableDataAction"])({id:'@msdyn365-commerce-modules/search/get-auto-suggest-suggestions',action:getSearchSuggestionsAction,input:createInput}));
+class AutoSuggestInput{constructor(searchText,top,suggestionType,hitPrefix,hitSuffix){this.getCacheKey=()=>"AutoSuggestSearchSuggestions";this.getCacheObjectType=()=>'AutoSuggestSearchSuggestions';this.dataCacheType=()=>'none';this.searchQuery=searchText;this.topResultsCount=top;this.suggestionType=suggestionType;this.hitPrefix=hitPrefix;this.hitSuffix=hitSuffix;}}const createInput=inputData=>{return new AutoSuggestInput();};async function getSearchSuggestionsAction(input,ctx){if(!input||!input.searchQuery){throw new Error('[getSearchSuggestionsAction]No valid Input was provided, failing');}const autosuggest={};const autoSuggestPromises=[_getAutoSuggest(input,autosuggest,ctx)];return Promise.all(autoSuggestPromises).then(()=>{return autosuggest;});}async function _getAutoSuggest(input,autosuggest,ctx){const searchCriteria={ProductSearchCriteria:{SearchCondition:input.searchQuery&&input.searchQuery.length>0?input.searchQuery:'',Context:{ChannelId:+ctx.requestContext.apiSettings.channelId,CatalogId:+ctx.requestContext.apiSettings.catalogId}},HitPrefix:input.hitPrefix,HitSuffix:input.hitSuffix,SuggestionType:input.suggestionType};const searchSuggestions=await Object(StoreOperationsDataActions_g["getSearchSuggestionsAsync"])({callerContext:ctx,queryResultSettings:{Paging:{Top:input.topResultsCount}}},searchCriteria);if(searchSuggestions&&searchSuggestions.length>0){searchSuggestions.map(item=>item.ImageUrl=item.ImageUrl?Object(retail_actions_dist_lib["generateImageUrl"])(item.ImageUrl,ctx.requestContext.apiSettings):'');autosuggest.AllSearchResults=searchSuggestions;}else{ctx.telemetry.error("[getSearchSuggestionsAction] unable to get availabilites for search with suggestion type ".concat(searchCriteria.SuggestionType));}}/* harmony default export */ var get_auto_suggest_suggestions = (Object(core_dist_lib["createObservableDataAction"])({id:'@msdyn365-commerce-modules/search/get-auto-suggest-suggestions',action:getSearchSuggestionsAction,input:createInput}));
 // EXTERNAL MODULE: ./node_modules/@msdyn365-commerce/bootloader/node_modules/core-js/modules/es.object.assign.js
 var es_object_assign = __webpack_require__("./node_modules/@msdyn365-commerce/bootloader/node_modules/core-js/modules/es.object.assign.js");
 
@@ -10581,25 +10606,25 @@ var es_regexp_to_string = __webpack_require__("./node_modules/@msdyn365-commerce
 var es_string_replace = __webpack_require__("./node_modules/@msdyn365-commerce/bootloader/node_modules/core-js/modules/es.string.replace.js");
 
 // CONCATENATED MODULE: ./node_modules/@msdyn365-commerce-modules/search/dist/lib/modules/search/components/search.keywordsuggest.js
-let search_keywordsuggest_payLoad;const KeywordSuggestionsComponent=props=>{const{suggestions,hitPrefix,hitSuffix}=props;if(!suggestions){return undefined;}search_keywordsuggest_payLoad=Object(lib["getPayloadObject"])('click',props.telemetryContent,'');const reactNodes=[];suggestions.map(item=>{reactNodes.push(_assembleNode(item,hitPrefix,hitSuffix,props));});return{text:reactNodes};};const _assembleNode=(item,hitPrefix,hitSuffix,props)=>{const ariaLabel=item.Value&&item.Value.replace(new RegExp("[".concat(hitPrefix,"]"),'gi'),'').replace(new RegExp("[".concat(hitSuffix,"]"),'gi'),'');search_keywordsuggest_payLoad.contentAction.etext=ariaLabel;const attribute=Object(lib["getTelemetryAttributes"])(props.telemetryContent,search_keywordsuggest_payLoad);return/*#__PURE__*/external_React_["createElement"]("li",{className:'msc-autoSuggest__keywordResults-item',key:item.Id},/*#__PURE__*/external_React_["createElement"]("a",Object.assign({"aria-label":ariaLabel,href:_generateLink(item,hitPrefix,hitSuffix,props)},attribute),_generateLink(item,hitPrefix,hitSuffix,props)&&_getHighlightedText(item.Value?item.Value:'',hitPrefix,hitSuffix)));};const _generateLink=(suggestion,hitPrefix,hitSuffix,props)=>{const{searchPageURL,searchQsp}=props;const formattedLink=suggestion.Value.replace(new RegExp("[".concat(hitPrefix,"]"),'gi'),'').replace(new RegExp("[".concat(hitSuffix,"]"),'gi'),'');const route=searchPageURL||'';return formattedLink&&formattedLink.length>0?"".concat(route).concat(route.indexOf('?')===-1?'?':'&').concat(searchQsp,"=").concat(formattedLink):route;};const _getHighlightedText=(suggestion,hitPrefix,hitSuffix)=>{const formattedText=suggestion.replace(new RegExp("[".concat(hitPrefix,"]"),'gi'),'<strong>').replace(new RegExp("[".concat(hitSuffix,"]"),'gi'),'</strong>');return/*#__PURE__*/external_React_["createElement"]("span",{dangerouslySetInnerHTML:Object(dist_lib["getRichTextHtml"])(formattedText)});};
+let search_keywordsuggest_payLoad;const KeywordSuggestionsComponent=props=>{const{suggestions,hitPrefix,hitSuffix}=props;if(!suggestions){return undefined;}search_keywordsuggest_payLoad=Object(dist_lib["getPayloadObject"])('click',props.telemetryContent,'');const reactNodes=[];suggestions.map(item=>{reactNodes.push(_assembleNode(item,hitPrefix,hitSuffix,props));});return{text:reactNodes};};const _assembleNode=(item,hitPrefix,hitSuffix,props)=>{const ariaLabel=item.Value&&item.Value.replace(new RegExp("[".concat(hitPrefix,"]"),'gi'),'').replace(new RegExp("[".concat(hitSuffix,"]"),'gi'),'');search_keywordsuggest_payLoad.contentAction.etext=ariaLabel;const attribute=Object(dist_lib["getTelemetryAttributes"])(props.telemetryContent,search_keywordsuggest_payLoad);return/*#__PURE__*/external_React_["createElement"]("li",{className:'msc-autoSuggest__keywordResults-item',key:item.Id},/*#__PURE__*/external_React_["createElement"]("a",Object.assign({"aria-label":ariaLabel,href:_generateLink(item,hitPrefix,hitSuffix,props)},attribute),_generateLink(item,hitPrefix,hitSuffix,props)&&_getHighlightedText(item.Value?item.Value:'',hitPrefix,hitSuffix)));};const _generateLink=(suggestion,hitPrefix,hitSuffix,props)=>{const{searchPageURL,searchQsp}=props;const formattedLink=suggestion.Value.replace(new RegExp("[".concat(hitPrefix,"]"),'gi'),'').replace(new RegExp("[".concat(hitSuffix,"]"),'gi'),'');const route=searchPageURL||'';return formattedLink&&formattedLink.length>0?"".concat(route).concat(route.indexOf('?')===-1?'?':'&').concat(searchQsp,"=").concat(formattedLink):route;};const _getHighlightedText=(suggestion,hitPrefix,hitSuffix)=>{const formattedText=suggestion.replace(new RegExp("[".concat(hitPrefix,"]"),'gi'),'<strong>').replace(new RegExp("[".concat(hitSuffix,"]"),'gi'),'</strong>');return/*#__PURE__*/external_React_["createElement"]("span",{dangerouslySetInnerHTML:Object(core_dist_lib["getRichTextHtml"])(formattedText)});};
 // EXTERNAL MODULE: ./node_modules/@msdyn365-commerce/components/dist/lib/index.js + 48 modules
 var components_dist_lib = __webpack_require__("./node_modules/@msdyn365-commerce/components/dist/lib/index.js");
 
 // CONCATENATED MODULE: ./node_modules/@msdyn365-commerce-modules/search/dist/lib/modules/search/components/search.productsuggest.js
-function ownKeys(object,enumerableOnly){var keys=Object.keys(object);if(Object.getOwnPropertySymbols){var symbols=Object.getOwnPropertySymbols(object);if(enumerableOnly)symbols=symbols.filter(function(sym){return Object.getOwnPropertyDescriptor(object,sym).enumerable;});keys.push.apply(keys,symbols);}return keys;}function _objectSpread(target){for(var i=1;i<arguments.length;i++){var source=arguments[i]!=null?arguments[i]:{};if(i%2){ownKeys(Object(source),true).forEach(function(key){Object(defineProperty["default"])(target,key,source[key]);});}else if(Object.getOwnPropertyDescriptors){Object.defineProperties(target,Object.getOwnPropertyDescriptors(source));}else{ownKeys(Object(source)).forEach(function(key){Object.defineProperty(target,key,Object.getOwnPropertyDescriptor(source,key));});}}return target;}let search_productsuggest_payLoad;let search_productsuggest_telemetryContent;const ProductSuggestionsComponent=props=>{const{suggestions,hitSuffix,hitPrefix,autoSuggestProps:{context:{actionContext},resources:{productSuggestionHeading}},moduleType,moduleId}=props;const reactNodes=[];search_productsuggest_telemetryContent=props.telemetryContent;search_productsuggest_payLoad=Object(lib["getPayloadObject"])('click',props.telemetryContent,'');if(!suggestions){return undefined;}suggestions.map(item=>{reactNodes.push(search_productsuggest_assembleNode(item,hitPrefix,hitSuffix,actionContext,props,moduleType,moduleId));});const titleNode=_renderTitle(productSuggestionHeading);return{title:titleNode,items:reactNodes};};const _renderTitle=productSuggestionHeading=>{const productAutoSuggestionHeading=productSuggestionHeading?productSuggestionHeading:'Go to products';return/*#__PURE__*/external_React_["createElement"]("li",{className:'msc-autoSuggest__productResults-title'},productAutoSuggestionHeading);};const search_productsuggest_assembleNode=(item,hitPrefix,hitSuffix,actionContext,props,moduleType,moduleId)=>{const altText=item.Value&&item.Value.replace(new RegExp("[".concat(hitPrefix,"]"),'gi'),'').replace(new RegExp("[".concat(hitSuffix,"]"),'gi'),'');return{text:search_productsuggest_getHighlightedText(item.Value?item.Value:'',hitPrefix,hitSuffix),thumbnail:_renderThumbnail(item,altText?altText:'',props),price:item.Id&&item.Value3&&item.Value3.Value&&item.Value3.Value.DecimalValue&&_renderPrice(item.Value3.Value.DecimalValue,item.Value3.Value.DecimalValue,moduleId,moduleType,props),LiProduct:_getLiWrapper(),AProduct:_getAWrapper(item,hitPrefix,hitSuffix,actionContext),id:item.Id};};const _getLiWrapper=()=>{return{className:'msc-autoSuggest__productResults-item',tag:'li'};};const _getAWrapper=(item,hitPrefix,hitSuffix,actionContext)=>{const ariaLabel=item.Value&&item.Value.replace(new RegExp("[".concat(hitPrefix,"]"),'gi'),'').replace(new RegExp("[".concat(hitSuffix,"]"),'gi'),'');search_productsuggest_payLoad.contentAction.recid=item.Id;const attribute=Object(lib["getTelemetryAttributes"])(search_productsuggest_telemetryContent,search_productsuggest_payLoad);return _objectSpread({className:'msc-autoSuggest__productResults-item',tag:'a','aria-label':ariaLabel,href:search_productsuggest_generateLink(item,hitPrefix,hitSuffix,actionContext)},attribute);};const search_productsuggest_generateLink=(suggestion,hitPrefix,hitSuffix,actionContext)=>{const formattedLink=suggestion.Value.replace(new RegExp("[".concat(hitPrefix,"]"),'gi'),'').replace(new RegExp("[".concat(hitSuffix,"]"),'gi'),'');return suggestion.Value&&suggestion.Id?Object(retail_actions_dist_lib["getProductPageUrlSync"])(formattedLink,suggestion.Id,actionContext,undefined):'';};const search_productsuggest_getHighlightedText=(suggestion,hitPrefix,hitSuffix)=>{const formattedText=suggestion.replace(new RegExp("[".concat(hitPrefix,"]"),'gi'),'<strong>').replace(new RegExp("[".concat(hitSuffix,"]"),'gi'),'</strong>');return/*#__PURE__*/external_React_["createElement"]("span",{className:'msc-price msc-autoSuggest__productResults-item-text',dangerouslySetInnerHTML:Object(dist_lib["getRichTextHtml"])(formattedText)});};const _renderPrice=(adjustedPrice,basePrice,moduleId,moduleType,props)=>{const{autoSuggestProps:{context}}=props;return/*#__PURE__*/external_React_["createElement"](components_dist_lib["PriceComponent"],{id:moduleId,typeName:moduleType,context:context,data:{price:{CustomerContextualPrice:adjustedPrice,BasePrice:basePrice}},className:'msc-autoSuggest__productResults-item-price'});};const _renderThumbnail=(suggestion,altText,props)=>{const{autoSuggestProps:{context:{request:{gridSettings}},config:{imageSettings}}}=props;if(!suggestion||!suggestion.ImageUrl){props.telemetry.error('Search suggestion content is empty, module wont render.');return null;}const defaultImageSettings={viewports:{xs:{q:"w=40&h=40&m=6",w:0,h:0},lg:{q:"w=40&h=40&m=6",w:0,h:0},xl:{q:"w=40&h=40&m=6",w:0,h:0}},lazyload:true};return/*#__PURE__*/external_React_["createElement"](dist_lib["Image"],{altText:altText,className:'msc-autoSuggest__productResults-item-img',src:suggestion.ImageUrl,gridSettings:gridSettings,imageSettings:imageSettings?imageSettings:defaultImageSettings,loadFailureBehavior:'hide'});};
+function ownKeys(object,enumerableOnly){var keys=Object.keys(object);if(Object.getOwnPropertySymbols){var symbols=Object.getOwnPropertySymbols(object);if(enumerableOnly)symbols=symbols.filter(function(sym){return Object.getOwnPropertyDescriptor(object,sym).enumerable;});keys.push.apply(keys,symbols);}return keys;}function _objectSpread(target){for(var i=1;i<arguments.length;i++){var source=arguments[i]!=null?arguments[i]:{};if(i%2){ownKeys(Object(source),true).forEach(function(key){Object(defineProperty["default"])(target,key,source[key]);});}else if(Object.getOwnPropertyDescriptors){Object.defineProperties(target,Object.getOwnPropertyDescriptors(source));}else{ownKeys(Object(source)).forEach(function(key){Object.defineProperty(target,key,Object.getOwnPropertyDescriptor(source,key));});}}return target;}let search_productsuggest_payLoad;let search_productsuggest_telemetryContent;const ProductSuggestionsComponent=props=>{const{suggestions,hitSuffix,hitPrefix,autoSuggestProps:{context:{actionContext},resources:{productSuggestionHeading}},moduleType,moduleId}=props;const reactNodes=[];search_productsuggest_telemetryContent=props.telemetryContent;search_productsuggest_payLoad=Object(dist_lib["getPayloadObject"])('click',props.telemetryContent,'');if(!suggestions){return undefined;}suggestions.map(item=>{reactNodes.push(search_productsuggest_assembleNode(item,hitPrefix,hitSuffix,actionContext,props,moduleType,moduleId));});const titleNode=_renderTitle(productSuggestionHeading);return{title:titleNode,items:reactNodes};};const _renderTitle=productSuggestionHeading=>{const productAutoSuggestionHeading=productSuggestionHeading?productSuggestionHeading:'Go to products';return/*#__PURE__*/external_React_["createElement"]("li",{className:'msc-autoSuggest__productResults-title'},productAutoSuggestionHeading);};const search_productsuggest_assembleNode=(item,hitPrefix,hitSuffix,actionContext,props,moduleType,moduleId)=>{const altText=item.Value&&item.Value.replace(new RegExp("[".concat(hitPrefix,"]"),'gi'),'').replace(new RegExp("[".concat(hitSuffix,"]"),'gi'),'');return{text:search_productsuggest_getHighlightedText(item.Value?item.Value:'',hitPrefix,hitSuffix),thumbnail:_renderThumbnail(item,altText?altText:'',props),price:item.Id&&item.Value3&&item.Value3.Value&&item.Value3.Value.DecimalValue&&_renderPrice(item.Value3.Value.DecimalValue,item.Value3.Value.DecimalValue,moduleId,moduleType,props),LiProduct:_getLiWrapper(),AProduct:_getAWrapper(item,hitPrefix,hitSuffix,actionContext),id:item.Id};};const _getLiWrapper=()=>{return{className:'msc-autoSuggest__productResults-item',tag:'li'};};const _getAWrapper=(item,hitPrefix,hitSuffix,actionContext)=>{const ariaLabel=item.Value&&item.Value.replace(new RegExp("[".concat(hitPrefix,"]"),'gi'),'').replace(new RegExp("[".concat(hitSuffix,"]"),'gi'),'');search_productsuggest_payLoad.contentAction.recid=item.Id;const attribute=Object(dist_lib["getTelemetryAttributes"])(search_productsuggest_telemetryContent,search_productsuggest_payLoad);return _objectSpread({className:'msc-autoSuggest__productResults-item',tag:'a','aria-label':ariaLabel,href:search_productsuggest_generateLink(item,hitPrefix,hitSuffix,actionContext)},attribute);};const search_productsuggest_generateLink=(suggestion,hitPrefix,hitSuffix,actionContext)=>{const formattedLink=suggestion.Value.replace(new RegExp("[".concat(hitPrefix,"]"),'gi'),'').replace(new RegExp("[".concat(hitSuffix,"]"),'gi'),'');return suggestion.Value&&suggestion.Id?Object(retail_actions_dist_lib["getProductPageUrlSync"])(formattedLink,suggestion.Id,actionContext,undefined):'';};const search_productsuggest_getHighlightedText=(suggestion,hitPrefix,hitSuffix)=>{const formattedText=suggestion.replace(new RegExp("[".concat(hitPrefix,"]"),'gi'),'<strong>').replace(new RegExp("[".concat(hitSuffix,"]"),'gi'),'</strong>');return/*#__PURE__*/external_React_["createElement"]("span",{className:'msc-price msc-autoSuggest__productResults-item-text',dangerouslySetInnerHTML:Object(core_dist_lib["getRichTextHtml"])(formattedText)});};const _renderPrice=(adjustedPrice,basePrice,moduleId,moduleType,props)=>{const{autoSuggestProps:{context}}=props;return/*#__PURE__*/external_React_["createElement"](components_dist_lib["PriceComponent"],{id:moduleId,typeName:moduleType,context:context,data:{price:{CustomerContextualPrice:adjustedPrice,BasePrice:basePrice}},className:'msc-autoSuggest__productResults-item-price'});};const _renderThumbnail=(suggestion,altText,props)=>{const{autoSuggestProps:{context:{request:{gridSettings}},config:{imageSettings}}}=props;if(!suggestion||!suggestion.ImageUrl){props.telemetry.error('Search suggestion content is empty, module wont render.');return null;}const defaultImageSettings={viewports:{xs:{q:"w=40&h=40&m=6",w:0,h:0},lg:{q:"w=40&h=40&m=6",w:0,h:0},xl:{q:"w=40&h=40&m=6",w:0,h:0}},lazyload:true};return/*#__PURE__*/external_React_["createElement"](core_dist_lib["Image"],{altText:altText,className:'msc-autoSuggest__productResults-item-img',src:suggestion.ImageUrl,gridSettings:gridSettings,imageSettings:imageSettings?imageSettings:defaultImageSettings,loadFailureBehavior:'hide'});};
 // EXTERNAL MODULE: ./node_modules/@msdyn365-commerce/bootloader/node_modules/core-js/modules/es.string.split.js
 var es_string_split = __webpack_require__("./node_modules/@msdyn365-commerce/bootloader/node_modules/core-js/modules/es.string.split.js");
 
 // CONCATENATED MODULE: ./node_modules/@msdyn365-commerce-modules/search/dist/lib/modules/search/components/search.categorysuggest.js
-let search_categorysuggest_payLoad;const CategorySuggestionsComponent=props=>{const{suggestions,searchText,autoSuggestProps:{resources:{categorySuggestionHeading}}}=props;if(!suggestions){return undefined;}const reactNodes=[];search_categorysuggest_payLoad=Object(lib["getPayloadObject"])('click',props.telemetryContent,'');suggestions.map(item=>{reactNodes.push(search_categorysuggest_assembleNode(item,props));});const titleNode=search_categorysuggest_renderTitle(categorySuggestionHeading,searchText);return{title:titleNode,text:reactNodes};};const search_categorysuggest_renderTitle=(categorySuggestionHeading,searchText)=>{const categoryAutoSuggestionHeading=categorySuggestionHeading?Object(lib["format"])(categorySuggestionHeading,searchText):"Search \"".concat(searchText,"\" in categories");return/*#__PURE__*/external_React_["createElement"]("li",{className:'msc-autoSuggest__categoryResults-title'},categoryAutoSuggestionHeading);};const search_categorysuggest_assembleNode=(item,props)=>{const{searchText,hitPrefix,hitSuffix}=props;const splitValue=item.Value&&item.Value.split('|').pop();const ariaLabel=splitValue?splitValue.replace(new RegExp("[".concat(hitPrefix,"]"),'gi'),'').replace(new RegExp("[".concat(hitSuffix,"]"),'gi'),''):item.Value&&item.Value.replace(new RegExp("[".concat(hitPrefix,"]"),'gi'),'').replace(new RegExp("[".concat(hitSuffix,"]"),'gi'),'');search_categorysuggest_payLoad.contentAction.etext=item.Value;const attribute=Object(lib["getTelemetryAttributes"])(props.telemetryContent,search_categorysuggest_payLoad);return/*#__PURE__*/external_React_["createElement"]("li",{className:'msc-autoSuggest__categoryResults-item',key:item.Id},/*#__PURE__*/external_React_["createElement"]("a",Object.assign({"aria-label":ariaLabel,href:search_categorysuggest_generateLink(item,searchText,props)},attribute),search_categorysuggest_generateLink(item,searchText,props)&&search_categorysuggest_getHighlightedText(item.Value?item.Value:'',hitPrefix,hitSuffix)));};const search_categorysuggest_generateLink=(suggestion,searchText,props)=>{return suggestion&&suggestion.Id?_getCategoryLink(suggestion.Id,searchText,props):'';};const _getCategoryLink=(id,searchText,props)=>{const{searchPageURL,searchQsp,searchRefiners}=props;const route=searchPageURL||'';const urlPath="".concat(route).concat(route.indexOf('?')===-1?'?':'&').concat(searchQsp,"=").concat(searchText);const categoryRefiners=searchRefiners&&searchRefiners.find(refiners=>{return refiners.KeyName==='Category';});const refiner=categoryRefiners&&categoryRefiners.Values&&categoryRefiners.Values.find(item=>{return item.RefinerRecordId===parseInt(id,10);});const encodedRefiner=refiner&&encodeURIComponent(JSON.stringify(compressRefiners([refiner])));return encodedRefiner?"".concat(urlPath,"&refiners=").concat(encodedRefiner):urlPath;};const search_categorysuggest_getHighlightedText=(suggestion,hitPrefix,hitSuffix)=>{let formattedText=suggestion.replace(new RegExp("[".concat(hitPrefix,"]"),'gi'),'<strong>').replace(new RegExp("[".concat(hitSuffix,"]"),'gi'),'</strong>');formattedText=formattedText.split('|').pop()||'';return/*#__PURE__*/external_React_["createElement"]("span",{dangerouslySetInnerHTML:Object(dist_lib["getRichTextHtml"])(formattedText)});};const compressedRefinerKeys=['DataTypeValue','LeftValueBoundString','RefinerRecordId','RefinerSourceValue','RightValueBoundString','UnitText'];const compressRefiners=refiners=>{const compressedRefiners=[];refiners.forEach(refiner=>{const compressedRefiner=[];compressedRefinerKeys.forEach(refinerKey=>{compressedRefiner.push(refiner[refinerKey]);});compressedRefiners.push(compressedRefiner);});return compressedRefiners;};
+let search_categorysuggest_payLoad;const CategorySuggestionsComponent=props=>{const{suggestions,searchText,autoSuggestProps:{resources:{categorySuggestionHeading}}}=props;if(!suggestions){return undefined;}const reactNodes=[];search_categorysuggest_payLoad=Object(dist_lib["getPayloadObject"])('click',props.telemetryContent,'');suggestions.map(item=>{reactNodes.push(search_categorysuggest_assembleNode(item,props));});const titleNode=search_categorysuggest_renderTitle(categorySuggestionHeading,searchText);return{title:titleNode,text:reactNodes};};const search_categorysuggest_renderTitle=(categorySuggestionHeading,searchText)=>{const categoryAutoSuggestionHeading=categorySuggestionHeading?Object(dist_lib["format"])(categorySuggestionHeading,searchText):"Search \"".concat(searchText,"\" in categories");return/*#__PURE__*/external_React_["createElement"]("li",{className:'msc-autoSuggest__categoryResults-title'},categoryAutoSuggestionHeading);};const search_categorysuggest_assembleNode=(item,props)=>{const{searchText,hitPrefix,hitSuffix}=props;const splitValue=item.Value&&item.Value.split('|').pop();const ariaLabel=splitValue?splitValue.replace(new RegExp("[".concat(hitPrefix,"]"),'gi'),'').replace(new RegExp("[".concat(hitSuffix,"]"),'gi'),''):item.Value&&item.Value.replace(new RegExp("[".concat(hitPrefix,"]"),'gi'),'').replace(new RegExp("[".concat(hitSuffix,"]"),'gi'),'');search_categorysuggest_payLoad.contentAction.etext=item.Value;const attribute=Object(dist_lib["getTelemetryAttributes"])(props.telemetryContent,search_categorysuggest_payLoad);return/*#__PURE__*/external_React_["createElement"]("li",{className:'msc-autoSuggest__categoryResults-item',key:item.Id},/*#__PURE__*/external_React_["createElement"]("a",Object.assign({"aria-label":ariaLabel,href:search_categorysuggest_generateLink(item,searchText,props)},attribute),search_categorysuggest_generateLink(item,searchText,props)&&search_categorysuggest_getHighlightedText(item.Value?item.Value:'',hitPrefix,hitSuffix)));};const search_categorysuggest_generateLink=(suggestion,searchText,props)=>{return suggestion&&suggestion.Id?_getCategoryLink(suggestion.Id,searchText,props):'';};const _getCategoryLink=(id,searchText,props)=>{const{searchPageURL,searchQsp,searchRefiners}=props;const route=searchPageURL||'';const urlPath="".concat(route).concat(route.indexOf('?')===-1?'?':'&').concat(searchQsp,"=").concat(searchText);const categoryRefiners=searchRefiners&&searchRefiners.find(refiners=>{return refiners.KeyName==='Category';});const refiner=categoryRefiners&&categoryRefiners.Values&&categoryRefiners.Values.find(item=>{return item.RefinerRecordId===parseInt(id,10);});const encodedRefiner=refiner&&encodeURIComponent(JSON.stringify(compressRefiners([refiner])));return encodedRefiner?"".concat(urlPath,"&refiners=").concat(encodedRefiner):urlPath;};const search_categorysuggest_getHighlightedText=(suggestion,hitPrefix,hitSuffix)=>{let formattedText=suggestion.replace(new RegExp("[".concat(hitPrefix,"]"),'gi'),'<strong>').replace(new RegExp("[".concat(hitSuffix,"]"),'gi'),'</strong>');formattedText=formattedText.split('|').pop()||'';return/*#__PURE__*/external_React_["createElement"]("span",{dangerouslySetInnerHTML:Object(core_dist_lib["getRichTextHtml"])(formattedText)});};const compressedRefinerKeys=['DataTypeValue','LeftValueBoundString','RefinerRecordId','RefinerSourceValue','RightValueBoundString','UnitText'];const compressRefiners=refiners=>{const compressedRefiners=[];refiners.forEach(refiner=>{const compressedRefiner=[];compressedRefinerKeys.forEach(refinerKey=>{compressedRefiner.push(refiner[refinerKey]);});compressedRefiners.push(compressedRefiner);});return compressedRefiners;};
 // CONCATENATED MODULE: ./node_modules/@msdyn365-commerce-modules/search/dist/lib/modules/search/components/search.form.js
-const FormComponent=props=>{const{searchQsp,searchPlaceholder,hideSearchLabel,isSearchFormExpanded,searchTextInput,handleInputChange,maxChars,disableSubmitSearch,handleCancelSearchChange,query,ariaLabelCancel,ariaLabelSearch,ariaLabelSubmit}=props;const onInputChange=e=>{handleInputChange(e.target.value||'');};const inputNode=!hideSearchLabel?/*#__PURE__*/external_React_["createElement"]("input",{className:'ms-search__form-control',type:'text',"aria-label":isSearchFormExpanded?'Search expanded':'Search collapsed',name:searchQsp,placeholder:searchPlaceholder,ref:searchTextInput,onChange:onInputChange,maxLength:maxChars,value:query}):/*#__PURE__*/external_React_["createElement"]("input",{className:'ms-search__form-control',type:'text',"aria-label":ariaLabelSearch,name:searchQsp,placeholder:searchPlaceholder,ref:searchTextInput,onChange:onInputChange,value:query});const submitBtnNode=!disableSubmitSearch&&/*#__PURE__*/external_React_["createElement"](lib["Button"],{className:'ms-search__form-submitSearch',"aria-label":ariaLabelSubmit});const cancelBtNoden=/*#__PURE__*/external_React_["createElement"](lib["Button"],{className:!disableSubmitSearch?'ms-search__form-cancelSearch':'ms-search__form-cancelSearchNoSumbit',"aria-label":ariaLabelCancel,onClick:handleCancelSearchChange,type:'button'});return{input:inputNode,cancelBtn:cancelBtNoden,submitBtn:submitBtnNode};};
+const FormComponent=props=>{const{searchQsp,searchPlaceholder,hideSearchLabel,isSearchFormExpanded,searchTextInput,handleInputChange,maxChars,disableSubmitSearch,handleCancelSearchChange,query,ariaLabelCancel,ariaLabelSearch,ariaLabelSubmit}=props;const onInputChange=e=>{handleInputChange(e.target.value||'');};const inputNode=!hideSearchLabel?/*#__PURE__*/external_React_["createElement"]("input",{className:'ms-search__form-control',type:'text',"aria-label":isSearchFormExpanded?'Search expanded':'Search collapsed',name:searchQsp,placeholder:searchPlaceholder,ref:searchTextInput,onChange:onInputChange,maxLength:maxChars,value:query}):/*#__PURE__*/external_React_["createElement"]("input",{className:'ms-search__form-control',type:'text',"aria-label":ariaLabelSearch,name:searchQsp,placeholder:searchPlaceholder,ref:searchTextInput,onChange:onInputChange,value:query});const submitBtnNode=!disableSubmitSearch&&/*#__PURE__*/external_React_["createElement"](dist_lib["Button"],{className:'ms-search__form-submitSearch',"aria-label":ariaLabelSubmit});const cancelBtNoden=/*#__PURE__*/external_React_["createElement"](dist_lib["Button"],{className:!disableSubmitSearch?'ms-search__form-cancelSearch':'ms-search__form-cancelSearchNoSumbit',"aria-label":ariaLabelCancel,onClick:handleCancelSearchChange,type:'button'});return{input:inputNode,cancelBtn:cancelBtNoden,submitBtn:submitBtnNode};};
 // CONCATENATED MODULE: ./node_modules/@msdyn365-commerce-modules/search/dist/lib/modules/search/components/search.label.js
-const LabelComponent=props=>{const{searchLabelClass,searchLabelArialLabel,isSearchFormExpanded,searchtext,searchCollapsedLabel,hideSearchLabel,handleCancelSearchChange,telemetryContent}=props;const payLoad=Object(lib["getPayloadObject"])('click',telemetryContent,searchtext,'');const attributes=Object(lib["getTelemetryAttributes"])(telemetryContent,payLoad);return/*#__PURE__*/external_React_["createElement"]("div",{className:searchLabelClass},/*#__PURE__*/external_React_["createElement"](lib["Button"],Object.assign({className:'ms-search__icon',"aria-expanded":isSearchFormExpanded,"aria-label":searchLabelArialLabel,onClick:handleCancelSearchChange,innerRef:searchCollapsedLabel},attributes),!hideSearchLabel&&/*#__PURE__*/external_React_["createElement"]("span",{className:'ms-search__icon-text',"aria-hidden":true},searchtext)));};
+const LabelComponent=props=>{const{searchLabelClass,searchLabelArialLabel,isSearchFormExpanded,searchtext,searchCollapsedLabel,hideSearchLabel,handleCancelSearchChange,telemetryContent}=props;const payLoad=Object(dist_lib["getPayloadObject"])('click',telemetryContent,searchtext,'');const attributes=Object(dist_lib["getTelemetryAttributes"])(telemetryContent,payLoad);return/*#__PURE__*/external_React_["createElement"]("div",{className:searchLabelClass},/*#__PURE__*/external_React_["createElement"](dist_lib["Button"],Object.assign({className:'ms-search__icon',"aria-expanded":isSearchFormExpanded,"aria-label":searchLabelArialLabel,onClick:handleCancelSearchChange,innerRef:searchCollapsedLabel},attributes),!hideSearchLabel&&/*#__PURE__*/external_React_["createElement"]("span",{className:'ms-search__icon-text',"aria-hidden":true},searchtext)));};
 // CONCATENATED MODULE: ./node_modules/@msdyn365-commerce-modules/search/dist/lib/modules/search/components/index.js
 
 // CONCATENATED MODULE: ./node_modules/@msdyn365-commerce-modules/search/dist/lib/modules/search/search.js
-function search_ownKeys(object,enumerableOnly){var keys=Object.keys(object);if(Object.getOwnPropertySymbols){var symbols=Object.getOwnPropertySymbols(object);if(enumerableOnly)symbols=symbols.filter(function(sym){return Object.getOwnPropertyDescriptor(object,sym).enumerable;});keys.push.apply(keys,symbols);}return keys;}function search_objectSpread(target){for(var i=1;i<arguments.length;i++){var source=arguments[i]!=null?arguments[i]:{};if(i%2){search_ownKeys(Object(source),true).forEach(function(key){Object(defineProperty["default"])(target,key,source[key]);});}else if(Object.getOwnPropertyDescriptors){Object.defineProperties(target,Object.getOwnPropertyDescriptors(source));}else{search_ownKeys(Object(source)).forEach(function(key){Object.defineProperty(target,key,Object.getOwnPropertyDescriptor(source,key));});}}return target;}class search_Search extends external_React_["Component"]{constructor(props){super(props);this.hitPrefix='{';this.hitSuffix='}';this.waitTime=500;this._focusOutTarget=e=>{const{suggestions}=this.state;if(suggestions&&suggestions.AllSearchResults&&e.target.closest('.ms-search')===null){this._clearAutoSuggestState();}};this._keyup=e=>{const{suggestions}=this.state;if(suggestions&&suggestions.AllSearchResults&&e.keyCode===27){this._clearAutoSuggestState();}else if(this.state.isSearchFormExpanded&&e.keyCode===27){if(this.state.isSearchFormExpanded){this.setState({isSearchFormExpanded:false});}}if(!(this.formReference.current&&this.formReference.current.contains(e.target)||this.autoSuggestResultDiv.current&&this.autoSuggestResultDiv.current.contains(e.target))){if(suggestions&&suggestions.AllSearchResults){this._clearAutoSuggestState();}if(this.state.isSearchFormExpanded){this.setState({isSearchFormExpanded:false});}}};this._clearAutoSuggestState=()=>{const{context:{actionContext},data:{searchState}}=this.props;if(this.searchTextInput.current&&this.searchTextInput.current.value.length>0){searchState.searchText='';searchState.defaultBasicSearchUrl='';searchState.searchQueryStringParameter='';actionContext?actionContext.update(Object(search_state_data_action["createSearchStateInput"])(searchState),searchState):null;this.searchTextInput.current.value='';}this.setState({searchText:'',suggestions:undefined,searchRefiners:undefined});};this._handleInputChange=query=>{if(!query||query.length<this.maxChars){this.setState({searchText:query});}if(this.cancellabelDebounce){this.cancellabelDebounce.cancel();}const{telemetry,context,data:{searchState}}=this.props;if(context){if(query&&query.length>0){if(query.length>this.maxChars){return;}this.cancellabelDebounce=debounce_default()(()=>{get_auto_suggest_suggestions(new AutoSuggestInput(query,this.topResultsCount,this._getSuggestionType(this.inputSuggestionType),this.hitPrefix,this.hitSuffix),context.actionContext).then(results=>{this._getSearchRefiners(query).then(refiners=>{this.setState({suggestions:results,searchRefiners:refiners,autoSuggestAriaLabel:this._setAutoSuggestResultCount(results)});}).catch(error=>{this.setState({suggestions:results,searchRefiners:undefined,autoSuggestAriaLabel:this._setAutoSuggestResultCount(results)});telemetry.exception(error);telemetry.debug('Unable to get refiners results');});}).catch(error=>{this.setState({suggestions:undefined,searchRefiners:undefined,autoSuggestAriaLabel:this._setAutoSuggestResultCount()});telemetry.exception(error);telemetry.debug('Unable to get auto suggest results');});},this.waitTime);setTimeout(()=>{this.cancellabelDebounce();},0);searchState.searchText=query;}else{this.setState({suggestions:undefined,searchRefiners:undefined});searchState.searchText='';}context.actionContext.update(Object(search_state_data_action["createSearchStateInput"])(searchState),searchState);}};this._getSuggestionType=suggestionTypes=>{if(suggestionTypes&&suggestionTypes.length>0){const distinctSuggestionTypes=[];suggestionTypes&&suggestionTypes.forEach((suggestionTypeItem,index)=>{suggestionTypeItem.SuggestionType&&distinctSuggestionTypes.push(suggestionTypeItem.SuggestionType.charAt(0).toUpperCase()+suggestionTypeItem.SuggestionType.slice(1));});return distinctSuggestionTypes.join(',');}return'Keyword, Product, ScopedCategory';};this._handleSubmit=e=>{const{config:{disableSubmitSearch},context:{actionContext,app:{config:{searchQueryStringParameter}}}}=this.props;const query=this.searchTextInput.current&&this.searchTextInput.current.value;e.preventDefault();if(!query||query&&query.length===0||disableSubmitSearch){this.searchTextInput&&this.searchTextInput.current&&this.searchTextInput.current.focus();}else{const searchQsp=searchQueryStringParameter||'q';const searchURL=this._appendQueryParams(Object(dist_lib["getUrlSync"])('search',actionContext)||'',query,searchQsp);document.location.href=searchURL;}};this._handleCancelSearchChange=()=>{const{isSearchFormExpanded,suggestions}=this.state;if(!isSearchFormExpanded){this.setState({isSearchFormExpanded:true,searchText:'',isInitialState:false});}else{if(suggestions&&suggestions.AllSearchResults){this._clearAutoSuggestState();}this.setState({isSearchFormExpanded:false});}};this._appendQueryParams=(route,query,qsp)=>{if(route&&route.length>0){return query&&query.length>0?"".concat(route).concat(route.indexOf('?')===-1?'?':'&').concat(qsp,"=").concat(query):route;}return'';};this._setAutoSuggestResultCount=result=>{if(this.autoSuggestResultScreenReaderDiv.current!==null){const ariaLiveRegion=this.autoSuggestResultScreenReaderDiv.current;const suggestResultString=this.props.resources.autoSuggestFoundMessage;const emptyResultString=this.props.resources.noAutoSuggestionMessage;ariaLiveRegion.innerText=result&&result.AllSearchResults&&result.AllSearchResults.length>0?suggestResultString:emptyResultString;ariaLiveRegion.setAttribute('aria-live','assertive');return ariaLiveRegion.innerText;}else{return'';}};this.searchTextInput=/*#__PURE__*/external_React_["createRef"]();this.searchCollapsedLabel=/*#__PURE__*/external_React_["createRef"]();this.autoSuggestResultScreenReaderDiv=/*#__PURE__*/external_React_["createRef"]();this.autoSuggestResultDiv=/*#__PURE__*/external_React_["createRef"]();this.formReference=/*#__PURE__*/external_React_["createRef"]();this.state={isSearchFormExpanded:false,searchText:'',searchKeywordSuggestClass:'ms-search__autoSuggest__keyword',searchProductSuggestClass:'ms-search__autoSuggest__product',searchCategorySuggestClass:'ms-search__autoSuggest__category',suggestions:undefined,searchRefiners:undefined,autoSuggestAriaLabel:'',isInitialState:true};this.maxChars=this.props.context&&this.props.context.app&&this.props.context.app.config&&this.props.context.app.config.searchInputMaxLength||50;this.inputSuggestionType=this.props.config&&this.props.config.suggestionTypeCriterion;this.topResultsCount=this.props.config&&this.props.config.topResultsCount?this.props.config.topResultsCount:5;this.searchFormClass='ms-search__form';this.searchLabelClass='ms-search__label';this.telemetryContent=Object(lib["getTelemetryObject"])(this.props.context.request.telemetryPageName,this.props.friendlyName,this.props.telemetry);}async componentDidMount(){document.body&&document.body.addEventListener('mousedown',this._focusOutTarget);window&&window.addEventListener('keyup',this._keyup);}componentWillUnmount(){document.body&&document.body.removeEventListener('mousedown',this._focusOutTarget,false);window&&window.removeEventListener('keyup',this._keyup,false);}componentDidUpdate(){const{config:{hideSearchLabel}}=this.props;const{isSearchFormExpanded,isInitialState}=this.state;if(!this.props.context.request.params.isEditor){if(!hideSearchLabel&&isSearchFormExpanded){this.searchTextInput&&this.searchTextInput.current&&this.searchTextInput.current.focus();}else if(!isInitialState){this.searchCollapsedLabel&&this.searchCollapsedLabel.current&&this.searchCollapsedLabel.current.focus();}}}render(){const{context,resources:{searchtext,searchLabelArialLabel,cancelBtnAriaLabel,searchBtnAriaLabel,submitBtnAriaLabel},config:{hideSearchLabel,disableSubmitSearch,searchplaceholderText,className=''}}=this.props;const{isSearchFormExpanded,searchText,searchKeywordSuggestClass,searchProductSuggestClass,searchCategorySuggestClass,suggestions,searchRefiners}=this.state;const searchQsp=context&&context.app&&context.app.config&&context.app.config.searchQueryStringParameter||'q';const searchPageURL=Object(dist_lib["getUrlSync"])('search',context&&context.actionContext)||'';const searchURL=this._appendQueryParams(searchPageURL,searchText,searchQsp);const searchPlaceholder=searchplaceholderText&&searchplaceholderText.length>0?searchplaceholderText:'Search in Fabrikam';const keywordSuggestions=suggestions&&suggestions.AllSearchResults&&suggestions.AllSearchResults.filter(i=>i.SuggestionType==="Keyword"||i.SuggestionType==="None");const productSuggestions=suggestions&&suggestions.AllSearchResults&&suggestions.AllSearchResults.filter(i=>i.SuggestionType==="Product");const categorySuggestions=suggestions&&suggestions.AllSearchResults&&suggestions.AllSearchResults.filter(i=>i.SuggestionType==="ScopedCategory");const viewProps=search_objectSpread(search_objectSpread({},this.props),{},{Search:{moduleProps:this.props,className:"".concat(classnames_default()('ms-search',className)," ").concat(disableSubmitSearch?'no-submit':'with-submit')},AutoSuggestAriaLabel:{tag:'div',className:'msc-autoSuggest__screen-reader','aria-live':'assertive',ref:this.autoSuggestResultScreenReaderDiv},AutoSuggestAriaLabelText:this.state.autoSuggestAriaLabel,searchText:this.state.searchText,AutoSuggest:{ref:this.autoSuggestResultDiv,className:'ms-search__autoSuggest'},KeywordSuggest:{className:searchKeywordSuggestClass},ProductSuggest:{className:searchProductSuggestClass},CategorySuggest:{className:searchCategorySuggestClass},SearchForm:{className:"".concat(this.searchFormClass," ").concat(isSearchFormExpanded?'bx-show':'bx-hide')},FormWrapper:{tag:'form',ref:this.formReference,className:'ms-search__searchForm','aria-label':'Search',name:'searchForm',role:'Search',action:searchURL,autoComplete:'off',onSubmit:this._handleSubmit},UlKeyword:{tag:'ul',className:classnames_default()('msc-autoSuggest__keywordResults-items',className)},UlProduct:{tag:'ul',className:classnames_default()('msc-autoSuggest__productResults-items',className)},UlCategory:{tag:'ul',className:classnames_default()('msc-autoSuggest__categoryResults-items',className)},label:LabelComponent({isSearchFormExpanded:isSearchFormExpanded,searchLabelClass:"".concat(this.searchLabelClass," ").concat(isSearchFormExpanded?'bx-hide':'bx-show'),searchtext:searchtext,searchLabelArialLabel:searchLabelArialLabel,searchCollapsedLabel:this.searchCollapsedLabel,hideSearchLabel:hideSearchLabel,handleCancelSearchChange:this._handleCancelSearchChange,telemetryContent:this.telemetryContent}),form:FormComponent({ariaLabelCancel:cancelBtnAriaLabel,ariaLabelSearch:searchBtnAriaLabel,ariaLabelSubmit:submitBtnAriaLabel,hideSearchLabel:hideSearchLabel,searchTextInput:this.searchTextInput,isSearchFormExpanded:isSearchFormExpanded,disableSubmitSearch:disableSubmitSearch,handleInputChange:this._handleInputChange,handleCancelSearchChange:this._handleCancelSearchChange,maxChars:this.maxChars,searchQsp:searchQsp,searchPlaceholder:searchPlaceholder,query:searchText}),autosuggestKeyword:searchText&&searchText.length>0&&keywordSuggestions&&keywordSuggestions.length>0?KeywordSuggestionsComponent({searchKeywordSuggestClass:searchKeywordSuggestClass,searchPageURL:searchPageURL,searchQsp:searchQsp,hitPrefix:this.hitPrefix,hitSuffix:this.hitSuffix,autoSuggestProps:this.props,searchText:searchText,suggestions:keywordSuggestions,telemetryContent:this.telemetryContent}):undefined,autosuggestProduct:searchText&&searchText.length>0&&productSuggestions&&productSuggestions.length>0?ProductSuggestionsComponent({searchProductSuggestClass:searchProductSuggestClass,searchPageURL:searchPageURL,searchQsp:searchQsp,hitPrefix:this.hitPrefix,hitSuffix:this.hitSuffix,autoSuggestProps:this.props,searchText:searchText,suggestions:productSuggestions,telemetry:this.props.telemetry,moduleType:this.props.typeName,moduleId:this.props.id,telemetryContent:this.telemetryContent}):undefined,autosuggestCategory:searchText&&searchText.length>0&&categorySuggestions&&categorySuggestions.length>0?CategorySuggestionsComponent({searchCategorySuggestClass:searchCategorySuggestClass,searchPageURL:searchPageURL,searchQsp:searchQsp,hitPrefix:this.hitPrefix,hitSuffix:this.hitSuffix,autoSuggestProps:this.props,searchText:searchText,suggestions:categorySuggestions,searchRefiners:searchRefiners,telemetryContent:this.telemetryContent}):undefined,callbacks:{handleCancelSearchChange:this._handleCancelSearchChange},isSearchFormExpanded:this.state.isSearchFormExpanded});return this.props.renderView(viewProps);}async _getSearchRefiners(searchText){const{actionContext:ctx}=this.props.context;return Object(ProductsDataActions_g["getProductSearchRefinersAsync"])({callerContext:ctx},{SearchCondition:searchText,Context:{ChannelId:+ctx.requestContext.apiSettings.channelId,CatalogId:+ctx.requestContext.apiSettings.catalogId}});}}/* harmony default export */ var search = __webpack_exports__["default"] = (search_Search);
+function search_ownKeys(object,enumerableOnly){var keys=Object.keys(object);if(Object.getOwnPropertySymbols){var symbols=Object.getOwnPropertySymbols(object);if(enumerableOnly)symbols=symbols.filter(function(sym){return Object.getOwnPropertyDescriptor(object,sym).enumerable;});keys.push.apply(keys,symbols);}return keys;}function search_objectSpread(target){for(var i=1;i<arguments.length;i++){var source=arguments[i]!=null?arguments[i]:{};if(i%2){search_ownKeys(Object(source),true).forEach(function(key){Object(defineProperty["default"])(target,key,source[key]);});}else if(Object.getOwnPropertyDescriptors){Object.defineProperties(target,Object.getOwnPropertyDescriptors(source));}else{search_ownKeys(Object(source)).forEach(function(key){Object.defineProperty(target,key,Object.getOwnPropertyDescriptor(source,key));});}}return target;}class search_Search extends external_React_["Component"]{constructor(props){super(props);this.hitPrefix='{';this.hitSuffix='}';this.waitTime=500;this._focusOutTarget=e=>{const{suggestions}=this.state;if(suggestions&&suggestions.AllSearchResults&&e.target.closest('.ms-search')===null){this._clearAutoSuggestState();}};this._keyup=e=>{const{suggestions}=this.state;if(suggestions&&suggestions.AllSearchResults&&e.keyCode===27){this._clearAutoSuggestState();}else if(this.state.isSearchFormExpanded&&e.keyCode===27){if(this.state.isSearchFormExpanded){this.setState({isSearchFormExpanded:false});}}if(!(this.formReference.current&&this.formReference.current.contains(e.target)||this.autoSuggestResultDiv.current&&this.autoSuggestResultDiv.current.contains(e.target))){if(suggestions&&suggestions.AllSearchResults){this._clearAutoSuggestState();}if(this.state.isSearchFormExpanded){this.setState({isSearchFormExpanded:false});}}};this._clearAutoSuggestState=()=>{const{context:{actionContext},data:{searchState}}=this.props;if(this.searchTextInput.current&&this.searchTextInput.current.value.length>0){searchState.searchText='';searchState.defaultBasicSearchUrl='';searchState.searchQueryStringParameter='';actionContext?actionContext.update(Object(lib["createSearchStateInput"])(searchState),searchState):null;this.searchTextInput.current.value='';}this.setState({searchText:'',suggestions:undefined,searchRefiners:undefined});};this._handleInputChange=query=>{if(!query||query.length<this.maxChars){this.setState({searchText:query});}if(this.cancellabelDebounce){this.cancellabelDebounce.cancel();}const{telemetry,context,data:{searchState}}=this.props;if(context){if(query&&query.length>0){if(query.length>this.maxChars){return;}this.cancellabelDebounce=debounce_default()(()=>{get_auto_suggest_suggestions(new AutoSuggestInput(query,this.topResultsCount,this._getSuggestionType(this.inputSuggestionType),this.hitPrefix,this.hitSuffix),context.actionContext).then(results=>{this._getSearchRefiners(query).then(refiners=>{this.setState({suggestions:results,searchRefiners:refiners,autoSuggestAriaLabel:this._setAutoSuggestResultCount(results)});}).catch(error=>{this.setState({suggestions:results,searchRefiners:undefined,autoSuggestAriaLabel:this._setAutoSuggestResultCount(results)});telemetry.exception(error);telemetry.debug('Unable to get refiners results');});}).catch(error=>{this.setState({suggestions:undefined,searchRefiners:undefined,autoSuggestAriaLabel:this._setAutoSuggestResultCount()});telemetry.exception(error);telemetry.debug('Unable to get auto suggest results');});},this.waitTime);setTimeout(()=>{this.cancellabelDebounce();},0);searchState.searchText=query;}else{this.setState({suggestions:undefined,searchRefiners:undefined});searchState.searchText='';}context.actionContext.update(Object(lib["createSearchStateInput"])(searchState),searchState);}};this._getSuggestionType=suggestionTypes=>{if(suggestionTypes&&suggestionTypes.length>0){const distinctSuggestionTypes=[];suggestionTypes&&suggestionTypes.forEach((suggestionTypeItem,index)=>{suggestionTypeItem.SuggestionType&&distinctSuggestionTypes.push(suggestionTypeItem.SuggestionType.charAt(0).toUpperCase()+suggestionTypeItem.SuggestionType.slice(1));});return distinctSuggestionTypes.join(',');}return'Keyword, Product, ScopedCategory';};this._handleSubmit=e=>{const{config:{disableSubmitSearch},context:{actionContext,app:{config:{searchQueryStringParameter}}}}=this.props;const query=this.searchTextInput.current&&this.searchTextInput.current.value;e.preventDefault();if(!query||query&&query.length===0||disableSubmitSearch){this.searchTextInput&&this.searchTextInput.current&&this.searchTextInput.current.focus();}else{const searchQsp=searchQueryStringParameter||'q';const searchURL=this._appendQueryParams(Object(core_dist_lib["getUrlSync"])('search',actionContext)||'',query,searchQsp);document.location.href=searchURL;}};this._handleCancelSearchChange=()=>{const{isSearchFormExpanded,suggestions}=this.state;if(!isSearchFormExpanded){this.setState({isSearchFormExpanded:true,searchText:'',isInitialState:false});}else{if(suggestions&&suggestions.AllSearchResults){this._clearAutoSuggestState();}this.setState({isSearchFormExpanded:false});}};this._appendQueryParams=(route,query,qsp)=>{if(route&&route.length>0){return query&&query.length>0?"".concat(route).concat(route.indexOf('?')===-1?'?':'&').concat(qsp,"=").concat(query):route;}return'';};this._setAutoSuggestResultCount=result=>{if(this.autoSuggestResultScreenReaderDiv.current!==null){const ariaLiveRegion=this.autoSuggestResultScreenReaderDiv.current;const suggestResultString=this.props.resources.autoSuggestFoundMessage;const emptyResultString=this.props.resources.noAutoSuggestionMessage;ariaLiveRegion.innerText=result&&result.AllSearchResults&&result.AllSearchResults.length>0?suggestResultString:emptyResultString;ariaLiveRegion.setAttribute('aria-live','assertive');return ariaLiveRegion.innerText;}else{return'';}};this.searchTextInput=/*#__PURE__*/external_React_["createRef"]();this.searchCollapsedLabel=/*#__PURE__*/external_React_["createRef"]();this.autoSuggestResultScreenReaderDiv=/*#__PURE__*/external_React_["createRef"]();this.autoSuggestResultDiv=/*#__PURE__*/external_React_["createRef"]();this.formReference=/*#__PURE__*/external_React_["createRef"]();this.state={isSearchFormExpanded:false,searchText:'',searchKeywordSuggestClass:'ms-search__autoSuggest__keyword',searchProductSuggestClass:'ms-search__autoSuggest__product',searchCategorySuggestClass:'ms-search__autoSuggest__category',suggestions:undefined,searchRefiners:undefined,autoSuggestAriaLabel:'',isInitialState:true};this.maxChars=this.props.context&&this.props.context.app&&this.props.context.app.config&&this.props.context.app.config.searchInputMaxLength||50;this.inputSuggestionType=this.props.config&&this.props.config.suggestionTypeCriterion;this.topResultsCount=this.props.config&&this.props.config.topResultsCount?this.props.config.topResultsCount:5;this.searchFormClass='ms-search__form';this.searchLabelClass='ms-search__label';this.telemetryContent=Object(dist_lib["getTelemetryObject"])(this.props.context.request.telemetryPageName,this.props.friendlyName,this.props.telemetry);}async componentDidMount(){document.body&&document.body.addEventListener('mousedown',this._focusOutTarget);window&&window.addEventListener('keyup',this._keyup);}componentWillUnmount(){document.body&&document.body.removeEventListener('mousedown',this._focusOutTarget,false);window&&window.removeEventListener('keyup',this._keyup,false);}componentDidUpdate(){const{config:{hideSearchLabel}}=this.props;const{isSearchFormExpanded,isInitialState}=this.state;if(!this.props.context.request.params.isEditor){if(!hideSearchLabel&&isSearchFormExpanded){this.searchTextInput&&this.searchTextInput.current&&this.searchTextInput.current.focus();}else if(!isInitialState){this.searchCollapsedLabel&&this.searchCollapsedLabel.current&&this.searchCollapsedLabel.current.focus();}}}render(){const{context,resources:{searchtext,searchLabelArialLabel,cancelBtnAriaLabel,searchBtnAriaLabel,submitBtnAriaLabel},config:{hideSearchLabel,disableSubmitSearch,searchplaceholderText,className=''}}=this.props;const{isSearchFormExpanded,searchText,searchKeywordSuggestClass,searchProductSuggestClass,searchCategorySuggestClass,suggestions,searchRefiners}=this.state;const searchQsp=context&&context.app&&context.app.config&&context.app.config.searchQueryStringParameter||'q';const searchPageURL=Object(core_dist_lib["getUrlSync"])('search',context&&context.actionContext)||'';const searchURL=this._appendQueryParams(searchPageURL,searchText,searchQsp);const searchPlaceholder=searchplaceholderText&&searchplaceholderText.length>0?searchplaceholderText:'Search in Fabrikam';const keywordSuggestions=suggestions&&suggestions.AllSearchResults&&suggestions.AllSearchResults.filter(i=>i.SuggestionType==="Keyword"||i.SuggestionType==="None");const productSuggestions=suggestions&&suggestions.AllSearchResults&&suggestions.AllSearchResults.filter(i=>i.SuggestionType==="Product");const categorySuggestions=suggestions&&suggestions.AllSearchResults&&suggestions.AllSearchResults.filter(i=>i.SuggestionType==="ScopedCategory");const viewProps=search_objectSpread(search_objectSpread({},this.props),{},{Search:{moduleProps:this.props,className:"".concat(classnames_default()('ms-search',className)," ").concat(disableSubmitSearch?'no-submit':'with-submit')},AutoSuggestAriaLabel:{tag:'div',className:'msc-autoSuggest__screen-reader','aria-live':'assertive',ref:this.autoSuggestResultScreenReaderDiv},AutoSuggestAriaLabelText:this.state.autoSuggestAriaLabel,searchText:this.state.searchText,AutoSuggest:{ref:this.autoSuggestResultDiv,className:'ms-search__autoSuggest'},KeywordSuggest:{className:searchKeywordSuggestClass},ProductSuggest:{className:searchProductSuggestClass},CategorySuggest:{className:searchCategorySuggestClass},SearchForm:{className:"".concat(this.searchFormClass," ").concat(isSearchFormExpanded?'bx-show':'bx-hide')},FormWrapper:{tag:'form',ref:this.formReference,className:'ms-search__searchForm','aria-label':'Search',name:'searchForm',role:'Search',action:searchURL,autoComplete:'off',onSubmit:this._handleSubmit},UlKeyword:{tag:'ul',className:classnames_default()('msc-autoSuggest__keywordResults-items',className)},UlProduct:{tag:'ul',className:classnames_default()('msc-autoSuggest__productResults-items',className)},UlCategory:{tag:'ul',className:classnames_default()('msc-autoSuggest__categoryResults-items',className)},label:LabelComponent({isSearchFormExpanded:isSearchFormExpanded,searchLabelClass:"".concat(this.searchLabelClass," ").concat(isSearchFormExpanded?'bx-hide':'bx-show'),searchtext:searchtext,searchLabelArialLabel:searchLabelArialLabel,searchCollapsedLabel:this.searchCollapsedLabel,hideSearchLabel:hideSearchLabel,handleCancelSearchChange:this._handleCancelSearchChange,telemetryContent:this.telemetryContent}),form:FormComponent({ariaLabelCancel:cancelBtnAriaLabel,ariaLabelSearch:searchBtnAriaLabel,ariaLabelSubmit:submitBtnAriaLabel,hideSearchLabel:hideSearchLabel,searchTextInput:this.searchTextInput,isSearchFormExpanded:isSearchFormExpanded,disableSubmitSearch:disableSubmitSearch,handleInputChange:this._handleInputChange,handleCancelSearchChange:this._handleCancelSearchChange,maxChars:this.maxChars,searchQsp:searchQsp,searchPlaceholder:searchPlaceholder,query:searchText}),autosuggestKeyword:searchText&&searchText.length>0&&keywordSuggestions&&keywordSuggestions.length>0?KeywordSuggestionsComponent({searchKeywordSuggestClass:searchKeywordSuggestClass,searchPageURL:searchPageURL,searchQsp:searchQsp,hitPrefix:this.hitPrefix,hitSuffix:this.hitSuffix,autoSuggestProps:this.props,searchText:searchText,suggestions:keywordSuggestions,telemetryContent:this.telemetryContent}):undefined,autosuggestProduct:searchText&&searchText.length>0&&productSuggestions&&productSuggestions.length>0?ProductSuggestionsComponent({searchProductSuggestClass:searchProductSuggestClass,searchPageURL:searchPageURL,searchQsp:searchQsp,hitPrefix:this.hitPrefix,hitSuffix:this.hitSuffix,autoSuggestProps:this.props,searchText:searchText,suggestions:productSuggestions,telemetry:this.props.telemetry,moduleType:this.props.typeName,moduleId:this.props.id,telemetryContent:this.telemetryContent}):undefined,autosuggestCategory:searchText&&searchText.length>0&&categorySuggestions&&categorySuggestions.length>0?CategorySuggestionsComponent({searchCategorySuggestClass:searchCategorySuggestClass,searchPageURL:searchPageURL,searchQsp:searchQsp,hitPrefix:this.hitPrefix,hitSuffix:this.hitSuffix,autoSuggestProps:this.props,searchText:searchText,suggestions:categorySuggestions,searchRefiners:searchRefiners,telemetryContent:this.telemetryContent}):undefined,callbacks:{handleCancelSearchChange:this._handleCancelSearchChange},isSearchFormExpanded:this.state.isSearchFormExpanded});return this.props.renderView(viewProps);}async _getSearchRefiners(searchText){const{actionContext:ctx}=this.props.context;return Object(ProductsDataActions_g["getProductSearchRefinersAsync"])({callerContext:ctx},{SearchCondition:searchText,Context:{ChannelId:+ctx.requestContext.apiSettings.channelId,CatalogId:+ctx.requestContext.apiSettings.catalogId}});}}/* harmony default export */ var search = __webpack_exports__["default"] = (search_Search);
 
 /***/ }),
 
@@ -11921,6 +11946,996 @@ webpackContext.id = "./node_modules/webpack/hot sync ^\\.\\/log$";
 
 /***/ }),
 
+/***/ "./src/modules/cart/cart.tsx":
+/*!***********************************************!*\
+  !*** ./src/modules/cart/cart.tsx + 2 modules ***!
+  \***********************************************/
+/*! exports provided: default */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@msdyn365-commerce-modules/order-summary-utilities/dist/lib/index.js because of ./node_modules/@msdyn365-commerce-modules/cart/dist/lib/modules/cart/cart.js */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/index.js (<- Module is referenced from these modules with unsupported syntax: ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/popup/Popup.js (referenced with cjs require)) */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/index.js (<- Module is not an ECMAScript module) */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@msdyn365-commerce/components/dist/lib/index.js */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@msdyn365-commerce/core/dist/lib/index.js (<- Module is referenced from these modules with unsupported syntax: ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/back-to-top/BackToTop.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/common/telemetryHelper.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/drawer/ControlledDrawer.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/popup/Popup.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/slider/Slider.js (referenced with cjs require)) */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@babel/runtime/helpers/esm/defineProperty.js */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/classnames/index.js (<- Module is not an ECMAScript module) */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/mobx-react/index.module.js */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/tslib/tslib.es6.js (<- Module is referenced from these modules with unsupported syntax: ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/alert/Alert.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/back-to-top/BackToTop.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/button/Button.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/collapse/Collapse.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/drawer/ControlledDrawer.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/drawer/Drawer.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/fade/Fade.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/flipper/Flipper.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/heading/Heading.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/index.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/labeled-dropdown/LabeledDropdown.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/modal/Modal.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/modal/ModalBody.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/modal/ModalFooter.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/modal/ModalHeader.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/modal/Portal.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/modal/index.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/pagination/Pagination.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/pagination/PaginationItem.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/pagination/PaginationLink.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/pagination/UncontrolledPagination.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/popover/Popover.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/popover/index.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/popper-content/PopperContent.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/popup-products/Popup-products.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/popup/Popup.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/progress/Progress.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/quantity/Quantity.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/quantity/index.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/single-slide-carousel/SingleSlideCarousel.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/slider/Slider.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/slider/SliderThumb.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/table/Table.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/table/checkbox.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/table/index.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/tooltip/Tooltip.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/tooltip/UncontrolledTooltip.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/waiting/Waiting.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/wrapper/module.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/wrapper/node.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/zoom-image/ImagefullView.js (referenced with cjs require)) */
+/*! ModuleConcatenation bailout: Cannot concat with external "React" (<- Module is not an ECMAScript module) */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+// ESM COMPAT FLAG
+__webpack_require__.r(__webpack_exports__);
+
+// EXTERNAL MODULE: ./node_modules/@msdyn365-commerce/bootloader/node_modules/core-js/modules/es.object.assign.js
+var es_object_assign = __webpack_require__("./node_modules/@msdyn365-commerce/bootloader/node_modules/core-js/modules/es.object.assign.js");
+
+// EXTERNAL MODULE: ./node_modules/@msdyn365-commerce/bootloader/node_modules/core-js/modules/es.regexp.constructor.js
+var es_regexp_constructor = __webpack_require__("./node_modules/@msdyn365-commerce/bootloader/node_modules/core-js/modules/es.regexp.constructor.js");
+
+// EXTERNAL MODULE: ./node_modules/@msdyn365-commerce/bootloader/node_modules/core-js/modules/es.regexp.to-string.js
+var es_regexp_to_string = __webpack_require__("./node_modules/@msdyn365-commerce/bootloader/node_modules/core-js/modules/es.regexp.to-string.js");
+
+// EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/defineProperty.js
+var defineProperty = __webpack_require__("./node_modules/@babel/runtime/helpers/esm/defineProperty.js");
+
+// EXTERNAL MODULE: ./node_modules/tslib/tslib.es6.js
+var tslib_es6 = __webpack_require__("./node_modules/tslib/tslib.es6.js");
+
+// EXTERNAL MODULE: ./node_modules/@msdyn365-commerce-modules/order-summary-utilities/dist/lib/index.js + 1 modules
+var lib = __webpack_require__("./node_modules/@msdyn365-commerce-modules/order-summary-utilities/dist/lib/index.js");
+
+// EXTERNAL MODULE: ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/index.js
+var dist_lib = __webpack_require__("./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/index.js");
+
+// EXTERNAL MODULE: ./node_modules/@msdyn365-commerce/components/dist/lib/index.js + 48 modules
+var components_dist_lib = __webpack_require__("./node_modules/@msdyn365-commerce/components/dist/lib/index.js");
+
+// EXTERNAL MODULE: ./node_modules/@msdyn365-commerce/core/dist/lib/index.js
+var core_dist_lib = __webpack_require__("./node_modules/@msdyn365-commerce/core/dist/lib/index.js");
+
+// EXTERNAL MODULE: ./node_modules/classnames/index.js
+var classnames = __webpack_require__("./node_modules/classnames/index.js");
+var classnames_default = /*#__PURE__*/__webpack_require__.n(classnames);
+
+// EXTERNAL MODULE: ./node_modules/mobx-react/index.module.js
+var index_module = __webpack_require__("./node_modules/mobx-react/index.module.js");
+
+// EXTERNAL MODULE: external "React"
+var external_React_ = __webpack_require__("react");
+var external_React_default = /*#__PURE__*/__webpack_require__.n(external_React_);
+
+// EXTERNAL MODULE: ./node_modules/@msdyn365-commerce/bootloader/node_modules/core-js/modules/es.string.replace.js
+var es_string_replace = __webpack_require__("./node_modules/@msdyn365-commerce/bootloader/node_modules/core-js/modules/es.string.replace.js");
+
+// EXTERNAL MODULE: ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/index.js + 38 modules
+var retail_actions_dist_lib = __webpack_require__("./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/index.js");
+
+// EXTERNAL MODULE: ./node_modules/@msdyn365-commerce/bootloader/node_modules/core-js/modules/es.promise.js
+var es_promise = __webpack_require__("./node_modules/@msdyn365-commerce/bootloader/node_modules/core-js/modules/es.promise.js");
+
+// CONCATENATED MODULE: ./src/modules/cart/components/cart-pick-up-in-store.tsx
+
+ // tslint:disable-next-line:max-func-body-length
+
+const PickUpInStore = props => {
+  const _onLocationChangedCallback = (orgUnitLocation, cartState, cartline) => {
+    if (!cartState) {
+      return Promise.resolve();
+    }
+
+    return cartState.updateCartLinePickupLocation({
+      cartLineId: cartline.LineId,
+      location: orgUnitLocation
+    }).then(result => {
+      if (result.status === 'SUCCESS') {// do something
+      }
+    }).catch(error => {
+      return;
+    });
+  };
+
+  const _toggleBOPIS = isBopisSelected => {
+    const {
+      storeSelectorStateManager,
+      product,
+      cartline,
+      cartState
+    } = props;
+
+    if (isBopisSelected) {
+      if (!storeSelectorStateManager) {
+        return;
+      }
+
+      storeSelectorStateManager.openDialog({
+        product,
+        alreadySelectedLocation: {
+          OrgUnitNumber: cartline.FulfillmentStoreId
+        },
+        onLocationSelected: orgUnitLocation => {
+          return _onLocationChangedCallback(orgUnitLocation, cartState, cartline);
+        }
+      }).catch(error => {
+        return;
+      });
+    } else {
+      if (!cartState) {
+        return;
+      }
+
+      cartline.DeliveryMode = '';
+      cartline.FulfillmentStoreId = '';
+      cartline.ShippingAddress = {};
+      cartState.clearCartLinePickupLocation({
+        cartLineId: cartline.LineId
+      }).then(result => {
+        if (result.status === 'SUCCESS') {// do something
+        }
+      }).catch(error => {
+        return;
+      });
+    }
+  };
+
+  const _getOrgUnitName = (fulfillmentStoreId, orgUnitLocations) => {
+    if (!orgUnitLocations || !fulfillmentStoreId || !(orgUnitLocations.length > 0)) {
+      return '';
+    }
+
+    const foundLocation = orgUnitLocations.find(orgUnitLocation => {
+      return orgUnitLocation.OrgUnitNumber === fulfillmentStoreId;
+    });
+
+    if (foundLocation) {
+      return foundLocation.OrgUnitName;
+    } else {
+      return fulfillmentStoreId;
+    }
+  };
+
+  const _renderShippingMethod = (cartLine, shipItText, pickupInStoretext, changeStoreText, orgUnitLocations) => {
+    const orgUnitName = _getOrgUnitName(cartLine.FulfillmentStoreId, orgUnitLocations);
+
+    const bopisSelected = cartLine.FulfillmentStoreId ? true : false;
+
+    const toggleBOPIS = isBopisSelected => {
+      return () => _toggleBOPIS(isBopisSelected);
+    };
+
+    return /*#__PURE__*/external_React_["createElement"](external_React_["Fragment"], null, /*#__PURE__*/external_React_["createElement"]("label", {
+      className: 'msc-cart-line__bopis-shipping'
+    }, /*#__PURE__*/external_React_["createElement"]("input", {
+      id: "ms-cart-bopis-ship-option-".concat(cartLine.LineId),
+      type: 'radio',
+      name: "shippingType ".concat(cartLine.LineId),
+      onChange: toggleBOPIS(false),
+      value: shipItText,
+      checked: !bopisSelected,
+      "aria-checked": !bopisSelected,
+      key: "".concat(cartLine.LineId, "-shipit")
+    }), shipItText), /*#__PURE__*/external_React_["createElement"]("label", {
+      className: 'msc-cart-line__bopis-store-pickup'
+    }, /*#__PURE__*/external_React_["createElement"]("input", {
+      id: "ms-cart-bopis-pickup-option-".concat(cartLine.LineId),
+      type: 'radio',
+      name: "shippingType ".concat(cartLine.LineId),
+      onChange: toggleBOPIS(true),
+      value: pickupInStoretext,
+      checked: bopisSelected,
+      "aria-checked": bopisSelected,
+      key: "".concat(cartLine.LineId, "-pickup")
+    }), pickupInStoretext), cartLine.FulfillmentStoreId ? /*#__PURE__*/external_React_["createElement"]("div", {
+      className: 'msc-cart-line__bopis__fullfilment'
+    }, /*#__PURE__*/external_React_["createElement"]("span", {
+      className: 'msc-cart-line__bopis__fullfilment-store'
+    }, orgUnitName), /*#__PURE__*/external_React_["createElement"]("button", {
+      className: 'msc-cart-line__bopis-changestore btn',
+      onClick: toggleBOPIS(true)
+    }, changeStoreText)) : null);
+  }; // If no delivery options present on the product, or none of the delivery options
+  // match the PickupDeliveryModeCode, that means the item cannot be used for BOPIS
+
+
+  if (!props.deliveryOptions || !props.deliveryOptions.DeliveryOptions || !props.pickupDeliveryModeCode || !props.deliveryOptions.DeliveryOptions.find(option => option.Code === props.pickupDeliveryModeCode)) {
+    return undefined;
+  }
+
+  return {
+    callbacks: {
+      toggleBopis: _toggleBOPIS
+    },
+    defaultComponent: _renderShippingMethod(props.cartline, props.shipitText, props.pickUpInStoreText, props.changeStoreText, props.orgUnitLocations),
+    orgUnitName: _getOrgUnitName(props.cartline.FulfillmentStoreId, props.orgUnitLocations),
+    isBopisSelected: props.cartline.FulfillmentStoreId ? true : false,
+    ContainerProps: {
+      className: 'msc-cart-line__bopis-container'
+    }
+  };
+};
+// CONCATENATED MODULE: ./src/modules/cart/components/cart-line-items.tsx
+
+
+
+
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+const _getProduct = (productId, products) => {
+  if (productId !== undefined && products) {
+    return products.find(product => {
+      return productId === product.RecordId;
+    });
+  }
+
+  return undefined;
+};
+
+const _getCartItemMaxQuantity = (maxCartlineQuantity, isStockCheckEnabled, productAvailability) => {
+  if (isStockCheckEnabled) {
+    if (!productAvailability || !productAvailability.ProductAvailableQuantity || !productAvailability.IsProductAvailable || !productAvailability.ProductAvailableQuantity.AvailableQuantity) {
+      return 0;
+    }
+
+    return productAvailability.ProductAvailableQuantity.AvailableQuantity >= maxCartlineQuantity ? maxCartlineQuantity : productAvailability.ProductAvailableQuantity.AvailableQuantity;
+  }
+
+  return maxCartlineQuantity;
+};
+
+const _getErrorMessage = (maxQuantity, currentQuantity, props) => {
+  if (maxQuantity <= 0) {
+    return props.outOfStockText;
+  } else if (maxQuantity < currentQuantity) {
+    if (maxQuantity === 1) {
+      return props.outOfRangeOneText;
+    } else {
+      return props.outOfRangeFormatText.replace('{numLeft}', maxQuantity.toString());
+    }
+  }
+
+  return undefined;
+}; // tslint:disable-next-line:max-func-body-length
+
+
+const _assembleNode = (cartline, product, props, index, foundProductAvailability, foundProductDeliveryOptions) => {
+  var _foundProductAvailabi, _props$cartState;
+
+  const {
+    imageSettings,
+    gridSettings,
+    id,
+    typeName,
+    context,
+    resources,
+    removeButtonText,
+    removeItemClickHandler,
+    moveToWishlistSuccessHandler,
+    addToOrderTemplateButtonText,
+    addToOrderTemplateDialogResources,
+    createOrderTemplateDialogResources,
+    itemAddedToOrderTemplateDialogResources,
+    duplicateItemsWhenAddingToOrderTemplateDialogResources,
+    addToWishlistButtonText,
+    removeFromWishlistButtonText,
+    orderTemplates,
+    customerInformation,
+    wishlists,
+    defaultWishlistName
+  } = props;
+  const isAuthenticated = context.request.user.isAuthenticated;
+  const nameOfWishlist = wishlists && wishlists.length > 0 && wishlists[0].Name ? wishlists[0].Name : defaultWishlistName;
+
+  const maxQuantity = _getCartItemMaxQuantity(props.maxCartlineQuantity, props.isStockCheckEnabled, foundProductAvailability); // check if the product is service or not by product type
+
+
+  const PRODUCTASSERVICE = 2;
+  const isServiceItem = product.ItemTypeValue === PRODUCTASSERVICE;
+  const errorMessage = props.includeErrors && !isServiceItem && props.isStockCheckEnabled ? _getErrorMessage(maxQuantity, cartline.Quantity, props) : undefined;
+
+  const onRemoveClickHandler = event => {
+    removeItemClickHandler(cartline);
+  };
+
+  const payload = Object(dist_lib["getPayloadObject"])(core_dist_lib["TelemetryEvent"].RemoveFromCart, props.telemetryContent, removeButtonText, '');
+  const attributes = Object(dist_lib["getTelemetryAttributes"])(props.telemetryContent, payload);
+  const inventoryLbl = foundProductAvailability === null || foundProductAvailability === void 0 ? void 0 : foundProductAvailability.StockLevelLabel;
+  const inventoryCode = foundProductAvailability ? "ms-cart-line__inventory-code-".concat((_foundProductAvailabi = foundProductAvailability.StockLevelCode) === null || _foundProductAvailabi === void 0 ? void 0 : _foundProductAvailabi.toLowerCase()) : undefined;
+  return {
+    data: {
+      product: product,
+      cartline: cartline
+    },
+    error: errorMessage,
+    cartline: /*#__PURE__*/external_React_["createElement"](components_dist_lib["CartLineItemComponent"], {
+      data: {
+        cartLine: cartline,
+        product: product
+      },
+      currentQuantity: cartline.Quantity,
+      maxQuantity: maxQuantity,
+      isOutOfStock: !isServiceItem && props.isStockCheckEnabled ? maxQuantity <= 0 ? true : false : false,
+      gridSettings: gridSettings,
+      imageSettings: imageSettings,
+      id: id,
+      typeName: typeName,
+      productUrl: Object(retail_actions_dist_lib["getProductUrlSync"])(product, props.context.actionContext, undefined),
+      context: context,
+      resources: resources,
+      key: index,
+      isQuantityEditable: true,
+      quantityOnChange: props.updateCartLinesQuantitySuccessHandler,
+      primaryImageUrl: product.PrimaryImageUrl,
+      errorMessage: errorMessage,
+      inventoryInformationLabel: inventoryLbl,
+      inventoryLabelClassName: inventoryCode,
+      isCartStateReady: ((_props$cartState = props.cartState) === null || _props$cartState === void 0 ? void 0 : _props$cartState.status) === 'READY',
+      showShippingChargesForLineItems: props.showShippingChargesForLineItems,
+      telemetryContent: props.telemetryContent
+    }),
+    pickUpInStore: PickUpInStore({
+      cartState: props.cartState,
+      cartline: cartline,
+      product: product,
+      shipitText: props.shipItText,
+      pickUpInStoreText: props.pickitUpText,
+      changeStoreText: props.changeStoreText,
+      storeSelectorStateManager: props.storeSelectorStateManager,
+      orgUnitLocations: props.orgUnitLocations,
+      deliveryOptions: foundProductDeliveryOptions,
+      pickupDeliveryModeCode: props.pickupDeliveryModeCode
+    }),
+    remove: /*#__PURE__*/external_React_["createElement"](dist_lib["Button"], Object.assign({
+      className: 'msc-cart-line__remove-item',
+      onClick: onRemoveClickHandler,
+      title: removeButtonText
+    }, attributes), removeButtonText),
+    addToWishlist: isAuthenticated ? /*#__PURE__*/external_React_["createElement"](components_dist_lib["AddToWishlistComponent"], {
+      className: 'msc-cart-line__add-to-wishlist',
+      addToWishlistButtonText: addToWishlistButtonText,
+      removeFromWishlistButtonText: removeFromWishlistButtonText,
+      context: context,
+      id: id,
+      key: cartline.LineId,
+      typeName: typeName,
+      nameOfWishlist: nameOfWishlist,
+      cartline: cartline,
+      showButtonText: true,
+      showStatusMessage: false,
+      showRemoveButton: false,
+      showButtonTooltip: false,
+      data: {
+        wishlists: wishlists,
+        product: product
+      },
+      onSuccess: moveToWishlistSuccessHandler
+    }) : undefined,
+    addToOrderTemplate: isAuthenticated && orderTemplates ? /*#__PURE__*/external_React_["createElement"](components_dist_lib["AddToOrderTemplateComponent"], {
+      className: 'msc-cart-line__add-to-order-template',
+      addToOrderTemplateButtonText: addToOrderTemplateButtonText,
+      addToOrderTemplateDialogResources: addToOrderTemplateDialogResources,
+      createOrderTemplateDialogResources: createOrderTemplateDialogResources,
+      itemAddedToOrderTemplateDialogResources: itemAddedToOrderTemplateDialogResources,
+      duplicateItemsWhenAddingToOrderTemplateDialogResources: duplicateItemsWhenAddingToOrderTemplateDialogResources,
+      data: {
+        product: product,
+        quantity: cartline.Quantity || 1,
+        orderTemplates: orderTemplates,
+        customerInformation: customerInformation
+      },
+      context: context,
+      showButtonText: true,
+      showButtonTooltip: false,
+      id: id,
+      typeName: typeName
+    }) : undefined
+  };
+};
+
+const _assembleCartlines = (cartlines, products, props) => {
+  const reactNodes = [];
+
+  if (!products || products.length === 0) {
+    props.context.telemetry.error('Products content is empty, module wont render');
+    return null;
+  }
+
+  cartlines.map((cartline, index) => {
+    const product = _getProduct(cartline.ProductId, products);
+
+    let foundProductAvailability;
+
+    if (props.productAvailabilites && props.productAvailabilites.length > 0) {
+      foundProductAvailability = props.productAvailabilites.find(productAvailability => {
+        var _productAvailability$;
+
+        return ((_productAvailability$ = productAvailability.ProductAvailableQuantity) === null || _productAvailability$ === void 0 ? void 0 : _productAvailability$.ProductId) === cartline.ProductId;
+      });
+    }
+
+    let foundProductDeliveryOption;
+
+    if (props.productDeliveryOptions && props.productDeliveryOptions.length > 0) {
+      foundProductDeliveryOption = props.productDeliveryOptions.find(deliveryOption => {
+        return deliveryOption && deliveryOption.ProductId === cartline.ProductId;
+      });
+    }
+
+    if (product) {
+      reactNodes.push(_assembleNode(cartline, product, props, index, foundProductAvailability, foundProductDeliveryOption));
+    }
+  });
+  return reactNodes;
+};
+/**
+ * CartLineItems component
+ */
+
+
+const CartLineItems = props => {
+  const {
+    products,
+    cartlines
+  } = props;
+  return _assembleCartlines(cartlines, products, props);
+};
+// CONCATENATED MODULE: ./src/modules/cart/cart.tsx
+
+
+
+
+
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
+
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { Object(defineProperty["default"])(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+
+
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+/**
+ *
+ * Cart component
+ * @extends {React.PureComponent<ICartProps<ICartData>>}
+ */
+
+let cart_Cart = class Cart extends external_React_default.a.Component {
+  constructor(props) {
+    super(props);
+
+    this._getImageSettings = imageSettings => {
+      return imageSettings || {
+        viewports: {
+          xs: {
+            q: "w=80&h=94&m=6",
+            w: 0,
+            h: 0
+          },
+          sm: {
+            q: "w=148&h=174&m=6",
+            w: 0,
+            h: 0
+          },
+          lg: {
+            q: "w=148&h=174&m=6",
+            w: 0,
+            h: 0
+          }
+        },
+        lazyload: true
+      };
+    };
+
+    this._removeItemFromCartHandler = cartlineToRemove => {
+      if (this.props.data.cart.result) {
+        const input = {
+          cartLineIds: [cartlineToRemove.LineId.toString()]
+        };
+        this.props.data.cart.result.removeCartLines(input).catch(error => {
+          this.props.telemetry.warning(error);
+          this.props.telemetry.debug('Unable to Remove Cart Line');
+        });
+      }
+    };
+
+    this._moveToWishlistSuccessHandler = (result, cartline) => {
+      if (result.status === 'ADDED' && cartline) {
+        this._removeItemFromCartHandler(cartline);
+      }
+    };
+
+    this._updateCartlineQuantity = (cartlineToUpdate, quantity) => {
+      if (this.props.data.cart.result) {
+        const input = {
+          cartLineId: cartlineToUpdate.LineId.toString(),
+          newQuantity: quantity
+        };
+        this.props.data.cart.result.updateCartLineQuantity(input).catch(error => {
+          this.props.telemetry.warning(error);
+          this.props.telemetry.debug('Unable to update Cart Line quantity');
+        });
+      }
+    };
+
+    this.telemetryContent = Object(dist_lib["getTelemetryObject"])(this.props.context.request.telemetryPageName, this.props.friendlyName, this.props.telemetry);
+    this.payLoad = Object(dist_lib["getPayloadObject"])('click', this.telemetryContent, '');
+  }
+
+  render() {
+    const {
+      data: {
+        cart: {
+          result: cart
+        }
+      },
+      context: {
+        request: {
+          user: {
+            isAuthenticated,
+            signInUrl
+          }
+        }
+      },
+      resources
+    } = this.props;
+    const guestCheckoutUrl = Object(core_dist_lib["getUrlSync"])('checkout', this.props.context.actionContext) || '';
+    const backToShoppingUrl = Object(core_dist_lib["getUrlSync"])('home', this.props.context.actionContext) || '';
+
+    const checkoutURL = this._getCheckoutURL(isAuthenticated, guestCheckoutUrl, signInUrl || '');
+
+    const isCartEmpty = cart && cart.cart.CartLines && cart.cart.CartLines.length === 0;
+
+    const cartLines = this._getCartLines();
+
+    this.payLoad.contentAction.etext = dist_lib["TelemetryConstant"].Checkout;
+    const checkoutBySignInAttributes = Object(dist_lib["getTelemetryAttributes"])(this.telemetryContent, this.payLoad);
+    this.payLoad.contentAction.etext = dist_lib["TelemetryConstant"].GuestCheckout;
+    const checkoutByGuestAttributes = Object(dist_lib["getTelemetryAttributes"])(this.telemetryContent, this.payLoad);
+    this.payLoad.contentAction.etext = dist_lib["TelemetryConstant"].BackToShopping;
+    const backtoShoppingAttributes = Object(dist_lib["getTelemetryAttributes"])(this.telemetryContent, this.payLoad);
+    const hasErrors = cartLines ? cartLines.some(cartline => cartline.error !== undefined) : false;
+
+    const viewProps = _objectSpread(_objectSpread({}, this.props), {}, {
+      className: classnames_default()('ms-cart'),
+      title: /*#__PURE__*/external_React_default.a.createElement("h1", {
+        className: 'msc-cart__heading'
+      }, resources.cartTitle),
+      CartlinesWrapper: {
+        className: 'msc-cartline-wraper'
+      },
+      OrderSummaryWrapper: {
+        className: 'msc-order-summary-wrapper'
+      },
+      OrderSummaryItems: {
+        className: 'msc-order-summary__items'
+      },
+      cartlines: cartLines,
+      promoCode: this._getPromoCode(),
+      cart: this.props.data.cart.result,
+      context: this.props.context,
+      typeName: this.props.typeName,
+      telemetry: this.props.telemetry,
+      id: this.props.id,
+      removePromoAriaLabelFormat: resources.removePromoAriaLabelFormat,
+      orderSummaryHeading: this.props.data.products && this.props.data.products.result && cart && cart.cart.CartLines && cart.cart.CartLines.length > 0 ? /*#__PURE__*/external_React_default.a.createElement("h2", {
+        className: 'msc-order-summary__heading'
+      }, resources.orderSummaryTitle) : null,
+      orderSummaryLineitems: this._getOrderSummaryLineItems(),
+      checkoutAsSignInUserButton: !isCartEmpty ? /*#__PURE__*/external_React_default.a.createElement(dist_lib["Button"], Object.assign({
+        disabled: hasErrors,
+        className: 'msc-cart__btn-checkout',
+        href: checkoutURL,
+        title: resources.checkoutButtonTitle
+      }, checkoutBySignInAttributes), resources.checkoutButtonTitle) : null,
+      checkoutAsGuestButton: !isCartEmpty && !isAuthenticated ? /*#__PURE__*/external_React_default.a.createElement(dist_lib["Button"], Object.assign({
+        disabled: hasErrors,
+        className: 'msc-cart__btn-guestcheckout',
+        href: guestCheckoutUrl,
+        title: resources.guestCheckoutButtonTitle
+      }, checkoutByGuestAttributes), resources.guestCheckoutButtonTitle) : null,
+      backToShoppingButton: /*#__PURE__*/external_React_default.a.createElement(dist_lib["Button"], Object.assign({
+        className: 'msc-cart__btn-backtoshopping'
+      }, backtoShoppingAttributes, {
+        href: backToShoppingUrl,
+        title: resources.backToShoppingButtonTitle
+      }), resources.backToShoppingButtonTitle),
+      createTemplateFromCartButton: this._displayAddCartToTemplate() ? /*#__PURE__*/external_React_default.a.createElement(components_dist_lib["SaveCartToOrderTemplateComponent"], {
+        addToOrderTemplateDialogResources: this._generateAddToOrderTemplateDialogResources(resources),
+        createOrderTemplateDialogResources: this._generateOrderTemplateNameDialogResources(resources),
+        linesAddedToOrderTemplateDialogResources: this._generateLinesAddedToOrderTemplateDialogResources(resources),
+        createOrderTemplateFromCartButton: resources.createOrderTemplateFromCartButton,
+        context: this.props.context,
+        id: this.props.id,
+        typeName: this.props.typeName,
+        data: {
+          orderTemplates: this.props.data.orderTemplates.result,
+          cartLines: this.props.data.cart.result.cart.CartLines,
+          customerInformation: this.props.data.customerInformation.result
+        }
+      }) : null,
+      storeSelector: this.props.slots.storeSelector && this.props.slots.storeSelector.length > 0 ? this.props.slots.storeSelector[0] : null,
+      removeItemClickHandler: this._removeItemFromCartHandler,
+      moveToWishlistSuccessHandler: this._moveToWishlistSuccessHandler,
+      waitingComponent: /*#__PURE__*/external_React_default.a.createElement(dist_lib["Waiting"], {
+        className: 'msc-waiting-circular msc-waiting-lg'
+      }),
+      cartLoadingStatus: this.props.data.cart.status === 'FAILED' ? this.props.resources.cartLoadingErrorMessage : null,
+      cartDataResult: this.props.data.cart.result && this.props.data.cart.result.isEmpty,
+      OrderSummaryErrors: this._getOrderSummaryErrors(cartLines),
+      telemetryContent: this.telemetryContent
+    });
+
+    return this.props.renderView(viewProps);
+  }
+
+  _displayAddCartToTemplate() {
+    var _this$props$data$feat, _this$props$data$cust, _this$props$data$cart, _this$props$data$cart2, _this$props$data$cart3;
+
+    const RetailB2BEcommerceFeatureState = (_this$props$data$feat = this.props.data.featureState.result) === null || _this$props$data$feat === void 0 ? void 0 : _this$props$data$feat.find(featureState => featureState.Name === 'Dynamics.AX.Application.RetailB2BEcommerceFeature');
+
+    if (RetailB2BEcommerceFeatureState !== null && RetailB2BEcommerceFeatureState !== void 0 && RetailB2BEcommerceFeatureState.IsEnabled && (_this$props$data$cust = this.props.data.customerInformation.result) !== null && _this$props$data$cust !== void 0 && _this$props$data$cust.IsB2b && this.props.data.orderTemplates.result && (_this$props$data$cart = this.props.data.cart.result) !== null && _this$props$data$cart !== void 0 && (_this$props$data$cart2 = _this$props$data$cart.cart) !== null && _this$props$data$cart2 !== void 0 && (_this$props$data$cart3 = _this$props$data$cart2.CartLines) !== null && _this$props$data$cart3 !== void 0 && _this$props$data$cart3.length && this.props.data.cart.result.cart.CartLines.length > 0 && this.props.data.customerInformation.result) {
+      return true;
+    }
+
+    return false;
+  }
+
+  _getOrderSummaryErrors(cartLines) {
+    const allErrors = cartLines && cartLines.map(cartline => {
+      var _cartline$data;
+
+      // check if the product is service or not by product type
+      const PRODUCTASSERVICE = 2;
+      const isServiceItem = ((_cartline$data = cartline.data) === null || _cartline$data === void 0 ? void 0 : _cartline$data.product.ItemTypeValue) === PRODUCTASSERVICE;
+
+      if (!isServiceItem && cartline.error) {
+        const fullError = cartline.data && cartline.data.product.Name ? "".concat(cartline.data.product.Name, ": ").concat(cartline.error) : cartline.error;
+        return /*#__PURE__*/external_React_default.a.createElement("div", {
+          className: 'msc-alert__line'
+        }, fullError);
+      }
+
+      return null;
+    }).filter(line => !!line) || [];
+    return {
+      Wrapper: {
+        tag: dist_lib["Alert"],
+        className: 'msc-alert',
+        isOpen: allErrors.length > 0,
+        color: 'danger',
+        assertive: true,
+        'aria-label': this.props.resources.outOfStockErrorMessageHeader
+      },
+      header: /*#__PURE__*/external_React_default.a.createElement("div", {
+        className: 'msc-alert__header',
+        "aria-hidden": 'true'
+      }, /*#__PURE__*/external_React_default.a.createElement("span", {
+        className: 'msi-exclamation-triangle'
+      }), /*#__PURE__*/external_React_default.a.createElement("span", null, this.props.resources.outOfStockErrorMessageHeader)),
+      errors: allErrors
+    };
+  }
+
+  _getOrderSummaryLineItems() {
+    const {
+      data: {
+        cart: {
+          result: cart
+        }
+      },
+      telemetry,
+      resources
+    } = this.props;
+    const channelConfiguration = this.props.context && this.props.context.request && this.props.context.request.channel;
+    return cart && cart.cart && channelConfiguration && cart.cart.CartLines && cart.cart.CartLines.length > 0 ? Object(lib["OrderSummary"])({
+      cart: cart.cart,
+      subTotalLabel: resources.itemsWithCountLabel,
+      shippingLabel: resources.estimatedShippingLabel,
+      otherChargeLabel: resources.otherCharges,
+      taxLabel: resources.estimatedTaxLabel,
+      orderTotalLabel: resources.orderTotal,
+      totalDiscountsLabel: resources.totalDiscountsLabel,
+      context: this.props.context,
+      typeName: this.props.typeName,
+      id: this.props.id,
+      toBeCalculatedText: resources.yetToBeCalculatedText,
+      freeText: resources.priceFree,
+      channelConfiguration: channelConfiguration,
+      telemetry: telemetry
+    }) : undefined;
+  }
+
+  _getPromoCode() {
+    const {
+      data: {
+        cart: {
+          result: cart
+        }
+      },
+      resources
+    } = this.props;
+    return cart && /*#__PURE__*/external_React_default.a.createElement(components_dist_lib["PromoCodeComponent"], {
+      cart: cart,
+      promoCodeHeadingText: resources.promoCodeHeadingText,
+      promoPlaceholderText: resources.promoPlaceholderText,
+      promoCodeApplyButtonText: resources.promoCodeApplyButtonText,
+      appliedPromoCodeHeadingText: resources.appliedPromoCodeHeadingText,
+      collapseTimeOut: 350,
+      removePromoAriaLabelFormat: resources.removePromoAriaLabelFormat,
+      removePromoText: resources.removePromoText,
+      invalidPromoCodeErrorText: resources.invalidPromoCodeErrorText,
+      failedToAddPromoCodeErrorText: resources.failedToAddPromoCodeErrorText,
+      failedToRemovePromoCodeErrorText: resources.failedToRemovePromoCodeErrorText,
+      duplicatePromoCodeErrorText: resources.duplicatePromotionErrorText,
+      context: this.props.context,
+      id: this.props.id,
+      typeName: this.props.typeName,
+      data: {},
+      telemetryContent: this.telemetryContent
+    });
+  }
+
+  _generateAddToOrderTemplateDialogResources(resources) {
+    return {
+      addToOrderTemplateHeader: resources.addToOrderTemplateHeader,
+      noOrderTemplatesMessage: resources.noOrderTemplatesMessage,
+      noOrderTemplatesDescription: resources.noOrderTemplatesDescription,
+      createAnOrderTemplateButtonText: resources.createAnOrderTemplateButtonText,
+      createNewOrderTemplateButtonText: resources.createNewOrderTemplateButtonText,
+      cancelOrderTemplateCreationButtonText: resources.cancelOrderTemplateCreationButtonText,
+      selectTemplatesText: resources.selectTemplatesText,
+      addToTemplateButtonText: resources.addToTemplateButtonText,
+      lineItemsText: resources.lineItemsText
+    };
+  }
+
+  _generateItemAddedToOrderTemplateDialogResources(resources) {
+    return {
+      viewOrderTemplateButtonText: resources.viewOrderTemplateButtonText,
+      continueShoppingButtonText: resources.continueShoppingButtonText,
+      itemAddedToOrderTemplateHeaderItemOneText: resources.itemAddedToOrderTemplateHeaderItemOneText,
+      itemAddedToOrderTemplateHeaderItemFormatText: resources.itemAddedToOrderTemplateHeaderItemFormatText,
+      itemAddedToOrderTemplateHeaderMessageText: resources.itemAddedToOrderTemplateHeaderMessageText,
+      freePriceText: resources.freePriceText,
+      originalPriceText: resources.originalPriceText,
+      currentPriceText: resources.currentPriceText
+    };
+  }
+
+  _generateLinesAddedToOrderTemplateDialogResources(resources) {
+    return {
+      viewOrderTemplateButtonText: resources.viewOrderTemplateButtonText,
+      continueShoppingButtonText: resources.continueShoppingButtonText,
+      linesAddedToOrderTemplateHeaderItemsOneText: resources.linesAddedToOrderTemplateHeaderItemsOneText,
+      linesAddedToOrderTemplateHeaderItemsFormatText: resources.linesAddedToOrderTemplateHeaderItemsFormatText,
+      linesAddedToOrderTemplateHeaderLinesOneText: resources.linesAddedToOrderTemplateHeaderLinesOneText,
+      linesAddedToOrderTemplateHeaderLinesFormatText: resources.linesAddedToOrderTemplateHeaderLinesFormatText,
+      linesAddedToOrderTemplateHeaderMessageText: resources.linesAddedToOrderTemplateHeaderMessageText
+    };
+  }
+
+  _generateDuplicateItemsWhenAddingToOrderTemplateDialogResources(resources) {
+    return {
+      duplicatedProductsHeader: resources.duplicatedProductsHeader,
+      duplicatedProductsDescription: resources.duplicatedProductsDescription,
+      updateQuantityButtonText: resources.updateQuantityButtonText,
+      cancelDuplicateItemsButtonText: resources.cancelDuplicateItemsButtonText
+    };
+  }
+
+  _generateOrderTemplateNameDialogResources(resources) {
+    return {
+      orderTemplateHeaderLabel: resources.createOrderTemplateHeader,
+      orderTemplateTitleLabel: resources.orderTemplateTitle,
+      orderTemplateNameAriaLabel: resources.orderTemplateNameAriaLabel,
+      orderTemplateDescription: resources.createOrderTemplateDescription,
+      defaultOrderTemplateName: resources.defaultOrderTemplateName,
+      orderTemplateButtonLabel: resources.createOrderTemplateButtonText,
+      orderTemplateCancelButtonLabel: resources.cancelNewOrderTemplateCreationButtonText
+    };
+  }
+
+  _getCartLines() {
+    const {
+      data: {
+        cart: {
+          result: cart
+        },
+        wishlists: {
+          result: wishlists
+        },
+        orderTemplates: {
+          result: orderTemplates
+        },
+        customerInformation: {
+          result: customerInformation
+        }
+      },
+      context: {
+        request: {
+          channel: {
+            PickupDeliveryModeCode
+          } = {
+            PickupDeliveryModeCode: undefined
+          }
+        }
+      },
+      config: config,
+      telemetry,
+      resources
+    } = this.props;
+
+    const imageSettings = this._getImageSettings(config.imageSettings);
+
+    return this.props.data.products && this.props.data.products.result && cart && cart.cart.CartLines && cart.cart.CartLines.length > 0 ? CartLineItems({
+      cartlines: cart.cart.CartLines,
+      products: this.props.data.products.result,
+      productAvailabilites: this.props.data.productAvailabilites.result,
+      productDeliveryOptions: this.props.data.deliveryOptions.result,
+      imageSettings: imageSettings,
+      isStockCheckEnabled: this.props.context.app.config.enableStockCheck || false,
+      maxCartlineQuantity: this.props.context.app.config.maxQuantityForCartLineItem,
+      gridSettings: this.props.context.request.gridSettings,
+      context: this.props.context,
+      typeName: this.props.typeName,
+      id: this.props.id,
+      resources: {
+        sizeString: resources.productDimensionTypeSize,
+        colorString: resources.productDimensionTypeColor,
+        configString: resources.productDimensionTypeConfiguration,
+        styleString: resources.productDimensionTypeStyle,
+        quantityDisplayString: resources.quantityDisplayText,
+        inputQuantityAriaLabel: resources.inputQuantityAriaLabel,
+        decrementButtonAriaLabel: resources.decrementButtonAriaLabel,
+        incrementButtonAriaLabel: resources.incrementButtonAriaLabel,
+        discountStringText: resources.discountStringText,
+        originalPriceText: resources.originalPriceText,
+        currentPriceText: resources.currentPriceText,
+        shippingChargesText: resources.shippingCharges
+      },
+      telemetry: telemetry,
+      addToWishlistButtonText: resources.addToWishlistButtonText,
+      removeFromWishlistButtonText: resources.removeFromWishlistButtonText,
+      removeButtonText: resources.removeCartButtonText,
+      shipItText: resources.shipInsteadDisplayText,
+      pickitUpText: resources.pickItUpDisplayText,
+      changeStoreText: resources.changeStoreDisplayText,
+      storeSelectorStateManager: this.props.data.storeSelectorStateManager.result,
+      outOfStockText: resources.outOfStockErrorMessage,
+      outOfRangeOneText: resources.errorMessageOutOfRangeOneLeft,
+      outOfRangeFormatText: resources.errorMessageOutOfRangeFormat,
+      cartState: this.props.data.cart.result,
+      orgUnitLocations: this.props.data.orgUnitLocations.result,
+      removeItemClickHandler: this._removeItemFromCartHandler,
+      moveToWishlistSuccessHandler: this._moveToWishlistSuccessHandler,
+      updateCartLinesQuantitySuccessHandler: this._updateCartlineQuantity,
+      wishlists: wishlists,
+      defaultWishlistName: resources.defaultWishlistName,
+      pickupDeliveryModeCode: PickupDeliveryModeCode,
+      includeErrors: config.showOutOfStockErrors,
+      showShippingChargesForLineItems: config.showShippingChargesForLineItems,
+      telemetryContent: this.telemetryContent,
+      addToOrderTemplateDialogResources: this._generateAddToOrderTemplateDialogResources(resources),
+      createOrderTemplateDialogResources: this._generateOrderTemplateNameDialogResources(resources),
+      itemAddedToOrderTemplateDialogResources: this._generateItemAddedToOrderTemplateDialogResources(resources),
+      duplicateItemsWhenAddingToOrderTemplateDialogResources: this._generateDuplicateItemsWhenAddingToOrderTemplateDialogResources(resources),
+      addToOrderTemplateButtonText: resources.addToOrderTemplateButtonText,
+      addToOrderTemplateMessage: resources.addToOrderTemplateMessage,
+      addItemToOrderTemplateError: resources.addItemToOrderTemplateError,
+      orderTemplates: orderTemplates,
+      customerInformation: customerInformation
+    }) : null;
+  }
+
+  _getCheckoutURL(isAuthenticated, guestCheckoutUrl, signInUrl) {
+    if (isAuthenticated) {
+      return guestCheckoutUrl;
+    }
+
+    const absoluteUrlRegExp = new RegExp('^(?:[a-z]+:)?//', 'i');
+    const isAbsoluteUrl = absoluteUrlRegExp.test(guestCheckoutUrl);
+    let returnURL = guestCheckoutUrl;
+
+    if (core_dist_lib["default"].isBrowser && !isAbsoluteUrl) {
+      returnURL = "".concat(window.location.origin).concat(guestCheckoutUrl);
+    }
+
+    return "".concat(signInUrl).concat(signInUrl.indexOf('?') === -1 ? '?' : '&', "ru=").concat(returnURL);
+  }
+
+};
+cart_Cart = Object(tslib_es6["__decorate"])([index_module["observer"]], cart_Cart);
+/* harmony default export */ var cart_cart = __webpack_exports__["default"] = (cart_Cart);
+
+/***/ }),
+
+/***/ "./src/modules/cart/cart.view.tsx":
+/*!****************************************!*\
+  !*** ./src/modules/cart/cart.view.tsx ***!
+  \****************************************/
+/*! exports provided: default */
+/*! ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: ./lib/view-registration.js (referenced with import() eager, require.resolve) */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var core_js_modules_es_object_assign_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! core-js/modules/es.object.assign.js */ "./node_modules/@msdyn365-commerce/bootloader/node_modules/core-js/modules/es.object.assign.js");
+/* harmony import */ var core_js_modules_es_object_assign_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_object_assign_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _msdyn365_commerce_modules_utilities__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @msdyn365-commerce-modules/utilities */ "./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/index.js");
+/* harmony import */ var _msdyn365_commerce_modules_utilities__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_msdyn365_commerce_modules_utilities__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
+
+
+
+
+const _renderCartlines = (cartLines, cartEmptyText, CartlinesWrapper, storeSelector, backToShoppingButton, waitingComponent, cartLoadingStatus, cartDataResult) => {
+  if (cartLoadingStatus) {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"](react__WEBPACK_IMPORTED_MODULE_2__["Fragment"], null, cartLoadingStatus);
+  }
+
+  if (cartLines) {
+    return cartLines.map((cartLine, index) => {
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"]("div", {
+        className: 'msc-cart-lines-item',
+        key: index
+      }, cartLine.cartline, storeSelector && cartLine.pickUpInStore ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"](_msdyn365_commerce_modules_utilities__WEBPACK_IMPORTED_MODULE_1__["Node"], Object.assign({}, cartLine.pickUpInStore.ContainerProps), cartLine.pickUpInStore.defaultComponent) : null, cartLine.addToOrderTemplate ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"]("div", {
+        className: 'msc-cart-line__extra-actions'
+      }, cartLine.remove, cartLine.addToWishlist, cartLine.addToOrderTemplate) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"](react__WEBPACK_IMPORTED_MODULE_2__["Fragment"], null, cartLine.remove, cartLine.addToWishlist));
+    });
+  } else {
+    return cartDataResult ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"]("div", {
+      className: 'msc-cart__empty-cart'
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"]("p", {
+      className: 'msc-cart-line'
+    }, cartEmptyText), backToShoppingButton) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"](react__WEBPACK_IMPORTED_MODULE_2__["Fragment"], null, waitingComponent);
+  }
+};
+
+const _renderErrorBlock = errorData => {
+  if (!errorData || errorData.errors.length === 0) {
+    return null;
+  }
+
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"](_msdyn365_commerce_modules_utilities__WEBPACK_IMPORTED_MODULE_1__["Node"], Object.assign({}, errorData.Wrapper), errorData.header, errorData.errors);
+};
+
+const _renderOrderSummarylines = (orderSummaryLines, OrderSummaryItems, props) => {
+  if (!orderSummaryLines) {
+    props.context.telemetry.error('OrderSummary content is empty, module wont render');
+    return null;
+  }
+
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"](_msdyn365_commerce_modules_utilities__WEBPACK_IMPORTED_MODULE_1__["Node"], Object.assign({}, OrderSummaryItems), props.promoCode, orderSummaryLines.subtotal, orderSummaryLines.shipping, orderSummaryLines.otherCharge, orderSummaryLines.tax, orderSummaryLines.totalDiscounts ? orderSummaryLines.totalDiscounts : null, orderSummaryLines.orderTotal);
+};
+
+const CartView = props => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"]("div", Object.assign({
+  className: props.className,
+  id: props.id
+}, props.renderModuleAttributes(props)), props.title, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"](_msdyn365_commerce_modules_utilities__WEBPACK_IMPORTED_MODULE_1__["Node"], Object.assign({}, props.CartlinesWrapper), _renderCartlines(props.cartlines, props.resources.emptyCartText, props.CartlinesWrapper, props.storeSelector, props.backToShoppingButton, props.waitingComponent, props.cartLoadingStatus, props.cartDataResult)), props.orderSummaryHeading && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"](_msdyn365_commerce_modules_utilities__WEBPACK_IMPORTED_MODULE_1__["Node"], Object.assign({}, props.OrderSummaryWrapper), props.orderSummaryHeading, _renderOrderSummarylines(props.orderSummaryLineitems, props.OrderSummaryItems, props), _renderErrorBlock(props.OrderSummaryErrors), props.checkoutAsSignInUserButton, props.checkoutAsGuestButton, props.backToShoppingButton, props.createTemplateFromCartButton), props.storeSelector);
+
+/* harmony default export */ __webpack_exports__["default"] = (CartView);
+
+/***/ }),
+
 /***/ "./src/modules/footer/footer.tsx":
 /*!***************************************!*\
   !*** ./src/modules/footer/footer.tsx ***!
@@ -12435,7 +13450,7 @@ class header_Header extends external_React_["PureComponent"] {
       title: resources.signInLinkText,
       href: user && user.signInUrl,
       "aria-label": resources.signInLinkAriaText,
-      onClick: Object(lib["onTelemetryClick"])(this.telemetryContent, payLoad, 'Sign in')
+      onClick: Object(lib["onTelemetryClick"])(this.telemetryContent, payLoad, '请登录')
     }, attributes), /*#__PURE__*/external_React_["createElement"]("span", {
       className: 'ms-header__signin-button-text',
       "aria-hidden": true
@@ -12590,9 +13605,7 @@ const headerView = props => {
     className: "list-inline-item"
   }, "\u6B22\u8FCE\u6765\u5230\u7EF4\u5609"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("li", {
     className: "list-inline-item"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("a", {
-    href: ""
-  }, "\u8BF7\u767B\u5F55")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("li", {
+  }, _renderDesktopAccountBlock(props)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("li", {
     className: "list-inline-item"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("a", {
     href: ""
@@ -12630,19 +13643,7 @@ const headerView = props => {
     src: "https://images-ap-prod.cms.commerce.dynamics.com/cms/api/nmmnlvcthh/imageFileData/MF2Bo?pubver=1",
     width: "250px",
     alt: ""
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("p", null, "\u4E00\u7AD9\u5F0F\u5DE5\u4E1A\u54C1\u8D2D\u4E70\u5E73\u53F0")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("div", {
-    className: "wkea-header-top-content-input"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("div", {
-    className: "ms-search"
-  }, _renderReactFragment(props.search)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("img", {
-    src: "https://images-ap-prod.cms.commerce.dynamics.com/cms/api/nmmnlvcthh/imageFileData/MF2Bx?pubver=1",
-    width: "26",
-    height: "26",
-    alt: ""
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("input", {
-    type: "text",
-    placeholder: "\u641C\u7D22/\u54C1\u724C/\u578B\u53F7"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("button", null, "\u641C\u7D22")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("div", {
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("p", null, "\u4E00\u7AD9\u5F0F\u5DE5\u4E1A\u54C1\u8D2D\u4E70\u5E73\u53F0")), _renderReactFragment(props.search), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("div", {
     className: "wkea-header-top-content-cart"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -12673,19 +13674,7 @@ const headerView = props => {
     href: ""
   }, "\u6C14\u7F38")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("a", {
     href: ""
-  }, "\u540C\u6B65\u5E26")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("div", {
-    className: "wkea-header-top-nav centre"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("ul", {
-    className: "clear"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("a", {
-    href: "wkea-header.html"
-  }, "\u5168\u90E8\u5546\u54C1\u5206\u7C7B")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("a", {
-    href: ""
-  }, "\u7EF4\u5609\u54C1\u724C")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("a", {
-    href: ""
-  }, "\u4F9B\u5E94\u5546\u5408\u4F5C")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("a", {
-    href: "wkea-sale.html"
-  }, "\u552E\u540E\u670D\u52A1"))))))));
+  }, "\u540C\u6B65\u5E26")))))), _renderReactFragment(props.menuBar)));
 };
 
 function _renderDesktopAccountBlock(props) {
@@ -12700,47 +13689,6 @@ function _renderDesktopAccountBlock(props) {
     return signInLink;
   } else {
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("span", null, "\u6B22\u8FCE\u60A8\uFF0C", name);
-  }
-}
-
-function _renderUserInfoListBlock(props) {
-  var _props$data$accountIn2;
-
-  const {
-    signOutLink,
-    signInLink
-  } = props;
-  const name = (_props$data$accountIn2 = props.data.accountInformation.result) === null || _props$data$accountIn2 === void 0 ? void 0 : _props$data$accountIn2.Name;
-
-  if (signInLink) {
-    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("div", {
-      className: "wkea-header-user-infos-login"
-    }, "\u8BF7 ", signInLink);
-  } else {
-    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("div", {
-      className: "wkea-header-user-infos-list"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("a", {
-      href: "/myaccount",
-      className: "wkea-header-user-infos-list-header"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("i", {
-      className: "iconfont icon-ziyuan204"
-    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("span", null, "\u6B22\u8FCE\u60A8\uFF0C", name)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("div", {
-      className: "wkea-header-user-info-list-links"
-    }, props.accountLinks.map(link => link)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("div", {
-      className: "wkea-header-user-info-list-logout"
-    }, signOutLink));
-  }
-}
-
-function _userClickHandle(props) {
-  const {
-    signInLink
-  } = props;
-
-  if (signInLink) {
-    window.location.href = props.context.request.user.signInUrl;
-  } else {
-    window.location.href = '/myaccount';
   }
 }
 
@@ -12895,415 +13843,6 @@ const Example = () => {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__["createElement"]("div", {
     className: "wkea-index-carousel-content-top-content"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__["createElement"](Example, null));
-});
-
-/***/ }),
-
-/***/ "./src/modules/index-nav/index-nav.tsx":
-/*!*********************************************!*\
-  !*** ./src/modules/index-nav/index-nav.tsx ***!
-  \*********************************************/
-/*! exports provided: default */
-/*! ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: ./lib/module-registration.local.js (referenced with import() eager, require.resolve) */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/*---------------------------------------------------------------------------------------------
- *  Copyright (c) Microsoft Corporation. All rights reserved.
- *  Licensed under the MIT License. See License.txt in the project root for license information.
- *--------------------------------------------------------------------------------------------*/
-
-/**
- *
- * IndexNav component
- * @extends {React.PureComponent<IIndexNavProps<IIndexNavData>>}
- */
-
-class IndexNav extends react__WEBPACK_IMPORTED_MODULE_0__["PureComponent"] {
-  render() {
-    return this.props.renderView(this.props);
-  }
-
-}
-
-/* harmony default export */ __webpack_exports__["default"] = (IndexNav);
-
-/***/ }),
-
-/***/ "./src/modules/index-nav/index-nav.view.tsx":
-/*!**************************************************!*\
-  !*** ./src/modules/index-nav/index-nav.view.tsx ***!
-  \**************************************************/
-/*! exports provided: default */
-/*! ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: ./lib/view-registration.js (referenced with import() eager, require.resolve) */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/*!
- * Copyright (c) Microsoft Corporation.
- * All rights reserved. See LICENSE in the project root for license information.
- */
-
-/* harmony default export */ __webpack_exports__["default"] = (props => {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
-    className: "wkea-index-nav-content-top-left"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("ul", {
-    className: "list-unstyled"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
-    href: ""
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
-    className: "clearfix"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
-    className: "float-left"
-  }, "\u5DE5\u5382\u81EA\u52A8\u5316\u96F6\u4EF6"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
-    className: "float-right"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("svg", {
-    xmlns: "http://www.w3.org/2000/svg",
-    xmlnsXlink: "http://www.w3.org/1999/xlink",
-    width: "14",
-    height: "14",
-    viewBox: "0 0 14 14"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("image", {
-    id: "\u56FE\u50CF_259",
-    "data-name": "\u56FE\u50CF 259",
-    width: "14",
-    height: "14",
-    xlinkHref: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACYAAAAmCAYAAACoPemuAAAMYWlDQ1BJQ0MgUHJvZmlsZQAASImVVwdYU8kWnltSSWiBCEgJvYnSCSAlhBZBQKogKiEJJJQYE4KKHV1UcO0iimVFV0VcdHUFZC2IuNZFsffFgoqyigUbKm9CArr6yvfO982dP2fO/Kdk5t4ZAHTa+TJZHqoLQL60QB4fEcIam5rGInUABGBAF2gBP75AIePExUUDKAP9P+XNFWgN5aKLiuv78f8q+kKRQgAAkg5xplAhyIe4CQC8WCCTFwBADIV66ykFMhUWQ2wghwFCPEOFs9V4mQpnqvHWfpvEeC7EDQCQaXy+PBsA7RaoZxUKsiGP9gOIXaVCiRQAHQOIAwVivhDiRIiH5edPUuE5EDtAexnEOyBmZ37Fmf0P/sxBfj4/exCr8+oXcqhEIcvjT/s/S/O/JT9POeDDDjaaWB4Zr8of1vBa7qQoFaZB3CXNjIlV1RridxKhuu4AoFSxMjJJbY+aChRcWD/AhNhVyA+NgtgU4nBpXky0Rp+ZJQnnQQxXCzpVUsBL1MxdKFKEJWg418snxccO4Cw5l6OZW8uX9/tV2bcoc5M4Gv5rYhFvgP91kTgxBWIqABi1UJIcA7E2xAaK3IQotQ1mVSTmxgzYyJXxqvhtIGaLpBEhan4sPUseHq+xl+UrBvLFSsQSXowGVxSIEyPV9cF2Cvj98RtBXCeScpIGeESKsdEDuQhFoWHq3LFWkTRJky92R1YQEq+Z2y3Li9PY42RRXoRKbwWxiaIwQTMXH1kAF6eaH4+WFcQlquPEM3L4o+LU8eCFIBpwQShgASVsmWASyAGS1q76LvhLPRIO+EAOsoEIuGg0AzNS+kek8JkAisDfEImAYnBeSP+oCBRC/adBrfrpArL6Rwv7Z+SChxDngyiQB38r+2dJB70lgwdQI/nOuwDGmgebaux7HQdqojUa5QAvS2fAkhhGDCVGEsOJjrgJHoj749HwGQybO87GfQei/WJPeEhoI9wjXCa0E65PlBTLv4llNGiH/OGajDO/zhi3g5xeeAgeANkhM87ETYAL7gn9cPAg6NkLarmauFW5s/5NnoMZfFVzjR3FlYJShlCCKQ7fztR20vYaZFFV9Ov6qGPNHKwqd3DkW//cr+oshH3Ut5bYQmwfdgI7ip3CDmL1gIUdwRqws9ghFR5cQw/619CAt/j+eHIhj+Q7f3yNT1UlFa41rp2uHzVjoEA0tUC1wbiTZNPkkmxxAYsDvwIiFk8qGD6M5e7q7gaA6puifk29YvZ/KxDm6S+6eQsACKju6+v7/YsuqgOAfc/hNr/9RWefA18H8BtwcrVAKS9U63DVgwDfBjpwRxkDc2ANHGBG7sAb+INgEAZGgViQCFLBBFhnMVzPcjAFzABzQQkoA8vAarAObAJbwA7wC9gL6sFBcBT8Ac6A8+AyuAnXTwd4CrrBG9CLIAgJoSMMxBixQGwRZ8QdYSOBSBgSjcQjqUgGko1IESUyA5mHlCErkHXIZqQa+RU5gBxFTiFtyHXkLtKJvEQ+oBhKQw1QM9QOHYGyUQ4ahSai49FsdDJahM5Hl6AVaBW6C61Dj6Jn0MtoO/oU7cEApoUxMUvMBWNjXCwWS8OyMDk2CyvFyrEqrBZrhP/0Rawd68Le40ScgbNwF7iGI/EkXIBPxmfhi/F1+A68Dm/BL+J38W78M4FOMCU4E/wIPMJYQjZhCqGEUE7YRthPOA53UwfhDZFIZBLtiT5wN6YSc4jTiYuJG4i7iU3ENuJ9Yg+JRDImOZMCSLEkPqmAVEJaS9pFOkK6QOogvSNrkS3I7uRwchpZSi4ml5N3kg+TL5AfkXspuhRbih8lliKkTKMspWylNFLOUToovVQ9qj01gJpIzaHOpVZQa6nHqbeor7S0tKy0fLXGaEm05mhVaO3ROql1V+s9TZ/mROPS0mlK2hLadloT7TrtFZ1Ot6MH09PoBfQl9Gr6Mfod+jtthvZwbZ62UHu2dqV2nfYF7Wc6FB1bHY7OBJ0inXKdfTrndLp0Kbp2ulxdvu4s3UrdA7pXdXv0GHpuerF6+XqL9XbqndJ7rE/St9MP0xfqz9ffon9M/z4DY1gzuAwBYx5jK+M4o8OAaGBvwDPIMSgz+MWg1aDbUN/Q0zDZcKphpeEhw3YmxrRj8ph5zKXMvcwrzA9DzIZwhoiGLBpSO+TCkLdGQ42CjURGpUa7jS4bfTBmGYcZ5xovN643vm2CmziZjDGZYrLR5LhJ11CDof5DBUNLh+4desMUNXUyjTedbrrF9Kxpj5m5WYSZzGyt2TGzLnOmebB5jvkq88PmnRYMi0ALicUqiyMWT1iGLA4rj1XBamF1W5paRloqLTdbtlr2WtlbJVkVW+22um1NtWZbZ1mvsm627raxsBltM8OmxuaGLcWWbSu2XWN7wvatnb1dit0Cu3q7x/ZG9jz7Ivsa+1sOdIcgh8kOVQ6XHImObMdcxw2O551QJy8nsVOl0zln1NnbWeK8wbltGGGY7zDpsKphV11oLhyXQpcal7vDmcOjhxcPrx/+bITNiLQRy0ecGPHZ1cs1z3Wr6003fbdRbsVujW4v3Z3cBe6V7pc86B7hHrM9GjxeeDp7ijw3el7zYniN9lrg1ez1ydvHW+5d693pY+OT4bPe5yrbgB3HXsw+6UvwDfGd7XvQ972ft1+B316/5/4u/rn+O/0fj7QfKRq5deT9AKsAfsDmgPZAVmBG4E+B7UGWQfygqqB7wdbBwuBtwY84jpwczi7OsxDXEHnI/pC3XD/uTG5TKBYaEVoa2hqmH5YUti7sTrhVeHZ4TXh3hFfE9IimSEJkVOTyyKs8M56AV83rHuUzauaolihaVELUuqh70U7R8ujG0ejoUaNXjr4VYxsjjamPBbG82JWxt+Ps4ybH/T6GOCZuTOWYh/Fu8TPiTyQwEiYm7Ex4kxiSuDTxZpJDkjKpOVknOT25OvltSmjKipT2sSPGzhx7JtUkVZLakEZKS07bltYzLmzc6nEd6V7pJelXxtuPnzr+1ASTCXkTDk3UmcifuC+DkJGSsTPjIz+WX8XvyeRlrs/sFnAFawRPhcHCVcJOUYBohehRVkDWiqzH2QHZK7M7xUHicnGXhCtZJ3mRE5mzKedtbmzu9ty+vJS83fnk/Iz8A1J9aa60ZZL5pKmT2mTOshJZ+2S/yasnd8uj5NsUiGK8oqHAAB7ezyodlD8o7xYGFlYWvpuSPGXfVL2p0qlnpzlNWzTtUVF40c/T8emC6c0zLGfMnXF3Jmfm5lnIrMxZzbOtZ8+f3TEnYs6OudS5uXP/LHYtXlH8el7KvMb5ZvPnzL//Q8QPNSXaJfKSqwv8F2xaiC+ULGxd5LFo7aLPpcLS02WuZeVlHxcLFp/+0e3Hih/7lmQtaV3qvXTjMuIy6bIry4OW71iht6Joxf2Vo1fWrWKtKl31evXE1afKPcs3raGuUa5pr4iuaFhrs3bZ2o/rxOsuV4ZU7l5vun7R+rcbhBsubAzeWLvJbFPZpg8/SX66tjlic12VXVX5FuKWwi0PtyZvPfEz++fqbSbbyrZ92i7d3r4jfkdLtU919U7TnUtr0BplTeeu9F3nfwn9paHWpXbzbubusj1gj3LPk18zfr2yN2pv8z72vtrfbH9bv5+xv7QOqZtW110vrm9vSG1oOzDqQHOjf+P+34f/vv2g5cHKQ4aHlh6mHp5/uO9I0ZGeJllT19Hso/ebJzbfPDb22KWWMS2tx6OOn/wj/I9jJzgnjpwMOHnwlN+pA6fZp+vPeJ+pO+t1dv+fXn/ub/VurTvnc67hvO/5xraRbYcvBF04ejH04h+XeJfOXI653HYl6cq1q+lX268Jrz2+nnf9xY3CG70359wi3Cq9rXu7/I7pnaq/HP/a3e7dfuhu6N2z9xLu3bwvuP/0geLBx475D+kPyx9ZPKp+7P74YGd45/kn4550PJU97e0q+Vvv7/XPHJ799jz4+dnusd0dL+Qv+l4ufmX8avtrz9fNPXE9d97kv+l9W/rO+N2O9+z3Jz6kfHjUO+Uj6WPFJ8dPjZ+jPt/qy+/rk/Hl/P6jAAYbmpUFwMvtANBTAWCch+eHceo7X78g6ntqPwL/Cavvhf3iDUAt7FTHdW4TAHtgswuG3HMAUB3VE4MB6uEx2DSiyPJwV3PR4I2H8K6v75UZAKRGAD7J+/p6N/T1fYJ3VOw6AE2T1XdNlRDh3eAnVxW6YLEPfCvqe+hXOX7bA1UEnuDb/l9vWomOcylcEwAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAJqADAAQAAAABAAAAJgAAAACnOgJhAAAKTklEQVRYCa1YD3CURxXf3e8ul8v9SYIKNCQFodgOIkKt2AooRZ2KYwHBoGD/AEJiwQD5A8R2nB7O0CSUBEpEmn8QM6VDYTraQuMUodAZQGz5Yx2pnQqVBEiGMnDJXZLL5e7b9fcu33fclyMWMn0z73b37Xtv37597+1+x9kQIXffPm3MJf8YpYscJXgG48opJedcyLDirFNwW5uny33B51vYN5QlbEMRIpnhF0IZuibKmGATmVJezliq4Apd3scU71JMb+1O8+eD9eJQ1hiyYQ4Rvp8xPheLpjBYpRJW5/2jsToT04ZqmEjQd9tuXk2NvbBs19iBkzi0+aClGPRzMO4V2PdHjE8Ao0CNSTbPmI83a8pr7l27dXdGnDBIB7puDz7fvpQul3+KVGIHHPAVMO7ROX9FKA4P6T/DcS2GpAfYwpV8orI0/zhpWlPRcD8sakT3YSAd6wGlyT0aU21KigXw7FLQo9CzPNCrH6315fdgnAS39VieryYtkBaYC6MaYdSDkPJAYb6m1BuMyYNYLI9oQAX6GY2LS+jHQDod7Uqpv2EggdiEWsAl3yulaAZvCWhfBI6UXNW7nNqy0rI/ZGKcBNpACnlKpUUex5q/I09hnoz3A1OBaUA7kDz9MX4OcKWaApnqX2cOHiRD2HvNr/dNO372JuO8F0PSPxJIsewEktxNoAPoxmCyzrXglOk/PP/+sWZL9hKjBQor6qcieBtBRHDHjDqCZhNX+kzF+RL4qAuL1gjBjiku21rvzfTvX7hQtyhBam6oqPWGucjSOJsMtz6DeWxS7ReS/0lqbD42vQo0pDFr45yt9oSu/tnn88U2R7oshlGguzvEWdAn0iSMOCS01Plb1j3VTUM64izW3gcFFNx3DOAXnV6vY2tRUcgUKiqv247VC4zxdV3Jh14qzW815y3lwt1lh9v1nNikUgFk3hbTKKINFqimssFawxNxo4hPcrYTMfIjdMcBPRq3URs3DHO3oKp42WWcQiMoCsflRfsYxdwtjs+vhyOeAW2j+zXyQ8reeSpRu8VjNMG52otmEXA4smhxjzNYhX4bcFBYX9HgiUg1QgquCbu6vrVoOQX44IDdq831vwIDrd/LuGzaWljYy4qK4jLJhqFOQYyyj6AjYleUXbeFkhfrviwlWxpl+nQheCanA4rwLsTPWZSU3ZfHef+ZlBikCbtnFXXXDKU22On1bdzIfXRSJtHsmC0yLReSLhojxuq8gSsBcy6xLSmrmwWjakFDTHI7NCKRYrmEMGDfQv1amHMp8CzmdyXKmX2Ume3I8u9jDOfwXCQHnVQ8Dnl/xmRniD42EZ5agExcYsTXBRTB3G3r8/5hKjPbooqGRxG+b2LsBuqQ6YYMZS7tmOoVFV86DR2E/PTQ1d1GAoDUD+sr6rKjTDXBKOiCnxl7FXpe45p+xt197aYIurNzRITtgFF/BcNqwyha4qSN60mxtbZs5xgUnxrwklF0zCeBJVyXszQuv4MF8uCxt0ALAhHjrDrgHDUVfQtE7MEbMOooiFQDyeNPw4MHpLTt60i7Z5JNlyxbMPVVTJrZ1wKmM6DtJcst2jDgmv0pHMNodFEM+WkuVWFl6Yqz2BDEYnARsXdGKlaG0U+AThhaAI+dBsbrH9W04rK6ZpTwcbjCvgl5Kuh0U4zHFXafsElGNz2VBoLzdCHjzlkTzFSHExXRJBVYIRWluR1ux5tL7qksXZ5oFLGxLetW/FdxsQtevx4jKDalwzEiO9ZP+PGEr57jIroeW1qCIzpgTLmwkWE2KWQqMsjwFr9ovhIS5ONdj1v7ktLVMBA4dtjDlDyR4Kk4H3WUXbzH+2QHuqOALq7ZkCTsEjAORtx9CsKnhZvrz+Ek5qFvE5w5LAUWpxO/q+LSCR0IEj/CJgbIchE/GoMWb2xRLYKBqQ8yMdn4/Gd1bHgj9SE8SAmAZ9N7ip4u1QW/CA70RtjhvGEPhah8UDw5NcYfQvtvYBJIvffrkDdDJGRjMimRSGilb4fb4XCMxMOBYowgCpt68UhgnRQv/TQ2mR55tp4eX8mW2qlwtcWj1aufCKA+vU/CQA/csaiwrP4+QzberNlUNwI18EkQhvcT+UeunmEtcQajU/xCzQOpTvuzXKgGbJUShaAbseu3CRFt15V2GQSymGrPw1A6VUnu7PRm/wdjS2YqqZowvxj0LOxyBrxSXlxe2yBTxN/tER7p42qSYPJJxO1PwUM1LYKEenng15LPtzs1KPQ5cH4JeOiNR0BH36ZpqsXWmc4vuW5qK1HYpoM8DxE0G5OpOKtprE/eg77FsPTe9vOdqdnrcPyNmHPDg4+j1D/CI8qPgqmEouLK6Z4lowg2eXozjvR3b/122PsyBRffBYWMItF3uOCvR5V419ttazEDOS5RWFHbhJSjY8B6apm3p63JyJ44D3UKy+sXw7iX0aUqfzuguN1UtWHFxttNrt1cP00odRhzqVjqaFdI/TjxWWWJoZgCLl5FSxUdJ8Wf6UgfbQZwbNr8Se+9slcxMQvmN2G3H4JOMdQK/BiibyKD53pD6WUm/8AW3w+rQYNRsWtrn39CZjiRh2LKAqi67fAUHV8WcLwK95FhVI8sYHjxNL7Il2V94h+FT/AcTTKNYpYCfWBMWYRRaPDsmWzQwojZ1v25uWZpiZGTDWNyNuJjRGxW8TdkWviaRemAgfGsIU8R3hnQ9VVRuwuefQECaXgt5RZUVx+pZizuNctR0qcU/ndYCWa6s4Ioia9VFxT03dlqd8eF+7EZEkYJkfNtIdfXEjVYDIva3GSEUWyZBxf0It/GRkdcAEcQ799tZ4Asjn4OVIyJqeEIIF23vPuSFiquqPsBjrIRAlQqaL4eT5pKqYlH8Jm1ikvmR014iWm2D7qCkRuJmQTeOBRs3+5whlxfiHA5DiXk19CJmFK7yFOcaY8hjivATI7pQIytax3j3Z342k0yrLCqyski7qUoGc9ByDTuIvr3As1CqKN/EnhMCPlWy+jM04lKqaIzoc3BQ3smUvtR8FH2EVCAtwBzgBTffnxz7mQpvHLgdwLFkgVOvf12dOb3Zl+QQnShXEyCz6hO0YuCeCk4aTPUHw2cgWLn8lwPnTj1zsHYtVbyYpMLz/NV4PotGM3bhDZCYUIbo78EyFOd8OBOvFZ+v21DXv/zCEQTLDFmEst/s9If6ok04OhQazjtMAwD/oLFnsaR5KNuHQKNFqK/xL5hS4l5MyauR6PIaPVtDMgI8tApJGExPPNzyFONpA0E8QouDeuOym3P5bdjnAS0+0GBLvEe56isCBcTunuix/EV3nt+wgSe+aHf4XaK7RD8JRB/ArFmJtU5PI3pcicv0f9mbhh9mGuOee7uT8K+55/XKZECqZEHsbnOK2MzPko8fvBb4P8aZuEcMDCShFI+qRYarPS/REFV6YodA0TvaDiY0s8UxhvxAyVtJ8D4ANAFTDGEqNz0AK8Jjb9r0O66GbJhAa/we26qdZKL8YidYSgJaQh6ZD7rRTz64a4WXQtSNg8J/gdsYhGz9x6nIQAAAABJRU5ErkJggg=="
-  }))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("ul", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
-    href: ""
-  }, "\u81EA\u52A8\u5316")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
-    href: ""
-  }, "\u81EA\u52A8\u5316")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
-    href: ""
-  }, "\u81EA\u52A8\u5316")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
-    href: ""
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
-    className: "clearfix"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
-    className: "float-left"
-  }, "\u87BA\u9489/\u87BA\u6813/\u57AB\u5708/\u87BA\u5E3D"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
-    className: "float-right"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("svg", {
-    xmlns: "http://www.w3.org/2000/svg",
-    xmlnsXlink: "http://www.w3.org/1999/xlink",
-    width: "14",
-    height: "14",
-    viewBox: "0 0 14 14"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("image", {
-    id: "\u56FE\u50CF_260",
-    "data-name": "\u56FE\u50CF 260",
-    width: "14",
-    height: "14",
-    xlinkHref: "data:image/png;base64,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"
-  }))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("ul", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
-    href: ""
-  }, "\u81EA\u52A8\u5316")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
-    href: ""
-  }, "\u81EA\u52A8\u5316")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
-    href: ""
-  }, "\u81EA\u52A8\u5316")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
-    href: ""
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
-    className: "clearfix"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
-    className: "float-left"
-  }, "\u5DE5\u4E1A\u7528\u6750\u6599"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
-    className: "float-right"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("svg", {
-    xmlns: "http://www.w3.org/2000/svg",
-    xmlnsXlink: "http://www.w3.org/1999/xlink",
-    width: "14",
-    height: "14",
-    viewBox: "0 0 14 14"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("image", {
-    id: "\u56FE\u50CF_261",
-    "data-name": "\u56FE\u50CF 261",
-    width: "14",
-    height: "14",
-    xlinkHref: "data:image/png;base64,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"
-  }))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("ul", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
-    href: ""
-  }, "\u81EA\u52A8\u5316")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
-    href: ""
-  }, "\u81EA\u52A8\u5316")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
-    href: ""
-  }, "\u81EA\u52A8\u5316")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
-    href: ""
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
-    className: "clearfix"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
-    className: "float-left"
-  }, "\u63A5\u7EBF"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
-    className: "float-right"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("svg", {
-    xmlns: "http://www.w3.org/2000/svg",
-    xmlnsXlink: "http://www.w3.org/1999/xlink",
-    width: "15",
-    height: "15",
-    viewBox: "0 0 15 15"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("image", {
-    id: "\u56FE\u50CF_262",
-    "data-name": "\u56FE\u50CF 262",
-    width: "15",
-    height: "15",
-    xlinkHref: "data:image/png;base64,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"
-  }))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("ul", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
-    href: ""
-  }, "\u81EA\u52A8\u5316")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
-    href: ""
-  }, "\u81EA\u52A8\u5316")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
-    href: ""
-  }, "\u81EA\u52A8\u5316")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
-    href: ""
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
-    className: "clearfix"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
-    className: "float-left"
-  }, "\u63A7\u5236/\u7535\u5B50\u5143\u4EF6"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
-    className: "float-right"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("svg", {
-    xmlns: "http://www.w3.org/2000/svg",
-    xmlnsXlink: "http://www.w3.org/1999/xlink",
-    width: "14",
-    height: "13.391",
-    viewBox: "0 0 14 13.391"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("image", {
-    id: "\u56FE\u50CF_263",
-    "data-name": "\u56FE\u50CF 263",
-    width: "14",
-    height: "13.391",
-    xlinkHref: "data:image/png;base64,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"
-  }))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("ul", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
-    href: ""
-  }, "\u81EA\u52A8\u5316")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
-    href: ""
-  }, "\u81EA\u52A8\u5316")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
-    href: ""
-  }, "\u81EA\u52A8\u5316")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
-    href: ""
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
-    className: "clearfix"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
-    className: "float-left"
-  }, "\u5207\u524A\u5200\u5177"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
-    className: "float-right"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("svg", {
-    xmlns: "http://www.w3.org/2000/svg",
-    xmlnsXlink: "http://www.w3.org/1999/xlink",
-    width: "16",
-    height: "14.286",
-    viewBox: "0 0 16 14.286"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("defs", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("pattern", {
-    id: "pattern",
-    preserveAspectRatio: "none",
-    width: "100%",
-    height: "100%",
-    viewBox: "0 0 42 38"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("image", {
-    width: "42",
-    height: "38",
-    xlinkHref: "data:image/png;base64,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"
-  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", {
-    id: "\u56FE\u50CF_264",
-    "data-name": "\u56FE\u50CF 264",
-    width: "16",
-    height: "14.286",
-    fill: "url(#pattern)"
-  }))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("ul", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
-    href: ""
-  }, "\u81EA\u52A8\u5316")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
-    href: ""
-  }, "\u81EA\u52A8\u5316")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
-    href: ""
-  }, "\u81EA\u52A8\u5316")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
-    href: ""
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
-    className: "clearfix"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
-    className: "float-left"
-  }, "\u751F\u4EA7\u52A0\u5DE5\u7528\u54C1"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
-    className: "float-right"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("svg", {
-    xmlns: "http://www.w3.org/2000/svg",
-    xmlnsXlink: "http://www.w3.org/1999/xlink",
-    width: "15",
-    height: "15.306",
-    viewBox: "0 0 15 15.306"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("image", {
-    id: "\u56FE\u50CF_265",
-    "data-name": "\u56FE\u50CF 265",
-    width: "15",
-    height: "15.306",
-    xlinkHref: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADEAAAAyCAYAAAD1CDOyAAAMYWlDQ1BJQ0MgUHJvZmlsZQAASImVVwdYU8kWnltSSWiBCEgJvYnSCSAlhBZBQKogKiEJJJQYE4KKHV1UcO0iimVFV0VcdHUFZC2IuNZFsffFgoqyigUbKm9CArr6yvfO982dP2fO/Kdk5t4ZAHTa+TJZHqoLQL60QB4fEcIam5rGInUABGBAF2gBP75AIePExUUDKAP9P+XNFWgN5aKLiuv78f8q+kKRQgAAkg5xplAhyIe4CQC8WCCTFwBADIV66ykFMhUWQ2wghwFCPEOFs9V4mQpnqvHWfpvEeC7EDQCQaXy+PBsA7RaoZxUKsiGP9gOIXaVCiRQAHQOIAwVivhDiRIiH5edPUuE5EDtAexnEOyBmZ37Fmf0P/sxBfj4/exCr8+oXcqhEIcvjT/s/S/O/JT9POeDDDjaaWB4Zr8of1vBa7qQoFaZB3CXNjIlV1RridxKhuu4AoFSxMjJJbY+aChRcWD/AhNhVyA+NgtgU4nBpXky0Rp+ZJQnnQQxXCzpVUsBL1MxdKFKEJWg418snxccO4Cw5l6OZW8uX9/tV2bcoc5M4Gv5rYhFvgP91kTgxBWIqABi1UJIcA7E2xAaK3IQotQ1mVSTmxgzYyJXxqvhtIGaLpBEhan4sPUseHq+xl+UrBvLFSsQSXowGVxSIEyPV9cF2Cvj98RtBXCeScpIGeESKsdEDuQhFoWHq3LFWkTRJky92R1YQEq+Z2y3Li9PY42RRXoRKbwWxiaIwQTMXH1kAF6eaH4+WFcQlquPEM3L4o+LU8eCFIBpwQShgASVsmWASyAGS1q76LvhLPRIO+EAOsoEIuGg0AzNS+kek8JkAisDfEImAYnBeSP+oCBRC/adBrfrpArL6Rwv7Z+SChxDngyiQB38r+2dJB70lgwdQI/nOuwDGmgebaux7HQdqojUa5QAvS2fAkhhGDCVGEsOJjrgJHoj749HwGQybO87GfQei/WJPeEhoI9wjXCa0E65PlBTLv4llNGiH/OGajDO/zhi3g5xeeAgeANkhM87ETYAL7gn9cPAg6NkLarmauFW5s/5NnoMZfFVzjR3FlYJShlCCKQ7fztR20vYaZFFV9Ov6qGPNHKwqd3DkW//cr+oshH3Ut5bYQmwfdgI7ip3CDmL1gIUdwRqws9ghFR5cQw/619CAt/j+eHIhj+Q7f3yNT1UlFa41rp2uHzVjoEA0tUC1wbiTZNPkkmxxAYsDvwIiFk8qGD6M5e7q7gaA6puifk29YvZ/KxDm6S+6eQsACKju6+v7/YsuqgOAfc/hNr/9RWefA18H8BtwcrVAKS9U63DVgwDfBjpwRxkDc2ANHGBG7sAb+INgEAZGgViQCFLBBFhnMVzPcjAFzABzQQkoA8vAarAObAJbwA7wC9gL6sFBcBT8Ac6A8+AyuAnXTwd4CrrBG9CLIAgJoSMMxBixQGwRZ8QdYSOBSBgSjcQjqUgGko1IESUyA5mHlCErkHXIZqQa+RU5gBxFTiFtyHXkLtKJvEQ+oBhKQw1QM9QOHYGyUQ4ahSai49FsdDJahM5Hl6AVaBW6C61Dj6Jn0MtoO/oU7cEApoUxMUvMBWNjXCwWS8OyMDk2CyvFyrEqrBZrhP/0Rawd68Le40ScgbNwF7iGI/EkXIBPxmfhi/F1+A68Dm/BL+J38W78M4FOMCU4E/wIPMJYQjZhCqGEUE7YRthPOA53UwfhDZFIZBLtiT5wN6YSc4jTiYuJG4i7iU3ENuJ9Yg+JRDImOZMCSLEkPqmAVEJaS9pFOkK6QOogvSNrkS3I7uRwchpZSi4ml5N3kg+TL5AfkXspuhRbih8lliKkTKMspWylNFLOUToovVQ9qj01gJpIzaHOpVZQa6nHqbeor7S0tKy0fLXGaEm05mhVaO3ROql1V+s9TZ/mROPS0mlK2hLadloT7TrtFZ1Ot6MH09PoBfQl9Gr6Mfod+jtthvZwbZ62UHu2dqV2nfYF7Wc6FB1bHY7OBJ0inXKdfTrndLp0Kbp2ulxdvu4s3UrdA7pXdXv0GHpuerF6+XqL9XbqndJ7rE/St9MP0xfqz9ffon9M/z4DY1gzuAwBYx5jK+M4o8OAaGBvwDPIMSgz+MWg1aDbUN/Q0zDZcKphpeEhw3YmxrRj8ph5zKXMvcwrzA9DzIZwhoiGLBpSO+TCkLdGQ42CjURGpUa7jS4bfTBmGYcZ5xovN643vm2CmziZjDGZYrLR5LhJ11CDof5DBUNLh+4desMUNXUyjTedbrrF9Kxpj5m5WYSZzGyt2TGzLnOmebB5jvkq88PmnRYMi0ALicUqiyMWT1iGLA4rj1XBamF1W5paRloqLTdbtlr2WtlbJVkVW+22um1NtWZbZ1mvsm627raxsBltM8OmxuaGLcWWbSu2XWN7wvatnb1dit0Cu3q7x/ZG9jz7Ivsa+1sOdIcgh8kOVQ6XHImObMdcxw2O551QJy8nsVOl0zln1NnbWeK8wbltGGGY7zDpsKphV11oLhyXQpcal7vDmcOjhxcPrx/+bITNiLQRy0ecGPHZ1cs1z3Wr6003fbdRbsVujW4v3Z3cBe6V7pc86B7hHrM9GjxeeDp7ijw3el7zYniN9lrg1ez1ydvHW+5d693pY+OT4bPe5yrbgB3HXsw+6UvwDfGd7XvQ972ft1+B316/5/4u/rn+O/0fj7QfKRq5deT9AKsAfsDmgPZAVmBG4E+B7UGWQfygqqB7wdbBwuBtwY84jpwczi7OsxDXEHnI/pC3XD/uTG5TKBYaEVoa2hqmH5YUti7sTrhVeHZ4TXh3hFfE9IimSEJkVOTyyKs8M56AV83rHuUzauaolihaVELUuqh70U7R8ujG0ejoUaNXjr4VYxsjjamPBbG82JWxt+Ps4ybH/T6GOCZuTOWYh/Fu8TPiTyQwEiYm7Ex4kxiSuDTxZpJDkjKpOVknOT25OvltSmjKipT2sSPGzhx7JtUkVZLakEZKS07bltYzLmzc6nEd6V7pJelXxtuPnzr+1ASTCXkTDk3UmcifuC+DkJGSsTPjIz+WX8XvyeRlrs/sFnAFawRPhcHCVcJOUYBohehRVkDWiqzH2QHZK7M7xUHicnGXhCtZJ3mRE5mzKedtbmzu9ty+vJS83fnk/Iz8A1J9aa60ZZL5pKmT2mTOshJZ+2S/yasnd8uj5NsUiGK8oqHAAB7ezyodlD8o7xYGFlYWvpuSPGXfVL2p0qlnpzlNWzTtUVF40c/T8emC6c0zLGfMnXF3Jmfm5lnIrMxZzbOtZ8+f3TEnYs6OudS5uXP/LHYtXlH8el7KvMb5ZvPnzL//Q8QPNSXaJfKSqwv8F2xaiC+ULGxd5LFo7aLPpcLS02WuZeVlHxcLFp/+0e3Hih/7lmQtaV3qvXTjMuIy6bIry4OW71iht6Joxf2Vo1fWrWKtKl31evXE1afKPcs3raGuUa5pr4iuaFhrs3bZ2o/rxOsuV4ZU7l5vun7R+rcbhBsubAzeWLvJbFPZpg8/SX66tjlic12VXVX5FuKWwi0PtyZvPfEz++fqbSbbyrZ92i7d3r4jfkdLtU919U7TnUtr0BplTeeu9F3nfwn9paHWpXbzbubusj1gj3LPk18zfr2yN2pv8z72vtrfbH9bv5+xv7QOqZtW110vrm9vSG1oOzDqQHOjf+P+34f/vv2g5cHKQ4aHlh6mHp5/uO9I0ZGeJllT19Hso/ebJzbfPDb22KWWMS2tx6OOn/wj/I9jJzgnjpwMOHnwlN+pA6fZp+vPeJ+pO+t1dv+fXn/ub/VurTvnc67hvO/5xraRbYcvBF04ejH04h+XeJfOXI653HYl6cq1q+lX268Jrz2+nnf9xY3CG70359wi3Cq9rXu7/I7pnaq/HP/a3e7dfuhu6N2z9xLu3bwvuP/0geLBx475D+kPyx9ZPKp+7P74YGd45/kn4550PJU97e0q+Vvv7/XPHJ799jz4+dnusd0dL+Qv+l4ufmX8avtrz9fNPXE9d97kv+l9W/rO+N2O9+z3Jz6kfHjUO+Uj6WPFJ8dPjZ+jPt/qy+/rk/Hl/P6jAAYbmpUFwMvtANBTAWCch+eHceo7X78g6ntqPwL/Cavvhf3iDUAt7FTHdW4TAHtgswuG3HMAUB3VE4MB6uEx2DSiyPJwV3PR4I2H8K6v75UZAKRGAD7J+/p6N/T1fYJ3VOw6AE2T1XdNlRDh3eAnVxW6YLEPfCvqe+hXOX7bA1UEnuDb/l9vWomOcylcEwAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAMaADAAQAAAABAAAAMgAAAAAFmdYVAAAOIUlEQVRoBc1ZCXjUxRWf+W82yQaSgFC1BJSrWupRWw/aiiIiXnxS1JKKFBFyye1uTtRPV62Qe0EqmmQhivQQq7VY6lFqPUD0a73PTw0oEqhFjNnEbJLd/0x/b/Y/yz+bzSZBe7zvm515b97Mf97Mu2aWs/8D8Hq3Jh8+pjtVtJtOWo7TJcxhrUM6vN7s7oEsjw+E6T/FU1TVME4Idifmn4WShGKg0JoESohz9qzBhLuqpKAJeJ/wPxHCU+Gfzphcj1V9B4UWnwhMyaXXV5L/y76Yek3grvAv4JCeSf58Rmezx+v1hvsaPFg65kpqc2Wtl0zmYKxSHWuOPaDt4ozvAx7Ezk6QjM1DOxnFATzd4otb9TgJT6V/EZOyDpxauE+l5EszO/dvxwLoiI8a8r11aUNcfCsWejkmoe924rdRSLZ+bWnee3riG32Nw4xQeAeT7EyL9lBtad41uj9eHRXCXdGQA+Q+MJEAZFC0Cxoe5g5eXFOU+4kmDKaOnMDoddjtJda4fYLLn64tyX/dPk9peV1miBsvgHYa0bGerTWleT+388RrKyE8FfUwLP4oGBwo7SBeheM8F+1ilDQUgiDjfFlGR8aWgXqNyDDG3BX1N+AE7rXwz7lDTKopKvhc91O9xHvP0BRX8nv49mjCYdSP15TkkcH3C9xd6z+Gh+QBcKagmILzqWtLcnfRSHdtrcsIpb8GgcgAyXMQfCCSkyavdS/8MoIm/rV2dz+4hqK0G0bK8dXF131lH0UCuFzJH+M7I4iO+lFfad7Vdp7Y9pytWx0PZ2ebRMfCAkHUIc0EG4jukM/jCdaU5E4yBJuBfv3hk4zu8FOav786ZPBbwEMCYHF8WawAJCSdgBYAXI/tH5eZnWhed7n/2jF7W1vclf5bic+ghUrOyNhIKkcSF1XUEQXOZfWqvGcMIzweH6IdxXekWlSUJ0GDS36F1d3kK8nZbGelEyAb0CoEJdqWEXTO1Tts59VtT2X99VjSJuDpXEo30ZWK+EryyJiUCknJZhZWNsylTjtUFy/+Fz7Waaf11/aUb/w+BD+J+KSU26DoQI9ASlrKFGDKiFF3hFwd2V7vwj6/gXXlw/VvAC+pPkHGyoqNJ2s9Z2aY0RGSKhlQqdVeb2MqccUFzrULjtt9hChokZAdLs+Q9xyhR1pdHV070Y2iwJUUTH2ETsfCe1SeyobrsMF3g+hC0aptOJi5ICrEupvzPkMnMQHk2FZXeF2k3eP3oIVNhEcrheuMju/BZSFQ09OtZke81GGDdykMPUQG/DYKHBKfCQPfSDHFGqeqwoqGGTCoBiB0AgiGsgC1lVfxWWqXFKf146loeBNNOuIuzBs1YPj4xyQXbxjS+Cv6hhE7aIszgwfq+wqEOP5t2D2yiX8iYH2bxsQDy4O9i75Rqp+z32R0JOWQauEELseHtlvjuqQh5/qK8/+AddKmH4vS0msnweSxBkBqCT8dKZB2kyH5Qug2qYgC8v2tqaNIDeMCBHDG7YghVpQVtIZcwfEgk6ek3bk2kGpu8VRsnGYTAOYgLyEBFM+RrGJILyHAtANWf4fFGFPxJdzgSw2Da2OEDvAtCGY6Evfgx0kdsggjKGr36IxB1q9Y0ZXEjONA/kR1cXkVktknNBuX4jwkgc8RXlS1eQiq4Vbfq72EoI6asvzbQi5XJoLacFVEeBzIn6IY2Jl8IUQBEqnvAaedQ4LG1yJxXIZ2LLxkEZztKVnRE4xl0nhlaU4bXPk5wD9AweErG+jCCVxQU1agHQAicvcpVj/Dhj8dVwgwsPUrfhGgqKzKqsUfY/cpluxDQWrCFxuML5DcmA28HcUJY6tG/rUQ7SjIsKSjDxNBOphW02h/vAa5cikcl6GPjP0rZQPWCWh+OOrzrbYIm3wDSTtgcJfXnwL1eRoDIgbI2K3Qp/cRBDaClo5CmWlBbUneZj0pDHA32j9CaYG6nEi7rfsS1eShMoaIoSSUnY9cf8AVfgM0ij9fwGGM6PMk7AN121eW/w7U6CLgWtfv4IKNg7HngkaqlQp18yuPYg1CdKu3msPDzNwMgQe0cfXego5YAWietrQwnagKoDjfOqINSggaQLm/FPwnaNKiyWNUGMwYS7YClFTHSR5FeRYgyVJQdmztPr+4qPrBNOBHBSoDkOyWyGD+cW1p/k3UHrQQNMi3KvejzmA3+eioIDDuUdjiudQfAfEMBSnkRnuAk6oRtA39ak9XpDm436Kqe49lXFBqRBGb0pgb9QxHJQQNpmjLHY6z0FS7jBO5E64iC4LM0ZNDlf6M9jEWvgtp+AS4WmXo7vK60/qL+Goc1I+yViGSmoCTayW3VeMry/uj6o/gunl0NQyXjPYJFIrinfhmDnbsUpzMfD0j2UVmMHO5vkzhhOiOcgb690D4RiHk5nVlBfs0P9WF1XUjmeDz1HxHkkTq8rYPE6vrCwqi14cBGRmNTASF5XVT4G7/BJ5MFErO1I7RGCSuK2pK8tdTe/ndd6c4g66/oHke4TZAcGfNWAw8EZyx5COx3ceh3x4gD2Fj8mtKcx+zjVPNb0QImon0Hwt5HE1K0gg6MPl83JHJsFl+XZ1zaIujHip3PeFYJFyz0u8TFd73z0HwPmrwlNLYC5UeYpdU0wZdL1+96Vu4U92OgVqAQ7CXC2qKFr1Lk5HuB740booKwNgBU4hLhnce3I8nnOmQaDZSFLKvNGyEgPDtaO9FoLuf0iCaIxF8bSHcazaN54a5Ex/XWWoTAtBE+0cDqVkFwL0WTTq4eUGyEG2trlHbsOBLoUJ7EX9m2Z9u7OP7ax+1d6KJi6r8p0KAN9FUAiAd2AGjm2T/aGGFfz7UQdmEppvS8Xq34cTLBp8JGtIYNhELeYM2RPMMpj5qITzl9XnwKq/gY8qI4UXWpXc2X2b3GvRcCTWpAw8ttJvuH6hxaOoZiAw3YhuqgfzLMN8pXFN/dgQd+C9Oc3AA/U4KuEZXYC32hG5lbUnuenJFejZLzV4GPpJo+NBhRKh50mBXwvuQemEKfn9G5/6cQNroq9G3VdEYa5XMuMhXmvMPC++3GpQQdP9NdSVTLjTXmrkDq5uDhI+CWhTK1mwYDnV5BwRtJ+TT6YIUxLvWDEOKKRxW253WsY7uETSQXjEglB9NOrUvINQVtWX5L1JffzBgIVaW153g4MZvMSHlTQSHHFz8OPbuXFKxMT3MxIfoV+pCasa5OIizKFejIEhGMHOYDnwWTVWFlX430gniS6aTk9KYXluWQxlrQhiQTZBqQIAXMJMW4K2MYPOoWAHoxRACPAe+iL4z9iQeo4sgwDRrFRKvATviCUD9eKjzoVqNEoZejkDkf3LlXQ16LmKJC/2eBOU4nBuk2y4UbCz7G96ppsfOpmKBa9QjWPBsq68pI5h0amuaOB9Xy6cs2i4Ifz544VH7Bnd5w10QtgwctMmfY54xid6jEp6Ep7xhMQR4DRORAJBArs3saJ5B7VhALFhrE6AdWe4Z6sNSarvAPdZc2J8ANC+Su5txEiQEwUhcglroRSSC9v6NKwTtKtKIahjtBgwhQ8P6eE5m54GieIvA0wyiMdN37NZkETqBslwaZpgmnaLKXBEfXvLUbBpD9P4A77G10L3bLL7Ubm683Zdq9VInekkwRedDViCiOTox2ZW+ktwn432YHghwv65FH3mfHumG5qeYgk0gr0bHGXAY4qyqkhvI+BMCvXyfsCfgRaZ7i8X4Af4nuTj2f5IeQlh/BP4OA85RgyQyyyR+buwg/eWicv9M/Fnye+CpKG1wn5fpvwU0j67xiFCMj1USjvowN9iF1cV5FO0TAgkyZm/gLkhfDEa8T7D3Ke+yp+5RIQqr/SdKkz0L5rFqVs5eQeY4ta/M0b3GP5EbktwfXTdDOLkcpMkPqrHxfuASIEgNHhpWopuefppxIlNjPVy8oUTD29ZmfGMejcVUL8PrTYFqKzWN2oQw5U5LAIq6H2HAr4XoottXrySRBIYApA4kAO4C3JNQADBRNMcfJ4VoNaII7GgWbGRHcWXj8dTdH/hK868DD7wfQiKXkxHlCVeghLix0n8ujmS0RSMhJsITkZ7vDqRlvUiGbvXhYrMlQ5ryPY1jdTf7SnN/dQRP0MLXkeHmwn1uj3DJsaYM77TPn2A0w9hs9H+peIQ8Q/OqxeF8lmsC6uiCFU2ys5ErTaM2/fPvDAZ3oalcLgR/4NNxGUrPFe8Af9I7mmfTWIt9QsCV1a+REy+uwtCWyPMlksloSqIWDMJQa0JdhYRh6OhMmjCZOgKuVrqcn0ptLGJ3erA5N9G/OsQXD7DzgsZCETdZ/eOxwA9pk+LxEw1/JTyDSq0J6vsE3P1WzYu10NWyfh46tmgi1dCp/ehUKoZc7SpuGrP0zQz015Ei/JCks48ZbJte89pcZiM28Ro1Fs4k2QzNKF+1pEXPZd3LyWH8DAWayHZ3mslX3HPTgsOaR53EvnHDyK1+oYlUawHQbMIr34VaAAj7YbfLNfXrCkDfoIgunIFF2Aly07RzZ4YM5/alqx8YQagSoCPtPjTnoMDXsL9zIzzbLgDxYa0RQCqMnJ7fD0yrFu1yE2g7tQDAD0pn+GyfZ3Ez2t8YkBq1pbZuR15GORmt6XlTivlJ3FGKU1qiPoT4IBGzfJ7cHptNfVEhCMGDcTb8+ANoUvCKhXZcVqYN5rISO0EiPBLUWt8Cz3dReqwLeAtysWgqEztPLDMEUVnrc2AcbmP+DP8bnB7vgdfG8400YeCvYqIf2CY7CNc6yob3avZ0p+j2lRW8JZ1tWfiPYAI3xSTkKmORPo/+bwhAq8NDw2To8SLsbiNsZBn+Dji516pjCP8Gn6R13uI22tUAAAAASUVORK5CYII="
-  }))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("ul", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
-    href: ""
-  }, "\u81EA\u52A8\u5316")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
-    href: ""
-  }, "\u81EA\u52A8\u5316")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
-    href: ""
-  }, "\u81EA\u52A8\u5316")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
-    href: ""
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
-    className: "clearfix"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
-    className: "float-left"
-  }, "\u6346\u5305\u7528\u54C1/\u7269\u6D41\u4FDD\u7BA1\u7528\u54C1"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
-    className: "float-right"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("svg", {
-    xmlns: "http://www.w3.org/2000/svg",
-    xmlnsXlink: "http://www.w3.org/1999/xlink",
-    width: "15",
-    height: "18",
-    viewBox: "0 0 15 18"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("image", {
-    id: "\u56FE\u50CF_266",
-    "data-name": "\u56FE\u50CF 266",
-    width: "15",
-    height: "18",
-    xlinkHref: "data:image/png;base64,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"
-  }))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("ul", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
-    href: ""
-  }, "\u81EA\u52A8\u5316")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
-    href: ""
-  }, "\u81EA\u52A8\u5316")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
-    href: ""
-  }, "\u81EA\u52A8\u5316")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
-    href: ""
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
-    className: "clearfix"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
-    className: "float-left"
-  }, "\u4E2A\u4EBA\u9632\u62A4/\u5B89\u5168\u9632\u62A4/\u529E\u516C\u7528\u54C1"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
-    className: "float-right"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("svg", {
-    xmlns: "http://www.w3.org/2000/svg",
-    xmlnsXlink: "http://www.w3.org/1999/xlink",
-    width: "16",
-    height: "11.259",
-    viewBox: "0 0 16 11.259"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("image", {
-    id: "\u56FE\u50CF_267",
-    "data-name": "\u56FE\u50CF 267",
-    width: "16",
-    height: "11.259",
-    xlinkHref: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADYAAAAmCAYAAACPk2hGAAAMYWlDQ1BJQ0MgUHJvZmlsZQAASImVVwdYU8kWnltSSWiBCEgJvYnSCSAlhBZBQKogKiEJJJQYE4KKHV1UcO0iimVFV0VcdHUFZC2IuNZFsffFgoqyigUbKm9CArr6yvfO982dP2fO/Kdk5t4ZAHTa+TJZHqoLQL60QB4fEcIam5rGInUABGBAF2gBP75AIePExUUDKAP9P+XNFWgN5aKLiuv78f8q+kKRQgAAkg5xplAhyIe4CQC8WCCTFwBADIV66ykFMhUWQ2wghwFCPEOFs9V4mQpnqvHWfpvEeC7EDQCQaXy+PBsA7RaoZxUKsiGP9gOIXaVCiRQAHQOIAwVivhDiRIiH5edPUuE5EDtAexnEOyBmZ37Fmf0P/sxBfj4/exCr8+oXcqhEIcvjT/s/S/O/JT9POeDDDjaaWB4Zr8of1vBa7qQoFaZB3CXNjIlV1RridxKhuu4AoFSxMjJJbY+aChRcWD/AhNhVyA+NgtgU4nBpXky0Rp+ZJQnnQQxXCzpVUsBL1MxdKFKEJWg418snxccO4Cw5l6OZW8uX9/tV2bcoc5M4Gv5rYhFvgP91kTgxBWIqABi1UJIcA7E2xAaK3IQotQ1mVSTmxgzYyJXxqvhtIGaLpBEhan4sPUseHq+xl+UrBvLFSsQSXowGVxSIEyPV9cF2Cvj98RtBXCeScpIGeESKsdEDuQhFoWHq3LFWkTRJky92R1YQEq+Z2y3Li9PY42RRXoRKbwWxiaIwQTMXH1kAF6eaH4+WFcQlquPEM3L4o+LU8eCFIBpwQShgASVsmWASyAGS1q76LvhLPRIO+EAOsoEIuGg0AzNS+kek8JkAisDfEImAYnBeSP+oCBRC/adBrfrpArL6Rwv7Z+SChxDngyiQB38r+2dJB70lgwdQI/nOuwDGmgebaux7HQdqojUa5QAvS2fAkhhGDCVGEsOJjrgJHoj749HwGQybO87GfQei/WJPeEhoI9wjXCa0E65PlBTLv4llNGiH/OGajDO/zhi3g5xeeAgeANkhM87ETYAL7gn9cPAg6NkLarmauFW5s/5NnoMZfFVzjR3FlYJShlCCKQ7fztR20vYaZFFV9Ov6qGPNHKwqd3DkW//cr+oshH3Ut5bYQmwfdgI7ip3CDmL1gIUdwRqws9ghFR5cQw/619CAt/j+eHIhj+Q7f3yNT1UlFa41rp2uHzVjoEA0tUC1wbiTZNPkkmxxAYsDvwIiFk8qGD6M5e7q7gaA6puifk29YvZ/KxDm6S+6eQsACKju6+v7/YsuqgOAfc/hNr/9RWefA18H8BtwcrVAKS9U63DVgwDfBjpwRxkDc2ANHGBG7sAb+INgEAZGgViQCFLBBFhnMVzPcjAFzABzQQkoA8vAarAObAJbwA7wC9gL6sFBcBT8Ac6A8+AyuAnXTwd4CrrBG9CLIAgJoSMMxBixQGwRZ8QdYSOBSBgSjcQjqUgGko1IESUyA5mHlCErkHXIZqQa+RU5gBxFTiFtyHXkLtKJvEQ+oBhKQw1QM9QOHYGyUQ4ahSai49FsdDJahM5Hl6AVaBW6C61Dj6Jn0MtoO/oU7cEApoUxMUvMBWNjXCwWS8OyMDk2CyvFyrEqrBZrhP/0Rawd68Le40ScgbNwF7iGI/EkXIBPxmfhi/F1+A68Dm/BL+J38W78M4FOMCU4E/wIPMJYQjZhCqGEUE7YRthPOA53UwfhDZFIZBLtiT5wN6YSc4jTiYuJG4i7iU3ENuJ9Yg+JRDImOZMCSLEkPqmAVEJaS9pFOkK6QOogvSNrkS3I7uRwchpZSi4ml5N3kg+TL5AfkXspuhRbih8lliKkTKMspWylNFLOUToovVQ9qj01gJpIzaHOpVZQa6nHqbeor7S0tKy0fLXGaEm05mhVaO3ROql1V+s9TZ/mROPS0mlK2hLadloT7TrtFZ1Ot6MH09PoBfQl9Gr6Mfod+jtthvZwbZ62UHu2dqV2nfYF7Wc6FB1bHY7OBJ0inXKdfTrndLp0Kbp2ulxdvu4s3UrdA7pXdXv0GHpuerF6+XqL9XbqndJ7rE/St9MP0xfqz9ffon9M/z4DY1gzuAwBYx5jK+M4o8OAaGBvwDPIMSgz+MWg1aDbUN/Q0zDZcKphpeEhw3YmxrRj8ph5zKXMvcwrzA9DzIZwhoiGLBpSO+TCkLdGQ42CjURGpUa7jS4bfTBmGYcZ5xovN643vm2CmziZjDGZYrLR5LhJ11CDof5DBUNLh+4desMUNXUyjTedbrrF9Kxpj5m5WYSZzGyt2TGzLnOmebB5jvkq88PmnRYMi0ALicUqiyMWT1iGLA4rj1XBamF1W5paRloqLTdbtlr2WtlbJVkVW+22um1NtWZbZ1mvsm627raxsBltM8OmxuaGLcWWbSu2XWN7wvatnb1dit0Cu3q7x/ZG9jz7Ivsa+1sOdIcgh8kOVQ6XHImObMdcxw2O551QJy8nsVOl0zln1NnbWeK8wbltGGGY7zDpsKphV11oLhyXQpcal7vDmcOjhxcPrx/+bITNiLQRy0ecGPHZ1cs1z3Wr6003fbdRbsVujW4v3Z3cBe6V7pc86B7hHrM9GjxeeDp7ijw3el7zYniN9lrg1ez1ydvHW+5d693pY+OT4bPe5yrbgB3HXsw+6UvwDfGd7XvQ972ft1+B316/5/4u/rn+O/0fj7QfKRq5deT9AKsAfsDmgPZAVmBG4E+B7UGWQfygqqB7wdbBwuBtwY84jpwczi7OsxDXEHnI/pC3XD/uTG5TKBYaEVoa2hqmH5YUti7sTrhVeHZ4TXh3hFfE9IimSEJkVOTyyKs8M56AV83rHuUzauaolihaVELUuqh70U7R8ujG0ejoUaNXjr4VYxsjjamPBbG82JWxt+Ps4ybH/T6GOCZuTOWYh/Fu8TPiTyQwEiYm7Ex4kxiSuDTxZpJDkjKpOVknOT25OvltSmjKipT2sSPGzhx7JtUkVZLakEZKS07bltYzLmzc6nEd6V7pJelXxtuPnzr+1ASTCXkTDk3UmcifuC+DkJGSsTPjIz+WX8XvyeRlrs/sFnAFawRPhcHCVcJOUYBohehRVkDWiqzH2QHZK7M7xUHicnGXhCtZJ3mRE5mzKedtbmzu9ty+vJS83fnk/Iz8A1J9aa60ZZL5pKmT2mTOshJZ+2S/yasnd8uj5NsUiGK8oqHAAB7ezyodlD8o7xYGFlYWvpuSPGXfVL2p0qlnpzlNWzTtUVF40c/T8emC6c0zLGfMnXF3Jmfm5lnIrMxZzbOtZ8+f3TEnYs6OudS5uXP/LHYtXlH8el7KvMb5ZvPnzL//Q8QPNSXaJfKSqwv8F2xaiC+ULGxd5LFo7aLPpcLS02WuZeVlHxcLFp/+0e3Hih/7lmQtaV3qvXTjMuIy6bIry4OW71iht6Joxf2Vo1fWrWKtKl31evXE1afKPcs3raGuUa5pr4iuaFhrs3bZ2o/rxOsuV4ZU7l5vun7R+rcbhBsubAzeWLvJbFPZpg8/SX66tjlic12VXVX5FuKWwi0PtyZvPfEz++fqbSbbyrZ92i7d3r4jfkdLtU919U7TnUtr0BplTeeu9F3nfwn9paHWpXbzbubusj1gj3LPk18zfr2yN2pv8z72vtrfbH9bv5+xv7QOqZtW110vrm9vSG1oOzDqQHOjf+P+34f/vv2g5cHKQ4aHlh6mHp5/uO9I0ZGeJllT19Hso/ebJzbfPDb22KWWMS2tx6OOn/wj/I9jJzgnjpwMOHnwlN+pA6fZp+vPeJ+pO+t1dv+fXn/ub/VurTvnc67hvO/5xraRbYcvBF04ejH04h+XeJfOXI653HYl6cq1q+lX268Jrz2+nnf9xY3CG70359wi3Cq9rXu7/I7pnaq/HP/a3e7dfuhu6N2z9xLu3bwvuP/0geLBx475D+kPyx9ZPKp+7P74YGd45/kn4550PJU97e0q+Vvv7/XPHJ799jz4+dnusd0dL+Qv+l4ufmX8avtrz9fNPXE9d97kv+l9W/rO+N2O9+z3Jz6kfHjUO+Uj6WPFJ8dPjZ+jPt/qy+/rk/Hl/P6jAAYbmpUFwMvtANBTAWCch+eHceo7X78g6ntqPwL/Cavvhf3iDUAt7FTHdW4TAHtgswuG3HMAUB3VE4MB6uEx2DSiyPJwV3PR4I2H8K6v75UZAKRGAD7J+/p6N/T1fYJ3VOw6AE2T1XdNlRDh3eAnVxW6YLEPfCvqe+hXOX7bA1UEnuDb/l9vWomOcylcEwAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAANqADAAQAAAABAAAAJgAAAACwa5scAAAGAklEQVRoBdVZf2zTRRS/+347WIU5SBDIhoogGhEJmhCUhMAfajRRJAQIKoRf7UZQYG1ZW4HEijG0g7UDBFzbZTFBMSOGIAbjHyaEqMQgRiJ/EOWHIGbID4EB69jaOz/X9b67tuvazTHaS7Z77+69d5/3vXfv3vdbSu5V45xWbwmOixE6g3BajmW0xFKMUNrMY+RI6d2LZz0eD7sXEOi9MAqwppYHyhsJJ4t6sk8pOVjS+vdcyEd7kuvLnHyKfdHNqNNiHvNlNqeEMufk9RZz+cGMhv7HRL875vCFXgLk2b3A9IrNG3qjF/I5ifZrKFbU1xcNva4HCeVL5eo4QBPrnJZTOFc8Poaz5/CGn+Ma+R58sRgDiKaSSOlij2dBe1ymH/71i2PrttRPY0yzAM9r+But4PrZ77JOVXiDtPtCh8HMNAYIuQowBznnYb+74kdlvE+kqU9aQglP3u5tmMI1vpExMgcjaWHNKbmdyT4n/AIVe9XVRmBLl2FnlzpqQl8zrm0KOJcfN3a6Sy4nKg1MLlqrt+950F4T9hON/wJoc6HTazuU0kxOU5FUKGHHHDXhXe7Nu4bngilVpteAqmsaRxdFIn/AUFWqMWzjic6/9JksI6cxfzJVBju4sl0rOuP0NZSlzmXje+WY3RecHePRszA6MsVwA4uyMr/T+ixSQXPKXFYWIXvR77RM7ojpIxGdu6HQmWg6NYdHCTtj84WXZDWkCOTsmMMb/ACgm6BrNvQpOc4ZnYAEYanbUNnc1/MQt4esuWP98it4OKtojE1EiP9qrIPsSQkP4SqpUcZ6JHNyzOELvs0p3QBLgxPWkLzottul7IXAexYRRv3aatdXnmo3R56Hc7UwLHevCES13RuuzGWxrI7ZvcHpnNA9MKYnDLZhqXcCbktVsLKyI5dF+iKzY82au7Uu6zo4swL6XSUX5Z8gel7NZrNHxxxbw48ivL5VjESRsRb63VZxDgakBVzWRlwpC7CYUSwjevZX+UJP9QQgo2MoTDUeZUEoD5UGcPesDbitByQ/UH2gumI/ds6prDcYwOvnNzXJKFKmOsmMjt00j1mM3XpZaohKPOCq2CX5ge4DTosfZ+6osu6MMeduZDxv3TomdgtZ6H3FSOutVrZQ4QeeRNZEPTkLFU+LXByVi1tglbzadzvYUlwunsRjCUGGUmBe0FPZqireD7qzSKZuZe2Hb5rLbQpvkN06hkvSakgQcrrWXfGNwt9XMpG4RJEQbwhPkTXTWppja30NT0JqspRESG6SdE49JeekHF5UfpB0ao978Cc5Brl/JJ1Lj6isU+SesHmDTyt8nExzTCesGjMy2/xV66r4LFWpJ76ttV1kr72I/y9QkWzMJBtwWT6Nl0+UHKA6ezeTXHfjF8YOE0nscmJOx1ofpsphJ5Mb3pPOYGRcYnQvwL2VLJEfHHB+DiRvJtBcBs5RKrK0HUPWGWEIcHLIoPOMwPVzWIFUotBxMsmx+OsBpYYQi7HvUhXyho+yIwqW4qrNu8cqfPILYoyymZiU4XkpXrGr0nlEl7Q3/w44dxKQqKbrs1R4STvGGJ2mTF5Q6LwjcTGL2vFPAxjXphs0iCTHqMYfUiavK3S+kte6gDEVuxF2RHw6K7muHcLb7IsJ4d/Q7+tSzD8Kr1OLcc9OEMhwfo6Kkkt+woufp7UfhUbpJoLvFSQpZeafK1kRXaE6nVq7znKeOrbWj+AxTRzE4VnVCkPgTixKxpuQMFZi21SnxKGUt3phuJL8kXaIbqI2k8bpIrzEJRo/YSL6jBrXiltypBD6qkDjMK09egxYH+/Ey+drcOoRCR6HcVuhOSWw19mW3RDYpR/oy0S6F7VhvIFZs8qz0/gUIMfzvbf5/WZkx3kSJ47WeRM+jOzDi+QkMYjdm1JsHnQTBeYlKVQQfUf8hxD1Tv7KREzkY9JBxDfDQQknhEBZQTjUPchIW2yQTwvYLf/iJ5fxkLnavVzhjCIEr3GmT9q5fsm1+AUtoK/evn2wKTLkGcrZNPxwV44QNeby2TUcI0AlzYzrR0sj2kmPZ1mbwPsfcn7YoTm9Ju8AAAAASUVORK5CYII="
-  }))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("ul", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
-    href: ""
-  }, "\u81EA\u52A8\u5316")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
-    href: ""
-  }, "\u81EA\u52A8\u5316")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
-    href: ""
-  }, "\u81EA\u52A8\u5316")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
-    href: ""
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
-    className: "clearfix"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
-    className: "float-left"
-  }, "\u7814\u7A76\u7BA1\u7406\u7528\u54C1"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
-    className: "float-right"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("svg", {
-    xmlns: "http://www.w3.org/2000/svg",
-    xmlnsXlink: "http://www.w3.org/1999/xlink",
-    width: "16",
-    height: "16",
-    viewBox: "0 0 16 16"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("image", {
-    id: "\u56FE\u50CF_268",
-    "data-name": "\u56FE\u50CF 268",
-    width: "16",
-    height: "16",
-    xlinkHref: "data:image/png;base64,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"
-  }))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("ul", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
-    href: ""
-  }, "\u81EA\u52A8\u5316")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
-    href: ""
-  }, "\u81EA\u52A8\u5316")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
-    href: ""
-  }, "\u81EA\u52A8\u5316")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
-    href: ""
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
-    className: "clearfix"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
-    className: "float-left"
-  }, "\u51B2\u538B\u6A21\u5177\u7528\u96F6\u4EF6"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
-    className: "float-right"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("svg", {
-    xmlns: "http://www.w3.org/2000/svg",
-    xmlnsXlink: "http://www.w3.org/1999/xlink",
-    width: "14",
-    height: "14",
-    viewBox: "0 0 14 14"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("image", {
-    id: "\u56FE\u50CF_269",
-    "data-name": "\u56FE\u50CF 269",
-    width: "14",
-    height: "14",
-    xlinkHref: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAAAqCAYAAADFw8lbAAAMYWlDQ1BJQ0MgUHJvZmlsZQAASImVVwdYU8kWnltSSWiBCEgJvYnSCSAlhBZBQKogKiEJJJQYE4KKHV1UcO0iimVFV0VcdHUFZC2IuNZFsffFgoqyigUbKm9CArr6yvfO982dP2fO/Kdk5t4ZAHTa+TJZHqoLQL60QB4fEcIam5rGInUABGBAF2gBP75AIePExUUDKAP9P+XNFWgN5aKLiuv78f8q+kKRQgAAkg5xplAhyIe4CQC8WCCTFwBADIV66ykFMhUWQ2wghwFCPEOFs9V4mQpnqvHWfpvEeC7EDQCQaXy+PBsA7RaoZxUKsiGP9gOIXaVCiRQAHQOIAwVivhDiRIiH5edPUuE5EDtAexnEOyBmZ37Fmf0P/sxBfj4/exCr8+oXcqhEIcvjT/s/S/O/JT9POeDDDjaaWB4Zr8of1vBa7qQoFaZB3CXNjIlV1RridxKhuu4AoFSxMjJJbY+aChRcWD/AhNhVyA+NgtgU4nBpXky0Rp+ZJQnnQQxXCzpVUsBL1MxdKFKEJWg418snxccO4Cw5l6OZW8uX9/tV2bcoc5M4Gv5rYhFvgP91kTgxBWIqABi1UJIcA7E2xAaK3IQotQ1mVSTmxgzYyJXxqvhtIGaLpBEhan4sPUseHq+xl+UrBvLFSsQSXowGVxSIEyPV9cF2Cvj98RtBXCeScpIGeESKsdEDuQhFoWHq3LFWkTRJky92R1YQEq+Z2y3Li9PY42RRXoRKbwWxiaIwQTMXH1kAF6eaH4+WFcQlquPEM3L4o+LU8eCFIBpwQShgASVsmWASyAGS1q76LvhLPRIO+EAOsoEIuGg0AzNS+kek8JkAisDfEImAYnBeSP+oCBRC/adBrfrpArL6Rwv7Z+SChxDngyiQB38r+2dJB70lgwdQI/nOuwDGmgebaux7HQdqojUa5QAvS2fAkhhGDCVGEsOJjrgJHoj749HwGQybO87GfQei/WJPeEhoI9wjXCa0E65PlBTLv4llNGiH/OGajDO/zhi3g5xeeAgeANkhM87ETYAL7gn9cPAg6NkLarmauFW5s/5NnoMZfFVzjR3FlYJShlCCKQ7fztR20vYaZFFV9Ov6qGPNHKwqd3DkW//cr+oshH3Ut5bYQmwfdgI7ip3CDmL1gIUdwRqws9ghFR5cQw/619CAt/j+eHIhj+Q7f3yNT1UlFa41rp2uHzVjoEA0tUC1wbiTZNPkkmxxAYsDvwIiFk8qGD6M5e7q7gaA6puifk29YvZ/KxDm6S+6eQsACKju6+v7/YsuqgOAfc/hNr/9RWefA18H8BtwcrVAKS9U63DVgwDfBjpwRxkDc2ANHGBG7sAb+INgEAZGgViQCFLBBFhnMVzPcjAFzABzQQkoA8vAarAObAJbwA7wC9gL6sFBcBT8Ac6A8+AyuAnXTwd4CrrBG9CLIAgJoSMMxBixQGwRZ8QdYSOBSBgSjcQjqUgGko1IESUyA5mHlCErkHXIZqQa+RU5gBxFTiFtyHXkLtKJvEQ+oBhKQw1QM9QOHYGyUQ4ahSai49FsdDJahM5Hl6AVaBW6C61Dj6Jn0MtoO/oU7cEApoUxMUvMBWNjXCwWS8OyMDk2CyvFyrEqrBZrhP/0Rawd68Le40ScgbNwF7iGI/EkXIBPxmfhi/F1+A68Dm/BL+J38W78M4FOMCU4E/wIPMJYQjZhCqGEUE7YRthPOA53UwfhDZFIZBLtiT5wN6YSc4jTiYuJG4i7iU3ENuJ9Yg+JRDImOZMCSLEkPqmAVEJaS9pFOkK6QOogvSNrkS3I7uRwchpZSi4ml5N3kg+TL5AfkXspuhRbih8lliKkTKMspWylNFLOUToovVQ9qj01gJpIzaHOpVZQa6nHqbeor7S0tKy0fLXGaEm05mhVaO3ROql1V+s9TZ/mROPS0mlK2hLadloT7TrtFZ1Ot6MH09PoBfQl9Gr6Mfod+jtthvZwbZ62UHu2dqV2nfYF7Wc6FB1bHY7OBJ0inXKdfTrndLp0Kbp2ulxdvu4s3UrdA7pXdXv0GHpuerF6+XqL9XbqndJ7rE/St9MP0xfqz9ffon9M/z4DY1gzuAwBYx5jK+M4o8OAaGBvwDPIMSgz+MWg1aDbUN/Q0zDZcKphpeEhw3YmxrRj8ph5zKXMvcwrzA9DzIZwhoiGLBpSO+TCkLdGQ42CjURGpUa7jS4bfTBmGYcZ5xovN643vm2CmziZjDGZYrLR5LhJ11CDof5DBUNLh+4desMUNXUyjTedbrrF9Kxpj5m5WYSZzGyt2TGzLnOmebB5jvkq88PmnRYMi0ALicUqiyMWT1iGLA4rj1XBamF1W5paRloqLTdbtlr2WtlbJVkVW+22um1NtWZbZ1mvsm627raxsBltM8OmxuaGLcWWbSu2XWN7wvatnb1dit0Cu3q7x/ZG9jz7Ivsa+1sOdIcgh8kOVQ6XHImObMdcxw2O551QJy8nsVOl0zln1NnbWeK8wbltGGGY7zDpsKphV11oLhyXQpcal7vDmcOjhxcPrx/+bITNiLQRy0ecGPHZ1cs1z3Wr6003fbdRbsVujW4v3Z3cBe6V7pc86B7hHrM9GjxeeDp7ijw3el7zYniN9lrg1ez1ydvHW+5d693pY+OT4bPe5yrbgB3HXsw+6UvwDfGd7XvQ972ft1+B316/5/4u/rn+O/0fj7QfKRq5deT9AKsAfsDmgPZAVmBG4E+B7UGWQfygqqB7wdbBwuBtwY84jpwczi7OsxDXEHnI/pC3XD/uTG5TKBYaEVoa2hqmH5YUti7sTrhVeHZ4TXh3hFfE9IimSEJkVOTyyKs8M56AV83rHuUzauaolihaVELUuqh70U7R8ujG0ejoUaNXjr4VYxsjjamPBbG82JWxt+Ps4ybH/T6GOCZuTOWYh/Fu8TPiTyQwEiYm7Ex4kxiSuDTxZpJDkjKpOVknOT25OvltSmjKipT2sSPGzhx7JtUkVZLakEZKS07bltYzLmzc6nEd6V7pJelXxtuPnzr+1ASTCXkTDk3UmcifuC+DkJGSsTPjIz+WX8XvyeRlrs/sFnAFawRPhcHCVcJOUYBohehRVkDWiqzH2QHZK7M7xUHicnGXhCtZJ3mRE5mzKedtbmzu9ty+vJS83fnk/Iz8A1J9aa60ZZL5pKmT2mTOshJZ+2S/yasnd8uj5NsUiGK8oqHAAB7ezyodlD8o7xYGFlYWvpuSPGXfVL2p0qlnpzlNWzTtUVF40c/T8emC6c0zLGfMnXF3Jmfm5lnIrMxZzbOtZ8+f3TEnYs6OudS5uXP/LHYtXlH8el7KvMb5ZvPnzL//Q8QPNSXaJfKSqwv8F2xaiC+ULGxd5LFo7aLPpcLS02WuZeVlHxcLFp/+0e3Hih/7lmQtaV3qvXTjMuIy6bIry4OW71iht6Joxf2Vo1fWrWKtKl31evXE1afKPcs3raGuUa5pr4iuaFhrs3bZ2o/rxOsuV4ZU7l5vun7R+rcbhBsubAzeWLvJbFPZpg8/SX66tjlic12VXVX5FuKWwi0PtyZvPfEz++fqbSbbyrZ92i7d3r4jfkdLtU919U7TnUtr0BplTeeu9F3nfwn9paHWpXbzbubusj1gj3LPk18zfr2yN2pv8z72vtrfbH9bv5+xv7QOqZtW110vrm9vSG1oOzDqQHOjf+P+34f/vv2g5cHKQ4aHlh6mHp5/uO9I0ZGeJllT19Hso/ebJzbfPDb22KWWMS2tx6OOn/wj/I9jJzgnjpwMOHnwlN+pA6fZp+vPeJ+pO+t1dv+fXn/ub/VurTvnc67hvO/5xraRbYcvBF04ejH04h+XeJfOXI653HYl6cq1q+lX268Jrz2+nnf9xY3CG70359wi3Cq9rXu7/I7pnaq/HP/a3e7dfuhu6N2z9xLu3bwvuP/0geLBx475D+kPyx9ZPKp+7P74YGd45/kn4550PJU97e0q+Vvv7/XPHJ799jz4+dnusd0dL+Qv+l4ufmX8avtrz9fNPXE9d97kv+l9W/rO+N2O9+z3Jz6kfHjUO+Uj6WPFJ8dPjZ+jPt/qy+/rk/Hl/P6jAAYbmpUFwMvtANBTAWCch+eHceo7X78g6ntqPwL/Cavvhf3iDUAt7FTHdW4TAHtgswuG3HMAUB3VE4MB6uEx2DSiyPJwV3PR4I2H8K6v75UZAKRGAD7J+/p6N/T1fYJ3VOw6AE2T1XdNlRDh3eAnVxW6YLEPfCvqe+hXOX7bA1UEnuDb/l9vWomOcylcEwAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAKqADAAQAAAABAAAAKgAAAAD30ocxAAAHR0lEQVRYCc1Za2xURRSeM3t3S4XyEKlUaRCMQQ1EiSJgENFojOGHP1DEB4GWPgICabelhYJaQKDdPrFC091S/GH9AdE/aoIQEk34wSsaEyGRGKlQLJWHPAptd/fO+J3b3Wa73W33FpGeZPbO45wz3z1z5pyZu5RfXZ0sAimrSYg8IcREFIkyHEgBxN8ouwPJyTsN8o/+QJAuRwewDitig7HhNjs7O4UBkG40GORt/J4TWnSiPhxoBECko4xCWWXg50EUhnpOayqTSp222vf4R5F4lIhKAGMGSioD7fFJWJJBVm3IOXGPMVrTF1Y0diqlb4WwyOGycQa1DVs0Jq3fsXucn5zvakFLiRT8hfZrJ9XXuLOuxhSw2ZlXs3es9AeXY3Ms0yRMEtTsD8ov6koyL8VSFdei3dJ4B35bQaRnA+RTEP6EAqLorX37HLEU2eljHRQw10KmXAvxNDbwM1rr7YbDXF5aWhrTeHGB4g2XQVFyXwB64aTWKxwy7ogeabk1gbR+HUqcEYpGwLpLOkZOTYro663GBSqE7i9AwnAGjDuOt4GAH3YQvDLRuly3b92M7rPAxgVKWn7Z+zrhiqKjnuLs1nBzqM/ajbltQutjkA9G6oCVvw6mGd2RfeF6TH/gQeUSjRSg+2HZhXhvQyhx3KX9nBz6EwJwzmZvcrJTpgiHslbCJV1+TY6blYVLkUgIrtiXlMv5ocNvSk36ZaG0As9BKZ313tyMQF/Onha5y31hJT+T0rmRcZSdnn2SdJKsdme0xpqwsKI+1TSds6VQzyqi6VjTVLwclk9j99IptE+aQfOYZcUYCIrKfZOChoNG3zzXho3Ua2HE0emIoz6IzGGxuBblwf2LF5t4XOC6KMi0HpE/hTt8C7SiXBhsPsJYGtAxwBCL5WpvaKHbyZBHCsp93qri7EOR8lxP1JXi+mi0wui22+NdpByiHkDexthDKIxMwfdu4Hndqvf0TcTAIsBvyC/zLkH/kGhIQPM9vhcAaQuMNw2zMsBr+N2FPDdTJTknO7WaTA4HcjRVY4wTBPNMQe7eWlDWMA912zTg0sfSxj6J5V4FL3wC4wzgD+ylvJqiFd9G+fB1WLcwv6Lpe9KqFnzMP1UTFUDHmcp1K/msmTDZsygQ8cbBcs/HDJYlEVJW16zP+iYKZA8AOC9e4KCWmrPQNRTMR3NN0/EyXoLlEyZbQDkEYe5Z0J5mzUCiGRvkwGCz1RRmH0aK3BviQ1QQz62pa04ZTC5y3BZQK05qMR0K2BpKKOmLacnIGbiOt3M4qM6SYVmSj7v8XeOi2QZq2wJqBXOiCZZCrTtUkvxzIOWRY5WFWS1oc0QAUj1e+M1kridK9oBaWkO+BSsldfvDQXPw+cAPph5+zvQ2yRZQTos9GceaJSVoOB9OdD7OQOAdY/FrccUk1ZWoLPPZAsq5Gwt3CnJsGSlMMzOh3YsdHtBiZWg+7Cv6zRyZwvE1YbIFlA8YnLuhvT00w3LEyVcHm83taVpAJHJCfJfxPF635j28dOJkCyjvXj5gwJxHMIXGczwpsya/wvtKTMvCdAVljYi5qgr8D6Dg3CKOOol+SChaRLyHPaAQ5FMQhLyotlh6iJ4kRfvcnj2VhRW+KWHA7qqmdLfHtw3HuK/AN9Pi1aJNCfmZp3jFX1bbxo9toKybT0Ew1iZUz6KwvyImardS4ne3p/Eqjo5XRdBsgT9vwBhbEskMpzCpN3GmQts2DQkoz4K0iRsAZaP6HQrnbQbM+saicDDnOvddwhHwgJaUVV2U8znaQ6IBDyU4yMpb901O5TtObUnOxWi/qi7OOpy3reE0TkovwX1nAdA0K5hznEQIAqIzeJ4gp/yxuiDzfCyE6zx7cTBX8uyUlPbQ+TcWm4h7wrfu9dK5FpH5NYR4fqGTymmU1OZn8OGiL8EPOHdbaTGUcThOJpH8p7w450b0C7JwcVnDmIBk96EXcRrDlzt92OEI7gyfqhI+4fvJtQLCpbx21gIKMUt2B/g+hP4ogjmRyDk9Wimyz+j63D7NcCNAks+zq9A2epKWmK2U4c9paNjuzc3td2+K76Ok3g8r7X1Kej6UYXq7hlKBu6TBOeZCNtr13jTagmyMfjQAUAr249bC5ItYv36bHS7DgFvycofWqlde8x0tJsUFiv3QDInofHzofPoo2zEwembeOOyT6I80Bu7ztD/evT4uUP5gBf/8CMp+QuH8vs1BRvlAOxM8CRHrUKb4FMA+hsCvAP0LnltVUDXF8k9WGhcof1Ub03mhRsqk+V2d/jkdY9XmiqKMiyz0X9DOjdntoztbK6B7bldnYB70e+Ld/Xm+aGfugyH0QSByefqM32kjpL8jET0MlJ2aLTuCP0fzl95EBO82jynUY9i1uAVYe1cxUP5wyt/x03HvLon4HH23sQyoPwRyaojpMgPdhbIFhf99mIEyTKg3CmJP6z0G/9nE/+OAOEvwVTbuBmOm/5HYJa/g0OuThq75F2lJtHQD637sAAAAAElFTkSuQmCC"
-  }))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("ul", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
-    href: ""
-  }, "\u81EA\u52A8\u5316")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
-    href: ""
-  }, "\u81EA\u52A8\u5316")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
-    href: ""
-  }, "\u81EA\u52A8\u5316")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
-    href: ""
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
-    className: "clearfix"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
-    className: "float-left"
-  }, "\u5851\u6599\u6A21\u5177\u7528\u96F6\u4EF6"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
-    className: "float-right"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("svg", {
-    xmlns: "http://www.w3.org/2000/svg",
-    xmlnsXlink: "http://www.w3.org/1999/xlink",
-    width: "14",
-    height: "14",
-    viewBox: "0 0 14 14"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("image", {
-    id: "\u56FE\u50CF_270",
-    "data-name": "\u56FE\u50CF 270",
-    width: "14",
-    height: "14",
-    xlinkHref: "data:image/png;base64,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"
-  }))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("ul", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
-    href: ""
-  }, "\u81EA\u52A8\u5316")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
-    href: ""
-  }, "\u81EA\u52A8\u5316")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
-    href: ""
-  }, "\u81EA\u52A8\u5316")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
-    href: ""
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
-    className: "clearfix"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
-    className: "float-left"
-  }, "\u6CE8\u5851\u6210\u578B\u7528\u5546\u54C1"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
-    className: "float-right"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("svg", {
-    xmlns: "http://www.w3.org/2000/svg",
-    xmlnsXlink: "http://www.w3.org/1999/xlink",
-    width: "16",
-    height: "13.333",
-    viewBox: "0 0 16 13.333"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("image", {
-    id: "\u56FE\u50CF_271",
-    "data-name": "\u56FE\u50CF 271",
-    width: "16",
-    height: "13.333",
-    xlinkHref: "data:image/png;base64,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"
-  }))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("ul", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
-    href: ""
-  }, "\u81EA\u52A8\u5316")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
-    href: ""
-  }, "\u81EA\u52A8\u5316")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
-    href: ""
-  }, "\u81EA\u52A8\u5316"))))));
 });
 
 /***/ }),
@@ -13769,6 +14308,612 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./src/modules/navigation-menu/navigation-menu.tsx":
+/*!*********************************************************************!*\
+  !*** ./src/modules/navigation-menu/navigation-menu.tsx + 1 modules ***!
+  \*********************************************************************/
+/*! exports provided: default */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/index.js (<- Module is referenced from these modules with unsupported syntax: ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/popup/Popup.js (referenced with cjs require)) */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/index.js (<- Module is not an ECMAScript module) */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@msdyn365-commerce/core/dist/lib/index.js (<- Module is referenced from these modules with unsupported syntax: ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/back-to-top/BackToTop.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/common/telemetryHelper.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/drawer/ControlledDrawer.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/popup/Popup.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/slider/Slider.js (referenced with cjs require)) */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@babel/runtime/helpers/esm/defineProperty.js */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/classnames/index.js (<- Module is not an ECMAScript module) */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/mobx/lib/mobx.module.js (<- Module uses injected variables (global, process, module)) */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/tslib/tslib.es6.js (<- Module is referenced from these modules with unsupported syntax: ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/alert/Alert.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/back-to-top/BackToTop.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/button/Button.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/collapse/Collapse.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/drawer/ControlledDrawer.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/drawer/Drawer.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/fade/Fade.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/flipper/Flipper.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/heading/Heading.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/index.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/labeled-dropdown/LabeledDropdown.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/modal/Modal.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/modal/ModalBody.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/modal/ModalFooter.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/modal/ModalHeader.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/modal/Portal.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/modal/index.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/pagination/Pagination.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/pagination/PaginationItem.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/pagination/PaginationLink.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/pagination/UncontrolledPagination.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/popover/Popover.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/popover/index.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/popper-content/PopperContent.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/popup-products/Popup-products.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/popup/Popup.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/progress/Progress.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/quantity/Quantity.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/quantity/index.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/single-slide-carousel/SingleSlideCarousel.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/slider/Slider.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/slider/SliderThumb.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/table/Table.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/table/checkbox.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/table/index.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/tooltip/Tooltip.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/tooltip/UncontrolledTooltip.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/waiting/Waiting.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/wrapper/module.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/wrapper/node.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/zoom-image/ImagefullView.js (referenced with cjs require)) */
+/*! ModuleConcatenation bailout: Cannot concat with external "React" (<- Module is not an ECMAScript module) */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+// ESM COMPAT FLAG
+__webpack_require__.r(__webpack_exports__);
+
+// EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/defineProperty.js
+var defineProperty = __webpack_require__("./node_modules/@babel/runtime/helpers/esm/defineProperty.js");
+
+// EXTERNAL MODULE: ./node_modules/tslib/tslib.es6.js
+var tslib_es6 = __webpack_require__("./node_modules/tslib/tslib.es6.js");
+
+// EXTERNAL MODULE: ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/index.js + 38 modules
+var lib = __webpack_require__("./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/index.js");
+
+// EXTERNAL MODULE: ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/index.js
+var dist_lib = __webpack_require__("./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/index.js");
+
+// EXTERNAL MODULE: ./node_modules/@msdyn365-commerce/core/dist/lib/index.js
+var core_dist_lib = __webpack_require__("./node_modules/@msdyn365-commerce/core/dist/lib/index.js");
+
+// EXTERNAL MODULE: ./node_modules/classnames/index.js
+var classnames = __webpack_require__("./node_modules/classnames/index.js");
+var classnames_default = /*#__PURE__*/__webpack_require__.n(classnames);
+
+// EXTERNAL MODULE: ./node_modules/mobx/lib/mobx.module.js
+var mobx_module = __webpack_require__("./node_modules/mobx/lib/mobx.module.js");
+
+// EXTERNAL MODULE: external "React"
+var external_React_ = __webpack_require__("react");
+
+// CONCATENATED MODULE: ./src/modules/navigation-menu/navigation-menu.props.autogenerated.ts
+/**
+ * Copyright (c) 2018 Microsoft Corporation
+ * INavigationMenu contentModule Interface Properties
+ * THIS FILE IS AUTO-GENERATED - MANUAL MODIFICATIONS WILL BE LOST
+ */
+var navigationMenuSource;
+
+(function (navigationMenuSource) {
+  navigationMenuSource["retailServerOnly"] = "retailServerOnly";
+  navigationMenuSource["cmsOnly"] = "cmsOnly";
+  navigationMenuSource["all"] = "all";
+})(navigationMenuSource || (navigationMenuSource = {}));
+// CONCATENATED MODULE: ./src/modules/navigation-menu/navigation-menu.tsx
+
+
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
+
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { Object(defineProperty["default"])(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+
+
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+/**
+ *
+ * NavigationMenu component
+ * @extends {React.PureComponent<INavigationMenuProps<INavigationMenuData>>}
+ */
+
+class navigation_menu_NavigationMenu extends external_React_["PureComponent"] {
+  constructor(props) {
+    super(props);
+    this.isRetail = true;
+    this.isCMS = true;
+
+    this._setNavigationSource = sourceType => {
+      switch (sourceType) {
+        case navigationMenuSource.retailServerOnly:
+          this.isRetail = true;
+          this.isCMS = false;
+          break;
+
+        case navigationMenuSource.cmsOnly:
+          this.isRetail = false;
+          this.isCMS = true;
+          break;
+
+        case navigationMenuSource.all:
+          this.isRetail = true;
+          this.isCMS = true;
+          break;
+
+        default:
+      }
+    };
+
+    this._updateViewport = this._updateViewport.bind(this);
+    this.viewport = props.context.request && props.context.request.device && props.context.request.device.Type === 'Mobile' ? 'xs' : 'lg';
+
+    this._setNavigationSource(this.props.config && this.props.config.navigationMenuSource);
+
+    this.state = {
+      isMobile: this.isMobile
+    };
+    this.menuItemList = [];
+  }
+
+  static getFriendlyName(locale, nameTranslations) {
+    let nameTranslation;
+
+    if (locale && nameTranslations && nameTranslations.length > 0) {
+      nameTranslation = nameTranslations.find(item => item.Language.toLowerCase() === locale.toLowerCase());
+    }
+
+    return nameTranslation && nameTranslation.Text;
+  }
+
+  get isMobile() {
+    return this.viewport === 'xs' || this.viewport === 'sm';
+  }
+
+  componentDidMount() {
+    this.resizeThrottledEventHandler = window && Object(dist_lib["addThrottledEvent"])(window, 'resize', this._updateViewport);
+
+    this._updateViewport();
+  }
+
+  componentWillUnmount() {
+    window && window.removeEventListener('resize', this.resizeThrottledEventHandler, false);
+  }
+
+  render() {
+    this.menuItemList = this._mapData();
+    console.log(this.menuItemList); // 如果它为空
+
+    if (Object(core_dist_lib["isEmptyOrNullObject"])(this.props.data)) {
+      this.props.telemetry.error('Navigatiomenu returned null');
+      return null;
+    } // 它默认照片的长宽
+
+
+    const defaultImageSettings = {
+      viewports: {
+        xs: {
+          q: "w=224&h=300&m=6",
+          w: 0,
+          h: 0
+        },
+        xl: {
+          q: "w=224&h=300&m=6",
+          w: 0,
+          h: 0
+        }
+      },
+      lazyload: true
+    };
+
+    const viewProps = _objectSpread(_objectSpread(_objectSpread({}, this.props), this.state), {}, {
+      imageSettings: defaultImageSettings,
+      gridSettings: this.props.context.request.gridSettings,
+      Navigation: {
+        moduleProps: this.props,
+        className: classnames_default()('ms-nav', this.props.config.className, this.state.isMobile ? 'mobile-vp' : 'desktop-vp'),
+        tag: 'nav',
+        role: 'navigation',
+        'aria-label': this.props.resources.menuAriaLabel
+      },
+      MenuList: {
+        className: 'ms-nav__list',
+        tag: 'ul',
+        role: 'menu'
+      },
+      ListItem: {
+        className: 'ms-nav__list__item',
+        role: 'presentation',
+        tag: 'li'
+      },
+      showCategoryImage: this.props.config.displayCategoryImage || false,
+      Link: {
+        tag: 'a',
+        className: 'ms-nav__list__item__link',
+        role: 'menuitem'
+      },
+      DivContainer: {
+        tag: 'div',
+        className: 'ms-nav__feature',
+        role: 'menu'
+      },
+      ImageDivContainer: {
+        tag: 'div',
+        className: 'category-image',
+        role: 'menu'
+      },
+      Button: {
+        className: 'ms-nav__list__item__button',
+        tag: 'span',
+        role: 'menuitem',
+        onClick: this.props
+      },
+      ImageContainer: {
+        className: 'ms-nav__list__item__image'
+      },
+      Span: {
+        className: 'ms-nav__list__item__span',
+        tag: 'span'
+      },
+      MobileDescriptionContainer: {
+        className: 'ms-nav__list__mobile__container'
+      },
+      MobileBackButton: {
+        className: 'ms-nav__list__mobile__container__button',
+        tag: 'a',
+        'aria-label': this.props.resources.backButtonAriaLabel,
+        onClick: this.props
+      },
+      MobileDescriptionLabel: {
+        className: 'ms-nav__list__mobile__container__span',
+        tag: 'span'
+      },
+      isMobileView: this.state.isMobile,
+      menuItemData: this.menuItemList,
+      className: classnames_default()('ms-nav', this.props.config.className)
+    });
+
+    return this.props.renderView(viewProps);
+  }
+
+  _mapData() {
+    const {
+      data,
+      config
+    } = this.props;
+    const mergedData = [];
+
+    if (this.isRetail && data && data.categories && data.categories.result && data.categories.result.length > 0) {
+      data.categories.result.map(item => mergedData.push(this._constructMenuItemData(item, undefined, true)));
+    }
+
+    if (this.isCMS && config.cmsNavItems && config.cmsNavItems.length > 0) {
+      config.cmsNavItems.map((item, idx) => mergedData.push(this._constructMenuItemData(undefined, item, false, idx + 1)));
+    }
+
+    return mergedData;
+  } // tslint:disable-next-line: cyclomatic-complexity
+
+
+  _constructMenuItemData(retailItem, cmsItem, isRetail, idx) {
+    const locale = this.props.context && this.props.context.request && this.props.context.request.locale ? this.props.context.request.locale : 'en-us';
+    const imageSouce = retailItem && retailItem.Images && retailItem.Images[0].Uri ? retailItem.Images[0].Uri : 'empty';
+
+    if (isRetail) {
+      return {
+        id: navigation_menu_NavigationMenu.RSItemIdInit++,
+        linkText: navigation_menu_NavigationMenu.getFriendlyName(locale, retailItem && retailItem.NameTranslations) || '',
+        linkURL: retailItem && retailItem.Url,
+        imageSource: imageSouce,
+        subMenu: this._getNestedChildren(retailItem, imageSouce)
+      };
+    } else {
+      return {
+        id: navigation_menu_NavigationMenu.CMSItemIdInit++,
+        linkText: cmsItem && cmsItem.linkText || '',
+        linkURL: cmsItem && cmsItem.linkUrl && cmsItem.linkUrl.destinationUrl || '',
+        imageDestinationURL: cmsItem && cmsItem.imageLink && cmsItem.imageLink.destinationUrl || '',
+        imageSource: cmsItem && cmsItem.image && cmsItem.image.src || '',
+        subMenu: this._getCMSNestedChildren(cmsItem)
+      };
+    }
+  }
+
+  _getNestedChildren(category, imageSourceUrl) {
+    const nestedChildren = [];
+
+    if (!category || !category.Children || !category.Children.length) {
+      return [];
+    }
+
+    nestedChildren.push({
+      linkText: this.props.resources.allCategoryMenuText,
+      imageSource: imageSourceUrl,
+      linkURL: Object(lib["getCategoryUrl"])(category, this.props.context, {})
+    });
+    category.Children.map(item => {
+      nestedChildren.push(this._constructMenuItemData(item, undefined, true));
+    });
+    return nestedChildren;
+  }
+
+  _getCMSNestedChildren(category) {
+    const nestedChildren = [];
+
+    if (!category || !category.subMenus || !category.subMenus.length) {
+      return [];
+    }
+
+    category.subMenus.map((item, idx) => {
+      nestedChildren.push(this._constructMenuItemData(undefined, item, false, idx));
+    });
+    return nestedChildren;
+  }
+
+  _updateViewport() {
+    this.viewport = this._getViewport();
+    this.setState({
+      isMobile: this.isMobile
+    });
+  }
+
+  _getViewport() {
+    const {
+      context
+    } = this.props; // always render in mobile viewport on a mobile device
+
+    if (context.request && context.request.device && context.request.device.Type === 'Mobile') {
+      return 'xs';
+    }
+
+    if (typeof window !== undefined && window.innerWidth) {
+      const gridSettings = context.request.gridSettings;
+
+      if (gridSettings) {
+        if (gridSettings.xs && window.innerWidth <= gridSettings.xs.w) {
+          return 'xs';
+        } else if (gridSettings.sm && window.innerWidth <= gridSettings.sm.w) {
+          return 'sm';
+        } else if (gridSettings.md && window.innerWidth <= gridSettings.md.w) {
+          return 'md';
+        } else if (gridSettings.lg && window.innerWidth <= gridSettings.lg.w) {
+          return 'lg';
+        } else {
+          return 'xl';
+        }
+      }
+    }
+
+    return 'xs';
+  }
+
+}
+
+navigation_menu_NavigationMenu.CMSItemIdInit = 1000;
+navigation_menu_NavigationMenu.RSItemIdInit = 5000;
+
+Object(tslib_es6["__decorate"])([mobx_module["observable"]], navigation_menu_NavigationMenu.prototype, "viewport", void 0);
+
+Object(tslib_es6["__decorate"])([mobx_module["computed"]], navigation_menu_NavigationMenu.prototype, "isMobile", null);
+
+/* harmony default export */ var navigation_menu = __webpack_exports__["default"] = (navigation_menu_NavigationMenu);
+
+/***/ }),
+
+/***/ "./src/modules/navigation-menu/navigation-menu.view.tsx":
+/*!**************************************************************!*\
+  !*** ./src/modules/navigation-menu/navigation-menu.view.tsx ***!
+  \**************************************************************/
+/*! exports provided: NavigationMenuView, default */
+/*! ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: ./lib/view-registration.js (referenced with import() eager, require.resolve) */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NavigationMenuView", function() { return NavigationMenuView; });
+/* harmony import */ var core_js_modules_web_dom_collections_iterator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! core-js/modules/web.dom-collections.iterator.js */ "./node_modules/@msdyn365-commerce/bootloader/node_modules/core-js/modules/web.dom-collections.iterator.js");
+/* harmony import */ var core_js_modules_web_dom_collections_iterator_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_web_dom_collections_iterator_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var lodash_uniq__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! lodash/uniq */ "./node_modules/lodash/uniq.js");
+/* harmony import */ var lodash_uniq__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(lodash_uniq__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
+
+
+
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+
+/**
+ *
+ * NavigationMenuView component
+ * @extends {React.PureComponent<INavigationMenuViewProps>}
+ */
+class NavigationMenuView extends react__WEBPACK_IMPORTED_MODULE_2__["PureComponent"] {
+  constructor(props) {
+    super(props);
+    this.state = {
+      activeIds: [],
+      closeTimeOut: [],
+      itemIndexs: [],
+      currentIndex: 20
+    };
+  }
+
+  render() {
+    const {
+      menuItemData
+    } = this.props;
+
+    if (!menuItemData) {
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"]("div", {
+        className: "wkea-nav-menu"
+      });
+    }
+
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"]("div", {
+      className: "wkea-index-nav"
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"]("div", {
+      className: "centre"
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"]("ul", {
+      className: "clear"
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"]("li", {
+      className: "wkea-index-nav-li",
+      onMouseEnter: () => this._onMouseEnterHandle(menuItemData[0].id),
+      onMouseLeave: () => this._onMouseLeaveHandle(menuItemData[0].id)
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"]("a", {
+      href: menuItemData[0].linkURL
+    }, menuItemData[0].linkText), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"]("ul", {
+      className: "wkea-index-nav-ul-ul"
+    }, this._getFullMenu(menuItemData[0].subMenu, 0))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"]("li", {
+      className: "wkea-index-nav-item",
+      onMouseEnter: () => this._onMouseEnterHandle(menuItemData[1].id),
+      onMouseLeave: () => this._onMouseLeaveHandle(menuItemData[1].id)
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"]("a", {
+      href: menuItemData[0].linkURL
+    }, menuItemData[1].linkText), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"]("ul", {
+      className: "wkea-index-nav-item-ul"
+    }, this._getFullMenu(menuItemData[1].subMenu, 0))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"]("li", {
+      className: "wkea-index-nav-item",
+      onMouseEnter: () => this._onMouseEnterHandle(menuItemData[2].id),
+      onMouseLeave: () => this._onMouseLeaveHandle(menuItemData[2].id)
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"]("a", {
+      href: menuItemData[0].linkURL
+    }, menuItemData[2].linkText), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"]("ul", {
+      className: "wkea-index-nav-item-ul"
+    }, this._getFullMenu(menuItemData[2].subMenu, 0))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"]("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"]("a", {
+      href: ""
+    }, "\u4F9B\u5E94\u5546\u5408\u4F5C")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"]("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"]("a", {
+      href: "wkea-sale.html"
+    }, "\u552E\u540E\u670D\u52A1")))));
+  }
+
+  _getFullMenu(menu) {
+    let count = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 0;
+
+    if (!menu) {
+      return [/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"]("li", {
+        className: "wkea-index-nav-ul-ul-li"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"]("a", {
+        href: "javascropt:void(0)"
+      }, "\u6682\u65E0\u5185\u5BB9"))];
+    }
+
+    const result = [];
+    count++;
+    menu = menu.filter(v => v.id);
+
+    for (let i = 0; i < menu.length; i++) {
+      const v = menu[i];
+
+      if (v.subMenu) {
+        (count => {
+          result.push( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"]("li", {
+            className: "wkea-index-nav-ul-ul-li".concat(this.state.activeIds.find(n => n === v.id) ? ' act' : ''),
+            onMouseEnter: () => this._onMouseEnterHandle(v.id),
+            onMouseLeave: () => this._onMouseLeaveHandle(v.id)
+          }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"]("ul", {
+            className: "clear"
+          }, this._getFullMenu2(v.subMenu, count)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"]("a", {
+            href: v.linkURL
+          }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"]("div", {
+            className: "clearfix"
+          }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"]("div", {
+            className: "float-left"
+          }, v.linkText)))));
+        })(count);
+      } else {
+        (count => {
+          result.push( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"]("li", {
+            className: "wkea-index-nav-ul-ul-li".concat(this.state.activeIds.find(n => n === v.id) ? ' act' : ''),
+            onMouseEnter: () => this._onMouseEnterHandle(v.id),
+            onMouseLeave: () => this._onMouseLeaveHandle(v.id)
+          }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"]("a", {
+            href: v.linkURL
+          }, v.linkText)));
+        })(count);
+      }
+    }
+
+    return result;
+  }
+
+  _getFullMenu2(menu) {
+    let count = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 0;
+
+    if (!menu) {
+      return [/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"]("a", {
+        href: "javascropt:void(0)"
+      }, "\u6682\u65E0\u5185\u5BB9")];
+    }
+
+    const result = [];
+    count++;
+    menu = menu.filter(v => v.id);
+
+    for (let i = 0; i < menu.length; i++) {
+      const v = menu[i];
+
+      if (v.linkText) {
+        (count => {
+          result.push( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"]("li", {
+            className: "wkea".concat(this.state.activeIds.find(n => n === v.id) ? ' act' : ''),
+            onMouseEnter: () => this._onMouseEnterHandle(v.id),
+            onMouseLeave: () => this._onMouseLeaveHandle(v.id)
+          }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"]("a", {
+            href: v.linkURL
+          }, v.linkText)));
+        })(count);
+      }
+    }
+
+    return result;
+  }
+
+  _onMouseEnterHandle(id) {
+    const timer = this.state.closeTimeOut.find(v => v.id === id);
+
+    if (timer) {
+      // @ts-ignore
+      clearTimeout(timer);
+    }
+
+    const newIndex = this.state.currentIndex + 1;
+
+    const _itemIndexs = JSON.parse(JSON.stringify(this.state.itemIndexs)); // @ts-ignore
+
+
+    let targetIndex = _itemIndexs.find(v => v.id === id);
+
+    if (targetIndex) {
+      targetIndex.index = newIndex;
+    } else {
+      targetIndex = {
+        id: id,
+        index: newIndex
+      };
+
+      _itemIndexs.push(targetIndex);
+    }
+
+    const state = {
+      activeIds: lodash_uniq__WEBPACK_IMPORTED_MODULE_1___default()([...this.state.activeIds, id]),
+      closeTimeOut: this.state.closeTimeOut.filter(v => v.id !== id),
+      itemIndexs: _itemIndexs,
+      currentIndex: newIndex
+    };
+    this.setState(state);
+  }
+
+  _onMouseLeaveHandle(id) {
+    const timer = setTimeout(() => {
+      const _activeIds = this.state.activeIds.filter(v => v !== id);
+
+      let state;
+
+      if (_activeIds.length) {
+        state = {
+          activeIds: _activeIds
+        };
+      } else {
+        state = {
+          activeIds: _activeIds,
+          itemIndexs: [],
+          currentIndex: 20
+        };
+      } // @ts-ignore
+
+
+      this.setState(state);
+    }, 150);
+    this.setState({
+      closeTimeOut: [...this.state.closeTimeOut, {
+        id: id,
+        timer: timer
+      }]
+    });
+  }
+
+}
+/* harmony default export */ __webpack_exports__["default"] = (NavigationMenuView);
+
+/***/ }),
+
 /***/ "./src/modules/sale/sale.tsx":
 /*!***********************************!*\
   !*** ./src/modules/sale/sale.tsx ***!
@@ -13882,6 +15027,4690 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./src/modules/search-result-container/actions/base-collection-action.ts":
+/*!*******************************************************************************!*\
+  !*** ./src/modules/search-result-container/actions/base-collection-action.ts ***!
+  \*******************************************************************************/
+/*! exports provided: BaseCollectionInput, createBaseCollectionInput */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "BaseCollectionInput", function() { return BaseCollectionInput; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "createBaseCollectionInput", function() { return createBaseCollectionInput; });
+/* harmony import */ var _babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/defineProperty */ "./node_modules/@babel/runtime/helpers/esm/defineProperty.js");
+/* harmony import */ var _msdyn365_commerce_modules_retail_actions__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @msdyn365-commerce-modules/retail-actions */ "./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/index.js");
+/* harmony import */ var _msdyn365_commerce_retail_proxy__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @msdyn365-commerce/retail-proxy */ "./node_modules/@msdyn365-commerce/retail-proxy/dist/index.js");
+/* harmony import */ var mobx__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! mobx */ "./node_modules/mobx/lib/mobx.module.js");
+/* harmony import */ var _url_utils__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./url-utils */ "./src/modules/search-result-container/actions/url-utils.ts");
+
+
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
+
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+/* tslint:disable: no-duplicate-imports */
+
+
+
+
+/**
+ * Get include attributes from config.
+ */
+
+function getIncludeAttributes(inputData) {
+  if (inputData && inputData.config && inputData.config.includeAttributes !== undefined && inputData.config.includeAttributes === true) {
+    return true;
+  }
+
+  return false;
+}
+/**
+ * BaseCollection Action Input
+ */
+
+
+class BaseCollectionInput {
+  constructor(pageType, apiSettings, queryResultSettings, refiners, category, searchText, includeAttributes, locale) {
+    this.getCacheKey = () => {
+      const queryResultSettings = _objectSpread(_objectSpread({}, this.queryResultSettings.Paging), Object(mobx__WEBPACK_IMPORTED_MODULE_3__["toJS"])(this.queryResultSettings.Sorting)); // tslint:disable       
+
+
+      const cacheKey = Object(_msdyn365_commerce_modules_retail_actions__WEBPACK_IMPORTED_MODULE_1__["buildCacheKey"])("".concat(this.pageType, "-").concat(this.locale, "-").concat(this.category || this.searchText, "-").concat(this.refiners.map(refiner => "".concat(refiner.RefinerRecordId + (refiner.LeftValueBoundString || '') + (refiner.RightValueBoundString || ''), "-")), "-").concat(Object(_msdyn365_commerce_retail_proxy__WEBPACK_IMPORTED_MODULE_2__["convertToString"])(queryResultSettings)), this.apiSettings, this.locale);
+      return cacheKey;
+    };
+
+    this.getCacheObjectType = () => 'CollectionActionResult';
+
+    this.dataCacheType = () => 'request';
+
+    this.pageType = pageType;
+    this.apiSettings = apiSettings;
+    this.category = category;
+    this.searchText = searchText;
+    this.queryResultSettings = queryResultSettings;
+    this.refiners = refiners;
+    this.includeAttributes = includeAttributes;
+    this.locale = locale;
+  }
+
+}
+/**
+ * TODO: Use this function to create the input required to make the action call
+ */
+
+const createBaseCollectionInput = (args, inputClassConstuctor) => {
+  const pageType = args.requestContext.urlTokens.pageType === 'Category' || args.requestContext.query && args.requestContext.query.categoryId ? 'Category' : 'Search';
+  const queryResultSettings = _msdyn365_commerce_modules_retail_actions__WEBPACK_IMPORTED_MODULE_1__["QueryResultSettingsProxy"].fromInputData(args).QueryResultSettings;
+  const queryRefiners = Object(_url_utils__WEBPACK_IMPORTED_MODULE_4__["hydrateRefinersFromUrl"])(args.requestContext);
+  const includeAttributes = getIncludeAttributes(args);
+
+  if (args.requestContext.query && args.requestContext.query.sorting) {
+    queryResultSettings.Sorting = {
+      Columns: JSON.parse(decodeURIComponent(args.requestContext.query.sorting))
+    };
+  }
+
+  if (pageType === 'Category') {
+    return new inputClassConstuctor(pageType, args.requestContext.apiSettings, queryResultSettings, queryRefiners, +(args.requestContext.urlTokens.itemId || args.requestContext.query && args.requestContext.query.categoryId || 0), undefined, includeAttributes, args.requestContext.locale);
+  } else if (pageType === 'Search' && args.requestContext.query && args.requestContext.query.q) {
+    return new inputClassConstuctor(pageType, args.requestContext.apiSettings, queryResultSettings, queryRefiners, undefined, args.requestContext.query.q, includeAttributes, args.requestContext.locale);
+  } else if (pageType === 'Search' && args.requestContext.query && args.requestContext.query.productId) {
+    return new inputClassConstuctor(pageType, args.requestContext.apiSettings, queryResultSettings, queryRefiners, undefined, args.requestContext.query.productId, includeAttributes, args.requestContext.locale);
+  }
+
+  throw new Error('[getFullProductsForCollection]Unable to create input');
+};
+
+/***/ }),
+
+/***/ "./src/modules/search-result-container/actions/get-full-products-by-collection.ts":
+/*!****************************************************************************************!*\
+  !*** ./src/modules/search-result-container/actions/get-full-products-by-collection.ts ***!
+  \****************************************************************************************/
+/*! exports provided: GetFullProductsByCollectionInput, default */
+/*! ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: ./lib/module-registration.local.js (referenced with cjs require) */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "GetFullProductsByCollectionInput", function() { return GetFullProductsByCollectionInput; });
+/* harmony import */ var core_js_modules_es_promise_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! core-js/modules/es.promise.js */ "./node_modules/@msdyn365-commerce/bootloader/node_modules/core-js/modules/es.promise.js");
+/* harmony import */ var core_js_modules_es_promise_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_promise_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var core_js_modules_web_dom_collections_iterator_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! core-js/modules/web.dom-collections.iterator.js */ "./node_modules/@msdyn365-commerce/bootloader/node_modules/core-js/modules/web.dom-collections.iterator.js");
+/* harmony import */ var core_js_modules_web_dom_collections_iterator_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_web_dom_collections_iterator_js__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _msdyn365_commerce_modules_retail_actions__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @msdyn365-commerce-modules/retail-actions */ "./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/index.js");
+/* harmony import */ var _msdyn365_commerce_core__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @msdyn365-commerce/core */ "./node_modules/@msdyn365-commerce/core/dist/lib/index.js");
+/* harmony import */ var _msdyn365_commerce_retail_proxy_dist_DataActions_ProductsDataActions_g__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @msdyn365-commerce/retail-proxy/dist/DataActions/ProductsDataActions.g */ "./node_modules/@msdyn365-commerce/retail-proxy/dist/DataActions/ProductsDataActions.g.js");
+/* harmony import */ var _base_collection_action__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./base-collection-action */ "./src/modules/search-result-container/actions/base-collection-action.ts");
+/* harmony import */ var _list_page_state__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../list-page-state */ "./src/modules/search-result-container/list-page-state.ts");
+
+
+
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+/* tslint:disable: no-duplicate-imports */
+
+
+
+
+
+/**
+ * GetFullProductsByCollection Action Input
+ */
+
+class GetFullProductsByCollectionInput extends _base_collection_action__WEBPACK_IMPORTED_MODULE_5__["BaseCollectionInput"] {
+  constructor() {
+    super(...arguments);
+
+    this.getCacheObjectType = () => 'FullProductSearchResult';
+
+    this.dataCacheType = () => {
+      if (this.pageType !== 'Category' || this.refiners && this.refiners.length > 0 || this.queryResultSettings && this.queryResultSettings.Sorting && this.queryResultSettings.Sorting.Columns && this.queryResultSettings.Sorting.Columns.length > 0) {
+        return 'request';
+      } else {
+        return 'application';
+      }
+    };
+  }
+
+}
+/**
+ * createInput function which creates and actionInput used to fetch products for a list page.
+ */
+
+const createInput = args => {
+  const input = Object(_base_collection_action__WEBPACK_IMPORTED_MODULE_5__["createBaseCollectionInput"])(args, GetFullProductsByCollectionInput); // Set Top
+
+  if (input.queryResultSettings.Paging && args.config) {
+    input.queryResultSettings.Paging.Top = args.config.itemsPerPage || 1;
+  } // Set Skip
+
+
+  if (input.queryResultSettings.Paging && args.requestContext.query && args.requestContext.query.skip) {
+    input.queryResultSettings.Paging.Skip = +args.requestContext.query.skip;
+  }
+
+  input.queryResultSettings.count = true;
+  return input;
+};
+/**
+ * Action function to fetch products for a list page
+ */
+
+
+async function action(input, ctx) {
+  let productSearchResults;
+  let promise;
+  let searchProductId;
+  const searchCriteriaInput = {};
+  searchCriteriaInput.Context = {
+    ChannelId: ctx.requestContext.apiSettings.channelId,
+    CatalogId: ctx.requestContext.apiSettings.catalogId
+  };
+  searchCriteriaInput.Refinement = input.refiners;
+  searchCriteriaInput.IncludeAttributes = input.includeAttributes;
+
+  if (input.pageType === 'Category' || ctx.requestContext.query && ctx.requestContext.query.categoryId) {
+    if (input.category) {
+      searchCriteriaInput.CategoryIds = [input.category || 0];
+      promise = Object(_msdyn365_commerce_retail_proxy_dist_DataActions_ProductsDataActions_g__WEBPACK_IMPORTED_MODULE_4__["searchByCriteriaAsync"])({
+        callerContext: ctx,
+        queryResultSettings: input.queryResultSettings
+      }, searchCriteriaInput);
+    } else {
+      throw new Error('[GetFullProductsForCollection]Category Page Detected, but no global categoryId found');
+    }
+  } else {
+    if (input.searchText && ctx.requestContext.query && ctx.requestContext.query.q) {
+      searchCriteriaInput.SearchCondition = input.searchText;
+      promise = Object(_msdyn365_commerce_retail_proxy_dist_DataActions_ProductsDataActions_g__WEBPACK_IMPORTED_MODULE_4__["searchByCriteriaAsync"])({
+        callerContext: ctx,
+        queryResultSettings: input.queryResultSettings
+      }, searchCriteriaInput);
+    } else {
+      if (input.searchText && ctx.requestContext.query && ctx.requestContext.query.productId) {
+        searchProductId = Number(input.searchText);
+
+        if (Number.isNaN(searchProductId)) {
+          throw new Error('Failed to cast search product id into a number.');
+        } else {
+          searchCriteriaInput.RecommendationListId = 'looks';
+          searchCriteriaInput.Ids = [searchProductId || 0];
+          promise = Object(_msdyn365_commerce_retail_proxy_dist_DataActions_ProductsDataActions_g__WEBPACK_IMPORTED_MODULE_4__["searchByCriteriaAsync"])({
+            callerContext: ctx,
+            queryResultSettings: input.queryResultSettings
+          }, searchCriteriaInput);
+        }
+      } else {
+        throw new Error('[GetFullProductsForCollection]Search Page Detected, but no q= or productId= query parameter found');
+      }
+    }
+  }
+
+  productSearchResults = await promise;
+  const mappedProducts = productSearchResults.map(productSearchResult => {
+    const newImageUrl = Object(_msdyn365_commerce_modules_retail_actions__WEBPACK_IMPORTED_MODULE_2__["generateProductImageUrl"])(productSearchResult, ctx.requestContext.apiSettings);
+
+    if (newImageUrl) {
+      productSearchResult.PrimaryImageUrl = newImageUrl;
+    }
+
+    return productSearchResult;
+  }); // Update ListPageState For SSR
+
+  if (!_msdyn365_commerce_core__WEBPACK_IMPORTED_MODULE_3__["default"].isBrowser) {
+    ctx.update(new _list_page_state__WEBPACK_IMPORTED_MODULE_6__["ListPageStateInput"](), {
+      totalProductCount: promise.metadata.count || 0,
+      activeFilters: input.refiners
+    });
+  }
+
+  return {
+    products: mappedProducts,
+    count: promise.metadata.count || 0
+  };
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (Object(_msdyn365_commerce_core__WEBPACK_IMPORTED_MODULE_3__["createObservableDataAction"])({
+  id: '@msdyn365-commerce-modules/search-result-container/get-full-products-by-collection',
+  action: action,
+  input: createInput
+}));
+
+/***/ }),
+
+/***/ "./src/modules/search-result-container/actions/get-mapped-search-configuration.ts":
+/*!****************************************************************************************!*\
+  !*** ./src/modules/search-result-container/actions/get-mapped-search-configuration.ts ***!
+  \****************************************************************************************/
+/*! exports provided: sortOptions, MappedSearchInput, getMappedSearchConfiguration, createInput, default */
+/*! ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: ./lib/module-registration.local.js (referenced with cjs require) */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "sortOptions", function() { return sortOptions; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MappedSearchInput", function() { return MappedSearchInput; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getMappedSearchConfiguration", function() { return getMappedSearchConfiguration; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "createInput", function() { return createInput; });
+/* harmony import */ var core_js_modules_es_promise_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! core-js/modules/es.promise.js */ "./node_modules/@msdyn365-commerce/bootloader/node_modules/core-js/modules/es.promise.js");
+/* harmony import */ var core_js_modules_es_promise_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_promise_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _msdyn365_commerce_modules_retail_actions__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @msdyn365-commerce-modules/retail-actions */ "./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/index.js");
+/* harmony import */ var _msdyn365_commerce_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @msdyn365-commerce/core */ "./node_modules/@msdyn365-commerce/core/dist/lib/index.js");
+/* harmony import */ var _msdyn365_commerce_retail_proxy_dist_DataActions_StoreOperationsDataActions_g__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @msdyn365-commerce/retail-proxy/dist/DataActions/StoreOperationsDataActions.g */ "./node_modules/@msdyn365-commerce/retail-proxy/dist/DataActions/StoreOperationsDataActions.g.js");
+
+
+/* tslint:disable: no-duplicate-imports */
+
+
+
+const sortOptions = {
+  sortByOptionRelevanceDesc: 'Ranking-Desc',
+  sortByOptionRatingAsc: 'AverageRating-Asc',
+  sortByOptionRatingDesc: 'AverageRating-Desc',
+  sortByOptionNameAsc: 'Name-Asc',
+  sortByOptionNameDesc: 'Name-Desc',
+  sortByOptionPriceAsc: 'Price-Asc',
+  sortByOptionPriceDesc: 'Price-Desc'
+};
+/**
+ * ActionInput class for the get-mapped-search-configuration Data Action
+ */
+
+class MappedSearchInput {
+  constructor(apiSettings) {
+    this.getCacheKey = () => Object(_msdyn365_commerce_modules_retail_actions__WEBPACK_IMPORTED_MODULE_1__["buildCacheKey"])('MappedSearchInput', this.apiSettings);
+
+    this.getCacheObjectType = () => 'MappedSearchInput';
+
+    this.dataCacheType = () => 'request';
+
+    this.apiSettings = apiSettings;
+  }
+
+}
+/**
+ * Get a mapped search configuration that is easy to use for sorting
+ */
+
+async function getMappedSearchConfiguration(input, ctx) {
+  return Object(_msdyn365_commerce_retail_proxy_dist_DataActions_StoreOperationsDataActions_g__WEBPACK_IMPORTED_MODULE_3__["getSearchConfigurationAsync"])({
+    callerContext: ctx
+  }).then(searchConfiguration => {
+    return (searchConfiguration.ProductSortColumns || []).map(sortColumn => {
+      let key = '';
+
+      if (sortColumn.ColumnName) {
+        switch (sortColumn.ColumnName.toUpperCase()) {
+          case 'NAME':
+            key = sortColumn.IsDescending ? sortOptions.sortByOptionNameDesc : sortOptions.sortByOptionNameAsc;
+            break;
+
+          case 'PRICE':
+            key = sortColumn.IsDescending ? sortOptions.sortByOptionPriceDesc : sortOptions.sortByOptionPriceAsc;
+            break;
+
+          case 'AVERAGERATING':
+            key = sortColumn.IsDescending ? sortOptions.sortByOptionRatingDesc : sortOptions.sortByOptionRatingAsc;
+            break;
+
+          case 'RANKING':
+            key = sortOptions.sortByOptionRelevanceDesc;
+            break;
+
+          default:
+        }
+      } else {
+        ctx.telemetry.warning('[get-mapped-search-configuration] unknown search option');
+      }
+
+      if (key) {
+        return {
+          key,
+          sortColumn
+        };
+      } else {
+        return undefined;
+      }
+    }).filter(Boolean);
+  });
+}
+const createInput = inputData => {
+  return new MappedSearchInput(inputData.requestContext.apiSettings);
+};
+/* harmony default export */ __webpack_exports__["default"] = (Object(_msdyn365_commerce_core__WEBPACK_IMPORTED_MODULE_2__["createObservableDataAction"])({
+  id: '@msdyn365-commerce-modules/search-result-container/get-mapped-search-configuration',
+  action: getMappedSearchConfiguration,
+  input: createInput
+}));
+
+/***/ }),
+
+/***/ "./src/modules/search-result-container/actions/get-refiners-for-collection.ts":
+/*!************************************************************************************************!*\
+  !*** ./src/modules/search-result-container/actions/get-refiners-for-collection.ts + 1 modules ***!
+  \************************************************************************************************/
+/*! exports provided: RefinersByCollectionInput, default */
+/*! ModuleConcatenation bailout: Cannot concat with ./src/modules/search-result-container/actions/base-collection-action.ts because of ./src/modules/search-result-container/actions/get-full-products-by-collection.ts */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@msdyn365-commerce/core/dist/lib/index.js (<- Module is referenced from these modules with unsupported syntax: ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/back-to-top/BackToTop.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/common/telemetryHelper.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/drawer/ControlledDrawer.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/popup/Popup.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/slider/Slider.js (referenced with cjs require)) */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@msdyn365-commerce/retail-proxy/dist/DataActions/ProductsDataActions.g.js */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+// ESM COMPAT FLAG
+__webpack_require__.r(__webpack_exports__);
+
+// EXPORTS
+__webpack_require__.d(__webpack_exports__, "RefinersByCollectionInput", function() { return /* binding */ get_refiners_for_collection_RefinersByCollectionInput; });
+
+// EXTERNAL MODULE: ./node_modules/@msdyn365-commerce/bootloader/node_modules/core-js/modules/es.promise.js
+var es_promise = __webpack_require__("./node_modules/@msdyn365-commerce/bootloader/node_modules/core-js/modules/es.promise.js");
+
+// EXTERNAL MODULE: ./node_modules/@msdyn365-commerce/bootloader/node_modules/core-js/modules/web.dom-collections.iterator.js
+var web_dom_collections_iterator = __webpack_require__("./node_modules/@msdyn365-commerce/bootloader/node_modules/core-js/modules/web.dom-collections.iterator.js");
+
+// EXTERNAL MODULE: ./node_modules/@msdyn365-commerce/core/dist/lib/index.js
+var lib = __webpack_require__("./node_modules/@msdyn365-commerce/core/dist/lib/index.js");
+
+// EXTERNAL MODULE: ./src/modules/search-result-container/actions/base-collection-action.ts
+var base_collection_action = __webpack_require__("./src/modules/search-result-container/actions/base-collection-action.ts");
+
+// EXTERNAL MODULE: ./node_modules/@msdyn365-commerce/retail-proxy/dist/DataActions/ProductsDataActions.g.js
+var ProductsDataActions_g = __webpack_require__("./node_modules/@msdyn365-commerce/retail-proxy/dist/DataActions/ProductsDataActions.g.js");
+
+// CONCATENATED MODULE: ./src/modules/search-result-container/actions/get-product-refiner-hierarchy.ts
+
+
+/**
+ * Uses Bulk refiner API to get refiners and child refiner values
+ * @param searchCriteria product search criteria
+ * @param maxItems max items
+ * @param ctx action context
+ */
+
+async function getProductRefinerHierarchy(searchCriteria, queryResultSettings, ctx) {
+  return Object(ProductsDataActions_g["getProductSearchRefinersAsync"])({
+    callerContext: ctx,
+    queryResultSettings: queryResultSettings
+  }, searchCriteria).then(productRefiners => {
+    if (!productRefiners) {
+      ctx.trace('[getRefinersByCriteriaAction] returned no refiners');
+      return [];
+    }
+
+    const result = (productRefiners || []).map(productRefiner => productRefiner);
+
+    if (!result.length) {
+      ctx.trace('[getRefinersByCriteriaAction] returned no IProductRefinerHierarchy objects');
+      return [];
+    }
+
+    return result;
+  });
+}
+// CONCATENATED MODULE: ./src/modules/search-result-container/actions/get-refiners-for-collection.ts
+
+
+
+
+
+/**
+ * Refiners-by-Collection Input action
+ */
+
+class get_refiners_for_collection_RefinersByCollectionInput extends base_collection_action["BaseCollectionInput"] {
+  constructor() {
+    super(...arguments);
+
+    this.getCacheObjectType = () => 'ProductRefiner';
+
+    this.dataCacheType = () => {
+      if (this.pageType !== 'Category' || this.refiners && this.refiners.length > 0 || this.queryResultSettings && this.queryResultSettings.Sorting && this.queryResultSettings.Sorting.Columns && this.queryResultSettings.Sorting.Columns.length > 0) {
+        return 'request';
+      } else {
+        return 'application';
+      }
+    };
+  }
+
+}
+/**
+ * Create input method which creates an ActionInput for fetching list page refiners
+ */
+
+const createInput = args => {
+  return Object(base_collection_action["createBaseCollectionInput"])(args, get_refiners_for_collection_RefinersByCollectionInput);
+};
+/**
+ * Action method which fetches refiners for the given list page
+ */
+
+
+async function action(input, ctx) {
+  let searchProductId;
+
+  if (input.pageType === 'Category') {
+    if (input.category) {
+      return getProductRefinerHierarchy({
+        CategoryIds: [input.category],
+        Context: {
+          ChannelId: input.apiSettings.channelId,
+          CatalogId: input.apiSettings.catalogId
+        }
+      }, input.queryResultSettings, ctx);
+    } else {
+      throw new Error('[GetRefinersForCollection]Category Page Detected, but no global categoryId found');
+    }
+  } else {
+    if (input.searchText && ctx.requestContext.query && ctx.requestContext.query.q) {
+      return getProductRefinerHierarchy({
+        SearchCondition: input.searchText,
+        Context: {
+          ChannelId: input.apiSettings.channelId,
+          CatalogId: input.apiSettings.catalogId
+        }
+      }, input.queryResultSettings, ctx);
+    } else {
+      if (input.searchText && ctx.requestContext.query && ctx.requestContext.query.productId) {
+        searchProductId = Number(input.searchText);
+
+        if (Number.isNaN(searchProductId)) {
+          throw new Error('Failed to cast search product id into a number.');
+        } else {
+          return getProductRefinerHierarchy({
+            Context: {
+              ChannelId: input.apiSettings.channelId,
+              CatalogId: input.apiSettings.catalogId
+            },
+            RecommendationListId: 'looks',
+            Ids: [searchProductId || 0]
+          }, input.queryResultSettings, ctx);
+        }
+      } else {
+        throw new Error('[GetFullProductsForCollection]Search Page Detected, but no q= or productId= query parameter found');
+      }
+    }
+  }
+}
+
+/* harmony default export */ var get_refiners_for_collection = __webpack_exports__["default"] = (Object(lib["createObservableDataAction"])({
+  id: '@msdyn365-commerce-modules/search-result-container/get-refiners-for-collection',
+  action: action,
+  input: createInput
+}));
+
+/***/ }),
+
+/***/ "./src/modules/search-result-container/actions/url-utils.ts":
+/*!******************************************************************!*\
+  !*** ./src/modules/search-result-container/actions/url-utils.ts ***!
+  \******************************************************************/
+/*! exports provided: hydrateRefinersFromUrl, compressRefiners, buildListPageUrl, parseQueryParam, getCurrentUrl */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "hydrateRefinersFromUrl", function() { return hydrateRefinersFromUrl; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "compressRefiners", function() { return compressRefiners; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "buildListPageUrl", function() { return buildListPageUrl; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "parseQueryParam", function() { return parseQueryParam; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getCurrentUrl", function() { return getCurrentUrl; });
+/* harmony import */ var core_js_modules_es_regexp_to_string_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! core-js/modules/es.regexp.to-string.js */ "./node_modules/@msdyn365-commerce/bootloader/node_modules/core-js/modules/es.regexp.to-string.js");
+/* harmony import */ var core_js_modules_es_regexp_to_string_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_regexp_to_string_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var core_js_modules_web_dom_collections_for_each_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! core-js/modules/web.dom-collections.for-each.js */ "./node_modules/@msdyn365-commerce/bootloader/node_modules/core-js/modules/web.dom-collections.for-each.js");
+/* harmony import */ var core_js_modules_web_dom_collections_for_each_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_web_dom_collections_for_each_js__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var core_js_modules_web_dom_collections_iterator_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! core-js/modules/web.dom-collections.iterator.js */ "./node_modules/@msdyn365-commerce/bootloader/node_modules/core-js/modules/web.dom-collections.iterator.js");
+/* harmony import */ var core_js_modules_web_dom_collections_iterator_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_web_dom_collections_iterator_js__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var core_js_modules_web_url_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! core-js/modules/web.url.js */ "./node_modules/@msdyn365-commerce/bootloader/node_modules/core-js/modules/web.url.js");
+/* harmony import */ var core_js_modules_web_url_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_web_url_js__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _msdyn365_commerce_core__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @msdyn365-commerce/core */ "./node_modules/@msdyn365-commerce/core/dist/lib/index.js");
+
+
+
+
+
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+/* tslint:disable: no-duplicate-imports */
+
+/**
+ * Refiner Compression:
+ * Refiners contains a non-trivial amount of data that is required to successfully make
+ * a refiner-based API call. To allow for deep-linking of refiners in the URL, refiner data
+ * must be compressed so that URL max length is not exceeded. Refiners will be compressed into
+ * the following array style index-based format:
+ * [DataTypeValue, LeftValueBoundString, RefinerRecordId, RefinerSourceValue, RightValueBoundString, UnitText]
+ */
+
+const compressedRefinerKeys = ['DataTypeValue', 'LeftValueBoundString', 'RefinerRecordId', 'RefinerSourceValue', 'RightValueBoundString', 'UnitText'];
+/**
+ * Hydrates compressed refiner data from URL
+ * @param fullUrl The full URL of the page
+ */
+
+const hydrateRefinersFromUrl = requestContext => {
+  const compressedRefinerArray = parseQueryParam('refiners', requestContext);
+
+  if (!compressedRefinerArray || !compressedRefinerArray.length) {
+    return [];
+  }
+
+  return compressedRefinerArray.map(compressedRefiner => {
+    try {
+      const parsedRefiner = {};
+      compressedRefinerKeys.forEach((refinerKey, index) => {
+        // @ts-ignore: This line is intentionally not typesafe
+        parsedRefiner[refinerKey] = compressedRefiner[index];
+      });
+      return parsedRefiner;
+    } catch (e) {
+      return undefined;
+    }
+  }).filter(Boolean);
+};
+/**
+ * Compressed a list of refiners for use in URLs
+ * @param refiners The uncompressed refiners
+ */
+
+const compressRefiners = refiners => {
+  const compressedRefiners = [];
+  refiners.forEach(refiner => {
+    const compressedRefiner = [];
+    compressedRefinerKeys.forEach(refinerKey => {
+      // @ts-ignore: This line is intentionally not typesafe
+      compressedRefiner.push(refiner[refinerKey]);
+    });
+    compressedRefiners.push(compressedRefiner);
+  });
+  return compressedRefiners;
+};
+/**
+ * Method which creates a URL contiaining serialized active refiners
+ * @param fullUrl The Current URL of the page
+ * @param refiners The refiners which should be added to the URL
+ */
+
+const buildListPageUrl = (fullUrl, refiners, sortingColumns, skipCount) => {
+  // Refiner Change flow
+  if (refiners !== undefined) {
+    if (!refiners.length) {
+      fullUrl.searchParams.delete('refiners');
+    } else {
+      fullUrl.searchParams.set('refiners', JSON.stringify(compressRefiners(refiners)));
+    } // Adding or removing a refiner means we want to always load page 1
+
+
+    fullUrl.searchParams.delete('skip');
+    return fullUrl.href;
+  }
+
+  if (sortingColumns !== undefined) {
+    if (!sortingColumns.length) {
+      fullUrl.searchParams.delete('sorting');
+    } else {
+      fullUrl.searchParams.set('sorting', JSON.stringify(sortingColumns));
+    } // Changing the sort means always load page 1
+
+
+    fullUrl.searchParams.delete('skip');
+    return fullUrl.href;
+  }
+
+  if (skipCount) {
+    fullUrl.searchParams.set('skip', skipCount.toString());
+  }
+
+  return fullUrl.href;
+};
+/**
+ * Parses a query param from the query object of the request context
+ * @param key The query parameter key
+ * @param requestContext The request context
+ */
+
+const parseQueryParam = (key, requestContext) => {
+  if (requestContext.query && requestContext.query[key]) {
+    return JSON.parse(decodeURIComponent(requestContext.query[key]));
+  }
+
+  return null;
+};
+/**
+ * Gets the current URL of the page from the request context
+ * @param requestContext The request context
+ */
+
+const getCurrentUrl = requestContext => {
+  if (_msdyn365_commerce_core__WEBPACK_IMPORTED_MODULE_4__["default"].isBrowser) {
+    return new URL(window.location.href);
+  } else {
+    // NOTE: Typing on requestURL is incorrect
+    if (requestContext.url.requestUrl.href) {
+      return new URL(requestContext.url.requestUrl.href);
+    } else {
+      return new URL(requestContext.url.requestUrl);
+    }
+  }
+};
+
+/***/ }),
+
+/***/ "./src/modules/search-result-container/components/choice-summary.props.ts":
+/*!********************************************************************************!*\
+  !*** ./src/modules/search-result-container/components/choice-summary.props.ts ***!
+  \********************************************************************************/
+/*! no static exports found */
+/*! ModuleConcatenation bailout: Module is not an ECMAScript module */
+/***/ (function(module, exports) {
+
+
+
+/***/ }),
+
+/***/ "./src/modules/search-result-container/components/choice-summary.tsx":
+/*!***************************************************************************!*\
+  !*** ./src/modules/search-result-container/components/choice-summary.tsx ***!
+  \***************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var core_js_modules_es_object_assign_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! core-js/modules/es.object.assign.js */ "./node_modules/@msdyn365-commerce/bootloader/node_modules/core-js/modules/es.object.assign.js");
+/* harmony import */ var core_js_modules_es_object_assign_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_object_assign_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var core_js_modules_es_string_replace_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! core-js/modules/es.string.replace.js */ "./node_modules/@msdyn365-commerce/bootloader/node_modules/core-js/modules/es.string.replace.js");
+/* harmony import */ var core_js_modules_es_string_replace_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_string_replace_js__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var lodash_get__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! lodash/get */ "./node_modules/lodash/get.js");
+/* harmony import */ var lodash_get__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(lodash_get__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _msdyn365_commerce_modules_utilities__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @msdyn365-commerce-modules/utilities */ "./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/index.js");
+/* harmony import */ var _msdyn365_commerce_modules_utilities__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_msdyn365_commerce_modules_utilities__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
+/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(classnames__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var mobx__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! mobx */ "./node_modules/mobx/lib/mobx.module.js");
+/* harmony import */ var mobx_react__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! mobx-react */ "./node_modules/mobx-react/index.module.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var _utilities__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./utilities */ "./src/modules/search-result-container/components/utilities.ts");
+
+
+
+
+/* tslint:disable: no-duplicate-imports */
+
+
+
+
+
+
+
+/**
+ * ChoiceSummary component
+ */
+
+let ChoiceSummary = class ChoiceSummary extends react__WEBPACK_IMPORTED_MODULE_8__["Component"] {
+  constructor(props) {
+    super(props);
+    this.closeButtonGlyph = 'msi-close-btn';
+
+    this._onClick = e => {
+      e.preventDefault();
+      e.stopPropagation();
+      const target = e.currentTarget;
+      const clearAll = target.getAttribute('class').indexOf('choice-summary__clear-all') > -1;
+      const selectedRefiner = clearAll ? undefined : this._getSelectedRefinerChoice(target);
+
+      if (this.props.onChoiceClicked) {
+        this.props.onChoiceClicked({
+          clearAll: clearAll,
+          itemClicked: target,
+          choiceClicked: selectedRefiner,
+          nextItemToFocus: target.nextSibling
+        });
+      }
+    };
+
+    this.payLoad = Object(_msdyn365_commerce_modules_utilities__WEBPACK_IMPORTED_MODULE_4__["getPayloadObject"])('click', this.props.telemetryContent, '');
+  }
+
+  get selectedRefinersMap() {
+    const {
+      selectedChoices
+    } = this.props;
+    return selectedChoices.map(selectedRefiner => {
+      return {
+        key: this._getKeyForRefinerValue(selectedRefiner),
+        value: selectedRefiner
+      };
+    });
+  }
+
+  render() {
+    const {
+      clearAllText,
+      label,
+      classNames,
+      choiceAriaLabel
+    } = this.props;
+    const items = this.selectedRefinersMap;
+    this.payLoad.contentAction.etext = clearAllText;
+    const clearAllAttributes = Object(_msdyn365_commerce_modules_utilities__WEBPACK_IMPORTED_MODULE_4__["getTelemetryAttributes"])(this.props.telemetryContent, this.payLoad);
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8__["createElement"]("div", {
+      className: 'msc-choice-summary'
+    }, items.length > 0 && label && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8__["createElement"]("span", {
+      className: 'msc-choice-summary__label'
+    }, label), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8__["createElement"]("ul", {
+      className: classnames__WEBPACK_IMPORTED_MODULE_5___default()(classNames, 'msc-choice-summary__list', 'list-unstyled')
+    }, items.map((item, index) => {
+      const listItemProps = {
+        'aria-posinset': index,
+        'aria-setsize': items.length
+      };
+      this.payLoad.contentAction.etext = item.key;
+      const attribute = Object(_msdyn365_commerce_modules_utilities__WEBPACK_IMPORTED_MODULE_4__["getTelemetryAttributes"])(this.props.telemetryContent, this.payLoad);
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8__["createElement"]("li", Object.assign({
+        className: 'msc-choice-summary__list-item',
+        key: item.key
+      }, listItemProps), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8__["createElement"]("a", Object.assign({
+        className: 'msc-choice-summary__item',
+        href: this.props.urlBuilder(item.value, false),
+        "aria-label": "".concat(item.key, " ").concat(choiceAriaLabel),
+        onClick: this._onClick
+      }, attribute), item.key, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8__["createElement"]("span", {
+        className: "".concat(this.closeButtonGlyph, " msc-choice-summary__glyph")
+      })));
+    })), items.length > 0 && clearAllText && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8__["createElement"]("a", Object.assign({
+      href: this.props.urlBuilder({}, true),
+      className: 'msc-choice-summary__clear-all'
+    }, clearAllAttributes, {
+      onClick: this._onClick
+    }), clearAllText));
+  }
+
+  _getKeyForRefinerValue(productRefinerValue) {
+    const {
+      choiceFormat,
+      choiceRangeValueFormat,
+      refinerHierarchy,
+      telemetry
+    } = this.props;
+    const overallFormat = choiceFormat || '{1}';
+    const rangeFormat = choiceRangeValueFormat;
+    let refinerName = '';
+
+    if (refinerHierarchy && refinerHierarchy.find) {
+      const parent = refinerHierarchy.find(hierarchy => !!hierarchy.Values.find(value => Object(_utilities__WEBPACK_IMPORTED_MODULE_9__["isMatchingRefinementCriterion"])(value, productRefinerValue)));
+
+      if (!parent) {
+        telemetry.warning('[choice-summary] could not find parent of selected refiner value');
+      } else {
+        refinerName = parent.KeyName || '';
+      }
+    }
+
+    let refinerValueName;
+
+    switch (productRefinerValue.DataTypeValue) {
+      case _utilities__WEBPACK_IMPORTED_MODULE_9__["ProductRefinerValueDataTypeValue"].Range:
+      case _utilities__WEBPACK_IMPORTED_MODULE_9__["ProductRefinerValueDataTypeValue"].RangeInput:
+        refinerValueName = rangeFormat.replace('{0}', this._formatPrice(productRefinerValue.LeftValueBoundString, productRefinerValue.UnitText)).replace('{1}', this._formatPrice(productRefinerValue.RightValueBoundString, productRefinerValue.UnitText));
+        break;
+
+      default:
+        refinerValueName = productRefinerValue.LeftValueBoundLocalizedString || productRefinerValue.LeftValueBoundString || '';
+    }
+
+    return overallFormat.replace('{0}', refinerName).replace('{1}', refinerValueName);
+  }
+
+  _formatPrice(amount, currency) {
+    if (!amount || !currency) {
+      this.props.telemetry.trace('[choice-summary] could not format price');
+      return amount || '';
+    }
+
+    const priceAmount = amount && Number(amount) || 0;
+
+    const locale = lodash_get__WEBPACK_IMPORTED_MODULE_2___default()(this.props, 'context.request.locale', 'en-US');
+
+    let result;
+
+    try {
+      result = new Intl.NumberFormat(locale, {
+        style: 'currency',
+        currencyDisplay: 'symbol',
+        currency: currency,
+        minimumFractionDigits: 0
+      }).format(priceAmount);
+    } catch (e) {
+      result = "".concat(priceAmount, " ").concat(currency);
+      this.props.telemetry.warning("Failed to format price for ".concat(result, ": ").concat(e));
+    }
+
+    return result;
+  }
+
+  _getSelectedRefinerChoice(itemClicked) {
+    const result = this.selectedRefinersMap.find(selected => (itemClicked.innerText && itemClicked.innerText.trim()) === selected.key);
+    return result && result.value || undefined;
+  }
+
+};
+
+Object(tslib__WEBPACK_IMPORTED_MODULE_3__["__decorate"])([mobx__WEBPACK_IMPORTED_MODULE_6__["computed"]], ChoiceSummary.prototype, "selectedRefinersMap", null);
+
+ChoiceSummary = Object(tslib__WEBPACK_IMPORTED_MODULE_3__["__decorate"])([mobx_react__WEBPACK_IMPORTED_MODULE_7__["observer"]], ChoiceSummary);
+/* harmony default export */ __webpack_exports__["default"] = (ChoiceSummary);
+
+/***/ }),
+
+/***/ "./src/modules/search-result-container/components/error-message.tsx":
+/*!**************************************************************************!*\
+  !*** ./src/modules/search-result-container/components/error-message.tsx ***!
+  \**************************************************************************/
+/*! exports provided: ErrorMessage */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ErrorMessage", function() { return ErrorMessage; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* tslint:disable: no-duplicate-imports */
+
+const ErrorMessage = (_ref) => {
+  let {
+    text
+  } = _ref;
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("span", {
+    className: 'ms-search-result-container__no-results-message'
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("h5", {
+    className: 'error-text'
+  }, " ", text, " "));
+};
+
+/***/ }),
+
+/***/ "./src/modules/search-result-container/components/feature-search-result-item.tsx":
+/*!***************************************************************************************!*\
+  !*** ./src/modules/search-result-container/components/feature-search-result-item.tsx ***!
+  \***************************************************************************************/
+/*! exports provided: FeatureSearchResultItem */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FeatureSearchResultItem", function() { return FeatureSearchResultItem; });
+/* harmony import */ var core_js_modules_es_object_assign_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! core-js/modules/es.object.assign.js */ "./node_modules/@msdyn365-commerce/bootloader/node_modules/core-js/modules/es.object.assign.js");
+/* harmony import */ var core_js_modules_es_object_assign_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_object_assign_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var core_js_modules_es_regexp_to_string_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! core-js/modules/es.regexp.to-string.js */ "./node_modules/@msdyn365-commerce/bootloader/node_modules/core-js/modules/es.regexp.to-string.js");
+/* harmony import */ var core_js_modules_es_regexp_to_string_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_regexp_to_string_js__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _msdyn365_commerce_modules_retail_actions__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @msdyn365-commerce-modules/retail-actions */ "./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/index.js");
+/* harmony import */ var _msdyn365_commerce_modules_utilities__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @msdyn365-commerce-modules/utilities */ "./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/index.js");
+/* harmony import */ var _msdyn365_commerce_modules_utilities__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_msdyn365_commerce_modules_utilities__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _msdyn365_commerce_core__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @msdyn365-commerce/core */ "./node_modules/@msdyn365-commerce/core/dist/lib/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
+
+
+
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+/* tslint:disable: no-duplicate-imports */
+
+
+
+
+const FeatureSearchResultItem = (_ref) => {
+  let {
+    product,
+    context,
+    imageSettings,
+    resources,
+    telemetryContent
+  } = _ref;
+
+  if (product === null) {
+    return null;
+  }
+
+  const productName = product.Name;
+  const productRecordId = product && product.RecordId ? product.RecordId : 0;
+  const productUrl = Object(_msdyn365_commerce_modules_retail_actions__WEBPACK_IMPORTED_MODULE_2__["getProductPageUrlSync"])(product.Name || '', productRecordId, context && context.actionContext, undefined);
+  const fallbackImage = Object(_msdyn365_commerce_modules_retail_actions__WEBPACK_IMPORTED_MODULE_2__["getFallbackImageUrl"])(product.ItemId, context.actionContext.requestContext.apiSettings); // Construct telemetry attribute to render
+
+  const payLoad = Object(_msdyn365_commerce_modules_utilities__WEBPACK_IMPORTED_MODULE_3__["getPayloadObject"])('click', telemetryContent, productName, productRecordId.toString());
+  const attribute = Object(_msdyn365_commerce_modules_utilities__WEBPACK_IMPORTED_MODULE_3__["getTelemetryAttributes"])(telemetryContent, payLoad);
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__["createElement"]("div", {
+    className: 'ms-feature-search-result__item'
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__["createElement"]("a", Object.assign({
+    href: productUrl,
+    onClick: Object(_msdyn365_commerce_modules_utilities__WEBPACK_IMPORTED_MODULE_3__["onTelemetryClick"])(telemetryContent, payLoad, product.Name)
+  }, attribute, {
+    "aria-label": product.Name
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__["createElement"]("div", {
+    className: 'msc-feature-search-result__item__image'
+  }, renderProductPlacementImage(imageSettings, context.request.gridSettings, product.PrimaryImageUrl, product.Name, fallbackImage))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__["createElement"]("div", {
+    className: 'msc-feature-search-result__item__detail'
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__["createElement"]("p", {
+    className: 'msc-feature-search-result__item__heading'
+  }, resources.featureSimilarLooksTitle), renderProductTitle(product === null || product === void 0 ? void 0 : product.Name)));
+};
+
+function renderProductPlacementImage(imageSettings, gridSettings, imageUrl, altText, fallbackImage) {
+  if (!imageUrl || !gridSettings || !imageSettings) {
+    return null;
+  }
+
+  const img = {
+    src: imageUrl,
+    altText: altText ? altText : ''
+  };
+  const imageProps = {
+    gridSettings: gridSettings,
+    imageSettings: imageSettings,
+    fallBackSrc: fallbackImage
+  };
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__["createElement"](_msdyn365_commerce_core__WEBPACK_IMPORTED_MODULE_4__["Image"], Object.assign({}, img, imageProps, {
+    loadFailureBehavior: 'empty'
+  }));
+}
+
+function renderProductTitle(title) {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__["createElement"]("h1", {
+    className: 'msc-feature-search-result__item__product-title'
+  }, title);
+}
+
+/***/ }),
+
+/***/ "./src/modules/search-result-container/components/index.ts":
+/*!*****************************************************************!*\
+  !*** ./src/modules/search-result-container/components/index.ts ***!
+  \*****************************************************************/
+/*! no static exports found */
+/*! ModuleConcatenation bailout: Module exports are unknown */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _link__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./link */ "./src/modules/search-result-container/components/link.tsx");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Link", function() { return _link__WEBPACK_IMPORTED_MODULE_0__["Link"]; });
+
+/* harmony import */ var _product_search_result_items__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./product-search-result-items */ "./src/modules/search-result-container/components/product-search-result-items.tsx");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ProductSearchResultItems", function() { return _product_search_result_items__WEBPACK_IMPORTED_MODULE_1__["ProductSearchResultItems"]; });
+
+/* harmony import */ var _feature_search_result_item__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./feature-search-result-item */ "./src/modules/search-result-container/components/feature-search-result-item.tsx");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "FeatureSearchResultItem", function() { return _feature_search_result_item__WEBPACK_IMPORTED_MODULE_2__["FeatureSearchResultItem"]; });
+
+/* harmony import */ var _title__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./title */ "./src/modules/search-result-container/components/title.tsx");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Title", function() { return _title__WEBPACK_IMPORTED_MODULE_3__["Title"]; });
+
+/* harmony import */ var _separator__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./separator */ "./src/modules/search-result-container/components/separator.tsx");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Separator", function() { return _separator__WEBPACK_IMPORTED_MODULE_4__["Separator"]; });
+
+/* harmony import */ var _range_refine_item__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./range-refine-item */ "./src/modules/search-result-container/components/range-refine-item.tsx");
+/* empty/unused harmony star reexport *//* harmony import */ var _refine_item__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./refine-item */ "./src/modules/search-result-container/components/refine-item.tsx");
+/* empty/unused harmony star reexport *//* harmony import */ var _refine_item_toggle_notification__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./refine-item-toggle-notification */ "./src/modules/search-result-container/components/refine-item-toggle-notification.ts");
+/* harmony import */ var _refine_item_toggle_notification__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_refine_item_toggle_notification__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _refine_item_toggle_notification__WEBPACK_IMPORTED_MODULE_7__) if(["default","Link","ProductSearchResultItems","FeatureSearchResultItem","Title","Separator"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _refine_item_toggle_notification__WEBPACK_IMPORTED_MODULE_7__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+/* harmony import */ var _refine_item_props_common__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./refine-item.props.common */ "./src/modules/search-result-container/components/refine-item.props.common.ts");
+/* harmony import */ var _refine_item_props_common__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_refine_item_props_common__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _refine_item_props_common__WEBPACK_IMPORTED_MODULE_8__) if(["default","Link","ProductSearchResultItems","FeatureSearchResultItem","Title","Separator"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _refine_item_props_common__WEBPACK_IMPORTED_MODULE_8__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+/* harmony import */ var _utilities__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./utilities */ "./src/modules/search-result-container/components/utilities.ts");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ProductRefinerValueDataTypeValue", function() { return _utilities__WEBPACK_IMPORTED_MODULE_9__["ProductRefinerValueDataTypeValue"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ProductRefinerTypeValue", function() { return _utilities__WEBPACK_IMPORTED_MODULE_9__["ProductRefinerTypeValue"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ProductRefinerSource", function() { return _utilities__WEBPACK_IMPORTED_MODULE_9__["ProductRefinerSource"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "findMatchingRefinementCriterion", function() { return _utilities__WEBPACK_IMPORTED_MODULE_9__["findMatchingRefinementCriterion"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "isMatchingRefinementCriterion", function() { return _utilities__WEBPACK_IMPORTED_MODULE_9__["isMatchingRefinementCriterion"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "getUpdatedRefinementCriteria", function() { return _utilities__WEBPACK_IMPORTED_MODULE_9__["getUpdatedRefinementCriteria"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "formatPrice", function() { return _utilities__WEBPACK_IMPORTED_MODULE_9__["formatPrice"]; });
+
+/* harmony import */ var _choice_summary__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./choice-summary */ "./src/modules/search-result-container/components/choice-summary.tsx");
+/* empty/unused harmony star reexport *//* harmony import */ var _choice_summary_props__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./choice-summary.props */ "./src/modules/search-result-container/components/choice-summary.props.ts");
+/* harmony import */ var _choice_summary_props__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(_choice_summary_props__WEBPACK_IMPORTED_MODULE_11__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _choice_summary_props__WEBPACK_IMPORTED_MODULE_11__) if(["default","Link","ProductSearchResultItems","FeatureSearchResultItem","Title","Separator","ProductRefinerValueDataTypeValue","ProductRefinerTypeValue","ProductRefinerSource","findMatchingRefinementCriterion","isMatchingRefinementCriterion","getUpdatedRefinementCriteria","formatPrice"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _choice_summary_props__WEBPACK_IMPORTED_MODULE_11__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+/* harmony import */ var _modal__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./modal */ "./src/modules/search-result-container/components/modal.tsx");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ModalToggle", function() { return _modal__WEBPACK_IMPORTED_MODULE_12__["ModalToggle"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "SearchResultModal", function() { return _modal__WEBPACK_IMPORTED_MODULE_12__["SearchResultModal"]; });
+
+/* harmony import */ var _refine_submenu__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./refine-submenu */ "./src/modules/search-result-container/components/refine-submenu.tsx");
+/* empty/unused harmony star reexport *//* harmony import */ var _error_message__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./error-message */ "./src/modules/search-result-container/components/error-message.tsx");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ErrorMessage", function() { return _error_message__WEBPACK_IMPORTED_MODULE_14__["ErrorMessage"]; });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***/ }),
+
+/***/ "./src/modules/search-result-container/components/link.tsx":
+/*!*****************************************************************!*\
+  !*** ./src/modules/search-result-container/components/link.tsx ***!
+  \*****************************************************************/
+/*! exports provided: Link */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Link", function() { return Link; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* tslint:disable: no-duplicate-imports */
+
+const Link = (_ref) => {
+  let {
+    text,
+    className,
+    href,
+    ariaLabel
+  } = _ref;
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
+    className: className,
+    href: href,
+    "aria-label": ariaLabel
+  }, " ", text, " ");
+};
+
+/***/ }),
+
+/***/ "./src/modules/search-result-container/components/modal.tsx":
+/*!******************************************************************!*\
+  !*** ./src/modules/search-result-container/components/modal.tsx ***!
+  \******************************************************************/
+/*! exports provided: ModalToggle, SearchResultModal */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ModalToggle", function() { return ModalToggle; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SearchResultModal", function() { return SearchResultModal; });
+/* harmony import */ var _msdyn365_commerce_modules_utilities__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @msdyn365-commerce-modules/utilities */ "./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/index.js");
+/* harmony import */ var _msdyn365_commerce_modules_utilities__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_msdyn365_commerce_modules_utilities__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+
+/* tslint:disable: no-duplicate-imports */
+
+
+const ModalToggle = props => {
+  const {
+    text,
+    onClick,
+    ariaLabel,
+    innerRef,
+    id
+  } = props;
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
+    id: id,
+    className: 'msc-button',
+    "aria-label": ariaLabel,
+    onClick: onClick,
+    ref: innerRef
+  }, text);
+};
+const SearchResultModal = props => {
+  return {
+    modal: modalNode(props),
+    modalHeader: modalHeaderNode(props),
+    modalFooter: modalFooterNode(props),
+    modalBody: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_msdyn365_commerce_modules_utilities__WEBPACK_IMPORTED_MODULE_0__["ModalBody"], {
+      className: 'msc-review-modal-body'
+    })
+  };
+};
+
+const modalNode = props => {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_msdyn365_commerce_modules_utilities__WEBPACK_IMPORTED_MODULE_0__["Modal"], {
+    autoFocus: true,
+    applicationNode: 'renderPage',
+    returnFocusRef: props.returnRef,
+    isOpen: props.isOpen,
+    toggle: props.onModalToggle,
+    className: 'msc-search-result-modal',
+    zIndex: 1050
+  });
+};
+
+const modalHeaderNode = props => {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_msdyn365_commerce_modules_utilities__WEBPACK_IMPORTED_MODULE_0__["ModalHeader"], {
+    toggle: props.onModalToggle
+  }, props.resources.modalTitle);
+};
+
+const modalFooterNode = props => {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_msdyn365_commerce_modules_utilities__WEBPACK_IMPORTED_MODULE_0__["ModalFooter"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_msdyn365_commerce_modules_utilities__WEBPACK_IMPORTED_MODULE_0__["Button"], {
+    onClick: props.onModalToggle,
+    className: 'ms-sort-and-filter-modal-close'
+  }, props.resources.modalCloseButtonText));
+};
+
+/***/ }),
+
+/***/ "./src/modules/search-result-container/components/product-search-result-items.tsx":
+/*!****************************************************************************************!*\
+  !*** ./src/modules/search-result-container/components/product-search-result-items.tsx ***!
+  \****************************************************************************************/
+/*! exports provided: ProductSearchResultItems */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ProductSearchResultItems", function() { return ProductSearchResultItems; });
+/* harmony import */ var _msdyn365_commerce_components__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @msdyn365-commerce/components */ "./node_modules/@msdyn365-commerce/components/dist/lib/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+
+
+const ProductSearchResultItems = (_ref) => {
+  let {
+    products,
+    context,
+    imageSettings,
+    resources,
+    moduleType,
+    moduleId,
+    allowBackNavigation,
+    telemetryContent
+  } = _ref;
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__["createElement"]("ul", {
+    className: 'list-unstyled'
+  }, products.map((product, index) => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__["createElement"]("li", {
+    className: 'ms-product-search-result__item',
+    key: index
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__["createElement"](_msdyn365_commerce_components__WEBPACK_IMPORTED_MODULE_0__["ProductComponent"], {
+    context: context,
+    telemetryContent: telemetryContent,
+    imageSettings: imageSettings,
+    freePriceText: resources.priceFree,
+    originalPriceText: resources.originalPriceText,
+    currentPriceText: resources.currentPriceText,
+    ratingAriaLabel: resources.ratingAriaLabel,
+    allowBack: allowBackNavigation,
+    id: moduleId,
+    typeName: moduleType,
+    data: {
+      product: product
+    }
+  }))));
+};
+
+/***/ }),
+
+/***/ "./src/modules/search-result-container/components/range-refine-item.tsx":
+/*!******************************************************************************!*\
+  !*** ./src/modules/search-result-container/components/range-refine-item.tsx ***!
+  \******************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var core_js_modules_es_object_assign_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! core-js/modules/es.object.assign.js */ "./node_modules/@msdyn365-commerce/bootloader/node_modules/core-js/modules/es.object.assign.js");
+/* harmony import */ var core_js_modules_es_object_assign_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_object_assign_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var core_js_modules_es_string_replace_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! core-js/modules/es.string.replace.js */ "./node_modules/@msdyn365-commerce/bootloader/node_modules/core-js/modules/es.string.replace.js");
+/* harmony import */ var core_js_modules_es_string_replace_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_string_replace_js__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var core_js_modules_web_dom_collections_iterator_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! core-js/modules/web.dom-collections.iterator.js */ "./node_modules/@msdyn365-commerce/bootloader/node_modules/core-js/modules/web.dom-collections.iterator.js");
+/* harmony import */ var core_js_modules_web_dom_collections_iterator_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_web_dom_collections_iterator_js__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _msdyn365_commerce_modules_utilities__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @msdyn365-commerce-modules/utilities */ "./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/index.js");
+/* harmony import */ var _msdyn365_commerce_modules_utilities__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_msdyn365_commerce_modules_utilities__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var lodash_debounce__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! lodash/debounce */ "./node_modules/lodash/debounce.js");
+/* harmony import */ var lodash_debounce__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(lodash_debounce__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var mobx__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! mobx */ "./node_modules/mobx/lib/mobx.module.js");
+/* harmony import */ var mobx_react__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! mobx-react */ "./node_modules/mobx-react/index.module.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var _utilities__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./utilities */ "./src/modules/search-result-container/components/utilities.ts");
+
+
+
+
+/* tslint:disable: no-duplicate-imports */
+
+
+
+
+
+
+
+/**
+ * RangeRefineItem component (controlled by RefineSubmenu)
+ */
+
+let RangeRefineItem = class RangeRefineItem extends react__WEBPACK_IMPORTED_MODULE_8__["Component"] {
+  constructor(props) {
+    super(props);
+    this._formattedPriceReverseLookup = new Map();
+    this._onRangeUpdate = this._onRangeUpdate.bind(this);
+    this._onRangeUpdateEnd = this._onRangeUpdateEnd.bind(this);
+    this._handleRangeTooltipText = this._handleRangeTooltipText.bind(this);
+    this._changeMin = this._changeMin.bind(this);
+    this._changeMax = this._changeMax.bind(this);
+    this._finishChangeMin = this._finishChangeMin.bind(this);
+    this._finishChangeMax = this._finishChangeMax.bind(this);
+    this.minInput = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8__["createRef"]();
+    this.maxInput = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8__["createRef"]();
+    const {
+      selectedRefinementCriterion
+    } = this.props;
+    const initialMin = selectedRefinementCriterion && selectedRefinementCriterion.LeftValueBoundString || '0';
+    const initialMax = selectedRefinementCriterion && selectedRefinementCriterion.RightValueBoundString || undefined;
+    this.state = {
+      isChecked: false,
+      validationErrorMin: undefined,
+      validationErrorMax: undefined,
+      selectedMin: initialMin,
+      selectedMax: initialMax,
+      touchedMin: false,
+      touchedMax: false
+    };
+  }
+
+  get currencyCode() {
+    return this.props.productRefinerValue.UnitText || '';
+  }
+
+  render() {
+    const {
+      productRefinerValue,
+      parentProductRefinerHierarchy,
+      refineItemCommonProps
+    } = this.props;
+
+    if (!productRefinerValue || !parentProductRefinerHierarchy) {
+      refineItemCommonProps.telemetry.error('Cannot render refine value range without productRefinerValue and parentProductRefinerHierarchy');
+      return undefined;
+    }
+
+    if (this.props.rangeType === 'input') {
+      return this._renderInputFields();
+    }
+
+    return this._renderSlider();
+  }
+
+  _renderInputFields() {
+    const {
+      isDisabled,
+      parentProductRefinerHierarchy,
+      refineItemCommonProps
+    } = this.props;
+    const {
+      selectedMin,
+      selectedMax,
+      touchedMin,
+      touchedMax,
+      validationErrorMin,
+      validationErrorMax
+    } = this.state;
+    const rangeAriaLabel = (refineItemCommonProps.rangeNameFormat || '{0}').replace('{0}', parentProductRefinerHierarchy.KeyName || '');
+    const formAttrs = {
+      'aria-label': rangeAriaLabel,
+      'aria-disabled': isDisabled
+    }; // To enable price formatting of selected fields, this is the approach:
+    // initial value: min=0 formatted as price, max=undefined
+    // onFocus/onChange: convert to number (unformat) and mark as touched to indicate value is being edited
+    // onBlur: validate and format entered value as price
+
+    const minInputClassName = "ms-refine-submenu__input-range refine-submenu__input-range-min ".concat(validationErrorMin ? 'refine-submenu__input-range--error' : '');
+    const maxInputClassName = "ms-refine-submenu__input-range refine-submenu__input-range-max ".concat(validationErrorMax ? 'refine-submenu__input-range--error' : '');
+    const minLabelClassName = 'ms-refine-submenu__input-range-label refine-submenu__input-range-label-min';
+    const maxLabelClassName = 'ms-refine-submenu__input-range-label refine-submenu__input-range-label-max';
+
+    const formattedSelectedMin = this._getFormattedSelectedValue(selectedMin, touchedMin, validationErrorMin);
+
+    const formattedSelectedMax = this._getFormattedSelectedValue(selectedMax, touchedMax, validationErrorMax);
+
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8__["createElement"]("form", Object.assign({
+      className: 'ms-refine-submenu__input-range-refiner'
+    }, formAttrs), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8__["createElement"]("label", {
+      className: minLabelClassName
+    }, refineItemCommonProps.minLabel, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8__["createElement"]("input", {
+      className: minInputClassName,
+      onChange: this._changeMin,
+      onFocus: this._changeMin,
+      onBlur: this._finishChangeMin,
+      value: formattedSelectedMin,
+      ref: this.minInput
+    })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8__["createElement"]("label", {
+      className: maxLabelClassName
+    }, refineItemCommonProps.maxLabel, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8__["createElement"]("input", {
+      className: maxInputClassName,
+      placeholder: formattedSelectedMax ? undefined : refineItemCommonProps.placeholderTextMax,
+      onChange: this._changeMax,
+      onFocus: this._changeMax,
+      onBlur: this._finishChangeMax,
+      value: formattedSelectedMax,
+      ref: this.maxInput
+    })), validationErrorMin && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8__["createElement"]("span", {
+      className: 'ms-refine-submenu__input-range-error-text refine-submenu__input-range-min-error-text'
+    }, validationErrorMin), validationErrorMax && validationErrorMin !== validationErrorMax && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8__["createElement"]("span", {
+      className: 'ms-refine-submenu__input-range-error-text refine-submenu__input-range-max-error-text'
+    }, validationErrorMax));
+  }
+
+  _renderSlider() {
+    const {
+      isDisabled,
+      productRefinerValue,
+      parentProductRefinerHierarchy,
+      selectedRefinementCriterion
+    } = this.props;
+    const min = productRefinerValue.LeftValueBoundString;
+    const max = productRefinerValue.RightValueBoundString;
+    const selectedMin = selectedRefinementCriterion && selectedRefinementCriterion.LeftValueBoundString || productRefinerValue.LeftValueBoundString || '0';
+    const selectedMax = selectedRefinementCriterion && selectedRefinementCriterion.RightValueBoundString || productRefinerValue.RightValueBoundString || max;
+    const sliderId = "slider_".concat(parentProductRefinerHierarchy.RecordId, "_").concat(productRefinerValue.RefinerRecordId);
+    const ariaAttributes = {
+      'aria-disabled': isDisabled
+    };
+
+    const minPrice = this._formatPrice(min);
+
+    const maxPrice = this._formatPrice(max);
+
+    const selectedMinPrice = this._formatPrice(selectedMin);
+
+    const selectedMaxPrice = this._formatPrice(selectedMax);
+
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8__["createElement"](_msdyn365_commerce_modules_utilities__WEBPACK_IMPORTED_MODULE_4__["Slider"], Object.assign({
+      className: 'ms-refine-submenu__range-refiner',
+      key: sliderId,
+      id: sliderId,
+      inForm: false,
+      min: min && Number(min) || undefined,
+      max: max && Number(max) || undefined,
+      step: 1,
+      orientation: 'horizontal',
+      labels: [{
+        labelId: "".concat(sliderId, "_start"),
+        labelString: "".concat(minPrice),
+        labelPositioning: 'start'
+      }, {
+        labelId: "".concat(sliderId, "_end"),
+        labelString: "".concat(maxPrice),
+        labelPositioning: 'end'
+      }],
+      showLabels: true,
+      showTooltip: true,
+      sliderThumbs: [{
+        id: "".concat(sliderId, "_slider_thumb_start"),
+        value: selectedMin && Number(selectedMin) || 0,
+        ariaLabel: "".concat(this.props.minValueSliderThumbAriaLabel, " ").concat(this.currencyCode),
+        ariaValueText: "".concat(selectedMinPrice)
+      }, {
+        id: "".concat(sliderId, "_slider_thumb_end"),
+        value: Number(selectedMax) || Number(maxPrice),
+        ariaLabel: "".concat(this.props.maxValueSliderThumbAriaLabel, " ").concat(this.currencyCode),
+        ariaValueText: "".concat(selectedMaxPrice)
+      }],
+      onChangeEnd: this._onRangeUpdateEnd,
+      onChange: lodash_debounce__WEBPACK_IMPORTED_MODULE_5___default()(this._onRangeUpdate, 500),
+      handleTooltipText: this._handleRangeTooltipText
+    }, ariaAttributes));
+  }
+
+  _changeMin(event) {
+    this._changeValue(event, 'Min');
+  }
+
+  _changeMax(event) {
+    this._changeValue(event, 'Max');
+  }
+
+  _changeValue(event, inputType) {
+    const selectedKey = "selected".concat(inputType);
+    const touchedKey = "touched".concat(inputType);
+    this.setState({
+      [selectedKey]: this._getInputWithoutFormatting(event.currentTarget.value),
+      [touchedKey]: true
+    });
+  }
+
+  _finishChangeMin(event) {
+    const selectedMinValue = this._getInputWithoutFormatting(event.currentTarget.value);
+
+    this.setState({
+      selectedMin: selectedMinValue,
+      minTouched: false
+    });
+    const minInput = Number(selectedMinValue);
+    const {
+      onToggle,
+      parentProductRefinerHierarchy,
+      productRefinerValue,
+      refineItemCommonProps,
+      selectedRefinementCriterion
+    } = this.props;
+    const max = selectedRefinementCriterion && selectedRefinementCriterion.RightValueBoundString || undefined;
+    const maxNum = max ? Number(max) : undefined;
+
+    if (isNaN(minInput)) {
+      this.setState({
+        validationErrorMin: refineItemCommonProps.validationErrorNaN
+      });
+
+      this._focus('Min');
+
+      return false;
+    }
+
+    if (this._validateRange(minInput, maxNum)) {
+      onToggle({
+        parentProductRefinerHierarchy: parentProductRefinerHierarchy,
+        productRefinerValue: productRefinerValue,
+        isSelecting: true,
+        rangeStart: minInput,
+        rangeEnd: maxNum
+      });
+      return true;
+    } else {
+      this._focus('Min');
+    }
+
+    return false;
+  }
+
+  _finishChangeMax(event) {
+    const selectedMaxValue = this._getInputWithoutFormatting(event.currentTarget.value);
+
+    this.setState({
+      selectedMax: selectedMaxValue,
+      maxTouched: false
+    });
+    const maxInput = Number(selectedMaxValue);
+    const {
+      onToggle,
+      parentProductRefinerHierarchy,
+      productRefinerValue,
+      refineItemCommonProps,
+      selectedRefinementCriterion
+    } = this.props;
+    const min = selectedRefinementCriterion && selectedRefinementCriterion.LeftValueBoundString || '0';
+    const minNum = Number(min);
+
+    if (isNaN(maxInput)) {
+      this.setState({
+        validationErrorMax: refineItemCommonProps.validationErrorNaN
+      });
+
+      this._focus('Max');
+
+      return false;
+    }
+
+    if (this._validateRange(minNum, maxInput)) {
+      if (productRefinerValue) {
+        onToggle({
+          parentProductRefinerHierarchy: parentProductRefinerHierarchy,
+          productRefinerValue: productRefinerValue,
+          isSelecting: true,
+          rangeStart: minNum,
+          rangeEnd: maxInput
+        });
+      } else {
+        this._focus('Max');
+      }
+
+      return true;
+    }
+
+    return false;
+  }
+
+  _focus(inputType) {
+    const ref = inputType === 'Max' ? this.maxInput : this.minInput;
+    setTimeout(() => {
+      if (ref && ref.current) {
+        ref.current.focus();
+      }
+    }, 50);
+  }
+
+  _getFormattedSelectedValue(selected, touched, validationError) {
+    if (touched || validationError || selected === undefined) {
+      return selected;
+    }
+
+    return this._formatPrice(selected);
+  }
+
+  _validateRange(min, max) {
+    const {
+      refineItemCommonProps
+    } = this.props;
+
+    if (max === undefined) {
+      return true;
+    }
+
+    if (min > max) {
+      this.setState({
+        validationErrorMin: refineItemCommonProps.validationErrorRange,
+        validationErrorMax: refineItemCommonProps.validationErrorRange
+      });
+      return false;
+    }
+
+    return true;
+  }
+
+  _formatPrice(amount) {
+    const locale = this.props.refineItemCommonProps.locale;
+    const result = Object(_utilities__WEBPACK_IMPORTED_MODULE_9__["formatPrice"])(amount, this.currencyCode, locale, this.props.refineItemCommonProps.telemetry);
+
+    if (amount !== undefined && !this._formattedPriceReverseLookup.has(result)) {
+      this._formattedPriceReverseLookup.set(result, amount);
+    }
+
+    return result;
+  }
+
+  _getInputWithoutFormatting(input) {
+    // First try to cast raw input to a number
+    const inputAsNum = Number(input);
+
+    if (!isNaN(inputAsNum)) {
+      return input;
+    } // Otherwise try a reverse lookup and fall back to the raw input if all else fails
+
+
+    const reverseLookupResult = this._formattedPriceReverseLookup.get(input);
+
+    return reverseLookupResult || input;
+  } // NOTE: Fix types once Shared Components build pipeline bug fixed
+  // tslint:disable-next-line:no-any
+
+
+  _onRangeUpdate(sliderChangeNotification) {
+    // Need to filter out mousemove events as these cause errors after the menu updates and slider re-renders
+    if (sliderChangeNotification.eventType !== 'mousemove') {
+      const {
+        onToggle,
+        parentProductRefinerHierarchy,
+        productRefinerValue
+      } = this.props;
+
+      if (productRefinerValue && sliderChangeNotification) {
+        onToggle({
+          parentProductRefinerHierarchy: parentProductRefinerHierarchy,
+          productRefinerValue: productRefinerValue,
+          isSelecting: true,
+          rangeStart: sliderChangeNotification.firstThumbValue,
+          rangeEnd: sliderChangeNotification.secondThumbValue
+        });
+
+        this._focusOnSliderThumb(sliderChangeNotification);
+      }
+    }
+  } // tslint:disable-next-line
+
+
+  _onRangeUpdateEnd(sliderChangeNotification) {
+    const {
+      onToggle,
+      parentProductRefinerHierarchy,
+      productRefinerValue
+    } = this.props;
+
+    if (productRefinerValue && sliderChangeNotification) {
+      onToggle({
+        parentProductRefinerHierarchy: parentProductRefinerHierarchy,
+        productRefinerValue: productRefinerValue,
+        isSelecting: true,
+        rangeStart: sliderChangeNotification.firstThumbValue,
+        rangeEnd: sliderChangeNotification.secondThumbValue
+      });
+
+      this._focusOnSliderThumb(sliderChangeNotification);
+    }
+  } // tslint:disable-next-line
+
+
+  _focusOnSliderThumb(sliderChangeNotification) {
+    if (sliderChangeNotification.id) {
+      const element = document.getElementById("".concat(sliderChangeNotification.id, "range"));
+
+      if (!!element) {
+        setTimeout(() => {
+          element.focus();
+        }, 0);
+      }
+    }
+  }
+
+  _handleRangeTooltipText(tooltip) {
+    return this._formatPrice("".concat(tooltip));
+  }
+
+};
+
+Object(tslib__WEBPACK_IMPORTED_MODULE_3__["__decorate"])([mobx__WEBPACK_IMPORTED_MODULE_6__["computed"]], RangeRefineItem.prototype, "currencyCode", null);
+
+RangeRefineItem = Object(tslib__WEBPACK_IMPORTED_MODULE_3__["__decorate"])([mobx_react__WEBPACK_IMPORTED_MODULE_7__["observer"]], RangeRefineItem);
+/* harmony default export */ __webpack_exports__["default"] = (RangeRefineItem);
+
+/***/ }),
+
+/***/ "./src/modules/search-result-container/components/refine-item-toggle-notification.ts":
+/*!*******************************************************************************************!*\
+  !*** ./src/modules/search-result-container/components/refine-item-toggle-notification.ts ***!
+  \*******************************************************************************************/
+/*! no static exports found */
+/*! ModuleConcatenation bailout: Module is not an ECMAScript module */
+/***/ (function(module, exports) {
+
+
+
+/***/ }),
+
+/***/ "./src/modules/search-result-container/components/refine-item.props.common.ts":
+/*!************************************************************************************!*\
+  !*** ./src/modules/search-result-container/components/refine-item.props.common.ts ***!
+  \************************************************************************************/
+/*! no static exports found */
+/*! ModuleConcatenation bailout: Module is not an ECMAScript module */
+/***/ (function(module, exports) {
+
+
+
+/***/ }),
+
+/***/ "./src/modules/search-result-container/components/refine-item.tsx":
+/*!************************************************************************!*\
+  !*** ./src/modules/search-result-container/components/refine-item.tsx ***!
+  \************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return RefineItem; });
+/* harmony import */ var core_js_modules_es_object_assign_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! core-js/modules/es.object.assign.js */ "./node_modules/@msdyn365-commerce/bootloader/node_modules/core-js/modules/es.object.assign.js");
+/* harmony import */ var core_js_modules_es_object_assign_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_object_assign_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _babel_runtime_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/esm/objectWithoutProperties */ "./node_modules/@babel/runtime/helpers/esm/objectWithoutProperties.js");
+/* harmony import */ var _msdyn365_commerce_modules_utilities__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @msdyn365-commerce-modules/utilities */ "./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/index.js");
+/* harmony import */ var _msdyn365_commerce_modules_utilities__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_msdyn365_commerce_modules_utilities__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _msdyn365_commerce_components__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @msdyn365-commerce/components */ "./node_modules/@msdyn365-commerce/components/dist/lib/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _utilities__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./utilities */ "./src/modules/search-result-container/components/utilities.ts");
+
+
+
+/* tslint:disable: no-duplicate-imports */
+
+
+
+
+/**
+ * Single-select and multi-select refine item component (controlled by RefineSubmenu)
+ */
+
+class RefineItem extends react__WEBPACK_IMPORTED_MODULE_4__["Component"] {
+  constructor(props) {
+    super(props);
+
+    this._onClick = e => {
+      e.preventDefault();
+      const {
+        parentProductRefinerHierarchy,
+        productRefinerValue,
+        selectedRefinementCriterion
+      } = this.props;
+
+      if (productRefinerValue) {
+        this.props.onToggle({
+          parentProductRefinerHierarchy: parentProductRefinerHierarchy,
+          productRefinerValue: productRefinerValue,
+          isSelecting: !selectedRefinementCriterion
+        });
+        setTimeout(() => {
+          this.anchorType.current && this.anchorType.current.focus();
+        }, 0);
+      }
+    };
+
+    this._onClick = this._onClick.bind(this);
+    this.state = {
+      isChecked: !!this.props.selectedRefinementCriterion
+    };
+    this.anchorType = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4__["createRef"]();
+    this.payLoad = Object(_msdyn365_commerce_modules_utilities__WEBPACK_IMPORTED_MODULE_2__["getPayloadObject"])('click', this.props.telemetryContent, '');
+  }
+
+  render() {
+    const _this$props = this.props,
+          {
+      isDisabled,
+      refineItemCommonProps,
+      parentProductRefinerHierarchy,
+      productRefinerValue,
+      selectedRefinementCriterion,
+      index,
+      children,
+      onToggle,
+      context,
+      telemetryContent
+    } = _this$props,
+          attrs = Object(_babel_runtime_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_1__["default"])(_this$props, ["isDisabled", "refineItemCommonProps", "parentProductRefinerHierarchy", "productRefinerValue", "selectedRefinementCriterion", "index", "children", "onToggle", "context", "telemetryContent"]);
+
+    if (!productRefinerValue) {
+      refineItemCommonProps.telemetry.error('[refine-item] Cannot render refineItem without productRefinerValue');
+      return undefined;
+    }
+
+    if (!productRefinerValue.LeftValueBoundString) {
+      refineItemCommonProps.telemetry.warning("[refine-item]  RefineItem without LeftValueBoundString: ".concat(JSON.stringify(productRefinerValue)));
+    }
+
+    const isSingleSelect = parentProductRefinerHierarchy.RefinerTypeValue === _utilities__WEBPACK_IMPORTED_MODULE_5__["ProductRefinerTypeValue"].Single;
+    let itemTypeClassName = isSingleSelect ? 'single-select' : 'multi-select';
+    itemTypeClassName = "ms-refine-submenu-item ".concat(itemTypeClassName);
+    const inputType = isSingleSelect ? 'radio' : 'checkbox';
+    itemTypeClassName = !!selectedRefinementCriterion ? "".concat(itemTypeClassName, "-checked") : itemTypeClassName;
+
+    if (parentProductRefinerHierarchy.SourceValue === _utilities__WEBPACK_IMPORTED_MODULE_5__["ProductRefinerSource"].Rating) {
+      if (productRefinerValue.LeftValueBoundString) {
+        this.payLoad.contentAction.etext = productRefinerValue.LeftValueBoundLocalizedString;
+        const attribute = Object(_msdyn365_commerce_modules_utilities__WEBPACK_IMPORTED_MODULE_2__["getTelemetryAttributes"])(telemetryContent, this.payLoad);
+        return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4__["createElement"]("li", {
+          className: 'ms-refine-submenu-item',
+          role: 'radio',
+          "aria-checked": 'false',
+          id: "".concat(parentProductRefinerHierarchy.KeyName, "_").concat(index),
+          "aria-label": "".concat(parentProductRefinerHierarchy.KeyName, "_").concat(index)
+        }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4__["createElement"]("a", Object.assign({
+          href: this._getRefinerUrl(),
+          "aria-label": "".concat(parentProductRefinerHierarchy.KeyName, "_").concat(productRefinerValue.LeftValueBoundLocalizedString),
+          onClick: this._onClick
+        }, attribute), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4__["createElement"](_msdyn365_commerce_components__WEBPACK_IMPORTED_MODULE_3__["RatingComponent"], {
+          avgRating: parseInt(productRefinerValue.LeftValueBoundString, 10),
+          ratingCount: productRefinerValue.LeftValueBoundLocalizedString ? productRefinerValue.LeftValueBoundLocalizedString : productRefinerValue.LeftValueBoundString,
+          hideCount: false,
+          readOnly: true,
+          ariaLabel: '',
+          context: context,
+          id: this.props.moduleId,
+          typeName: this.props.moduleTypeName,
+          data: {}
+        }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4__["createElement"]("span", {
+          className: 'refine-submenu-item__rating'
+        }, productRefinerValue.Count !== undefined && "(".concat(productRefinerValue.Count, ")"))));
+      } else {
+        return undefined;
+      }
+    } else {
+      this.payLoad.contentAction.etext = productRefinerValue.LeftValueBoundLocalizedString || productRefinerValue.LeftValueBoundString;
+      const attribute = Object(_msdyn365_commerce_modules_utilities__WEBPACK_IMPORTED_MODULE_2__["getTelemetryAttributes"])(telemetryContent, this.payLoad);
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4__["createElement"]("li", {
+        className: 'ms-refine-submenu-item',
+        id: "".concat(parentProductRefinerHierarchy.KeyName, "_").concat(index)
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4__["createElement"]("a", Object.assign({
+        key: !!selectedRefinementCriterion ? 'true' : 'false',
+        ref: this.anchorType,
+        href: this._getRefinerUrl(),
+        tabIndex: 0,
+        onClick: this._onClick,
+        className: itemTypeClassName,
+        role: inputType,
+        "aria-checked": !!selectedRefinementCriterion
+      }, attribute, attrs), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4__["createElement"]("span", {
+        className: 'ms-refine-submenu-item__label'
+      }, productRefinerValue.LeftValueBoundLocalizedString || productRefinerValue.LeftValueBoundString, productRefinerValue.Count !== undefined && " (".concat(productRefinerValue.Count, ")"))));
+    }
+  }
+
+  _getRefinerUrl() {
+    const {
+      urlBuilder,
+      parentProductRefinerHierarchy,
+      productRefinerValue,
+      selectedRefinementCriterion
+    } = this.props;
+
+    if (productRefinerValue) {
+      return urlBuilder({
+        parentProductRefinerHierarchy: parentProductRefinerHierarchy,
+        productRefinerValue: productRefinerValue,
+        isSelecting: !selectedRefinementCriterion
+      });
+    }
+
+    return '';
+  }
+
+}
+
+/***/ }),
+
+/***/ "./src/modules/search-result-container/components/refine-submenu.tsx":
+/*!***************************************************************************!*\
+  !*** ./src/modules/search-result-container/components/refine-submenu.tsx ***!
+  \***************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var core_js_modules_es_object_assign_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! core-js/modules/es.object.assign.js */ "./node_modules/@msdyn365-commerce/bootloader/node_modules/core-js/modules/es.object.assign.js");
+/* harmony import */ var core_js_modules_es_object_assign_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_object_assign_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _msdyn365_commerce_modules_utilities__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @msdyn365-commerce-modules/utilities */ "./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/index.js");
+/* harmony import */ var _msdyn365_commerce_modules_utilities__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_msdyn365_commerce_modules_utilities__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _range_refine_item__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./range-refine-item */ "./src/modules/search-result-container/components/range-refine-item.tsx");
+/* harmony import */ var _refine_item__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./refine-item */ "./src/modules/search-result-container/components/refine-item.tsx");
+/* harmony import */ var _utilities__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./utilities */ "./src/modules/search-result-container/components/utilities.ts");
+
+
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+/* tslint:disable: no-duplicate-imports */
+
+
+
+
+
+var DisplayTemplate;
+
+(function (DisplayTemplate) {
+  /**
+   * The List member.
+   */
+  DisplayTemplate[DisplayTemplate["List"] = 0] = "List";
+  /**
+   * The Slider member.
+   */
+
+  DisplayTemplate[DisplayTemplate["Slider"] = 1] = "Slider";
+  /**
+   * The SliderWithBars member.
+   */
+
+  DisplayTemplate[DisplayTemplate["SliderWithBars"] = 2] = "SliderWithBars";
+  /**
+   * The Range member.
+   */
+
+  DisplayTemplate[DisplayTemplate["Range"] = 3] = "Range";
+  /**
+   * The TextBox member.
+   */
+
+  DisplayTemplate[DisplayTemplate["TextBox"] = 4] = "TextBox";
+})(DisplayTemplate || (DisplayTemplate = {}));
+/**
+ *
+ * The RefineSubmenu component renders the submenu category and child items.
+ * This computed observes the stateful category hierarchy object.
+ * @extends {React.PureComponent<IRefineSubmenuProps>}
+ */
+
+
+class RefineSubmenu extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
+  constructor(props) {
+    super(props);
+    this._onToggleItem = this._onToggleItem.bind(this);
+    this._onToggleSubmenu = this._onToggleSubmenu.bind(this);
+    let isExpanded = this.props.isExpandedOnInitialLoad;
+
+    if (this.props.productRefinerHierarchy.DataTypeValue === _utilities__WEBPACK_IMPORTED_MODULE_5__["ProductRefinerValueDataTypeValue"].Range) {
+      isExpanded = true;
+    }
+
+    this.state = {
+      expanded: isExpanded
+    };
+  }
+
+  render() {
+    const {
+      productRefinerHierarchy,
+      refineItemCommonProps
+    } = this.props;
+
+    if (!productRefinerHierarchy) {
+      refineItemCommonProps.telemetry.error('Cannot render submenu without refiner hierarchy data');
+    }
+
+    if (productRefinerHierarchy.SourceValue === _utilities__WEBPACK_IMPORTED_MODULE_5__["ProductRefinerSource"].Rating && this.props.context.app.config.hideRating) {
+      return null;
+    }
+
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__["createElement"]("div", {
+      className: "ms-refine-submenu list-group ".concat(productRefinerHierarchy.KeyName)
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__["createElement"](_msdyn365_commerce_modules_utilities__WEBPACK_IMPORTED_MODULE_2__["Button"], {
+      className: this.state.expanded ? 'ms-refine-submenu__toggle_expanded' : 'ms-refine-submenu__toggle_collapsed',
+      "aria-label": productRefinerHierarchy.KeyName || 'refiner.Name',
+      onClick: this._onToggleSubmenu,
+      "aria-expanded": this.state.expanded
+    }, productRefinerHierarchy.KeyName), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__["createElement"](_msdyn365_commerce_modules_utilities__WEBPACK_IMPORTED_MODULE_2__["Collapse"], {
+      isOpen: this.state.expanded,
+      timeout: 350
+    }, this._renderChildItems(productRefinerHierarchy)));
+  }
+
+  _renderChildItems(productRefinerHierarchy) {
+    switch (productRefinerHierarchy.DataTypeValue) {
+      case _utilities__WEBPACK_IMPORTED_MODULE_5__["ProductRefinerValueDataTypeValue"].Range:
+      case _utilities__WEBPACK_IMPORTED_MODULE_5__["ProductRefinerValueDataTypeValue"].RangeInput:
+        return this._renderRange(productRefinerHierarchy);
+
+      default:
+        return this._renderSingleMultiSelect(productRefinerHierarchy);
+    }
+  }
+
+  _renderSingleMultiSelect(productRefinerHierarchy) {
+    const {
+      isDisabled,
+      refineItemCommonProps,
+      selectedRefinerValues,
+      context
+    } = this.props;
+    const isSingleSelect = productRefinerHierarchy.RefinerTypeValue === _utilities__WEBPACK_IMPORTED_MODULE_5__["ProductRefinerTypeValue"].Single && productRefinerHierarchy.SourceValue === _utilities__WEBPACK_IMPORTED_MODULE_5__["ProductRefinerSource"].Rating;
+    const role = isSingleSelect ? {
+      role: 'radiogroup'
+    } : undefined;
+    const refinerValuesList = productRefinerHierarchy.Values || [];
+    const listItems = refinerValuesList.map((child, index) => {
+      if (!child) {
+        refineItemCommonProps.telemetry.error("[refine-submenu] Could not render refine item for refiner ".concat(productRefinerHierarchy.RecordId, " (").concat(productRefinerHierarchy.KeyName, ")"));
+        return null;
+      }
+
+      const selectedRefinementCriterion = Object(_utilities__WEBPACK_IMPORTED_MODULE_5__["findMatchingRefinementCriterion"])(child, selectedRefinerValues);
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__["createElement"](_refine_item__WEBPACK_IMPORTED_MODULE_4__["default"], {
+        parentProductRefinerHierarchy: productRefinerHierarchy,
+        productRefinerValue: child,
+        selectedRefinementCriterion: selectedRefinementCriterion,
+        refineItemCommonProps: refineItemCommonProps,
+        onToggle: this._onToggleItem,
+        urlBuilder: this.props.urlBuilder,
+        isDisabled: isDisabled,
+        key: index,
+        index: index,
+        context: context,
+        moduleId: this.props.moduleId,
+        moduleTypeName: this.props.moduleTypeName,
+        telemetryContent: this.props.telemetryContent
+      });
+    });
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__["createElement"]("ul", Object.assign({
+      className: "ms-refine-submenu__list ".concat(productRefinerHierarchy.KeyName)
+    }, role, {
+      "aria-label": productRefinerHierarchy.KeyName
+    }), listItems);
+  }
+
+  _getRangeType(productRefinerHierarchy) {
+    if (productRefinerHierarchy.DisplayTemplateValue === DisplayTemplate.Range || productRefinerHierarchy.DisplayTemplateValue === DisplayTemplate.Slider || productRefinerHierarchy.DisplayTemplateValue === DisplayTemplate.SliderWithBars) {
+      return 'slider';
+    }
+
+    return 'input';
+  }
+
+  _renderRange(productRefinerHierarchy) {
+    const {
+      isDisabled,
+      refineItemCommonProps,
+      selectedRefinerValues,
+      context,
+      minValueSliderThumbAriaLabel,
+      maxValueSliderThumbAriaLabel
+    } = this.props;
+    const submenuClassNamePrefix = 'ms-refine-submenu__item list-group-item refine-submenu__item';
+    const refinerValuesList = productRefinerHierarchy.Values || [];
+    const listItems = refinerValuesList.map((child, index) => {
+      if (!child) {
+        refineItemCommonProps.telemetry.error("Could not render refine item for refiner ".concat(productRefinerHierarchy.RecordId, " (").concat(productRefinerHierarchy.KeyName, ")"));
+        return null;
+      }
+
+      const selectedRefinementCriterion = Object(_utilities__WEBPACK_IMPORTED_MODULE_5__["findMatchingRefinementCriterion"])(child, selectedRefinerValues);
+
+      const rangeType = this._getRangeType(productRefinerHierarchy);
+
+      const key = selectedRefinementCriterion ? "".concat(selectedRefinementCriterion.LeftValueBoundString, "-").concat(selectedRefinementCriterion.RightValueBoundString) : "not-selected-".concat(index);
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__["createElement"]("li", {
+        className: "".concat(submenuClassNamePrefix, "--range"),
+        key: index
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__["createElement"](_range_refine_item__WEBPACK_IMPORTED_MODULE_3__["default"], {
+        parentProductRefinerHierarchy: productRefinerHierarchy,
+        productRefinerValue: child,
+        selectedRefinementCriterion: selectedRefinementCriterion,
+        refineItemCommonProps: refineItemCommonProps,
+        onToggle: this._onToggleItem,
+        urlBuilder: this.props.urlBuilder,
+        isDisabled: isDisabled,
+        rangeType: rangeType,
+        key: key,
+        context: context,
+        minValueSliderThumbAriaLabel: minValueSliderThumbAriaLabel,
+        maxValueSliderThumbAriaLabel: maxValueSliderThumbAriaLabel,
+        moduleId: this.props.moduleId,
+        moduleTypeName: this.props.moduleTypeName
+      }));
+    });
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__["createElement"]("ul", {
+      className: "ms-refine-submenu__list list-unstyled ".concat(productRefinerHierarchy.KeyName)
+    }, listItems);
+  }
+
+  _onToggleItem(itemToggleNotification) {
+    this.props.onUpdateRefiners(itemToggleNotification);
+  }
+
+  _onToggleSubmenu() {
+    this.setState(prevState => ({
+      expanded: !prevState.expanded
+    }));
+  }
+
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (RefineSubmenu);
+
+/***/ }),
+
+/***/ "./src/modules/search-result-container/components/separator.tsx":
+/*!**********************************************************************!*\
+  !*** ./src/modules/search-result-container/components/separator.tsx ***!
+  \**********************************************************************/
+/*! exports provided: Separator */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Separator", function() { return Separator; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* tslint:disable: no-duplicate-imports */
+
+const Separator = (_ref) => {
+  let {
+    separator
+  } = _ref;
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("span", null, " ", separator, " ");
+};
+
+/***/ }),
+
+/***/ "./src/modules/search-result-container/components/title.tsx":
+/*!******************************************************************!*\
+  !*** ./src/modules/search-result-container/components/title.tsx ***!
+  \******************************************************************/
+/*! exports provided: Title */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Title", function() { return Title; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* tslint:disable: no-duplicate-imports */
+
+const Title = (_ref) => {
+  let {
+    text,
+    className
+  } = _ref;
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("span", {
+    className: className
+  }, " ", text, " ");
+};
+
+/***/ }),
+
+/***/ "./src/modules/search-result-container/components/utilities.ts":
+/*!*********************************************************************!*\
+  !*** ./src/modules/search-result-container/components/utilities.ts ***!
+  \*********************************************************************/
+/*! exports provided: ProductRefinerValueDataTypeValue, ProductRefinerTypeValue, ProductRefinerSource, findMatchingRefinementCriterion, isMatchingRefinementCriterion, getUpdatedRefinementCriteria, formatPrice */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ProductRefinerValueDataTypeValue", function() { return ProductRefinerValueDataTypeValue; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ProductRefinerTypeValue", function() { return ProductRefinerTypeValue; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ProductRefinerSource", function() { return ProductRefinerSource; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "findMatchingRefinementCriterion", function() { return findMatchingRefinementCriterion; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "isMatchingRefinementCriterion", function() { return isMatchingRefinementCriterion; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getUpdatedRefinementCriteria", function() { return getUpdatedRefinementCriteria; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "formatPrice", function() { return formatPrice; });
+/* harmony import */ var core_js_modules_web_dom_collections_for_each_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! core-js/modules/web.dom-collections.for-each.js */ "./node_modules/@msdyn365-commerce/bootloader/node_modules/core-js/modules/web.dom-collections.for-each.js");
+/* harmony import */ var core_js_modules_web_dom_collections_for_each_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_web_dom_collections_for_each_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/esm/defineProperty */ "./node_modules/@babel/runtime/helpers/esm/defineProperty.js");
+
+
+
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
+
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_1__["default"])(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+
+/**
+ * Types of product refiner values
+ */
+var ProductRefinerValueDataTypeValue;
+
+(function (ProductRefinerValueDataTypeValue) {
+  /**
+   * Range slider is used for selections like price
+   */
+  ProductRefinerValueDataTypeValue[ProductRefinerValueDataTypeValue["Range"] = 1] = "Range";
+  /**
+   * Range input is a different way to specify ranges and can be expressed with input boxes
+   * as well as a set of discrete single-select type values
+   */
+
+  ProductRefinerValueDataTypeValue[ProductRefinerValueDataTypeValue["RangeInput"] = 4] = "RangeInput";
+  /**
+   * This is a discrete list item, either multi-select or single-select
+   */
+
+  ProductRefinerValueDataTypeValue[ProductRefinerValueDataTypeValue["List"] = 5] = "List";
+  /**
+   * Boolean types allows only single-select
+   */
+
+  ProductRefinerValueDataTypeValue[ProductRefinerValueDataTypeValue["Boolean"] = 6] = "Boolean";
+})(ProductRefinerValueDataTypeValue || (ProductRefinerValueDataTypeValue = {}));
+/**
+ * Types of product refiners
+ */
+
+
+var ProductRefinerTypeValue;
+
+(function (ProductRefinerTypeValue) {
+  /**
+   * Refiner values are single-select
+   */
+  ProductRefinerTypeValue[ProductRefinerTypeValue["Single"] = 0] = "Single";
+  /**
+   * Refiner values are multi-select
+   */
+
+  ProductRefinerTypeValue[ProductRefinerTypeValue["Multi"] = 1] = "Multi";
+})(ProductRefinerTypeValue || (ProductRefinerTypeValue = {}));
+/**
+ * ProductRefinerSource enum type.
+ */
+
+
+var ProductRefinerSource;
+
+(function (ProductRefinerSource) {
+  /**
+   * The None member.
+   */
+  ProductRefinerSource[ProductRefinerSource["None"] = 0] = "None";
+  /**
+   * The Attribute member.
+   */
+
+  ProductRefinerSource[ProductRefinerSource["Attribute"] = 1] = "Attribute";
+  /**
+   * The Category member.
+   */
+
+  ProductRefinerSource[ProductRefinerSource["Category"] = 2] = "Category";
+  /**
+   * The Price member.
+   */
+
+  ProductRefinerSource[ProductRefinerSource["Price"] = 3] = "Price";
+  /**
+   * The Rating member.
+   */
+
+  ProductRefinerSource[ProductRefinerSource["Rating"] = 4] = "Rating";
+})(ProductRefinerSource || (ProductRefinerSource = {}));
+/**
+ * Find the refinement criterion associated with this product refiner value
+ * @param productRefinerValue product refiner value to match
+ * @param refinementCriteria selected refinement criteria
+ */
+
+
+function findMatchingRefinementCriterion(productRefinerValue, refinementCriteria) {
+  // if the value is a range, then match only on data type value; otherwise match on item string
+  return refinementCriteria.find(refinementCriterion => isMatchingRefinementCriterion(productRefinerValue, refinementCriterion));
+}
+/**
+ * Find the refinement criterion associated with this product refiner value
+ * @param productRefinerValue product refiner value to match
+ * @param refinementCriteria selected refinement criteria
+ */
+
+function isMatchingRefinementCriterion(productRefinerValue, refinementCriterion) {
+  // if the value is a range, then match only on data type value; otherwise match on item string
+  return refinementCriterion.RefinerRecordId === productRefinerValue.RefinerRecordId && refinementCriterion.RefinerSourceValue === productRefinerValue.RefinerSourceValue && refinementCriterion.DataTypeValue === productRefinerValue.DataTypeValue && (refinementCriterion.DataTypeValue === ProductRefinerValueDataTypeValue.Range || refinementCriterion.LeftValueBoundString === productRefinerValue.LeftValueBoundString);
+}
+function getUpdatedRefinementCriteria(itemToggleNotification, currentRefinementCriteria) {
+  const updatedRefinementCriteria = [];
+  let toggledItemFound = false;
+  currentRefinementCriteria.forEach(selectedCriterion => {
+    if (isMatchingRefinementCriterion(itemToggleNotification.productRefinerValue, selectedCriterion)) {
+      toggledItemFound = true;
+
+      if (itemToggleNotification.isSelecting) {
+        const next = _objectSpread(_objectSpread({}, selectedCriterion), {}, {
+          LeftValueBoundString: itemToggleNotification.rangeStart !== undefined && "".concat(itemToggleNotification.rangeStart) || selectedCriterion.LeftValueBoundString,
+          RightValueBoundString: itemToggleNotification.rangeEnd !== undefined && "".concat(itemToggleNotification.rangeEnd) || selectedCriterion.RightValueBoundString
+        });
+
+        updatedRefinementCriteria.push(next);
+      } // else the item is being de-selected, so omit it from the refinement criteria
+
+    } else {
+      // keep existing criterion because it is not in the item toggle notification
+      updatedRefinementCriteria.push(selectedCriterion);
+    }
+  });
+
+  if (!toggledItemFound) {
+    const next = _objectSpread(_objectSpread({}, itemToggleNotification.productRefinerValue), {}, {
+      LeftValueBoundString: itemToggleNotification.rangeStart !== undefined && "".concat(itemToggleNotification.rangeStart) || itemToggleNotification.productRefinerValue.LeftValueBoundString,
+      RightValueBoundString: itemToggleNotification.rangeEnd !== undefined && "".concat(itemToggleNotification.rangeEnd) || itemToggleNotification.productRefinerValue.RightValueBoundString
+    });
+
+    updatedRefinementCriteria.push(next); // If single select, then deselect any others in the parent refiner group
+
+    if ((itemToggleNotification.productRefinerValue.DataTypeValue === ProductRefinerValueDataTypeValue.List || itemToggleNotification.productRefinerValue.DataTypeValue === ProductRefinerValueDataTypeValue.Boolean) && itemToggleNotification.parentProductRefinerHierarchy.RefinerTypeValue === ProductRefinerTypeValue.Single) {
+      itemToggleNotification.parentProductRefinerHierarchy.Values.forEach(child => {
+        if (child.RefinerRecordId === next.RefinerRecordId && child.LeftValueBoundString === next.LeftValueBoundString) {// do nothing
+        } else {
+          const matchingIndex = updatedRefinementCriteria.findIndex(criterion => isMatchingRefinementCriterion(child, criterion));
+
+          if (matchingIndex > -1) {
+            updatedRefinementCriteria.splice(matchingIndex, 1);
+          }
+        }
+      });
+    }
+  }
+
+  return updatedRefinementCriteria;
+}
+function formatPrice(amount, currency, locale, telemetry) {
+  if (!amount || !currency) {
+    telemetry.trace("[refine-menu.utilities.formatPrice] could not format price for ".concat(amount, " ").concat(currency));
+    return amount || '';
+  }
+
+  const priceAmount = amount && Number(amount) || 0;
+  let result;
+
+  try {
+    result = new Intl.NumberFormat(locale, {
+      style: 'currency',
+      currencyDisplay: 'symbol',
+      currency: currency,
+      minimumFractionDigits: 0
+    }).format(priceAmount);
+  } catch (e) {
+    result = "".concat(priceAmount, " ").concat(currency);
+    telemetry.warning("[refine-menu.utilities.formatPrice] Failed to format price for ".concat(result, ": ").concat(e));
+  }
+
+  return result;
+}
+
+/***/ }),
+
+/***/ "./src/modules/search-result-container/list-page-state.ts":
+/*!****************************************************************!*\
+  !*** ./src/modules/search-result-container/list-page-state.ts ***!
+  \****************************************************************/
+/*! exports provided: ListPageState, ListPageStateInput, listPageStateAction, createListPageInput, default */
+/*! ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: ./lib/module-registration.local.js (referenced with cjs require) */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ListPageState", function() { return ListPageState; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ListPageStateInput", function() { return ListPageStateInput; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "listPageStateAction", function() { return listPageStateAction; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "createListPageInput", function() { return createListPageInput; });
+/* harmony import */ var core_js_modules_es_promise_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! core-js/modules/es.promise.js */ "./node_modules/@msdyn365-commerce/bootloader/node_modules/core-js/modules/es.promise.js");
+/* harmony import */ var core_js_modules_es_promise_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_promise_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _msdyn365_commerce_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @msdyn365-commerce/core */ "./node_modules/@msdyn365-commerce/core/dist/lib/index.js");
+/* harmony import */ var mobx__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! mobx */ "./node_modules/mobx/lib/mobx.module.js");
+
+
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+
+
+/**
+ * ListPageState class
+ */
+
+class ListPageState {
+  constructor() {
+    this.activeFilters = null;
+    this.activeProducts = [];
+    this.sortingCritera = null;
+    this.currentPageNumber = null;
+    this.pageSize = 10;
+    this.pageType = 'Unknown';
+    this.featureProduct = null;
+  }
+
+}
+
+Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__decorate"])([mobx__WEBPACK_IMPORTED_MODULE_3__["observable"]], ListPageState.prototype, "activeFilters", void 0);
+
+Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__decorate"])([mobx__WEBPACK_IMPORTED_MODULE_3__["observable"]], ListPageState.prototype, "activeProducts", void 0);
+
+Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__decorate"])([mobx__WEBPACK_IMPORTED_MODULE_3__["observable"]], ListPageState.prototype, "sortingCritera", void 0);
+
+Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__decorate"])([mobx__WEBPACK_IMPORTED_MODULE_3__["observable"]], ListPageState.prototype, "currentPageNumber", void 0);
+
+Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__decorate"])([mobx__WEBPACK_IMPORTED_MODULE_3__["observable"]], ListPageState.prototype, "totalProductCount", void 0);
+
+Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__decorate"])([mobx__WEBPACK_IMPORTED_MODULE_3__["observable"]], ListPageState.prototype, "pageSize", void 0);
+
+Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__decorate"])([mobx__WEBPACK_IMPORTED_MODULE_3__["observable"]], ListPageState.prototype, "pageType", void 0);
+
+Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__decorate"])([mobx__WEBPACK_IMPORTED_MODULE_3__["observable"]], ListPageState.prototype, "featureProduct", void 0);
+/**
+ * ListPageStateInput - action input
+ */
+
+
+class ListPageStateInput {
+  constructor() {
+    this.getCacheKey = () => "ListPageState";
+
+    this.getCacheObjectType = () => 'ListPageState';
+
+    this.dataCacheType = () => 'request';
+  }
+
+}
+async function listPageStateAction(input, ctx) {
+  return new ListPageState();
+}
+/**
+ * create new input for create action
+ */
+
+const createListPageInput = inputData => {
+  return new ListPageStateInput();
+};
+/**
+ * ListPageState - create action
+ */
+
+/* harmony default export */ __webpack_exports__["default"] = (Object(_msdyn365_commerce_core__WEBPACK_IMPORTED_MODULE_2__["createObservableDataAction"])({
+  action: listPageStateAction,
+  input: createListPageInput
+}));
+
+/***/ }),
+
+/***/ "./src/modules/search-result-container/search-result-container.tsx":
+/*!*************************************************************************************!*\
+  !*** ./src/modules/search-result-container/search-result-container.tsx + 2 modules ***!
+  \*************************************************************************************/
+/*! exports provided: default */
+/*! ModuleConcatenation bailout: Cannot concat with ./src/modules/search-result-container/actions/base-collection-action.ts because of ./src/modules/search-result-container/actions/get-full-products-by-collection.ts */
+/*! ModuleConcatenation bailout: Cannot concat with ./src/modules/search-result-container/actions/get-full-products-by-collection.ts (<- Module is referenced from these modules with unsupported syntax: ./lib/module-registration.local.js (referenced with cjs require)) */
+/*! ModuleConcatenation bailout: Cannot concat with ./src/modules/search-result-container/actions/get-mapped-search-configuration.ts (<- Module is referenced from these modules with unsupported syntax: ./lib/module-registration.local.js (referenced with cjs require)) */
+/*! ModuleConcatenation bailout: Cannot concat with ./src/modules/search-result-container/actions/get-refiners-for-collection.ts (<- Module is referenced from these modules with unsupported syntax: ./lib/module-registration.local.js (referenced with cjs require)) */
+/*! ModuleConcatenation bailout: Cannot concat with ./src/modules/search-result-container/actions/url-utils.ts because of ./src/modules/search-result-container/actions/get-full-products-by-collection.ts */
+/*! ModuleConcatenation bailout: Cannot concat with ./src/modules/search-result-container/components/choice-summary.tsx because of ./src/modules/search-result-container/components/index.ts */
+/*! ModuleConcatenation bailout: Cannot concat with ./src/modules/search-result-container/components/index.ts (<- Module exports are unknown) */
+/*! ModuleConcatenation bailout: Cannot concat with ./src/modules/search-result-container/components/refine-submenu.tsx because of ./src/modules/search-result-container/components/index.ts */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/index.js (<- Module is not an ECMAScript module) */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@msdyn365-commerce/core/dist/lib/index.js (<- Module is referenced from these modules with unsupported syntax: ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/back-to-top/BackToTop.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/common/telemetryHelper.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/drawer/ControlledDrawer.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/popup/Popup.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/slider/Slider.js (referenced with cjs require)) */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@msdyn365-commerce/retail-proxy/dist/index.js (<- Module exports are unknown) */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@babel/runtime/helpers/esm/defineProperty.js */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/classnames/index.js (<- Module is not an ECMAScript module) */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/mobx-react/index.module.js */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/mobx/lib/mobx.module.js (<- Module uses injected variables (global, process, module)) */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/tslib/tslib.es6.js (<- Module is referenced from these modules with unsupported syntax: ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/alert/Alert.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/back-to-top/BackToTop.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/button/Button.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/collapse/Collapse.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/drawer/ControlledDrawer.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/drawer/Drawer.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/fade/Fade.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/flipper/Flipper.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/heading/Heading.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/index.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/labeled-dropdown/LabeledDropdown.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/modal/Modal.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/modal/ModalBody.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/modal/ModalFooter.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/modal/ModalHeader.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/modal/Portal.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/modal/index.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/pagination/Pagination.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/pagination/PaginationItem.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/pagination/PaginationLink.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/pagination/UncontrolledPagination.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/popover/Popover.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/popover/index.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/popper-content/PopperContent.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/popup-products/Popup-products.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/popup/Popup.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/progress/Progress.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/quantity/Quantity.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/quantity/index.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/single-slide-carousel/SingleSlideCarousel.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/slider/Slider.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/slider/SliderThumb.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/table/Table.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/table/checkbox.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/table/index.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/tooltip/Tooltip.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/tooltip/UncontrolledTooltip.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/waiting/Waiting.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/wrapper/module.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/wrapper/node.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/zoom-image/ImagefullView.js (referenced with cjs require)) */
+/*! ModuleConcatenation bailout: Cannot concat with external "React" (<- Module is not an ECMAScript module) */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+// ESM COMPAT FLAG
+__webpack_require__.r(__webpack_exports__);
+
+// EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/defineProperty.js
+var defineProperty = __webpack_require__("./node_modules/@babel/runtime/helpers/esm/defineProperty.js");
+
+// EXTERNAL MODULE: ./node_modules/tslib/tslib.es6.js
+var tslib_es6 = __webpack_require__("./node_modules/tslib/tslib.es6.js");
+
+// EXTERNAL MODULE: ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/index.js
+var lib = __webpack_require__("./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/index.js");
+
+// EXTERNAL MODULE: ./node_modules/@msdyn365-commerce/core/dist/lib/index.js
+var dist_lib = __webpack_require__("./node_modules/@msdyn365-commerce/core/dist/lib/index.js");
+
+// EXTERNAL MODULE: ./node_modules/@msdyn365-commerce/retail-proxy/dist/index.js
+var dist = __webpack_require__("./node_modules/@msdyn365-commerce/retail-proxy/dist/index.js");
+
+// EXTERNAL MODULE: ./node_modules/classnames/index.js
+var classnames = __webpack_require__("./node_modules/classnames/index.js");
+var classnames_default = /*#__PURE__*/__webpack_require__.n(classnames);
+
+// EXTERNAL MODULE: ./node_modules/mobx/lib/mobx.module.js
+var mobx_module = __webpack_require__("./node_modules/mobx/lib/mobx.module.js");
+
+// EXTERNAL MODULE: ./node_modules/mobx-react/index.module.js
+var index_module = __webpack_require__("./node_modules/mobx-react/index.module.js");
+
+// EXTERNAL MODULE: external "React"
+var external_React_ = __webpack_require__("react");
+
+// EXTERNAL MODULE: ./src/modules/search-result-container/actions/get-full-products-by-collection.ts
+var get_full_products_by_collection = __webpack_require__("./src/modules/search-result-container/actions/get-full-products-by-collection.ts");
+
+// EXTERNAL MODULE: ./src/modules/search-result-container/actions/get-mapped-search-configuration.ts
+var get_mapped_search_configuration = __webpack_require__("./src/modules/search-result-container/actions/get-mapped-search-configuration.ts");
+
+// EXTERNAL MODULE: ./src/modules/search-result-container/actions/get-refiners-for-collection.ts + 1 modules
+var get_refiners_for_collection = __webpack_require__("./src/modules/search-result-container/actions/get-refiners-for-collection.ts");
+
+// EXTERNAL MODULE: ./src/modules/search-result-container/actions/base-collection-action.ts
+var base_collection_action = __webpack_require__("./src/modules/search-result-container/actions/base-collection-action.ts");
+
+// EXTERNAL MODULE: ./src/modules/search-result-container/actions/url-utils.ts
+var url_utils = __webpack_require__("./src/modules/search-result-container/actions/url-utils.ts");
+
+// CONCATENATED MODULE: ./src/modules/search-result-container/actions/index.ts
+/* tslint:disable: no-duplicate-imports */
+
+
+
+
+
+
+// EXTERNAL MODULE: ./src/modules/search-result-container/components/index.ts
+var components = __webpack_require__("./src/modules/search-result-container/components/index.ts");
+
+// EXTERNAL MODULE: ./src/modules/search-result-container/components/choice-summary.tsx
+var choice_summary = __webpack_require__("./src/modules/search-result-container/components/choice-summary.tsx");
+
+// EXTERNAL MODULE: ./src/modules/search-result-container/components/refine-submenu.tsx
+var refine_submenu = __webpack_require__("./src/modules/search-result-container/components/refine-submenu.tsx");
+
+// CONCATENATED MODULE: ./src/modules/search-result-container/search-result-container.props.autogenerated.ts
+/**
+ * Copyright (c) 2018 Microsoft Corporation
+ * ISearchResultContainer contentModule Interface Properties
+ * THIS FILE IS AUTO-GENERATED - MANUAL MODIFICATIONS WILL BE LOST
+ */
+var expandRefinersCount;
+
+(function (expandRefinersCount) {
+  expandRefinersCount["all"] = "all";
+  expandRefinersCount["one"] = "one";
+  expandRefinersCount["two"] = "two";
+  expandRefinersCount["three"] = "three";
+  expandRefinersCount["four"] = "four";
+})(expandRefinersCount || (expandRefinersCount = {}));
+// CONCATENATED MODULE: ./src/modules/search-result-container/search-result-container.tsx
+
+
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
+
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { Object(defineProperty["default"])(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+
+var SearchResultContainer_1;
+
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+/* tslint:disable: no-duplicate-imports */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**
+ *
+ * SearchResultContainer component
+ * @extends {React.PureComponent<ISearchResultContainerProps<ISearchResultContainerData>>}
+ */
+
+let search_result_container_SearchResultContainer = SearchResultContainer_1 = class SearchResultContainer extends external_React_["PureComponent"] {
+  constructor(props, state) {
+    var _this$props$context$r2;
+
+    super(props);
+    this.sortByDropdownOptions = [{
+      key: get_mapped_search_configuration["sortOptions"].sortByOptionRelevanceDesc,
+      value: this.props.resources.sortByOptionRelevanceDesc
+    }, {
+      key: get_mapped_search_configuration["sortOptions"].sortByOptionNameAsc,
+      value: this.props.resources.sortByOptionNameAsc
+    }, {
+      key: get_mapped_search_configuration["sortOptions"].sortByOptionNameDesc,
+      value: this.props.resources.sortByOptionNameDesc
+    }, {
+      key: get_mapped_search_configuration["sortOptions"].sortByOptionPriceAsc,
+      value: this.props.resources.sortByOptionPriceAsc
+    }, {
+      key: get_mapped_search_configuration["sortOptions"].sortByOptionPriceDesc,
+      value: this.props.resources.sortByOptionPriceDesc
+    }, {
+      key: get_mapped_search_configuration["sortOptions"].sortByOptionRatingDesc,
+      value: this.props.resources.sortByOptionRatingDesc
+    }];
+    this._pageType = this.props.context.request.urlTokens.pageType;
+    this.expandrefinerCount = 0;
+
+    this._getSearchResultModal = () => {
+      const {
+        resources
+      } = this.props;
+      return Object(components["SearchResultModal"])({
+        resources: {
+          modalCloseButtonText: resources.modalCloseButtonText,
+          modalTitle: resources.modalTitle
+        },
+        isOpen: this.state.modalIsOpen,
+        returnRef: this._modalToggleRef,
+        onModalToggle: this._toggleModal
+      });
+    };
+
+    this._getCollectionTitle = () => {
+      const {
+        data,
+        context,
+        resources
+      } = this.props;
+      let collectionTitle = '';
+
+      if (context && context.request && context.request.query && context.request.query.q) {
+        collectionTitle = "\"".concat(context.request.query.q, "\"");
+      } else {
+        collectionTitle = data.category.result && SearchResultContainer_1.getFriendlyName(context.request.locale, data.category.result.NameTranslations) || data.category.result && data.category.result.Name;
+      }
+
+      let productCountText = '';
+      let productCountNumber;
+
+      if (data.listPageState && data.listPageState.result && data.listPageState.result.totalProductCount !== undefined) {
+        productCountNumber = data.listPageState.result.totalProductCount;
+      } else if (data.products && data.products.result) {
+        productCountNumber = data.products.result.count;
+      }
+
+      if (productCountNumber && productCountNumber !== 0) {
+        productCountText = productCountNumber !== 1 ? Object(dist["format"])(this.props.resources.numberOfProducts, productCountNumber) : this.props.resources.oneProduct;
+      } else {
+        productCountText = Object(dist["format"])(this.props.resources.numberOfProducts, 0);
+      }
+
+      const titlePrefix = /*#__PURE__*/external_React_["createElement"](components["Title"], {
+        className: 'ms-search-result__collection-title-prefix',
+        text: resources.searchTextPrefix
+      });
+      const titleText = collectionTitle && /*#__PURE__*/external_React_["createElement"](components["Title"], {
+        className: 'ms-search-result__collection-title-text',
+        text: collectionTitle
+      });
+      const titleCount = /*#__PURE__*/external_React_["createElement"](components["Title"], {
+        className: 'ms-search-result__collection-title-count',
+        text: productCountText
+      });
+      return {
+        TitleContainer: {
+          className: 'ms-search-result-container__title'
+        },
+        title: {
+          titlePrefix: titlePrefix,
+          titleText: titleText,
+          titleCount: titleCount
+        }
+      };
+    };
+
+    this._getCategoryHierarchy = () => {
+      const {
+        data
+      } = this.props;
+      const categoryHierarchy = data.categoryHierarchy.result;
+      const categoryLinks = categoryHierarchy && categoryHierarchy.map((value, index) => {
+        return /*#__PURE__*/external_React_["createElement"](components["Link"], {
+          key: index,
+          text: value.Name,
+          ariaLabel: "".concat(this.props.resources.categoryLinkAriaLabel, " ").concat(value.Name),
+          href: value.Url
+        });
+      });
+      const categoryLinkSeparator = /*#__PURE__*/external_React_["createElement"](components["Separator"], {
+        separator: '/'
+      });
+      return {
+        CategoryHierarchyContainer: {
+          tag: 'nav',
+          className: 'ms-search-result-container__category-hierarchy'
+        },
+        categoryHierarchyList: categoryLinks,
+        categoryHierarchySeparator: categoryLinkSeparator
+      };
+    };
+
+    this._getSortingDropDown = () => {
+      const {
+        resources
+      } = this.props;
+      const activeDropdown = this._getCurrentlySelectedOption() || this.state.sortingState.selectedSortByOption;
+      const dropdown = /*#__PURE__*/external_React_["createElement"](lib["LabeledDropdown"], {
+        labelClassname: 'reviews-list-sort-by',
+        labelText: resources.sortByDropdownLabel,
+        dropdownId: 'categorySortByDropdown',
+        dropdownClassname: 'reviews-list-dropdown',
+        toggleColor: 'link',
+        dropdownOptions: this.sortByDropdownOptions,
+        selectedOption: activeDropdown,
+        onSelectOption: this._updateSortByDropdown,
+        ref: this._sortAndFilterContainerRef
+      });
+      return {
+        SortingContainer: {
+          className: 'ms-search-result-container__Sort-by-category'
+        },
+        sortByDropDown: dropdown
+      };
+    };
+
+    this._getPagination = () => {
+      const {
+        config,
+        context,
+        data,
+        resources
+      } = this.props;
+      const listPageState = data && data.listPageState && data.listPageState.result;
+      const fullUrl = Object(url_utils["getCurrentUrl"])(context.request);
+      const itemsPerPage = config.itemsPerPage || 10;
+      const skipCount = listPageState && listPageState.currentPageNumber !== null ? listPageState.currentPageNumber * (this.props.config.itemsPerPage || 10) : this.props.context.request.query && +this.props.context.request.query.skip || 0;
+      const totalItems = listPageState && listPageState.totalProductCount || 0;
+      const previousText = resources.flipperPrevious;
+      const nextText = resources.flipperNext;
+
+      if (totalItems <= itemsPerPage) {
+        return null;
+      }
+
+      return /*#__PURE__*/external_React_["createElement"](lib["UncontrolledPagination"], {
+        className: 'ms-search-result-container__pagination',
+        role: 'navigation',
+        "aria-label": resources.paginationAriaLabel,
+        url: fullUrl.href,
+        qsp: 'skip',
+        items: totalItems,
+        itemsPerPage: itemsPerPage,
+        startingItem: skipCount,
+        previousText: /*#__PURE__*/external_React_["createElement"]("div", {
+          className: 'msc-pagination__prev'
+        }, /*#__PURE__*/external_React_["createElement"]("span", {
+          className: 'ms-search-result__pagination-left',
+          "aria-hidden": 'true'
+        }), /*#__PURE__*/external_React_["createElement"]("span", {
+          className: 'prev-text'
+        }, previousText)),
+        nextText: /*#__PURE__*/external_React_["createElement"]("div", {
+          className: 'msc-pagination__next'
+        }, /*#__PURE__*/external_React_["createElement"]("span", {
+          className: 'next-text'
+        }, nextText), /*#__PURE__*/external_React_["createElement"]("span", {
+          className: 'ms-search-result__pagination-right',
+          "aria-hidden": 'true'
+        })),
+        previousAriaLabel: previousText,
+        nextAriaLabel: nextText,
+        telemetryContent: this.telemetryContent
+      });
+    };
+
+    this._getRefineMenu = () => {
+      const {
+        data,
+        context,
+        config
+      } = this.props;
+      const tempRangeTypeTODO = context.request.query && context.request.query.inputRange ? 'input' : 'slider';
+      const validRefiners = data.refiners.result && data.refiners.result.filter(refiner => {
+        return refiner.Values.length > 0;
+      });
+      const activeRefiners = data.listPageState.result && data.listPageState.result.activeFilters || [];
+
+      this._getexpandRefinerCount(config.expandRefinersCount);
+
+      const refinelist = this.expandrefinerCount === undefined ? 0 : this.expandrefinerCount;
+      const expandedRefiners = refinelist === 0 ? validRefiners && validRefiners.length : refinelist;
+      const subMenus = validRefiners && validRefiners.map((productRefinerHierarchy, index) => {
+        return data.listPageState.result.totalProductCount !== 0 ? /*#__PURE__*/external_React_["createElement"](refine_submenu["default"], {
+          productRefinerHierarchy: productRefinerHierarchy,
+          selectedRefinerValues: activeRefiners,
+          refineItemCommonProps: this._refineItemCommonProps,
+          minValueSliderThumbAriaLabel: this.props.resources.minValueSliderThumbAriaLabel,
+          maxValueSliderThumbAriaLabel: this.props.resources.maxValueSliderThumbAriaLabel,
+          key: index,
+          onUpdateRefiners: this._onUpdateRefiners,
+          urlBuilder: this._buildRefinerUrl,
+          isDisabled: false,
+          isExpandedOnInitialLoad: expandedRefiners && expandedRefiners > index ? true : false,
+          tempRangeTypeTODO: tempRangeTypeTODO,
+          context: context,
+          moduleId: this.props.id,
+          moduleTypeName: this.props.typeName,
+          telemetryContent: this.telemetryContent
+        }) : null;
+      });
+      return {
+        RefineMenuContainer: {
+          className: 'ms-search-result-container__refine-menu'
+        },
+        RefinerSectionContainer: {
+          className: 'ms-search-result-container__refiner-section'
+        },
+        refiners: subMenus
+      };
+    };
+
+    this._getChoiceSummary = () => {
+      const {
+        resources,
+        data,
+        telemetry
+      } = this.props;
+      const selectedRefiners = data.listPageState.result && data.listPageState.result.activeFilters || [];
+      return /*#__PURE__*/external_React_["createElement"](choice_summary["default"], {
+        classNames: 'ms-choice-summary-by-category',
+        clearAllText: resources.clearAllText,
+        label: resources.choiceSummaryLabel,
+        selectedChoices: selectedRefiners,
+        // @ts-ignore: NOTE Type-unsafe line below, null refinersByCategoryHierarchy case not handled
+        refinerHierarchy: data.refiners.result,
+        choiceFormat: resources.choiceFormat,
+        choiceRangeValueFormat: resources.choiceRangeValueFormat,
+        telemetry: telemetry,
+        onChoiceClicked: this._onChoiceClicked,
+        urlBuilder: this._buildRefinerUrlForChoiceSummary,
+        choiceAriaLabel: resources.choiceAriaLabel,
+        telemetryContent: this.telemetryContent
+      });
+    };
+
+    this._updateSortByDropdown = notification => {
+      const {
+        context
+      } = this.props;
+      const requestContext = context && context.request;
+      const actionContext = context && context.actionContext;
+
+      if (!requestContext || !actionContext || !this.props.data.listPageState.result) {
+        const error = "[sort-by-category] cannot sort without context: ".concat(!requestContext ? 'requestContext ' : '', " ").concat(!actionContext ? 'actionContext ' : '', " could not be found");
+        this.props.telemetry.warning(error);
+      }
+
+      window.history.pushState({}, '', Object(url_utils["buildListPageUrl"])(Object(url_utils["getCurrentUrl"])(this.props.context.request), undefined, [this._getSortColumnFromSelectedOption(notification.selectedOption)], undefined));
+      Object(mobx_module["transaction"])(() => {
+        this.props.data.listPageState.result.currentPageNumber = 0;
+        this.props.data.listPageState.result.sortingCritera = {
+          Columns: [this._getSortColumnFromSelectedOption(notification.selectedOption)]
+        };
+      });
+    };
+
+    this._getSortColumnFromSelectedOption = option => {
+      const {
+        data
+      } = this.props;
+
+      if (!data.searchConfiguration.result) {
+        return {};
+      }
+
+      const mappedConfiguration = data.searchConfiguration.result.find(searchConfiguration => {
+        return searchConfiguration.key === option.key;
+      });
+
+      if (mappedConfiguration) {
+        return mappedConfiguration.sortColumn;
+      }
+
+      return {};
+    };
+
+    this._getCurrentlySelectedOption = () => {
+      const {
+        data
+      } = this.props;
+      const sortCriteria = data.listPageState.result && data.listPageState.result.sortingCritera;
+      const activeSortColumn = sortCriteria && sortCriteria.Columns && sortCriteria.Columns[0] || (Object(url_utils["parseQueryParam"])('sorting', this.props.context.request) || [])[0];
+
+      if (activeSortColumn && data.searchConfiguration.result) {
+        const activeMappedConfig = data.searchConfiguration.result.find(mappedSearchConfig => {
+          return mappedSearchConfig.sortColumn.ColumnName === activeSortColumn.ColumnName && mappedSearchConfig.sortColumn.IsDescending === activeSortColumn.IsDescending;
+        });
+
+        if (activeMappedConfig) {
+          return this.sortByDropdownOptions.find(dropdownOption => dropdownOption.key === activeMappedConfig.key);
+        }
+      }
+
+      return;
+    };
+
+    this._onUpdateRefiners = itemToggleNotification => {
+      const {
+        context
+      } = this.props;
+      const requestContext = context && context.request;
+      const actionContext = context && context.actionContext;
+
+      if (!requestContext || !actionContext || !this.props.data.listPageState.result) {
+        const error = "Refine menu cannot refine search criteria: ".concat(!requestContext ? 'requestContext ' : '', " ").concat(!actionContext ? 'actionContext ' : '', " could not be found");
+        this.props.telemetry.warning(error);
+      }
+
+      const updatedRefinementCriteria = Object(components["getUpdatedRefinementCriteria"])(itemToggleNotification, this.props.data.listPageState.result && this.props.data.listPageState.result.activeFilters || []);
+      window.history.pushState({}, '', Object(url_utils["buildListPageUrl"])(Object(url_utils["getCurrentUrl"])(this.props.context.request), updatedRefinementCriteria));
+      Object(mobx_module["transaction"])(() => {
+        this.props.data.listPageState.result.currentPageNumber = 0;
+        this.props.data.listPageState.result.activeFilters = updatedRefinementCriteria;
+      });
+    };
+
+    this._buildRefinerUrl = itemToggleNotification => {
+      if (this.props.data.listPageState.result) {
+        const newRefinementCriteria = Object(components["getUpdatedRefinementCriteria"])(itemToggleNotification, this.props.data.listPageState.result.activeFilters || []);
+        return Object(url_utils["buildListPageUrl"])(Object(url_utils["getCurrentUrl"])(this.props.context.request), newRefinementCriteria);
+      } else {
+        this.props.telemetry.warning("[buildRefinerQueryString]List Page State Not available, unable to build refiner URL");
+        return '';
+      }
+    };
+
+    this._onChoiceClicked = notification => {
+      const {
+        data,
+        telemetry
+      } = this.props;
+
+      if (!data.listPageState.result) {
+        telemetry.warning('[choice-summary-by-category._onChoiceClicked]ListPageState unavailable, unable to update refiners.');
+        return;
+      }
+
+      let currentRefinementCriteria = data.listPageState.result && data.listPageState.result.activeFilters || [];
+
+      if (!notification.clearAll) {
+        const selectedChoice = notification.choiceClicked;
+
+        if (!selectedChoice) {
+          telemetry.warning('[choice-summary-by-category._onChoiceClicked] Choice could not be determined');
+          return;
+        }
+
+        currentRefinementCriteria = currentRefinementCriteria.filter(selectedCriterion => !Object(components["isMatchingRefinementCriterion"])(selectedChoice, selectedCriterion));
+      } else {
+        currentRefinementCriteria = []; // set focus to sort and filter
+
+        const dropdownElementId = this._sortAndFilterContainerRef.current && this._sortAndFilterContainerRef.current.props.dropdownId;
+        const dropdownElement = dropdownElementId && document.getElementById(dropdownElementId);
+        setTimeout(() => {
+          dropdownElement && dropdownElement.focus();
+        }, 50);
+      }
+
+      const fullUrl = Object(url_utils["getCurrentUrl"])(this.props.context.request);
+      window.history.pushState({}, '', Object(url_utils["buildListPageUrl"])(fullUrl, currentRefinementCriteria));
+      data.listPageState.result.currentPageNumber = 0;
+      data.listPageState.result.activeFilters = currentRefinementCriteria;
+    };
+
+    this._buildRefinerUrlForChoiceSummary = (selectedRefiner, isClearAll) => {
+      const {
+        data,
+        telemetry
+      } = this.props;
+      const fullUrl = Object(url_utils["getCurrentUrl"])(this.props.context.request);
+
+      if (!data.listPageState.result) {
+        telemetry.warning('[choice-summary-by-category._buildRefinerUrl]ListPageState unavailable, unable to create refiner URL.');
+        return fullUrl.href;
+      }
+
+      let currentRefinementCriteria = data.listPageState.result && data.listPageState.result.activeFilters || [];
+
+      if (!isClearAll) {
+        if (!selectedRefiner) {
+          telemetry.warning('[choice-summary-by-category._buildRefinerUrl] URL for Choice could not be determined');
+          return fullUrl.href;
+        }
+
+        currentRefinementCriteria = currentRefinementCriteria.filter(selectedCriterion => !Object(components["isMatchingRefinementCriterion"])(selectedRefiner, selectedCriterion));
+      } else {
+        currentRefinementCriteria = [];
+      }
+
+      return Object(url_utils["buildListPageUrl"])(fullUrl, currentRefinementCriteria);
+    };
+
+    this._getexpandRefinerCount = refinerCount => {
+      switch (refinerCount) {
+        case expandRefinersCount.all:
+          this.expandrefinerCount = 0;
+          break;
+
+        case expandRefinersCount.one:
+          this.expandrefinerCount = 1;
+          break;
+
+        case expandRefinersCount.two:
+          this.expandrefinerCount = 2;
+          break;
+
+        case expandRefinersCount.three:
+          this.expandrefinerCount = 3;
+          break;
+
+        case expandRefinersCount.four:
+          this.expandrefinerCount = 4;
+          break;
+
+        default:
+          this.expandrefinerCount = 0;
+      }
+    };
+
+    this._viewport = props.context.request && props.context.request.device && props.context.request.device.Type === 'Mobile' ? 'xs' : 'lg';
+    this._modalToggleRef = /*#__PURE__*/external_React_["createRef"]();
+    this._sortAndFilterContainerRef = /*#__PURE__*/external_React_["createRef"]();
+    this._toggleModal = this._toggleModal.bind(this);
+    this._updateViewport = this._updateViewport.bind(this);
+    this.state = {
+      sortingState: {
+        pending: false,
+        selectedSortByOption: this.sortByDropdownOptions[0]
+      },
+      modalIsOpen: false
+    };
+    const {
+      placeholderTextMax,
+      minLabel,
+      maxLabel,
+      rangeNameFormat
+    } = this.props.resources;
+    const locale = this.props.context.request.locale;
+    const telemetry = this.props.telemetry;
+    const validationErrorNaN = this.props.resources.validationErrorNotNumber;
+    const validationErrorRange = this.props.resources.validationErrorNotRange;
+    this._refineItemCommonProps = {
+      telemetry,
+      locale,
+      placeholderTextMax,
+      minLabel,
+      maxLabel,
+      rangeNameFormat,
+      validationErrorNaN,
+      validationErrorRange
+    };
+    this.telemetryContent = Object(lib["getTelemetryObject"])(this.props.context.request.telemetryPageName, this.props.friendlyName, this.props.telemetry); // Initalization of list page
+
+    this.props.data.products.then(products => {
+      this.props.data.listPageState.then(listPageState => {
+        if (this._pageType === 'Category') {
+          listPageState.pageType = 'Category';
+        } else {
+          listPageState.pageType = 'Search';
+        }
+
+        let querySorting = [];
+
+        if (this.props.context.request.query && this.props.context.request.query.sorting) {
+          querySorting = JSON.parse(decodeURIComponent(this.props.context.request.query.sorting));
+        }
+
+        listPageState.currentPageNumber = this.props.context.request.query && +this.props.context.request.query.skip / (this.props.config.itemsPerPage || 10) || 0;
+        listPageState.sortingCritera = {
+          Columns: querySorting
+        };
+        listPageState.pageSize = this.props.config.itemsPerPage || 10;
+        listPageState.activeProducts = products.products;
+        listPageState.totalProductCount = products.count; // Initialize reaction based on listPageState properties
+
+        Object(mobx_module["reaction"])(() => {
+          return [listPageState.activeFilters && listPageState.activeFilters.length, listPageState.currentPageNumber, listPageState.sortingCritera && listPageState.sortingCritera.Columns && listPageState.sortingCritera.Columns.length];
+        }, () => {
+          var _this$props$context$r;
+
+          const input = new get_full_products_by_collection["GetFullProductsByCollectionInput"](listPageState.pageType, this.props.context.request.apiSettings, {
+            Paging: {
+              Top: this.props.config.itemsPerPage,
+              Skip: Math.max(listPageState.pageSize * (listPageState.currentPageNumber || 0), 0)
+            },
+            count: true,
+            Sorting: listPageState.sortingCritera || {}
+          }, listPageState.activeFilters || [], +(this.props.context.request.urlTokens.itemId || 0), this.props.context.request.query && this.props.context.request.query.q ? this.props.context.request.query.q : (_this$props$context$r = this.props.context.request.query) === null || _this$props$context$r === void 0 ? void 0 : _this$props$context$r.productId, this.props && this.props.config && this.props.config.includeAttributes !== undefined && this.props.config.includeAttributes === true ? true : false, this.props.context.request.locale);
+          Object(get_full_products_by_collection["default"])(input, this.props.context.actionContext).then(productResults => {
+            listPageState.activeProducts = productResults.products;
+            listPageState.totalProductCount = productResults.count;
+          });
+        });
+      });
+    });
+
+    if ((_this$props$context$r2 = this.props.context.request.query) !== null && _this$props$context$r2 !== void 0 && _this$props$context$r2.productId) {
+      this.props.data.featureProduct.then(products => {
+        this.props.data.listPageState.then(listPageStateFeature => {
+          listPageStateFeature.featureProduct = products;
+        });
+      });
+    }
+
+    this._updateViewport();
+  }
+
+  get isMobile() {
+    return this._viewport === 'xs' || this._viewport === 'sm';
+  }
+
+  static getFriendlyName(locale, nameTranslations) {
+    let nameTranslation;
+
+    if (locale && nameTranslations && nameTranslations.length > 0) {
+      nameTranslation = nameTranslations.find(item => item.Language.toLowerCase() === locale.toLowerCase());
+    }
+
+    return nameTranslation && nameTranslation.Text;
+  }
+
+  componentDidMount() {
+    if (dist_lib["default"].isBrowser && window.addEventListener) {
+      window.addEventListener('resize', this._updateViewport);
+
+      this._updateViewport();
+    }
+  }
+
+  componentWillUnmount() {
+    if (dist_lib["default"].isBrowser && window.removeEventListener) {
+      window.removeEventListener('resize', this._updateViewport);
+    }
+  }
+
+  render() {
+    const {
+      imageSettings,
+      className,
+      allowBackNavigation
+    } = this.props.config;
+    const {
+      resources
+    } = this.props;
+    const products = this.props.data.listPageState.result && this.props.data.listPageState.result.activeProducts || [];
+    const searchProduct = this.props.data.listPageState.result && this.props.data.listPageState.result.featureProduct || null;
+    let errorText = '';
+    const breaCrumbType = this.props.context.app.config.breadcrumbType;
+    const allowBack = allowBackNavigation && (breaCrumbType === 'back' || breaCrumbType === 'categoryAndBack');
+
+    if (!products || products.length === 0) {
+      errorText = this._pageType === 'Category' ? resources.resultCategoryNotFoundText : resources.resultSearchNotFoundText;
+    }
+
+    const productsComponent = /*#__PURE__*/external_React_["createElement"](components["ProductSearchResultItems"], {
+      products: products,
+      context: this.props.context,
+      imageSettings: imageSettings,
+      resources: resources,
+      moduleType: this.props.typeName,
+      moduleId: this.props.id,
+      allowBackNavigation: allowBack,
+      telemetryContent: this.telemetryContent
+    });
+    const featureComponent = /*#__PURE__*/external_React_["createElement"](components["FeatureSearchResultItem"], {
+      product: searchProduct,
+      context: this.props.context,
+      imageSettings: imageSettings,
+      resources: resources,
+      moduleType: this.props.typeName,
+      moduleId: this.props.id,
+      telemetryContent: this.telemetryContent
+    });
+
+    const searchResultContainerViewProps = _objectSpread(_objectSpread({}, this.props), {}, {
+      products: productsComponent,
+      TitleViewProps: this._getCollectionTitle(),
+      categoryHierarchy: !this.props.config.disableHierarchy && this._getCategoryHierarchy(),
+      refineMenu: this._getRefineMenu(),
+      className: classnames_default()('ms-search-result-container', className),
+      SearchResultContainer: {
+        moduleProps: this.props,
+        className: classnames_default()('ms-search-result-container', className)
+      },
+      sortByOptions: this.props.data.listPageState.result && this.props.data.listPageState.result.totalProductCount !== 0 ? this._getSortingDropDown() : null,
+      pagination: this._getPagination(),
+      ProductsContainer: {
+        className: 'ms-search-result-container__Products'
+      },
+      ProductSectionContainer: {
+        className: 'ms-search-result-container__product-section'
+      },
+      CategoryNavContainer: {
+        className: 'ms-search-result-container__category-nav-section'
+      },
+      RefineAndProductSectionContainer: {
+        className: 'ms-search-result-container__refine-product-section'
+      },
+      choiceSummary: this._getChoiceSummary(),
+      modalToggle: this.props.data.listPageState.result && this.props.data.listPageState.result.totalProductCount !== 0 ? /*#__PURE__*/external_React_["createElement"](components["ModalToggle"], {
+        text: resources.modalTitle,
+        ariaLabel: resources.modalTitle,
+        innerRef: this._modalToggleRef,
+        onClick: this._toggleModal,
+        id: 'search-result-modal'
+      }) : null,
+      searchResultModal: this._getSearchResultModal(),
+      isMobile: this.isMobile,
+      errorMessage: errorText && /*#__PURE__*/external_React_["createElement"](components["ErrorMessage"], {
+        text: errorText
+      }),
+      FeatureSearchContainer: {
+        className: 'ms-feature-search-result'
+      },
+      similarLookProduct: this.props.data.listPageState.result && this.props.data.listPageState.result.featureProduct !== null && this.props.data.listPageState.result.featureProduct !== undefined ? featureComponent : null
+    });
+
+    return this.props.renderView(searchResultContainerViewProps);
+  }
+
+  _getViewport() {
+    const {
+      context
+    } = this.props; // always render in mobile viewport on a mobile device
+
+    if (context.request && context.request.device && context.request.device.Type === 'Mobile') {
+      return 'xs';
+    }
+
+    if (dist_lib["default"].isBrowser && window.innerWidth) {
+      const gridSettings = context.request.gridSettings;
+
+      if (gridSettings) {
+        if (gridSettings.xs && window.innerWidth <= gridSettings.xs.w) {
+          return 'xs';
+        } else if (gridSettings.sm && window.innerWidth <= gridSettings.sm.w) {
+          return 'sm';
+        } else if (gridSettings.md && window.innerWidth <= gridSettings.md.w) {
+          return 'md';
+        } else if (gridSettings.lg && window.innerWidth <= gridSettings.lg.w) {
+          return 'lg';
+        } else {
+          return 'xl';
+        }
+      }
+    }
+
+    return 'lg';
+  }
+
+  _toggleModal() {
+    this.setState({
+      modalIsOpen: !this.state.modalIsOpen
+    });
+  }
+
+  _updateViewport() {
+    this._viewport = this._getViewport();
+
+    if (this.state.modalIsOpen && !this.isMobile) {
+      this._toggleModal();
+    }
+  }
+
+};
+
+Object(tslib_es6["__decorate"])([mobx_module["computed"]], search_result_container_SearchResultContainer.prototype, "isMobile", null);
+
+Object(tslib_es6["__decorate"])([mobx_module["observable"]], search_result_container_SearchResultContainer.prototype, "_viewport", void 0);
+
+search_result_container_SearchResultContainer = SearchResultContainer_1 = Object(tslib_es6["__decorate"])([index_module["observer"]], search_result_container_SearchResultContainer);
+/* harmony default export */ var search_result_container = __webpack_exports__["default"] = (search_result_container_SearchResultContainer);
+
+/***/ }),
+
+/***/ "./src/modules/search-result-container/search-result-container.view.tsx":
+/*!******************************************************************************!*\
+  !*** ./src/modules/search-result-container/search-result-container.view.tsx ***!
+  \******************************************************************************/
+/*! exports provided: default */
+/*! ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: ./lib/view-registration.js (referenced with import() eager, require.resolve) */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var core_js_modules_es_object_assign_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! core-js/modules/es.object.assign.js */ "./node_modules/@msdyn365-commerce/bootloader/node_modules/core-js/modules/es.object.assign.js");
+/* harmony import */ var core_js_modules_es_object_assign_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_object_assign_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _msdyn365_commerce_modules_utilities__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @msdyn365-commerce-modules/utilities */ "./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/index.js");
+/* harmony import */ var _msdyn365_commerce_modules_utilities__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_msdyn365_commerce_modules_utilities__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
+
+
+/* tslint:disable: no-duplicate-imports */
+
+
+
+const SearchResultContainerView = props => {
+  const {
+    SearchResultContainer,
+    products,
+    pagination,
+    ProductsContainer,
+    ProductSectionContainer,
+    choiceSummary,
+    isMobile,
+    modalToggle,
+    searchResultModal,
+    TitleViewProps,
+    refineMenu,
+    categoryHierarchy,
+    sortByOptions,
+    CategoryNavContainer,
+    RefineAndProductSectionContainer,
+    errorMessage,
+    FeatureSearchContainer,
+    similarLookProduct
+  } = props;
+
+  if (isMobile) {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"](_msdyn365_commerce_modules_utilities__WEBPACK_IMPORTED_MODULE_1__["Module"], Object.assign({}, SearchResultContainer), renderCategoryHierarchy(categoryHierarchy), renderTitle(TitleViewProps), choiceSummary, modalToggle, createSearchResultModal(searchResultModal, refineMenu, sortByOptions), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"](_msdyn365_commerce_modules_utilities__WEBPACK_IMPORTED_MODULE_1__["Node"], Object.assign({}, FeatureSearchContainer), similarLookProduct), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"](_msdyn365_commerce_modules_utilities__WEBPACK_IMPORTED_MODULE_1__["Node"], Object.assign({}, ProductsContainer), errorMessage, products), pagination);
+  }
+
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"](_msdyn365_commerce_modules_utilities__WEBPACK_IMPORTED_MODULE_1__["Module"], Object.assign({}, SearchResultContainer), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"](_msdyn365_commerce_modules_utilities__WEBPACK_IMPORTED_MODULE_1__["Node"], Object.assign({}, CategoryNavContainer), categoryHierarchy && renderCategoryHierarchy(categoryHierarchy), TitleViewProps && renderTitleCount(TitleViewProps)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"](_msdyn365_commerce_modules_utilities__WEBPACK_IMPORTED_MODULE_1__["Node"], Object.assign({}, RefineAndProductSectionContainer), refineMenu && renderRefiner(refineMenu), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"](_msdyn365_commerce_modules_utilities__WEBPACK_IMPORTED_MODULE_1__["Node"], Object.assign({}, ProductSectionContainer), TitleViewProps && renderTitle(TitleViewProps), choiceSummary, sortByOptions && renderSort(sortByOptions), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"](_msdyn365_commerce_modules_utilities__WEBPACK_IMPORTED_MODULE_1__["Node"], Object.assign({}, FeatureSearchContainer), similarLookProduct), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"](_msdyn365_commerce_modules_utilities__WEBPACK_IMPORTED_MODULE_1__["Node"], Object.assign({}, ProductsContainer), errorMessage, products), pagination)));
+};
+
+const createSearchResultModal = (modalProps, refineMenu, sortByDropDown) => {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["cloneElement"](modalProps.modal, {}, modalProps.modalHeader, createModalBody(modalProps, refineMenu, sortByDropDown), modalProps.modalFooter);
+};
+
+const createModalBody = (props, refineMenu, sortByDropDown) => {
+  if (sortByDropDown) {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["cloneElement"](props.modalBody, {}, renderSort(sortByDropDown), renderRefiner(refineMenu));
+  }
+
+  return null;
+};
+
+const renderRefiner = props => {
+  const {
+    refiners,
+    RefineMenuContainer,
+    RefinerSectionContainer
+  } = props;
+
+  if (refiners) {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"](_msdyn365_commerce_modules_utilities__WEBPACK_IMPORTED_MODULE_1__["Node"], Object.assign({}, RefinerSectionContainer), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"](_msdyn365_commerce_modules_utilities__WEBPACK_IMPORTED_MODULE_1__["Node"], Object.assign({}, RefineMenuContainer), refiners.map((submenu, index) => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"](react__WEBPACK_IMPORTED_MODULE_2__["Fragment"], {
+      key: index
+    }, submenu))));
+  }
+
+  return null;
+};
+
+const renderSort = props => {
+  const {
+    SortingContainer,
+    sortByDropDown
+  } = props;
+
+  if (sortByDropDown) {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"](_msdyn365_commerce_modules_utilities__WEBPACK_IMPORTED_MODULE_1__["Node"], Object.assign({}, SortingContainer), sortByDropDown);
+  }
+
+  return null;
+};
+
+const renderCategoryHierarchy = props => {
+  const {
+    CategoryHierarchyContainer,
+    categoryHierarchyList,
+    categoryHierarchySeparator
+  } = props;
+
+  if (categoryHierarchyList) {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"](_msdyn365_commerce_modules_utilities__WEBPACK_IMPORTED_MODULE_1__["Node"], Object.assign({}, CategoryHierarchyContainer), categoryHierarchyList.map((category, index) => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"](react__WEBPACK_IMPORTED_MODULE_2__["Fragment"], {
+      key: index
+    }, category, categoryHierarchyList && categoryHierarchyList[index + 1] && categoryHierarchySeparator)));
+  }
+
+  return null;
+};
+
+const renderTitle = props => {
+  const {
+    title,
+    TitleContainer
+  } = props;
+
+  if (title) {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"](_msdyn365_commerce_modules_utilities__WEBPACK_IMPORTED_MODULE_1__["Node"], Object.assign({}, TitleContainer), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"]("h2", null, title.titlePrefix, title.titleText));
+  }
+
+  return null;
+};
+
+const renderTitleCount = props => {
+  const {
+    title,
+    TitleContainer
+  } = props;
+
+  if (title) {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"](_msdyn365_commerce_modules_utilities__WEBPACK_IMPORTED_MODULE_1__["Node"], Object.assign({}, TitleContainer), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"]("h5", null, title.titleCount));
+  }
+
+  return null;
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (SearchResultContainerView);
+
+/***/ }),
+
+/***/ "./src/modules/search/search.tsx":
+/*!***************************************************!*\
+  !*** ./src/modules/search/search.tsx + 7 modules ***!
+  \***************************************************/
+/*! exports provided: default */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/index.js (<- Module is referenced from these modules with unsupported syntax: ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/popup/Popup.js (referenced with cjs require)) */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@msdyn365-commerce-modules/search-utilities/dist/lib/index.js because of ./node_modules/@msdyn365-commerce-modules/search/dist/lib/modules/search/search.js */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/index.js (<- Module is not an ECMAScript module) */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@msdyn365-commerce/components/dist/lib/index.js */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@msdyn365-commerce/core/dist/lib/index.js (<- Module is referenced from these modules with unsupported syntax: ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/back-to-top/BackToTop.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/common/telemetryHelper.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/drawer/ControlledDrawer.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/popup/Popup.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/slider/Slider.js (referenced with cjs require)) */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@msdyn365-commerce/retail-proxy/dist/DataActions/ProductsDataActions.g.js */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@msdyn365-commerce/retail-proxy/dist/DataActions/StoreOperationsDataActions.g.js */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@babel/runtime/helpers/esm/defineProperty.js */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/classnames/index.js (<- Module is not an ECMAScript module) */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/lodash/debounce.js (<- Module is not an ECMAScript module) */
+/*! ModuleConcatenation bailout: Cannot concat with external "React" (<- Module is not an ECMAScript module) */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+// ESM COMPAT FLAG
+__webpack_require__.r(__webpack_exports__);
+
+// EXTERNAL MODULE: ./node_modules/@msdyn365-commerce/bootloader/node_modules/core-js/modules/es.promise.js
+var es_promise = __webpack_require__("./node_modules/@msdyn365-commerce/bootloader/node_modules/core-js/modules/es.promise.js");
+
+// EXTERNAL MODULE: ./node_modules/@msdyn365-commerce/bootloader/node_modules/core-js/modules/web.dom-collections.for-each.js
+var web_dom_collections_for_each = __webpack_require__("./node_modules/@msdyn365-commerce/bootloader/node_modules/core-js/modules/web.dom-collections.for-each.js");
+
+// EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/defineProperty.js
+var defineProperty = __webpack_require__("./node_modules/@babel/runtime/helpers/esm/defineProperty.js");
+
+// EXTERNAL MODULE: ./node_modules/lodash/debounce.js
+var debounce = __webpack_require__("./node_modules/lodash/debounce.js");
+var debounce_default = /*#__PURE__*/__webpack_require__.n(debounce);
+
+// EXTERNAL MODULE: ./node_modules/@msdyn365-commerce-modules/search-utilities/dist/lib/index.js + 1 modules
+var lib = __webpack_require__("./node_modules/@msdyn365-commerce-modules/search-utilities/dist/lib/index.js");
+
+// EXTERNAL MODULE: ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/index.js
+var dist_lib = __webpack_require__("./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/index.js");
+
+// EXTERNAL MODULE: ./node_modules/@msdyn365-commerce/core/dist/lib/index.js
+var core_dist_lib = __webpack_require__("./node_modules/@msdyn365-commerce/core/dist/lib/index.js");
+
+// EXTERNAL MODULE: ./node_modules/@msdyn365-commerce/retail-proxy/dist/DataActions/ProductsDataActions.g.js
+var ProductsDataActions_g = __webpack_require__("./node_modules/@msdyn365-commerce/retail-proxy/dist/DataActions/ProductsDataActions.g.js");
+
+// EXTERNAL MODULE: ./node_modules/classnames/index.js
+var classnames = __webpack_require__("./node_modules/classnames/index.js");
+var classnames_default = /*#__PURE__*/__webpack_require__.n(classnames);
+
+// EXTERNAL MODULE: external "React"
+var external_React_ = __webpack_require__("react");
+
+// EXTERNAL MODULE: ./node_modules/@msdyn365-commerce/bootloader/node_modules/core-js/modules/web.dom-collections.iterator.js
+var web_dom_collections_iterator = __webpack_require__("./node_modules/@msdyn365-commerce/bootloader/node_modules/core-js/modules/web.dom-collections.iterator.js");
+
+// EXTERNAL MODULE: ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/index.js + 38 modules
+var retail_actions_dist_lib = __webpack_require__("./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/index.js");
+
+// EXTERNAL MODULE: ./node_modules/@msdyn365-commerce/retail-proxy/dist/DataActions/StoreOperationsDataActions.g.js
+var StoreOperationsDataActions_g = __webpack_require__("./node_modules/@msdyn365-commerce/retail-proxy/dist/DataActions/StoreOperationsDataActions.g.js");
+
+// CONCATENATED MODULE: ./src/modules/search/actions/get-auto-suggest-suggestions.ts
+
+
+
+
+ // @ts-ignore
+
+var SuggestionType;
+
+(function (SuggestionType) {
+  SuggestionType["Category"] = "ScopedCategory";
+  SuggestionType["Keyword"] = "Keyword";
+  SuggestionType["Product"] = "Product";
+  SuggestionType["None"] = "None";
+})(SuggestionType || (SuggestionType = {}));
+/**
+ * Input class for auto suggest search input
+ */
+
+
+class AutoSuggestInput {
+  constructor(searchText, top, suggestionType, hitPrefix, hitSuffix) {
+    this.getCacheKey = () => "AutoSuggestSearchSuggestions";
+
+    this.getCacheObjectType = () => 'AutoSuggestSearchSuggestions';
+
+    this.dataCacheType = () => 'none';
+
+    this.searchQuery = searchText;
+    this.topResultsCount = top;
+    this.suggestionType = suggestionType;
+    this.hitPrefix = hitPrefix;
+    this.hitSuffix = hitSuffix;
+  }
+
+}
+
+const createInput = inputData => {
+  return new AutoSuggestInput();
+};
+/**
+ * Calls the Retail API and returns a auto-suggest suggestions
+ */
+
+
+async function getSearchSuggestionsAction(input, ctx) {
+  // If no input is provided fail out
+  if (!input || !input.searchQuery) {
+    throw new Error('[getSearchSuggestionsAction]No valid Input was provided, failing');
+  }
+
+  const autosuggest = {};
+  const autoSuggestPromises = [_getAutoSuggest(input, autosuggest, ctx)];
+  return Promise.all(autoSuggestPromises).then(() => {
+    return autosuggest;
+  });
+}
+
+async function _getAutoSuggest(input, autosuggest, ctx) {
+  const searchCriteria = {
+    ProductSearchCriteria: {
+      SearchCondition: input.searchQuery && input.searchQuery.length > 0 ? input.searchQuery : '',
+      Context: {
+        ChannelId: +ctx.requestContext.apiSettings.channelId,
+        CatalogId: +ctx.requestContext.apiSettings.catalogId
+      }
+    },
+    HitPrefix: input.hitPrefix,
+    HitSuffix: input.hitSuffix,
+    SuggestionType: input.suggestionType
+  };
+  const searchSuggestions = await Object(StoreOperationsDataActions_g["getSearchSuggestionsAsync"])({
+    callerContext: ctx,
+    queryResultSettings: {
+      Paging: {
+        Top: input.topResultsCount
+      }
+    }
+  }, searchCriteria);
+
+  if (searchSuggestions && searchSuggestions.length > 0) {
+    // Generate image url
+    searchSuggestions.map(item => item.ImageUrl = item.ImageUrl ? Object(retail_actions_dist_lib["generateImageUrl"])(item.ImageUrl, ctx.requestContext.apiSettings) : '');
+    autosuggest.AllSearchResults = searchSuggestions;
+  } else {
+    ctx.telemetry.error("[getSearchSuggestionsAction] unable to get availabilites for search with suggestion type ".concat(searchCriteria.SuggestionType));
+  }
+}
+
+/* harmony default export */ var get_auto_suggest_suggestions = (Object(core_dist_lib["createObservableDataAction"])({
+  id: '@msdyn365-commerce-modules/search/get-auto-suggest-suggestions',
+  action: getSearchSuggestionsAction,
+  input: createInput
+}));
+// EXTERNAL MODULE: ./node_modules/@msdyn365-commerce/bootloader/node_modules/core-js/modules/es.object.assign.js
+var es_object_assign = __webpack_require__("./node_modules/@msdyn365-commerce/bootloader/node_modules/core-js/modules/es.object.assign.js");
+
+// EXTERNAL MODULE: ./node_modules/@msdyn365-commerce/bootloader/node_modules/core-js/modules/es.regexp.constructor.js
+var es_regexp_constructor = __webpack_require__("./node_modules/@msdyn365-commerce/bootloader/node_modules/core-js/modules/es.regexp.constructor.js");
+
+// EXTERNAL MODULE: ./node_modules/@msdyn365-commerce/bootloader/node_modules/core-js/modules/es.regexp.to-string.js
+var es_regexp_to_string = __webpack_require__("./node_modules/@msdyn365-commerce/bootloader/node_modules/core-js/modules/es.regexp.to-string.js");
+
+// EXTERNAL MODULE: ./node_modules/@msdyn365-commerce/bootloader/node_modules/core-js/modules/es.string.replace.js
+var es_string_replace = __webpack_require__("./node_modules/@msdyn365-commerce/bootloader/node_modules/core-js/modules/es.string.replace.js");
+
+// CONCATENATED MODULE: ./src/modules/search/components/search.keywordsuggest.tsx
+
+
+
+
+
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+
+
+let search_keywordsuggest_payLoad;
+/**
+ *
+ * KeywordSuggestionsComponent
+ */
+
+const KeywordSuggestionsComponent = props => {
+  const {
+    suggestions,
+    hitPrefix,
+    hitSuffix
+  } = props;
+
+  if (!suggestions) {
+    return undefined;
+  }
+
+  search_keywordsuggest_payLoad = Object(dist_lib["getPayloadObject"])('click', props.telemetryContent, '');
+  const reactNodes = [];
+  suggestions.map(item => {
+    reactNodes.push(_assembleNode(item, hitPrefix, hitSuffix, props));
+  });
+  return {
+    text: reactNodes
+  };
+};
+
+const _assembleNode = (item, hitPrefix, hitSuffix, props) => {
+  const ariaLabel = item.Value && item.Value.replace(new RegExp("[".concat(hitPrefix, "]"), 'gi'), '').replace(new RegExp("[".concat(hitSuffix, "]"), 'gi'), '');
+  search_keywordsuggest_payLoad.contentAction.etext = ariaLabel;
+  const attribute = Object(dist_lib["getTelemetryAttributes"])(props.telemetryContent, search_keywordsuggest_payLoad);
+  return /*#__PURE__*/external_React_["createElement"]("li", {
+    className: 'msc-autoSuggest__keywordResults-item',
+    key: item.Id
+  }, /*#__PURE__*/external_React_["createElement"]("a", Object.assign({
+    "aria-label": ariaLabel,
+    href: _generateLink(item, hitPrefix, hitSuffix, props)
+  }, attribute), _generateLink(item, hitPrefix, hitSuffix, props) && _getHighlightedText(item.Value ? item.Value : '', hitPrefix, hitSuffix)));
+};
+
+const _generateLink = (suggestion, hitPrefix, hitSuffix, props) => {
+  const {
+    searchPageURL,
+    searchQsp
+  } = props;
+  const formattedLink = suggestion.Value.replace(new RegExp("[".concat(hitPrefix, "]"), 'gi'), '').replace(new RegExp("[".concat(hitSuffix, "]"), 'gi'), '');
+  const route = searchPageURL || '';
+  return formattedLink && formattedLink.length > 0 ? "".concat(route).concat(route.indexOf('?') === -1 ? '?' : '&').concat(searchQsp, "=").concat(formattedLink) : route;
+};
+
+const _getHighlightedText = (suggestion, hitPrefix, hitSuffix) => {
+  const formattedText = suggestion.replace(new RegExp("[".concat(hitPrefix, "]"), 'gi'), '<strong>').replace(new RegExp("[".concat(hitSuffix, "]"), 'gi'), '</strong>'); // tslint:disable:react-no-dangerous-html
+
+  return /*#__PURE__*/external_React_["createElement"]("span", {
+    dangerouslySetInnerHTML: Object(core_dist_lib["getRichTextHtml"])(formattedText)
+  });
+};
+// EXTERNAL MODULE: ./node_modules/@msdyn365-commerce/components/dist/lib/index.js + 48 modules
+var components_dist_lib = __webpack_require__("./node_modules/@msdyn365-commerce/components/dist/lib/index.js");
+
+// CONCATENATED MODULE: ./src/modules/search/components/search.productsuggest.tsx
+
+
+
+
+
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
+
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { Object(defineProperty["default"])(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+
+
+
+
+let search_productsuggest_payLoad;
+let search_productsuggest_telemetryContent;
+/**
+ *
+ * ProductSuggestionsComponent
+ */
+
+const ProductSuggestionsComponent = props => {
+  const {
+    suggestions,
+    hitSuffix,
+    hitPrefix,
+    autoSuggestProps: {
+      context: {
+        actionContext
+      },
+      resources: {
+        productSuggestionHeading
+      }
+    },
+    moduleType,
+    moduleId
+  } = props;
+  const reactNodes = [];
+  search_productsuggest_telemetryContent = props.telemetryContent;
+  search_productsuggest_payLoad = Object(dist_lib["getPayloadObject"])('click', props.telemetryContent, '');
+
+  if (!suggestions) {
+    return undefined;
+  }
+
+  suggestions.map(item => {
+    reactNodes.push(search_productsuggest_assembleNode(item, hitPrefix, hitSuffix, actionContext, props, moduleType, moduleId));
+  });
+
+  const titleNode = _renderTitle(productSuggestionHeading);
+
+  return {
+    title: titleNode,
+    items: reactNodes
+  };
+};
+
+const _renderTitle = productSuggestionHeading => {
+  const productAutoSuggestionHeading = productSuggestionHeading ? productSuggestionHeading : 'Go to products';
+  return /*#__PURE__*/external_React_["createElement"]("li", {
+    className: 'msc-autoSuggest__productResults-title'
+  }, productAutoSuggestionHeading);
+};
+
+const search_productsuggest_assembleNode = (item, hitPrefix, hitSuffix, actionContext, props, moduleType, moduleId) => {
+  const altText = item.Value && item.Value.replace(new RegExp("[".concat(hitPrefix, "]"), 'gi'), '').replace(new RegExp("[".concat(hitSuffix, "]"), 'gi'), '');
+  return {
+    text: search_productsuggest_getHighlightedText(item.Value ? item.Value : '', hitPrefix, hitSuffix),
+    thumbnail: _renderThumbnail(item, altText ? altText : '', props),
+    price: item.Id && item.Value3 && item.Value3.Value && item.Value3.Value.DecimalValue && _renderPrice(item.Value3.Value.DecimalValue, item.Value3.Value.DecimalValue, moduleId, moduleType, props),
+    LiProduct: _getLiWrapper(),
+    AProduct: _getAWrapper(item, hitPrefix, hitSuffix, actionContext),
+    id: item.Id
+  };
+};
+
+const _getLiWrapper = () => {
+  return {
+    className: 'msc-autoSuggest__productResults-item',
+    tag: 'li'
+  };
+};
+
+const _getAWrapper = (item, hitPrefix, hitSuffix, actionContext) => {
+  const ariaLabel = item.Value && item.Value.replace(new RegExp("[".concat(hitPrefix, "]"), 'gi'), '').replace(new RegExp("[".concat(hitSuffix, "]"), 'gi'), '');
+  search_productsuggest_payLoad.contentAction.recid = item.Id;
+  const attribute = Object(dist_lib["getTelemetryAttributes"])(search_productsuggest_telemetryContent, search_productsuggest_payLoad);
+  return _objectSpread({
+    className: 'msc-autoSuggest__productResults-item',
+    tag: 'a',
+    'aria-label': ariaLabel,
+    href: search_productsuggest_generateLink(item, hitPrefix, hitSuffix, actionContext)
+  }, attribute);
+};
+
+const search_productsuggest_generateLink = (suggestion, hitPrefix, hitSuffix, actionContext) => {
+  const formattedLink = suggestion.Value.replace(new RegExp("[".concat(hitPrefix, "]"), 'gi'), '').replace(new RegExp("[".concat(hitSuffix, "]"), 'gi'), '');
+  return suggestion.Value && suggestion.Id ? Object(retail_actions_dist_lib["getProductPageUrlSync"])(formattedLink, suggestion.Id, actionContext, undefined) : '';
+};
+
+const search_productsuggest_getHighlightedText = (suggestion, hitPrefix, hitSuffix) => {
+  const formattedText = suggestion.replace(new RegExp("[".concat(hitPrefix, "]"), 'gi'), '<strong>').replace(new RegExp("[".concat(hitSuffix, "]"), 'gi'), '</strong>'); // tslint:disable:react-no-dangerous-html
+
+  return /*#__PURE__*/external_React_["createElement"]("span", {
+    className: 'msc-price msc-autoSuggest__productResults-item-text',
+    dangerouslySetInnerHTML: Object(core_dist_lib["getRichTextHtml"])(formattedText)
+  });
+};
+
+const _renderPrice = (adjustedPrice, basePrice, moduleId, moduleType, props) => {
+  const {
+    autoSuggestProps: {
+      context
+    }
+  } = props;
+  return /*#__PURE__*/external_React_["createElement"](components_dist_lib["PriceComponent"], {
+    id: moduleId,
+    typeName: moduleType,
+    context: context,
+    data: {
+      price: {
+        CustomerContextualPrice: adjustedPrice,
+        BasePrice: basePrice
+      }
+    },
+    className: 'msc-autoSuggest__productResults-item-price'
+  });
+};
+
+const _renderThumbnail = (suggestion, altText, props) => {
+  const {
+    autoSuggestProps: {
+      context: {
+        request: {
+          gridSettings
+        }
+      },
+      config: {
+        imageSettings
+      }
+    }
+  } = props;
+
+  if (!suggestion || !suggestion.ImageUrl) {
+    props.telemetry.error('Search suggestion content is empty, module wont render.');
+    return null;
+  }
+
+  const defaultImageSettings = {
+    viewports: {
+      xs: {
+        q: "w=40&h=40&m=6",
+        w: 0,
+        h: 0
+      },
+      lg: {
+        q: "w=40&h=40&m=6",
+        w: 0,
+        h: 0
+      },
+      xl: {
+        q: "w=40&h=40&m=6",
+        w: 0,
+        h: 0
+      }
+    },
+    lazyload: true
+  };
+  return /*#__PURE__*/external_React_["createElement"](core_dist_lib["Image"], {
+    altText: altText,
+    className: 'msc-autoSuggest__productResults-item-img',
+    src: suggestion.ImageUrl,
+    gridSettings: gridSettings,
+    imageSettings: imageSettings ? imageSettings : defaultImageSettings,
+    loadFailureBehavior: 'hide'
+  });
+};
+// EXTERNAL MODULE: ./node_modules/@msdyn365-commerce/bootloader/node_modules/core-js/modules/es.string.split.js
+var es_string_split = __webpack_require__("./node_modules/@msdyn365-commerce/bootloader/node_modules/core-js/modules/es.string.split.js");
+
+// CONCATENATED MODULE: ./src/modules/search/components/search.categorysuggest.tsx
+
+
+
+
+
+
+
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+
+
+let search_categorysuggest_payLoad;
+/**
+ *
+ * CategorySuggestionsComponent
+ */
+
+const CategorySuggestionsComponent = props => {
+  const {
+    suggestions,
+    searchText,
+    autoSuggestProps: {
+      resources: {
+        categorySuggestionHeading
+      }
+    }
+  } = props;
+
+  if (!suggestions) {
+    return undefined;
+  }
+
+  const reactNodes = [];
+  search_categorysuggest_payLoad = Object(dist_lib["getPayloadObject"])('click', props.telemetryContent, '');
+  suggestions.map(item => {
+    reactNodes.push(search_categorysuggest_assembleNode(item, props));
+  });
+
+  const titleNode = search_categorysuggest_renderTitle(categorySuggestionHeading, searchText);
+
+  return {
+    title: titleNode,
+    text: reactNodes
+  };
+};
+
+const search_categorysuggest_renderTitle = (categorySuggestionHeading, searchText) => {
+  const categoryAutoSuggestionHeading = categorySuggestionHeading ? Object(dist_lib["format"])(categorySuggestionHeading, searchText) : "Search \"".concat(searchText, "\" in categories");
+  return /*#__PURE__*/external_React_["createElement"]("li", {
+    className: 'msc-autoSuggest__categoryResults-title'
+  }, categoryAutoSuggestionHeading);
+};
+
+const search_categorysuggest_assembleNode = (item, props) => {
+  const {
+    searchText,
+    hitPrefix,
+    hitSuffix
+  } = props;
+  const splitValue = item.Value && item.Value.split('|').pop();
+  const ariaLabel = splitValue ? splitValue.replace(new RegExp("[".concat(hitPrefix, "]"), 'gi'), '').replace(new RegExp("[".concat(hitSuffix, "]"), 'gi'), '') : item.Value && item.Value.replace(new RegExp("[".concat(hitPrefix, "]"), 'gi'), '').replace(new RegExp("[".concat(hitSuffix, "]"), 'gi'), '');
+  search_categorysuggest_payLoad.contentAction.etext = item.Value;
+  const attribute = Object(dist_lib["getTelemetryAttributes"])(props.telemetryContent, search_categorysuggest_payLoad);
+  return /*#__PURE__*/external_React_["createElement"]("li", {
+    className: 'msc-autoSuggest__categoryResults-item',
+    key: item.Id
+  }, /*#__PURE__*/external_React_["createElement"]("a", Object.assign({
+    "aria-label": ariaLabel,
+    href: search_categorysuggest_generateLink(item, searchText, props)
+  }, attribute), search_categorysuggest_generateLink(item, searchText, props) && search_categorysuggest_getHighlightedText(item.Value ? item.Value : '', hitPrefix, hitSuffix)));
+};
+
+const search_categorysuggest_generateLink = (suggestion, searchText, props) => {
+  return suggestion && suggestion.Id ? _getCategoryLink(suggestion.Id, searchText, props) : '';
+};
+
+const _getCategoryLink = (id, searchText, props) => {
+  const {
+    searchPageURL,
+    searchQsp,
+    searchRefiners
+  } = props;
+  const route = searchPageURL || '';
+  const urlPath = "".concat(route).concat(route.indexOf('?') === -1 ? '?' : '&').concat(searchQsp, "=").concat(searchText);
+  const categoryRefiners = searchRefiners && searchRefiners.find(refiners => {
+    return refiners.KeyName === 'Category';
+  });
+  const refiner = categoryRefiners && categoryRefiners.Values && categoryRefiners.Values.find(item => {
+    return item.RefinerRecordId === parseInt(id, 10);
+  });
+  const encodedRefiner = refiner && encodeURIComponent(JSON.stringify(compressRefiners([refiner])));
+  return encodedRefiner ? "".concat(urlPath, "&refiners=").concat(encodedRefiner) : urlPath;
+};
+
+const search_categorysuggest_getHighlightedText = (suggestion, hitPrefix, hitSuffix) => {
+  let formattedText = suggestion.replace(new RegExp("[".concat(hitPrefix, "]"), 'gi'), '<strong>').replace(new RegExp("[".concat(hitSuffix, "]"), 'gi'), '</strong>');
+  formattedText = formattedText.split('|').pop() || ''; // tslint:disable:react-no-dangerous-html
+
+  return /*#__PURE__*/external_React_["createElement"]("span", {
+    dangerouslySetInnerHTML: Object(core_dist_lib["getRichTextHtml"])(formattedText)
+  });
+}; // TODO: This code is currently duplicated in categoryautosuggest need to either remove one of these files
+// or move this code to a common place
+
+
+const compressedRefinerKeys = ['DataTypeValue', 'LeftValueBoundString', 'RefinerRecordId', 'RefinerSourceValue', 'RightValueBoundString', 'UnitText'];
+/**
+ * Compressed a list of refiners for use in URLs
+ * @param refiners The uncompressed refiners
+ */
+
+const compressRefiners = refiners => {
+  const compressedRefiners = [];
+  refiners.forEach(refiner => {
+    const compressedRefiner = [];
+    compressedRefinerKeys.forEach(refinerKey => {
+      // @ts-ignore: This line is intentionally not typesafe
+      compressedRefiner.push(refiner[refinerKey]);
+    });
+    compressedRefiners.push(compressedRefiner);
+  });
+  return compressedRefiners;
+};
+// CONCATENATED MODULE: ./src/modules/search/components/search.form.tsx
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+
+const FormComponent = props => {
+  const {
+    searchQsp,
+    searchPlaceholder,
+    hideSearchLabel,
+    isSearchFormExpanded,
+    searchTextInput,
+    handleInputChange,
+    maxChars,
+    disableSubmitSearch,
+    handleCancelSearchChange,
+    query,
+    ariaLabelCancel,
+    ariaLabelSearch,
+    ariaLabelSubmit
+  } = props;
+
+  const onInputChange = e => {
+    handleInputChange(e.target.value || '');
+  };
+
+  const inputNode = !hideSearchLabel ? /*#__PURE__*/external_React_["createElement"]("input", {
+    className: 'ms-search__form-control',
+    type: 'text',
+    "aria-label": isSearchFormExpanded ? 'Search expanded' : 'Search collapsed',
+    name: searchQsp,
+    placeholder: searchPlaceholder,
+    ref: searchTextInput,
+    onChange: onInputChange,
+    maxLength: maxChars,
+    value: query
+  }) : /*#__PURE__*/external_React_["createElement"]("input", {
+    className: 'ms-search__form-control',
+    type: 'text',
+    "aria-label": ariaLabelSearch,
+    name: searchQsp,
+    placeholder: searchPlaceholder,
+    ref: searchTextInput,
+    onChange: onInputChange,
+    value: query
+  });
+  const submitBtnNode = !disableSubmitSearch && /*#__PURE__*/external_React_["createElement"](dist_lib["Button"], {
+    className: 'ms-search__form-submitSearch',
+    "aria-label": ariaLabelSubmit
+  });
+  const cancelBtNoden = /*#__PURE__*/external_React_["createElement"](dist_lib["Button"], {
+    className: !disableSubmitSearch ? 'ms-search__form-cancelSearch' : 'ms-search__form-cancelSearchNoSumbit',
+    "aria-label": ariaLabelCancel,
+    onClick: handleCancelSearchChange,
+    type: 'button'
+  });
+  return {
+    input: inputNode,
+    cancelBtn: cancelBtNoden,
+    submitBtn: submitBtnNode
+  };
+};
+// CONCATENATED MODULE: ./src/modules/search/components/search.label.tsx
+
+
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+
+const LabelComponent = props => {
+  const {
+    searchLabelClass,
+    searchLabelArialLabel,
+    isSearchFormExpanded,
+    searchtext,
+    searchCollapsedLabel,
+    hideSearchLabel,
+    handleCancelSearchChange,
+    telemetryContent
+  } = props;
+  const payLoad = Object(dist_lib["getPayloadObject"])('click', telemetryContent, searchtext, '');
+  const attributes = Object(dist_lib["getTelemetryAttributes"])(telemetryContent, payLoad);
+  return /*#__PURE__*/external_React_["createElement"]("div", {
+    className: searchLabelClass
+  }, /*#__PURE__*/external_React_["createElement"](dist_lib["Button"], Object.assign({
+    className: 'ms-search__icon',
+    "aria-expanded": isSearchFormExpanded,
+    "aria-label": searchLabelArialLabel,
+    onClick: handleCancelSearchChange,
+    innerRef: searchCollapsedLabel
+  }, attributes), !hideSearchLabel && /*#__PURE__*/external_React_["createElement"]("span", {
+    className: 'ms-search__icon-text',
+    "aria-hidden": true
+  }, searchtext)));
+};
+// CONCATENATED MODULE: ./src/modules/search/components/index.ts
+
+
+
+
+
+// CONCATENATED MODULE: ./src/modules/search/search.tsx
+
+
+
+
+
+function search_ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
+
+function search_objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { search_ownKeys(Object(source), true).forEach(function (key) { Object(defineProperty["default"])(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { search_ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+/**
+ *
+ * Search module
+ * @extends {React.Component<ISearchProps<ISearchData>, ISearchState>}
+ */
+
+class search_Search extends external_React_["Component"] {
+  constructor(props) {
+    super(props);
+    this.hitPrefix = '{';
+    this.hitSuffix = '}';
+    this.waitTime = 500; // tslint:disable-next-line:no-any
+
+    this._focusOutTarget = e => {
+      const {
+        suggestions
+      } = this.state;
+
+      if (suggestions && suggestions.AllSearchResults && e.target.closest('.ms-search') === null) {
+        this._clearAutoSuggestState();
+      }
+    };
+
+    this._keyup = e => {
+      const {
+        suggestions
+      } = this.state;
+
+      if (suggestions && suggestions.AllSearchResults && e.keyCode === dist_lib["KeyCodes"].Escape) {
+        this._clearAutoSuggestState();
+      } else if (this.state.isSearchFormExpanded && e.keyCode === dist_lib["KeyCodes"].Escape) {
+        if (this.state.isSearchFormExpanded) {
+          this.setState({
+            isSearchFormExpanded: false
+          });
+        }
+      }
+
+      if (!(this.formReference.current && this.formReference.current.contains(e.target) || this.autoSuggestResultDiv.current && this.autoSuggestResultDiv.current.contains(e.target))) {
+        if (suggestions && suggestions.AllSearchResults) {
+          this._clearAutoSuggestState();
+        }
+
+        if (this.state.isSearchFormExpanded) {
+          this.setState({
+            isSearchFormExpanded: false
+          });
+        }
+      }
+    };
+
+    this._clearAutoSuggestState = () => {
+      const {
+        context: {
+          actionContext
+        },
+        data: {
+          searchState
+        }
+      } = this.props;
+
+      if (this.searchTextInput.current && this.searchTextInput.current.value.length > 0) {
+        searchState.searchText = '';
+        searchState.defaultBasicSearchUrl = '';
+        searchState.searchQueryStringParameter = '';
+        actionContext ? actionContext.update(Object(lib["createSearchStateInput"])(searchState), searchState) : null;
+        this.searchTextInput.current.value = '';
+      }
+
+      this.setState({
+        searchText: '',
+        suggestions: undefined,
+        searchRefiners: undefined
+      });
+    };
+
+    this._handleInputChange = query => {
+      if (!query || query.length < this.maxChars) {
+        this.setState({
+          searchText: query
+        });
+      }
+
+      if (this.cancellabelDebounce) {
+        this.cancellabelDebounce.cancel();
+      }
+
+      const {
+        telemetry,
+        context,
+        data: {
+          searchState
+        }
+      } = this.props;
+
+      if (context) {
+        if (query && query.length > 0) {
+          if (query.length > this.maxChars) {
+            return;
+          }
+
+          this.cancellabelDebounce = debounce_default()(() => {
+            get_auto_suggest_suggestions(new AutoSuggestInput(query, this.topResultsCount, this._getSuggestionType(this.inputSuggestionType), this.hitPrefix, this.hitSuffix), context.actionContext).then(results => {
+              this._getSearchRefiners(query).then(refiners => {
+                this.setState({
+                  suggestions: results,
+                  searchRefiners: refiners,
+                  autoSuggestAriaLabel: this._setAutoSuggestResultCount(results)
+                });
+              }).catch(error => {
+                this.setState({
+                  suggestions: results,
+                  searchRefiners: undefined,
+                  autoSuggestAriaLabel: this._setAutoSuggestResultCount(results)
+                });
+                telemetry.exception(error);
+                telemetry.debug('Unable to get refiners results');
+              });
+            }).catch(error => {
+              this.setState({
+                suggestions: undefined,
+                searchRefiners: undefined,
+                autoSuggestAriaLabel: this._setAutoSuggestResultCount()
+              });
+              telemetry.exception(error);
+              telemetry.debug('Unable to get auto suggest results');
+            });
+          }, this.waitTime);
+          setTimeout(() => {
+            this.cancellabelDebounce();
+          }, 0);
+          searchState.searchText = query;
+        } else {
+          this.setState({
+            suggestions: undefined,
+            searchRefiners: undefined
+          });
+          searchState.searchText = '';
+        }
+
+        context.actionContext.update(Object(lib["createSearchStateInput"])(searchState), searchState);
+      }
+    };
+
+    this._getSuggestionType = suggestionTypes => {
+      if (suggestionTypes && suggestionTypes.length > 0) {
+        const distinctSuggestionTypes = [];
+        suggestionTypes && suggestionTypes.forEach((suggestionTypeItem, index) => {
+          suggestionTypeItem.SuggestionType && distinctSuggestionTypes.push(suggestionTypeItem.SuggestionType.charAt(0).toUpperCase() + suggestionTypeItem.SuggestionType.slice(1));
+        });
+        return distinctSuggestionTypes.join(',');
+      }
+
+      return 'Keyword, Product, ScopedCategory';
+    };
+
+    this._handleSubmit = e => {
+      const {
+        config: {
+          disableSubmitSearch
+        },
+        context: {
+          actionContext,
+          app: {
+            config: {
+              searchQueryStringParameter
+            }
+          }
+        }
+      } = this.props;
+      const query = this.searchTextInput.current && this.searchTextInput.current.value;
+      e.preventDefault();
+
+      if (!query || query && query.length === 0 || disableSubmitSearch) {
+        this.searchTextInput && this.searchTextInput.current && this.searchTextInput.current.focus();
+      } else {
+        const searchQsp = searchQueryStringParameter || 'q';
+
+        const searchURL = this._appendQueryParams(Object(core_dist_lib["getUrlSync"])('search', actionContext) || '', query, searchQsp);
+
+        document.location.href = searchURL;
+      }
+    };
+
+    this._handleCancelSearchChange = () => {
+      const {
+        isSearchFormExpanded,
+        suggestions
+      } = this.state;
+
+      if (!isSearchFormExpanded) {
+        this.setState({
+          isSearchFormExpanded: true,
+          searchText: '',
+          isInitialState: false
+        });
+      } else {
+        if (suggestions && suggestions.AllSearchResults) {
+          this._clearAutoSuggestState();
+        }
+
+        this.setState({
+          isSearchFormExpanded: false
+        });
+      }
+    };
+
+    this._appendQueryParams = (route, query, qsp) => {
+      if (route && route.length > 0) {
+        return query && query.length > 0 ? "".concat(route).concat(route.indexOf('?') === -1 ? '?' : '&').concat(qsp, "=").concat(query) : route;
+      }
+
+      return '';
+    };
+
+    this._setAutoSuggestResultCount = result => {
+      if (this.autoSuggestResultScreenReaderDiv.current !== null) {
+        const ariaLiveRegion = this.autoSuggestResultScreenReaderDiv.current;
+        const suggestResultString = this.props.resources.autoSuggestFoundMessage;
+        const emptyResultString = this.props.resources.noAutoSuggestionMessage;
+        ariaLiveRegion.innerText = result && result.AllSearchResults && result.AllSearchResults.length > 0 ? suggestResultString : emptyResultString;
+        ariaLiveRegion.setAttribute('aria-live', 'assertive');
+        return ariaLiveRegion.innerText;
+      } else {
+        return '';
+      }
+    };
+
+    this.searchTextInput = /*#__PURE__*/external_React_["createRef"]();
+    this.searchCollapsedLabel = /*#__PURE__*/external_React_["createRef"]();
+    this.autoSuggestResultScreenReaderDiv = /*#__PURE__*/external_React_["createRef"]();
+    this.autoSuggestResultDiv = /*#__PURE__*/external_React_["createRef"]();
+    this.formReference = /*#__PURE__*/external_React_["createRef"]();
+    this.state = {
+      isSearchFormExpanded: false,
+      searchText: '',
+      searchKeywordSuggestClass: 'ms-search__autoSuggest__keyword',
+      searchProductSuggestClass: 'ms-search__autoSuggest__product',
+      searchCategorySuggestClass: 'ms-search__autoSuggest__category',
+      suggestions: undefined,
+      searchRefiners: undefined,
+      autoSuggestAriaLabel: '',
+      isInitialState: true
+    };
+    this.maxChars = this.props.context && this.props.context.app && this.props.context.app.config && this.props.context.app.config.searchInputMaxLength || 50;
+    this.inputSuggestionType = this.props.config && this.props.config.suggestionTypeCriterion;
+    this.topResultsCount = this.props.config && this.props.config.topResultsCount ? this.props.config.topResultsCount : 5;
+    this.searchFormClass = 'ms-search__form';
+    this.searchLabelClass = 'ms-search__label';
+    this.telemetryContent = Object(dist_lib["getTelemetryObject"])(this.props.context.request.telemetryPageName, this.props.friendlyName, this.props.telemetry);
+  }
+
+  async componentDidMount() {
+    document.body && document.body.addEventListener('mousedown', this._focusOutTarget);
+    window && window.addEventListener('keyup', this._keyup);
+  }
+
+  componentWillUnmount() {
+    document.body && document.body.removeEventListener('mousedown', this._focusOutTarget, false);
+    window && window.removeEventListener('keyup', this._keyup, false);
+  }
+
+  componentDidUpdate() {
+    const {
+      config: {
+        hideSearchLabel
+      }
+    } = this.props;
+    const {
+      isSearchFormExpanded,
+      isInitialState
+    } = this.state;
+
+    if (!this.props.context.request.params.isEditor) {
+      if (!hideSearchLabel && isSearchFormExpanded) {
+        this.searchTextInput && this.searchTextInput.current && this.searchTextInput.current.focus();
+      } else if (!isInitialState) {
+        this.searchCollapsedLabel && this.searchCollapsedLabel.current && this.searchCollapsedLabel.current.focus();
+      }
+    }
+  } // tslint:disable-next-line: cyclomatic-complexity max-func-body-length
+
+
+  render() {
+    const {
+      context,
+      resources: {
+        searchtext,
+        searchLabelArialLabel,
+        cancelBtnAriaLabel,
+        searchBtnAriaLabel,
+        submitBtnAriaLabel
+      },
+      config: {
+        hideSearchLabel,
+        disableSubmitSearch,
+        searchplaceholderText,
+        className = ''
+      }
+    } = this.props;
+    const {
+      isSearchFormExpanded,
+      searchText,
+      searchKeywordSuggestClass,
+      searchProductSuggestClass,
+      searchCategorySuggestClass,
+      suggestions,
+      searchRefiners
+    } = this.state;
+    const searchQsp = context && context.app && context.app.config && context.app.config.searchQueryStringParameter || 'q';
+    const searchPageURL = Object(core_dist_lib["getUrlSync"])('search', context && context.actionContext) || '';
+
+    const searchURL = this._appendQueryParams(searchPageURL, searchText, searchQsp);
+
+    const searchPlaceholder = searchplaceholderText && searchplaceholderText.length > 0 ? searchplaceholderText : '搜索/品牌/型号';
+    const keywordSuggestions = suggestions && suggestions.AllSearchResults && suggestions.AllSearchResults.filter(i => i.SuggestionType === SuggestionType.Keyword || i.SuggestionType === SuggestionType.None);
+    const productSuggestions = suggestions && suggestions.AllSearchResults && suggestions.AllSearchResults.filter(i => i.SuggestionType === SuggestionType.Product);
+    const categorySuggestions = suggestions && suggestions.AllSearchResults && suggestions.AllSearchResults.filter(i => i.SuggestionType === SuggestionType.Category);
+
+    const viewProps = search_objectSpread(search_objectSpread({}, this.props), {}, {
+      Search: {
+        moduleProps: this.props,
+        className: "".concat(classnames_default()('ms-search', className), " ").concat(disableSubmitSearch ? 'no-submit' : 'with-submit')
+      },
+      AutoSuggestAriaLabel: {
+        tag: 'div',
+        className: 'msc-autoSuggest__screen-reader',
+        'aria-live': 'assertive',
+        ref: this.autoSuggestResultScreenReaderDiv
+      },
+      AutoSuggestAriaLabelText: this.state.autoSuggestAriaLabel,
+      searchText: this.state.searchText,
+      AutoSuggest: {
+        ref: this.autoSuggestResultDiv,
+        className: 'ms-search__autoSuggest'
+      },
+      KeywordSuggest: {
+        className: searchKeywordSuggestClass
+      },
+      ProductSuggest: {
+        className: searchProductSuggestClass
+      },
+      CategorySuggest: {
+        className: searchCategorySuggestClass
+      },
+      SearchForm: {
+        className: "".concat(this.searchFormClass, " ").concat(isSearchFormExpanded ? 'bx-show' : 'bx-hide')
+      },
+      FormWrapper: {
+        tag: 'form',
+        ref: this.formReference,
+        className: 'ms-search__searchForm',
+        'aria-label': 'Search',
+        name: 'searchForm',
+        role: 'Search',
+        action: searchURL,
+        autoComplete: 'off',
+        onSubmit: this._handleSubmit
+      },
+      UlKeyword: {
+        tag: 'ul',
+        className: classnames_default()('msc-autoSuggest__keywordResults-items', className)
+      },
+      UlProduct: {
+        tag: 'ul',
+        className: classnames_default()('msc-autoSuggest__productResults-items', className)
+      },
+      UlCategory: {
+        tag: 'ul',
+        className: classnames_default()('msc-autoSuggest__categoryResults-items', className)
+      },
+      label: LabelComponent({
+        isSearchFormExpanded: isSearchFormExpanded,
+        searchLabelClass: "".concat(this.searchLabelClass, " ").concat(isSearchFormExpanded ? 'bx-hide' : 'bx-show'),
+        searchtext: searchtext,
+        searchLabelArialLabel: searchLabelArialLabel,
+        searchCollapsedLabel: this.searchCollapsedLabel,
+        hideSearchLabel: hideSearchLabel,
+        handleCancelSearchChange: this._handleCancelSearchChange,
+        telemetryContent: this.telemetryContent
+      }),
+      form: FormComponent({
+        ariaLabelCancel: cancelBtnAriaLabel,
+        ariaLabelSearch: searchBtnAriaLabel,
+        ariaLabelSubmit: submitBtnAriaLabel,
+        hideSearchLabel: hideSearchLabel,
+        searchTextInput: this.searchTextInput,
+        isSearchFormExpanded: isSearchFormExpanded,
+        disableSubmitSearch: disableSubmitSearch,
+        handleInputChange: this._handleInputChange,
+        handleCancelSearchChange: this._handleCancelSearchChange,
+        maxChars: this.maxChars,
+        searchQsp: searchQsp,
+        searchPlaceholder: searchPlaceholder,
+        query: searchText
+      }),
+      autosuggestKeyword: searchText && searchText.length > 0 && keywordSuggestions && keywordSuggestions.length > 0 ? KeywordSuggestionsComponent({
+        searchKeywordSuggestClass: searchKeywordSuggestClass,
+        searchPageURL: searchPageURL,
+        searchQsp: searchQsp,
+        hitPrefix: this.hitPrefix,
+        hitSuffix: this.hitSuffix,
+        autoSuggestProps: this.props,
+        searchText: searchText,
+        suggestions: keywordSuggestions,
+        telemetryContent: this.telemetryContent
+      }) : undefined,
+      autosuggestProduct: searchText && searchText.length > 0 && productSuggestions && productSuggestions.length > 0 ? ProductSuggestionsComponent({
+        searchProductSuggestClass: searchProductSuggestClass,
+        searchPageURL: searchPageURL,
+        searchQsp: searchQsp,
+        hitPrefix: this.hitPrefix,
+        hitSuffix: this.hitSuffix,
+        autoSuggestProps: this.props,
+        searchText: searchText,
+        suggestions: productSuggestions,
+        telemetry: this.props.telemetry,
+        moduleType: this.props.typeName,
+        moduleId: this.props.id,
+        telemetryContent: this.telemetryContent
+      }) : undefined,
+      autosuggestCategory: searchText && searchText.length > 0 && categorySuggestions && categorySuggestions.length > 0 ? CategorySuggestionsComponent({
+        searchCategorySuggestClass: searchCategorySuggestClass,
+        searchPageURL: searchPageURL,
+        searchQsp: searchQsp,
+        hitPrefix: this.hitPrefix,
+        hitSuffix: this.hitSuffix,
+        autoSuggestProps: this.props,
+        searchText: searchText,
+        suggestions: categorySuggestions,
+        searchRefiners: searchRefiners,
+        telemetryContent: this.telemetryContent
+      }) : undefined,
+      callbacks: {
+        handleCancelSearchChange: this._handleCancelSearchChange
+      },
+      isSearchFormExpanded: this.state.isSearchFormExpanded
+    });
+
+    return this.props.renderView(viewProps);
+  }
+
+  async _getSearchRefiners(searchText) {
+    const {
+      actionContext: ctx
+    } = this.props.context;
+    return Object(ProductsDataActions_g["getProductSearchRefinersAsync"])({
+      callerContext: ctx
+    }, {
+      SearchCondition: searchText,
+      Context: {
+        ChannelId: +ctx.requestContext.apiSettings.channelId,
+        CatalogId: +ctx.requestContext.apiSettings.catalogId
+      }
+    });
+  }
+
+}
+
+/* harmony default export */ var search = __webpack_exports__["default"] = (search_Search);
+
+/***/ }),
+
+/***/ "./src/modules/search/search.view.tsx":
+/*!********************************************!*\
+  !*** ./src/modules/search/search.view.tsx ***!
+  \********************************************/
+/*! exports provided: default */
+/*! ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: ./lib/view-registration.js (referenced with import() eager, require.resolve) */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var core_js_modules_es_object_assign_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! core-js/modules/es.object.assign.js */ "./node_modules/@msdyn365-commerce/bootloader/node_modules/core-js/modules/es.object.assign.js");
+/* harmony import */ var core_js_modules_es_object_assign_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_object_assign_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _msdyn365_commerce_modules_utilities__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @msdyn365-commerce-modules/utilities */ "./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/index.js");
+/* harmony import */ var _msdyn365_commerce_modules_utilities__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_msdyn365_commerce_modules_utilities__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
+
+
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+
+
+const SearchView = props => {
+  const {
+    Search,
+    AutoSuggestAriaLabel,
+    AutoSuggestAriaLabelText,
+    searchText,
+    AutoSuggest,
+    KeywordSuggest,
+    ProductSuggest,
+    CategorySuggest,
+    UlKeyword,
+    UlProduct,
+    UlCategory,
+    form,
+    autosuggestCategory,
+    autosuggestKeyword,
+    autosuggestProduct,
+    SearchForm,
+    FormWrapper,
+    label
+  } = props;
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"](_msdyn365_commerce_modules_utilities__WEBPACK_IMPORTED_MODULE_1__["Module"], Object.assign({}, Search), label, _renderForm(form, SearchForm, FormWrapper), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"](_msdyn365_commerce_modules_utilities__WEBPACK_IMPORTED_MODULE_1__["Node"], Object.assign({}, AutoSuggest), searchText && searchText.length > 0 ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"](_msdyn365_commerce_modules_utilities__WEBPACK_IMPORTED_MODULE_1__["Node"], Object.assign({}, AutoSuggestAriaLabel), AutoSuggestAriaLabelText) : '', _renderKeywordSuggestions(KeywordSuggest, UlKeyword, autosuggestKeyword), _renderProductSuggestions(ProductSuggest, UlProduct, autosuggestProduct), _renderCategorySuggestions(CategorySuggest, UlCategory, autosuggestCategory)));
+};
+
+const _renderForm = (form, SearchForm, FormWrapper) => {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"](_msdyn365_commerce_modules_utilities__WEBPACK_IMPORTED_MODULE_1__["Node"], Object.assign({}, SearchForm), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"](_msdyn365_commerce_modules_utilities__WEBPACK_IMPORTED_MODULE_1__["Node"], Object.assign({}, FormWrapper), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"]("div", {
+    className: "wkea-header-top-content-input"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"]("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    xmlnsXlink: "http://www.w3.org/1999/xlink",
+    width: "16",
+    height: "16",
+    viewBox: "0 0 16 16"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"]("image", {
+    id: "\u56FE\u50CF_4",
+    "data-name": "\u56FE\u50CF 4",
+    width: "16",
+    height: "16",
+    xlinkHref: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAEKADAAQAAAABAAAAEAAAAAA0VXHyAAAB/ElEQVQ4EY1TQWsTQRR+byZWYxUvepQqCEktNYls0+qh6MWLF/EQUY9eBa+KF0FBpMfSg39AIeJF1IKX4sFoYmzWQ7KptUgRoRUUhKZgk9nn95JuIbE1fjD7Zt73vW9nZ94y9aBYCa6Q0DViOgPKYPwQklnLdnosnSj1yCHbxJv52lCM+RGWp9spphUYrWN+GGOX5iCeyWaGr+s8QtugXF446Gz4DckBYb5LtjkzMTq6Gone+wtZJ26aibOweTmeSZ6PuHYs+kEZW5eSX7vURfQsoMmr7l0luBVRXPKDiyL0lIQfjJ9M3oyInSIM1sANWtcY8DyvaVDcLlr+nLi9U1F3nu/r2tm95zTqKY9hrOZy7DTRD87Ks47GTGpUA0B+dmL/pxXWTwDC/fpUgw2c7BHE/0IYypAKheiTRjXQLcULH6rHNNEPhvjGpuaFRsMc3tGJNfaJxn+h5FdH8O4L0NQmMscXVWuy6ZEq9vMQRBpX+jifF7udSXG+7omYj8otLyZPRJqtVsb9PkdSO0zbdwrEKxQ0iN1RrC/jnHKIeGU4KS37Kx77vZRKpRpbBsoVK3X0gtzT+TZ4iw++Kqa5zq3YCnSBdbtPdRlo0dzclz37DmycDTlE38sgMS/ZlnnteYm68p2fjmaxo2Esv/9loKJ+KBS+xm18rQLdoT+IwK6AmvZBRAAAAABJRU5ErkJggg=="
+  })), form.input, form.submitBtn)));
+};
+
+const _renderKeywordSuggestions = (KeywordSuggest, UlKeyword, keywordSuggestions) => {
+  return keywordSuggestions && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"](_msdyn365_commerce_modules_utilities__WEBPACK_IMPORTED_MODULE_1__["Node"], Object.assign({}, KeywordSuggest), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"](_msdyn365_commerce_modules_utilities__WEBPACK_IMPORTED_MODULE_1__["Node"], Object.assign({}, UlKeyword), keywordSuggestions.text.map(text => {
+    return text;
+  })));
+};
+
+const _renderProductSuggestions = (ProductSuggest, UlProduct, productSuggestions) => {
+  return productSuggestions && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"](_msdyn365_commerce_modules_utilities__WEBPACK_IMPORTED_MODULE_1__["Node"], Object.assign({}, ProductSuggest), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"](_msdyn365_commerce_modules_utilities__WEBPACK_IMPORTED_MODULE_1__["Node"], Object.assign({}, UlProduct), productSuggestions.title, productSuggestions.items.map((item, index) => {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"](_msdyn365_commerce_modules_utilities__WEBPACK_IMPORTED_MODULE_1__["Node"], Object.assign({}, item.LiProduct, {
+      key: item.id || index
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"](_msdyn365_commerce_modules_utilities__WEBPACK_IMPORTED_MODULE_1__["Node"], Object.assign({}, item.AProduct), item.thumbnail, item.text, item.price));
+  })));
+};
+
+const _renderCategorySuggestions = (CategorySuggest, UlCategory, categorySuggestions) => {
+  return categorySuggestions && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"](_msdyn365_commerce_modules_utilities__WEBPACK_IMPORTED_MODULE_1__["Node"], Object.assign({}, CategorySuggest), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"](_msdyn365_commerce_modules_utilities__WEBPACK_IMPORTED_MODULE_1__["Node"], Object.assign({}, UlCategory), categorySuggestions.title, categorySuggestions.text.map(text => {
+    return text;
+  })));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (SearchView);
+
+/***/ }),
+
 /***/ "./src/themes/wkea/wkea.tsx":
 /*!**********************************!*\
   !*** ./src/themes/wkea/wkea.tsx ***!
@@ -13927,11 +19756,11 @@ class Wkea extends react__WEBPACK_IMPORTED_MODULE_0__["PureComponent"] {
 /*! ModuleConcatenation bailout: Module is not an ECMAScript module */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Users/User/Documents/wkea-ec/Msdyn365.Commerce.Online/node_modules/webpack-dev-server/client/index.js?https://localhost:4001 */"./node_modules/webpack-dev-server/client/index.js?https://localhost:4001");
-__webpack_require__(/*! /Users/User/Documents/wkea-ec/Msdyn365.Commerce.Online/node_modules/error-overlay-webpack-plugin/lib/entry.js */"./node_modules/error-overlay-webpack-plugin/lib/entry.js");
-__webpack_require__(/*! /Users/User/Documents/wkea-ec/Msdyn365.Commerce.Online/node_modules/@msdyn365-commerce/bootloader/entry/webpack-public-path.js */"./node_modules/@msdyn365-commerce/bootloader/entry/webpack-public-path.js");
+__webpack_require__(/*! D:\weka\Msdyn365.Commerce.Online\node_modules\webpack-dev-server\client\index.js?https://localhost:4001 */"./node_modules/webpack-dev-server/client/index.js?https://localhost:4001");
+__webpack_require__(/*! D:\weka\Msdyn365.Commerce.Online\node_modules\error-overlay-webpack-plugin\lib\entry.js */"./node_modules/error-overlay-webpack-plugin/lib/entry.js");
+__webpack_require__(/*! D:\weka\Msdyn365.Commerce.Online\node_modules\@msdyn365-commerce\bootloader\entry\webpack-public-path.js */"./node_modules/@msdyn365-commerce/bootloader/entry/webpack-public-path.js");
 __webpack_require__(/*! webpack-dev-server/client?http://localhost:4001/ */"./node_modules/webpack-dev-server/client/index.js?http://localhost:4001/");
-module.exports = __webpack_require__(/*! /Users/User/Documents/wkea-ec/Msdyn365.Commerce.Online/node_modules/@msdyn365-commerce/bootloader/entry/client */"./node_modules/@msdyn365-commerce/bootloader/entry/client.js");
+module.exports = __webpack_require__(/*! D:\weka\Msdyn365.Commerce.Online\node_modules\@msdyn365-commerce\bootloader\entry\client */"./node_modules/@msdyn365-commerce/bootloader/entry/client.js");
 
 
 /***/ }),
