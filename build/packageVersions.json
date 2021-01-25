@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "submissionId": "unknown",
   "build": {},
-  "buildTime": "2021-01-19 06:02:51",
-  "buildVersion": "529e53",
+  "buildTime": "2021-01-25 01:51:58",
+  "buildVersion": "33faf7",
   "MSDyn365-Commerce": [
     {
       "packageName": "action-internal",

@@ -26,28 +26,85 @@
         },
         "typeName": "default-page",
         "modules": {
-          "header": [],
-          "primary": [{
-            "id": "Content Block 1",
+          "header": [{
+            "id": "HeaderModule",
             "config": {
-              "imagePlacement": "imageLeft",
-              "lazyload": false,
-              "heading": {
-                "text": "Heading"
-              },
-              "paragraph": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>",
-              "links": [{
-                "linkText": "Shop Now",
+              "renderWithContainer": true,
+              "cssOverrides": "",
+              "logoLink": {
                 "linkUrl": {
-                  "destinationUrl": "http://www.microsoft.com"
-                },
-                "ariaLabel": "Alt text",
-                "OpenInNewTab": true
-              }]
+                  "destinationUrl": "/fedev",
+                  "type": "externalLink"
+                }
+              },
+              "logoImage": {
+                "$type": "image",
+                "_id": "MAiIhU",
+                "src": "https://cms-ppe-imageresizer-mr.trafficmanager.net/cms/api/fabrikamsb/imageFileData/MAiIhV",
+                "altText": "fabrikam",
+                "copyright": "",
+                "binaryHash": "zsDVVIqCDbkGaw7eITavoA==",
+                "title": "Fabrikam logo",
+                "imageSettings": {
+                  "quality": 80,
+                  "lazyload": true,
+                  "viewports": {
+                    "xs": {
+                      "w": 132,
+                      "h": 40,
+                      "q": "w=132&h=40&q=80&m=6&f=jpg"
+                    },
+                    "lg": {
+                      "w": 160,
+                      "h": 48,
+                      "q": "w=160&h=48&q=80&m=6&f=jpg"
+                    },
+                    "xl": {
+                      "w": 160,
+                      "h": 48,
+                      "q": "w=160&h=48&q=80&m=6&f=jpg"
+                    }
+                  }
+                }
+              }
             },
-            "typeName": "content-block"
+            "resources": {
+              "mobileHamburgerAriaLabel": "Menu expand to see list of Menu items"
+            },
+            "typeName": "header",
+            "modules": {}
           }],
-          "footer": []
+          "primary": [{
+              "id": "index-carousel",
+              "config": {
+                "showText": "Example Config Value"
+              },
+              "data": {
+                "actionResponse": {
+                  "text": "Sample Action Response"
+                }
+              },
+              "typeName": "index-carousel"
+            },
+            {
+              "id": "index-person-information",
+              "typeName": "index-person-information",
+              "config": {
+              }
+            }
+          ],
+          "footer": [{
+            "id": "R1Module1",
+            "config": {
+              "showText": "Example Config Value"
+            },
+            "data": {
+              "actionResponse": {
+                "text": "Sample Action Response"
+              }
+            },
+            "typeName": "footer"
+          }]
         }
       }],
       "bodyEnd": [],
@@ -55,8 +112,40 @@
     }
   },
   "renderingContext": {
+    "gridSettings": {
+      "xs": {
+        "w": 767
+      },
+      "sm": {
+        "w": 991
+      },
+      "md": {
+        "w": 1199
+      },
+      "lg": {
+        "w": 1599
+      },
+      "xl": {
+        "w": 1600
+      }
+    },
     "staticContext": {
       "staticCdnUrl": "/_scnr/"
+    },
+    "user": {
+      "token": "<TOKEN>",
+      "isAuthenticated": true,
+      "signInUrl": "https://dev.fabrikam.com/fedev/_msdyn365/signin",
+      "signOutUrl": "https://dev.fabrikam.com/fedev/_msdyn365/signout",
+      "signUpUrl": "https://dev.fabrikam.com/fedev/_msdyn365/signup",
+      "editProfileUrl": "https://dev.fabrikam.com/fedev/_msdyn365/editprofile",
+      "signinName": "<User Name>",
+      "firstName": "<User First Name>",
+      "lastName": "<User Last Name>",
+      "tenantId": "",
+      "customerAccountNumber": "<User Account Number(HQ)>",
+      "name": "<User Name>",
+      "emailAddress": "<User Email Address>"
     },
     "locale": "en-us"
   }

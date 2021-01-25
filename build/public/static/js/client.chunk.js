@@ -109,7 +109,7 @@ __webpack_require__.r(__webpack_exports__);
  * THIS FILE IS AUTO-GENERATED - MANUAL MODIFICATIONS WILL BE LOST
  */const universal=__webpack_require__(/*! react-universal-component */ "./node_modules/react-universal-component/dist/index.js").default;/**
  * Register all available modules
- */const registerAllModules=requiredModules=>{let binding={modules:{},dataActions:{}};const{log,error}=console;const detailedWebpackError=(msg,errorObject)=>{error(msg);error(errorObject); false&&false;process.exit(50);};const handleError=(modPath,errObject)=>{detailedWebpackError('Error with path: '+modPath,errObject);};if(requiredModules){requiredModules=requiredModules.map(module=>module.toLowerCase());}const isNotRegistered=moduleName=>{return!requiredModules||requiredModules.length<=0||requiredModules.findIndex(module=>module===moduleName)!==-1;};isNotRegistered('cart')&&(binding.modules['cart']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_4___default()({id:"partner/modules/cart/cart",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! partner/modules/cart/cart */ "./src/modules/cart/cart.tsx"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_3___default.a.join(__dirname,'partner/modules/cart/cart'),resolve:()=>/*require.resolve*/(/*! partner/modules/cart/cart */ "./src/modules/cart/cart.tsx"),chunkName:()=>"partner-modules-cart-cart"}),{chunkName:()=>'partner-modules-cart-cart',ignoreBabelRename:true}),$type:'containerModule',dataActions:[{name:'cart',path:'@msdyn365-commerce/global-state/dist/lib/data-actions/cart-state-data-action',runOn:0},{name:'customerInformation',path:'@msdyn365-commerce-modules/retail-actions/dist/lib/get-customer',runOn:0},{name:'deliveryOptions',path:'@msdyn365-commerce-modules/retail-actions/dist/lib/get-delivery-options-for-cartlines',runOn:0},{name:'featureState',path:'@msdyn365-commerce-modules/retail-actions/dist/lib/get-feature-state',runOn:0},{name:'orderTemplates',path:'@msdyn365-commerce-modules/retail-actions/dist/lib/order-templates/get-order-templates-preview',runOn:1},{name:'orgUnitLocations',path:'@msdyn365-commerce-modules/retail-actions/dist/lib/search-org-unit-locations',runOn:0},{name:'productAvailabilites',path:'@msdyn365-commerce-modules/retail-actions/dist/lib/get-availabilities-cartlines',runOn:0},{name:'products',path:'@msdyn365-commerce-modules/retail-actions/dist/lib/get-products-in-active-cart',runOn:0},{name:'storeSelectorStateManager',path:'@msdyn365-commerce-modules/bopis-utilities/dist/lib/store-selector-state-manager/store-selector-state-manager-data-action',runOn:0},{name:'wishlistItems',path:'@msdyn365-commerce-modules/retail-actions/dist/lib/get-items-in-wishlist',runOn:1},{name:'wishlists',path:'@msdyn365-commerce-modules/retail-actions/dist/lib/get-wishlist-by-customer-id',runOn:1}],definitionPath:'src/modules/cart/cart.definition.json',isNodeModule:false,moduleNamespace:'__local__',name:'cart',packageName:'__local__',parentDefinitionPath:'',moduleDirectory:'src/modules/cart'});isNotRegistered('footer')&&(binding.modules['footer']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_4___default()({id:"partner/modules/footer/footer",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! partner/modules/footer/footer */ "./src/modules/footer/footer.tsx"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_3___default.a.join(__dirname,'partner/modules/footer/footer'),resolve:()=>/*require.resolve*/(/*! partner/modules/footer/footer */ "./src/modules/footer/footer.tsx"),chunkName:()=>"partner-modules-footer-footer"}),{chunkName:()=>'partner-modules-footer-footer',ignoreBabelRename:true}),$type:'contentModule',dataActions:[],definitionPath:'src/modules/footer/footer.definition.json',isNodeModule:false,moduleNamespace:'__local__',name:'footer',packageName:'__local__',parentDefinitionPath:'',moduleDirectory:'src/modules/footer'});isNotRegistered('header')&&(binding.modules['header']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_4___default()({id:"partner/modules/header/header",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! partner/modules/header/header */ "./src/modules/header/header.tsx"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_3___default.a.join(__dirname,'partner/modules/header/header'),resolve:()=>/*require.resolve*/(/*! partner/modules/header/header */ "./src/modules/header/header.tsx"),chunkName:()=>"partner-modules-header-header"}),{chunkName:()=>'partner-modules-header-header',ignoreBabelRename:true}),$type:'containerModule',dataActions:[{name:'accountInformation',path:'@msdyn365-commerce-modules/retail-actions/dist/lib/get-customer',runOn:0},{name:'cart',path:'@msdyn365-commerce/global-state/dist/lib/data-actions/cart-state-data-action',runOn:0}],definitionPath:'src/modules/header/header.definition.json',isNodeModule:false,moduleNamespace:'__local__',name:'header',packageName:'__local__',parentDefinitionPath:'',moduleDirectory:'src/modules/header'});isNotRegistered('index-carousel')&&(binding.modules['index-carousel']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_4___default()({id:"partner/modules/index-carousel/index-carousel",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! partner/modules/index-carousel/index-carousel */ "./src/modules/index-carousel/index-carousel.tsx"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_3___default.a.join(__dirname,'partner/modules/index-carousel/index-carousel'),resolve:()=>/*require.resolve*/(/*! partner/modules/index-carousel/index-carousel */ "./src/modules/index-carousel/index-carousel.tsx"),chunkName:()=>"partner-modules-index-carousel-index-carousel"}),{chunkName:()=>'partner-modules-index-carousel-index-carousel',ignoreBabelRename:true}),$type:'contentModule',dataActions:[],definitionPath:'src/modules/index-carousel/index-carousel.definition.json',isNodeModule:false,moduleNamespace:'__local__',name:'index-carousel',packageName:'__local__',parentDefinitionPath:'',moduleDirectory:'src/modules/index-carousel'});isNotRegistered('index-person')&&(binding.modules['index-person']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_4___default()({id:"partner/modules/index-person/index-person",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! partner/modules/index-person/index-person */ "./src/modules/index-person/index-person.tsx"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_3___default.a.join(__dirname,'partner/modules/index-person/index-person'),resolve:()=>/*require.resolve*/(/*! partner/modules/index-person/index-person */ "./src/modules/index-person/index-person.tsx"),chunkName:()=>"partner-modules-index-person-index-person"}),{chunkName:()=>'partner-modules-index-person-index-person',ignoreBabelRename:true}),$type:'contentModule',dataActions:[],definitionPath:'src/modules/index-person/index-person.definition.json',isNodeModule:false,moduleNamespace:'__local__',name:'index-person',packageName:'__local__',parentDefinitionPath:'',moduleDirectory:'src/modules/index-person'});isNotRegistered('index-product')&&(binding.modules['index-product']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_4___default()({id:"partner/modules/index-product/index-product",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! partner/modules/index-product/index-product */ "./src/modules/index-product/index-product.tsx"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_3___default.a.join(__dirname,'partner/modules/index-product/index-product'),resolve:()=>/*require.resolve*/(/*! partner/modules/index-product/index-product */ "./src/modules/index-product/index-product.tsx"),chunkName:()=>"partner-modules-index-product-index-product"}),{chunkName:()=>'partner-modules-index-product-index-product',ignoreBabelRename:true}),$type:'contentModule',dataActions:[],definitionPath:'src/modules/index-product/index-product.definition.json',isNodeModule:false,moduleNamespace:'__local__',name:'index-product',packageName:'__local__',parentDefinitionPath:'',moduleDirectory:'src/modules/index-product'});isNotRegistered('navigation-menu')&&(binding.modules['navigation-menu']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_4___default()({id:"partner/modules/navigation-menu/navigation-menu",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! partner/modules/navigation-menu/navigation-menu */ "./src/modules/navigation-menu/navigation-menu.tsx"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_3___default.a.join(__dirname,'partner/modules/navigation-menu/navigation-menu'),resolve:()=>/*require.resolve*/(/*! partner/modules/navigation-menu/navigation-menu */ "./src/modules/navigation-menu/navigation-menu.tsx"),chunkName:()=>"partner-modules-navigation-menu-navigation-menu"}),{chunkName:()=>'partner-modules-navigation-menu-navigation-menu',ignoreBabelRename:true}),$type:'contentModule',dataActions:[{name:'categories',path:'@msdyn365-commerce-modules/retail-actions/dist/lib/get-categories-hierarchy',runOn:0}],definitionPath:'src/modules/navigation-menu/navigation-menu.definition.json',isNodeModule:false,moduleNamespace:'__local__',name:'navigation-menu',packageName:'__local__',parentDefinitionPath:'',moduleDirectory:'src/modules/navigation-menu'});isNotRegistered('sale')&&(binding.modules['sale']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_4___default()({id:"partner/modules/sale/sale",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! partner/modules/sale/sale */ "./src/modules/sale/sale.tsx"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_3___default.a.join(__dirname,'partner/modules/sale/sale'),resolve:()=>/*require.resolve*/(/*! partner/modules/sale/sale */ "./src/modules/sale/sale.tsx"),chunkName:()=>"partner-modules-sale-sale"}),{chunkName:()=>'partner-modules-sale-sale',ignoreBabelRename:true}),$type:'contentModule',dataActions:[],definitionPath:'src/modules/sale/sale.definition.json',isNodeModule:false,moduleNamespace:'__local__',name:'sale',packageName:'__local__',parentDefinitionPath:'',moduleDirectory:'src/modules/sale'});isNotRegistered('search')&&(binding.modules['search']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_4___default()({id:"partner/modules/search/search",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! partner/modules/search/search */ "./src/modules/search/search.tsx"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_3___default.a.join(__dirname,'partner/modules/search/search'),resolve:()=>/*require.resolve*/(/*! partner/modules/search/search */ "./src/modules/search/search.tsx"),chunkName:()=>"partner-modules-search-search"}),{chunkName:()=>'partner-modules-search-search',ignoreBabelRename:true}),$type:'contentModule',dataActions:[{name:'searchState',path:'@msdyn365-commerce-modules/search-utilities/dist/lib/search-state-data-action',runOn:1}],definitionPath:'src/modules/search/search.definition.json',isNodeModule:false,moduleNamespace:'__local__',name:'search',packageName:'__local__',parentDefinitionPath:'',moduleDirectory:'src/modules/search'});isNotRegistered('search-result-container')&&(binding.modules['search-result-container']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_4___default()({id:"partner/modules/search-result-container/search-result-container",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! partner/modules/search-result-container/search-result-container */ "./src/modules/search-result-container/search-result-container.tsx"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_3___default.a.join(__dirname,'partner/modules/search-result-container/search-result-container'),resolve:()=>/*require.resolve*/(/*! partner/modules/search-result-container/search-result-container */ "./src/modules/search-result-container/search-result-container.tsx"),chunkName:()=>"partner-modules-search-result-container-search-result-container"}),{chunkName:()=>'partner-modules-search-result-container-search-result-container',ignoreBabelRename:true}),$type:'contentModule',dataActions:[{name:'category',path:'@msdyn365-commerce-modules/retail-actions/dist/lib/get-current-category',runOn:0},{name:'categoryHierarchy',path:'@msdyn365-commerce-modules/retail-actions/dist/lib/get-current-category-hierarchy',runOn:0},{name:'featureProduct',path:'@msdyn365-commerce-modules/retail-actions/dist/lib/get-selected-variant',runOn:0},{name:'listPageState',path:'modules/search-result-container/list-page-state',runOn:0},{name:'products',path:'modules/search-result-container/actions/get-full-products-by-collection',runOn:0},{name:'refiners',path:'modules/search-result-container/actions/get-refiners-for-collection',runOn:0},{name:'searchConfiguration',path:'modules/search-result-container/actions/get-mapped-search-configuration',runOn:0}],definitionPath:'src/modules/search-result-container/search-result-container.definition.json',isNodeModule:false,moduleNamespace:'__local__',name:'search-result-container',packageName:'__local__',parentDefinitionPath:'',moduleDirectory:'src/modules/search-result-container'});isNotRegistered('wkea')&&(binding.modules['wkea']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_4___default()({id:"partner/themes/wkea/wkea",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! partner/themes/wkea/wkea */ "./src/themes/wkea/wkea.tsx"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_3___default.a.join(__dirname,'partner/themes/wkea/wkea'),resolve:()=>/*require.resolve*/(/*! partner/themes/wkea/wkea */ "./src/themes/wkea/wkea.tsx"),chunkName:()=>"partner-themes-wkea-wkea"}),{chunkName:()=>'partner-themes-wkea-wkea',ignoreBabelRename:true}),$type:'themeModule',dataActions:[],definitionPath:'src/themes/wkea/wkea.definition.json',isNodeModule:false,moduleNamespace:'__local__',name:'wkea',packageName:'__local__',parentDefinitionPath:'',themeSettings:'wkea.theme.settings.json',moduleDirectory:'src/themes/wkea'});try{if(isNotRegistered('cart')){const sanitizedActionPath='@msdyn365-commerce-modules/bopis-utilities/dist/lib/store-selector-state-manager/store-selector-state-manager-data-action';let dataAction=__webpack_require__(/*! @msdyn365-commerce-modules/bopis-utilities/dist/lib/store-selector-state-manager/store-selector-state-manager-data-action */ "./node_modules/@msdyn365-commerce-modules/bopis-utilities/dist/lib/store-selector-state-manager/store-selector-state-manager-data-action.js");if(!dataAction.default){throw new Error('Data action path does not have a default export');}if(!(dataAction.default.prototype.id&&binding.dataActions[dataAction.default.prototype.id])||!binding.dataActions[sanitizedActionPath]){binding.dataActions[sanitizedActionPath]=dataAction;}}}catch(e){binding.dataActions['@msdyn365-commerce-modules/bopis-utilities/dist/lib/store-selector-state-manager/store-selector-state-manager-data-action']=undefined;handleError('@msdyn365-commerce-modules/bopis-utilities/dist/lib/store-selector-state-manager/store-selector-state-manager-data-action',e);}try{if(isNotRegistered('cart')){const sanitizedActionPath='@msdyn365-commerce-modules/retail-actions/dist/lib/get-availabilities-cartlines';let dataAction=__webpack_require__(/*! @msdyn365-commerce-modules/retail-actions/dist/lib/get-availabilities-cartlines */ "./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-availabilities-cartlines.js");if(!dataAction.default){throw new Error('Data action path does not have a default export');}if(!(dataAction.default.prototype.id&&binding.dataActions[dataAction.default.prototype.id])||!binding.dataActions[sanitizedActionPath]){binding.dataActions[sanitizedActionPath]=dataAction;}}}catch(e){binding.dataActions['@msdyn365-commerce-modules/retail-actions/dist/lib/get-availabilities-cartlines']=undefined;handleError('@msdyn365-commerce-modules/retail-actions/dist/lib/get-availabilities-cartlines',e);}try{if(isNotRegistered('cart')){const sanitizedActionPath='@msdyn365-commerce-modules/retail-actions/dist/lib/get-customer';let dataAction=__webpack_require__(/*! @msdyn365-commerce-modules/retail-actions/dist/lib/get-customer */ "./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-customer.js");if(!dataAction.default){throw new Error('Data action path does not have a default export');}if(!(dataAction.default.prototype.id&&binding.dataActions[dataAction.default.prototype.id])||!binding.dataActions[sanitizedActionPath]){binding.dataActions[sanitizedActionPath]=dataAction;}}}catch(e){binding.dataActions['@msdyn365-commerce-modules/retail-actions/dist/lib/get-customer']=undefined;handleError('@msdyn365-commerce-modules/retail-actions/dist/lib/get-customer',e);}try{if(isNotRegistered('cart')){const sanitizedActionPath='@msdyn365-commerce-modules/retail-actions/dist/lib/get-delivery-options-for-cartlines';let dataAction=__webpack_require__(/*! @msdyn365-commerce-modules/retail-actions/dist/lib/get-delivery-options-for-cartlines */ "./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-delivery-options-for-cartlines.js");if(!dataAction.default){throw new Error('Data action path does not have a default export');}if(!(dataAction.default.prototype.id&&binding.dataActions[dataAction.default.prototype.id])||!binding.dataActions[sanitizedActionPath]){binding.dataActions[sanitizedActionPath]=dataAction;}}}catch(e){binding.dataActions['@msdyn365-commerce-modules/retail-actions/dist/lib/get-delivery-options-for-cartlines']=undefined;handleError('@msdyn365-commerce-modules/retail-actions/dist/lib/get-delivery-options-for-cartlines',e);}try{if(isNotRegistered('cart')){const sanitizedActionPath='@msdyn365-commerce-modules/retail-actions/dist/lib/get-feature-state';let dataAction=__webpack_require__(/*! @msdyn365-commerce-modules/retail-actions/dist/lib/get-feature-state */ "./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-feature-state.js");if(!dataAction.default){throw new Error('Data action path does not have a default export');}if(!(dataAction.default.prototype.id&&binding.dataActions[dataAction.default.prototype.id])||!binding.dataActions[sanitizedActionPath]){binding.dataActions[sanitizedActionPath]=dataAction;}}}catch(e){binding.dataActions['@msdyn365-commerce-modules/retail-actions/dist/lib/get-feature-state']=undefined;handleError('@msdyn365-commerce-modules/retail-actions/dist/lib/get-feature-state',e);}try{if(isNotRegistered('cart')){const sanitizedActionPath='@msdyn365-commerce-modules/retail-actions/dist/lib/get-items-in-wishlist';let dataAction=__webpack_require__(/*! @msdyn365-commerce-modules/retail-actions/dist/lib/get-items-in-wishlist */ "./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-items-in-wishlist.js");if(!dataAction.default){throw new Error('Data action path does not have a default export');}if(!(dataAction.default.prototype.id&&binding.dataActions[dataAction.default.prototype.id])||!binding.dataActions[sanitizedActionPath]){binding.dataActions[sanitizedActionPath]=dataAction;}}}catch(e){binding.dataActions['@msdyn365-commerce-modules/retail-actions/dist/lib/get-items-in-wishlist']=undefined;handleError('@msdyn365-commerce-modules/retail-actions/dist/lib/get-items-in-wishlist',e);}try{if(isNotRegistered('cart')){const sanitizedActionPath='@msdyn365-commerce-modules/retail-actions/dist/lib/get-products-in-active-cart';let dataAction=__webpack_require__(/*! @msdyn365-commerce-modules/retail-actions/dist/lib/get-products-in-active-cart */ "./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-products-in-active-cart.js");if(!dataAction.default){throw new Error('Data action path does not have a default export');}if(!(dataAction.default.prototype.id&&binding.dataActions[dataAction.default.prototype.id])||!binding.dataActions[sanitizedActionPath]){binding.dataActions[sanitizedActionPath]=dataAction;}}}catch(e){binding.dataActions['@msdyn365-commerce-modules/retail-actions/dist/lib/get-products-in-active-cart']=undefined;handleError('@msdyn365-commerce-modules/retail-actions/dist/lib/get-products-in-active-cart',e);}try{if(isNotRegistered('cart')){const sanitizedActionPath='@msdyn365-commerce-modules/retail-actions/dist/lib/get-wishlist-by-customer-id';let dataAction=__webpack_require__(/*! @msdyn365-commerce-modules/retail-actions/dist/lib/get-wishlist-by-customer-id */ "./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-wishlist-by-customer-id.js");if(!dataAction.default){throw new Error('Data action path does not have a default export');}if(!(dataAction.default.prototype.id&&binding.dataActions[dataAction.default.prototype.id])||!binding.dataActions[sanitizedActionPath]){binding.dataActions[sanitizedActionPath]=dataAction;}}}catch(e){binding.dataActions['@msdyn365-commerce-modules/retail-actions/dist/lib/get-wishlist-by-customer-id']=undefined;handleError('@msdyn365-commerce-modules/retail-actions/dist/lib/get-wishlist-by-customer-id',e);}try{if(isNotRegistered('cart')){const sanitizedActionPath='@msdyn365-commerce-modules/retail-actions/dist/lib/order-templates/get-order-templates-preview';let dataAction=__webpack_require__(/*! @msdyn365-commerce-modules/retail-actions/dist/lib/order-templates/get-order-templates-preview */ "./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/order-templates/get-order-templates-preview.js");if(!dataAction.default){throw new Error('Data action path does not have a default export');}if(!(dataAction.default.prototype.id&&binding.dataActions[dataAction.default.prototype.id])||!binding.dataActions[sanitizedActionPath]){binding.dataActions[sanitizedActionPath]=dataAction;}}}catch(e){binding.dataActions['@msdyn365-commerce-modules/retail-actions/dist/lib/order-templates/get-order-templates-preview']=undefined;handleError('@msdyn365-commerce-modules/retail-actions/dist/lib/order-templates/get-order-templates-preview',e);}try{if(isNotRegistered('cart')){const sanitizedActionPath='@msdyn365-commerce-modules/retail-actions/dist/lib/search-org-unit-locations';let dataAction=__webpack_require__(/*! @msdyn365-commerce-modules/retail-actions/dist/lib/search-org-unit-locations */ "./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/search-org-unit-locations.js");if(!dataAction.default){throw new Error('Data action path does not have a default export');}if(!(dataAction.default.prototype.id&&binding.dataActions[dataAction.default.prototype.id])||!binding.dataActions[sanitizedActionPath]){binding.dataActions[sanitizedActionPath]=dataAction;}}}catch(e){binding.dataActions['@msdyn365-commerce-modules/retail-actions/dist/lib/search-org-unit-locations']=undefined;handleError('@msdyn365-commerce-modules/retail-actions/dist/lib/search-org-unit-locations',e);}try{if(isNotRegistered('cart')){const sanitizedActionPath='@msdyn365-commerce/global-state/dist/lib/data-actions/cart-state-data-action';let dataAction=__webpack_require__(/*! @msdyn365-commerce/global-state/dist/lib/data-actions/cart-state-data-action */ "./node_modules/@msdyn365-commerce/global-state/dist/lib/data-actions/cart-state-data-action.js");if(!dataAction.default){throw new Error('Data action path does not have a default export');}if(!(dataAction.default.prototype.id&&binding.dataActions[dataAction.default.prototype.id])||!binding.dataActions[sanitizedActionPath]){binding.dataActions[sanitizedActionPath]=dataAction;}}}catch(e){binding.dataActions['@msdyn365-commerce/global-state/dist/lib/data-actions/cart-state-data-action']=undefined;handleError('@msdyn365-commerce/global-state/dist/lib/data-actions/cart-state-data-action',e);}try{if(isNotRegistered('header')){const sanitizedActionPath='@msdyn365-commerce-modules/retail-actions/dist/lib/get-customer';let dataAction=__webpack_require__(/*! @msdyn365-commerce-modules/retail-actions/dist/lib/get-customer */ "./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-customer.js");if(!dataAction.default){throw new Error('Data action path does not have a default export');}if(!(dataAction.default.prototype.id&&binding.dataActions[dataAction.default.prototype.id])||!binding.dataActions[sanitizedActionPath]){binding.dataActions[sanitizedActionPath]=dataAction;}}}catch(e){binding.dataActions['@msdyn365-commerce-modules/retail-actions/dist/lib/get-customer']=undefined;handleError('@msdyn365-commerce-modules/retail-actions/dist/lib/get-customer',e);}try{if(isNotRegistered('header')){const sanitizedActionPath='@msdyn365-commerce/global-state/dist/lib/data-actions/cart-state-data-action';let dataAction=__webpack_require__(/*! @msdyn365-commerce/global-state/dist/lib/data-actions/cart-state-data-action */ "./node_modules/@msdyn365-commerce/global-state/dist/lib/data-actions/cart-state-data-action.js");if(!dataAction.default){throw new Error('Data action path does not have a default export');}if(!(dataAction.default.prototype.id&&binding.dataActions[dataAction.default.prototype.id])||!binding.dataActions[sanitizedActionPath]){binding.dataActions[sanitizedActionPath]=dataAction;}}}catch(e){binding.dataActions['@msdyn365-commerce/global-state/dist/lib/data-actions/cart-state-data-action']=undefined;handleError('@msdyn365-commerce/global-state/dist/lib/data-actions/cart-state-data-action',e);}try{if(isNotRegistered('navigation-menu')){const sanitizedActionPath='@msdyn365-commerce-modules/retail-actions/dist/lib/get-categories-hierarchy';let dataAction=__webpack_require__(/*! @msdyn365-commerce-modules/retail-actions/dist/lib/get-categories-hierarchy */ "./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-categories-hierarchy.js");if(!dataAction.default){throw new Error('Data action path does not have a default export');}if(!(dataAction.default.prototype.id&&binding.dataActions[dataAction.default.prototype.id])||!binding.dataActions[sanitizedActionPath]){binding.dataActions[sanitizedActionPath]=dataAction;}}}catch(e){binding.dataActions['@msdyn365-commerce-modules/retail-actions/dist/lib/get-categories-hierarchy']=undefined;handleError('@msdyn365-commerce-modules/retail-actions/dist/lib/get-categories-hierarchy',e);}try{if(isNotRegistered('search')){const sanitizedActionPath='@msdyn365-commerce-modules/search-utilities/dist/lib/search-state-data-action';let dataAction=__webpack_require__(/*! @msdyn365-commerce-modules/search-utilities/dist/lib/search-state-data-action */ "./node_modules/@msdyn365-commerce-modules/search-utilities/dist/lib/search-state-data-action.js");if(!dataAction.default){throw new Error('Data action path does not have a default export');}if(!(dataAction.default.prototype.id&&binding.dataActions[dataAction.default.prototype.id])||!binding.dataActions[sanitizedActionPath]){binding.dataActions[sanitizedActionPath]=dataAction;}}}catch(e){binding.dataActions['@msdyn365-commerce-modules/search-utilities/dist/lib/search-state-data-action']=undefined;handleError('@msdyn365-commerce-modules/search-utilities/dist/lib/search-state-data-action',e);}try{if(isNotRegistered('search-result-container')){const sanitizedActionPath='@msdyn365-commerce-modules/retail-actions/dist/lib/get-current-category';let dataAction=__webpack_require__(/*! @msdyn365-commerce-modules/retail-actions/dist/lib/get-current-category */ "./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-current-category.js");if(!dataAction.default){throw new Error('Data action path does not have a default export');}if(!(dataAction.default.prototype.id&&binding.dataActions[dataAction.default.prototype.id])||!binding.dataActions[sanitizedActionPath]){binding.dataActions[sanitizedActionPath]=dataAction;}}}catch(e){binding.dataActions['@msdyn365-commerce-modules/retail-actions/dist/lib/get-current-category']=undefined;handleError('@msdyn365-commerce-modules/retail-actions/dist/lib/get-current-category',e);}try{if(isNotRegistered('search-result-container')){const sanitizedActionPath='@msdyn365-commerce-modules/retail-actions/dist/lib/get-current-category-hierarchy';let dataAction=__webpack_require__(/*! @msdyn365-commerce-modules/retail-actions/dist/lib/get-current-category-hierarchy */ "./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-current-category-hierarchy.js");if(!dataAction.default){throw new Error('Data action path does not have a default export');}if(!(dataAction.default.prototype.id&&binding.dataActions[dataAction.default.prototype.id])||!binding.dataActions[sanitizedActionPath]){binding.dataActions[sanitizedActionPath]=dataAction;}}}catch(e){binding.dataActions['@msdyn365-commerce-modules/retail-actions/dist/lib/get-current-category-hierarchy']=undefined;handleError('@msdyn365-commerce-modules/retail-actions/dist/lib/get-current-category-hierarchy',e);}try{if(isNotRegistered('search-result-container')){const sanitizedActionPath='@msdyn365-commerce-modules/retail-actions/dist/lib/get-selected-variant';let dataAction=__webpack_require__(/*! @msdyn365-commerce-modules/retail-actions/dist/lib/get-selected-variant */ "./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-selected-variant.js");if(!dataAction.default){throw new Error('Data action path does not have a default export');}if(!(dataAction.default.prototype.id&&binding.dataActions[dataAction.default.prototype.id])||!binding.dataActions[sanitizedActionPath]){binding.dataActions[sanitizedActionPath]=dataAction;}}}catch(e){binding.dataActions['@msdyn365-commerce-modules/retail-actions/dist/lib/get-selected-variant']=undefined;handleError('@msdyn365-commerce-modules/retail-actions/dist/lib/get-selected-variant',e);}try{if(isNotRegistered('search-result-container')){const sanitizedActionPath='modules/search-result-container/actions/get-full-products-by-collection';let dataAction=__webpack_require__(/*! partner/modules/search-result-container/actions/get-full-products-by-collection */ "./src/modules/search-result-container/actions/get-full-products-by-collection.ts");if(!dataAction.default){throw new Error('Data action path does not have a default export');}if(!(dataAction.default.prototype.id&&binding.dataActions[dataAction.default.prototype.id])||!binding.dataActions[sanitizedActionPath]){binding.dataActions[sanitizedActionPath]=dataAction;}}}catch(e){binding.dataActions['modules/search-result-container/actions/get-full-products-by-collection']=undefined;handleError('modules/search-result-container/actions/get-full-products-by-collection',e);}try{if(isNotRegistered('search-result-container')){const sanitizedActionPath='modules/search-result-container/actions/get-mapped-search-configuration';let dataAction=__webpack_require__(/*! partner/modules/search-result-container/actions/get-mapped-search-configuration */ "./src/modules/search-result-container/actions/get-mapped-search-configuration.ts");if(!dataAction.default){throw new Error('Data action path does not have a default export');}if(!(dataAction.default.prototype.id&&binding.dataActions[dataAction.default.prototype.id])||!binding.dataActions[sanitizedActionPath]){binding.dataActions[sanitizedActionPath]=dataAction;}}}catch(e){binding.dataActions['modules/search-result-container/actions/get-mapped-search-configuration']=undefined;handleError('modules/search-result-container/actions/get-mapped-search-configuration',e);}try{if(isNotRegistered('search-result-container')){const sanitizedActionPath='modules/search-result-container/actions/get-refiners-for-collection';let dataAction=__webpack_require__(/*! partner/modules/search-result-container/actions/get-refiners-for-collection */ "./src/modules/search-result-container/actions/get-refiners-for-collection.ts");if(!dataAction.default){throw new Error('Data action path does not have a default export');}if(!(dataAction.default.prototype.id&&binding.dataActions[dataAction.default.prototype.id])||!binding.dataActions[sanitizedActionPath]){binding.dataActions[sanitizedActionPath]=dataAction;}}}catch(e){binding.dataActions['modules/search-result-container/actions/get-refiners-for-collection']=undefined;handleError('modules/search-result-container/actions/get-refiners-for-collection',e);}try{if(isNotRegistered('search-result-container')){const sanitizedActionPath='modules/search-result-container/list-page-state';let dataAction=__webpack_require__(/*! partner/modules/search-result-container/list-page-state */ "./src/modules/search-result-container/list-page-state.ts");if(!dataAction.default){throw new Error('Data action path does not have a default export');}if(!(dataAction.default.prototype.id&&binding.dataActions[dataAction.default.prototype.id])||!binding.dataActions[sanitizedActionPath]){binding.dataActions[sanitizedActionPath]=dataAction;}}}catch(e){binding.dataActions['modules/search-result-container/list-page-state']=undefined;handleError('modules/search-result-container/list-page-state',e);}return binding;};
+ */const registerAllModules=requiredModules=>{let binding={modules:{},dataActions:{}};const{log,error}=console;const detailedWebpackError=(msg,errorObject)=>{error(msg);error(errorObject); false&&false;process.exit(50);};const handleError=(modPath,errObject)=>{detailedWebpackError('Error with path: '+modPath,errObject);};if(requiredModules){requiredModules=requiredModules.map(module=>module.toLowerCase());}const isNotRegistered=moduleName=>{return!requiredModules||requiredModules.length<=0||requiredModules.findIndex(module=>module===moduleName)!==-1;};isNotRegistered('footer')&&(binding.modules['footer']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_4___default()({id:"partner/modules/footer/footer",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! partner/modules/footer/footer */ "./src/modules/footer/footer.tsx"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_3___default.a.join(__dirname,'partner/modules/footer/footer'),resolve:()=>/*require.resolve*/(/*! partner/modules/footer/footer */ "./src/modules/footer/footer.tsx"),chunkName:()=>"partner-modules-footer-footer"}),{chunkName:()=>'partner-modules-footer-footer',ignoreBabelRename:true}),$type:'contentModule',dataActions:[],definitionPath:'src/modules/footer/footer.definition.json',isNodeModule:false,moduleNamespace:'__local__',name:'footer',packageName:'__local__',parentDefinitionPath:'',moduleDirectory:'src/modules/footer'});isNotRegistered('header')&&(binding.modules['header']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_4___default()({id:"partner/modules/header/header",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! partner/modules/header/header */ "./src/modules/header/header.tsx"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_3___default.a.join(__dirname,'partner/modules/header/header'),resolve:()=>/*require.resolve*/(/*! partner/modules/header/header */ "./src/modules/header/header.tsx"),chunkName:()=>"partner-modules-header-header"}),{chunkName:()=>'partner-modules-header-header',ignoreBabelRename:true}),$type:'containerModule',dataActions:[{name:'accountInformation',path:'@msdyn365-commerce-modules/retail-actions/dist/lib/get-customer',runOn:0},{name:'cart',path:'@msdyn365-commerce/global-state/dist/lib/data-actions/cart-state-data-action',runOn:0}],definitionPath:'src/modules/header/header.definition.json',isNodeModule:false,moduleNamespace:'__local__',name:'header',packageName:'__local__',parentDefinitionPath:'',moduleDirectory:'src/modules/header'});isNotRegistered('index-carousel')&&(binding.modules['index-carousel']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_4___default()({id:"partner/modules/index-carousel/index-carousel",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! partner/modules/index-carousel/index-carousel */ "./src/modules/index-carousel/index-carousel.tsx"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_3___default.a.join(__dirname,'partner/modules/index-carousel/index-carousel'),resolve:()=>/*require.resolve*/(/*! partner/modules/index-carousel/index-carousel */ "./src/modules/index-carousel/index-carousel.tsx"),chunkName:()=>"partner-modules-index-carousel-index-carousel"}),{chunkName:()=>'partner-modules-index-carousel-index-carousel',ignoreBabelRename:true}),$type:'contentModule',dataActions:[],definitionPath:'src/modules/index-carousel/index-carousel.definition.json',isNodeModule:false,moduleNamespace:'__local__',name:'index-carousel',packageName:'__local__',parentDefinitionPath:'',moduleDirectory:'src/modules/index-carousel'});isNotRegistered('index-person-information')&&(binding.modules['index-person-information']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_4___default()({id:"partner/modules/index-person-information/index-person-information",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! partner/modules/index-person-information/index-person-information */ "./src/modules/index-person-information/index-person-information.tsx"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_3___default.a.join(__dirname,'partner/modules/index-person-information/index-person-information'),resolve:()=>/*require.resolve*/(/*! partner/modules/index-person-information/index-person-information */ "./src/modules/index-person-information/index-person-information.tsx"),chunkName:()=>"partner-modules-index-person-information-index-person-information"}),{chunkName:()=>'partner-modules-index-person-information-index-person-information',ignoreBabelRename:true}),$type:'containerModule',dataActions:[{name:'accountInformation',path:'@msdyn365-commerce-modules/retail-actions/dist/lib/get-customer',runOn:0},{name:'cart',path:'@msdyn365-commerce/global-state/dist/lib/data-actions/cart-state-data-action',runOn:0}],definitionPath:'src/modules/index-person-information/index-person-information.definition.json',isNodeModule:false,moduleNamespace:'__local__',name:'index-person-information',packageName:'__local__',parentDefinitionPath:'',moduleDirectory:'src/modules/index-person-information'});isNotRegistered('index-product')&&(binding.modules['index-product']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_4___default()({id:"partner/modules/index-product/index-product",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! partner/modules/index-product/index-product */ "./src/modules/index-product/index-product.tsx"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_3___default.a.join(__dirname,'partner/modules/index-product/index-product'),resolve:()=>/*require.resolve*/(/*! partner/modules/index-product/index-product */ "./src/modules/index-product/index-product.tsx"),chunkName:()=>"partner-modules-index-product-index-product"}),{chunkName:()=>'partner-modules-index-product-index-product',ignoreBabelRename:true}),$type:'contentModule',dataActions:[{name:'products',path:'@msdyn365-commerce-modules/retail-actions/dist/lib/get-simple-products',runOn:0}],definitionPath:'src/modules/index-product/index-product.definition.json',isNodeModule:false,moduleNamespace:'__local__',name:'index-product',packageName:'__local__',parentDefinitionPath:'',moduleDirectory:'src/modules/index-product'});isNotRegistered('navigation-menu')&&(binding.modules['navigation-menu']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_4___default()({id:"partner/modules/navigation-menu/navigation-menu",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! partner/modules/navigation-menu/navigation-menu */ "./src/modules/navigation-menu/navigation-menu.tsx"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_3___default.a.join(__dirname,'partner/modules/navigation-menu/navigation-menu'),resolve:()=>/*require.resolve*/(/*! partner/modules/navigation-menu/navigation-menu */ "./src/modules/navigation-menu/navigation-menu.tsx"),chunkName:()=>"partner-modules-navigation-menu-navigation-menu"}),{chunkName:()=>'partner-modules-navigation-menu-navigation-menu',ignoreBabelRename:true}),$type:'contentModule',dataActions:[{name:'categories',path:'@msdyn365-commerce-modules/retail-actions/dist/lib/get-categories-hierarchy',runOn:0}],definitionPath:'src/modules/navigation-menu/navigation-menu.definition.json',isNodeModule:false,moduleNamespace:'__local__',name:'navigation-menu',packageName:'__local__',parentDefinitionPath:'',moduleDirectory:'src/modules/navigation-menu'});isNotRegistered('sale')&&(binding.modules['sale']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_4___default()({id:"partner/modules/sale/sale",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! partner/modules/sale/sale */ "./src/modules/sale/sale.tsx"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_3___default.a.join(__dirname,'partner/modules/sale/sale'),resolve:()=>/*require.resolve*/(/*! partner/modules/sale/sale */ "./src/modules/sale/sale.tsx"),chunkName:()=>"partner-modules-sale-sale"}),{chunkName:()=>'partner-modules-sale-sale',ignoreBabelRename:true}),$type:'contentModule',dataActions:[],definitionPath:'src/modules/sale/sale.definition.json',isNodeModule:false,moduleNamespace:'__local__',name:'sale',packageName:'__local__',parentDefinitionPath:'',moduleDirectory:'src/modules/sale'});isNotRegistered('search')&&(binding.modules['search']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_4___default()({id:"partner/modules/search/search",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! partner/modules/search/search */ "./src/modules/search/search.tsx"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_3___default.a.join(__dirname,'partner/modules/search/search'),resolve:()=>/*require.resolve*/(/*! partner/modules/search/search */ "./src/modules/search/search.tsx"),chunkName:()=>"partner-modules-search-search"}),{chunkName:()=>'partner-modules-search-search',ignoreBabelRename:true}),$type:'contentModule',dataActions:[{name:'searchState',path:'@msdyn365-commerce-modules/search-utilities/dist/lib/search-state-data-action',runOn:1}],definitionPath:'src/modules/search/search.definition.json',isNodeModule:false,moduleNamespace:'__local__',name:'search',packageName:'__local__',parentDefinitionPath:'',moduleDirectory:'src/modules/search'});isNotRegistered('search-result-container')&&(binding.modules['search-result-container']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_4___default()({id:"partner/modules/search-result-container/search-result-container",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! partner/modules/search-result-container/search-result-container */ "./src/modules/search-result-container/search-result-container.tsx"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_3___default.a.join(__dirname,'partner/modules/search-result-container/search-result-container'),resolve:()=>/*require.resolve*/(/*! partner/modules/search-result-container/search-result-container */ "./src/modules/search-result-container/search-result-container.tsx"),chunkName:()=>"partner-modules-search-result-container-search-result-container"}),{chunkName:()=>'partner-modules-search-result-container-search-result-container',ignoreBabelRename:true}),$type:'contentModule',dataActions:[{name:'category',path:'@msdyn365-commerce-modules/retail-actions/dist/lib/get-current-category',runOn:0},{name:'categoryHierarchy',path:'@msdyn365-commerce-modules/retail-actions/dist/lib/get-current-category-hierarchy',runOn:0},{name:'featureProduct',path:'@msdyn365-commerce-modules/retail-actions/dist/lib/get-selected-variant',runOn:0},{name:'listPageState',path:'modules/search-result-container/list-page-state',runOn:0},{name:'products',path:'modules/search-result-container/actions/get-full-products-by-collection',runOn:0},{name:'refiners',path:'modules/search-result-container/actions/get-refiners-for-collection',runOn:0},{name:'searchConfiguration',path:'modules/search-result-container/actions/get-mapped-search-configuration',runOn:0}],definitionPath:'src/modules/search-result-container/search-result-container.definition.json',isNodeModule:false,moduleNamespace:'__local__',name:'search-result-container',packageName:'__local__',parentDefinitionPath:'',moduleDirectory:'src/modules/search-result-container'});isNotRegistered('wkea')&&(binding.modules['wkea']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_4___default()({id:"partner/themes/wkea/wkea",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! partner/themes/wkea/wkea */ "./src/themes/wkea/wkea.tsx"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_3___default.a.join(__dirname,'partner/themes/wkea/wkea'),resolve:()=>/*require.resolve*/(/*! partner/themes/wkea/wkea */ "./src/themes/wkea/wkea.tsx"),chunkName:()=>"partner-themes-wkea-wkea"}),{chunkName:()=>'partner-themes-wkea-wkea',ignoreBabelRename:true}),$type:'themeModule',dataActions:[],definitionPath:'src/themes/wkea/wkea.definition.json',isNodeModule:false,moduleNamespace:'__local__',name:'wkea',packageName:'__local__',parentDefinitionPath:'',themeSettings:'wkea.theme.settings.json',moduleDirectory:'src/themes/wkea'});try{if(isNotRegistered('header')){const sanitizedActionPath='@msdyn365-commerce-modules/retail-actions/dist/lib/get-customer';let dataAction=__webpack_require__(/*! @msdyn365-commerce-modules/retail-actions/dist/lib/get-customer */ "./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-customer.js");if(!dataAction.default){throw new Error('Data action path does not have a default export');}if(!(dataAction.default.prototype.id&&binding.dataActions[dataAction.default.prototype.id])||!binding.dataActions[sanitizedActionPath]){binding.dataActions[sanitizedActionPath]=dataAction;}}}catch(e){binding.dataActions['@msdyn365-commerce-modules/retail-actions/dist/lib/get-customer']=undefined;handleError('@msdyn365-commerce-modules/retail-actions/dist/lib/get-customer',e);}try{if(isNotRegistered('header')){const sanitizedActionPath='@msdyn365-commerce/global-state/dist/lib/data-actions/cart-state-data-action';let dataAction=__webpack_require__(/*! @msdyn365-commerce/global-state/dist/lib/data-actions/cart-state-data-action */ "./node_modules/@msdyn365-commerce/global-state/dist/lib/data-actions/cart-state-data-action.js");if(!dataAction.default){throw new Error('Data action path does not have a default export');}if(!(dataAction.default.prototype.id&&binding.dataActions[dataAction.default.prototype.id])||!binding.dataActions[sanitizedActionPath]){binding.dataActions[sanitizedActionPath]=dataAction;}}}catch(e){binding.dataActions['@msdyn365-commerce/global-state/dist/lib/data-actions/cart-state-data-action']=undefined;handleError('@msdyn365-commerce/global-state/dist/lib/data-actions/cart-state-data-action',e);}try{if(isNotRegistered('index-person-information')){const sanitizedActionPath='@msdyn365-commerce-modules/retail-actions/dist/lib/get-customer';let dataAction=__webpack_require__(/*! @msdyn365-commerce-modules/retail-actions/dist/lib/get-customer */ "./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-customer.js");if(!dataAction.default){throw new Error('Data action path does not have a default export');}if(!(dataAction.default.prototype.id&&binding.dataActions[dataAction.default.prototype.id])||!binding.dataActions[sanitizedActionPath]){binding.dataActions[sanitizedActionPath]=dataAction;}}}catch(e){binding.dataActions['@msdyn365-commerce-modules/retail-actions/dist/lib/get-customer']=undefined;handleError('@msdyn365-commerce-modules/retail-actions/dist/lib/get-customer',e);}try{if(isNotRegistered('index-person-information')){const sanitizedActionPath='@msdyn365-commerce/global-state/dist/lib/data-actions/cart-state-data-action';let dataAction=__webpack_require__(/*! @msdyn365-commerce/global-state/dist/lib/data-actions/cart-state-data-action */ "./node_modules/@msdyn365-commerce/global-state/dist/lib/data-actions/cart-state-data-action.js");if(!dataAction.default){throw new Error('Data action path does not have a default export');}if(!(dataAction.default.prototype.id&&binding.dataActions[dataAction.default.prototype.id])||!binding.dataActions[sanitizedActionPath]){binding.dataActions[sanitizedActionPath]=dataAction;}}}catch(e){binding.dataActions['@msdyn365-commerce/global-state/dist/lib/data-actions/cart-state-data-action']=undefined;handleError('@msdyn365-commerce/global-state/dist/lib/data-actions/cart-state-data-action',e);}try{if(isNotRegistered('index-product')){const sanitizedActionPath='@msdyn365-commerce-modules/retail-actions/dist/lib/get-simple-products';let dataAction=__webpack_require__(/*! @msdyn365-commerce-modules/retail-actions/dist/lib/get-simple-products */ "./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-simple-products.js");if(!dataAction.default){throw new Error('Data action path does not have a default export');}if(!(dataAction.default.prototype.id&&binding.dataActions[dataAction.default.prototype.id])||!binding.dataActions[sanitizedActionPath]){binding.dataActions[sanitizedActionPath]=dataAction;}}}catch(e){binding.dataActions['@msdyn365-commerce-modules/retail-actions/dist/lib/get-simple-products']=undefined;handleError('@msdyn365-commerce-modules/retail-actions/dist/lib/get-simple-products',e);}try{if(isNotRegistered('navigation-menu')){const sanitizedActionPath='@msdyn365-commerce-modules/retail-actions/dist/lib/get-categories-hierarchy';let dataAction=__webpack_require__(/*! @msdyn365-commerce-modules/retail-actions/dist/lib/get-categories-hierarchy */ "./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-categories-hierarchy.js");if(!dataAction.default){throw new Error('Data action path does not have a default export');}if(!(dataAction.default.prototype.id&&binding.dataActions[dataAction.default.prototype.id])||!binding.dataActions[sanitizedActionPath]){binding.dataActions[sanitizedActionPath]=dataAction;}}}catch(e){binding.dataActions['@msdyn365-commerce-modules/retail-actions/dist/lib/get-categories-hierarchy']=undefined;handleError('@msdyn365-commerce-modules/retail-actions/dist/lib/get-categories-hierarchy',e);}try{if(isNotRegistered('search')){const sanitizedActionPath='@msdyn365-commerce-modules/search-utilities/dist/lib/search-state-data-action';let dataAction=__webpack_require__(/*! @msdyn365-commerce-modules/search-utilities/dist/lib/search-state-data-action */ "./node_modules/@msdyn365-commerce-modules/search-utilities/dist/lib/search-state-data-action.js");if(!dataAction.default){throw new Error('Data action path does not have a default export');}if(!(dataAction.default.prototype.id&&binding.dataActions[dataAction.default.prototype.id])||!binding.dataActions[sanitizedActionPath]){binding.dataActions[sanitizedActionPath]=dataAction;}}}catch(e){binding.dataActions['@msdyn365-commerce-modules/search-utilities/dist/lib/search-state-data-action']=undefined;handleError('@msdyn365-commerce-modules/search-utilities/dist/lib/search-state-data-action',e);}try{if(isNotRegistered('search-result-container')){const sanitizedActionPath='@msdyn365-commerce-modules/retail-actions/dist/lib/get-current-category';let dataAction=__webpack_require__(/*! @msdyn365-commerce-modules/retail-actions/dist/lib/get-current-category */ "./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-current-category.js");if(!dataAction.default){throw new Error('Data action path does not have a default export');}if(!(dataAction.default.prototype.id&&binding.dataActions[dataAction.default.prototype.id])||!binding.dataActions[sanitizedActionPath]){binding.dataActions[sanitizedActionPath]=dataAction;}}}catch(e){binding.dataActions['@msdyn365-commerce-modules/retail-actions/dist/lib/get-current-category']=undefined;handleError('@msdyn365-commerce-modules/retail-actions/dist/lib/get-current-category',e);}try{if(isNotRegistered('search-result-container')){const sanitizedActionPath='@msdyn365-commerce-modules/retail-actions/dist/lib/get-current-category-hierarchy';let dataAction=__webpack_require__(/*! @msdyn365-commerce-modules/retail-actions/dist/lib/get-current-category-hierarchy */ "./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-current-category-hierarchy.js");if(!dataAction.default){throw new Error('Data action path does not have a default export');}if(!(dataAction.default.prototype.id&&binding.dataActions[dataAction.default.prototype.id])||!binding.dataActions[sanitizedActionPath]){binding.dataActions[sanitizedActionPath]=dataAction;}}}catch(e){binding.dataActions['@msdyn365-commerce-modules/retail-actions/dist/lib/get-current-category-hierarchy']=undefined;handleError('@msdyn365-commerce-modules/retail-actions/dist/lib/get-current-category-hierarchy',e);}try{if(isNotRegistered('search-result-container')){const sanitizedActionPath='@msdyn365-commerce-modules/retail-actions/dist/lib/get-selected-variant';let dataAction=__webpack_require__(/*! @msdyn365-commerce-modules/retail-actions/dist/lib/get-selected-variant */ "./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-selected-variant.js");if(!dataAction.default){throw new Error('Data action path does not have a default export');}if(!(dataAction.default.prototype.id&&binding.dataActions[dataAction.default.prototype.id])||!binding.dataActions[sanitizedActionPath]){binding.dataActions[sanitizedActionPath]=dataAction;}}}catch(e){binding.dataActions['@msdyn365-commerce-modules/retail-actions/dist/lib/get-selected-variant']=undefined;handleError('@msdyn365-commerce-modules/retail-actions/dist/lib/get-selected-variant',e);}try{if(isNotRegistered('search-result-container')){const sanitizedActionPath='modules/search-result-container/actions/get-full-products-by-collection';let dataAction=__webpack_require__(/*! partner/modules/search-result-container/actions/get-full-products-by-collection */ "./src/modules/search-result-container/actions/get-full-products-by-collection.ts");if(!dataAction.default){throw new Error('Data action path does not have a default export');}if(!(dataAction.default.prototype.id&&binding.dataActions[dataAction.default.prototype.id])||!binding.dataActions[sanitizedActionPath]){binding.dataActions[sanitizedActionPath]=dataAction;}}}catch(e){binding.dataActions['modules/search-result-container/actions/get-full-products-by-collection']=undefined;handleError('modules/search-result-container/actions/get-full-products-by-collection',e);}try{if(isNotRegistered('search-result-container')){const sanitizedActionPath='modules/search-result-container/actions/get-mapped-search-configuration';let dataAction=__webpack_require__(/*! partner/modules/search-result-container/actions/get-mapped-search-configuration */ "./src/modules/search-result-container/actions/get-mapped-search-configuration.ts");if(!dataAction.default){throw new Error('Data action path does not have a default export');}if(!(dataAction.default.prototype.id&&binding.dataActions[dataAction.default.prototype.id])||!binding.dataActions[sanitizedActionPath]){binding.dataActions[sanitizedActionPath]=dataAction;}}}catch(e){binding.dataActions['modules/search-result-container/actions/get-mapped-search-configuration']=undefined;handleError('modules/search-result-container/actions/get-mapped-search-configuration',e);}try{if(isNotRegistered('search-result-container')){const sanitizedActionPath='modules/search-result-container/actions/get-refiners-for-collection';let dataAction=__webpack_require__(/*! partner/modules/search-result-container/actions/get-refiners-for-collection */ "./src/modules/search-result-container/actions/get-refiners-for-collection.ts");if(!dataAction.default){throw new Error('Data action path does not have a default export');}if(!(dataAction.default.prototype.id&&binding.dataActions[dataAction.default.prototype.id])||!binding.dataActions[sanitizedActionPath]){binding.dataActions[sanitizedActionPath]=dataAction;}}}catch(e){binding.dataActions['modules/search-result-container/actions/get-refiners-for-collection']=undefined;handleError('modules/search-result-container/actions/get-refiners-for-collection',e);}try{if(isNotRegistered('search-result-container')){const sanitizedActionPath='modules/search-result-container/list-page-state';let dataAction=__webpack_require__(/*! partner/modules/search-result-container/list-page-state */ "./src/modules/search-result-container/list-page-state.ts");if(!dataAction.default){throw new Error('Data action path does not have a default export');}if(!(dataAction.default.prototype.id&&binding.dataActions[dataAction.default.prototype.id])||!binding.dataActions[sanitizedActionPath]){binding.dataActions[sanitizedActionPath]=dataAction;}}}catch(e){binding.dataActions['modules/search-result-container/list-page-state']=undefined;handleError('modules/search-result-container/list-page-state',e);}return binding;};
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../node_modules/process/browser.js */ "./node_modules/process/browser.js"), "/"))
 
 /***/ }),
@@ -137,7 +137,7 @@ __webpack_require__.r(__webpack_exports__);
 * Copyright (c) 2018 Microsoft Corporation
 * Modules Registration
 * THIS FILE IS AUTO-GENERATED - MANUAL MODIFICATIONS WILL BE LOST
-*/const universal=__webpack_require__(/*! react-universal-component */ "./node_modules/react-universal-component/dist/index.js").default;const viewDictionary={};viewDictionary['__local__|__local__|modules|cart|cart']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"partner/modules/cart/cart.view.tsx",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! partner/modules/cart/cart.view.tsx */ "./src/modules/cart/cart.view.tsx"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'partner/modules/cart/cart.view.tsx'),resolve:()=>/*require.resolve*/(/*! partner/modules/cart/cart.view.tsx */ "./src/modules/cart/cart.view.tsx"),chunkName:()=>"partner-modules-cart-cart.view.tsx"}),{chunkName:()=>'partner-modules-cart-cart.view.tsx',ignoreBabelRename:true})};viewDictionary['__local__|__local__|modules|footer|footer']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"partner/modules/footer/footer.view.tsx",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! partner/modules/footer/footer.view.tsx */ "./src/modules/footer/footer.view.tsx"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'partner/modules/footer/footer.view.tsx'),resolve:()=>/*require.resolve*/(/*! partner/modules/footer/footer.view.tsx */ "./src/modules/footer/footer.view.tsx"),chunkName:()=>"partner-modules-footer-footer.view.tsx"}),{chunkName:()=>'partner-modules-footer-footer.view.tsx',ignoreBabelRename:true})};viewDictionary['__local__|__local__|modules|header|header']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"partner/modules/header/header.view.tsx",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! partner/modules/header/header.view.tsx */ "./src/modules/header/header.view.tsx"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'partner/modules/header/header.view.tsx'),resolve:()=>/*require.resolve*/(/*! partner/modules/header/header.view.tsx */ "./src/modules/header/header.view.tsx"),chunkName:()=>"partner-modules-header-header.view.tsx"}),{chunkName:()=>'partner-modules-header-header.view.tsx',ignoreBabelRename:true})};viewDictionary['__local__|__local__|modules|index-carousel|index-carousel']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"partner/modules/index-carousel/index-carousel.view.tsx",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! partner/modules/index-carousel/index-carousel.view.tsx */ "./src/modules/index-carousel/index-carousel.view.tsx"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'partner/modules/index-carousel/index-carousel.view.tsx'),resolve:()=>/*require.resolve*/(/*! partner/modules/index-carousel/index-carousel.view.tsx */ "./src/modules/index-carousel/index-carousel.view.tsx"),chunkName:()=>"partner-modules-index-carousel-index-carousel.view.tsx"}),{chunkName:()=>'partner-modules-index-carousel-index-carousel.view.tsx',ignoreBabelRename:true})};viewDictionary['__local__|__local__|modules|index-person|index-person']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"partner/modules/index-person/index-person.view.tsx",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! partner/modules/index-person/index-person.view.tsx */ "./src/modules/index-person/index-person.view.tsx"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'partner/modules/index-person/index-person.view.tsx'),resolve:()=>/*require.resolve*/(/*! partner/modules/index-person/index-person.view.tsx */ "./src/modules/index-person/index-person.view.tsx"),chunkName:()=>"partner-modules-index-person-index-person.view.tsx"}),{chunkName:()=>'partner-modules-index-person-index-person.view.tsx',ignoreBabelRename:true})};viewDictionary['__local__|__local__|modules|index-product|index-product']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"partner/modules/index-product/index-product.view.tsx",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! partner/modules/index-product/index-product.view.tsx */ "./src/modules/index-product/index-product.view.tsx"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'partner/modules/index-product/index-product.view.tsx'),resolve:()=>/*require.resolve*/(/*! partner/modules/index-product/index-product.view.tsx */ "./src/modules/index-product/index-product.view.tsx"),chunkName:()=>"partner-modules-index-product-index-product.view.tsx"}),{chunkName:()=>'partner-modules-index-product-index-product.view.tsx',ignoreBabelRename:true})};viewDictionary['__local__|__local__|modules|navigation-menu|navigation-menu']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"partner/modules/navigation-menu/navigation-menu.view.tsx",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! partner/modules/navigation-menu/navigation-menu.view.tsx */ "./src/modules/navigation-menu/navigation-menu.view.tsx"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'partner/modules/navigation-menu/navigation-menu.view.tsx'),resolve:()=>/*require.resolve*/(/*! partner/modules/navigation-menu/navigation-menu.view.tsx */ "./src/modules/navigation-menu/navigation-menu.view.tsx"),chunkName:()=>"partner-modules-navigation-menu-navigation-menu.view.tsx"}),{chunkName:()=>'partner-modules-navigation-menu-navigation-menu.view.tsx',ignoreBabelRename:true})};viewDictionary['__local__|__local__|modules|sale|sale']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"partner/modules/sale/sale.view.tsx",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! partner/modules/sale/sale.view.tsx */ "./src/modules/sale/sale.view.tsx"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'partner/modules/sale/sale.view.tsx'),resolve:()=>/*require.resolve*/(/*! partner/modules/sale/sale.view.tsx */ "./src/modules/sale/sale.view.tsx"),chunkName:()=>"partner-modules-sale-sale.view.tsx"}),{chunkName:()=>'partner-modules-sale-sale.view.tsx',ignoreBabelRename:true})};viewDictionary['__local__|__local__|modules|search-result-container|search-result-container']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"partner/modules/search-result-container/search-result-container.view.tsx",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! partner/modules/search-result-container/search-result-container.view.tsx */ "./src/modules/search-result-container/search-result-container.view.tsx"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'partner/modules/search-result-container/search-result-container.view.tsx'),resolve:()=>/*require.resolve*/(/*! partner/modules/search-result-container/search-result-container.view.tsx */ "./src/modules/search-result-container/search-result-container.view.tsx"),chunkName:()=>"partner-modules-search-result-container-search-result-container.view.tsx"}),{chunkName:()=>'partner-modules-search-result-container-search-result-container.view.tsx',ignoreBabelRename:true})};viewDictionary['__local__|__local__|modules|search|search']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"partner/modules/search/search.view.tsx",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! partner/modules/search/search.view.tsx */ "./src/modules/search/search.view.tsx"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'partner/modules/search/search.view.tsx'),resolve:()=>/*require.resolve*/(/*! partner/modules/search/search.view.tsx */ "./src/modules/search/search.view.tsx"),chunkName:()=>"partner-modules-search-search.view.tsx"}),{chunkName:()=>'partner-modules-search-search.view.tsx',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|accordion|modules|accordion-item|accordion-item']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/accordion/dist/lib/modules/accordion-item/accordion-item.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/accordion/dist/lib/modules/accordion-item/accordion-item.view.js */ "./node_modules/@msdyn365-commerce-modules/accordion/dist/lib/modules/accordion-item/accordion-item.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/accordion/dist/lib/modules/accordion-item/accordion-item.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/accordion/dist/lib/modules/accordion-item/accordion-item.view.js */ "./node_modules/@msdyn365-commerce-modules/accordion/dist/lib/modules/accordion-item/accordion-item.view.js"),chunkName:()=>"@msdyn365-commerce-modules-accordion-dist-lib-modules-accordion-item-accordion-item.view"}),{chunkName:()=>'@msdyn365-commerce-modules-accordion-dist-lib-modules-accordion-item-accordion-item.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|accordion|modules|accordion|accordion']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/accordion/dist/lib/modules/accordion/accordion.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/accordion/dist/lib/modules/accordion/accordion.view.js */ "./node_modules/@msdyn365-commerce-modules/accordion/dist/lib/modules/accordion/accordion.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/accordion/dist/lib/modules/accordion/accordion.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/accordion/dist/lib/modules/accordion/accordion.view.js */ "./node_modules/@msdyn365-commerce-modules/accordion/dist/lib/modules/accordion/accordion.view.js"),chunkName:()=>"@msdyn365-commerce-modules-accordion-dist-lib-modules-accordion-accordion.view"}),{chunkName:()=>'@msdyn365-commerce-modules-accordion-dist-lib-modules-accordion-accordion.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|account-management|modules|account-address-tile|account-address-tile']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/account-management/dist/lib/modules/account-address-tile/account-address-tile.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/account-management/dist/lib/modules/account-address-tile/account-address-tile.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/account-address-tile/account-address-tile.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/account-management/dist/lib/modules/account-address-tile/account-address-tile.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/account-management/dist/lib/modules/account-address-tile/account-address-tile.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/account-address-tile/account-address-tile.view.js"),chunkName:()=>"@msdyn365-commerce-modules-account-management-dist-lib-modules-account-address-tile-account-address-tile.view"}),{chunkName:()=>'@msdyn365-commerce-modules-account-management-dist-lib-modules-account-address-tile-account-address-tile.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|account-management|modules|account-customer-balance-tile|account-customer-balance-tile']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/account-management/dist/lib/modules/account-customer-balance-tile/account-customer-balance-tile.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/account-management/dist/lib/modules/account-customer-balance-tile/account-customer-balance-tile.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/account-customer-balance-tile/account-customer-balance-tile.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/account-management/dist/lib/modules/account-customer-balance-tile/account-customer-balance-tile.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/account-management/dist/lib/modules/account-customer-balance-tile/account-customer-balance-tile.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/account-customer-balance-tile/account-customer-balance-tile.view.js"),chunkName:()=>"@msdyn365-commerce-modules-account-management-dist-lib-modules-account-customer-balance-tile-account-customer-balance-tile.view"}),{chunkName:()=>'@msdyn365-commerce-modules-account-management-dist-lib-modules-account-customer-balance-tile-account-customer-balance-tile.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|account-management|modules|account-customer-balance|account-customer-balance']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/account-management/dist/lib/modules/account-customer-balance/account-customer-balance.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/account-management/dist/lib/modules/account-customer-balance/account-customer-balance.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/account-customer-balance/account-customer-balance.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/account-management/dist/lib/modules/account-customer-balance/account-customer-balance.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/account-management/dist/lib/modules/account-customer-balance/account-customer-balance.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/account-customer-balance/account-customer-balance.view.js"),chunkName:()=>"@msdyn365-commerce-modules-account-management-dist-lib-modules-account-customer-balance-account-customer-balance.view"}),{chunkName:()=>'@msdyn365-commerce-modules-account-management-dist-lib-modules-account-customer-balance-account-customer-balance.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|account-management|modules|account-generic-tile|account-generic-tile']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/account-management/dist/lib/modules/account-generic-tile/account-generic-tile.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/account-management/dist/lib/modules/account-generic-tile/account-generic-tile.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/account-generic-tile/account-generic-tile.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/account-management/dist/lib/modules/account-generic-tile/account-generic-tile.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/account-management/dist/lib/modules/account-generic-tile/account-generic-tile.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/account-generic-tile/account-generic-tile.view.js"),chunkName:()=>"@msdyn365-commerce-modules-account-management-dist-lib-modules-account-generic-tile-account-generic-tile.view"}),{chunkName:()=>'@msdyn365-commerce-modules-account-management-dist-lib-modules-account-generic-tile-account-generic-tile.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|account-management|modules|account-loyalty-tile|account-loyalty-tile']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/account-management/dist/lib/modules/account-loyalty-tile/account-loyalty-tile.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/account-management/dist/lib/modules/account-loyalty-tile/account-loyalty-tile.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/account-loyalty-tile/account-loyalty-tile.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/account-management/dist/lib/modules/account-loyalty-tile/account-loyalty-tile.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/account-management/dist/lib/modules/account-loyalty-tile/account-loyalty-tile.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/account-loyalty-tile/account-loyalty-tile.view.js"),chunkName:()=>"@msdyn365-commerce-modules-account-management-dist-lib-modules-account-loyalty-tile-account-loyalty-tile.view"}),{chunkName:()=>'@msdyn365-commerce-modules-account-management-dist-lib-modules-account-loyalty-tile-account-loyalty-tile.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|account-management|modules|account-loyalty|account-loyalty']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/account-management/dist/lib/modules/account-loyalty/account-loyalty.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/account-management/dist/lib/modules/account-loyalty/account-loyalty.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/account-loyalty/account-loyalty.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/account-management/dist/lib/modules/account-loyalty/account-loyalty.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/account-management/dist/lib/modules/account-loyalty/account-loyalty.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/account-loyalty/account-loyalty.view.js"),chunkName:()=>"@msdyn365-commerce-modules-account-management-dist-lib-modules-account-loyalty-account-loyalty.view"}),{chunkName:()=>'@msdyn365-commerce-modules-account-management-dist-lib-modules-account-loyalty-account-loyalty.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|account-management|modules|account-order-templates-tile|account-order-templates-tile']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/account-management/dist/lib/modules/account-order-templates-tile/account-order-templates-tile.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/account-management/dist/lib/modules/account-order-templates-tile/account-order-templates-tile.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/account-order-templates-tile/account-order-templates-tile.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/account-management/dist/lib/modules/account-order-templates-tile/account-order-templates-tile.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/account-management/dist/lib/modules/account-order-templates-tile/account-order-templates-tile.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/account-order-templates-tile/account-order-templates-tile.view.js"),chunkName:()=>"@msdyn365-commerce-modules-account-management-dist-lib-modules-account-order-templates-tile-account-order-templates-tile.view"}),{chunkName:()=>'@msdyn365-commerce-modules-account-management-dist-lib-modules-account-order-templates-tile-account-order-templates-tile.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|account-management|modules|account-profile-edit|account-profile-edit']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/account-management/dist/lib/modules/account-profile-edit/account-profile-edit.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/account-management/dist/lib/modules/account-profile-edit/account-profile-edit.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/account-profile-edit/account-profile-edit.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/account-management/dist/lib/modules/account-profile-edit/account-profile-edit.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/account-management/dist/lib/modules/account-profile-edit/account-profile-edit.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/account-profile-edit/account-profile-edit.view.js"),chunkName:()=>"@msdyn365-commerce-modules-account-management-dist-lib-modules-account-profile-edit-account-profile-edit.view"}),{chunkName:()=>'@msdyn365-commerce-modules-account-management-dist-lib-modules-account-profile-edit-account-profile-edit.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|account-management|modules|account-profile|account-profile']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/account-management/dist/lib/modules/account-profile/account-profile.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/account-management/dist/lib/modules/account-profile/account-profile.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/account-profile/account-profile.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/account-management/dist/lib/modules/account-profile/account-profile.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/account-management/dist/lib/modules/account-profile/account-profile.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/account-profile/account-profile.view.js"),chunkName:()=>"@msdyn365-commerce-modules-account-management-dist-lib-modules-account-profile-account-profile.view"}),{chunkName:()=>'@msdyn365-commerce-modules-account-management-dist-lib-modules-account-profile-account-profile.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|account-management|modules|account-welcome-tile|account-welcome-tile']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/account-management/dist/lib/modules/account-welcome-tile/account-welcome-tile.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/account-management/dist/lib/modules/account-welcome-tile/account-welcome-tile.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/account-welcome-tile/account-welcome-tile.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/account-management/dist/lib/modules/account-welcome-tile/account-welcome-tile.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/account-management/dist/lib/modules/account-welcome-tile/account-welcome-tile.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/account-welcome-tile/account-welcome-tile.view.js"),chunkName:()=>"@msdyn365-commerce-modules-account-management-dist-lib-modules-account-welcome-tile-account-welcome-tile.view"}),{chunkName:()=>'@msdyn365-commerce-modules-account-management-dist-lib-modules-account-welcome-tile-account-welcome-tile.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|account-management|modules|account-wishlist-tile|account-wishlist-tile']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/account-management/dist/lib/modules/account-wishlist-tile/account-wishlist-tile.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/account-management/dist/lib/modules/account-wishlist-tile/account-wishlist-tile.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/account-wishlist-tile/account-wishlist-tile.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/account-management/dist/lib/modules/account-wishlist-tile/account-wishlist-tile.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/account-management/dist/lib/modules/account-wishlist-tile/account-wishlist-tile.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/account-wishlist-tile/account-wishlist-tile.view.js"),chunkName:()=>"@msdyn365-commerce-modules-account-management-dist-lib-modules-account-wishlist-tile-account-wishlist-tile.view"}),{chunkName:()=>'@msdyn365-commerce-modules-account-management-dist-lib-modules-account-wishlist-tile-account-wishlist-tile.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|account-management|modules|loyalty-sign-up|loyalty-sign-up']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/account-management/dist/lib/modules/loyalty-sign-up/loyalty-sign-up.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/account-management/dist/lib/modules/loyalty-sign-up/loyalty-sign-up.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/loyalty-sign-up/loyalty-sign-up.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/account-management/dist/lib/modules/loyalty-sign-up/loyalty-sign-up.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/account-management/dist/lib/modules/loyalty-sign-up/loyalty-sign-up.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/loyalty-sign-up/loyalty-sign-up.view.js"),chunkName:()=>"@msdyn365-commerce-modules-account-management-dist-lib-modules-loyalty-sign-up-loyalty-sign-up.view"}),{chunkName:()=>'@msdyn365-commerce-modules-account-management-dist-lib-modules-loyalty-sign-up-loyalty-sign-up.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|account-management|modules|loyalty-terms|loyalty-terms']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/account-management/dist/lib/modules/loyalty-terms/loyalty-terms.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/account-management/dist/lib/modules/loyalty-terms/loyalty-terms.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/loyalty-terms/loyalty-terms.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/account-management/dist/lib/modules/loyalty-terms/loyalty-terms.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/account-management/dist/lib/modules/loyalty-terms/loyalty-terms.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/loyalty-terms/loyalty-terms.view.js"),chunkName:()=>"@msdyn365-commerce-modules-account-management-dist-lib-modules-loyalty-terms-loyalty-terms.view"}),{chunkName:()=>'@msdyn365-commerce-modules-account-management-dist-lib-modules-loyalty-terms-loyalty-terms.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|account-management|modules|organization-users-tile|organization-users-tile']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/account-management/dist/lib/modules/organization-users-tile/organization-users-tile.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/account-management/dist/lib/modules/organization-users-tile/organization-users-tile.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/organization-users-tile/organization-users-tile.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/account-management/dist/lib/modules/organization-users-tile/organization-users-tile.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/account-management/dist/lib/modules/organization-users-tile/organization-users-tile.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/organization-users-tile/organization-users-tile.view.js"),chunkName:()=>"@msdyn365-commerce-modules-account-management-dist-lib-modules-organization-users-tile-organization-users-tile.view"}),{chunkName:()=>'@msdyn365-commerce-modules-account-management-dist-lib-modules-organization-users-tile-organization-users-tile.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|account-management|modules|password-reset-verification|password-reset-verification']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/account-management/dist/lib/modules/password-reset-verification/password-reset-verification.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/account-management/dist/lib/modules/password-reset-verification/password-reset-verification.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/password-reset-verification/password-reset-verification.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/account-management/dist/lib/modules/password-reset-verification/password-reset-verification.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/account-management/dist/lib/modules/password-reset-verification/password-reset-verification.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/password-reset-verification/password-reset-verification.view.js"),chunkName:()=>"@msdyn365-commerce-modules-account-management-dist-lib-modules-password-reset-verification-password-reset-verification.view"}),{chunkName:()=>'@msdyn365-commerce-modules-account-management-dist-lib-modules-password-reset-verification-password-reset-verification.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|account-management|modules|password-reset|password-reset']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/account-management/dist/lib/modules/password-reset/password-reset.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/account-management/dist/lib/modules/password-reset/password-reset.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/password-reset/password-reset.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/account-management/dist/lib/modules/password-reset/password-reset.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/account-management/dist/lib/modules/password-reset/password-reset.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/password-reset/password-reset.view.js"),chunkName:()=>"@msdyn365-commerce-modules-account-management-dist-lib-modules-password-reset-password-reset.view"}),{chunkName:()=>'@msdyn365-commerce-modules-account-management-dist-lib-modules-password-reset-password-reset.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|account-management|modules|sign-in|sign-in']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/account-management/dist/lib/modules/sign-in/sign-in.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/account-management/dist/lib/modules/sign-in/sign-in.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/sign-in/sign-in.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/account-management/dist/lib/modules/sign-in/sign-in.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/account-management/dist/lib/modules/sign-in/sign-in.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/sign-in/sign-in.view.js"),chunkName:()=>"@msdyn365-commerce-modules-account-management-dist-lib-modules-sign-in-sign-in.view"}),{chunkName:()=>'@msdyn365-commerce-modules-account-management-dist-lib-modules-sign-in-sign-in.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|account-management|modules|sign-up|sign-up']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/account-management/dist/lib/modules/sign-up/sign-up.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/account-management/dist/lib/modules/sign-up/sign-up.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/sign-up/sign-up.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/account-management/dist/lib/modules/sign-up/sign-up.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/account-management/dist/lib/modules/sign-up/sign-up.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/sign-up/sign-up.view.js"),chunkName:()=>"@msdyn365-commerce-modules-account-management-dist-lib-modules-sign-up-sign-up.view"}),{chunkName:()=>'@msdyn365-commerce-modules-account-management-dist-lib-modules-sign-up-sign-up.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|address|modules|account-management-address|account-management-address']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/address/dist/lib/modules/account-management-address/account-management-address.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/address/dist/lib/modules/account-management-address/account-management-address.view.js */ "./node_modules/@msdyn365-commerce-modules/address/dist/lib/modules/account-management-address/account-management-address.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/address/dist/lib/modules/account-management-address/account-management-address.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/address/dist/lib/modules/account-management-address/account-management-address.view.js */ "./node_modules/@msdyn365-commerce-modules/address/dist/lib/modules/account-management-address/account-management-address.view.js"),chunkName:()=>"@msdyn365-commerce-modules-address-dist-lib-modules-account-management-address-account-management-address.view"}),{chunkName:()=>'@msdyn365-commerce-modules-address-dist-lib-modules-account-management-address-account-management-address.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|address|modules|business-account-address|business-account-address']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/address/dist/lib/modules/business-account-address/business-account-address.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/address/dist/lib/modules/business-account-address/business-account-address.view.js */ "./node_modules/@msdyn365-commerce-modules/address/dist/lib/modules/business-account-address/business-account-address.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/address/dist/lib/modules/business-account-address/business-account-address.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/address/dist/lib/modules/business-account-address/business-account-address.view.js */ "./node_modules/@msdyn365-commerce-modules/address/dist/lib/modules/business-account-address/business-account-address.view.js"),chunkName:()=>"@msdyn365-commerce-modules-address-dist-lib-modules-business-account-address-business-account-address.view"}),{chunkName:()=>'@msdyn365-commerce-modules-address-dist-lib-modules-business-account-address-business-account-address.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|address|modules|checkout-billing-address|checkout-billing-address']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/address/dist/lib/modules/checkout-billing-address/checkout-billing-address.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/address/dist/lib/modules/checkout-billing-address/checkout-billing-address.view.js */ "./node_modules/@msdyn365-commerce-modules/address/dist/lib/modules/checkout-billing-address/checkout-billing-address.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/address/dist/lib/modules/checkout-billing-address/checkout-billing-address.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/address/dist/lib/modules/checkout-billing-address/checkout-billing-address.view.js */ "./node_modules/@msdyn365-commerce-modules/address/dist/lib/modules/checkout-billing-address/checkout-billing-address.view.js"),chunkName:()=>"@msdyn365-commerce-modules-address-dist-lib-modules-checkout-billing-address-checkout-billing-address.view"}),{chunkName:()=>'@msdyn365-commerce-modules-address-dist-lib-modules-checkout-billing-address-checkout-billing-address.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|address|modules|checkout-shipping-address|checkout-shipping-address']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/address/dist/lib/modules/checkout-shipping-address/checkout-shipping-address.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/address/dist/lib/modules/checkout-shipping-address/checkout-shipping-address.view.js */ "./node_modules/@msdyn365-commerce-modules/address/dist/lib/modules/checkout-shipping-address/checkout-shipping-address.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/address/dist/lib/modules/checkout-shipping-address/checkout-shipping-address.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/address/dist/lib/modules/checkout-shipping-address/checkout-shipping-address.view.js */ "./node_modules/@msdyn365-commerce-modules/address/dist/lib/modules/checkout-shipping-address/checkout-shipping-address.view.js"),chunkName:()=>"@msdyn365-commerce-modules-address-dist-lib-modules-checkout-shipping-address-checkout-shipping-address.view"}),{chunkName:()=>'@msdyn365-commerce-modules-address-dist-lib-modules-checkout-shipping-address-checkout-shipping-address.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|breadcrumb|modules|breadcrumb|breadcrumb']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/breadcrumb/dist/lib/modules/breadcrumb/breadcrumb.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/breadcrumb/dist/lib/modules/breadcrumb/breadcrumb.view.js */ "./node_modules/@msdyn365-commerce-modules/breadcrumb/dist/lib/modules/breadcrumb/breadcrumb.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/breadcrumb/dist/lib/modules/breadcrumb/breadcrumb.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/breadcrumb/dist/lib/modules/breadcrumb/breadcrumb.view.js */ "./node_modules/@msdyn365-commerce-modules/breadcrumb/dist/lib/modules/breadcrumb/breadcrumb.view.js"),chunkName:()=>"@msdyn365-commerce-modules-breadcrumb-dist-lib-modules-breadcrumb-breadcrumb.view"}),{chunkName:()=>'@msdyn365-commerce-modules-breadcrumb-dist-lib-modules-breadcrumb-breadcrumb.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|business-account-management|modules|business-sign-up|business-sign-up']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/business-account-management/dist/lib/modules/business-sign-up/business-sign-up.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/business-account-management/dist/lib/modules/business-sign-up/business-sign-up.view.js */ "./node_modules/@msdyn365-commerce-modules/business-account-management/dist/lib/modules/business-sign-up/business-sign-up.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/business-account-management/dist/lib/modules/business-sign-up/business-sign-up.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/business-account-management/dist/lib/modules/business-sign-up/business-sign-up.view.js */ "./node_modules/@msdyn365-commerce-modules/business-account-management/dist/lib/modules/business-sign-up/business-sign-up.view.js"),chunkName:()=>"@msdyn365-commerce-modules-business-account-management-dist-lib-modules-business-sign-up-business-sign-up.view"}),{chunkName:()=>'@msdyn365-commerce-modules-business-account-management-dist-lib-modules-business-sign-up-business-sign-up.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|business-organization-list|modules|business-organization-list|business-organization-list']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/business-organization-list/dist/lib/modules/business-organization-list/business-organization-list.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/business-organization-list/dist/lib/modules/business-organization-list/business-organization-list.view.js */ "./node_modules/@msdyn365-commerce-modules/business-organization-list/dist/lib/modules/business-organization-list/business-organization-list.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/business-organization-list/dist/lib/modules/business-organization-list/business-organization-list.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/business-organization-list/dist/lib/modules/business-organization-list/business-organization-list.view.js */ "./node_modules/@msdyn365-commerce-modules/business-organization-list/dist/lib/modules/business-organization-list/business-organization-list.view.js"),chunkName:()=>"@msdyn365-commerce-modules-business-organization-list-dist-lib-modules-business-organization-list-business-organization-list.view"}),{chunkName:()=>'@msdyn365-commerce-modules-business-organization-list-dist-lib-modules-business-organization-list-business-organization-list.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|buybox|modules|buybox|buybox']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/buybox/dist/lib/modules/buybox/buybox.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/buybox/dist/lib/modules/buybox/buybox.view.js */ "./node_modules/@msdyn365-commerce-modules/buybox/dist/lib/modules/buybox/buybox.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/buybox/dist/lib/modules/buybox/buybox.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/buybox/dist/lib/modules/buybox/buybox.view.js */ "./node_modules/@msdyn365-commerce-modules/buybox/dist/lib/modules/buybox/buybox.view.js"),chunkName:()=>"@msdyn365-commerce-modules-buybox-dist-lib-modules-buybox-buybox.view"}),{chunkName:()=>'@msdyn365-commerce-modules-buybox-dist-lib-modules-buybox-buybox.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|carousel|modules|carousel|carousel']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/carousel/dist/lib/modules/carousel/carousel.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/carousel/dist/lib/modules/carousel/carousel.view.js */ "./node_modules/@msdyn365-commerce-modules/carousel/dist/lib/modules/carousel/carousel.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/carousel/dist/lib/modules/carousel/carousel.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/carousel/dist/lib/modules/carousel/carousel.view.js */ "./node_modules/@msdyn365-commerce-modules/carousel/dist/lib/modules/carousel/carousel.view.js"),chunkName:()=>"@msdyn365-commerce-modules-carousel-dist-lib-modules-carousel-carousel.view"}),{chunkName:()=>'@msdyn365-commerce-modules-carousel-dist-lib-modules-carousel-carousel.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|cart|modules|cart-icon|cart-icon']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/cart/dist/lib/modules/cart-icon/cart-icon.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/cart/dist/lib/modules/cart-icon/cart-icon.view.js */ "./node_modules/@msdyn365-commerce-modules/cart/dist/lib/modules/cart-icon/cart-icon.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/cart/dist/lib/modules/cart-icon/cart-icon.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/cart/dist/lib/modules/cart-icon/cart-icon.view.js */ "./node_modules/@msdyn365-commerce-modules/cart/dist/lib/modules/cart-icon/cart-icon.view.js"),chunkName:()=>"@msdyn365-commerce-modules-cart-dist-lib-modules-cart-icon-cart-icon.view"}),{chunkName:()=>'@msdyn365-commerce-modules-cart-dist-lib-modules-cart-icon-cart-icon.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|cart|modules|cart|cart']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/cart/dist/lib/modules/cart/cart.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/cart/dist/lib/modules/cart/cart.view.js */ "./node_modules/@msdyn365-commerce-modules/cart/dist/lib/modules/cart/cart.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/cart/dist/lib/modules/cart/cart.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/cart/dist/lib/modules/cart/cart.view.js */ "./node_modules/@msdyn365-commerce-modules/cart/dist/lib/modules/cart/cart.view.js"),chunkName:()=>"@msdyn365-commerce-modules-cart-dist-lib-modules-cart-cart.view"}),{chunkName:()=>'@msdyn365-commerce-modules-cart-dist-lib-modules-cart-cart.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|checkout|modules|checkout-customer-account-payment|checkout-customer-account-payment']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-customer-account-payment/checkout-customer-account-payment.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-customer-account-payment/checkout-customer-account-payment.view.js */ "./node_modules/@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-customer-account-payment/checkout-customer-account-payment.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-customer-account-payment/checkout-customer-account-payment.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-customer-account-payment/checkout-customer-account-payment.view.js */ "./node_modules/@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-customer-account-payment/checkout-customer-account-payment.view.js"),chunkName:()=>"@msdyn365-commerce-modules-checkout-dist-lib-modules-checkout-customer-account-payment-checkout-customer-account-payment.view"}),{chunkName:()=>'@msdyn365-commerce-modules-checkout-dist-lib-modules-checkout-customer-account-payment-checkout-customer-account-payment.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|checkout|modules|checkout-delivery-options|checkout-delivery-options']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-delivery-options/checkout-delivery-options.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-delivery-options/checkout-delivery-options.view.js */ "./node_modules/@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-delivery-options/checkout-delivery-options.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-delivery-options/checkout-delivery-options.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-delivery-options/checkout-delivery-options.view.js */ "./node_modules/@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-delivery-options/checkout-delivery-options.view.js"),chunkName:()=>"@msdyn365-commerce-modules-checkout-dist-lib-modules-checkout-delivery-options-checkout-delivery-options.view"}),{chunkName:()=>'@msdyn365-commerce-modules-checkout-dist-lib-modules-checkout-delivery-options-checkout-delivery-options.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|checkout|modules|checkout-gift-card|checkout-gift-card']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-gift-card/checkout-gift-card.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-gift-card/checkout-gift-card.view.js */ "./node_modules/@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-gift-card/checkout-gift-card.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-gift-card/checkout-gift-card.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-gift-card/checkout-gift-card.view.js */ "./node_modules/@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-gift-card/checkout-gift-card.view.js"),chunkName:()=>"@msdyn365-commerce-modules-checkout-dist-lib-modules-checkout-gift-card-checkout-gift-card.view"}),{chunkName:()=>'@msdyn365-commerce-modules-checkout-dist-lib-modules-checkout-gift-card-checkout-gift-card.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|checkout|modules|checkout-guest-profile|checkout-guest-profile']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-guest-profile/checkout-guest-profile.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-guest-profile/checkout-guest-profile.view.js */ "./node_modules/@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-guest-profile/checkout-guest-profile.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-guest-profile/checkout-guest-profile.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-guest-profile/checkout-guest-profile.view.js */ "./node_modules/@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-guest-profile/checkout-guest-profile.view.js"),chunkName:()=>"@msdyn365-commerce-modules-checkout-dist-lib-modules-checkout-guest-profile-checkout-guest-profile.view"}),{chunkName:()=>'@msdyn365-commerce-modules-checkout-dist-lib-modules-checkout-guest-profile-checkout-guest-profile.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|checkout|modules|checkout-loyalty|checkout-loyalty']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-loyalty/checkout-loyalty.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-loyalty/checkout-loyalty.view.js */ "./node_modules/@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-loyalty/checkout-loyalty.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-loyalty/checkout-loyalty.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-loyalty/checkout-loyalty.view.js */ "./node_modules/@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-loyalty/checkout-loyalty.view.js"),chunkName:()=>"@msdyn365-commerce-modules-checkout-dist-lib-modules-checkout-loyalty-checkout-loyalty.view"}),{chunkName:()=>'@msdyn365-commerce-modules-checkout-dist-lib-modules-checkout-loyalty-checkout-loyalty.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|checkout|modules|checkout-payment-instrument|checkout-payment-instrument']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-payment-instrument/checkout-payment-instrument.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-payment-instrument/checkout-payment-instrument.view.js */ "./node_modules/@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-payment-instrument/checkout-payment-instrument.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-payment-instrument/checkout-payment-instrument.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-payment-instrument/checkout-payment-instrument.view.js */ "./node_modules/@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-payment-instrument/checkout-payment-instrument.view.js"),chunkName:()=>"@msdyn365-commerce-modules-checkout-dist-lib-modules-checkout-payment-instrument-checkout-payment-instrument.view"}),{chunkName:()=>'@msdyn365-commerce-modules-checkout-dist-lib-modules-checkout-payment-instrument-checkout-payment-instrument.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|checkout|modules|checkout-section-container|checkout-section-container']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-section-container/checkout-section-container.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-section-container/checkout-section-container.view.js */ "./node_modules/@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-section-container/checkout-section-container.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-section-container/checkout-section-container.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-section-container/checkout-section-container.view.js */ "./node_modules/@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-section-container/checkout-section-container.view.js"),chunkName:()=>"@msdyn365-commerce-modules-checkout-dist-lib-modules-checkout-section-container-checkout-section-container.view"}),{chunkName:()=>'@msdyn365-commerce-modules-checkout-dist-lib-modules-checkout-section-container-checkout-section-container.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|checkout|modules|checkout-terms-and-conditions|checkout-terms-and-conditions']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-terms-and-conditions/checkout-terms-and-conditions.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-terms-and-conditions/checkout-terms-and-conditions.view.js */ "./node_modules/@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-terms-and-conditions/checkout-terms-and-conditions.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-terms-and-conditions/checkout-terms-and-conditions.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-terms-and-conditions/checkout-terms-and-conditions.view.js */ "./node_modules/@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-terms-and-conditions/checkout-terms-and-conditions.view.js"),chunkName:()=>"@msdyn365-commerce-modules-checkout-dist-lib-modules-checkout-terms-and-conditions-checkout-terms-and-conditions.view"}),{chunkName:()=>'@msdyn365-commerce-modules-checkout-dist-lib-modules-checkout-terms-and-conditions-checkout-terms-and-conditions.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|checkout|modules|checkout|checkout']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout/checkout.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/checkout/dist/lib/modules/checkout/checkout.view.js */ "./node_modules/@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout/checkout.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout/checkout.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/checkout/dist/lib/modules/checkout/checkout.view.js */ "./node_modules/@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout/checkout.view.js"),chunkName:()=>"@msdyn365-commerce-modules-checkout-dist-lib-modules-checkout-checkout.view"}),{chunkName:()=>'@msdyn365-commerce-modules-checkout-dist-lib-modules-checkout-checkout.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|checkout|modules|gift-card-balance-check|gift-card-balance-check']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/checkout/dist/lib/modules/gift-card-balance-check/gift-card-balance-check.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/checkout/dist/lib/modules/gift-card-balance-check/gift-card-balance-check.view.js */ "./node_modules/@msdyn365-commerce-modules/checkout/dist/lib/modules/gift-card-balance-check/gift-card-balance-check.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/checkout/dist/lib/modules/gift-card-balance-check/gift-card-balance-check.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/checkout/dist/lib/modules/gift-card-balance-check/gift-card-balance-check.view.js */ "./node_modules/@msdyn365-commerce-modules/checkout/dist/lib/modules/gift-card-balance-check/gift-card-balance-check.view.js"),chunkName:()=>"@msdyn365-commerce-modules-checkout-dist-lib-modules-gift-card-balance-check-gift-card-balance-check.view"}),{chunkName:()=>'@msdyn365-commerce-modules-checkout-dist-lib-modules-gift-card-balance-check-gift-card-balance-check.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|content-block|modules|content-block|content-block']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/content-block/dist/lib/modules/content-block/content-block.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/content-block/dist/lib/modules/content-block/content-block.view.js */ "./node_modules/@msdyn365-commerce-modules/content-block/dist/lib/modules/content-block/content-block.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/content-block/dist/lib/modules/content-block/content-block.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/content-block/dist/lib/modules/content-block/content-block.view.js */ "./node_modules/@msdyn365-commerce-modules/content-block/dist/lib/modules/content-block/content-block.view.js"),chunkName:()=>"@msdyn365-commerce-modules-content-block-dist-lib-modules-content-block-content-block.view"}),{chunkName:()=>'@msdyn365-commerce-modules-content-block-dist-lib-modules-content-block-content-block.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|cookie-compliance|modules|cookie-compliance|cookie-compliance']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/cookie-compliance/dist/lib/modules/cookie-compliance/cookie-compliance.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/cookie-compliance/dist/lib/modules/cookie-compliance/cookie-compliance.view.js */ "./node_modules/@msdyn365-commerce-modules/cookie-compliance/dist/lib/modules/cookie-compliance/cookie-compliance.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/cookie-compliance/dist/lib/modules/cookie-compliance/cookie-compliance.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/cookie-compliance/dist/lib/modules/cookie-compliance/cookie-compliance.view.js */ "./node_modules/@msdyn365-commerce-modules/cookie-compliance/dist/lib/modules/cookie-compliance/cookie-compliance.view.js"),chunkName:()=>"@msdyn365-commerce-modules-cookie-compliance-dist-lib-modules-cookie-compliance-cookie-compliance.view"}),{chunkName:()=>'@msdyn365-commerce-modules-cookie-compliance-dist-lib-modules-cookie-compliance-cookie-compliance.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|fabrikam-design-kit|modules|fabrikam|views|buybox']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/buybox.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/buybox.view.js */ "./node_modules/@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/buybox.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/buybox.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/buybox.view.js */ "./node_modules/@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/buybox.view.js"),chunkName:()=>"@msdyn365-commerce-modules-fabrikam-design-kit-dist-lib-modules-fabrikam-views-buybox.view"}),{chunkName:()=>'@msdyn365-commerce-modules-fabrikam-design-kit-dist-lib-modules-fabrikam-views-buybox.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|fabrikam-design-kit|modules|fabrikam|views|cart']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/cart.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/cart.view.js */ "./node_modules/@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/cart.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/cart.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/cart.view.js */ "./node_modules/@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/cart.view.js"),chunkName:()=>"@msdyn365-commerce-modules-fabrikam-design-kit-dist-lib-modules-fabrikam-views-cart.view"}),{chunkName:()=>'@msdyn365-commerce-modules-fabrikam-design-kit-dist-lib-modules-fabrikam-views-cart.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|fabrikam-design-kit|modules|fabrikam|views|header']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/header.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/header.view.js */ "./node_modules/@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/header.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/header.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/header.view.js */ "./node_modules/@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/header.view.js"),chunkName:()=>"@msdyn365-commerce-modules-fabrikam-design-kit-dist-lib-modules-fabrikam-views-header.view"}),{chunkName:()=>'@msdyn365-commerce-modules-fabrikam-design-kit-dist-lib-modules-fabrikam-views-header.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|fabrikam-design-kit|modules|fabrikam|views|navigation-menu']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/navigation-menu.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/navigation-menu.view.js */ "./node_modules/@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/navigation-menu.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/navigation-menu.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/navigation-menu.view.js */ "./node_modules/@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/navigation-menu.view.js"),chunkName:()=>"@msdyn365-commerce-modules-fabrikam-design-kit-dist-lib-modules-fabrikam-views-navigation-menu.view"}),{chunkName:()=>'@msdyn365-commerce-modules-fabrikam-design-kit-dist-lib-modules-fabrikam-views-navigation-menu.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|fabrikam-design-kit|modules|fabrikam|views|order-details']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/order-details.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/order-details.view.js */ "./node_modules/@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/order-details.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/order-details.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/order-details.view.js */ "./node_modules/@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/order-details.view.js"),chunkName:()=>"@msdyn365-commerce-modules-fabrikam-design-kit-dist-lib-modules-fabrikam-views-order-details.view"}),{chunkName:()=>'@msdyn365-commerce-modules-fabrikam-design-kit-dist-lib-modules-fabrikam-views-order-details.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|fabrikam-design-kit|modules|fabrikam|views|order-history']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/order-history.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/order-history.view.js */ "./node_modules/@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/order-history.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/order-history.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/order-history.view.js */ "./node_modules/@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/order-history.view.js"),chunkName:()=>"@msdyn365-commerce-modules-fabrikam-design-kit-dist-lib-modules-fabrikam-views-order-history.view"}),{chunkName:()=>'@msdyn365-commerce-modules-fabrikam-design-kit-dist-lib-modules-fabrikam-views-order-history.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|fabrikam-design-kit|modules|fabrikam|views|ratings-histogram']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/ratings-histogram.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/ratings-histogram.view.js */ "./node_modules/@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/ratings-histogram.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/ratings-histogram.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/ratings-histogram.view.js */ "./node_modules/@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/ratings-histogram.view.js"),chunkName:()=>"@msdyn365-commerce-modules-fabrikam-design-kit-dist-lib-modules-fabrikam-views-ratings-histogram.view"}),{chunkName:()=>'@msdyn365-commerce-modules-fabrikam-design-kit-dist-lib-modules-fabrikam-views-ratings-histogram.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|fabrikam-design-kit|modules|fabrikam|views|reviews-list']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/reviews-list.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/reviews-list.view.js */ "./node_modules/@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/reviews-list.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/reviews-list.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/reviews-list.view.js */ "./node_modules/@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/reviews-list.view.js"),chunkName:()=>"@msdyn365-commerce-modules-fabrikam-design-kit-dist-lib-modules-fabrikam-views-reviews-list.view"}),{chunkName:()=>'@msdyn365-commerce-modules-fabrikam-design-kit-dist-lib-modules-fabrikam-views-reviews-list.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|fabrikam-design-kit|modules|fabrikam|views|search-result-container']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/search-result-container.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/search-result-container.view.js */ "./node_modules/@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/search-result-container.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/search-result-container.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/search-result-container.view.js */ "./node_modules/@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/search-result-container.view.js"),chunkName:()=>"@msdyn365-commerce-modules-fabrikam-design-kit-dist-lib-modules-fabrikam-views-search-result-container.view"}),{chunkName:()=>'@msdyn365-commerce-modules-fabrikam-design-kit-dist-lib-modules-fabrikam-views-search-result-container.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|footer|modules|footer-category|footer-category']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/footer/dist/lib/modules/footer-category/footer-category.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/footer/dist/lib/modules/footer-category/footer-category.view.js */ "./node_modules/@msdyn365-commerce-modules/footer/dist/lib/modules/footer-category/footer-category.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/footer/dist/lib/modules/footer-category/footer-category.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/footer/dist/lib/modules/footer-category/footer-category.view.js */ "./node_modules/@msdyn365-commerce-modules/footer/dist/lib/modules/footer-category/footer-category.view.js"),chunkName:()=>"@msdyn365-commerce-modules-footer-dist-lib-modules-footer-category-footer-category.view"}),{chunkName:()=>'@msdyn365-commerce-modules-footer-dist-lib-modules-footer-category-footer-category.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|footer|modules|footer-item|footer-item']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/footer/dist/lib/modules/footer-item/footer-item.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/footer/dist/lib/modules/footer-item/footer-item.view.js */ "./node_modules/@msdyn365-commerce-modules/footer/dist/lib/modules/footer-item/footer-item.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/footer/dist/lib/modules/footer-item/footer-item.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/footer/dist/lib/modules/footer-item/footer-item.view.js */ "./node_modules/@msdyn365-commerce-modules/footer/dist/lib/modules/footer-item/footer-item.view.js"),chunkName:()=>"@msdyn365-commerce-modules-footer-dist-lib-modules-footer-item-footer-item.view"}),{chunkName:()=>'@msdyn365-commerce-modules-footer-dist-lib-modules-footer-item-footer-item.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|header|modules|header|header']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/header/dist/lib/modules/header/header.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/header/dist/lib/modules/header/header.view.js */ "./node_modules/@msdyn365-commerce-modules/header/dist/lib/modules/header/header.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/header/dist/lib/modules/header/header.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/header/dist/lib/modules/header/header.view.js */ "./node_modules/@msdyn365-commerce-modules/header/dist/lib/modules/header/header.view.js"),chunkName:()=>"@msdyn365-commerce-modules-header-dist-lib-modules-header-header.view"}),{chunkName:()=>'@msdyn365-commerce-modules-header-dist-lib-modules-header-header.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|iframe|modules|iframe|iframe']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/iframe/dist/lib/modules/iframe/iframe.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/iframe/dist/lib/modules/iframe/iframe.view.js */ "./node_modules/@msdyn365-commerce-modules/iframe/dist/lib/modules/iframe/iframe.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/iframe/dist/lib/modules/iframe/iframe.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/iframe/dist/lib/modules/iframe/iframe.view.js */ "./node_modules/@msdyn365-commerce-modules/iframe/dist/lib/modules/iframe/iframe.view.js"),chunkName:()=>"@msdyn365-commerce-modules-iframe-dist-lib-modules-iframe-iframe.view"}),{chunkName:()=>'@msdyn365-commerce-modules-iframe-dist-lib-modules-iframe-iframe.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|map|modules|map|map']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/map/dist/lib/modules/map/map.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/map/dist/lib/modules/map/map.view.js */ "./node_modules/@msdyn365-commerce-modules/map/dist/lib/modules/map/map.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/map/dist/lib/modules/map/map.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/map/dist/lib/modules/map/map.view.js */ "./node_modules/@msdyn365-commerce-modules/map/dist/lib/modules/map/map.view.js"),chunkName:()=>"@msdyn365-commerce-modules-map-dist-lib-modules-map-map.view"}),{chunkName:()=>'@msdyn365-commerce-modules-map-dist-lib-modules-map-map.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|media-gallery|modules|media-gallery|media-gallery']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/media-gallery/dist/lib/modules/media-gallery/media-gallery.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/media-gallery/dist/lib/modules/media-gallery/media-gallery.view.js */ "./node_modules/@msdyn365-commerce-modules/media-gallery/dist/lib/modules/media-gallery/media-gallery.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/media-gallery/dist/lib/modules/media-gallery/media-gallery.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/media-gallery/dist/lib/modules/media-gallery/media-gallery.view.js */ "./node_modules/@msdyn365-commerce-modules/media-gallery/dist/lib/modules/media-gallery/media-gallery.view.js"),chunkName:()=>"@msdyn365-commerce-modules-media-gallery-dist-lib-modules-media-gallery-media-gallery.view"}),{chunkName:()=>'@msdyn365-commerce-modules-media-gallery-dist-lib-modules-media-gallery-media-gallery.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|navigation-menu|modules|navigation-menu|navigation-menu']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/navigation-menu/dist/lib/modules/navigation-menu/navigation-menu.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/navigation-menu/dist/lib/modules/navigation-menu/navigation-menu.view.js */ "./node_modules/@msdyn365-commerce-modules/navigation-menu/dist/lib/modules/navigation-menu/navigation-menu.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/navigation-menu/dist/lib/modules/navigation-menu/navigation-menu.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/navigation-menu/dist/lib/modules/navigation-menu/navigation-menu.view.js */ "./node_modules/@msdyn365-commerce-modules/navigation-menu/dist/lib/modules/navigation-menu/navigation-menu.view.js"),chunkName:()=>"@msdyn365-commerce-modules-navigation-menu-dist-lib-modules-navigation-menu-navigation-menu.view"}),{chunkName:()=>'@msdyn365-commerce-modules-navigation-menu-dist-lib-modules-navigation-menu-navigation-menu.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|order-management|modules|checkout-order-confirmation|checkout-order-confirmation']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/order-management/dist/lib/modules/checkout-order-confirmation/checkout-order-confirmation.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/order-management/dist/lib/modules/checkout-order-confirmation/checkout-order-confirmation.view.js */ "./node_modules/@msdyn365-commerce-modules/order-management/dist/lib/modules/checkout-order-confirmation/checkout-order-confirmation.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/order-management/dist/lib/modules/checkout-order-confirmation/checkout-order-confirmation.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/order-management/dist/lib/modules/checkout-order-confirmation/checkout-order-confirmation.view.js */ "./node_modules/@msdyn365-commerce-modules/order-management/dist/lib/modules/checkout-order-confirmation/checkout-order-confirmation.view.js"),chunkName:()=>"@msdyn365-commerce-modules-order-management-dist-lib-modules-checkout-order-confirmation-checkout-order-confirmation.view"}),{chunkName:()=>'@msdyn365-commerce-modules-order-management-dist-lib-modules-checkout-order-confirmation-checkout-order-confirmation.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|order-management|modules|order-confirmation|order-confirmation']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/order-management/dist/lib/modules/order-confirmation/order-confirmation.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/order-management/dist/lib/modules/order-confirmation/order-confirmation.view.js */ "./node_modules/@msdyn365-commerce-modules/order-management/dist/lib/modules/order-confirmation/order-confirmation.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/order-management/dist/lib/modules/order-confirmation/order-confirmation.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/order-management/dist/lib/modules/order-confirmation/order-confirmation.view.js */ "./node_modules/@msdyn365-commerce-modules/order-management/dist/lib/modules/order-confirmation/order-confirmation.view.js"),chunkName:()=>"@msdyn365-commerce-modules-order-management-dist-lib-modules-order-confirmation-order-confirmation.view"}),{chunkName:()=>'@msdyn365-commerce-modules-order-management-dist-lib-modules-order-confirmation-order-confirmation.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|order-management|modules|order-details|order-details']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/order-management/dist/lib/modules/order-details/order-details.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/order-management/dist/lib/modules/order-details/order-details.view.js */ "./node_modules/@msdyn365-commerce-modules/order-management/dist/lib/modules/order-details/order-details.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/order-management/dist/lib/modules/order-details/order-details.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/order-management/dist/lib/modules/order-details/order-details.view.js */ "./node_modules/@msdyn365-commerce-modules/order-management/dist/lib/modules/order-details/order-details.view.js"),chunkName:()=>"@msdyn365-commerce-modules-order-management-dist-lib-modules-order-details-order-details.view"}),{chunkName:()=>'@msdyn365-commerce-modules-order-management-dist-lib-modules-order-details-order-details.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|order-management|modules|order-history|order-history']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/order-management/dist/lib/modules/order-history/order-history.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/order-management/dist/lib/modules/order-history/order-history.view.js */ "./node_modules/@msdyn365-commerce-modules/order-management/dist/lib/modules/order-history/order-history.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/order-management/dist/lib/modules/order-history/order-history.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/order-management/dist/lib/modules/order-history/order-history.view.js */ "./node_modules/@msdyn365-commerce-modules/order-management/dist/lib/modules/order-history/order-history.view.js"),chunkName:()=>"@msdyn365-commerce-modules-order-management-dist-lib-modules-order-history-order-history.view"}),{chunkName:()=>'@msdyn365-commerce-modules-order-management-dist-lib-modules-order-history-order-history.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|order-template|modules|order-template-list|order-template-list']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/order-template/dist/lib/modules/order-template-list/order-template-list.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/order-template/dist/lib/modules/order-template-list/order-template-list.view.js */ "./node_modules/@msdyn365-commerce-modules/order-template/dist/lib/modules/order-template-list/order-template-list.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/order-template/dist/lib/modules/order-template-list/order-template-list.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/order-template/dist/lib/modules/order-template-list/order-template-list.view.js */ "./node_modules/@msdyn365-commerce-modules/order-template/dist/lib/modules/order-template-list/order-template-list.view.js"),chunkName:()=>"@msdyn365-commerce-modules-order-template-dist-lib-modules-order-template-list-order-template-list.view"}),{chunkName:()=>'@msdyn365-commerce-modules-order-template-dist-lib-modules-order-template-list-order-template-list.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|order-template|modules|order-template|order-template']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/order-template/dist/lib/modules/order-template/order-template.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/order-template/dist/lib/modules/order-template/order-template.view.js */ "./node_modules/@msdyn365-commerce-modules/order-template/dist/lib/modules/order-template/order-template.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/order-template/dist/lib/modules/order-template/order-template.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/order-template/dist/lib/modules/order-template/order-template.view.js */ "./node_modules/@msdyn365-commerce-modules/order-template/dist/lib/modules/order-template/order-template.view.js"),chunkName:()=>"@msdyn365-commerce-modules-order-template-dist-lib-modules-order-template-order-template.view"}),{chunkName:()=>'@msdyn365-commerce-modules-order-template-dist-lib-modules-order-template-order-template.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|product-collection|modules|product-collection|product-collection']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/product-collection/dist/lib/modules/product-collection/product-collection.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/product-collection/dist/lib/modules/product-collection/product-collection.view.js */ "./node_modules/@msdyn365-commerce-modules/product-collection/dist/lib/modules/product-collection/product-collection.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/product-collection/dist/lib/modules/product-collection/product-collection.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/product-collection/dist/lib/modules/product-collection/product-collection.view.js */ "./node_modules/@msdyn365-commerce-modules/product-collection/dist/lib/modules/product-collection/product-collection.view.js"),chunkName:()=>"@msdyn365-commerce-modules-product-collection-dist-lib-modules-product-collection-product-collection.view"}),{chunkName:()=>'@msdyn365-commerce-modules-product-collection-dist-lib-modules-product-collection-product-collection.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|product-specification|modules|product-specification|product-specification']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/product-specification/dist/lib/modules/product-specification/product-specification.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/product-specification/dist/lib/modules/product-specification/product-specification.view.js */ "./node_modules/@msdyn365-commerce-modules/product-specification/dist/lib/modules/product-specification/product-specification.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/product-specification/dist/lib/modules/product-specification/product-specification.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/product-specification/dist/lib/modules/product-specification/product-specification.view.js */ "./node_modules/@msdyn365-commerce-modules/product-specification/dist/lib/modules/product-specification/product-specification.view.js"),chunkName:()=>"@msdyn365-commerce-modules-product-specification-dist-lib-modules-product-specification-product-specification.view"}),{chunkName:()=>'@msdyn365-commerce-modules-product-specification-dist-lib-modules-product-specification-product-specification.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|promo-banner|modules|promo-banner|promo-banner']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/promo-banner/dist/lib/modules/promo-banner/promo-banner.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/promo-banner/dist/lib/modules/promo-banner/promo-banner.view.js */ "./node_modules/@msdyn365-commerce-modules/promo-banner/dist/lib/modules/promo-banner/promo-banner.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/promo-banner/dist/lib/modules/promo-banner/promo-banner.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/promo-banner/dist/lib/modules/promo-banner/promo-banner.view.js */ "./node_modules/@msdyn365-commerce-modules/promo-banner/dist/lib/modules/promo-banner/promo-banner.view.js"),chunkName:()=>"@msdyn365-commerce-modules-promo-banner-dist-lib-modules-promo-banner-promo-banner.view"}),{chunkName:()=>'@msdyn365-commerce-modules-promo-banner-dist-lib-modules-promo-banner-promo-banner.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|ratings-reviews|modules|ratings-histogram|ratings-histogram']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/ratings-reviews/dist/lib/modules/ratings-histogram/ratings-histogram.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/ratings-reviews/dist/lib/modules/ratings-histogram/ratings-histogram.view.js */ "./node_modules/@msdyn365-commerce-modules/ratings-reviews/dist/lib/modules/ratings-histogram/ratings-histogram.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/ratings-reviews/dist/lib/modules/ratings-histogram/ratings-histogram.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/ratings-reviews/dist/lib/modules/ratings-histogram/ratings-histogram.view.js */ "./node_modules/@msdyn365-commerce-modules/ratings-reviews/dist/lib/modules/ratings-histogram/ratings-histogram.view.js"),chunkName:()=>"@msdyn365-commerce-modules-ratings-reviews-dist-lib-modules-ratings-histogram-ratings-histogram.view"}),{chunkName:()=>'@msdyn365-commerce-modules-ratings-reviews-dist-lib-modules-ratings-histogram-ratings-histogram.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|ratings-reviews|modules|reviews-list|reviews-list']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/ratings-reviews/dist/lib/modules/reviews-list/reviews-list.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/ratings-reviews/dist/lib/modules/reviews-list/reviews-list.view.js */ "./node_modules/@msdyn365-commerce-modules/ratings-reviews/dist/lib/modules/reviews-list/reviews-list.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/ratings-reviews/dist/lib/modules/reviews-list/reviews-list.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/ratings-reviews/dist/lib/modules/reviews-list/reviews-list.view.js */ "./node_modules/@msdyn365-commerce-modules/ratings-reviews/dist/lib/modules/reviews-list/reviews-list.view.js"),chunkName:()=>"@msdyn365-commerce-modules-ratings-reviews-dist-lib-modules-reviews-list-reviews-list.view"}),{chunkName:()=>'@msdyn365-commerce-modules-ratings-reviews-dist-lib-modules-reviews-list-reviews-list.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|ratings-reviews|modules|write-review|write-review']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/ratings-reviews/dist/lib/modules/write-review/write-review.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/ratings-reviews/dist/lib/modules/write-review/write-review.view.js */ "./node_modules/@msdyn365-commerce-modules/ratings-reviews/dist/lib/modules/write-review/write-review.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/ratings-reviews/dist/lib/modules/write-review/write-review.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/ratings-reviews/dist/lib/modules/write-review/write-review.view.js */ "./node_modules/@msdyn365-commerce-modules/ratings-reviews/dist/lib/modules/write-review/write-review.view.js"),chunkName:()=>"@msdyn365-commerce-modules-ratings-reviews-dist-lib-modules-write-review-write-review.view"}),{chunkName:()=>'@msdyn365-commerce-modules-ratings-reviews-dist-lib-modules-write-review-write-review.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|search-result-container|modules|search-result-container|search-result-container']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/search-result-container/dist/lib/modules/search-result-container/search-result-container.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/search-result-container/dist/lib/modules/search-result-container/search-result-container.view.js */ "./node_modules/@msdyn365-commerce-modules/search-result-container/dist/lib/modules/search-result-container/search-result-container.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/search-result-container/dist/lib/modules/search-result-container/search-result-container.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/search-result-container/dist/lib/modules/search-result-container/search-result-container.view.js */ "./node_modules/@msdyn365-commerce-modules/search-result-container/dist/lib/modules/search-result-container/search-result-container.view.js"),chunkName:()=>"@msdyn365-commerce-modules-search-result-container-dist-lib-modules-search-result-container-search-result-container.view"}),{chunkName:()=>'@msdyn365-commerce-modules-search-result-container-dist-lib-modules-search-result-container-search-result-container.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|search|modules|search|search']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/search/dist/lib/modules/search/search.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/search/dist/lib/modules/search/search.view.js */ "./node_modules/@msdyn365-commerce-modules/search/dist/lib/modules/search/search.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/search/dist/lib/modules/search/search.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/search/dist/lib/modules/search/search.view.js */ "./node_modules/@msdyn365-commerce-modules/search/dist/lib/modules/search/search.view.js"),chunkName:()=>"@msdyn365-commerce-modules-search-dist-lib-modules-search-search.view"}),{chunkName:()=>'@msdyn365-commerce-modules-search-dist-lib-modules-search-search.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|site-picker|modules|site-picker|site-picker']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/site-picker/dist/lib/modules/site-picker/site-picker.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/site-picker/dist/lib/modules/site-picker/site-picker.view.js */ "./node_modules/@msdyn365-commerce-modules/site-picker/dist/lib/modules/site-picker/site-picker.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/site-picker/dist/lib/modules/site-picker/site-picker.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/site-picker/dist/lib/modules/site-picker/site-picker.view.js */ "./node_modules/@msdyn365-commerce-modules/site-picker/dist/lib/modules/site-picker/site-picker.view.js"),chunkName:()=>"@msdyn365-commerce-modules-site-picker-dist-lib-modules-site-picker-site-picker.view"}),{chunkName:()=>'@msdyn365-commerce-modules-site-picker-dist-lib-modules-site-picker-site-picker.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|social-share|modules|social-share-item|social-share-item']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/social-share/dist/lib/modules/social-share-item/social-share-item.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/social-share/dist/lib/modules/social-share-item/social-share-item.view.js */ "./node_modules/@msdyn365-commerce-modules/social-share/dist/lib/modules/social-share-item/social-share-item.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/social-share/dist/lib/modules/social-share-item/social-share-item.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/social-share/dist/lib/modules/social-share-item/social-share-item.view.js */ "./node_modules/@msdyn365-commerce-modules/social-share/dist/lib/modules/social-share-item/social-share-item.view.js"),chunkName:()=>"@msdyn365-commerce-modules-social-share-dist-lib-modules-social-share-item-social-share-item.view"}),{chunkName:()=>'@msdyn365-commerce-modules-social-share-dist-lib-modules-social-share-item-social-share-item.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|social-share|modules|social-share|social-share']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/social-share/dist/lib/modules/social-share/social-share.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/social-share/dist/lib/modules/social-share/social-share.view.js */ "./node_modules/@msdyn365-commerce-modules/social-share/dist/lib/modules/social-share/social-share.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/social-share/dist/lib/modules/social-share/social-share.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/social-share/dist/lib/modules/social-share/social-share.view.js */ "./node_modules/@msdyn365-commerce-modules/social-share/dist/lib/modules/social-share/social-share.view.js"),chunkName:()=>"@msdyn365-commerce-modules-social-share-dist-lib-modules-social-share-social-share.view"}),{chunkName:()=>'@msdyn365-commerce-modules-social-share-dist-lib-modules-social-share-social-share.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|spacer|modules|spacer|spacer']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/spacer/dist/lib/modules/spacer/spacer.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/spacer/dist/lib/modules/spacer/spacer.view.js */ "./node_modules/@msdyn365-commerce-modules/spacer/dist/lib/modules/spacer/spacer.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/spacer/dist/lib/modules/spacer/spacer.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/spacer/dist/lib/modules/spacer/spacer.view.js */ "./node_modules/@msdyn365-commerce-modules/spacer/dist/lib/modules/spacer/spacer.view.js"),chunkName:()=>"@msdyn365-commerce-modules-spacer-dist-lib-modules-spacer-spacer.view"}),{chunkName:()=>'@msdyn365-commerce-modules-spacer-dist-lib-modules-spacer-spacer.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|store-selector|modules|store-selector|store-selector']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/store-selector/dist/lib/modules/store-selector/store-selector.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/store-selector/dist/lib/modules/store-selector/store-selector.view.js */ "./node_modules/@msdyn365-commerce-modules/store-selector/dist/lib/modules/store-selector/store-selector.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/store-selector/dist/lib/modules/store-selector/store-selector.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/store-selector/dist/lib/modules/store-selector/store-selector.view.js */ "./node_modules/@msdyn365-commerce-modules/store-selector/dist/lib/modules/store-selector/store-selector.view.js"),chunkName:()=>"@msdyn365-commerce-modules-store-selector-dist-lib-modules-store-selector-store-selector.view"}),{chunkName:()=>'@msdyn365-commerce-modules-store-selector-dist-lib-modules-store-selector-store-selector.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|tab|modules|tab-item|tab-item']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/tab/dist/lib/modules/tab-item/tab-item.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/tab/dist/lib/modules/tab-item/tab-item.view.js */ "./node_modules/@msdyn365-commerce-modules/tab/dist/lib/modules/tab-item/tab-item.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/tab/dist/lib/modules/tab-item/tab-item.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/tab/dist/lib/modules/tab-item/tab-item.view.js */ "./node_modules/@msdyn365-commerce-modules/tab/dist/lib/modules/tab-item/tab-item.view.js"),chunkName:()=>"@msdyn365-commerce-modules-tab-dist-lib-modules-tab-item-tab-item.view"}),{chunkName:()=>'@msdyn365-commerce-modules-tab-dist-lib-modules-tab-item-tab-item.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|tab|modules|tab|tab']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/tab/dist/lib/modules/tab/tab.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/tab/dist/lib/modules/tab/tab.view.js */ "./node_modules/@msdyn365-commerce-modules/tab/dist/lib/modules/tab/tab.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/tab/dist/lib/modules/tab/tab.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/tab/dist/lib/modules/tab/tab.view.js */ "./node_modules/@msdyn365-commerce-modules/tab/dist/lib/modules/tab/tab.view.js"),chunkName:()=>"@msdyn365-commerce-modules-tab-dist-lib-modules-tab-tab.view"}),{chunkName:()=>'@msdyn365-commerce-modules-tab-dist-lib-modules-tab-tab.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|text-block|modules|text-block|text-block']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/text-block/dist/lib/modules/text-block/text-block.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/text-block/dist/lib/modules/text-block/text-block.view.js */ "./node_modules/@msdyn365-commerce-modules/text-block/dist/lib/modules/text-block/text-block.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/text-block/dist/lib/modules/text-block/text-block.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/text-block/dist/lib/modules/text-block/text-block.view.js */ "./node_modules/@msdyn365-commerce-modules/text-block/dist/lib/modules/text-block/text-block.view.js"),chunkName:()=>"@msdyn365-commerce-modules-text-block-dist-lib-modules-text-block-text-block.view"}),{chunkName:()=>'@msdyn365-commerce-modules-text-block-dist-lib-modules-text-block-text-block.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|video-player|modules|video-player|video-player']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/video-player/dist/lib/modules/video-player/video-player.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/video-player/dist/lib/modules/video-player/video-player.view.js */ "./node_modules/@msdyn365-commerce-modules/video-player/dist/lib/modules/video-player/video-player.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/video-player/dist/lib/modules/video-player/video-player.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/video-player/dist/lib/modules/video-player/video-player.view.js */ "./node_modules/@msdyn365-commerce-modules/video-player/dist/lib/modules/video-player/video-player.view.js"),chunkName:()=>"@msdyn365-commerce-modules-video-player-dist-lib-modules-video-player-video-player.view"}),{chunkName:()=>'@msdyn365-commerce-modules-video-player-dist-lib-modules-video-player-video-player.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|wishlist|modules|wishlist-items|wishlist-items']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/wishlist/dist/lib/modules/wishlist-items/wishlist-items.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/wishlist/dist/lib/modules/wishlist-items/wishlist-items.view.js */ "./node_modules/@msdyn365-commerce-modules/wishlist/dist/lib/modules/wishlist-items/wishlist-items.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/wishlist/dist/lib/modules/wishlist-items/wishlist-items.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/wishlist/dist/lib/modules/wishlist-items/wishlist-items.view.js */ "./node_modules/@msdyn365-commerce-modules/wishlist/dist/lib/modules/wishlist-items/wishlist-items.view.js"),chunkName:()=>"@msdyn365-commerce-modules-wishlist-dist-lib-modules-wishlist-items-wishlist-items.view"}),{chunkName:()=>'@msdyn365-commerce-modules-wishlist-dist-lib-modules-wishlist-items-wishlist-items.view.js',ignoreBabelRename:true})};
+*/const universal=__webpack_require__(/*! react-universal-component */ "./node_modules/react-universal-component/dist/index.js").default;const viewDictionary={};viewDictionary['__local__|__local__|modules|footer|footer']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"partner/modules/footer/footer.view.tsx",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! partner/modules/footer/footer.view.tsx */ "./src/modules/footer/footer.view.tsx"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'partner/modules/footer/footer.view.tsx'),resolve:()=>/*require.resolve*/(/*! partner/modules/footer/footer.view.tsx */ "./src/modules/footer/footer.view.tsx"),chunkName:()=>"partner-modules-footer-footer.view.tsx"}),{chunkName:()=>'partner-modules-footer-footer.view.tsx',ignoreBabelRename:true})};viewDictionary['__local__|__local__|modules|header|header']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"partner/modules/header/header.view.tsx",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! partner/modules/header/header.view.tsx */ "./src/modules/header/header.view.tsx"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'partner/modules/header/header.view.tsx'),resolve:()=>/*require.resolve*/(/*! partner/modules/header/header.view.tsx */ "./src/modules/header/header.view.tsx"),chunkName:()=>"partner-modules-header-header.view.tsx"}),{chunkName:()=>'partner-modules-header-header.view.tsx',ignoreBabelRename:true})};viewDictionary['__local__|__local__|modules|index-carousel|index-carousel']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"partner/modules/index-carousel/index-carousel.view.tsx",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! partner/modules/index-carousel/index-carousel.view.tsx */ "./src/modules/index-carousel/index-carousel.view.tsx"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'partner/modules/index-carousel/index-carousel.view.tsx'),resolve:()=>/*require.resolve*/(/*! partner/modules/index-carousel/index-carousel.view.tsx */ "./src/modules/index-carousel/index-carousel.view.tsx"),chunkName:()=>"partner-modules-index-carousel-index-carousel.view.tsx"}),{chunkName:()=>'partner-modules-index-carousel-index-carousel.view.tsx',ignoreBabelRename:true})};viewDictionary['__local__|__local__|modules|index-person-information|index-person-information']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"partner/modules/index-person-information/index-person-information.view.tsx",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! partner/modules/index-person-information/index-person-information.view.tsx */ "./src/modules/index-person-information/index-person-information.view.tsx"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'partner/modules/index-person-information/index-person-information.view.tsx'),resolve:()=>/*require.resolve*/(/*! partner/modules/index-person-information/index-person-information.view.tsx */ "./src/modules/index-person-information/index-person-information.view.tsx"),chunkName:()=>"partner-modules-index-person-information-index-person-information.view.tsx"}),{chunkName:()=>'partner-modules-index-person-information-index-person-information.view.tsx',ignoreBabelRename:true})};viewDictionary['__local__|__local__|modules|index-product|index-product']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"partner/modules/index-product/index-product.view.tsx",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! partner/modules/index-product/index-product.view.tsx */ "./src/modules/index-product/index-product.view.tsx"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'partner/modules/index-product/index-product.view.tsx'),resolve:()=>/*require.resolve*/(/*! partner/modules/index-product/index-product.view.tsx */ "./src/modules/index-product/index-product.view.tsx"),chunkName:()=>"partner-modules-index-product-index-product.view.tsx"}),{chunkName:()=>'partner-modules-index-product-index-product.view.tsx',ignoreBabelRename:true})};viewDictionary['__local__|__local__|modules|navigation-menu|navigation-menu']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"partner/modules/navigation-menu/navigation-menu.view.tsx",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! partner/modules/navigation-menu/navigation-menu.view.tsx */ "./src/modules/navigation-menu/navigation-menu.view.tsx"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'partner/modules/navigation-menu/navigation-menu.view.tsx'),resolve:()=>/*require.resolve*/(/*! partner/modules/navigation-menu/navigation-menu.view.tsx */ "./src/modules/navigation-menu/navigation-menu.view.tsx"),chunkName:()=>"partner-modules-navigation-menu-navigation-menu.view.tsx"}),{chunkName:()=>'partner-modules-navigation-menu-navigation-menu.view.tsx',ignoreBabelRename:true})};viewDictionary['__local__|__local__|modules|sale|sale']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"partner/modules/sale/sale.view.tsx",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! partner/modules/sale/sale.view.tsx */ "./src/modules/sale/sale.view.tsx"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'partner/modules/sale/sale.view.tsx'),resolve:()=>/*require.resolve*/(/*! partner/modules/sale/sale.view.tsx */ "./src/modules/sale/sale.view.tsx"),chunkName:()=>"partner-modules-sale-sale.view.tsx"}),{chunkName:()=>'partner-modules-sale-sale.view.tsx',ignoreBabelRename:true})};viewDictionary['__local__|__local__|modules|search-result-container|search-result-container']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"partner/modules/search-result-container/search-result-container.view.tsx",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! partner/modules/search-result-container/search-result-container.view.tsx */ "./src/modules/search-result-container/search-result-container.view.tsx"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'partner/modules/search-result-container/search-result-container.view.tsx'),resolve:()=>/*require.resolve*/(/*! partner/modules/search-result-container/search-result-container.view.tsx */ "./src/modules/search-result-container/search-result-container.view.tsx"),chunkName:()=>"partner-modules-search-result-container-search-result-container.view.tsx"}),{chunkName:()=>'partner-modules-search-result-container-search-result-container.view.tsx',ignoreBabelRename:true})};viewDictionary['__local__|__local__|modules|search|search']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"partner/modules/search/search.view.tsx",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! partner/modules/search/search.view.tsx */ "./src/modules/search/search.view.tsx"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'partner/modules/search/search.view.tsx'),resolve:()=>/*require.resolve*/(/*! partner/modules/search/search.view.tsx */ "./src/modules/search/search.view.tsx"),chunkName:()=>"partner-modules-search-search.view.tsx"}),{chunkName:()=>'partner-modules-search-search.view.tsx',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|accordion|modules|accordion-item|accordion-item']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/accordion/dist/lib/modules/accordion-item/accordion-item.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/accordion/dist/lib/modules/accordion-item/accordion-item.view.js */ "./node_modules/@msdyn365-commerce-modules/accordion/dist/lib/modules/accordion-item/accordion-item.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/accordion/dist/lib/modules/accordion-item/accordion-item.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/accordion/dist/lib/modules/accordion-item/accordion-item.view.js */ "./node_modules/@msdyn365-commerce-modules/accordion/dist/lib/modules/accordion-item/accordion-item.view.js"),chunkName:()=>"@msdyn365-commerce-modules-accordion-dist-lib-modules-accordion-item-accordion-item.view"}),{chunkName:()=>'@msdyn365-commerce-modules-accordion-dist-lib-modules-accordion-item-accordion-item.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|accordion|modules|accordion|accordion']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/accordion/dist/lib/modules/accordion/accordion.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/accordion/dist/lib/modules/accordion/accordion.view.js */ "./node_modules/@msdyn365-commerce-modules/accordion/dist/lib/modules/accordion/accordion.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/accordion/dist/lib/modules/accordion/accordion.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/accordion/dist/lib/modules/accordion/accordion.view.js */ "./node_modules/@msdyn365-commerce-modules/accordion/dist/lib/modules/accordion/accordion.view.js"),chunkName:()=>"@msdyn365-commerce-modules-accordion-dist-lib-modules-accordion-accordion.view"}),{chunkName:()=>'@msdyn365-commerce-modules-accordion-dist-lib-modules-accordion-accordion.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|account-management|modules|account-address-tile|account-address-tile']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/account-management/dist/lib/modules/account-address-tile/account-address-tile.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/account-management/dist/lib/modules/account-address-tile/account-address-tile.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/account-address-tile/account-address-tile.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/account-management/dist/lib/modules/account-address-tile/account-address-tile.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/account-management/dist/lib/modules/account-address-tile/account-address-tile.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/account-address-tile/account-address-tile.view.js"),chunkName:()=>"@msdyn365-commerce-modules-account-management-dist-lib-modules-account-address-tile-account-address-tile.view"}),{chunkName:()=>'@msdyn365-commerce-modules-account-management-dist-lib-modules-account-address-tile-account-address-tile.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|account-management|modules|account-customer-balance-tile|account-customer-balance-tile']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/account-management/dist/lib/modules/account-customer-balance-tile/account-customer-balance-tile.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/account-management/dist/lib/modules/account-customer-balance-tile/account-customer-balance-tile.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/account-customer-balance-tile/account-customer-balance-tile.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/account-management/dist/lib/modules/account-customer-balance-tile/account-customer-balance-tile.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/account-management/dist/lib/modules/account-customer-balance-tile/account-customer-balance-tile.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/account-customer-balance-tile/account-customer-balance-tile.view.js"),chunkName:()=>"@msdyn365-commerce-modules-account-management-dist-lib-modules-account-customer-balance-tile-account-customer-balance-tile.view"}),{chunkName:()=>'@msdyn365-commerce-modules-account-management-dist-lib-modules-account-customer-balance-tile-account-customer-balance-tile.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|account-management|modules|account-customer-balance|account-customer-balance']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/account-management/dist/lib/modules/account-customer-balance/account-customer-balance.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/account-management/dist/lib/modules/account-customer-balance/account-customer-balance.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/account-customer-balance/account-customer-balance.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/account-management/dist/lib/modules/account-customer-balance/account-customer-balance.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/account-management/dist/lib/modules/account-customer-balance/account-customer-balance.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/account-customer-balance/account-customer-balance.view.js"),chunkName:()=>"@msdyn365-commerce-modules-account-management-dist-lib-modules-account-customer-balance-account-customer-balance.view"}),{chunkName:()=>'@msdyn365-commerce-modules-account-management-dist-lib-modules-account-customer-balance-account-customer-balance.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|account-management|modules|account-generic-tile|account-generic-tile']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/account-management/dist/lib/modules/account-generic-tile/account-generic-tile.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/account-management/dist/lib/modules/account-generic-tile/account-generic-tile.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/account-generic-tile/account-generic-tile.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/account-management/dist/lib/modules/account-generic-tile/account-generic-tile.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/account-management/dist/lib/modules/account-generic-tile/account-generic-tile.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/account-generic-tile/account-generic-tile.view.js"),chunkName:()=>"@msdyn365-commerce-modules-account-management-dist-lib-modules-account-generic-tile-account-generic-tile.view"}),{chunkName:()=>'@msdyn365-commerce-modules-account-management-dist-lib-modules-account-generic-tile-account-generic-tile.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|account-management|modules|account-loyalty-tile|account-loyalty-tile']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/account-management/dist/lib/modules/account-loyalty-tile/account-loyalty-tile.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/account-management/dist/lib/modules/account-loyalty-tile/account-loyalty-tile.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/account-loyalty-tile/account-loyalty-tile.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/account-management/dist/lib/modules/account-loyalty-tile/account-loyalty-tile.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/account-management/dist/lib/modules/account-loyalty-tile/account-loyalty-tile.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/account-loyalty-tile/account-loyalty-tile.view.js"),chunkName:()=>"@msdyn365-commerce-modules-account-management-dist-lib-modules-account-loyalty-tile-account-loyalty-tile.view"}),{chunkName:()=>'@msdyn365-commerce-modules-account-management-dist-lib-modules-account-loyalty-tile-account-loyalty-tile.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|account-management|modules|account-loyalty|account-loyalty']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/account-management/dist/lib/modules/account-loyalty/account-loyalty.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/account-management/dist/lib/modules/account-loyalty/account-loyalty.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/account-loyalty/account-loyalty.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/account-management/dist/lib/modules/account-loyalty/account-loyalty.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/account-management/dist/lib/modules/account-loyalty/account-loyalty.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/account-loyalty/account-loyalty.view.js"),chunkName:()=>"@msdyn365-commerce-modules-account-management-dist-lib-modules-account-loyalty-account-loyalty.view"}),{chunkName:()=>'@msdyn365-commerce-modules-account-management-dist-lib-modules-account-loyalty-account-loyalty.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|account-management|modules|account-order-templates-tile|account-order-templates-tile']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/account-management/dist/lib/modules/account-order-templates-tile/account-order-templates-tile.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/account-management/dist/lib/modules/account-order-templates-tile/account-order-templates-tile.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/account-order-templates-tile/account-order-templates-tile.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/account-management/dist/lib/modules/account-order-templates-tile/account-order-templates-tile.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/account-management/dist/lib/modules/account-order-templates-tile/account-order-templates-tile.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/account-order-templates-tile/account-order-templates-tile.view.js"),chunkName:()=>"@msdyn365-commerce-modules-account-management-dist-lib-modules-account-order-templates-tile-account-order-templates-tile.view"}),{chunkName:()=>'@msdyn365-commerce-modules-account-management-dist-lib-modules-account-order-templates-tile-account-order-templates-tile.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|account-management|modules|account-profile-edit|account-profile-edit']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/account-management/dist/lib/modules/account-profile-edit/account-profile-edit.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/account-management/dist/lib/modules/account-profile-edit/account-profile-edit.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/account-profile-edit/account-profile-edit.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/account-management/dist/lib/modules/account-profile-edit/account-profile-edit.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/account-management/dist/lib/modules/account-profile-edit/account-profile-edit.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/account-profile-edit/account-profile-edit.view.js"),chunkName:()=>"@msdyn365-commerce-modules-account-management-dist-lib-modules-account-profile-edit-account-profile-edit.view"}),{chunkName:()=>'@msdyn365-commerce-modules-account-management-dist-lib-modules-account-profile-edit-account-profile-edit.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|account-management|modules|account-profile|account-profile']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/account-management/dist/lib/modules/account-profile/account-profile.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/account-management/dist/lib/modules/account-profile/account-profile.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/account-profile/account-profile.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/account-management/dist/lib/modules/account-profile/account-profile.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/account-management/dist/lib/modules/account-profile/account-profile.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/account-profile/account-profile.view.js"),chunkName:()=>"@msdyn365-commerce-modules-account-management-dist-lib-modules-account-profile-account-profile.view"}),{chunkName:()=>'@msdyn365-commerce-modules-account-management-dist-lib-modules-account-profile-account-profile.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|account-management|modules|account-welcome-tile|account-welcome-tile']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/account-management/dist/lib/modules/account-welcome-tile/account-welcome-tile.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/account-management/dist/lib/modules/account-welcome-tile/account-welcome-tile.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/account-welcome-tile/account-welcome-tile.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/account-management/dist/lib/modules/account-welcome-tile/account-welcome-tile.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/account-management/dist/lib/modules/account-welcome-tile/account-welcome-tile.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/account-welcome-tile/account-welcome-tile.view.js"),chunkName:()=>"@msdyn365-commerce-modules-account-management-dist-lib-modules-account-welcome-tile-account-welcome-tile.view"}),{chunkName:()=>'@msdyn365-commerce-modules-account-management-dist-lib-modules-account-welcome-tile-account-welcome-tile.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|account-management|modules|account-wishlist-tile|account-wishlist-tile']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/account-management/dist/lib/modules/account-wishlist-tile/account-wishlist-tile.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/account-management/dist/lib/modules/account-wishlist-tile/account-wishlist-tile.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/account-wishlist-tile/account-wishlist-tile.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/account-management/dist/lib/modules/account-wishlist-tile/account-wishlist-tile.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/account-management/dist/lib/modules/account-wishlist-tile/account-wishlist-tile.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/account-wishlist-tile/account-wishlist-tile.view.js"),chunkName:()=>"@msdyn365-commerce-modules-account-management-dist-lib-modules-account-wishlist-tile-account-wishlist-tile.view"}),{chunkName:()=>'@msdyn365-commerce-modules-account-management-dist-lib-modules-account-wishlist-tile-account-wishlist-tile.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|account-management|modules|loyalty-sign-up|loyalty-sign-up']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/account-management/dist/lib/modules/loyalty-sign-up/loyalty-sign-up.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/account-management/dist/lib/modules/loyalty-sign-up/loyalty-sign-up.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/loyalty-sign-up/loyalty-sign-up.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/account-management/dist/lib/modules/loyalty-sign-up/loyalty-sign-up.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/account-management/dist/lib/modules/loyalty-sign-up/loyalty-sign-up.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/loyalty-sign-up/loyalty-sign-up.view.js"),chunkName:()=>"@msdyn365-commerce-modules-account-management-dist-lib-modules-loyalty-sign-up-loyalty-sign-up.view"}),{chunkName:()=>'@msdyn365-commerce-modules-account-management-dist-lib-modules-loyalty-sign-up-loyalty-sign-up.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|account-management|modules|loyalty-terms|loyalty-terms']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/account-management/dist/lib/modules/loyalty-terms/loyalty-terms.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/account-management/dist/lib/modules/loyalty-terms/loyalty-terms.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/loyalty-terms/loyalty-terms.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/account-management/dist/lib/modules/loyalty-terms/loyalty-terms.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/account-management/dist/lib/modules/loyalty-terms/loyalty-terms.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/loyalty-terms/loyalty-terms.view.js"),chunkName:()=>"@msdyn365-commerce-modules-account-management-dist-lib-modules-loyalty-terms-loyalty-terms.view"}),{chunkName:()=>'@msdyn365-commerce-modules-account-management-dist-lib-modules-loyalty-terms-loyalty-terms.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|account-management|modules|organization-users-tile|organization-users-tile']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/account-management/dist/lib/modules/organization-users-tile/organization-users-tile.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/account-management/dist/lib/modules/organization-users-tile/organization-users-tile.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/organization-users-tile/organization-users-tile.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/account-management/dist/lib/modules/organization-users-tile/organization-users-tile.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/account-management/dist/lib/modules/organization-users-tile/organization-users-tile.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/organization-users-tile/organization-users-tile.view.js"),chunkName:()=>"@msdyn365-commerce-modules-account-management-dist-lib-modules-organization-users-tile-organization-users-tile.view"}),{chunkName:()=>'@msdyn365-commerce-modules-account-management-dist-lib-modules-organization-users-tile-organization-users-tile.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|account-management|modules|password-reset-verification|password-reset-verification']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/account-management/dist/lib/modules/password-reset-verification/password-reset-verification.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/account-management/dist/lib/modules/password-reset-verification/password-reset-verification.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/password-reset-verification/password-reset-verification.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/account-management/dist/lib/modules/password-reset-verification/password-reset-verification.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/account-management/dist/lib/modules/password-reset-verification/password-reset-verification.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/password-reset-verification/password-reset-verification.view.js"),chunkName:()=>"@msdyn365-commerce-modules-account-management-dist-lib-modules-password-reset-verification-password-reset-verification.view"}),{chunkName:()=>'@msdyn365-commerce-modules-account-management-dist-lib-modules-password-reset-verification-password-reset-verification.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|account-management|modules|password-reset|password-reset']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/account-management/dist/lib/modules/password-reset/password-reset.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/account-management/dist/lib/modules/password-reset/password-reset.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/password-reset/password-reset.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/account-management/dist/lib/modules/password-reset/password-reset.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/account-management/dist/lib/modules/password-reset/password-reset.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/password-reset/password-reset.view.js"),chunkName:()=>"@msdyn365-commerce-modules-account-management-dist-lib-modules-password-reset-password-reset.view"}),{chunkName:()=>'@msdyn365-commerce-modules-account-management-dist-lib-modules-password-reset-password-reset.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|account-management|modules|sign-in|sign-in']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/account-management/dist/lib/modules/sign-in/sign-in.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/account-management/dist/lib/modules/sign-in/sign-in.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/sign-in/sign-in.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/account-management/dist/lib/modules/sign-in/sign-in.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/account-management/dist/lib/modules/sign-in/sign-in.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/sign-in/sign-in.view.js"),chunkName:()=>"@msdyn365-commerce-modules-account-management-dist-lib-modules-sign-in-sign-in.view"}),{chunkName:()=>'@msdyn365-commerce-modules-account-management-dist-lib-modules-sign-in-sign-in.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|account-management|modules|sign-up|sign-up']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/account-management/dist/lib/modules/sign-up/sign-up.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/account-management/dist/lib/modules/sign-up/sign-up.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/sign-up/sign-up.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/account-management/dist/lib/modules/sign-up/sign-up.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/account-management/dist/lib/modules/sign-up/sign-up.view.js */ "./node_modules/@msdyn365-commerce-modules/account-management/dist/lib/modules/sign-up/sign-up.view.js"),chunkName:()=>"@msdyn365-commerce-modules-account-management-dist-lib-modules-sign-up-sign-up.view"}),{chunkName:()=>'@msdyn365-commerce-modules-account-management-dist-lib-modules-sign-up-sign-up.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|address|modules|account-management-address|account-management-address']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/address/dist/lib/modules/account-management-address/account-management-address.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/address/dist/lib/modules/account-management-address/account-management-address.view.js */ "./node_modules/@msdyn365-commerce-modules/address/dist/lib/modules/account-management-address/account-management-address.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/address/dist/lib/modules/account-management-address/account-management-address.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/address/dist/lib/modules/account-management-address/account-management-address.view.js */ "./node_modules/@msdyn365-commerce-modules/address/dist/lib/modules/account-management-address/account-management-address.view.js"),chunkName:()=>"@msdyn365-commerce-modules-address-dist-lib-modules-account-management-address-account-management-address.view"}),{chunkName:()=>'@msdyn365-commerce-modules-address-dist-lib-modules-account-management-address-account-management-address.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|address|modules|business-account-address|business-account-address']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/address/dist/lib/modules/business-account-address/business-account-address.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/address/dist/lib/modules/business-account-address/business-account-address.view.js */ "./node_modules/@msdyn365-commerce-modules/address/dist/lib/modules/business-account-address/business-account-address.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/address/dist/lib/modules/business-account-address/business-account-address.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/address/dist/lib/modules/business-account-address/business-account-address.view.js */ "./node_modules/@msdyn365-commerce-modules/address/dist/lib/modules/business-account-address/business-account-address.view.js"),chunkName:()=>"@msdyn365-commerce-modules-address-dist-lib-modules-business-account-address-business-account-address.view"}),{chunkName:()=>'@msdyn365-commerce-modules-address-dist-lib-modules-business-account-address-business-account-address.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|address|modules|checkout-billing-address|checkout-billing-address']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/address/dist/lib/modules/checkout-billing-address/checkout-billing-address.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/address/dist/lib/modules/checkout-billing-address/checkout-billing-address.view.js */ "./node_modules/@msdyn365-commerce-modules/address/dist/lib/modules/checkout-billing-address/checkout-billing-address.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/address/dist/lib/modules/checkout-billing-address/checkout-billing-address.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/address/dist/lib/modules/checkout-billing-address/checkout-billing-address.view.js */ "./node_modules/@msdyn365-commerce-modules/address/dist/lib/modules/checkout-billing-address/checkout-billing-address.view.js"),chunkName:()=>"@msdyn365-commerce-modules-address-dist-lib-modules-checkout-billing-address-checkout-billing-address.view"}),{chunkName:()=>'@msdyn365-commerce-modules-address-dist-lib-modules-checkout-billing-address-checkout-billing-address.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|address|modules|checkout-shipping-address|checkout-shipping-address']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/address/dist/lib/modules/checkout-shipping-address/checkout-shipping-address.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/address/dist/lib/modules/checkout-shipping-address/checkout-shipping-address.view.js */ "./node_modules/@msdyn365-commerce-modules/address/dist/lib/modules/checkout-shipping-address/checkout-shipping-address.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/address/dist/lib/modules/checkout-shipping-address/checkout-shipping-address.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/address/dist/lib/modules/checkout-shipping-address/checkout-shipping-address.view.js */ "./node_modules/@msdyn365-commerce-modules/address/dist/lib/modules/checkout-shipping-address/checkout-shipping-address.view.js"),chunkName:()=>"@msdyn365-commerce-modules-address-dist-lib-modules-checkout-shipping-address-checkout-shipping-address.view"}),{chunkName:()=>'@msdyn365-commerce-modules-address-dist-lib-modules-checkout-shipping-address-checkout-shipping-address.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|breadcrumb|modules|breadcrumb|breadcrumb']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/breadcrumb/dist/lib/modules/breadcrumb/breadcrumb.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/breadcrumb/dist/lib/modules/breadcrumb/breadcrumb.view.js */ "./node_modules/@msdyn365-commerce-modules/breadcrumb/dist/lib/modules/breadcrumb/breadcrumb.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/breadcrumb/dist/lib/modules/breadcrumb/breadcrumb.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/breadcrumb/dist/lib/modules/breadcrumb/breadcrumb.view.js */ "./node_modules/@msdyn365-commerce-modules/breadcrumb/dist/lib/modules/breadcrumb/breadcrumb.view.js"),chunkName:()=>"@msdyn365-commerce-modules-breadcrumb-dist-lib-modules-breadcrumb-breadcrumb.view"}),{chunkName:()=>'@msdyn365-commerce-modules-breadcrumb-dist-lib-modules-breadcrumb-breadcrumb.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|business-account-management|modules|business-sign-up|business-sign-up']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/business-account-management/dist/lib/modules/business-sign-up/business-sign-up.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/business-account-management/dist/lib/modules/business-sign-up/business-sign-up.view.js */ "./node_modules/@msdyn365-commerce-modules/business-account-management/dist/lib/modules/business-sign-up/business-sign-up.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/business-account-management/dist/lib/modules/business-sign-up/business-sign-up.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/business-account-management/dist/lib/modules/business-sign-up/business-sign-up.view.js */ "./node_modules/@msdyn365-commerce-modules/business-account-management/dist/lib/modules/business-sign-up/business-sign-up.view.js"),chunkName:()=>"@msdyn365-commerce-modules-business-account-management-dist-lib-modules-business-sign-up-business-sign-up.view"}),{chunkName:()=>'@msdyn365-commerce-modules-business-account-management-dist-lib-modules-business-sign-up-business-sign-up.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|business-organization-list|modules|business-organization-list|business-organization-list']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/business-organization-list/dist/lib/modules/business-organization-list/business-organization-list.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/business-organization-list/dist/lib/modules/business-organization-list/business-organization-list.view.js */ "./node_modules/@msdyn365-commerce-modules/business-organization-list/dist/lib/modules/business-organization-list/business-organization-list.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/business-organization-list/dist/lib/modules/business-organization-list/business-organization-list.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/business-organization-list/dist/lib/modules/business-organization-list/business-organization-list.view.js */ "./node_modules/@msdyn365-commerce-modules/business-organization-list/dist/lib/modules/business-organization-list/business-organization-list.view.js"),chunkName:()=>"@msdyn365-commerce-modules-business-organization-list-dist-lib-modules-business-organization-list-business-organization-list.view"}),{chunkName:()=>'@msdyn365-commerce-modules-business-organization-list-dist-lib-modules-business-organization-list-business-organization-list.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|buybox|modules|buybox|buybox']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/buybox/dist/lib/modules/buybox/buybox.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/buybox/dist/lib/modules/buybox/buybox.view.js */ "./node_modules/@msdyn365-commerce-modules/buybox/dist/lib/modules/buybox/buybox.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/buybox/dist/lib/modules/buybox/buybox.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/buybox/dist/lib/modules/buybox/buybox.view.js */ "./node_modules/@msdyn365-commerce-modules/buybox/dist/lib/modules/buybox/buybox.view.js"),chunkName:()=>"@msdyn365-commerce-modules-buybox-dist-lib-modules-buybox-buybox.view"}),{chunkName:()=>'@msdyn365-commerce-modules-buybox-dist-lib-modules-buybox-buybox.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|carousel|modules|carousel|carousel']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/carousel/dist/lib/modules/carousel/carousel.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/carousel/dist/lib/modules/carousel/carousel.view.js */ "./node_modules/@msdyn365-commerce-modules/carousel/dist/lib/modules/carousel/carousel.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/carousel/dist/lib/modules/carousel/carousel.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/carousel/dist/lib/modules/carousel/carousel.view.js */ "./node_modules/@msdyn365-commerce-modules/carousel/dist/lib/modules/carousel/carousel.view.js"),chunkName:()=>"@msdyn365-commerce-modules-carousel-dist-lib-modules-carousel-carousel.view"}),{chunkName:()=>'@msdyn365-commerce-modules-carousel-dist-lib-modules-carousel-carousel.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|cart|modules|cart-icon|cart-icon']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/cart/dist/lib/modules/cart-icon/cart-icon.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/cart/dist/lib/modules/cart-icon/cart-icon.view.js */ "./node_modules/@msdyn365-commerce-modules/cart/dist/lib/modules/cart-icon/cart-icon.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/cart/dist/lib/modules/cart-icon/cart-icon.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/cart/dist/lib/modules/cart-icon/cart-icon.view.js */ "./node_modules/@msdyn365-commerce-modules/cart/dist/lib/modules/cart-icon/cart-icon.view.js"),chunkName:()=>"@msdyn365-commerce-modules-cart-dist-lib-modules-cart-icon-cart-icon.view"}),{chunkName:()=>'@msdyn365-commerce-modules-cart-dist-lib-modules-cart-icon-cart-icon.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|cart|modules|cart|cart']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/cart/dist/lib/modules/cart/cart.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/cart/dist/lib/modules/cart/cart.view.js */ "./node_modules/@msdyn365-commerce-modules/cart/dist/lib/modules/cart/cart.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/cart/dist/lib/modules/cart/cart.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/cart/dist/lib/modules/cart/cart.view.js */ "./node_modules/@msdyn365-commerce-modules/cart/dist/lib/modules/cart/cart.view.js"),chunkName:()=>"@msdyn365-commerce-modules-cart-dist-lib-modules-cart-cart.view"}),{chunkName:()=>'@msdyn365-commerce-modules-cart-dist-lib-modules-cart-cart.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|checkout|modules|checkout-customer-account-payment|checkout-customer-account-payment']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-customer-account-payment/checkout-customer-account-payment.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-customer-account-payment/checkout-customer-account-payment.view.js */ "./node_modules/@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-customer-account-payment/checkout-customer-account-payment.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-customer-account-payment/checkout-customer-account-payment.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-customer-account-payment/checkout-customer-account-payment.view.js */ "./node_modules/@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-customer-account-payment/checkout-customer-account-payment.view.js"),chunkName:()=>"@msdyn365-commerce-modules-checkout-dist-lib-modules-checkout-customer-account-payment-checkout-customer-account-payment.view"}),{chunkName:()=>'@msdyn365-commerce-modules-checkout-dist-lib-modules-checkout-customer-account-payment-checkout-customer-account-payment.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|checkout|modules|checkout-delivery-options|checkout-delivery-options']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-delivery-options/checkout-delivery-options.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-delivery-options/checkout-delivery-options.view.js */ "./node_modules/@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-delivery-options/checkout-delivery-options.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-delivery-options/checkout-delivery-options.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-delivery-options/checkout-delivery-options.view.js */ "./node_modules/@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-delivery-options/checkout-delivery-options.view.js"),chunkName:()=>"@msdyn365-commerce-modules-checkout-dist-lib-modules-checkout-delivery-options-checkout-delivery-options.view"}),{chunkName:()=>'@msdyn365-commerce-modules-checkout-dist-lib-modules-checkout-delivery-options-checkout-delivery-options.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|checkout|modules|checkout-gift-card|checkout-gift-card']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-gift-card/checkout-gift-card.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-gift-card/checkout-gift-card.view.js */ "./node_modules/@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-gift-card/checkout-gift-card.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-gift-card/checkout-gift-card.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-gift-card/checkout-gift-card.view.js */ "./node_modules/@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-gift-card/checkout-gift-card.view.js"),chunkName:()=>"@msdyn365-commerce-modules-checkout-dist-lib-modules-checkout-gift-card-checkout-gift-card.view"}),{chunkName:()=>'@msdyn365-commerce-modules-checkout-dist-lib-modules-checkout-gift-card-checkout-gift-card.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|checkout|modules|checkout-guest-profile|checkout-guest-profile']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-guest-profile/checkout-guest-profile.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-guest-profile/checkout-guest-profile.view.js */ "./node_modules/@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-guest-profile/checkout-guest-profile.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-guest-profile/checkout-guest-profile.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-guest-profile/checkout-guest-profile.view.js */ "./node_modules/@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-guest-profile/checkout-guest-profile.view.js"),chunkName:()=>"@msdyn365-commerce-modules-checkout-dist-lib-modules-checkout-guest-profile-checkout-guest-profile.view"}),{chunkName:()=>'@msdyn365-commerce-modules-checkout-dist-lib-modules-checkout-guest-profile-checkout-guest-profile.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|checkout|modules|checkout-loyalty|checkout-loyalty']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-loyalty/checkout-loyalty.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-loyalty/checkout-loyalty.view.js */ "./node_modules/@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-loyalty/checkout-loyalty.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-loyalty/checkout-loyalty.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-loyalty/checkout-loyalty.view.js */ "./node_modules/@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-loyalty/checkout-loyalty.view.js"),chunkName:()=>"@msdyn365-commerce-modules-checkout-dist-lib-modules-checkout-loyalty-checkout-loyalty.view"}),{chunkName:()=>'@msdyn365-commerce-modules-checkout-dist-lib-modules-checkout-loyalty-checkout-loyalty.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|checkout|modules|checkout-payment-instrument|checkout-payment-instrument']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-payment-instrument/checkout-payment-instrument.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-payment-instrument/checkout-payment-instrument.view.js */ "./node_modules/@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-payment-instrument/checkout-payment-instrument.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-payment-instrument/checkout-payment-instrument.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-payment-instrument/checkout-payment-instrument.view.js */ "./node_modules/@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-payment-instrument/checkout-payment-instrument.view.js"),chunkName:()=>"@msdyn365-commerce-modules-checkout-dist-lib-modules-checkout-payment-instrument-checkout-payment-instrument.view"}),{chunkName:()=>'@msdyn365-commerce-modules-checkout-dist-lib-modules-checkout-payment-instrument-checkout-payment-instrument.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|checkout|modules|checkout-section-container|checkout-section-container']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-section-container/checkout-section-container.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-section-container/checkout-section-container.view.js */ "./node_modules/@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-section-container/checkout-section-container.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-section-container/checkout-section-container.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-section-container/checkout-section-container.view.js */ "./node_modules/@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-section-container/checkout-section-container.view.js"),chunkName:()=>"@msdyn365-commerce-modules-checkout-dist-lib-modules-checkout-section-container-checkout-section-container.view"}),{chunkName:()=>'@msdyn365-commerce-modules-checkout-dist-lib-modules-checkout-section-container-checkout-section-container.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|checkout|modules|checkout-terms-and-conditions|checkout-terms-and-conditions']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-terms-and-conditions/checkout-terms-and-conditions.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-terms-and-conditions/checkout-terms-and-conditions.view.js */ "./node_modules/@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-terms-and-conditions/checkout-terms-and-conditions.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-terms-and-conditions/checkout-terms-and-conditions.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-terms-and-conditions/checkout-terms-and-conditions.view.js */ "./node_modules/@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout-terms-and-conditions/checkout-terms-and-conditions.view.js"),chunkName:()=>"@msdyn365-commerce-modules-checkout-dist-lib-modules-checkout-terms-and-conditions-checkout-terms-and-conditions.view"}),{chunkName:()=>'@msdyn365-commerce-modules-checkout-dist-lib-modules-checkout-terms-and-conditions-checkout-terms-and-conditions.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|checkout|modules|checkout|checkout']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout/checkout.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/checkout/dist/lib/modules/checkout/checkout.view.js */ "./node_modules/@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout/checkout.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout/checkout.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/checkout/dist/lib/modules/checkout/checkout.view.js */ "./node_modules/@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout/checkout.view.js"),chunkName:()=>"@msdyn365-commerce-modules-checkout-dist-lib-modules-checkout-checkout.view"}),{chunkName:()=>'@msdyn365-commerce-modules-checkout-dist-lib-modules-checkout-checkout.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|checkout|modules|gift-card-balance-check|gift-card-balance-check']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/checkout/dist/lib/modules/gift-card-balance-check/gift-card-balance-check.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/checkout/dist/lib/modules/gift-card-balance-check/gift-card-balance-check.view.js */ "./node_modules/@msdyn365-commerce-modules/checkout/dist/lib/modules/gift-card-balance-check/gift-card-balance-check.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/checkout/dist/lib/modules/gift-card-balance-check/gift-card-balance-check.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/checkout/dist/lib/modules/gift-card-balance-check/gift-card-balance-check.view.js */ "./node_modules/@msdyn365-commerce-modules/checkout/dist/lib/modules/gift-card-balance-check/gift-card-balance-check.view.js"),chunkName:()=>"@msdyn365-commerce-modules-checkout-dist-lib-modules-gift-card-balance-check-gift-card-balance-check.view"}),{chunkName:()=>'@msdyn365-commerce-modules-checkout-dist-lib-modules-gift-card-balance-check-gift-card-balance-check.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|content-block|modules|content-block|content-block']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/content-block/dist/lib/modules/content-block/content-block.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/content-block/dist/lib/modules/content-block/content-block.view.js */ "./node_modules/@msdyn365-commerce-modules/content-block/dist/lib/modules/content-block/content-block.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/content-block/dist/lib/modules/content-block/content-block.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/content-block/dist/lib/modules/content-block/content-block.view.js */ "./node_modules/@msdyn365-commerce-modules/content-block/dist/lib/modules/content-block/content-block.view.js"),chunkName:()=>"@msdyn365-commerce-modules-content-block-dist-lib-modules-content-block-content-block.view"}),{chunkName:()=>'@msdyn365-commerce-modules-content-block-dist-lib-modules-content-block-content-block.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|cookie-compliance|modules|cookie-compliance|cookie-compliance']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/cookie-compliance/dist/lib/modules/cookie-compliance/cookie-compliance.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/cookie-compliance/dist/lib/modules/cookie-compliance/cookie-compliance.view.js */ "./node_modules/@msdyn365-commerce-modules/cookie-compliance/dist/lib/modules/cookie-compliance/cookie-compliance.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/cookie-compliance/dist/lib/modules/cookie-compliance/cookie-compliance.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/cookie-compliance/dist/lib/modules/cookie-compliance/cookie-compliance.view.js */ "./node_modules/@msdyn365-commerce-modules/cookie-compliance/dist/lib/modules/cookie-compliance/cookie-compliance.view.js"),chunkName:()=>"@msdyn365-commerce-modules-cookie-compliance-dist-lib-modules-cookie-compliance-cookie-compliance.view"}),{chunkName:()=>'@msdyn365-commerce-modules-cookie-compliance-dist-lib-modules-cookie-compliance-cookie-compliance.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|fabrikam-design-kit|modules|fabrikam|views|buybox']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/buybox.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/buybox.view.js */ "./node_modules/@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/buybox.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/buybox.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/buybox.view.js */ "./node_modules/@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/buybox.view.js"),chunkName:()=>"@msdyn365-commerce-modules-fabrikam-design-kit-dist-lib-modules-fabrikam-views-buybox.view"}),{chunkName:()=>'@msdyn365-commerce-modules-fabrikam-design-kit-dist-lib-modules-fabrikam-views-buybox.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|fabrikam-design-kit|modules|fabrikam|views|cart']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/cart.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/cart.view.js */ "./node_modules/@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/cart.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/cart.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/cart.view.js */ "./node_modules/@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/cart.view.js"),chunkName:()=>"@msdyn365-commerce-modules-fabrikam-design-kit-dist-lib-modules-fabrikam-views-cart.view"}),{chunkName:()=>'@msdyn365-commerce-modules-fabrikam-design-kit-dist-lib-modules-fabrikam-views-cart.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|fabrikam-design-kit|modules|fabrikam|views|header']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/header.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/header.view.js */ "./node_modules/@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/header.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/header.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/header.view.js */ "./node_modules/@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/header.view.js"),chunkName:()=>"@msdyn365-commerce-modules-fabrikam-design-kit-dist-lib-modules-fabrikam-views-header.view"}),{chunkName:()=>'@msdyn365-commerce-modules-fabrikam-design-kit-dist-lib-modules-fabrikam-views-header.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|fabrikam-design-kit|modules|fabrikam|views|navigation-menu']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/navigation-menu.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/navigation-menu.view.js */ "./node_modules/@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/navigation-menu.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/navigation-menu.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/navigation-menu.view.js */ "./node_modules/@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/navigation-menu.view.js"),chunkName:()=>"@msdyn365-commerce-modules-fabrikam-design-kit-dist-lib-modules-fabrikam-views-navigation-menu.view"}),{chunkName:()=>'@msdyn365-commerce-modules-fabrikam-design-kit-dist-lib-modules-fabrikam-views-navigation-menu.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|fabrikam-design-kit|modules|fabrikam|views|order-details']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/order-details.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/order-details.view.js */ "./node_modules/@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/order-details.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/order-details.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/order-details.view.js */ "./node_modules/@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/order-details.view.js"),chunkName:()=>"@msdyn365-commerce-modules-fabrikam-design-kit-dist-lib-modules-fabrikam-views-order-details.view"}),{chunkName:()=>'@msdyn365-commerce-modules-fabrikam-design-kit-dist-lib-modules-fabrikam-views-order-details.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|fabrikam-design-kit|modules|fabrikam|views|order-history']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/order-history.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/order-history.view.js */ "./node_modules/@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/order-history.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/order-history.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/order-history.view.js */ "./node_modules/@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/order-history.view.js"),chunkName:()=>"@msdyn365-commerce-modules-fabrikam-design-kit-dist-lib-modules-fabrikam-views-order-history.view"}),{chunkName:()=>'@msdyn365-commerce-modules-fabrikam-design-kit-dist-lib-modules-fabrikam-views-order-history.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|fabrikam-design-kit|modules|fabrikam|views|ratings-histogram']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/ratings-histogram.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/ratings-histogram.view.js */ "./node_modules/@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/ratings-histogram.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/ratings-histogram.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/ratings-histogram.view.js */ "./node_modules/@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/ratings-histogram.view.js"),chunkName:()=>"@msdyn365-commerce-modules-fabrikam-design-kit-dist-lib-modules-fabrikam-views-ratings-histogram.view"}),{chunkName:()=>'@msdyn365-commerce-modules-fabrikam-design-kit-dist-lib-modules-fabrikam-views-ratings-histogram.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|fabrikam-design-kit|modules|fabrikam|views|reviews-list']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/reviews-list.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/reviews-list.view.js */ "./node_modules/@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/reviews-list.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/reviews-list.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/reviews-list.view.js */ "./node_modules/@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/reviews-list.view.js"),chunkName:()=>"@msdyn365-commerce-modules-fabrikam-design-kit-dist-lib-modules-fabrikam-views-reviews-list.view"}),{chunkName:()=>'@msdyn365-commerce-modules-fabrikam-design-kit-dist-lib-modules-fabrikam-views-reviews-list.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|fabrikam-design-kit|modules|fabrikam|views|search-result-container']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/search-result-container.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/search-result-container.view.js */ "./node_modules/@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/search-result-container.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/search-result-container.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/search-result-container.view.js */ "./node_modules/@msdyn365-commerce-modules/fabrikam-design-kit/dist/lib/modules/fabrikam/views/search-result-container.view.js"),chunkName:()=>"@msdyn365-commerce-modules-fabrikam-design-kit-dist-lib-modules-fabrikam-views-search-result-container.view"}),{chunkName:()=>'@msdyn365-commerce-modules-fabrikam-design-kit-dist-lib-modules-fabrikam-views-search-result-container.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|footer|modules|footer-category|footer-category']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/footer/dist/lib/modules/footer-category/footer-category.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/footer/dist/lib/modules/footer-category/footer-category.view.js */ "./node_modules/@msdyn365-commerce-modules/footer/dist/lib/modules/footer-category/footer-category.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/footer/dist/lib/modules/footer-category/footer-category.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/footer/dist/lib/modules/footer-category/footer-category.view.js */ "./node_modules/@msdyn365-commerce-modules/footer/dist/lib/modules/footer-category/footer-category.view.js"),chunkName:()=>"@msdyn365-commerce-modules-footer-dist-lib-modules-footer-category-footer-category.view"}),{chunkName:()=>'@msdyn365-commerce-modules-footer-dist-lib-modules-footer-category-footer-category.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|footer|modules|footer-item|footer-item']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/footer/dist/lib/modules/footer-item/footer-item.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/footer/dist/lib/modules/footer-item/footer-item.view.js */ "./node_modules/@msdyn365-commerce-modules/footer/dist/lib/modules/footer-item/footer-item.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/footer/dist/lib/modules/footer-item/footer-item.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/footer/dist/lib/modules/footer-item/footer-item.view.js */ "./node_modules/@msdyn365-commerce-modules/footer/dist/lib/modules/footer-item/footer-item.view.js"),chunkName:()=>"@msdyn365-commerce-modules-footer-dist-lib-modules-footer-item-footer-item.view"}),{chunkName:()=>'@msdyn365-commerce-modules-footer-dist-lib-modules-footer-item-footer-item.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|header|modules|header|header']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/header/dist/lib/modules/header/header.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/header/dist/lib/modules/header/header.view.js */ "./node_modules/@msdyn365-commerce-modules/header/dist/lib/modules/header/header.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/header/dist/lib/modules/header/header.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/header/dist/lib/modules/header/header.view.js */ "./node_modules/@msdyn365-commerce-modules/header/dist/lib/modules/header/header.view.js"),chunkName:()=>"@msdyn365-commerce-modules-header-dist-lib-modules-header-header.view"}),{chunkName:()=>'@msdyn365-commerce-modules-header-dist-lib-modules-header-header.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|iframe|modules|iframe|iframe']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/iframe/dist/lib/modules/iframe/iframe.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/iframe/dist/lib/modules/iframe/iframe.view.js */ "./node_modules/@msdyn365-commerce-modules/iframe/dist/lib/modules/iframe/iframe.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/iframe/dist/lib/modules/iframe/iframe.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/iframe/dist/lib/modules/iframe/iframe.view.js */ "./node_modules/@msdyn365-commerce-modules/iframe/dist/lib/modules/iframe/iframe.view.js"),chunkName:()=>"@msdyn365-commerce-modules-iframe-dist-lib-modules-iframe-iframe.view"}),{chunkName:()=>'@msdyn365-commerce-modules-iframe-dist-lib-modules-iframe-iframe.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|map|modules|map|map']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/map/dist/lib/modules/map/map.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/map/dist/lib/modules/map/map.view.js */ "./node_modules/@msdyn365-commerce-modules/map/dist/lib/modules/map/map.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/map/dist/lib/modules/map/map.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/map/dist/lib/modules/map/map.view.js */ "./node_modules/@msdyn365-commerce-modules/map/dist/lib/modules/map/map.view.js"),chunkName:()=>"@msdyn365-commerce-modules-map-dist-lib-modules-map-map.view"}),{chunkName:()=>'@msdyn365-commerce-modules-map-dist-lib-modules-map-map.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|media-gallery|modules|media-gallery|media-gallery']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/media-gallery/dist/lib/modules/media-gallery/media-gallery.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/media-gallery/dist/lib/modules/media-gallery/media-gallery.view.js */ "./node_modules/@msdyn365-commerce-modules/media-gallery/dist/lib/modules/media-gallery/media-gallery.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/media-gallery/dist/lib/modules/media-gallery/media-gallery.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/media-gallery/dist/lib/modules/media-gallery/media-gallery.view.js */ "./node_modules/@msdyn365-commerce-modules/media-gallery/dist/lib/modules/media-gallery/media-gallery.view.js"),chunkName:()=>"@msdyn365-commerce-modules-media-gallery-dist-lib-modules-media-gallery-media-gallery.view"}),{chunkName:()=>'@msdyn365-commerce-modules-media-gallery-dist-lib-modules-media-gallery-media-gallery.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|navigation-menu|modules|navigation-menu|navigation-menu']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/navigation-menu/dist/lib/modules/navigation-menu/navigation-menu.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/navigation-menu/dist/lib/modules/navigation-menu/navigation-menu.view.js */ "./node_modules/@msdyn365-commerce-modules/navigation-menu/dist/lib/modules/navigation-menu/navigation-menu.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/navigation-menu/dist/lib/modules/navigation-menu/navigation-menu.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/navigation-menu/dist/lib/modules/navigation-menu/navigation-menu.view.js */ "./node_modules/@msdyn365-commerce-modules/navigation-menu/dist/lib/modules/navigation-menu/navigation-menu.view.js"),chunkName:()=>"@msdyn365-commerce-modules-navigation-menu-dist-lib-modules-navigation-menu-navigation-menu.view"}),{chunkName:()=>'@msdyn365-commerce-modules-navigation-menu-dist-lib-modules-navigation-menu-navigation-menu.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|order-management|modules|checkout-order-confirmation|checkout-order-confirmation']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/order-management/dist/lib/modules/checkout-order-confirmation/checkout-order-confirmation.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/order-management/dist/lib/modules/checkout-order-confirmation/checkout-order-confirmation.view.js */ "./node_modules/@msdyn365-commerce-modules/order-management/dist/lib/modules/checkout-order-confirmation/checkout-order-confirmation.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/order-management/dist/lib/modules/checkout-order-confirmation/checkout-order-confirmation.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/order-management/dist/lib/modules/checkout-order-confirmation/checkout-order-confirmation.view.js */ "./node_modules/@msdyn365-commerce-modules/order-management/dist/lib/modules/checkout-order-confirmation/checkout-order-confirmation.view.js"),chunkName:()=>"@msdyn365-commerce-modules-order-management-dist-lib-modules-checkout-order-confirmation-checkout-order-confirmation.view"}),{chunkName:()=>'@msdyn365-commerce-modules-order-management-dist-lib-modules-checkout-order-confirmation-checkout-order-confirmation.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|order-management|modules|order-confirmation|order-confirmation']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/order-management/dist/lib/modules/order-confirmation/order-confirmation.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/order-management/dist/lib/modules/order-confirmation/order-confirmation.view.js */ "./node_modules/@msdyn365-commerce-modules/order-management/dist/lib/modules/order-confirmation/order-confirmation.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/order-management/dist/lib/modules/order-confirmation/order-confirmation.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/order-management/dist/lib/modules/order-confirmation/order-confirmation.view.js */ "./node_modules/@msdyn365-commerce-modules/order-management/dist/lib/modules/order-confirmation/order-confirmation.view.js"),chunkName:()=>"@msdyn365-commerce-modules-order-management-dist-lib-modules-order-confirmation-order-confirmation.view"}),{chunkName:()=>'@msdyn365-commerce-modules-order-management-dist-lib-modules-order-confirmation-order-confirmation.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|order-management|modules|order-details|order-details']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/order-management/dist/lib/modules/order-details/order-details.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/order-management/dist/lib/modules/order-details/order-details.view.js */ "./node_modules/@msdyn365-commerce-modules/order-management/dist/lib/modules/order-details/order-details.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/order-management/dist/lib/modules/order-details/order-details.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/order-management/dist/lib/modules/order-details/order-details.view.js */ "./node_modules/@msdyn365-commerce-modules/order-management/dist/lib/modules/order-details/order-details.view.js"),chunkName:()=>"@msdyn365-commerce-modules-order-management-dist-lib-modules-order-details-order-details.view"}),{chunkName:()=>'@msdyn365-commerce-modules-order-management-dist-lib-modules-order-details-order-details.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|order-management|modules|order-history|order-history']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/order-management/dist/lib/modules/order-history/order-history.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/order-management/dist/lib/modules/order-history/order-history.view.js */ "./node_modules/@msdyn365-commerce-modules/order-management/dist/lib/modules/order-history/order-history.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/order-management/dist/lib/modules/order-history/order-history.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/order-management/dist/lib/modules/order-history/order-history.view.js */ "./node_modules/@msdyn365-commerce-modules/order-management/dist/lib/modules/order-history/order-history.view.js"),chunkName:()=>"@msdyn365-commerce-modules-order-management-dist-lib-modules-order-history-order-history.view"}),{chunkName:()=>'@msdyn365-commerce-modules-order-management-dist-lib-modules-order-history-order-history.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|order-template|modules|order-template-list|order-template-list']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/order-template/dist/lib/modules/order-template-list/order-template-list.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/order-template/dist/lib/modules/order-template-list/order-template-list.view.js */ "./node_modules/@msdyn365-commerce-modules/order-template/dist/lib/modules/order-template-list/order-template-list.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/order-template/dist/lib/modules/order-template-list/order-template-list.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/order-template/dist/lib/modules/order-template-list/order-template-list.view.js */ "./node_modules/@msdyn365-commerce-modules/order-template/dist/lib/modules/order-template-list/order-template-list.view.js"),chunkName:()=>"@msdyn365-commerce-modules-order-template-dist-lib-modules-order-template-list-order-template-list.view"}),{chunkName:()=>'@msdyn365-commerce-modules-order-template-dist-lib-modules-order-template-list-order-template-list.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|order-template|modules|order-template|order-template']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/order-template/dist/lib/modules/order-template/order-template.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/order-template/dist/lib/modules/order-template/order-template.view.js */ "./node_modules/@msdyn365-commerce-modules/order-template/dist/lib/modules/order-template/order-template.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/order-template/dist/lib/modules/order-template/order-template.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/order-template/dist/lib/modules/order-template/order-template.view.js */ "./node_modules/@msdyn365-commerce-modules/order-template/dist/lib/modules/order-template/order-template.view.js"),chunkName:()=>"@msdyn365-commerce-modules-order-template-dist-lib-modules-order-template-order-template.view"}),{chunkName:()=>'@msdyn365-commerce-modules-order-template-dist-lib-modules-order-template-order-template.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|product-collection|modules|product-collection|product-collection']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/product-collection/dist/lib/modules/product-collection/product-collection.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/product-collection/dist/lib/modules/product-collection/product-collection.view.js */ "./node_modules/@msdyn365-commerce-modules/product-collection/dist/lib/modules/product-collection/product-collection.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/product-collection/dist/lib/modules/product-collection/product-collection.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/product-collection/dist/lib/modules/product-collection/product-collection.view.js */ "./node_modules/@msdyn365-commerce-modules/product-collection/dist/lib/modules/product-collection/product-collection.view.js"),chunkName:()=>"@msdyn365-commerce-modules-product-collection-dist-lib-modules-product-collection-product-collection.view"}),{chunkName:()=>'@msdyn365-commerce-modules-product-collection-dist-lib-modules-product-collection-product-collection.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|product-specification|modules|product-specification|product-specification']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/product-specification/dist/lib/modules/product-specification/product-specification.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/product-specification/dist/lib/modules/product-specification/product-specification.view.js */ "./node_modules/@msdyn365-commerce-modules/product-specification/dist/lib/modules/product-specification/product-specification.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/product-specification/dist/lib/modules/product-specification/product-specification.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/product-specification/dist/lib/modules/product-specification/product-specification.view.js */ "./node_modules/@msdyn365-commerce-modules/product-specification/dist/lib/modules/product-specification/product-specification.view.js"),chunkName:()=>"@msdyn365-commerce-modules-product-specification-dist-lib-modules-product-specification-product-specification.view"}),{chunkName:()=>'@msdyn365-commerce-modules-product-specification-dist-lib-modules-product-specification-product-specification.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|promo-banner|modules|promo-banner|promo-banner']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/promo-banner/dist/lib/modules/promo-banner/promo-banner.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/promo-banner/dist/lib/modules/promo-banner/promo-banner.view.js */ "./node_modules/@msdyn365-commerce-modules/promo-banner/dist/lib/modules/promo-banner/promo-banner.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/promo-banner/dist/lib/modules/promo-banner/promo-banner.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/promo-banner/dist/lib/modules/promo-banner/promo-banner.view.js */ "./node_modules/@msdyn365-commerce-modules/promo-banner/dist/lib/modules/promo-banner/promo-banner.view.js"),chunkName:()=>"@msdyn365-commerce-modules-promo-banner-dist-lib-modules-promo-banner-promo-banner.view"}),{chunkName:()=>'@msdyn365-commerce-modules-promo-banner-dist-lib-modules-promo-banner-promo-banner.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|ratings-reviews|modules|ratings-histogram|ratings-histogram']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/ratings-reviews/dist/lib/modules/ratings-histogram/ratings-histogram.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/ratings-reviews/dist/lib/modules/ratings-histogram/ratings-histogram.view.js */ "./node_modules/@msdyn365-commerce-modules/ratings-reviews/dist/lib/modules/ratings-histogram/ratings-histogram.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/ratings-reviews/dist/lib/modules/ratings-histogram/ratings-histogram.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/ratings-reviews/dist/lib/modules/ratings-histogram/ratings-histogram.view.js */ "./node_modules/@msdyn365-commerce-modules/ratings-reviews/dist/lib/modules/ratings-histogram/ratings-histogram.view.js"),chunkName:()=>"@msdyn365-commerce-modules-ratings-reviews-dist-lib-modules-ratings-histogram-ratings-histogram.view"}),{chunkName:()=>'@msdyn365-commerce-modules-ratings-reviews-dist-lib-modules-ratings-histogram-ratings-histogram.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|ratings-reviews|modules|reviews-list|reviews-list']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/ratings-reviews/dist/lib/modules/reviews-list/reviews-list.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/ratings-reviews/dist/lib/modules/reviews-list/reviews-list.view.js */ "./node_modules/@msdyn365-commerce-modules/ratings-reviews/dist/lib/modules/reviews-list/reviews-list.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/ratings-reviews/dist/lib/modules/reviews-list/reviews-list.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/ratings-reviews/dist/lib/modules/reviews-list/reviews-list.view.js */ "./node_modules/@msdyn365-commerce-modules/ratings-reviews/dist/lib/modules/reviews-list/reviews-list.view.js"),chunkName:()=>"@msdyn365-commerce-modules-ratings-reviews-dist-lib-modules-reviews-list-reviews-list.view"}),{chunkName:()=>'@msdyn365-commerce-modules-ratings-reviews-dist-lib-modules-reviews-list-reviews-list.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|ratings-reviews|modules|write-review|write-review']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/ratings-reviews/dist/lib/modules/write-review/write-review.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/ratings-reviews/dist/lib/modules/write-review/write-review.view.js */ "./node_modules/@msdyn365-commerce-modules/ratings-reviews/dist/lib/modules/write-review/write-review.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/ratings-reviews/dist/lib/modules/write-review/write-review.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/ratings-reviews/dist/lib/modules/write-review/write-review.view.js */ "./node_modules/@msdyn365-commerce-modules/ratings-reviews/dist/lib/modules/write-review/write-review.view.js"),chunkName:()=>"@msdyn365-commerce-modules-ratings-reviews-dist-lib-modules-write-review-write-review.view"}),{chunkName:()=>'@msdyn365-commerce-modules-ratings-reviews-dist-lib-modules-write-review-write-review.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|search-result-container|modules|search-result-container|search-result-container']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/search-result-container/dist/lib/modules/search-result-container/search-result-container.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/search-result-container/dist/lib/modules/search-result-container/search-result-container.view.js */ "./node_modules/@msdyn365-commerce-modules/search-result-container/dist/lib/modules/search-result-container/search-result-container.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/search-result-container/dist/lib/modules/search-result-container/search-result-container.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/search-result-container/dist/lib/modules/search-result-container/search-result-container.view.js */ "./node_modules/@msdyn365-commerce-modules/search-result-container/dist/lib/modules/search-result-container/search-result-container.view.js"),chunkName:()=>"@msdyn365-commerce-modules-search-result-container-dist-lib-modules-search-result-container-search-result-container.view"}),{chunkName:()=>'@msdyn365-commerce-modules-search-result-container-dist-lib-modules-search-result-container-search-result-container.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|search|modules|search|search']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/search/dist/lib/modules/search/search.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/search/dist/lib/modules/search/search.view.js */ "./node_modules/@msdyn365-commerce-modules/search/dist/lib/modules/search/search.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/search/dist/lib/modules/search/search.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/search/dist/lib/modules/search/search.view.js */ "./node_modules/@msdyn365-commerce-modules/search/dist/lib/modules/search/search.view.js"),chunkName:()=>"@msdyn365-commerce-modules-search-dist-lib-modules-search-search.view"}),{chunkName:()=>'@msdyn365-commerce-modules-search-dist-lib-modules-search-search.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|site-picker|modules|site-picker|site-picker']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/site-picker/dist/lib/modules/site-picker/site-picker.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/site-picker/dist/lib/modules/site-picker/site-picker.view.js */ "./node_modules/@msdyn365-commerce-modules/site-picker/dist/lib/modules/site-picker/site-picker.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/site-picker/dist/lib/modules/site-picker/site-picker.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/site-picker/dist/lib/modules/site-picker/site-picker.view.js */ "./node_modules/@msdyn365-commerce-modules/site-picker/dist/lib/modules/site-picker/site-picker.view.js"),chunkName:()=>"@msdyn365-commerce-modules-site-picker-dist-lib-modules-site-picker-site-picker.view"}),{chunkName:()=>'@msdyn365-commerce-modules-site-picker-dist-lib-modules-site-picker-site-picker.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|social-share|modules|social-share-item|social-share-item']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/social-share/dist/lib/modules/social-share-item/social-share-item.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/social-share/dist/lib/modules/social-share-item/social-share-item.view.js */ "./node_modules/@msdyn365-commerce-modules/social-share/dist/lib/modules/social-share-item/social-share-item.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/social-share/dist/lib/modules/social-share-item/social-share-item.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/social-share/dist/lib/modules/social-share-item/social-share-item.view.js */ "./node_modules/@msdyn365-commerce-modules/social-share/dist/lib/modules/social-share-item/social-share-item.view.js"),chunkName:()=>"@msdyn365-commerce-modules-social-share-dist-lib-modules-social-share-item-social-share-item.view"}),{chunkName:()=>'@msdyn365-commerce-modules-social-share-dist-lib-modules-social-share-item-social-share-item.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|social-share|modules|social-share|social-share']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/social-share/dist/lib/modules/social-share/social-share.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/social-share/dist/lib/modules/social-share/social-share.view.js */ "./node_modules/@msdyn365-commerce-modules/social-share/dist/lib/modules/social-share/social-share.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/social-share/dist/lib/modules/social-share/social-share.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/social-share/dist/lib/modules/social-share/social-share.view.js */ "./node_modules/@msdyn365-commerce-modules/social-share/dist/lib/modules/social-share/social-share.view.js"),chunkName:()=>"@msdyn365-commerce-modules-social-share-dist-lib-modules-social-share-social-share.view"}),{chunkName:()=>'@msdyn365-commerce-modules-social-share-dist-lib-modules-social-share-social-share.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|spacer|modules|spacer|spacer']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/spacer/dist/lib/modules/spacer/spacer.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/spacer/dist/lib/modules/spacer/spacer.view.js */ "./node_modules/@msdyn365-commerce-modules/spacer/dist/lib/modules/spacer/spacer.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/spacer/dist/lib/modules/spacer/spacer.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/spacer/dist/lib/modules/spacer/spacer.view.js */ "./node_modules/@msdyn365-commerce-modules/spacer/dist/lib/modules/spacer/spacer.view.js"),chunkName:()=>"@msdyn365-commerce-modules-spacer-dist-lib-modules-spacer-spacer.view"}),{chunkName:()=>'@msdyn365-commerce-modules-spacer-dist-lib-modules-spacer-spacer.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|store-selector|modules|store-selector|store-selector']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/store-selector/dist/lib/modules/store-selector/store-selector.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/store-selector/dist/lib/modules/store-selector/store-selector.view.js */ "./node_modules/@msdyn365-commerce-modules/store-selector/dist/lib/modules/store-selector/store-selector.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/store-selector/dist/lib/modules/store-selector/store-selector.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/store-selector/dist/lib/modules/store-selector/store-selector.view.js */ "./node_modules/@msdyn365-commerce-modules/store-selector/dist/lib/modules/store-selector/store-selector.view.js"),chunkName:()=>"@msdyn365-commerce-modules-store-selector-dist-lib-modules-store-selector-store-selector.view"}),{chunkName:()=>'@msdyn365-commerce-modules-store-selector-dist-lib-modules-store-selector-store-selector.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|tab|modules|tab-item|tab-item']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/tab/dist/lib/modules/tab-item/tab-item.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/tab/dist/lib/modules/tab-item/tab-item.view.js */ "./node_modules/@msdyn365-commerce-modules/tab/dist/lib/modules/tab-item/tab-item.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/tab/dist/lib/modules/tab-item/tab-item.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/tab/dist/lib/modules/tab-item/tab-item.view.js */ "./node_modules/@msdyn365-commerce-modules/tab/dist/lib/modules/tab-item/tab-item.view.js"),chunkName:()=>"@msdyn365-commerce-modules-tab-dist-lib-modules-tab-item-tab-item.view"}),{chunkName:()=>'@msdyn365-commerce-modules-tab-dist-lib-modules-tab-item-tab-item.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|tab|modules|tab|tab']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/tab/dist/lib/modules/tab/tab.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/tab/dist/lib/modules/tab/tab.view.js */ "./node_modules/@msdyn365-commerce-modules/tab/dist/lib/modules/tab/tab.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/tab/dist/lib/modules/tab/tab.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/tab/dist/lib/modules/tab/tab.view.js */ "./node_modules/@msdyn365-commerce-modules/tab/dist/lib/modules/tab/tab.view.js"),chunkName:()=>"@msdyn365-commerce-modules-tab-dist-lib-modules-tab-tab.view"}),{chunkName:()=>'@msdyn365-commerce-modules-tab-dist-lib-modules-tab-tab.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|text-block|modules|text-block|text-block']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/text-block/dist/lib/modules/text-block/text-block.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/text-block/dist/lib/modules/text-block/text-block.view.js */ "./node_modules/@msdyn365-commerce-modules/text-block/dist/lib/modules/text-block/text-block.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/text-block/dist/lib/modules/text-block/text-block.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/text-block/dist/lib/modules/text-block/text-block.view.js */ "./node_modules/@msdyn365-commerce-modules/text-block/dist/lib/modules/text-block/text-block.view.js"),chunkName:()=>"@msdyn365-commerce-modules-text-block-dist-lib-modules-text-block-text-block.view"}),{chunkName:()=>'@msdyn365-commerce-modules-text-block-dist-lib-modules-text-block-text-block.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|video-player|modules|video-player|video-player']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/video-player/dist/lib/modules/video-player/video-player.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/video-player/dist/lib/modules/video-player/video-player.view.js */ "./node_modules/@msdyn365-commerce-modules/video-player/dist/lib/modules/video-player/video-player.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/video-player/dist/lib/modules/video-player/video-player.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/video-player/dist/lib/modules/video-player/video-player.view.js */ "./node_modules/@msdyn365-commerce-modules/video-player/dist/lib/modules/video-player/video-player.view.js"),chunkName:()=>"@msdyn365-commerce-modules-video-player-dist-lib-modules-video-player-video-player.view"}),{chunkName:()=>'@msdyn365-commerce-modules-video-player-dist-lib-modules-video-player-video-player.view.js',ignoreBabelRename:true})};viewDictionary['@msdyn365-commerce-modules|wishlist|modules|wishlist-items|wishlist-items']={component:universal(()=>babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_3___default()({id:"@msdyn365-commerce-modules/wishlist/dist/lib/modules/wishlist-items/wishlist-items.view.js",load:()=>Promise.all([Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(null, /*! @msdyn365-commerce-modules/wishlist/dist/lib/modules/wishlist-items/wishlist-items.view.js */ "./node_modules/@msdyn365-commerce-modules/wishlist/dist/lib/modules/wishlist-items/wishlist-items.view.js"))]).then(proms=>proms[0]),path:()=>path__WEBPACK_IMPORTED_MODULE_2___default.a.join(__dirname,'@msdyn365-commerce-modules/wishlist/dist/lib/modules/wishlist-items/wishlist-items.view.js'),resolve:()=>/*require.resolve*/(/*! @msdyn365-commerce-modules/wishlist/dist/lib/modules/wishlist-items/wishlist-items.view.js */ "./node_modules/@msdyn365-commerce-modules/wishlist/dist/lib/modules/wishlist-items/wishlist-items.view.js"),chunkName:()=>"@msdyn365-commerce-modules-wishlist-dist-lib-modules-wishlist-items-wishlist-items.view"}),{chunkName:()=>'@msdyn365-commerce-modules-wishlist-dist-lib-modules-wishlist-items-wishlist-items.view.js',ignoreBabelRename:true})};
 /* WEBPACK VAR INJECTION */}.call(this, "/"))
 
 /***/ }),
@@ -914,7 +914,7 @@ var index_module = __webpack_require__("./node_modules/mobx-react/index.module.j
 // EXTERNAL MODULE: external "React"
 var external_React_ = __webpack_require__("react");
 
-// EXTERNAL MODULE: ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/index.js + 38 modules
+// EXTERNAL MODULE: ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/index.js + 37 modules
 var dist_lib = __webpack_require__("./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/index.js");
 
 // EXTERNAL MODULE: ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/index.js
@@ -1123,7 +1123,7 @@ var index_module = __webpack_require__("./node_modules/mobx-react/index.module.j
 var external_React_ = __webpack_require__("react");
 var external_React_default = /*#__PURE__*/__webpack_require__.n(external_React_);
 
-// EXTERNAL MODULE: ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/index.js + 38 modules
+// EXTERNAL MODULE: ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/index.js + 37 modules
 var lib = __webpack_require__("./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/index.js");
 
 // EXTERNAL MODULE: ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/index.js
@@ -1186,7 +1186,7 @@ var es_string_split = __webpack_require__("./node_modules/@msdyn365-commerce/boo
 // EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/defineProperty.js
 var defineProperty = __webpack_require__("./node_modules/@babel/runtime/helpers/esm/defineProperty.js");
 
-// EXTERNAL MODULE: ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/index.js + 38 modules
+// EXTERNAL MODULE: ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/index.js + 37 modules
 var lib = __webpack_require__("./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/index.js");
 
 // EXTERNAL MODULE: ./node_modules/@msdyn365-commerce/retail-proxy/dist/DataActions/StoreOperationsDataActions.g.js
@@ -2465,7 +2465,7 @@ __webpack_require__.r(__webpack_exports__);
 // EXPORTS
 __webpack_require__.d(__webpack_exports__, "createStoreSelectorStateInput", function() { return /* binding */ createStoreSelectorStateInput; });
 
-// EXTERNAL MODULE: ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/index.js + 38 modules
+// EXTERNAL MODULE: ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/index.js + 37 modules
 var lib = __webpack_require__("./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/index.js");
 
 // EXTERNAL MODULE: ./node_modules/@msdyn365-commerce/core/dist/lib/index.js
@@ -2724,7 +2724,7 @@ var tslib_es6 = __webpack_require__("./node_modules/tslib/tslib.es6.js");
 // EXTERNAL MODULE: external "React"
 var external_React_ = __webpack_require__("react");
 
-// EXTERNAL MODULE: ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/index.js + 38 modules
+// EXTERNAL MODULE: ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/index.js + 37 modules
 var lib = __webpack_require__("./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/index.js");
 
 // EXTERNAL MODULE: ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/index.js
@@ -2797,7 +2797,7 @@ var es_promise = __webpack_require__("./node_modules/@msdyn365-commerce/bootload
 // EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/defineProperty.js
 var defineProperty = __webpack_require__("./node_modules/@babel/runtime/helpers/esm/defineProperty.js");
 
-// EXTERNAL MODULE: ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/index.js + 38 modules
+// EXTERNAL MODULE: ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/index.js + 37 modules
 var lib = __webpack_require__("./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/index.js");
 
 // EXTERNAL MODULE: ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/index.js
@@ -2979,7 +2979,7 @@ var index_module = __webpack_require__("./node_modules/mobx-react/index.module.j
 var external_React_ = __webpack_require__("react");
 var external_React_default = /*#__PURE__*/__webpack_require__.n(external_React_);
 
-// EXTERNAL MODULE: ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/index.js + 38 modules
+// EXTERNAL MODULE: ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/index.js + 37 modules
 var retail_actions_dist_lib = __webpack_require__("./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/index.js");
 
 // CONCATENATED MODULE: ./node_modules/@msdyn365-commerce-modules/cart/dist/lib/modules/cart-icon/components/flyout-cart-line-items.js
@@ -3019,7 +3019,7 @@ const _renderCartlines=(cartLines,props)=>{if(!cartLines){props.context.telemetr
   !*** ./node_modules/@msdyn365-commerce-modules/cart/dist/lib/modules/cart/cart.js + 2 modules ***!
   \************************************************************************************************/
 /*! exports provided: default */
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@msdyn365-commerce-modules/order-summary-utilities/dist/lib/index.js because of ./src/modules/cart/cart.tsx */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@msdyn365-commerce-modules/order-summary-utilities/dist/lib/index.js because of ./node_modules/@msdyn365-commerce-modules/checkout/dist/lib/modules/checkout/checkout.js */
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/index.js (<- Module is referenced from these modules with unsupported syntax: ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/popup/Popup.js (referenced with cjs require)) */
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/index.js (<- Module is not an ECMAScript module) */
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@msdyn365-commerce/components/dist/lib/index.js */
@@ -3076,7 +3076,7 @@ var external_React_default = /*#__PURE__*/__webpack_require__.n(external_React_)
 // EXTERNAL MODULE: ./node_modules/@msdyn365-commerce/bootloader/node_modules/core-js/modules/es.string.replace.js
 var es_string_replace = __webpack_require__("./node_modules/@msdyn365-commerce/bootloader/node_modules/core-js/modules/es.string.replace.js");
 
-// EXTERNAL MODULE: ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/index.js + 38 modules
+// EXTERNAL MODULE: ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/index.js + 37 modules
 var retail_actions_dist_lib = __webpack_require__("./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/index.js");
 
 // EXTERNAL MODULE: ./node_modules/@msdyn365-commerce/bootloader/node_modules/core-js/modules/es.promise.js
@@ -3142,7 +3142,7 @@ __webpack_require__.d(__webpack_exports__, "checkoutStateDataAction", function()
 // EXTERNAL MODULE: ./node_modules/tslib/tslib.es6.js
 var tslib_es6 = __webpack_require__("./node_modules/tslib/tslib.es6.js");
 
-// EXTERNAL MODULE: ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/index.js + 38 modules
+// EXTERNAL MODULE: ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/index.js + 37 modules
 var lib = __webpack_require__("./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/index.js");
 
 // EXTERNAL MODULE: ./node_modules/@msdyn365-commerce/core/dist/lib/index.js
@@ -3687,7 +3687,7 @@ var external_React_ = __webpack_require__("react");
 // EXTERNAL MODULE: ./node_modules/@msdyn365-commerce-modules/checkout-utilities/dist/lib/index.js + 5 modules
 var lib = __webpack_require__("./node_modules/@msdyn365-commerce-modules/checkout-utilities/dist/lib/index.js");
 
-// EXTERNAL MODULE: ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/index.js + 38 modules
+// EXTERNAL MODULE: ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/index.js + 37 modules
 var dist_lib = __webpack_require__("./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/index.js");
 
 // EXTERNAL MODULE: ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/index.js
@@ -5888,7 +5888,7 @@ var core_dist_lib = __webpack_require__("./node_modules/@msdyn365-commerce/core/
 // EXTERNAL MODULE: ./node_modules/@msdyn365-commerce/bootloader/node_modules/core-js/modules/es.string.replace.js
 var es_string_replace = __webpack_require__("./node_modules/@msdyn365-commerce/bootloader/node_modules/core-js/modules/es.string.replace.js");
 
-// EXTERNAL MODULE: ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/index.js + 38 modules
+// EXTERNAL MODULE: ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/index.js + 37 modules
 var retail_actions_dist_lib = __webpack_require__("./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/index.js");
 
 // CONCATENATED MODULE: ./node_modules/@msdyn365-commerce-modules/media-gallery/dist/lib/modules/media-gallery/utils/get-valid-product-images.js
@@ -6123,7 +6123,7 @@ var es_object_assign = __webpack_require__("./node_modules/@msdyn365-commerce/bo
 // EXTERNAL MODULE: ./node_modules/@msdyn365-commerce/bootloader/node_modules/core-js/modules/es.string.replace.js
 var es_string_replace = __webpack_require__("./node_modules/@msdyn365-commerce/bootloader/node_modules/core-js/modules/es.string.replace.js");
 
-// EXTERNAL MODULE: ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/index.js + 38 modules
+// EXTERNAL MODULE: ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/index.js + 37 modules
 var lib = __webpack_require__("./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/index.js");
 
 // EXTERNAL MODULE: ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/index.js
@@ -6686,7 +6686,7 @@ var es_array_reduce = __webpack_require__("./node_modules/@msdyn365-commerce/boo
 // EXTERNAL MODULE: ./node_modules/@msdyn365-commerce/bootloader/node_modules/core-js/modules/web.dom-collections.for-each.js
 var web_dom_collections_for_each = __webpack_require__("./node_modules/@msdyn365-commerce/bootloader/node_modules/core-js/modules/web.dom-collections.for-each.js");
 
-// EXTERNAL MODULE: ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/index.js + 38 modules
+// EXTERNAL MODULE: ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/index.js + 37 modules
 var retail_actions_dist_lib = __webpack_require__("./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/index.js");
 
 // EXTERNAL MODULE: ./node_modules/@msdyn365-commerce/retail-proxy/dist/DataActions/CustomersDataActions.g.js
@@ -6867,7 +6867,7 @@ __webpack_require__.d(__webpack_exports__, "OrderTemplateListStatusMessage", fun
 // EXTERNAL MODULE: ./node_modules/@msdyn365-commerce/bootloader/node_modules/core-js/modules/es.string.includes.js
 var es_string_includes = __webpack_require__("./node_modules/@msdyn365-commerce/bootloader/node_modules/core-js/modules/es.string.includes.js");
 
-// EXTERNAL MODULE: ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/index.js + 38 modules
+// EXTERNAL MODULE: ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/index.js + 37 modules
 var lib = __webpack_require__("./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/index.js");
 
 // EXTERNAL MODULE: ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/index.js
@@ -7038,7 +7038,7 @@ __webpack_require__.d(__webpack_exports__, "ProductConfiguration", function() { 
 __webpack_require__.d(__webpack_exports__, "ProductList", function() { return /* reexport */ ProductList; });
 __webpack_require__.d(__webpack_exports__, "ProductSelectButton", function() { return /* reexport */ ProductSelectButton; });
 
-// EXTERNAL MODULE: ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/index.js + 38 modules
+// EXTERNAL MODULE: ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/index.js + 37 modules
 var lib = __webpack_require__("./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/index.js");
 
 // EXTERNAL MODULE: ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/index.js
@@ -7675,7 +7675,7 @@ var es_string_starts_with = __webpack_require__("./node_modules/@msdyn365-commer
 var external_React_ = __webpack_require__("react");
 var external_React_default = /*#__PURE__*/__webpack_require__.n(external_React_);
 
-// EXTERNAL MODULE: ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/index.js + 38 modules
+// EXTERNAL MODULE: ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/index.js + 37 modules
 var lib = __webpack_require__("./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/index.js");
 
 // EXTERNAL MODULE: ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/index.js
@@ -7832,7 +7832,7 @@ var defineProperty = __webpack_require__("./node_modules/@babel/runtime/helpers/
 // EXTERNAL MODULE: ./node_modules/tslib/tslib.es6.js
 var tslib_es6 = __webpack_require__("./node_modules/tslib/tslib.es6.js");
 
-// EXTERNAL MODULE: ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/index.js + 38 modules
+// EXTERNAL MODULE: ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/index.js + 37 modules
 var lib = __webpack_require__("./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/index.js");
 
 // EXTERNAL MODULE: ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/index.js
@@ -8089,7 +8089,7 @@ var OrgUnitsDataActions_g = __webpack_require__("./node_modules/@msdyn365-commer
 // EXTERNAL MODULE: ./node_modules/@msdyn365-commerce/retail-proxy/dist/DataActions/ProductsDataActions.g.js
 var ProductsDataActions_g = __webpack_require__("./node_modules/@msdyn365-commerce/retail-proxy/dist/DataActions/ProductsDataActions.g.js");
 
-// EXTERNAL MODULE: ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/index.js + 38 modules
+// EXTERNAL MODULE: ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/index.js + 37 modules
 var retail_actions_dist_lib = __webpack_require__("./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/index.js");
 
 // CONCATENATED MODULE: ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-availabilities-cartlines.js
@@ -8344,7 +8344,7 @@ return Object(_msdyn365_commerce_retail_proxy_dist_DataActions_CustomersDataActi
   !*** ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-delivery-options-for-cartlines.js ***!
   \***************************************************************************************************************/
 /*! exports provided: ProductDeliveryOptionsForCartLineItems, getDeliveryOptionsForCartLineItems, default */
-/*! ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: ./lib/module-registration.js (referenced with cjs require), ./lib/module-registration.local.js (referenced with cjs require) */
+/*! ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: ./lib/module-registration.js (referenced with cjs require) */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8439,7 +8439,7 @@ null);const fullDimension=_objectSpread(_objectSpread({},dimension),{},{Dimensio
   !*** ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-feature-state.js ***!
   \**********************************************************************************************/
 /*! exports provided: FeatureStateInput, createGetFeatureStateInput, getFeatureStateAction, default */
-/*! ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: ./lib/module-registration.js (referenced with cjs require), ./lib/module-registration.local.js (referenced with cjs require) */
+/*! ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: ./lib/module-registration.js (referenced with cjs require) */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8525,7 +8525,7 @@ const storeMap=new Map();stores.forEach(store=>{if(store.InventoryLocationId){st
   !*** ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-items-in-wishlist.js ***!
   \**************************************************************************************************/
 /*! exports provided: ActiveWishlistInput, getActiveWishlistItems, default */
-/*! ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: ./lib/module-registration.js (referenced with cjs require), ./lib/module-registration.local.js (referenced with cjs require) */
+/*! ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: ./lib/module-registration.js (referenced with cjs require) */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8783,7 +8783,7 @@ __webpack_require__.r(__webpack_exports__);
   !*** ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-products-in-active-cart.js ***!
   \********************************************************************************************************/
 /*! exports provided: ActiveCartProductsInput, getActiveCartProductsAction, default */
-/*! ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: ./lib/module-registration.js (referenced with cjs require), ./lib/module-registration.local.js (referenced with cjs require) */
+/*! ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: ./lib/module-registration.js (referenced with cjs require) */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8869,6 +8869,42 @@ product=_objectSpread({},baseProduct);if(product){let baseProductHadUnmatchedDim
 
 /***/ }),
 
+/***/ "./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-simple-products.js":
+/*!************************************************************************************************!*\
+  !*** ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-simple-products.js ***!
+  \************************************************************************************************/
+/*! exports provided: ProductInput, createSimpleProductsInput, getSimpleProductsAction, default */
+/*! ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: ./lib/module-registration.local.js (referenced with cjs require) */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ProductInput", function() { return ProductInput; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "createSimpleProductsInput", function() { return createSimpleProductsInput; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getSimpleProductsAction", function() { return getSimpleProductsAction; });
+/* harmony import */ var core_js_modules_es_array_reduce_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! core-js/modules/es.array.reduce.js */ "./node_modules/@msdyn365-commerce/bootloader/node_modules/core-js/modules/es.array.reduce.js");
+/* harmony import */ var core_js_modules_es_array_reduce_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_array_reduce_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var core_js_modules_es_promise_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! core-js/modules/es.promise.js */ "./node_modules/@msdyn365-commerce/bootloader/node_modules/core-js/modules/es.promise.js");
+/* harmony import */ var core_js_modules_es_promise_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_promise_js__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var core_js_modules_es_regexp_to_string_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! core-js/modules/es.regexp.to-string.js */ "./node_modules/@msdyn365-commerce/bootloader/node_modules/core-js/modules/es.regexp.to-string.js");
+/* harmony import */ var core_js_modules_es_regexp_to_string_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_regexp_to_string_js__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var core_js_modules_es_string_split_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! core-js/modules/es.string.split.js */ "./node_modules/@msdyn365-commerce/bootloader/node_modules/core-js/modules/es.string.split.js");
+/* harmony import */ var core_js_modules_es_string_split_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_string_split_js__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _msdyn365_commerce_core__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @msdyn365-commerce/core */ "./node_modules/@msdyn365-commerce/core/dist/lib/index.js");
+/* harmony import */ var _msdyn365_commerce_retail_proxy_dist_DataActions_ProductsDataActions_g__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @msdyn365-commerce/retail-proxy/dist/DataActions/ProductsDataActions.g */ "./node_modules/@msdyn365-commerce/retail-proxy/dist/DataActions/ProductsDataActions.g.js");
+/* harmony import */ var _utilities_QueryResultSettingsProxy__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./utilities/QueryResultSettingsProxy */ "./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/utilities/QueryResultSettingsProxy.js");
+/* harmony import */ var _utilities_utils__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./utilities/utils */ "./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/utilities/utils.js");
+/**
+ * Product Input
+ */class ProductInput{constructor(productId,apiSettings,channelId){this.getCacheKey=()=>Object(_utilities_utils__WEBPACK_IMPORTED_MODULE_7__["buildCacheKey"])("RecordId-".concat(this.productId.toString(),"-ChannelId-").concat(this.channelId.toString()),this.apiSettings);this.getCacheObjectType=()=>'SimpleProduct';this.dataCacheType=()=>'application';this.apiSettings=apiSettings;this.productId=+productId;this.channelId=channelId||apiSettings.channelId;}}/**
+ * Creates the input required to make the retail api call
+ */const createSimpleProductsInput=inputData=>{let productIds=inputData.config&&inputData.config.productIds;if(!productIds){return[];}productIds=typeof productIds==='string'?productIds.split(','):productIds;return!Array.isArray(productIds)?[]:productIds.map(productId=>{return new ProductInput(productId,inputData.requestContext.apiSettings);});};/**
+ * Calls the Retail API and returns the product based on the passed ProductInput
+ */async function getSimpleProductsAction(inputs,ctx){if(!Array.isArray(inputs)||inputs.length===0){ctx.trace('[getSimpleProductsAction] Invalid or empty inputs passed.');return[];}const productIdMapping={};const productIds=inputs.map((input,idx)=>{productIdMapping[input.productId]=idx;return input.productId;});return Object(_msdyn365_commerce_retail_proxy_dist_DataActions_ProductsDataActions_g__WEBPACK_IMPORTED_MODULE_5__["getByIdsAsync"])({callerContext:ctx,queryResultSettings:_utilities_QueryResultSettingsProxy__WEBPACK_IMPORTED_MODULE_6__["QueryResultSettingsProxy"].getDefault().QueryResultSettings},inputs[0].channelId,productIds).then(products=>{const mappedProducts=products.map(product=>{try{const newImageUrl=Object(_utilities_utils__WEBPACK_IMPORTED_MODULE_7__["generateProductImageUrl"])(product,ctx.requestContext.apiSettings);if(newImageUrl){product.PrimaryImageUrl=newImageUrl;}return product;}catch(e){ctx.trace('[getSimpleProductsAction] Unable to update ImageURL for Product');}}).reduce((memo,product)=>{if(!product){return memo;}const idx=productIdMapping[product.RecordId];memo[idx]=product;return memo;},[]);// NOTE: <ZAFINE> This is not an ideal fix, but will resolve all current issues
+return inputs.map(input=>{const foundProduct=mappedProducts.find(product=>product&&product.RecordId===input.productId);return foundProduct||{};});});}/* harmony default export */ __webpack_exports__["default"] = (Object(_msdyn365_commerce_core__WEBPACK_IMPORTED_MODULE_4__["createObservableDataAction"])({id:'@msdyn365-commerce-modules/retail-actions/get-simple-products',action:getSimpleProductsAction,input:createSimpleProductsInput,isBatched:true}));
+
+/***/ }),
+
 /***/ "./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-store-location-information.js":
 /*!***********************************************************************************************************!*\
   !*** ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-store-location-information.js ***!
@@ -8915,7 +8951,7 @@ return[];}const searchArea={Latitude:input.Latitude,Longitude:input.Longitude,Ra
   !*** ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-wishlist-by-customer-id.js ***!
   \********************************************************************************************************/
 /*! exports provided: default */
-/*! ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: ./lib/module-registration.js (referenced with cjs require), ./lib/module-registration.local.js (referenced with cjs require) */
+/*! ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: ./lib/module-registration.js (referenced with cjs require) */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8932,12 +8968,12 @@ const createWishlistInput=inputData=>{if(inputData.requestContext&&inputData.req
 
 /***/ "./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/index.js":
 /*!***********************************************************************************************!*\
-  !*** ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/index.js + 38 modules ***!
+  !*** ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/index.js + 37 modules ***!
   \***********************************************************************************************/
 /*! exports provided: getCategoryUrl, getCategorySlug, getProductUrlSync, getProductPageUrlSync, parameterize, OrderTemplateLine, OrderTemplate, getOrderTemplates, GetOrderTemplatesInput, createGetOrderTemplatesInput, AddOrganizationUserInput, addOrganizationUser, addAddress, AddressInput, AddressManagementInput, buildCacheKey, buildCacheKeyWithUrlTokens, buildCartLine, buildQueryResultSettings, buildWishlistLine, CategoriesInput, checkout, CheckOutInput, createGetFeatureStateInput, createRefinersByCategoryInput, createRefinersByTextInput, CurrentCategoryInput, deleteAddress, deleteOrganizationUser, DeleteOrganizationUserInput, editOrganizationUser, EditOrganizationUserInput, FullProductInput, FullProductsRefineSearchByCategoryInput, FullProductsRefineSearchByTextInput, generateImageUrl, generateProductImageUrl, GenericInput, getAddress, getAttributeDefinitions, GetAttributeDefinitionsInput, getCategories, getCategoriesHierarchy, getCheckoutCart, GetCheckoutCartInput, getCurrentCategory, getCurrentCategoryHierarchy, getCustomer, GetCustomerInput, getCustomerBalance, GetCustomerBalanceInput, getCustomerLoyaltyCards, getDeliveryOptionsForSelectedVariant, GetDeliveryOptionsForSelectedVariantInput, getDeliveryOptionsForCartLineItems, getDimensionsForSelectedVariant, GetDimensionsForSelectedVariantInput, getFeatureState, getFullAvailableInventoryNearby, GetFullAvailableInventoryNearbyInput, getOrganizationUsersCount, getOrgUnitLocationsByArea, GetOrgUnitLocationsByAreaInput, getFullProducts, getFullProductByRefineSearchCategory, getFullProductByRefineSearchText, getGenericAction, getList, getLoyalty, GetLoyaltyCardInput, getLoyaltyTransactionEstimation, GetLoyaltyTransactionEstimationInput, getMediaLocationsForSelectedVariant, MediaLocationsByIdInput, getMediaLocationsById, getOrderHistory, getOrganizationUsers, OrganizationUsersInput, getOrgUnitConfiguration, getPriceForSelectedVariant, getProductsByCategory, getProductAvailabilitiesForSelectedVariant, getProductDetailsCriteriaFromActionInput, GetRatingsSummaryInput, getRatingsSummary, getRefinersByCategory, getRefinersByText, getRelatedProducts, GetRelatedProductsInput, getRnrAuthEndpointId, getRnrEndpointId, getRnrPartnerId, getSearchConfiguration, getSelectedProductIdFromActionInput, getSelectedVariant, getSimpleProducts, getCategoryPaths, getFallbackImageUrl, issueLoyalty, IssueLoyaltyInput, ListInput, MediaLocationsForSelectedVariantInput, PriceForSelectedVariantInput, ProductAvailabilitiesForSelectedVariantInput, ProductDeliveryOptionsForCartLineItems, ProductDetailsCriteria, ProductInput, RefinersByCategoryInput, RefinersByTextInput, refineSearchByCategory, RefineSearchByCriteriaInput, searchByText, SearchConfigurationInput, SelectedVariantInput, updateAddress, updatePrimaryAddress, wrapInResolvedAsyncResult, wrapInRejectedAsyncResult, getActiveCartProductsAction, ActiveCartProductsInput, getActiveWishlistItems, ActiveWishlistInput, getAvailabilitiesForCartLineItems, ProductAvailabilitiesForCartLineItems, updateCustomerPersonalization, updateCustomerPersonalizationInput, mapProductInventoryInformation, CreateOrderTemplateInput, createOrderTemplate, updateCustomerAttributes, updateCustomerAttributesInput, UpdateOrderTemplateHeaderInput, updateOrderTemplateHeader, AddOrderTemplateToCartInput, addOrderTemplateToCartAction, AddItemToOrderTemplateInput, addItemToOrderTemplate, GetFullOrderTemplateInput, getFullOrderTemplate, GetFullOrderTemplatesInput, getFullOrderTemplates, UpdateOrderTemplateInput, updateOrderTemplateAction, GetPaginatedOrderTemplateLinesInput, getPaginatedOrderTemplateLinesAction, GetOrderTemplatesPreviewInput, getOrderTemplatesPreview, QueryResultSettingsProxy */
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-address.js (<- Module is referenced from these modules with unsupported syntax: ./lib/module-registration.js (referenced with cjs require)) */
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-attribute-definitions.js (<- Module is referenced from these modules with unsupported syntax: ./lib/module-registration.js (referenced with cjs require)) */
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-availabilities-cartlines.js (<- Module is referenced from these modules with unsupported syntax: ./lib/module-registration.js (referenced with cjs require), ./lib/module-registration.local.js (referenced with cjs require)) */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-availabilities-cartlines.js (<- Module is referenced from these modules with unsupported syntax: ./lib/module-registration.js (referenced with cjs require)) */
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-categories-hierarchy.js (<- Module is referenced from these modules with unsupported syntax: ./lib/module-registration.js (referenced with cjs require), ./lib/module-registration.local.js (referenced with cjs require)) */
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-categories.js because of ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-categories-hierarchy.js */
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-category-paths.js (<- Module is referenced from these modules with unsupported syntax: ./lib/module-registration.js (referenced with cjs require)) */
@@ -8945,12 +8981,12 @@ const createWishlistInput=inputData=>{if(inputData.requestContext&&inputData.req
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-current-category.js (<- Module is referenced from these modules with unsupported syntax: ./lib/module-registration.js (referenced with cjs require), ./lib/module-registration.local.js (referenced with cjs require)) */
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-customer-balance.js (<- Module is referenced from these modules with unsupported syntax: ./lib/module-registration.js (referenced with cjs require)) */
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-customer.js (<- Module is referenced from these modules with unsupported syntax: ./lib/module-registration.js (referenced with cjs require), ./lib/module-registration.local.js (referenced with cjs require)) */
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-delivery-options-for-cartlines.js (<- Module is referenced from these modules with unsupported syntax: ./lib/module-registration.js (referenced with cjs require), ./lib/module-registration.local.js (referenced with cjs require)) */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-delivery-options-for-cartlines.js (<- Module is referenced from these modules with unsupported syntax: ./lib/module-registration.js (referenced with cjs require)) */
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-delivery-options-for-selected-variant.js (<- Module is referenced from these modules with unsupported syntax: ./lib/module-registration.js (referenced with cjs require)) */
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-dimensions-for-selected-variant.js (<- Module is referenced from these modules with unsupported syntax: ./lib/module-registration.js (referenced with cjs require)) */
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-feature-state.js (<- Module is referenced from these modules with unsupported syntax: ./lib/module-registration.js (referenced with cjs require), ./lib/module-registration.local.js (referenced with cjs require)) */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-feature-state.js (<- Module is referenced from these modules with unsupported syntax: ./lib/module-registration.js (referenced with cjs require)) */
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-full-available-inventory-nearby.js (<- Module is referenced from these modules with unsupported syntax: ./lib/module-registration.js (referenced with cjs require)) */
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-items-in-wishlist.js (<- Module is referenced from these modules with unsupported syntax: ./lib/module-registration.js (referenced with cjs require), ./lib/module-registration.local.js (referenced with cjs require)) */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-items-in-wishlist.js (<- Module is referenced from these modules with unsupported syntax: ./lib/module-registration.js (referenced with cjs require)) */
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-loyalty-card.js (<- Module is referenced from these modules with unsupported syntax: ./lib/module-registration.js (referenced with cjs require)) */
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-loyalty-transaction-estimation.js (<- Module is referenced from these modules with unsupported syntax: ./lib/module-registration.js (referenced with cjs require)) */
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-media-locations-by-id.js (<- Module is referenced from these modules with unsupported syntax: ./lib/module-registration.js (referenced with cjs require)) */
@@ -8958,12 +8994,13 @@ const createWishlistInput=inputData=>{if(inputData.requestContext&&inputData.req
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-organization-users.js (<- Module is referenced from these modules with unsupported syntax: ./lib/module-registration.js (referenced with cjs require)) */
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-price-for-selected-variant.js (<- Module is referenced from these modules with unsupported syntax: ./lib/module-registration.js (referenced with cjs require)) */
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-product-availabilities-for-selected-variant.js (<- Module is referenced from these modules with unsupported syntax: ./lib/module-registration.js (referenced with cjs require)) */
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-products-in-active-cart.js (<- Module is referenced from these modules with unsupported syntax: ./lib/module-registration.js (referenced with cjs require), ./lib/module-registration.local.js (referenced with cjs require)) */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-products-in-active-cart.js (<- Module is referenced from these modules with unsupported syntax: ./lib/module-registration.js (referenced with cjs require)) */
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-ratings-summary.js (<- Module is referenced from these modules with unsupported syntax: ./lib/module-registration.js (referenced with cjs require)) */
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-selected-variant.js (<- Module is referenced from these modules with unsupported syntax: ./lib/module-registration.js (referenced with cjs require), ./lib/module-registration.local.js (referenced with cjs require)) */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-simple-products.js (<- Module is referenced from these modules with unsupported syntax: ./lib/module-registration.local.js (referenced with cjs require)) */
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-store-location-information.js (<- Module is referenced from these modules with unsupported syntax: ./lib/module-registration.js (referenced with cjs require)) */
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/order-templates/get-full-order-templates.js because of ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/order-templates/get-order-templates-preview.js */
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/order-templates/get-order-templates-preview.js (<- Module is referenced from these modules with unsupported syntax: ./lib/module-registration.js (referenced with cjs require), ./lib/module-registration.local.js (referenced with cjs require)) */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/order-templates/get-order-templates-preview.js (<- Module is referenced from these modules with unsupported syntax: ./lib/module-registration.js (referenced with cjs require)) */
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/order-templates/get-order-templates.js (<- Module is referenced from these modules with unsupported syntax: ./lib/module-registration.js (referenced with cjs require)) */
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/utilities/QueryResultSettingsProxy.js because of ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/order-templates/get-order-templates-preview.js */
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/utilities/Url-builder/index.js because of ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-categories-hierarchy.js */
@@ -9089,7 +9126,7 @@ __webpack_require__.d(__webpack_exports__, "getRnrPartnerId", function() { retur
 __webpack_require__.d(__webpack_exports__, "getSearchConfiguration", function() { return /* reexport */ get_search_configuration; });
 __webpack_require__.d(__webpack_exports__, "getSelectedProductIdFromActionInput", function() { return /* reexport */ utils["getSelectedProductIdFromActionInput"]; });
 __webpack_require__.d(__webpack_exports__, "getSelectedVariant", function() { return /* reexport */ get_selected_variant["default"]; });
-__webpack_require__.d(__webpack_exports__, "getSimpleProducts", function() { return /* reexport */ get_simple_products; });
+__webpack_require__.d(__webpack_exports__, "getSimpleProducts", function() { return /* reexport */ get_simple_products["default"]; });
 __webpack_require__.d(__webpack_exports__, "getCategoryPaths", function() { return /* reexport */ get_category_paths["default"]; });
 __webpack_require__.d(__webpack_exports__, "getFallbackImageUrl", function() { return /* reexport */ utils["getFallbackImageUrl"]; });
 __webpack_require__.d(__webpack_exports__, "issueLoyalty", function() { return /* reexport */ issue_loyalty; });
@@ -9100,7 +9137,7 @@ __webpack_require__.d(__webpack_exports__, "PriceForSelectedVariantInput", funct
 __webpack_require__.d(__webpack_exports__, "ProductAvailabilitiesForSelectedVariantInput", function() { return /* reexport */ get_product_availabilities_for_selected_variant["ProductAvailabilitiesForSelectedVariantInput"]; });
 __webpack_require__.d(__webpack_exports__, "ProductDeliveryOptionsForCartLineItems", function() { return /* reexport */ get_delivery_options_for_cartlines["ProductDeliveryOptionsForCartLineItems"]; });
 __webpack_require__.d(__webpack_exports__, "ProductDetailsCriteria", function() { return /* reexport */ ProductDetailsCriteria; });
-__webpack_require__.d(__webpack_exports__, "ProductInput", function() { return /* reexport */ get_simple_products_ProductInput; });
+__webpack_require__.d(__webpack_exports__, "ProductInput", function() { return /* reexport */ get_simple_products["ProductInput"]; });
 __webpack_require__.d(__webpack_exports__, "RefinersByCategoryInput", function() { return /* reexport */ RefinersByCategoryInput; });
 __webpack_require__.d(__webpack_exports__, "RefinersByTextInput", function() { return /* reexport */ get_refiners_by_text_RefinersByTextInput; });
 __webpack_require__.d(__webpack_exports__, "refineSearchByCategory", function() { return /* reexport */ refine_search_by_category; });
@@ -9345,24 +9382,9 @@ var web_dom_collections_for_each = __webpack_require__("./node_modules/@msdyn365
 // EXTERNAL MODULE: ./node_modules/@msdyn365-commerce/retail-proxy/dist/DataActions/ProductsDataActions.g.js
 var ProductsDataActions_g = __webpack_require__("./node_modules/@msdyn365-commerce/retail-proxy/dist/DataActions/ProductsDataActions.g.js");
 
-// EXTERNAL MODULE: ./node_modules/@msdyn365-commerce/bootloader/node_modules/core-js/modules/es.array.reduce.js
-var es_array_reduce = __webpack_require__("./node_modules/@msdyn365-commerce/bootloader/node_modules/core-js/modules/es.array.reduce.js");
+// EXTERNAL MODULE: ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-simple-products.js
+var get_simple_products = __webpack_require__("./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-simple-products.js");
 
-// EXTERNAL MODULE: ./node_modules/@msdyn365-commerce/bootloader/node_modules/core-js/modules/es.regexp.to-string.js
-var es_regexp_to_string = __webpack_require__("./node_modules/@msdyn365-commerce/bootloader/node_modules/core-js/modules/es.regexp.to-string.js");
-
-// EXTERNAL MODULE: ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/utilities/QueryResultSettingsProxy.js
-var QueryResultSettingsProxy = __webpack_require__("./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/utilities/QueryResultSettingsProxy.js");
-
-// CONCATENATED MODULE: ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-simple-products.js
-/**
- * Product Input
- */class get_simple_products_ProductInput{constructor(productId,apiSettings,channelId){this.getCacheKey=()=>Object(utils["buildCacheKey"])("RecordId-".concat(this.productId.toString(),"-ChannelId-").concat(this.channelId.toString()),this.apiSettings);this.getCacheObjectType=()=>'SimpleProduct';this.dataCacheType=()=>'application';this.apiSettings=apiSettings;this.productId=+productId;this.channelId=channelId||apiSettings.channelId;}}/**
- * Creates the input required to make the retail api call
- */const createSimpleProductsInput=inputData=>{let productIds=inputData.config&&inputData.config.productIds;if(!productIds){return[];}productIds=typeof productIds==='string'?productIds.split(','):productIds;return!Array.isArray(productIds)?[]:productIds.map(productId=>{return new get_simple_products_ProductInput(productId,inputData.requestContext.apiSettings);});};/**
- * Calls the Retail API and returns the product based on the passed ProductInput
- */async function getSimpleProductsAction(inputs,ctx){if(!Array.isArray(inputs)||inputs.length===0){ctx.trace('[getSimpleProductsAction] Invalid or empty inputs passed.');return[];}const productIdMapping={};const productIds=inputs.map((input,idx)=>{productIdMapping[input.productId]=idx;return input.productId;});return Object(ProductsDataActions_g["getByIdsAsync"])({callerContext:ctx,queryResultSettings:QueryResultSettingsProxy["QueryResultSettingsProxy"].getDefault().QueryResultSettings},inputs[0].channelId,productIds).then(products=>{const mappedProducts=products.map(product=>{try{const newImageUrl=Object(utils["generateProductImageUrl"])(product,ctx.requestContext.apiSettings);if(newImageUrl){product.PrimaryImageUrl=newImageUrl;}return product;}catch(e){ctx.trace('[getSimpleProductsAction] Unable to update ImageURL for Product');}}).reduce((memo,product)=>{if(!product){return memo;}const idx=productIdMapping[product.RecordId];memo[idx]=product;return memo;},[]);// NOTE: <ZAFINE> This is not an ideal fix, but will resolve all current issues
-return inputs.map(input=>{const foundProduct=mappedProducts.find(product=>product&&product.RecordId===input.productId);return foundProduct||{};});});}/* harmony default export */ var get_simple_products = (Object(lib["createObservableDataAction"])({id:'@msdyn365-commerce-modules/retail-actions/get-simple-products',action:getSimpleProductsAction,input:createSimpleProductsInput,isBatched:true}));
 // EXTERNAL MODULE: ./node_modules/semver/semver.js
 var semver = __webpack_require__("./node_modules/semver/semver.js");
 
@@ -9375,11 +9397,14 @@ var semver = __webpack_require__("./node_modules/semver/semver.js");
  * Creates the input required to make the retail api call
  */const get_full_products_createInput=inputData=>{let productIds=inputData.config&&inputData.config.productIds;const productDetailsCriteria=Object(utils["getProductDetailsCriteriaFromActionInput"])(inputData);if(typeof productIds==='string'){productIds=productIds.split(',');}if(Array.isArray(productIds)&&productIds.length){return productIds.map(productId=>{return new get_full_products_FullProductInput(+productId,inputData.requestContext.apiSettings,productDetailsCriteria);});}return[];};/**
  * Calls the Retail API and returns the product based on the passed ProductInput
- */async function getFullProductsAction(inputs,ctx){if(!Array.isArray(inputs)||!inputs.length){ctx.trace('[getFullProductsAction] Invalid or empty inputs passed.');return{};}const{apiSettings}=ctx.requestContext;const productInputs=inputs.map(input=>{return new get_simple_products_ProductInput(input.productId,apiSettings);});return get_simple_products(productInputs,ctx).then(result=>{return result.map(product=>{return{ProductDetails:product};});}).then(productCollection=>{const validProductIds=new Set(productCollection.map(input=>input.ProductDetails&&input.ProductDetails.RecordId));const ratingsAndPricePromises=[_getActivePrices(inputs,validProductIds,productCollection,ctx),_getProductRatings(inputs,validProductIds,productCollection,ctx)];return Promise.all(ratingsAndPricePromises).then(()=>{return productCollection;});}).catch(e=>{ctx.telemetry.exception(e);ctx.telemetry.debug("Unable to get Simple products");return[];});}async function _getActivePrices(inputs,validProductIds,productCollection,ctx){const projectDomain={ChannelId:+ctx.requestContext.apiSettings.channelId,CatalogId:0};const validInputs=inputs.map(input=>{if(input.ProductDetailsCriteria.getPrice&&validProductIds.has(input.productId)){return input.productId;}}).filter(Boolean);return Object(ProductsDataActions_g["getActivePricesAsync"])({callerContext:ctx,queryResultSettings:{}},projectDomain,validInputs,new Date(),null,[],true// @ts-ignore
+ */async function getFullProductsAction(inputs,ctx){if(!Array.isArray(inputs)||!inputs.length){ctx.trace('[getFullProductsAction] Invalid or empty inputs passed.');return{};}const{apiSettings}=ctx.requestContext;const productInputs=inputs.map(input=>{return new get_simple_products["ProductInput"](input.productId,apiSettings);});return Object(get_simple_products["default"])(productInputs,ctx).then(result=>{return result.map(product=>{return{ProductDetails:product};});}).then(productCollection=>{const validProductIds=new Set(productCollection.map(input=>input.ProductDetails&&input.ProductDetails.RecordId));const ratingsAndPricePromises=[_getActivePrices(inputs,validProductIds,productCollection,ctx),_getProductRatings(inputs,validProductIds,productCollection,ctx)];return Promise.all(ratingsAndPricePromises).then(()=>{return productCollection;});}).catch(e=>{ctx.telemetry.exception(e);ctx.telemetry.debug("Unable to get Simple products");return[];});}async function _getActivePrices(inputs,validProductIds,productCollection,ctx){const projectDomain={ChannelId:+ctx.requestContext.apiSettings.channelId,CatalogId:0};const validInputs=inputs.map(input=>{if(input.ProductDetailsCriteria.getPrice&&validProductIds.has(input.productId)){return input.productId;}}).filter(Boolean);return Object(ProductsDataActions_g["getActivePricesAsync"])({callerContext:ctx,queryResultSettings:{}},projectDomain,validInputs,new Date(),null,[],true// @ts-ignore
 ).then(result=>{// @ts-ignore
 result.forEach(productPrice=>{const fullProduct=productCollection.find(x=>{return x.ProductDetails&&x.ProductDetails.RecordId===productPrice.ProductId;});if(fullProduct){// If RS Verison < 9.16.0 (aka 10.0.6), customer contextual price won't be
 // included so instead just use AdjustedPrice
 if(semver["lt"](ctx.requestContext.apiSettings.retailServerProxyVersion,'9.16.0')){productPrice.CustomerContextualPrice=productPrice.AdjustedPrice;}fullProduct.ProductPrice=productPrice;}});}).catch(error=>{const telemetry=ctx.telemetry;telemetry.debug('[getActivePricesAsync] Unable to get active price.');telemetry.exception(error);});}async function _getProductRatings(inputs,validProductIds,productCollection,ctx){const validInputs=inputs.map(input=>{if(input.ProductDetailsCriteria.getRating&&validProductIds.has(input.productId)){return input.productId;}}).filter(Boolean);return Object(ProductsDataActions_g["getProductRatingsAsync"])({callerContext:ctx,queryResultSettings:{}},validInputs).then(result=>{result.forEach(productRating=>{const fullProduct=productCollection.find(x=>{return x.ProductDetails&&x.ProductDetails.RecordId===productRating.ProductId;});if(fullProduct){fullProduct.ProductRating=productRating;}});}).catch(err=>{const telemetry=ctx.telemetry;telemetry.debug("[getProductRatingsAsync] Unable to get product ratings.");telemetry.exception(err);});}/* harmony default export */ var get_full_products = (Object(lib["createObservableDataAction"])({id:'@msdyn365-commerce-modules/retail-actions/get-full-products',action:getFullProductsAction,input:get_full_products_createInput,isBatched:true}));
+// EXTERNAL MODULE: ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/utilities/QueryResultSettingsProxy.js
+var QueryResultSettingsProxy = __webpack_require__("./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/utilities/QueryResultSettingsProxy.js");
+
 // CONCATENATED MODULE: ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/get-full-products-by-refine-search-category.js
 /**
  * Refine search for full products input
@@ -9423,7 +9448,7 @@ var es_symbol_description = __webpack_require__("./node_modules/@msdyn365-commer
  * Calls to getSimpleProducts to get product array by ID's in list.
  */async function getListData(input,ctx){ctx.trace("List Title: ".concat(input.Title));// @ts-ignore
 const{apiSettings}=ctx.requestContext;const sublists=[];const result={Title:input.Title,Description:input.Description,ShortDescription:input.ShortDescription,BackgroundColor:input.BackgroundColor,ForegroundColor:input.ForegroundColor,Items:sublists,ItemsCount:input.ItemsCount};if(input&&input.Items&&input.Items.length){// get all products
-let products=[];if(input.ProductItems&&input.ProductItems.length){const inputArray=input.ProductItems.map(item=>new get_simple_products_ProductInput(+item.RecordId,apiSettings));products=await get_simple_products(inputArray,ctx);}// build map from recordId to product, which will be used later when build the output.
+let products=[];if(input.ProductItems&&input.ProductItems.length){const inputArray=input.ProductItems.map(item=>new get_simple_products["ProductInput"](+item.RecordId,apiSettings));products=await Object(get_simple_products["default"])(inputArray,ctx);}// build map from recordId to product, which will be used later when build the output.
 const productMap={};products.forEach(item=>{if(item){productMap["".concat(item.RecordId)]=item;}});for(const listitem of input.Items){if(isSublist(listitem)){result.Items.push(listitem);}else{listitem.forEach(item=>{if(productMap[item.RecordId]){result.Items.push(productMap[item.RecordId]);}});}}}return result;}/**
  * Check if an item is sublist.
  */function isSublist(listItem){return listItem.Images!==undefined;}/**
@@ -9505,7 +9530,7 @@ var get_product_availabilities_for_selected_variant = __webpack_require__("./nod
  * createInput method for the getProductsByCategory data aciton
  */const createGetProductsByCategoryInput=inputData=>{if(inputData&&inputData.requestContext){const currentCategory=new get_current_category["CurrentCategoryInput"](inputData.requestContext);const queryResultSettingsProxy=QueryResultSettingsProxy["QueryResultSettingsProxy"].fromInputData(inputData);return new get_products_by_category_ProductsByCategoryInput(currentCategory,inputData.requestContext.apiSettings,queryResultSettingsProxy);}throw new Error('Please specify categoryId query string in request.');};/**
  * Action method for the getProductsByCategory data action
- */async function getProductsByCategoryAction(input,ctx){const{apiSettings}=ctx.requestContext;let categoryId=input.currentCategory.categoryId;if(input.currentCategory.categorySlug&&!categoryId){const category=await Object(get_current_category["default"])(input.currentCategory,ctx);if(!category){ctx.trace('[getProductsByCategoryAction] Unable to find category');return[];}categoryId=category.RecordId;}const productInputs=await Object(ProductsDataActions_g["searchByCategoryAsync"])({callerContext:ctx,queryResultSettings:input.queryResultSettingsProxy.QueryResultSettings},+apiSettings.channelId,input.catalogId,categoryId||0).then(productSearchResults=>{return productSearchResults.map(product=>{return new get_simple_products_ProductInput(product.RecordId,apiSettings);});});if(productInputs.length>0){return await get_simple_products(productInputs,ctx);}else{return[];}}/**
+ */async function getProductsByCategoryAction(input,ctx){const{apiSettings}=ctx.requestContext;let categoryId=input.currentCategory.categoryId;if(input.currentCategory.categorySlug&&!categoryId){const category=await Object(get_current_category["default"])(input.currentCategory,ctx);if(!category){ctx.trace('[getProductsByCategoryAction] Unable to find category');return[];}categoryId=category.RecordId;}const productInputs=await Object(ProductsDataActions_g["searchByCategoryAsync"])({callerContext:ctx,queryResultSettings:input.queryResultSettingsProxy.QueryResultSettings},+apiSettings.channelId,input.catalogId,categoryId||0).then(productSearchResults=>{return productSearchResults.map(product=>{return new get_simple_products["ProductInput"](product.RecordId,apiSettings);});});if(productInputs.length>0){return await Object(get_simple_products["default"])(productInputs,ctx);}else{return[];}}/**
  * The getProductsByCategory data action
  * Retrieves the current category of the request via the getCurrentCategory data action
  * Then calls the searchByCategory RetailServer API to get a list of products associated with
@@ -9606,6 +9631,9 @@ var ProductListsDataActions_g = __webpack_require__("./node_modules/@msdyn365-co
  * The AddItemToOrderTemplate Data Action.
  * Returns product list line that was added to the order template.
  *//* harmony default export */ var add_item_to_order_template = (Object(lib["createObservableDataAction"])({id:'@msdyn365-commerce-modules/retail-actions/order-templates/add-item-to-order-template',action:addItemToOrderTemplateAction,input:addItemToOrderTemplateInput}));
+// EXTERNAL MODULE: ./node_modules/@msdyn365-commerce/bootloader/node_modules/core-js/modules/es.regexp.to-string.js
+var es_regexp_to_string = __webpack_require__("./node_modules/@msdyn365-commerce/bootloader/node_modules/core-js/modules/es.regexp.to-string.js");
+
 // EXTERNAL MODULE: ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/utilities/order-templates.js
 var order_templates = __webpack_require__("./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/utilities/order-templates.js");
 
@@ -9822,7 +9850,7 @@ __webpack_require__.r(__webpack_exports__);
   !*** ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/order-templates/get-order-templates-preview.js ***!
   \************************************************************************************************************************/
 /*! exports provided: GetOrderTemplatesPreviewInput, createGetOrderTemplatesPreviewInput, getOrderTemplatesPreview, default */
-/*! ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: ./lib/module-registration.js (referenced with cjs require), ./lib/module-registration.local.js (referenced with cjs require) */
+/*! ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: ./lib/module-registration.js (referenced with cjs require) */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -9891,7 +9919,7 @@ __webpack_require__.r(__webpack_exports__);
   !*** ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/search-org-unit-locations.js ***!
   \******************************************************************************************************/
 /*! exports provided: createSearchOrgUnitLocationsInputFunc, default */
-/*! ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: ./lib/module-registration.js (referenced with cjs require), ./lib/module-registration.local.js (referenced with cjs require) */
+/*! ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: ./lib/module-registration.js (referenced with cjs require) */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -10404,7 +10432,7 @@ var es_object_assign = __webpack_require__("./node_modules/@msdyn365-commerce/bo
 // EXTERNAL MODULE: ./node_modules/@msdyn365-commerce/bootloader/node_modules/core-js/modules/es.regexp.to-string.js
 var es_regexp_to_string = __webpack_require__("./node_modules/@msdyn365-commerce/bootloader/node_modules/core-js/modules/es.regexp.to-string.js");
 
-// EXTERNAL MODULE: ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/index.js + 38 modules
+// EXTERNAL MODULE: ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/index.js + 37 modules
 var retail_actions_dist_lib = __webpack_require__("./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/index.js");
 
 // CONCATENATED MODULE: ./node_modules/@msdyn365-commerce-modules/search-result-container/dist/lib/modules/search-result-container/components/feature-search-result-item.js
@@ -10585,7 +10613,7 @@ var external_React_ = __webpack_require__("react");
 // EXTERNAL MODULE: ./node_modules/@msdyn365-commerce/bootloader/node_modules/core-js/modules/web.dom-collections.iterator.js
 var web_dom_collections_iterator = __webpack_require__("./node_modules/@msdyn365-commerce/bootloader/node_modules/core-js/modules/web.dom-collections.iterator.js");
 
-// EXTERNAL MODULE: ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/index.js + 38 modules
+// EXTERNAL MODULE: ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/index.js + 37 modules
 var retail_actions_dist_lib = __webpack_require__("./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/index.js");
 
 // EXTERNAL MODULE: ./node_modules/@msdyn365-commerce/retail-proxy/dist/DataActions/StoreOperationsDataActions.g.js
@@ -10900,7 +10928,7 @@ class store_selector_search_form_StoreSelectorSearchForm extends external_React_
 const StoreSelectorEmptyMessage=(_ref)=>{let{resources}=_ref;return/*#__PURE__*/external_React_["createElement"]("div",{className:'ms-store-select__no-locations'},/*#__PURE__*/external_React_["createElement"]("p",null,resources.emptyLocationsText));};const StoreSelectorWaiting=()=>/*#__PURE__*/external_React_["createElement"]("div",{className:classnames_default()('msc-waiting','ms-store-select__search-in-progress')});const StoreSelectorTermsOfService=(_ref2)=>{let{link,requestContext,onTextChange}=_ref2;if(link){const editableLink={ariaLabel:link.ariaLabel,className:'ms-store-select__terms-link',linkText:link.linkText,linkUrl:link.linkUrl.destinationUrl,openInNewTab:link.openInNewTab,role:'button'};return/*#__PURE__*/external_React_["createElement"]("div",{className:'ms-store-select__footer'},/*#__PURE__*/external_React_["createElement"](lib["Link"],{link:editableLink,editProps:{onTextChange:onTextChange,requestContext:requestContext}}));}return null;};const StoreSelectorFoundLocationsMessage=(_ref3)=>{let{locations,searchRadius,resources,isSeeAllStore,preferredDistanceUnit}=_ref3;if(locations){const storeCountMessage=preferredDistanceUnit===resources.milesShortText?resources.storeCountMessage:resources.storeCountMessageInKm;return/*#__PURE__*/external_React_["createElement"]("div",{className:'ms-store-select__found-locations'},isSeeAllStore?resources.storeAllCountMessage.replace('{count}',locations.length.toString()):storeCountMessage.replace('{count}',locations.length.toString()).replace('{radius}',searchRadius.toString()));}return null;};
 // CONCATENATED MODULE: ./node_modules/@msdyn365-commerce-modules/store-selector/dist/lib/modules/store-selector/components/index.js
 
-// EXTERNAL MODULE: ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/index.js + 38 modules
+// EXTERNAL MODULE: ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/index.js + 37 modules
 var retail_actions_dist_lib = __webpack_require__("./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/index.js");
 
 // CONCATENATED MODULE: ./node_modules/@msdyn365-commerce-modules/store-selector/dist/lib/modules/store-selector/store-selector.js
@@ -11809,7 +11837,7 @@ var defineProperty = __webpack_require__("./node_modules/@babel/runtime/helpers/
 // EXTERNAL MODULE: ./node_modules/tslib/tslib.es6.js
 var tslib_es6 = __webpack_require__("./node_modules/tslib/tslib.es6.js");
 
-// EXTERNAL MODULE: ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/index.js + 38 modules
+// EXTERNAL MODULE: ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/index.js + 37 modules
 var lib = __webpack_require__("./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/index.js");
 
 // EXTERNAL MODULE: ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/index.js
@@ -11943,996 +11971,6 @@ webpackContext.keys = function webpackContextKeys() {
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
 webpackContext.id = "./node_modules/webpack/hot sync ^\\.\\/log$";
-
-/***/ }),
-
-/***/ "./src/modules/cart/cart.tsx":
-/*!***********************************************!*\
-  !*** ./src/modules/cart/cart.tsx + 2 modules ***!
-  \***********************************************/
-/*! exports provided: default */
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@msdyn365-commerce-modules/order-summary-utilities/dist/lib/index.js because of ./node_modules/@msdyn365-commerce-modules/cart/dist/lib/modules/cart/cart.js */
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/index.js (<- Module is referenced from these modules with unsupported syntax: ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/popup/Popup.js (referenced with cjs require)) */
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/index.js (<- Module is not an ECMAScript module) */
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@msdyn365-commerce/components/dist/lib/index.js */
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@msdyn365-commerce/core/dist/lib/index.js (<- Module is referenced from these modules with unsupported syntax: ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/back-to-top/BackToTop.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/common/telemetryHelper.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/drawer/ControlledDrawer.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/popup/Popup.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/slider/Slider.js (referenced with cjs require)) */
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@babel/runtime/helpers/esm/defineProperty.js */
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/classnames/index.js (<- Module is not an ECMAScript module) */
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/mobx-react/index.module.js */
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/tslib/tslib.es6.js (<- Module is referenced from these modules with unsupported syntax: ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/alert/Alert.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/back-to-top/BackToTop.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/button/Button.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/collapse/Collapse.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/drawer/ControlledDrawer.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/drawer/Drawer.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/fade/Fade.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/flipper/Flipper.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/heading/Heading.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/index.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/labeled-dropdown/LabeledDropdown.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/modal/Modal.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/modal/ModalBody.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/modal/ModalFooter.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/modal/ModalHeader.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/modal/Portal.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/modal/index.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/pagination/Pagination.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/pagination/PaginationItem.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/pagination/PaginationLink.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/pagination/UncontrolledPagination.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/popover/Popover.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/popover/index.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/popper-content/PopperContent.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/popup-products/Popup-products.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/popup/Popup.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/progress/Progress.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/quantity/Quantity.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/quantity/index.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/single-slide-carousel/SingleSlideCarousel.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/slider/Slider.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/slider/SliderThumb.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/table/Table.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/table/checkbox.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/table/index.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/tooltip/Tooltip.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/tooltip/UncontrolledTooltip.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/waiting/Waiting.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/wrapper/module.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/wrapper/node.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/zoom-image/ImagefullView.js (referenced with cjs require)) */
-/*! ModuleConcatenation bailout: Cannot concat with external "React" (<- Module is not an ECMAScript module) */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-// ESM COMPAT FLAG
-__webpack_require__.r(__webpack_exports__);
-
-// EXTERNAL MODULE: ./node_modules/@msdyn365-commerce/bootloader/node_modules/core-js/modules/es.object.assign.js
-var es_object_assign = __webpack_require__("./node_modules/@msdyn365-commerce/bootloader/node_modules/core-js/modules/es.object.assign.js");
-
-// EXTERNAL MODULE: ./node_modules/@msdyn365-commerce/bootloader/node_modules/core-js/modules/es.regexp.constructor.js
-var es_regexp_constructor = __webpack_require__("./node_modules/@msdyn365-commerce/bootloader/node_modules/core-js/modules/es.regexp.constructor.js");
-
-// EXTERNAL MODULE: ./node_modules/@msdyn365-commerce/bootloader/node_modules/core-js/modules/es.regexp.to-string.js
-var es_regexp_to_string = __webpack_require__("./node_modules/@msdyn365-commerce/bootloader/node_modules/core-js/modules/es.regexp.to-string.js");
-
-// EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/defineProperty.js
-var defineProperty = __webpack_require__("./node_modules/@babel/runtime/helpers/esm/defineProperty.js");
-
-// EXTERNAL MODULE: ./node_modules/tslib/tslib.es6.js
-var tslib_es6 = __webpack_require__("./node_modules/tslib/tslib.es6.js");
-
-// EXTERNAL MODULE: ./node_modules/@msdyn365-commerce-modules/order-summary-utilities/dist/lib/index.js + 1 modules
-var lib = __webpack_require__("./node_modules/@msdyn365-commerce-modules/order-summary-utilities/dist/lib/index.js");
-
-// EXTERNAL MODULE: ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/index.js
-var dist_lib = __webpack_require__("./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/index.js");
-
-// EXTERNAL MODULE: ./node_modules/@msdyn365-commerce/components/dist/lib/index.js + 48 modules
-var components_dist_lib = __webpack_require__("./node_modules/@msdyn365-commerce/components/dist/lib/index.js");
-
-// EXTERNAL MODULE: ./node_modules/@msdyn365-commerce/core/dist/lib/index.js
-var core_dist_lib = __webpack_require__("./node_modules/@msdyn365-commerce/core/dist/lib/index.js");
-
-// EXTERNAL MODULE: ./node_modules/classnames/index.js
-var classnames = __webpack_require__("./node_modules/classnames/index.js");
-var classnames_default = /*#__PURE__*/__webpack_require__.n(classnames);
-
-// EXTERNAL MODULE: ./node_modules/mobx-react/index.module.js
-var index_module = __webpack_require__("./node_modules/mobx-react/index.module.js");
-
-// EXTERNAL MODULE: external "React"
-var external_React_ = __webpack_require__("react");
-var external_React_default = /*#__PURE__*/__webpack_require__.n(external_React_);
-
-// EXTERNAL MODULE: ./node_modules/@msdyn365-commerce/bootloader/node_modules/core-js/modules/es.string.replace.js
-var es_string_replace = __webpack_require__("./node_modules/@msdyn365-commerce/bootloader/node_modules/core-js/modules/es.string.replace.js");
-
-// EXTERNAL MODULE: ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/index.js + 38 modules
-var retail_actions_dist_lib = __webpack_require__("./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/index.js");
-
-// EXTERNAL MODULE: ./node_modules/@msdyn365-commerce/bootloader/node_modules/core-js/modules/es.promise.js
-var es_promise = __webpack_require__("./node_modules/@msdyn365-commerce/bootloader/node_modules/core-js/modules/es.promise.js");
-
-// CONCATENATED MODULE: ./src/modules/cart/components/cart-pick-up-in-store.tsx
-
- // tslint:disable-next-line:max-func-body-length
-
-const PickUpInStore = props => {
-  const _onLocationChangedCallback = (orgUnitLocation, cartState, cartline) => {
-    if (!cartState) {
-      return Promise.resolve();
-    }
-
-    return cartState.updateCartLinePickupLocation({
-      cartLineId: cartline.LineId,
-      location: orgUnitLocation
-    }).then(result => {
-      if (result.status === 'SUCCESS') {// do something
-      }
-    }).catch(error => {
-      return;
-    });
-  };
-
-  const _toggleBOPIS = isBopisSelected => {
-    const {
-      storeSelectorStateManager,
-      product,
-      cartline,
-      cartState
-    } = props;
-
-    if (isBopisSelected) {
-      if (!storeSelectorStateManager) {
-        return;
-      }
-
-      storeSelectorStateManager.openDialog({
-        product,
-        alreadySelectedLocation: {
-          OrgUnitNumber: cartline.FulfillmentStoreId
-        },
-        onLocationSelected: orgUnitLocation => {
-          return _onLocationChangedCallback(orgUnitLocation, cartState, cartline);
-        }
-      }).catch(error => {
-        return;
-      });
-    } else {
-      if (!cartState) {
-        return;
-      }
-
-      cartline.DeliveryMode = '';
-      cartline.FulfillmentStoreId = '';
-      cartline.ShippingAddress = {};
-      cartState.clearCartLinePickupLocation({
-        cartLineId: cartline.LineId
-      }).then(result => {
-        if (result.status === 'SUCCESS') {// do something
-        }
-      }).catch(error => {
-        return;
-      });
-    }
-  };
-
-  const _getOrgUnitName = (fulfillmentStoreId, orgUnitLocations) => {
-    if (!orgUnitLocations || !fulfillmentStoreId || !(orgUnitLocations.length > 0)) {
-      return '';
-    }
-
-    const foundLocation = orgUnitLocations.find(orgUnitLocation => {
-      return orgUnitLocation.OrgUnitNumber === fulfillmentStoreId;
-    });
-
-    if (foundLocation) {
-      return foundLocation.OrgUnitName;
-    } else {
-      return fulfillmentStoreId;
-    }
-  };
-
-  const _renderShippingMethod = (cartLine, shipItText, pickupInStoretext, changeStoreText, orgUnitLocations) => {
-    const orgUnitName = _getOrgUnitName(cartLine.FulfillmentStoreId, orgUnitLocations);
-
-    const bopisSelected = cartLine.FulfillmentStoreId ? true : false;
-
-    const toggleBOPIS = isBopisSelected => {
-      return () => _toggleBOPIS(isBopisSelected);
-    };
-
-    return /*#__PURE__*/external_React_["createElement"](external_React_["Fragment"], null, /*#__PURE__*/external_React_["createElement"]("label", {
-      className: 'msc-cart-line__bopis-shipping'
-    }, /*#__PURE__*/external_React_["createElement"]("input", {
-      id: "ms-cart-bopis-ship-option-".concat(cartLine.LineId),
-      type: 'radio',
-      name: "shippingType ".concat(cartLine.LineId),
-      onChange: toggleBOPIS(false),
-      value: shipItText,
-      checked: !bopisSelected,
-      "aria-checked": !bopisSelected,
-      key: "".concat(cartLine.LineId, "-shipit")
-    }), shipItText), /*#__PURE__*/external_React_["createElement"]("label", {
-      className: 'msc-cart-line__bopis-store-pickup'
-    }, /*#__PURE__*/external_React_["createElement"]("input", {
-      id: "ms-cart-bopis-pickup-option-".concat(cartLine.LineId),
-      type: 'radio',
-      name: "shippingType ".concat(cartLine.LineId),
-      onChange: toggleBOPIS(true),
-      value: pickupInStoretext,
-      checked: bopisSelected,
-      "aria-checked": bopisSelected,
-      key: "".concat(cartLine.LineId, "-pickup")
-    }), pickupInStoretext), cartLine.FulfillmentStoreId ? /*#__PURE__*/external_React_["createElement"]("div", {
-      className: 'msc-cart-line__bopis__fullfilment'
-    }, /*#__PURE__*/external_React_["createElement"]("span", {
-      className: 'msc-cart-line__bopis__fullfilment-store'
-    }, orgUnitName), /*#__PURE__*/external_React_["createElement"]("button", {
-      className: 'msc-cart-line__bopis-changestore btn',
-      onClick: toggleBOPIS(true)
-    }, changeStoreText)) : null);
-  }; // If no delivery options present on the product, or none of the delivery options
-  // match the PickupDeliveryModeCode, that means the item cannot be used for BOPIS
-
-
-  if (!props.deliveryOptions || !props.deliveryOptions.DeliveryOptions || !props.pickupDeliveryModeCode || !props.deliveryOptions.DeliveryOptions.find(option => option.Code === props.pickupDeliveryModeCode)) {
-    return undefined;
-  }
-
-  return {
-    callbacks: {
-      toggleBopis: _toggleBOPIS
-    },
-    defaultComponent: _renderShippingMethod(props.cartline, props.shipitText, props.pickUpInStoreText, props.changeStoreText, props.orgUnitLocations),
-    orgUnitName: _getOrgUnitName(props.cartline.FulfillmentStoreId, props.orgUnitLocations),
-    isBopisSelected: props.cartline.FulfillmentStoreId ? true : false,
-    ContainerProps: {
-      className: 'msc-cart-line__bopis-container'
-    }
-  };
-};
-// CONCATENATED MODULE: ./src/modules/cart/components/cart-line-items.tsx
-
-
-
-
-/*---------------------------------------------------------------------------------------------
- *  Copyright (c) Microsoft Corporation. All rights reserved.
- *  Licensed under the MIT License. See License.txt in the project root for license information.
- *--------------------------------------------------------------------------------------------*/
-
-
-
-
-
-
-
-const _getProduct = (productId, products) => {
-  if (productId !== undefined && products) {
-    return products.find(product => {
-      return productId === product.RecordId;
-    });
-  }
-
-  return undefined;
-};
-
-const _getCartItemMaxQuantity = (maxCartlineQuantity, isStockCheckEnabled, productAvailability) => {
-  if (isStockCheckEnabled) {
-    if (!productAvailability || !productAvailability.ProductAvailableQuantity || !productAvailability.IsProductAvailable || !productAvailability.ProductAvailableQuantity.AvailableQuantity) {
-      return 0;
-    }
-
-    return productAvailability.ProductAvailableQuantity.AvailableQuantity >= maxCartlineQuantity ? maxCartlineQuantity : productAvailability.ProductAvailableQuantity.AvailableQuantity;
-  }
-
-  return maxCartlineQuantity;
-};
-
-const _getErrorMessage = (maxQuantity, currentQuantity, props) => {
-  if (maxQuantity <= 0) {
-    return props.outOfStockText;
-  } else if (maxQuantity < currentQuantity) {
-    if (maxQuantity === 1) {
-      return props.outOfRangeOneText;
-    } else {
-      return props.outOfRangeFormatText.replace('{numLeft}', maxQuantity.toString());
-    }
-  }
-
-  return undefined;
-}; // tslint:disable-next-line:max-func-body-length
-
-
-const _assembleNode = (cartline, product, props, index, foundProductAvailability, foundProductDeliveryOptions) => {
-  var _foundProductAvailabi, _props$cartState;
-
-  const {
-    imageSettings,
-    gridSettings,
-    id,
-    typeName,
-    context,
-    resources,
-    removeButtonText,
-    removeItemClickHandler,
-    moveToWishlistSuccessHandler,
-    addToOrderTemplateButtonText,
-    addToOrderTemplateDialogResources,
-    createOrderTemplateDialogResources,
-    itemAddedToOrderTemplateDialogResources,
-    duplicateItemsWhenAddingToOrderTemplateDialogResources,
-    addToWishlistButtonText,
-    removeFromWishlistButtonText,
-    orderTemplates,
-    customerInformation,
-    wishlists,
-    defaultWishlistName
-  } = props;
-  const isAuthenticated = context.request.user.isAuthenticated;
-  const nameOfWishlist = wishlists && wishlists.length > 0 && wishlists[0].Name ? wishlists[0].Name : defaultWishlistName;
-
-  const maxQuantity = _getCartItemMaxQuantity(props.maxCartlineQuantity, props.isStockCheckEnabled, foundProductAvailability); // check if the product is service or not by product type
-
-
-  const PRODUCTASSERVICE = 2;
-  const isServiceItem = product.ItemTypeValue === PRODUCTASSERVICE;
-  const errorMessage = props.includeErrors && !isServiceItem && props.isStockCheckEnabled ? _getErrorMessage(maxQuantity, cartline.Quantity, props) : undefined;
-
-  const onRemoveClickHandler = event => {
-    removeItemClickHandler(cartline);
-  };
-
-  const payload = Object(dist_lib["getPayloadObject"])(core_dist_lib["TelemetryEvent"].RemoveFromCart, props.telemetryContent, removeButtonText, '');
-  const attributes = Object(dist_lib["getTelemetryAttributes"])(props.telemetryContent, payload);
-  const inventoryLbl = foundProductAvailability === null || foundProductAvailability === void 0 ? void 0 : foundProductAvailability.StockLevelLabel;
-  const inventoryCode = foundProductAvailability ? "ms-cart-line__inventory-code-".concat((_foundProductAvailabi = foundProductAvailability.StockLevelCode) === null || _foundProductAvailabi === void 0 ? void 0 : _foundProductAvailabi.toLowerCase()) : undefined;
-  return {
-    data: {
-      product: product,
-      cartline: cartline
-    },
-    error: errorMessage,
-    cartline: /*#__PURE__*/external_React_["createElement"](components_dist_lib["CartLineItemComponent"], {
-      data: {
-        cartLine: cartline,
-        product: product
-      },
-      currentQuantity: cartline.Quantity,
-      maxQuantity: maxQuantity,
-      isOutOfStock: !isServiceItem && props.isStockCheckEnabled ? maxQuantity <= 0 ? true : false : false,
-      gridSettings: gridSettings,
-      imageSettings: imageSettings,
-      id: id,
-      typeName: typeName,
-      productUrl: Object(retail_actions_dist_lib["getProductUrlSync"])(product, props.context.actionContext, undefined),
-      context: context,
-      resources: resources,
-      key: index,
-      isQuantityEditable: true,
-      quantityOnChange: props.updateCartLinesQuantitySuccessHandler,
-      primaryImageUrl: product.PrimaryImageUrl,
-      errorMessage: errorMessage,
-      inventoryInformationLabel: inventoryLbl,
-      inventoryLabelClassName: inventoryCode,
-      isCartStateReady: ((_props$cartState = props.cartState) === null || _props$cartState === void 0 ? void 0 : _props$cartState.status) === 'READY',
-      showShippingChargesForLineItems: props.showShippingChargesForLineItems,
-      telemetryContent: props.telemetryContent
-    }),
-    pickUpInStore: PickUpInStore({
-      cartState: props.cartState,
-      cartline: cartline,
-      product: product,
-      shipitText: props.shipItText,
-      pickUpInStoreText: props.pickitUpText,
-      changeStoreText: props.changeStoreText,
-      storeSelectorStateManager: props.storeSelectorStateManager,
-      orgUnitLocations: props.orgUnitLocations,
-      deliveryOptions: foundProductDeliveryOptions,
-      pickupDeliveryModeCode: props.pickupDeliveryModeCode
-    }),
-    remove: /*#__PURE__*/external_React_["createElement"](dist_lib["Button"], Object.assign({
-      className: 'msc-cart-line__remove-item',
-      onClick: onRemoveClickHandler,
-      title: removeButtonText
-    }, attributes), removeButtonText),
-    addToWishlist: isAuthenticated ? /*#__PURE__*/external_React_["createElement"](components_dist_lib["AddToWishlistComponent"], {
-      className: 'msc-cart-line__add-to-wishlist',
-      addToWishlistButtonText: addToWishlistButtonText,
-      removeFromWishlistButtonText: removeFromWishlistButtonText,
-      context: context,
-      id: id,
-      key: cartline.LineId,
-      typeName: typeName,
-      nameOfWishlist: nameOfWishlist,
-      cartline: cartline,
-      showButtonText: true,
-      showStatusMessage: false,
-      showRemoveButton: false,
-      showButtonTooltip: false,
-      data: {
-        wishlists: wishlists,
-        product: product
-      },
-      onSuccess: moveToWishlistSuccessHandler
-    }) : undefined,
-    addToOrderTemplate: isAuthenticated && orderTemplates ? /*#__PURE__*/external_React_["createElement"](components_dist_lib["AddToOrderTemplateComponent"], {
-      className: 'msc-cart-line__add-to-order-template',
-      addToOrderTemplateButtonText: addToOrderTemplateButtonText,
-      addToOrderTemplateDialogResources: addToOrderTemplateDialogResources,
-      createOrderTemplateDialogResources: createOrderTemplateDialogResources,
-      itemAddedToOrderTemplateDialogResources: itemAddedToOrderTemplateDialogResources,
-      duplicateItemsWhenAddingToOrderTemplateDialogResources: duplicateItemsWhenAddingToOrderTemplateDialogResources,
-      data: {
-        product: product,
-        quantity: cartline.Quantity || 1,
-        orderTemplates: orderTemplates,
-        customerInformation: customerInformation
-      },
-      context: context,
-      showButtonText: true,
-      showButtonTooltip: false,
-      id: id,
-      typeName: typeName
-    }) : undefined
-  };
-};
-
-const _assembleCartlines = (cartlines, products, props) => {
-  const reactNodes = [];
-
-  if (!products || products.length === 0) {
-    props.context.telemetry.error('Products content is empty, module wont render');
-    return null;
-  }
-
-  cartlines.map((cartline, index) => {
-    const product = _getProduct(cartline.ProductId, products);
-
-    let foundProductAvailability;
-
-    if (props.productAvailabilites && props.productAvailabilites.length > 0) {
-      foundProductAvailability = props.productAvailabilites.find(productAvailability => {
-        var _productAvailability$;
-
-        return ((_productAvailability$ = productAvailability.ProductAvailableQuantity) === null || _productAvailability$ === void 0 ? void 0 : _productAvailability$.ProductId) === cartline.ProductId;
-      });
-    }
-
-    let foundProductDeliveryOption;
-
-    if (props.productDeliveryOptions && props.productDeliveryOptions.length > 0) {
-      foundProductDeliveryOption = props.productDeliveryOptions.find(deliveryOption => {
-        return deliveryOption && deliveryOption.ProductId === cartline.ProductId;
-      });
-    }
-
-    if (product) {
-      reactNodes.push(_assembleNode(cartline, product, props, index, foundProductAvailability, foundProductDeliveryOption));
-    }
-  });
-  return reactNodes;
-};
-/**
- * CartLineItems component
- */
-
-
-const CartLineItems = props => {
-  const {
-    products,
-    cartlines
-  } = props;
-  return _assembleCartlines(cartlines, products, props);
-};
-// CONCATENATED MODULE: ./src/modules/cart/cart.tsx
-
-
-
-
-
-function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
-
-function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { Object(defineProperty["default"])(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
-
-
-/*---------------------------------------------------------------------------------------------
- *  Copyright (c) Microsoft Corporation. All rights reserved.
- *  Licensed under the MIT License. See License.txt in the project root for license information.
- *--------------------------------------------------------------------------------------------*/
-
-
-
-
-
-
-
-
-
-/**
- *
- * Cart component
- * @extends {React.PureComponent<ICartProps<ICartData>>}
- */
-
-let cart_Cart = class Cart extends external_React_default.a.Component {
-  constructor(props) {
-    super(props);
-
-    this._getImageSettings = imageSettings => {
-      return imageSettings || {
-        viewports: {
-          xs: {
-            q: "w=80&h=94&m=6",
-            w: 0,
-            h: 0
-          },
-          sm: {
-            q: "w=148&h=174&m=6",
-            w: 0,
-            h: 0
-          },
-          lg: {
-            q: "w=148&h=174&m=6",
-            w: 0,
-            h: 0
-          }
-        },
-        lazyload: true
-      };
-    };
-
-    this._removeItemFromCartHandler = cartlineToRemove => {
-      if (this.props.data.cart.result) {
-        const input = {
-          cartLineIds: [cartlineToRemove.LineId.toString()]
-        };
-        this.props.data.cart.result.removeCartLines(input).catch(error => {
-          this.props.telemetry.warning(error);
-          this.props.telemetry.debug('Unable to Remove Cart Line');
-        });
-      }
-    };
-
-    this._moveToWishlistSuccessHandler = (result, cartline) => {
-      if (result.status === 'ADDED' && cartline) {
-        this._removeItemFromCartHandler(cartline);
-      }
-    };
-
-    this._updateCartlineQuantity = (cartlineToUpdate, quantity) => {
-      if (this.props.data.cart.result) {
-        const input = {
-          cartLineId: cartlineToUpdate.LineId.toString(),
-          newQuantity: quantity
-        };
-        this.props.data.cart.result.updateCartLineQuantity(input).catch(error => {
-          this.props.telemetry.warning(error);
-          this.props.telemetry.debug('Unable to update Cart Line quantity');
-        });
-      }
-    };
-
-    this.telemetryContent = Object(dist_lib["getTelemetryObject"])(this.props.context.request.telemetryPageName, this.props.friendlyName, this.props.telemetry);
-    this.payLoad = Object(dist_lib["getPayloadObject"])('click', this.telemetryContent, '');
-  }
-
-  render() {
-    const {
-      data: {
-        cart: {
-          result: cart
-        }
-      },
-      context: {
-        request: {
-          user: {
-            isAuthenticated,
-            signInUrl
-          }
-        }
-      },
-      resources
-    } = this.props;
-    const guestCheckoutUrl = Object(core_dist_lib["getUrlSync"])('checkout', this.props.context.actionContext) || '';
-    const backToShoppingUrl = Object(core_dist_lib["getUrlSync"])('home', this.props.context.actionContext) || '';
-
-    const checkoutURL = this._getCheckoutURL(isAuthenticated, guestCheckoutUrl, signInUrl || '');
-
-    const isCartEmpty = cart && cart.cart.CartLines && cart.cart.CartLines.length === 0;
-
-    const cartLines = this._getCartLines();
-
-    this.payLoad.contentAction.etext = dist_lib["TelemetryConstant"].Checkout;
-    const checkoutBySignInAttributes = Object(dist_lib["getTelemetryAttributes"])(this.telemetryContent, this.payLoad);
-    this.payLoad.contentAction.etext = dist_lib["TelemetryConstant"].GuestCheckout;
-    const checkoutByGuestAttributes = Object(dist_lib["getTelemetryAttributes"])(this.telemetryContent, this.payLoad);
-    this.payLoad.contentAction.etext = dist_lib["TelemetryConstant"].BackToShopping;
-    const backtoShoppingAttributes = Object(dist_lib["getTelemetryAttributes"])(this.telemetryContent, this.payLoad);
-    const hasErrors = cartLines ? cartLines.some(cartline => cartline.error !== undefined) : false;
-
-    const viewProps = _objectSpread(_objectSpread({}, this.props), {}, {
-      className: classnames_default()('ms-cart'),
-      title: /*#__PURE__*/external_React_default.a.createElement("h1", {
-        className: 'msc-cart__heading'
-      }, resources.cartTitle),
-      CartlinesWrapper: {
-        className: 'msc-cartline-wraper'
-      },
-      OrderSummaryWrapper: {
-        className: 'msc-order-summary-wrapper'
-      },
-      OrderSummaryItems: {
-        className: 'msc-order-summary__items'
-      },
-      cartlines: cartLines,
-      promoCode: this._getPromoCode(),
-      cart: this.props.data.cart.result,
-      context: this.props.context,
-      typeName: this.props.typeName,
-      telemetry: this.props.telemetry,
-      id: this.props.id,
-      removePromoAriaLabelFormat: resources.removePromoAriaLabelFormat,
-      orderSummaryHeading: this.props.data.products && this.props.data.products.result && cart && cart.cart.CartLines && cart.cart.CartLines.length > 0 ? /*#__PURE__*/external_React_default.a.createElement("h2", {
-        className: 'msc-order-summary__heading'
-      }, resources.orderSummaryTitle) : null,
-      orderSummaryLineitems: this._getOrderSummaryLineItems(),
-      checkoutAsSignInUserButton: !isCartEmpty ? /*#__PURE__*/external_React_default.a.createElement(dist_lib["Button"], Object.assign({
-        disabled: hasErrors,
-        className: 'msc-cart__btn-checkout',
-        href: checkoutURL,
-        title: resources.checkoutButtonTitle
-      }, checkoutBySignInAttributes), resources.checkoutButtonTitle) : null,
-      checkoutAsGuestButton: !isCartEmpty && !isAuthenticated ? /*#__PURE__*/external_React_default.a.createElement(dist_lib["Button"], Object.assign({
-        disabled: hasErrors,
-        className: 'msc-cart__btn-guestcheckout',
-        href: guestCheckoutUrl,
-        title: resources.guestCheckoutButtonTitle
-      }, checkoutByGuestAttributes), resources.guestCheckoutButtonTitle) : null,
-      backToShoppingButton: /*#__PURE__*/external_React_default.a.createElement(dist_lib["Button"], Object.assign({
-        className: 'msc-cart__btn-backtoshopping'
-      }, backtoShoppingAttributes, {
-        href: backToShoppingUrl,
-        title: resources.backToShoppingButtonTitle
-      }), resources.backToShoppingButtonTitle),
-      createTemplateFromCartButton: this._displayAddCartToTemplate() ? /*#__PURE__*/external_React_default.a.createElement(components_dist_lib["SaveCartToOrderTemplateComponent"], {
-        addToOrderTemplateDialogResources: this._generateAddToOrderTemplateDialogResources(resources),
-        createOrderTemplateDialogResources: this._generateOrderTemplateNameDialogResources(resources),
-        linesAddedToOrderTemplateDialogResources: this._generateLinesAddedToOrderTemplateDialogResources(resources),
-        createOrderTemplateFromCartButton: resources.createOrderTemplateFromCartButton,
-        context: this.props.context,
-        id: this.props.id,
-        typeName: this.props.typeName,
-        data: {
-          orderTemplates: this.props.data.orderTemplates.result,
-          cartLines: this.props.data.cart.result.cart.CartLines,
-          customerInformation: this.props.data.customerInformation.result
-        }
-      }) : null,
-      storeSelector: this.props.slots.storeSelector && this.props.slots.storeSelector.length > 0 ? this.props.slots.storeSelector[0] : null,
-      removeItemClickHandler: this._removeItemFromCartHandler,
-      moveToWishlistSuccessHandler: this._moveToWishlistSuccessHandler,
-      waitingComponent: /*#__PURE__*/external_React_default.a.createElement(dist_lib["Waiting"], {
-        className: 'msc-waiting-circular msc-waiting-lg'
-      }),
-      cartLoadingStatus: this.props.data.cart.status === 'FAILED' ? this.props.resources.cartLoadingErrorMessage : null,
-      cartDataResult: this.props.data.cart.result && this.props.data.cart.result.isEmpty,
-      OrderSummaryErrors: this._getOrderSummaryErrors(cartLines),
-      telemetryContent: this.telemetryContent
-    });
-
-    return this.props.renderView(viewProps);
-  }
-
-  _displayAddCartToTemplate() {
-    var _this$props$data$feat, _this$props$data$cust, _this$props$data$cart, _this$props$data$cart2, _this$props$data$cart3;
-
-    const RetailB2BEcommerceFeatureState = (_this$props$data$feat = this.props.data.featureState.result) === null || _this$props$data$feat === void 0 ? void 0 : _this$props$data$feat.find(featureState => featureState.Name === 'Dynamics.AX.Application.RetailB2BEcommerceFeature');
-
-    if (RetailB2BEcommerceFeatureState !== null && RetailB2BEcommerceFeatureState !== void 0 && RetailB2BEcommerceFeatureState.IsEnabled && (_this$props$data$cust = this.props.data.customerInformation.result) !== null && _this$props$data$cust !== void 0 && _this$props$data$cust.IsB2b && this.props.data.orderTemplates.result && (_this$props$data$cart = this.props.data.cart.result) !== null && _this$props$data$cart !== void 0 && (_this$props$data$cart2 = _this$props$data$cart.cart) !== null && _this$props$data$cart2 !== void 0 && (_this$props$data$cart3 = _this$props$data$cart2.CartLines) !== null && _this$props$data$cart3 !== void 0 && _this$props$data$cart3.length && this.props.data.cart.result.cart.CartLines.length > 0 && this.props.data.customerInformation.result) {
-      return true;
-    }
-
-    return false;
-  }
-
-  _getOrderSummaryErrors(cartLines) {
-    const allErrors = cartLines && cartLines.map(cartline => {
-      var _cartline$data;
-
-      // check if the product is service or not by product type
-      const PRODUCTASSERVICE = 2;
-      const isServiceItem = ((_cartline$data = cartline.data) === null || _cartline$data === void 0 ? void 0 : _cartline$data.product.ItemTypeValue) === PRODUCTASSERVICE;
-
-      if (!isServiceItem && cartline.error) {
-        const fullError = cartline.data && cartline.data.product.Name ? "".concat(cartline.data.product.Name, ": ").concat(cartline.error) : cartline.error;
-        return /*#__PURE__*/external_React_default.a.createElement("div", {
-          className: 'msc-alert__line'
-        }, fullError);
-      }
-
-      return null;
-    }).filter(line => !!line) || [];
-    return {
-      Wrapper: {
-        tag: dist_lib["Alert"],
-        className: 'msc-alert',
-        isOpen: allErrors.length > 0,
-        color: 'danger',
-        assertive: true,
-        'aria-label': this.props.resources.outOfStockErrorMessageHeader
-      },
-      header: /*#__PURE__*/external_React_default.a.createElement("div", {
-        className: 'msc-alert__header',
-        "aria-hidden": 'true'
-      }, /*#__PURE__*/external_React_default.a.createElement("span", {
-        className: 'msi-exclamation-triangle'
-      }), /*#__PURE__*/external_React_default.a.createElement("span", null, this.props.resources.outOfStockErrorMessageHeader)),
-      errors: allErrors
-    };
-  }
-
-  _getOrderSummaryLineItems() {
-    const {
-      data: {
-        cart: {
-          result: cart
-        }
-      },
-      telemetry,
-      resources
-    } = this.props;
-    const channelConfiguration = this.props.context && this.props.context.request && this.props.context.request.channel;
-    return cart && cart.cart && channelConfiguration && cart.cart.CartLines && cart.cart.CartLines.length > 0 ? Object(lib["OrderSummary"])({
-      cart: cart.cart,
-      subTotalLabel: resources.itemsWithCountLabel,
-      shippingLabel: resources.estimatedShippingLabel,
-      otherChargeLabel: resources.otherCharges,
-      taxLabel: resources.estimatedTaxLabel,
-      orderTotalLabel: resources.orderTotal,
-      totalDiscountsLabel: resources.totalDiscountsLabel,
-      context: this.props.context,
-      typeName: this.props.typeName,
-      id: this.props.id,
-      toBeCalculatedText: resources.yetToBeCalculatedText,
-      freeText: resources.priceFree,
-      channelConfiguration: channelConfiguration,
-      telemetry: telemetry
-    }) : undefined;
-  }
-
-  _getPromoCode() {
-    const {
-      data: {
-        cart: {
-          result: cart
-        }
-      },
-      resources
-    } = this.props;
-    return cart && /*#__PURE__*/external_React_default.a.createElement(components_dist_lib["PromoCodeComponent"], {
-      cart: cart,
-      promoCodeHeadingText: resources.promoCodeHeadingText,
-      promoPlaceholderText: resources.promoPlaceholderText,
-      promoCodeApplyButtonText: resources.promoCodeApplyButtonText,
-      appliedPromoCodeHeadingText: resources.appliedPromoCodeHeadingText,
-      collapseTimeOut: 350,
-      removePromoAriaLabelFormat: resources.removePromoAriaLabelFormat,
-      removePromoText: resources.removePromoText,
-      invalidPromoCodeErrorText: resources.invalidPromoCodeErrorText,
-      failedToAddPromoCodeErrorText: resources.failedToAddPromoCodeErrorText,
-      failedToRemovePromoCodeErrorText: resources.failedToRemovePromoCodeErrorText,
-      duplicatePromoCodeErrorText: resources.duplicatePromotionErrorText,
-      context: this.props.context,
-      id: this.props.id,
-      typeName: this.props.typeName,
-      data: {},
-      telemetryContent: this.telemetryContent
-    });
-  }
-
-  _generateAddToOrderTemplateDialogResources(resources) {
-    return {
-      addToOrderTemplateHeader: resources.addToOrderTemplateHeader,
-      noOrderTemplatesMessage: resources.noOrderTemplatesMessage,
-      noOrderTemplatesDescription: resources.noOrderTemplatesDescription,
-      createAnOrderTemplateButtonText: resources.createAnOrderTemplateButtonText,
-      createNewOrderTemplateButtonText: resources.createNewOrderTemplateButtonText,
-      cancelOrderTemplateCreationButtonText: resources.cancelOrderTemplateCreationButtonText,
-      selectTemplatesText: resources.selectTemplatesText,
-      addToTemplateButtonText: resources.addToTemplateButtonText,
-      lineItemsText: resources.lineItemsText
-    };
-  }
-
-  _generateItemAddedToOrderTemplateDialogResources(resources) {
-    return {
-      viewOrderTemplateButtonText: resources.viewOrderTemplateButtonText,
-      continueShoppingButtonText: resources.continueShoppingButtonText,
-      itemAddedToOrderTemplateHeaderItemOneText: resources.itemAddedToOrderTemplateHeaderItemOneText,
-      itemAddedToOrderTemplateHeaderItemFormatText: resources.itemAddedToOrderTemplateHeaderItemFormatText,
-      itemAddedToOrderTemplateHeaderMessageText: resources.itemAddedToOrderTemplateHeaderMessageText,
-      freePriceText: resources.freePriceText,
-      originalPriceText: resources.originalPriceText,
-      currentPriceText: resources.currentPriceText
-    };
-  }
-
-  _generateLinesAddedToOrderTemplateDialogResources(resources) {
-    return {
-      viewOrderTemplateButtonText: resources.viewOrderTemplateButtonText,
-      continueShoppingButtonText: resources.continueShoppingButtonText,
-      linesAddedToOrderTemplateHeaderItemsOneText: resources.linesAddedToOrderTemplateHeaderItemsOneText,
-      linesAddedToOrderTemplateHeaderItemsFormatText: resources.linesAddedToOrderTemplateHeaderItemsFormatText,
-      linesAddedToOrderTemplateHeaderLinesOneText: resources.linesAddedToOrderTemplateHeaderLinesOneText,
-      linesAddedToOrderTemplateHeaderLinesFormatText: resources.linesAddedToOrderTemplateHeaderLinesFormatText,
-      linesAddedToOrderTemplateHeaderMessageText: resources.linesAddedToOrderTemplateHeaderMessageText
-    };
-  }
-
-  _generateDuplicateItemsWhenAddingToOrderTemplateDialogResources(resources) {
-    return {
-      duplicatedProductsHeader: resources.duplicatedProductsHeader,
-      duplicatedProductsDescription: resources.duplicatedProductsDescription,
-      updateQuantityButtonText: resources.updateQuantityButtonText,
-      cancelDuplicateItemsButtonText: resources.cancelDuplicateItemsButtonText
-    };
-  }
-
-  _generateOrderTemplateNameDialogResources(resources) {
-    return {
-      orderTemplateHeaderLabel: resources.createOrderTemplateHeader,
-      orderTemplateTitleLabel: resources.orderTemplateTitle,
-      orderTemplateNameAriaLabel: resources.orderTemplateNameAriaLabel,
-      orderTemplateDescription: resources.createOrderTemplateDescription,
-      defaultOrderTemplateName: resources.defaultOrderTemplateName,
-      orderTemplateButtonLabel: resources.createOrderTemplateButtonText,
-      orderTemplateCancelButtonLabel: resources.cancelNewOrderTemplateCreationButtonText
-    };
-  }
-
-  _getCartLines() {
-    const {
-      data: {
-        cart: {
-          result: cart
-        },
-        wishlists: {
-          result: wishlists
-        },
-        orderTemplates: {
-          result: orderTemplates
-        },
-        customerInformation: {
-          result: customerInformation
-        }
-      },
-      context: {
-        request: {
-          channel: {
-            PickupDeliveryModeCode
-          } = {
-            PickupDeliveryModeCode: undefined
-          }
-        }
-      },
-      config: config,
-      telemetry,
-      resources
-    } = this.props;
-
-    const imageSettings = this._getImageSettings(config.imageSettings);
-
-    return this.props.data.products && this.props.data.products.result && cart && cart.cart.CartLines && cart.cart.CartLines.length > 0 ? CartLineItems({
-      cartlines: cart.cart.CartLines,
-      products: this.props.data.products.result,
-      productAvailabilites: this.props.data.productAvailabilites.result,
-      productDeliveryOptions: this.props.data.deliveryOptions.result,
-      imageSettings: imageSettings,
-      isStockCheckEnabled: this.props.context.app.config.enableStockCheck || false,
-      maxCartlineQuantity: this.props.context.app.config.maxQuantityForCartLineItem,
-      gridSettings: this.props.context.request.gridSettings,
-      context: this.props.context,
-      typeName: this.props.typeName,
-      id: this.props.id,
-      resources: {
-        sizeString: resources.productDimensionTypeSize,
-        colorString: resources.productDimensionTypeColor,
-        configString: resources.productDimensionTypeConfiguration,
-        styleString: resources.productDimensionTypeStyle,
-        quantityDisplayString: resources.quantityDisplayText,
-        inputQuantityAriaLabel: resources.inputQuantityAriaLabel,
-        decrementButtonAriaLabel: resources.decrementButtonAriaLabel,
-        incrementButtonAriaLabel: resources.incrementButtonAriaLabel,
-        discountStringText: resources.discountStringText,
-        originalPriceText: resources.originalPriceText,
-        currentPriceText: resources.currentPriceText,
-        shippingChargesText: resources.shippingCharges
-      },
-      telemetry: telemetry,
-      addToWishlistButtonText: resources.addToWishlistButtonText,
-      removeFromWishlistButtonText: resources.removeFromWishlistButtonText,
-      removeButtonText: resources.removeCartButtonText,
-      shipItText: resources.shipInsteadDisplayText,
-      pickitUpText: resources.pickItUpDisplayText,
-      changeStoreText: resources.changeStoreDisplayText,
-      storeSelectorStateManager: this.props.data.storeSelectorStateManager.result,
-      outOfStockText: resources.outOfStockErrorMessage,
-      outOfRangeOneText: resources.errorMessageOutOfRangeOneLeft,
-      outOfRangeFormatText: resources.errorMessageOutOfRangeFormat,
-      cartState: this.props.data.cart.result,
-      orgUnitLocations: this.props.data.orgUnitLocations.result,
-      removeItemClickHandler: this._removeItemFromCartHandler,
-      moveToWishlistSuccessHandler: this._moveToWishlistSuccessHandler,
-      updateCartLinesQuantitySuccessHandler: this._updateCartlineQuantity,
-      wishlists: wishlists,
-      defaultWishlistName: resources.defaultWishlistName,
-      pickupDeliveryModeCode: PickupDeliveryModeCode,
-      includeErrors: config.showOutOfStockErrors,
-      showShippingChargesForLineItems: config.showShippingChargesForLineItems,
-      telemetryContent: this.telemetryContent,
-      addToOrderTemplateDialogResources: this._generateAddToOrderTemplateDialogResources(resources),
-      createOrderTemplateDialogResources: this._generateOrderTemplateNameDialogResources(resources),
-      itemAddedToOrderTemplateDialogResources: this._generateItemAddedToOrderTemplateDialogResources(resources),
-      duplicateItemsWhenAddingToOrderTemplateDialogResources: this._generateDuplicateItemsWhenAddingToOrderTemplateDialogResources(resources),
-      addToOrderTemplateButtonText: resources.addToOrderTemplateButtonText,
-      addToOrderTemplateMessage: resources.addToOrderTemplateMessage,
-      addItemToOrderTemplateError: resources.addItemToOrderTemplateError,
-      orderTemplates: orderTemplates,
-      customerInformation: customerInformation
-    }) : null;
-  }
-
-  _getCheckoutURL(isAuthenticated, guestCheckoutUrl, signInUrl) {
-    if (isAuthenticated) {
-      return guestCheckoutUrl;
-    }
-
-    const absoluteUrlRegExp = new RegExp('^(?:[a-z]+:)?//', 'i');
-    const isAbsoluteUrl = absoluteUrlRegExp.test(guestCheckoutUrl);
-    let returnURL = guestCheckoutUrl;
-
-    if (core_dist_lib["default"].isBrowser && !isAbsoluteUrl) {
-      returnURL = "".concat(window.location.origin).concat(guestCheckoutUrl);
-    }
-
-    return "".concat(signInUrl).concat(signInUrl.indexOf('?') === -1 ? '?' : '&', "ru=").concat(returnURL);
-  }
-
-};
-cart_Cart = Object(tslib_es6["__decorate"])([index_module["observer"]], cart_Cart);
-/* harmony default export */ var cart_cart = __webpack_exports__["default"] = (cart_Cart);
-
-/***/ }),
-
-/***/ "./src/modules/cart/cart.view.tsx":
-/*!****************************************!*\
-  !*** ./src/modules/cart/cart.view.tsx ***!
-  \****************************************/
-/*! exports provided: default */
-/*! ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: ./lib/view-registration.js (referenced with import() eager, require.resolve) */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var core_js_modules_es_object_assign_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! core-js/modules/es.object.assign.js */ "./node_modules/@msdyn365-commerce/bootloader/node_modules/core-js/modules/es.object.assign.js");
-/* harmony import */ var core_js_modules_es_object_assign_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_object_assign_js__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _msdyn365_commerce_modules_utilities__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @msdyn365-commerce-modules/utilities */ "./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/index.js");
-/* harmony import */ var _msdyn365_commerce_modules_utilities__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_msdyn365_commerce_modules_utilities__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
-
-
-
-
-const _renderCartlines = (cartLines, cartEmptyText, CartlinesWrapper, storeSelector, backToShoppingButton, waitingComponent, cartLoadingStatus, cartDataResult) => {
-  if (cartLoadingStatus) {
-    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"](react__WEBPACK_IMPORTED_MODULE_2__["Fragment"], null, cartLoadingStatus);
-  }
-
-  if (cartLines) {
-    return cartLines.map((cartLine, index) => {
-      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"]("div", {
-        className: 'msc-cart-lines-item',
-        key: index
-      }, cartLine.cartline, storeSelector && cartLine.pickUpInStore ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"](_msdyn365_commerce_modules_utilities__WEBPACK_IMPORTED_MODULE_1__["Node"], Object.assign({}, cartLine.pickUpInStore.ContainerProps), cartLine.pickUpInStore.defaultComponent) : null, cartLine.addToOrderTemplate ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"]("div", {
-        className: 'msc-cart-line__extra-actions'
-      }, cartLine.remove, cartLine.addToWishlist, cartLine.addToOrderTemplate) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"](react__WEBPACK_IMPORTED_MODULE_2__["Fragment"], null, cartLine.remove, cartLine.addToWishlist));
-    });
-  } else {
-    return cartDataResult ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"]("div", {
-      className: 'msc-cart__empty-cart'
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"]("p", {
-      className: 'msc-cart-line'
-    }, cartEmptyText), backToShoppingButton) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"](react__WEBPACK_IMPORTED_MODULE_2__["Fragment"], null, waitingComponent);
-  }
-};
-
-const _renderErrorBlock = errorData => {
-  if (!errorData || errorData.errors.length === 0) {
-    return null;
-  }
-
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"](_msdyn365_commerce_modules_utilities__WEBPACK_IMPORTED_MODULE_1__["Node"], Object.assign({}, errorData.Wrapper), errorData.header, errorData.errors);
-};
-
-const _renderOrderSummarylines = (orderSummaryLines, OrderSummaryItems, props) => {
-  if (!orderSummaryLines) {
-    props.context.telemetry.error('OrderSummary content is empty, module wont render');
-    return null;
-  }
-
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"](_msdyn365_commerce_modules_utilities__WEBPACK_IMPORTED_MODULE_1__["Node"], Object.assign({}, OrderSummaryItems), props.promoCode, orderSummaryLines.subtotal, orderSummaryLines.shipping, orderSummaryLines.otherCharge, orderSummaryLines.tax, orderSummaryLines.totalDiscounts ? orderSummaryLines.totalDiscounts : null, orderSummaryLines.orderTotal);
-};
-
-const CartView = props => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"]("div", Object.assign({
-  className: props.className,
-  id: props.id
-}, props.renderModuleAttributes(props)), props.title, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"](_msdyn365_commerce_modules_utilities__WEBPACK_IMPORTED_MODULE_1__["Node"], Object.assign({}, props.CartlinesWrapper), _renderCartlines(props.cartlines, props.resources.emptyCartText, props.CartlinesWrapper, props.storeSelector, props.backToShoppingButton, props.waitingComponent, props.cartLoadingStatus, props.cartDataResult)), props.orderSummaryHeading && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"](_msdyn365_commerce_modules_utilities__WEBPACK_IMPORTED_MODULE_1__["Node"], Object.assign({}, props.OrderSummaryWrapper), props.orderSummaryHeading, _renderOrderSummarylines(props.orderSummaryLineitems, props.OrderSummaryItems, props), _renderErrorBlock(props.OrderSummaryErrors), props.checkoutAsSignInUserButton, props.checkoutAsGuestButton, props.backToShoppingButton, props.createTemplateFromCartButton), props.storeSelector);
-
-/* harmony default export */ __webpack_exports__["default"] = (CartView);
 
 /***/ }),
 
@@ -13445,7 +12483,7 @@ class header_Header extends external_React_["PureComponent"] {
   _getSigninButton(customer, user, resources) {
     const payLoad = Object(lib["getPayloadObject"])('click', this.telemetryContent, lib["TelemetryConstant"].SignIn);
     const attributes = Object(lib["getTelemetryAttributes"])(this.telemetryContent, payLoad);
-    return !customer && /*#__PURE__*/external_React_["createElement"](lib["Button"], Object.assign({
+    return !customer && /*#__PURE__*/external_React_["createElement"]("a", Object.assign({
       className: 'ms-header__signin-button',
       title: resources.signInLinkText,
       href: user && user.signInUrl,
@@ -13591,7 +12629,14 @@ const headerView = props => {
       setScrollTop(window.scrollY || 0);
     });
   }, [1]);
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(_msdyn365_commerce_modules_utilities__WEBPACK_IMPORTED_MODULE_3__["Module"], Object.assign({}, HeaderTag), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(_msdyn365_commerce_modules_utilities__WEBPACK_IMPORTED_MODULE_3__["Node"], Object.assign({}, HeaderContainer), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("div", {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(_msdyn365_commerce_modules_utilities__WEBPACK_IMPORTED_MODULE_3__["Module"], Object.assign({}, HeaderTag), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("script", {
+    id: "Microsoft_Omnichannel_LCWidget",
+    src: "https://oc-cdn-public-apj.azureedge.net/livechatwidget/scripts/LiveChatBootstrapper.js",
+    "data-app-id": "9d52e637-43ad-4d79-9dde-91a2a678c4bc",
+    "data-lcw-version": "prod",
+    "data-org-id": "28b274e4-25b3-47dd-bdff-37a341333ec8",
+    "data-org-url": "https://28b274e425b347ddbdff37a341333ec8-crm5.omnichannelengagementhub.com"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(_msdyn365_commerce_modules_utilities__WEBPACK_IMPORTED_MODULE_3__["Node"], Object.assign({}, HeaderContainer), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("div", {
     className: "wkea-header-top"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(_msdyn365_commerce_modules_utilities__WEBPACK_IMPORTED_MODULE_3__["Node"], Object.assign({}, HeaderTopBarContainer), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("div", {
     className: "wkea-header-top-top centre"
@@ -13859,12 +12904,495 @@ const Example = () => {
 
 /***/ }),
 
-/***/ "./src/modules/index-person/index-person.tsx":
-/*!***************************************************!*\
-  !*** ./src/modules/index-person/index-person.tsx ***!
-  \***************************************************/
+/***/ "./src/modules/index-person-information/index-person-information.tsx":
+/*!***************************************************************************************!*\
+  !*** ./src/modules/index-person-information/index-person-information.tsx + 3 modules ***!
+  \***************************************************************************************/
 /*! exports provided: default */
-/*! ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: ./lib/module-registration.local.js (referenced with import() eager, require.resolve) */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/index.js (<- Module is not an ECMAScript module) */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@msdyn365-commerce/components/dist/lib/index.js */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@msdyn365-commerce/core/dist/lib/index.js (<- Module is referenced from these modules with unsupported syntax: ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/back-to-top/BackToTop.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/common/telemetryHelper.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/drawer/ControlledDrawer.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/popup/Popup.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/slider/Slider.js (referenced with cjs require)) */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@babel/runtime/helpers/esm/defineProperty.js */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/classnames/index.js (<- Module is not an ECMAScript module) */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/mobx-react/index.module.js */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/mobx/lib/mobx.module.js (<- Module uses injected variables (global, process, module)) */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/tslib/tslib.es6.js (<- Module is referenced from these modules with unsupported syntax: ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/alert/Alert.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/back-to-top/BackToTop.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/button/Button.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/collapse/Collapse.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/drawer/ControlledDrawer.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/drawer/Drawer.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/fade/Fade.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/flipper/Flipper.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/heading/Heading.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/index.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/labeled-dropdown/LabeledDropdown.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/modal/Modal.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/modal/ModalBody.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/modal/ModalFooter.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/modal/ModalHeader.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/modal/Portal.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/modal/index.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/pagination/Pagination.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/pagination/PaginationItem.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/pagination/PaginationLink.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/pagination/UncontrolledPagination.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/popover/Popover.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/popover/index.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/popper-content/PopperContent.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/popup-products/Popup-products.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/popup/Popup.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/progress/Progress.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/quantity/Quantity.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/quantity/index.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/single-slide-carousel/SingleSlideCarousel.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/slider/Slider.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/slider/SliderThumb.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/table/Table.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/table/checkbox.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/table/index.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/tooltip/Tooltip.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/tooltip/UncontrolledTooltip.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/waiting/Waiting.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/wrapper/module.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/wrapper/node.js (referenced with cjs require), ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/zoom-image/ImagefullView.js (referenced with cjs require)) */
+/*! ModuleConcatenation bailout: Cannot concat with external "React" (<- Module is not an ECMAScript module) */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+// ESM COMPAT FLAG
+__webpack_require__.r(__webpack_exports__);
+
+// EXTERNAL MODULE: ./node_modules/@msdyn365-commerce/bootloader/node_modules/core-js/modules/es.object.assign.js
+var es_object_assign = __webpack_require__("./node_modules/@msdyn365-commerce/bootloader/node_modules/core-js/modules/es.object.assign.js");
+
+// EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/defineProperty.js
+var defineProperty = __webpack_require__("./node_modules/@babel/runtime/helpers/esm/defineProperty.js");
+
+// EXTERNAL MODULE: ./node_modules/tslib/tslib.es6.js
+var tslib_es6 = __webpack_require__("./node_modules/tslib/tslib.es6.js");
+
+// EXTERNAL MODULE: ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/index.js
+var lib = __webpack_require__("./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/index.js");
+
+// EXTERNAL MODULE: ./node_modules/@msdyn365-commerce/components/dist/lib/index.js + 48 modules
+var dist_lib = __webpack_require__("./node_modules/@msdyn365-commerce/components/dist/lib/index.js");
+
+// EXTERNAL MODULE: ./node_modules/@msdyn365-commerce/core/dist/lib/index.js
+var core_dist_lib = __webpack_require__("./node_modules/@msdyn365-commerce/core/dist/lib/index.js");
+
+// EXTERNAL MODULE: ./node_modules/classnames/index.js
+var classnames = __webpack_require__("./node_modules/classnames/index.js");
+var classnames_default = /*#__PURE__*/__webpack_require__.n(classnames);
+
+// EXTERNAL MODULE: ./node_modules/mobx/lib/mobx.module.js
+var mobx_module = __webpack_require__("./node_modules/mobx/lib/mobx.module.js");
+
+// EXTERNAL MODULE: external "React"
+var external_React_ = __webpack_require__("react");
+
+// CONCATENATED MODULE: ./src/modules/index-person-information/components/logo.tsx
+
+
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+
+
+/**
+ *
+ * Logo component
+ * @extends {React.PureComponent<ILogoConfig>}
+ */
+
+class logo_Logo extends external_React_["PureComponent"] {
+  constructor(props) {
+    super(props);
+    const payLoad = Object(lib["getPayloadObject"])('click', props.telemetryContent, lib["TelemetryConstant"].Logo);
+    this.attributes = Object(lib["getTelemetryAttributes"])(props.telemetryContent, payLoad);
+  }
+
+  render() {
+    return /*#__PURE__*/external_React_["createElement"]("div", {
+      className: this.props.className
+    }, this._renderLogo(this.props));
+  }
+
+  _renderLogo(config) {
+    if (config.link && config.link.linkUrl.destinationUrl) {
+      return /*#__PURE__*/external_React_["createElement"]("a", Object.assign({
+        href: config.link.linkUrl.destinationUrl,
+        "aria-label": config.link.ariaLabel,
+        target: config.link.openInNewTab ? '_blank' : undefined
+      }, this.attributes), this._renderImage(config));
+    }
+
+    return this._renderImage(config);
+  }
+
+  _renderImage(config) {
+    const defaultImageSettings = {
+      viewports: {
+        xs: {
+          q: "w=132&h=28&m=6",
+          w: 0,
+          h: 0
+        },
+        lg: {
+          q: "w=160&h=48&m=6",
+          w: 0,
+          h: 0
+        }
+      },
+      lazyload: true
+    };
+    return /*#__PURE__*/external_React_["createElement"](core_dist_lib["Image"], Object.assign({}, config.image, {
+      gridSettings: this.props.gridSettings,
+      imageSettings: config && config.image && config.image.imageSettings || defaultImageSettings,
+      loadFailureBehavior: 'default',
+      editProps: {
+        key: config.image || {},
+        requestContext: this.props.requestContext
+      }
+    }));
+  }
+
+}
+/* harmony default export */ var logo = (logo_Logo);
+// EXTERNAL MODULE: ./node_modules/mobx-react/index.module.js
+var index_module = __webpack_require__("./node_modules/mobx-react/index.module.js");
+
+// CONCATENATED MODULE: ./src/modules/index-person-information/components/nav-icon.tsx
+
+
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+
+
+
+/**
+ *
+ * NavIcon component
+ * @extends {React.PureComponent<INavIconProps>}
+ */
+
+let nav_icon_NavIcon = class NavIcon extends external_React_["Component"] {
+  constructor(props) {
+    super(props);
+    const payLoad = Object(lib["getPayloadObject"])('click', props.telemetryContent, lib["TelemetryConstant"].NavIcon);
+    this.attributes = Object(lib["getTelemetryAttributes"])(props.telemetryContent, payLoad);
+  }
+
+  render() {
+    return /*#__PURE__*/external_React_["createElement"](lib["Button"], Object.assign({
+      className: 'ms-header__nav-icon',
+      onClick: this.props.toggleNavBar,
+      title: this.props.resources.mobileHamburgerAriaLabel,
+      "aria-label": this.props.resources.mobileHamburgerAriaLabel,
+      "aria-expanded": this.props.isExpanded,
+      "aria-controls": this.props.targetId
+    }, this.attributes));
+  }
+
+};
+nav_icon_NavIcon = Object(tslib_es6["__decorate"])([index_module["observer"]], nav_icon_NavIcon);
+
+// CONCATENATED MODULE: ./src/modules/index-person-information/components/index.ts
+
+
+// CONCATENATED MODULE: ./src/modules/index-person-information/index-person-information.tsx
+
+
+
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
+
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { Object(defineProperty["default"])(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+
+
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+/**
+ *
+ * Header component
+ * @extends {React.PureComponent<IIndexPersonInformationProps<IIndexPersonInformationData>>}
+ */
+
+class index_person_information_Header extends external_React_["PureComponent"] {
+  constructor(props) {
+    super(props);
+    /* Handle link text change*/
+
+    this.handleLinkTextChange = linkIndex => event => {
+      if (this.props.config.myAccountLinks && this.props.config.myAccountLinks[linkIndex]) {
+        this.props.config.myAccountLinks[linkIndex].linkText = event.target.value;
+      }
+    };
+
+    this.popOverRef = /*#__PURE__*/external_React_["createRef"]();
+    this._toggleNavbar = this._toggleNavbar.bind(this);
+    this._togglePopover = this._togglePopover.bind(this);
+    this._keydown = this._keydown.bind(this);
+    this.state = {
+      mobileMenuCollapsed: true,
+      signinPopoverOpen: false
+    };
+    this.telemetryContent = Object(lib["getTelemetryObject"])(this.props.context.request.telemetryPageName, this.props.friendlyName, this.props.telemetry);
+  }
+
+  get displayName() {
+    var _this$props$data$acco;
+
+    const customer = (_this$props$data$acco = this.props.data.accountInformation) === null || _this$props$data$acco === void 0 ? void 0 : _this$props$data$acco.result;
+    return customer ? customer.FirstName || customer.Name : undefined;
+  }
+
+  componentDidMount() {
+    if (core_dist_lib["msdyn365Commerce"].isBrowser) {
+      window.addEventListener('keydown', this._keydown);
+    }
+  }
+
+  componentWillUnmount() {
+    if (core_dist_lib["msdyn365Commerce"].isBrowser) {
+      window.removeEventListener('keydown', this._keydown, false);
+    }
+  } // tslint:disable-next-line: max-func-body-length
+
+
+  render() {
+    const {
+      id,
+      typeName,
+      data: {
+        accountInformation,
+        cart: {
+          result: cart
+        }
+      },
+      context: {
+        request: {
+          user
+        }
+      },
+      context,
+      resources: {
+        cartLabel
+      }
+    } = this.props;
+    const {
+      logoLink,
+      logoImage
+    } = this.props.config;
+    const headerClassName = classnames_default()('ms-header', this.props.config.className);
+    const navbarKey = 'header-nav-mobile';
+    const customer = accountInformation && accountInformation.result;
+
+    const cartIconSlot = this._getSlot('cartIcon');
+
+    const menuBarSlot = this._getSlot('menuBar');
+
+    const searchSlot = this._getSlot('search');
+
+    const siteOptionsSlot = this._getSlot('siteOptions');
+
+    const viewProps = _objectSpread(_objectSpread(_objectSpread({}, this.props), this.state), {}, {
+      logo: /*#__PURE__*/external_React_["createElement"](logo_Logo, Object.assign({}, {
+        link: logoLink,
+        image: logoImage,
+        className: 'ms-header__logo',
+        gridSettings: this.props.context.request.gridSettings,
+        requestContext: this.props.context.request,
+        telemetryContent: this.telemetryContent
+      })),
+      wishListIconDesktop: /*#__PURE__*/external_React_["createElement"](dist_lib["WishListIconComponent"], {
+        className: 'ms-header__wishlist-desktop',
+        showButtonTooltip: true,
+        wishlistTooltipText: this.props.resources.wishlistTooltipText,
+        context: context,
+        id: id,
+        typeName: typeName,
+        telemetryContent: this.telemetryContent,
+        data: {}
+      }),
+      wishListIconMobile: /*#__PURE__*/external_React_["createElement"](dist_lib["WishListIconComponent"], {
+        className: 'ms-header__wishlist-mobile',
+        showButtonTooltip: true,
+        wishlistTooltipText: this.props.resources.wishlistTooltipText,
+        context: context,
+        id: id,
+        typeName: typeName,
+        telemetryContent: this.telemetryContent,
+        data: {}
+      }),
+      cartIcon: cartIconSlot && cartIconSlot.length > 0 ? cartIconSlot[0] : cart && /*#__PURE__*/external_React_["createElement"](dist_lib["CartIconComponent"], {
+        cartLabel: cartLabel,
+        context: context,
+        id: id,
+        typeName: typeName,
+        telemetryContent: this.telemetryContent,
+        data: {
+          cart: cart
+        }
+      }),
+      navIcon: /*#__PURE__*/external_React_["createElement"](nav_icon_NavIcon, Object.assign({}, {
+        resources: this.props.resources,
+        isExpanded: !this.state.mobileMenuCollapsed,
+        targetId: navbarKey,
+        toggleNavBar: this._toggleNavbar,
+        telemetryContent: this.telemetryContent
+      })),
+      menuBar: menuBarSlot && menuBarSlot.length && menuBarSlot || [],
+      search: searchSlot && searchSlot.length && searchSlot || [],
+      siteOptions: siteOptionsSlot && siteOptionsSlot.length && siteOptionsSlot || [],
+      className: headerClassName,
+      HeaderTag: {
+        moduleProps: this.props,
+        className: classnames_default()(headerClassName),
+        tag: 'header'
+      },
+      HeaderContainer: {
+        className: classnames_default()('ms-header__container')
+      },
+      HeaderTopBarContainer: {
+        className: classnames_default()('ms-header__topbar')
+      },
+      Divider: {
+        className: classnames_default()('ms-header__divider')
+      },
+      MobileMenuContainer: {
+        tag: lib["Modal"],
+        id: navbarKey,
+        className: 'ms-header__mobile-hamburger',
+        isOpen: !this.state.mobileMenuCollapsed,
+        wrapClassName: 'ms-header__modal'
+      },
+      MobileMenuHeader: /*#__PURE__*/external_React_["createElement"](lib["ModalHeader"], {
+        className: 'ms-header__mobile-hamburger-menu-header',
+        toggle: this._toggleNavbar
+      }),
+      MobileMenuBodyContainer: {
+        tag: lib["ModalBody"],
+        className: 'ms-header__mobile-hamburger-menu-body'
+      },
+      MobileMenuLinksContainer: {
+        className: 'ms-header__mobile-hamburger-menu-links'
+      },
+      AccountInfoDropdownParentContainer: {
+        className: 'ms-header__account-info'
+      },
+      AccountInfoDropdownPopoverConentContainer: customer && this.displayName && {
+        tag: lib["Popover"],
+        id: 'myprofilePopover',
+        className: 'ms-header__account-info-content',
+        placement: 'bottom',
+        isOpen: this.state.signinPopoverOpen,
+        target: this.popOverRef,
+        toggle: this._togglePopover
+      } || undefined,
+      signInLink: this._getSigninButton(customer, user, this.props.resources),
+      signOutLink: this._getSignOutButton(customer, user, this.props.resources),
+      accountInfoDropdownButton: this._getAccountInfoDropdownButton(customer),
+      accountLinks: this._getAccountLinks(customer)
+    });
+
+    return this.props.renderView(viewProps);
+  }
+
+  _getSlot(slotName) {
+    const {
+      slots
+    } = this.props;
+    return slots && slots[slotName] && slots[slotName].length && slots[slotName] || null;
+  }
+
+  _getSigninButton(customer, user, resources) {
+    const payLoad = Object(lib["getPayloadObject"])('click', this.telemetryContent, lib["TelemetryConstant"].SignIn);
+    const attributes = Object(lib["getTelemetryAttributes"])(this.telemetryContent, payLoad);
+    return !customer && /*#__PURE__*/external_React_["createElement"]("a", Object.assign({
+      className: 'ms-header__signin-button',
+      title: resources.signInLinkText,
+      href: user && user.signInUrl,
+      "aria-label": resources.signInLinkAriaText,
+      onClick: Object(lib["onTelemetryClick"])(this.telemetryContent, payLoad, 'Sign in')
+    }, attributes), /*#__PURE__*/external_React_["createElement"]("span", {
+      className: 'ms-header__signin-button-text',
+      "aria-hidden": true
+    }, resources.signInLinkText));
+  }
+
+  _getSignOutButton(customer, user, resources) {
+    const payLoad = Object(lib["getPayloadObject"])('click', this.telemetryContent, lib["TelemetryConstant"].SignOut);
+    const attributes = Object(lib["getTelemetryAttributes"])(this.telemetryContent, payLoad);
+    return customer && this.displayName && /*#__PURE__*/external_React_["createElement"](lib["Button"], Object.assign({
+      className: 'ms-header__signout-button',
+      title: resources.signOutLinkText,
+      href: user && user.signOutUrl || '',
+      "aria-label": resources.signOutLinkAriaText,
+      onClick: Object(lib["onTelemetryClick"])(this.telemetryContent, payLoad, 'Sign out')
+    }, attributes), /*#__PURE__*/external_React_["createElement"]("span", {
+      className: 'ms-header__signout-button-text',
+      "aria-hidden": true
+    }, resources.signOutLinkText));
+  }
+
+  _getAccountInfoDropdownButton(customer) {
+    const payLoad = Object(lib["getPayloadObject"])('click', this.telemetryContent, lib["TelemetryConstant"].MyProfile);
+    const attributes = Object(lib["getTelemetryAttributes"])(this.telemetryContent, payLoad);
+    return customer && this.displayName && /*#__PURE__*/external_React_["createElement"](lib["Button"], Object.assign({
+      innerRef: this.popOverRef,
+      className: 'ms-header__profile-button',
+      "aria-describedby": 'myprofilePopover',
+      onClick: this._togglePopover,
+      color: 'link',
+      "aria-expanded": this.state.signinPopoverOpen
+    }, attributes), /*#__PURE__*/external_React_["createElement"]("span", {
+      className: 'ms-profile-button-text'
+    }, this.displayName));
+  }
+
+  _getAccountLinks(customer) {
+    const {
+      myAccountLinks
+    } = this.props.config;
+    const payLoad = Object(lib["getPayloadObject"])('click', this.telemetryContent, '');
+
+    if (!customer || !this.displayName || !myAccountLinks || !myAccountLinks.length) {
+      return undefined;
+    }
+
+    return myAccountLinks.map((cta, index) => {
+      payLoad.contentAction.etext = cta.linkText;
+      const attributes = Object(lib["getTelemetryAttributes"])(this.telemetryContent, payLoad);
+      const editableLink = {
+        ariaLabel: cta.ariaLabel,
+        className: 'ms-signin-info__account-link-button',
+        linkText: cta.linkText,
+        linkUrl: cta.linkUrl.destinationUrl,
+        openInNewTab: cta.openInNewTab,
+        role: 'button',
+        additionalProperties: attributes
+      };
+      return /*#__PURE__*/external_React_["createElement"](core_dist_lib["Link"], {
+        key: index,
+        link: editableLink,
+        editProps: {
+          onTextChange: this.handleLinkTextChange(index),
+          requestContext: this.props.context.request
+        }
+      });
+    });
+  }
+
+  _toggleNavbar() {
+    this.setState({
+      mobileMenuCollapsed: !this.state.mobileMenuCollapsed
+    });
+  }
+
+  _togglePopover() {
+    this.setState({
+      signinPopoverOpen: !this.state.signinPopoverOpen
+    });
+  }
+
+  _keydown(e) {
+    if (e.keyCode === lib["KeyCodes"].Escape) {
+      this.setState({
+        mobileMenuCollapsed: true
+      });
+    }
+  }
+
+}
+
+Object(tslib_es6["__decorate"])([mobx_module["computed"]], index_person_information_Header.prototype, "displayName", null);
+
+/* harmony default export */ var index_person_information = __webpack_exports__["default"] = (index_person_information_Header);
+
+/***/ }),
+
+/***/ "./src/modules/index-person-information/index-person-information.view.tsx":
+/*!********************************************************************************!*\
+  !*** ./src/modules/index-person-information/index-person-information.view.tsx ***!
+  \********************************************************************************/
+/*! exports provided: default */
+/*! ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: ./lib/view-registration.js (referenced with import() eager, require.resolve) */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -13875,42 +13403,10 @@ __webpack_require__.r(__webpack_exports__);
  *  Copyright (c) Microsoft Corporation. All rights reserved.
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
+// import { Module, Node } from '@msdyn365-commerce-modules/utilities';
 
-/**
- *
- * IndexPerson component
- * @extends {React.PureComponent<IIndexPersonProps<IIndexPersonData>>}
- */
 
-class IndexPerson extends react__WEBPACK_IMPORTED_MODULE_0__["PureComponent"] {
-  render() {
-    return this.props.renderView(this.props);
-  }
-
-}
-
-/* harmony default export */ __webpack_exports__["default"] = (IndexPerson);
-
-/***/ }),
-
-/***/ "./src/modules/index-person/index-person.view.tsx":
-/*!********************************************************!*\
-  !*** ./src/modules/index-person/index-person.view.tsx ***!
-  \********************************************************/
-/*! exports provided: default */
-/*! ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: ./lib/view-registration.js (referenced with import() eager, require.resolve) */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/*!
- * Copyright (c) Microsoft Corporation.
- * All rights reserved. See LICENSE in the project root for license information.
- */
-
-/* harmony default export */ __webpack_exports__["default"] = (props => {
+const headerView = props => {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
     className: "wkea-index-person-content-top-right"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
@@ -13927,13 +13423,12 @@ __webpack_require__.r(__webpack_exports__);
     width: "48",
     height: "48",
     xlinkHref: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAMKADAAQAAAABAAAAMAAAAADbN2wMAAAKwElEQVRoBcWaeWzUxxXHf7teG+ODAAYbc9pgCpQgCtjmNnLUJhRVTapWEAVIeiVqmjRNBW5FY6mopeCWNlAQVKiK2jiAUtT+wx+hoVVMMZc5I64Q2xiMwmFzYy5fu/18h/2tfrvd9f7WJspI498cb95835s3b97M2mM9hrR3797s5OTkUlhNCwQCY/nmkweS08lK98hXyec8Hs8Zvgfa29urZs6c2Uy5R8nT3dE1NTVZjH2R/AK5gFwNuP/6/f4TSUlJjQ8fPmzu37+/gFs3btxIT01Nze7s7Bzh9XonIOQcmmeT68lbyZVTp069zjfhlLAAhw8fzgXIUmb6LnkHYLZeuHDhw/nz53cmMvu2bduShg8f/gxCSwHzyFtYlVWzZs26lAgf1wJUVVX50tLSfgbzMibd0tHR8YcZM2ZcTGSyWLT79u0b4vP5lqKMhdCsZgXXFhYWtseid7a7EuDAgQOjAf13JriC9l/FdhudTB5Xmb00AkE2wm+whJk2bdrpHvMG/LPYezP59R4zc8lAc5GvkZ9zOSQ6GeBfOXjw4MVDhw4VR6f4/Fo1p+YWhm7NwuBX0UAD9ikP84UkzS0MwhILQNQ9sH///m/i7taRnyoqKmqINThW+6pVq/phyyXsm4lsyHTOiCeoZ5OT2EPN9+7d89+5c2fN8uXLdSZ0mViJkbjmj8hvTJ8+fXsksS+yAfDjAP5XBszDNycEfsWKFdP69ev3Ev7/2aysrNyMjAzDHkEseFoIYwHcOnr06Bo6PoucO1pdCgTTAsZ/wHcWQnzipAtbAXx8Mho6hAf4Cx5gg5OwqzKazAD478aMGfMy32Q0bcHDQglhw9R+6tSpI4sXLy4M63BRYS+8hiJeRglFThfrdY4F/JvUmxIBv27dul7Z2dl/Kykp+XFubm6y+HFGWPAyQkgQZ25ra/PrEHPO66YcxNQEX51FoRQSYM+ePYNp/TmTJeQuYVjBsn5bHB88eBBiHK2gFRk8ePB4TtxPN27c+D57pSgaXay2ILayIFZDFhIgJSXllyzRZiSti8Ugsh3TKZ40adLrvXr1soh9LNl6V0kCDBgwIG3cuHGjJk+evGDIkCE7KyoqSroa4+wTNmHEFN+y240A2P4ApFuo8MDucPMdOHDg99CoT5rXBnWTJIRMDIVZI0aM6MtGf3vTpk3G9NyMF0aEWCjMojcC0LiI8o5EYhvZMbb/VTG5cuWKMR+tgASRx1FW3c62F1Jdq3Xt2rWAhOjbt+9EPNNk8XGTghg/CGK2jBuF6SJyuRsGNk1tbe3Q4uLiLICoyX/16lUvth0g4PPg9y1lmZYSG9eiTzlA9tPu4SyQIB5WAIvwFUBWY4hd/AFrJWS/Ia/16TJCYdT58+f/7WJsiIT4fhiVPvIwpaWl3rt371q3b9+2bt26JV/fSd3T0tJiVhhNd2ZmZlp9+vTxKnNOeHQeVFdXmxWDR0qIsYuCsGJ+W7WZfSz5U0i0O9F4HlCpFy9eTJo7d67RsEyEw8vDJpXZmA0hV6rEHEkSVElftUugUaNGWdiy2hK6SwgrIcYeMJT6mHgqG6vacE/gDyZwfsqUKbew4b5o2ti6DTiSjTZuZJIgeXl51uXLl1u5sZ2N7I9XZ/xuFFXopTCWQtjxHG+w+ltbW2/gge7HAh2PhwTQqrFiHWjydjz6yH4wn0ExY2Sj2kCufb+DUf+mpqY0gehJYt+k4sX6dYNHLUKM1uw5aONKNxhcYiO24EG6MfTREK0epngbL5VQ0BicUI8AORIgkxPuTrDR9YdT+H5zc/NRuUg04XqcTaiVkytl/9SXl5cnfLfG/bbAK7NH648726JzwPb3Nrh4XwmsPYAJyu2+F4++i/42CdBCqNqnC6KYXQDYjhv8WIdWIkna17lx9uzZRlZB70IJJ8ZnMsgcNE1oZFDCHBiwfv361rq6ul/U19dbnMBGq/H4SPtyq5zkCifKMcUb8cbE6NfD2k2tgF7HRscgitu8bNmynbt27aq4fv26xekcVwjFSufOnbNOnDjxzpIlSzbHnSA2wZcwwzovGjlDYVxsuvg9gH+LY333zZs3jRDRRkjz8lgNDQ3W6dOna/FAP41G57YNzGMxxU+9LGcNhdluB0aj4zCeMmHChLEEdAHMKSAtC6y+ytojCqGPHTsmrxOYM2dOLu1PR+Plti2I+YhMqAppZnfnmqfJKisrhxPTVOCJsgktPL179w4cP37c39jYqOAuwKoE2CfWkSNH/ARxfsB7EC6T8q83bNigQzThJKzCjAv/yDhwAqPDLHE54fG/3HJj832FMOBHBQUFz3OzeoJN2cHDrJc7glcH1MmTJwO0Uey0oEmaOHGiCbMRys87aweX/xRO4BYCwvdZlY3w+9jt3LwTzUWAFbyaFBoBcKNvIkAxDXopjpm4/ul952scIi8Cei43MvMCIa9CbBQgKGsHqA/36sGcPMQ4Jt7RBQYzCwwbNkyvEh2sko9o1AMIc5ghSDtjPrx//34lk/8Hx3AzJgg6ULhc72Hwvm0E0PUMTdWRn4x2K0M7acTxbwwaNOj7gB4NGANM2hUIJdk6oUWA0zmAeSjuN23qk4CK/xHQj+Z1HzAhtfqwZXOS60SnX7e7s5jdu5wPf2Le/4sQ9JLNXKfIBTyvXAvFAKzCBpi1YUZhzxYrV67MGjp06HYu4jM0mQALuDOpXUl98jZKAu1MThrR2XWbTuOkBNV1urNvDrGq3ygrKwv7FQfzWQNNCuHPa+L/aGYKeInfwngRgoSdCenp6a8g1Ax5FV0LneBtsIppdA4oCYANyjQE/9htGiPw0HeyHzpVVla7PJXoWGUrLy+viPawN1FhE0ZhtXmHQkn9MoJt/R5G6+j8uk3Akk+SG9RV0QasPpUVDihfunRJ7z0GiFNAm4f9RbOdTG5sTgID0M/+AFMggBfzYprm5kbVYp/o5SLs3SiIbbWw2jxDK6AGlnAtnxwkNcujNiYxm01lOwk8y2uWXCvDCpmV0fOKU8hIesb4R44cmYRJJo0fP96HWaaozE9NPlYxgPCPNlRwIHhCQVYQUw5telcNpTAB9OaI9AsA8SsGTAlSBQQqMkvTslk2tg4nU1ZbJJ1dl1bxXvJGHkzHXOq1sQGue7THjmhten1JRiAso5D6curPO99FRRAmgBr0+oUd/pAB/9TTNk29ZZfOLKCaUHtCwIKTmTBCfU5auyw6yskaJ3eqdo1D+8b06PfR5rHp9SWlAT6f7z+o/wC3WatGZwp5IWejyvpRAaZlPIVvRtNPYrutkTQCoA2opAkFsqsEvR6zHqnWIbjG4EYZHjB9omO+VOat53T/DvXVmOmfu+IdtQ8zMj8xIUzYZopK/JgbZTbM2/2fmGw8MHqO/EX9yPctG0esb0wTcg5gJczPrLTpff4nnNa6Qzz2pN/EMJv1MM7FnF5gP8b9mdWVAEJKDJOCz9cv9EuxyXex0c/jh+6X4P9HvNVq3Gyb5o2XXAtgMwrGIkuoa7IdbOIt3LB2Jvo0qZA4Pz//aTb/QvjMQylbKVeg9c/sudx8ExbAZhoMABdTF4CRAKgGgJ4oT3O4NXCoNXGa3hU95QzKOaya3PKXoZ3Ft4Ss96AtmM17CswoJ5y6LYBzJvZIDvVSVmMqtqvraT55IDmDrCRB7H+3+QRBa6hXoe0mdfYk/Q8y77tUujv3dwAAAABJRU5ErkJggg=="
-  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
-    className: "wkea-index-person-content-top-right-welcome"
-  }, "Hi~\u6B22\u8FCE\u56DE\u6765", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("span", null, "13753570654")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
+  }))), _renderDesktopAccountBlock(props), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
     className: "wkea-index-person-content-top-right-pay"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("ul", {
     className: "clear"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("span", null, "0"), "\u5F85\u652F\u4ED8"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("span", null, "0"), "\u5F85\u53D1\u8D27"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("span", null, "0"), "\u5168\u90E8\u8BA2\u5355"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("hr", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("button", {
+    onClick: openService,
     className: "wkea-index-person-content-top-right-btn"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -13970,7 +13465,9 @@ __webpack_require__.r(__webpack_exports__);
     className: "wkea-index-person-division"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
     className: "wkea-index-person-content-top-right-need"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("button", null, "                ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("svg", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("button", {
+    onClick: openneed
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("svg", {
     xmlns: "http://www.w3.org/2000/svg",
     width: "14.684",
     height: "16.233",
@@ -14107,7 +13604,44 @@ __webpack_require__.r(__webpack_exports__);
     transform: "translate(-7732.457 1994.268)",
     fill: "#34495e"
   })))), "\u00A0\u00A0\u6210\u4E3A\u4F9B\u5E94\u5546"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("span", null, "\u6211\u4EEC\u4E3A\u5408\u4F5C\u4F9B\u5E94\u5546\u63D0\u4F9B\u66F4\u591A\u7684\u9500\u552E\u6E20\u9053")));
-});
+};
+
+function _renderDesktopAccountBlock(props) {
+  var _props$data$accountIn, _props$data$accountIn2;
+
+  const {
+    signInLink
+  } = props;
+  const name = (_props$data$accountIn = props.data.accountInformation.result) === null || _props$data$accountIn === void 0 ? void 0 : _props$data$accountIn.Name;
+  const telphone = (_props$data$accountIn2 = props.data.accountInformation.result) === null || _props$data$accountIn2 === void 0 ? void 0 : _props$data$accountIn2.Phone;
+
+  if (signInLink) {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
+      className: "wkea-index-person-content-top-right-welcome"
+    }, signInLink, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
+      href: ""
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("span", null, "\u6CE8\u518C")));
+  } else {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
+      className: "wkea-index-person-content-top-right-welcome"
+    }, "Hi", name, "\u6B22\u8FCE\u56DE\u6765", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("span", null, telphone));
+  }
+}
+
+function openneed() {
+  window.open('https://forms.office.com/Pages/ResponsePage.aspx?id=jBS3ZJoLpUG3WN_ZMLc6iUP5yV7R8XNFr3BsqAjtr09UMUdPVkRVOEJFSzFPVkNGTzVNS1JFSVo0Si4u', '提交需求', "height=1600, width=580, top=".concat(window.innerHeight - 200, ", left=").concat(window.innerWidth - 400, ", toolbar=no, menubar=no, scrollbars=no, resizable=no, location=no, status=no"));
+}
+
+function openService() {
+  try {
+    // @ts-ignore
+    Microsoft.Omnichannel.LiveChatWidget.SDK.startChat();
+  } catch (e) {
+    window.open('https://powerva.microsoft.com/webchat/bots/54e3801d-a66e-439e-91f6-756217204f3f"', '在线客服', "height=500, width=300, top=".concat(window.innerHeight - 600, ", left=").concat(window.innerWidth - 400, ", toolbar=no, menubar=no, scrollbars=no, resizable=no, location=no, status=no"));
+  }
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (headerView);
 
 /***/ }),
 
@@ -14157,14 +13691,67 @@ class IndexProduct extends react__WEBPACK_IMPORTED_MODULE_0__["PureComponent"] {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _msdyn365_commerce_modules_retail_actions__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @msdyn365-commerce-modules/retail-actions */ "./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/index.js");
 /*!
  * Copyright (c) Microsoft Corporation.
  * All rights reserved. See LICENSE in the project root for license information.
  */
 
+
 /* harmony default export */ __webpack_exports__["default"] = (props => {
+  const {
+    context
+  } = props;
+  var products = [];
+  var productshow = [];
+
+  for (let index = 0; index < props.data.products.length; index++) {
+    var _props$data$products$, _props$data$products$2;
+
+    const number = Number((_props$data$products$ = props.data.products[index].result) === null || _props$data$products$ === void 0 ? void 0 : _props$data$products$.RecordId);
+    const href = Object(_msdyn365_commerce_modules_retail_actions__WEBPACK_IMPORTED_MODULE_1__["getProductPageUrlSync"])(((_props$data$products$2 = props.data.products[index].result) === null || _props$data$products$2 === void 0 ? void 0 : _props$data$products$2.Name) || '', number, context && context.actionContext, undefined);
+
+    if (index < 5) {
+      var _props$data$products$3, _props$data$products$4, _props$data$products$5;
+
+      products.push( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("td", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
+        href: href
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("img", {
+        src: (_props$data$products$3 = props.data.products[index].result) === null || _props$data$products$3 === void 0 ? void 0 : _props$data$products$3.PrimaryImageUrl,
+        alt: ""
+      })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
+        className: "wkea-index-product-product"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
+        href: href
+      }, (_props$data$products$4 = props.data.products[index].result) === null || _props$data$products$4 === void 0 ? void 0 : _props$data$products$4.Name), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("span", {
+        className: "wkea-index-product-product-symbol"
+      }, "\u00A5 ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("span", {
+        className: "wkea-index-product-product-money"
+      }, (_props$data$products$5 = props.data.products[index].result) === null || _props$data$products$5 === void 0 ? void 0 : _props$data$products$5.Price))))));
+    }
+
+    if (5 <= index && index < 10) {
+      var _props$data$products$6, _props$data$products$7, _props$data$products$8;
+
+      productshow.push( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("td", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
+        href: href
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("img", {
+        src: (_props$data$products$6 = props.data.products[index].result) === null || _props$data$products$6 === void 0 ? void 0 : _props$data$products$6.PrimaryImageUrl,
+        alt: ""
+      })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
+        className: "wkea-index-product-product"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
+        href: href
+      }, (_props$data$products$7 = props.data.products[index].result) === null || _props$data$products$7 === void 0 ? void 0 : _props$data$products$7.Name), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("span", {
+        className: "wkea-index-product-product-symbol"
+      }, "\u00A5 ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("span", {
+        className: "wkea-index-product-product-money"
+      }, (_props$data$products$8 = props.data.products[index].result) === null || _props$data$products$8 === void 0 ? void 0 : _props$data$products$8.Price))))));
+    }
+  }
+
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
-    className: "centre"
+    className: "centre clearboth"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
     className: "wkea-index-product-content-content-product"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
@@ -14187,135 +13774,7 @@ __webpack_require__.r(__webpack_exports__);
     href: ""
   }, "\u811A\u8F6E/\u8C03\u6574\u5757/\u652F\u67F1/\u9762\u677F")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
     className: "wkea-index-product-content-content-product-product"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("table", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("tr", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("td", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
-    href: ""
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("img", {
-    src: "../images/text.png",
-    alt: ""
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
-    className: "wkea-index-product-product"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
-    href: ""
-  }, "\u53F2\u4E39\u5229 1650W 185mm \u7535\u5706\u952F"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("span", {
-    className: "wkea-index-product-product-symbol"
-  }, "\u00A5 ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("span", {
-    className: "wkea-index-product-product-money"
-  }, "475.00"))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("td", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
-    href: ""
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("img", {
-    src: "../images/text.png",
-    alt: ""
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
-    className: "wkea-index-product-product"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
-    href: ""
-  }, "\u53F2\u4E39\u5229 1650W 185mm \u7535\u5706\u952F"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("span", {
-    className: "wkea-index-product-product-symbol"
-  }, "\u00A5 ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("span", {
-    className: "wkea-index-product-product-money"
-  }, "475.00"))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("td", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
-    href: ""
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("img", {
-    src: "../images/text.png",
-    alt: ""
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
-    className: "wkea-index-product-product"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
-    href: ""
-  }, "\u53F2\u4E39\u5229 1650W 185mm \u7535\u5706\u952F"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("span", {
-    className: "wkea-index-product-product-symbol"
-  }, "\u00A5 ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("span", {
-    className: "wkea-index-product-product-money"
-  }, "475.00"))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("td", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
-    href: ""
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("img", {
-    src: "../images/text.png",
-    alt: ""
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
-    className: "wkea-index-product-product"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
-    href: ""
-  }, "\u53F2\u4E39\u5229 1650W 185mm \u7535\u5706\u952F"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("span", {
-    className: "wkea-index-product-product-symbol"
-  }, "\u00A5 ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("span", {
-    className: "wkea-index-product-product-money"
-  }, "475.00"))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("td", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
-    href: ""
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("img", {
-    src: "../images/text.png",
-    alt: ""
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
-    className: "wkea-index-product-product"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
-    href: ""
-  }, "\u53F2\u4E39\u5229 1650W 185mm \u7535\u5706\u952F"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("span", {
-    className: "wkea-index-product-product-symbol"
-  }, "\u00A5 ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("span", {
-    className: "wkea-index-product-product-money"
-  }, "475.00")))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("tr", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("td", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
-    href: ""
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("img", {
-    src: "../images/text.png",
-    alt: ""
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
-    className: "wkea-index-product-product"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
-    href: ""
-  }, "\u53F2\u4E39\u5229 1650W 185mm \u7535\u5706\u952F"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("span", {
-    className: "wkea-index-product-product-symbol"
-  }, "\u00A5 ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("span", {
-    className: "wkea-index-product-product-money"
-  }, "475.00"))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("td", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
-    href: ""
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("img", {
-    src: "../images/text.png",
-    alt: ""
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
-    className: "wkea-index-product-product"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("span", {
-    className: "wkea-index-product-product-symbol"
-  }, "\u00A5 ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("span", {
-    className: "wkea-index-product-product-money"
-  }, "475.00"))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("td", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
-    href: ""
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("img", {
-    src: "../images/text.png",
-    alt: ""
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
-    className: "wkea-index-product-product"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
-    href: ""
-  }, "\u53F2\u4E39\u5229 1650W 185mm \u7535\u5706\u952F"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("span", {
-    className: "wkea-index-product-product-symbol"
-  }, "\u00A5 ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("span", {
-    className: "wkea-index-product-product-money"
-  }, "475.00"))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("td", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
-    href: ""
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("img", {
-    src: "../images/text.png",
-    alt: ""
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
-    className: "wkea-index-product-product"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
-    href: ""
-  }, "\u53F2\u4E39\u5229 1650W 185mm \u7535\u5706\u952F"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("span", {
-    className: "wkea-index-product-product-symbol"
-  }, "\u00A5 ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("span", {
-    className: "wkea-index-product-product-money"
-  }, "475.00"))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("td", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
-    href: ""
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("img", {
-    src: "../images/text.png",
-    alt: ""
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
-    className: "wkea-index-product-product"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
-    href: ""
-  }, "\u53F2\u4E39\u5229 1650W 185mm \u7535\u5706\u952F"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("span", {
-    className: "wkea-index-product-product-symbol"
-  }, "\u00A5 ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("span", {
-    className: "wkea-index-product-product-money"
-  }, "475.00")))))))));
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("table", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("tr", null, products), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("tr", null, productshow)))));
 });
 
 /***/ }),
@@ -14345,7 +13804,7 @@ var defineProperty = __webpack_require__("./node_modules/@babel/runtime/helpers/
 // EXTERNAL MODULE: ./node_modules/tslib/tslib.es6.js
 var tslib_es6 = __webpack_require__("./node_modules/tslib/tslib.es6.js");
 
-// EXTERNAL MODULE: ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/index.js + 38 modules
+// EXTERNAL MODULE: ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/index.js + 37 modules
 var lib = __webpack_require__("./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/index.js");
 
 // EXTERNAL MODULE: ./node_modules/@msdyn365-commerce-modules/utilities/dist/lib/index.js
@@ -14696,12 +14155,15 @@ Object(tslib_es6["__decorate"])([mobx_module["computed"]], navigation_menu_Navig
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NavigationMenuView", function() { return NavigationMenuView; });
-/* harmony import */ var core_js_modules_web_dom_collections_iterator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! core-js/modules/web.dom-collections.iterator.js */ "./node_modules/@msdyn365-commerce/bootloader/node_modules/core-js/modules/web.dom-collections.iterator.js");
-/* harmony import */ var core_js_modules_web_dom_collections_iterator_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_web_dom_collections_iterator_js__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var lodash_uniq__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! lodash/uniq */ "./node_modules/lodash/uniq.js");
-/* harmony import */ var lodash_uniq__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(lodash_uniq__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var core_js_modules_es_string_replace_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! core-js/modules/es.string.replace.js */ "./node_modules/@msdyn365-commerce/bootloader/node_modules/core-js/modules/es.string.replace.js");
+/* harmony import */ var core_js_modules_es_string_replace_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_string_replace_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var core_js_modules_web_dom_collections_iterator_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! core-js/modules/web.dom-collections.iterator.js */ "./node_modules/@msdyn365-commerce/bootloader/node_modules/core-js/modules/web.dom-collections.iterator.js");
+/* harmony import */ var core_js_modules_web_dom_collections_iterator_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_web_dom_collections_iterator_js__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var lodash_uniq__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! lodash/uniq */ "./node_modules/lodash/uniq.js");
+/* harmony import */ var lodash_uniq__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(lodash_uniq__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_3__);
+
 
 
 
@@ -14716,7 +14178,7 @@ __webpack_require__.r(__webpack_exports__);
  * NavigationMenuView component
  * @extends {React.PureComponent<INavigationMenuViewProps>}
  */
-class NavigationMenuView extends react__WEBPACK_IMPORTED_MODULE_2__["PureComponent"] {
+class NavigationMenuView extends react__WEBPACK_IMPORTED_MODULE_3__["PureComponent"] {
   constructor(props) {
     super(props);
     this.state = {
@@ -14733,56 +14195,68 @@ class NavigationMenuView extends react__WEBPACK_IMPORTED_MODULE_2__["PureCompone
     } = this.props;
 
     if (!menuItemData) {
-      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"]("div", {
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3__["createElement"]("div", {
         className: "wkea-nav-menu"
       });
     }
 
-    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"]("div", {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3__["createElement"]("div", {
       className: "wkea-index-nav"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"]("div", {
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3__["createElement"]("div", {
       className: "centre"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"]("ul", {
-      className: "clear"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"]("li", {
-      className: "wkea-index-nav-li",
-      onMouseEnter: () => this._onMouseEnterHandle(menuItemData[0].id),
-      onMouseLeave: () => this._onMouseLeaveHandle(menuItemData[0].id)
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"]("a", {
-      href: menuItemData[0].linkURL
-    }, menuItemData[0].linkText), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"]("ul", {
-      className: "wkea-index-nav-ul-ul"
-    }, this._getFullMenu(menuItemData[0].subMenu, 0))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"]("li", {
-      className: "wkea-index-nav-item",
-      onMouseEnter: () => this._onMouseEnterHandle(menuItemData[1].id),
-      onMouseLeave: () => this._onMouseLeaveHandle(menuItemData[1].id)
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"]("a", {
-      href: menuItemData[0].linkURL
-    }, menuItemData[1].linkText), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"]("ul", {
-      className: "wkea-index-nav-item-ul"
-    }, this._getFullMenu(menuItemData[1].subMenu, 0))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"]("li", {
-      className: "wkea-index-nav-item",
-      onMouseEnter: () => this._onMouseEnterHandle(menuItemData[2].id),
-      onMouseLeave: () => this._onMouseLeaveHandle(menuItemData[2].id)
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"]("a", {
-      href: menuItemData[0].linkURL
-    }, menuItemData[2].linkText), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"]("ul", {
-      className: "wkea-index-nav-item-ul"
-    }, this._getFullMenu(menuItemData[2].subMenu, 0))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"]("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"]("a", {
-      href: ""
-    }, "\u4F9B\u5E94\u5546\u5408\u4F5C")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"]("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"]("a", {
-      href: "wkea-sale.html"
-    }, "\u552E\u540E\u670D\u52A1")))));
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3__["createElement"]("ul", {
+      className: "clear wkea-index-nav-ul"
+    }, this._getListMenu(menuItemData, 0))));
+  }
+
+  _getListMenu(menu) {
+    let count = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 0;
+
+    if (!menu) {
+      return [/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3__["createElement"]("div", {
+        className: "wkea-nav-menu-item"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3__["createElement"]("a", {
+        href: "javascropt:void(0)",
+        className: "nodata"
+      }, "\u6682\u65E0\u5185\u5BB9"))];
+    }
+
+    const result = [];
+    count++;
+    menu = menu.filter(v => v.id);
+
+    for (let i = 0; i < menu.length; i++) {
+      const v = menu[i];
+
+      (count => {
+        result.push( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3__["createElement"]("li", {
+          className: "".concat(this.state.activeIds.find(n => n === v.id) ? 'wkea-index-nav-active' : ''),
+          onMouseEnter: () => this._onMouseEnterHandle(v.id),
+          onMouseLeave: () => this._onMouseLeaveHandle(v.id)
+        }, i === 0 ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3__["createElement"]("a", {
+          className: "wkea-index-nav-a",
+          href: v.linkURL
+        }, v.linkText) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3__["createElement"]("a", {
+          className: "",
+          href: v.linkURL
+        }, v.linkText), v.subMenu && v.subMenu.length && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3__["createElement"]("ul", {
+          className: "clearboth"
+        }, this._getFullMenu(v.subMenu, count)) || ''));
+      })(count);
+    }
+
+    return result;
   }
 
   _getFullMenu(menu) {
     let count = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 0;
 
     if (!menu) {
-      return [/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"]("li", {
-        className: "wkea-index-nav-ul-ul-li"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"]("a", {
-        href: "javascropt:void(0)"
+      return [/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3__["createElement"]("div", {
+        className: "wkea-nav-menu-item"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3__["createElement"]("a", {
+        href: "javascropt:void(0)",
+        className: "nodata"
       }, "\u6682\u65E0\u5185\u5BB9"))];
     }
 
@@ -14794,60 +14268,25 @@ class NavigationMenuView extends react__WEBPACK_IMPORTED_MODULE_2__["PureCompone
       const v = menu[i];
 
       if (v.subMenu) {
-        (count => {
-          result.push( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"]("li", {
-            className: "wkea-index-nav-ul-ul-li".concat(this.state.activeIds.find(n => n === v.id) ? ' act' : ''),
-            onMouseEnter: () => this._onMouseEnterHandle(v.id),
-            onMouseLeave: () => this._onMouseLeaveHandle(v.id)
-          }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"]("ul", {
-            className: "clear"
-          }, this._getFullMenu2(v.subMenu, count)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"]("a", {
-            href: v.linkURL
-          }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"]("div", {
-            className: "clearfix"
-          }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"]("div", {
-            className: "float-left"
-          }, v.linkText)))));
-        })(count);
+        if (String(v.linkText).replace(/(^\s*)|(\s*$)/g, '').replace(/[\r\n]/g, '') === '') {} else {
+          (count => {
+            result.push( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3__["createElement"]("li", {
+              className: "".concat(this.state.activeIds.find(n => n === v.id) ? 'wkea-index-nav-active' : ''),
+              onMouseEnter: () => this._onMouseEnterHandle(v.id),
+              onMouseLeave: () => this._onMouseLeaveHandle(v.id)
+            }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3__["createElement"]("a", {
+              className: "",
+              href: v.linkURL
+            }, v.linkText), v.subMenu && v.subMenu.length && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3__["createElement"]("ul", null, this._getFullMenu(v.subMenu, count)) || ''));
+          })(count);
+        }
       } else {
         (count => {
-          result.push( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"]("li", {
-            className: "wkea-index-nav-ul-ul-li".concat(this.state.activeIds.find(n => n === v.id) ? ' act' : ''),
+          result.push( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3__["createElement"]("li", {
+            className: "".concat(this.state.activeIds.find(n => n === v.id) ? 'wkea-index-nav-activect' : ''),
             onMouseEnter: () => this._onMouseEnterHandle(v.id),
             onMouseLeave: () => this._onMouseLeaveHandle(v.id)
-          }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"]("a", {
-            href: v.linkURL
-          }, v.linkText)));
-        })(count);
-      }
-    }
-
-    return result;
-  }
-
-  _getFullMenu2(menu) {
-    let count = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 0;
-
-    if (!menu) {
-      return [/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"]("a", {
-        href: "javascropt:void(0)"
-      }, "\u6682\u65E0\u5185\u5BB9")];
-    }
-
-    const result = [];
-    count++;
-    menu = menu.filter(v => v.id);
-
-    for (let i = 0; i < menu.length; i++) {
-      const v = menu[i];
-
-      if (v.linkText) {
-        (count => {
-          result.push( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"]("li", {
-            className: "wkea".concat(this.state.activeIds.find(n => n === v.id) ? ' act' : ''),
-            onMouseEnter: () => this._onMouseEnterHandle(v.id),
-            onMouseLeave: () => this._onMouseLeaveHandle(v.id)
-          }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"]("a", {
+          }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3__["createElement"]("a", {
             href: v.linkURL
           }, v.linkText)));
         })(count);
@@ -14884,7 +14323,7 @@ class NavigationMenuView extends react__WEBPACK_IMPORTED_MODULE_2__["PureCompone
     }
 
     const state = {
-      activeIds: lodash_uniq__WEBPACK_IMPORTED_MODULE_1___default()([...this.state.activeIds, id]),
+      activeIds: lodash_uniq__WEBPACK_IMPORTED_MODULE_2___default()([...this.state.activeIds, id]),
       closeTimeOut: this.state.closeTimeOut.filter(v => v.id !== id),
       itemIndexs: _itemIndexs,
       currentIndex: newIndex
@@ -18545,7 +17984,7 @@ var external_React_ = __webpack_require__("react");
 // EXTERNAL MODULE: ./node_modules/@msdyn365-commerce/bootloader/node_modules/core-js/modules/web.dom-collections.iterator.js
 var web_dom_collections_iterator = __webpack_require__("./node_modules/@msdyn365-commerce/bootloader/node_modules/core-js/modules/web.dom-collections.iterator.js");
 
-// EXTERNAL MODULE: ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/index.js + 38 modules
+// EXTERNAL MODULE: ./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/index.js + 37 modules
 var retail_actions_dist_lib = __webpack_require__("./node_modules/@msdyn365-commerce-modules/retail-actions/dist/lib/index.js");
 
 // EXTERNAL MODULE: ./node_modules/@msdyn365-commerce/retail-proxy/dist/DataActions/StoreOperationsDataActions.g.js

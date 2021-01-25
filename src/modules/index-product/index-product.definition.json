@@ -6,6 +6,10 @@
     "categories": ["index-product"],
     "tags": ["Additional tags go here"],
     "dataActions": {        
+        "products": {
+            "path": "@msdyn365-commerce-modules/retail-actions/dist/lib/get-simple-products",
+            "runOn": "server"
+        }
     },    
     "config": {
         "showText": {
@@ -15,6 +19,13 @@
             "default": "Example Config Value",
             "scope": "module",
             "group": "Layout Properties"
+        },
+        "productIds": {
+            "friendlyName": "Product ID",
+            "description": "Provide a Product Id that the module will display",
+            "type": "string",
+            "scope": "module",
+            "group": "Content Properties"
         }
     },
     "resources": {
