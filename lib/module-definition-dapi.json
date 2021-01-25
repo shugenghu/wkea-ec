@@ -81,161 +81,6 @@
     },
     "type": "contentModule"
   },
-  "account-profile-edit": {
-    "friendlyName": "User profile edit",
-    "name": "account-profile-edit",
-    "description": "Allows users to edit account information.",
-    "categories": [
-      "AzureActiveDirectoryModules"
-    ],
-    "config": {
-      "heading": {
-        "friendlyName": "Heading",
-        "description": "Module heading",
-        "required": true,
-        "type": "object",
-        "properties": {
-          "text": {
-            "type": "string",
-            "friendlyName": "Heading Text",
-            "description": "Heading Text",
-            "default": "Heading",
-            "required": true
-          },
-          "tag": {
-            "type": "string",
-            "friendlyName": "Heading Level",
-            "description": "Heading Tag",
-            "enum": {
-              "h1": "H1",
-              "h2": "H2",
-              "h3": "H3",
-              "h4": "H4",
-              "h5": "H5",
-              "h6": "H6"
-            },
-            "default": "h2"
-          }
-        }
-      },
-      "showEmail": {
-        "friendlyName": "Show email",
-        "description": "Show email",
-        "type": "boolean",
-        "default": true,
-        "scope": "module"
-      },
-      "className": {
-        "friendlyName": "Custom CSS class name",
-        "description": "Provide a custom css class name defined in the theme pack to target the CSS for this module",
-        "type": "string",
-        "default": ""
-      }
-    },
-    "resources": {
-      "firstNameLabelText": {
-        "value": "First name *",
-        "comment": "Text display as label for first name textbox."
-      },
-      "firstNameMaxLength": {
-        "comment": "Maximum number for character is allowed for first name.",
-        "value": "20"
-      },
-      "lastNameLabelText": {
-        "value": "Last name *",
-        "comment": "Text display as label for last name textbox."
-      },
-      "lastNameMaxLength": {
-        "comment": "Maximum number for character is allowed for first name.",
-        "value": "20"
-      },
-      "emailAddressLabelText": {
-        "value": "Email address",
-        "comment": "Text display as label for email address textbox."
-      },
-      "saveButtonText": {
-        "value": "Save",
-        "comment": "Save button text."
-      },
-      "saveButtonAriaLabel": {
-        "value": "Save",
-        "comment": "Save button aria label."
-      },
-      "cancelButtonText": {
-        "value": "Cancel",
-        "comment": "Cancel button text."
-      },
-      "cancelButtonAriaLabel": {
-        "value": "Cancel",
-        "comment": "Cancel button aria label."
-      },
-      "requiredFieldMissingSummaryError": {
-        "value": "A required field is missing. Please fill out all required fields and try again.",
-        "comment": "Field missing error summary."
-      },
-      "requiredFieldMissingError": {
-        "value": "This information is required.",
-        "comment": "Field missing error message."
-      },
-      "fieldIncorrectError": {
-        "value": "One or more fields are filled out incorrectly. Please check your entries and try again.",
-        "comment": "Field incorrect error message."
-      },
-      "invalidEmailAddressError": {
-        "value": "Please enter a valid email address.",
-        "comment": "Email address invalid field error message."
-      },
-      "loadingMessage": {
-        "value": "Please wait.",
-        "comment": "Loading message."
-      }
-    },
-    "type": "contentModule"
-  },
-  "back-top-footer": {
-    "friendlyName": "Back to top",
-    "name": "back-top-footer",
-    "description": "Back to top allows quick navigation to the top of the page",
-    "categories": [
-      "footer"
-    ],
-    "attributes": {
-      "private": true
-    },
-    "config": {
-      "backtoTopText": {
-        "friendlyName": "Text",
-        "description": "Text displayed in the back to top module",
-        "type": "string",
-        "scope": "module"
-      },
-      "destination": {
-        "friendlyName": "Destination",
-        "description": "Sets the #href to treat as the top and jump to. Must start with #",
-        "type": "string",
-        "scope": "module"
-      },
-      "ariaLabel": {
-        "friendlyName": "Aria label",
-        "description": "Back to top aria label value",
-        "type": "string",
-        "scope": "module"
-      },
-      "title": {
-        "friendlyName": "Tooltip",
-        "description": "Tooltip for Back to top button",
-        "type": "string",
-        "scope": "module"
-      },
-      "className": {
-        "friendlyName": "Custom CSS class name",
-        "description": "Provide a custom css class name defined in the theme pack to target the CSS for this module",
-        "type": "string",
-        "default": ""
-      }
-    },
-    "type": "contentModule"
-  },
   "business-sign-up": {
     "friendlyName": "Partner Sign up",
     "name": "business-sign-up",
@@ -501,6 +346,161 @@
     },
     "type": "htmlHeadTagsModule"
   },
+  "back-top-footer": {
+    "friendlyName": "Back to top",
+    "name": "back-top-footer",
+    "description": "Back to top allows quick navigation to the top of the page",
+    "categories": [
+      "footer"
+    ],
+    "attributes": {
+      "private": true
+    },
+    "config": {
+      "backtoTopText": {
+        "friendlyName": "Text",
+        "description": "Text displayed in the back to top module",
+        "type": "string",
+        "scope": "module"
+      },
+      "destination": {
+        "friendlyName": "Destination",
+        "description": "Sets the #href to treat as the top and jump to. Must start with #",
+        "type": "string",
+        "scope": "module"
+      },
+      "ariaLabel": {
+        "friendlyName": "Aria label",
+        "description": "Back to top aria label value",
+        "type": "string",
+        "scope": "module"
+      },
+      "title": {
+        "friendlyName": "Tooltip",
+        "description": "Tooltip for Back to top button",
+        "type": "string",
+        "scope": "module"
+      },
+      "className": {
+        "friendlyName": "Custom CSS class name",
+        "description": "Provide a custom css class name defined in the theme pack to target the CSS for this module",
+        "type": "string",
+        "default": ""
+      }
+    },
+    "type": "contentModule"
+  },
+  "account-profile-edit": {
+    "friendlyName": "User profile edit",
+    "name": "account-profile-edit",
+    "description": "Allows users to edit account information.",
+    "categories": [
+      "AzureActiveDirectoryModules"
+    ],
+    "config": {
+      "heading": {
+        "friendlyName": "Heading",
+        "description": "Module heading",
+        "required": true,
+        "type": "object",
+        "properties": {
+          "text": {
+            "type": "string",
+            "friendlyName": "Heading Text",
+            "description": "Heading Text",
+            "default": "Heading",
+            "required": true
+          },
+          "tag": {
+            "type": "string",
+            "friendlyName": "Heading Level",
+            "description": "Heading Tag",
+            "enum": {
+              "h1": "H1",
+              "h2": "H2",
+              "h3": "H3",
+              "h4": "H4",
+              "h5": "H5",
+              "h6": "H6"
+            },
+            "default": "h2"
+          }
+        }
+      },
+      "showEmail": {
+        "friendlyName": "Show email",
+        "description": "Show email",
+        "type": "boolean",
+        "default": true,
+        "scope": "module"
+      },
+      "className": {
+        "friendlyName": "Custom CSS class name",
+        "description": "Provide a custom css class name defined in the theme pack to target the CSS for this module",
+        "type": "string",
+        "default": ""
+      }
+    },
+    "resources": {
+      "firstNameLabelText": {
+        "value": "First name *",
+        "comment": "Text display as label for first name textbox."
+      },
+      "firstNameMaxLength": {
+        "comment": "Maximum number for character is allowed for first name.",
+        "value": "20"
+      },
+      "lastNameLabelText": {
+        "value": "Last name *",
+        "comment": "Text display as label for last name textbox."
+      },
+      "lastNameMaxLength": {
+        "comment": "Maximum number for character is allowed for first name.",
+        "value": "20"
+      },
+      "emailAddressLabelText": {
+        "value": "Email address",
+        "comment": "Text display as label for email address textbox."
+      },
+      "saveButtonText": {
+        "value": "Save",
+        "comment": "Save button text."
+      },
+      "saveButtonAriaLabel": {
+        "value": "Save",
+        "comment": "Save button aria label."
+      },
+      "cancelButtonText": {
+        "value": "Cancel",
+        "comment": "Cancel button text."
+      },
+      "cancelButtonAriaLabel": {
+        "value": "Cancel",
+        "comment": "Cancel button aria label."
+      },
+      "requiredFieldMissingSummaryError": {
+        "value": "A required field is missing. Please fill out all required fields and try again.",
+        "comment": "Field missing error summary."
+      },
+      "requiredFieldMissingError": {
+        "value": "This information is required.",
+        "comment": "Field missing error message."
+      },
+      "fieldIncorrectError": {
+        "value": "One or more fields are filled out incorrectly. Please check your entries and try again.",
+        "comment": "Field incorrect error message."
+      },
+      "invalidEmailAddressError": {
+        "value": "Please enter a valid email address.",
+        "comment": "Email address invalid field error message."
+      },
+      "loadingMessage": {
+        "value": "Please wait.",
+        "comment": "Loading message."
+      }
+    },
+    "type": "contentModule"
+  },
   "checkout-section-container": {
     "friendlyName": "Checkout section container",
     "name": "checkout-section-container",
@@ -762,6 +762,37 @@
     },
     "type": "contentModule"
   },
+  "default-inline-script": {
+    "friendlyName": "Inline script",
+    "name": "default-inline-script",
+    "description": "Used to insert inline scripts into the page",
+    "categories": [
+      "Script",
+      "HTML head"
+    ],
+    "tags": [
+      "script",
+      "sdk-modules",
+      "inline"
+    ],
+    "attributes": {
+      "allowInBodyBegin": true,
+      "allowInBodyEnd": true,
+      "allowInHead": true
+    },
+    "config": {
+      "inlineScript": {
+        "friendlyName": "Inline script",
+        "description": "The collection of scripting statements that will be inserted inline into script tags",
+        "type": "string",
+        "group": "script tag",
+        "required": true,
+        "editorStyle": "multiLineText",
+        "format": "multiLineText"
+      }
+    },
+    "type": "scriptModule"
+  },
   "default-external-script": {
     "friendlyName": "External script",
     "name": "default-external-script",
@@ -799,37 +830,6 @@
         "description": "Specifies that the script is executed when the page has finished parsing",
         "type": "boolean",
         "default": false
-      }
-    },
-    "type": "scriptModule"
-  },
-  "default-inline-script": {
-    "friendlyName": "Inline script",
-    "name": "default-inline-script",
-    "description": "Used to insert inline scripts into the page",
-    "categories": [
-      "Script",
-      "HTML head"
-    ],
-    "tags": [
-      "script",
-      "sdk-modules",
-      "inline"
-    ],
-    "attributes": {
-      "allowInBodyBegin": true,
-      "allowInBodyEnd": true,
-      "allowInHead": true
-    },
-    "config": {
-      "inlineScript": {
-        "friendlyName": "Inline script",
-        "description": "The collection of scripting statements that will be inserted inline into script tags",
-        "type": "string",
-        "group": "script tag",
-        "required": true,
-        "editorStyle": "multiLineText",
-        "format": "multiLineText"
       }
     },
     "type": "scriptModule"
@@ -909,6 +909,102 @@
     },
     "type": "pageModule"
   },
+  "fabrikam": {
+    "friendlyName": "Fabrikam",
+    "name": "fabrikam",
+    "description": "This is fabrikam-theme theme.",
+    "type": "themeModule"
+  },
+  "footer-item": {
+    "friendlyName": "Footer item",
+    "name": "footer-item",
+    "description": "Footer with a heading a list of links.",
+    "categories": [
+      "footer"
+    ],
+    "moduleGroup": "footer",
+    "attributes": {
+      "private": true
+    },
+    "config": {
+      "heading": {
+        "friendlyName": "Heading",
+        "description": "Footer item title",
+        "type": "object",
+        "properties": {
+          "text": {
+            "type": "string",
+            "friendlyName": "Heading Text",
+            "description": "Heading Text",
+            "default": "Heading",
+            "required": true
+          },
+          "tag": {
+            "type": "string",
+            "friendlyName": "Heading Level",
+            "description": "Heading Tag",
+            "enum": {
+              "h1": "H1",
+              "h2": "H2",
+              "h3": "H3",
+              "h4": "H4",
+              "h5": "H5",
+              "h6": "H6"
+            },
+            "default": "h2"
+          }
+        }
+      },
+      "link": {
+        "friendlyName": "Link",
+        "description": "Footer item link",
+        "type": "object",
+        "properties": {
+          "linkText": {
+            "type": "string",
+            "friendlyName": "Link text",
+            "description": "Text for call to action link",
+            "default": "Link text "
+          },
+          "linkUrl": {
+            "type": "link",
+            "friendlyName": "Link target",
+            "description": "Destination url for link",
+            "required": true
+          },
+          "ariaLabel": {
+            "type": "string",
+            "friendlyName": "Link aria label",
+            "description": "Aria Label for link",
+            "default": ""
+          },
+          "openInNewTab": {
+            "type": "boolean",
+            "friendlyName": "Open in new tab",
+            "description": "Open the link in a new tab",
+            "default": false
+          }
+        }
+      },
+      "image": {
+        "friendlyName": "Image",
+        "description": "Footer item image",
+        "type": "image"
+      },
+      "text": {
+        "friendlyName": "Text",
+        "description": "Footer item text",
+        "type": "string"
+      },
+      "className": {
+        "friendlyName": "Custom CSS class name",
+        "description": "Provide a custom css class name defined in the theme pack to target the CSS for this module",
+        "type": "string",
+        "default": ""
+      }
+    },
+    "type": "moduleDefinition"
+  },
   "footer-category": {
     "friendlyName": "Footer category",
     "name": "footer-category",
@@ -943,12 +1039,6 @@
       }
     },
     "type": "containerModule"
-  },
-  "fabrikam": {
-    "friendlyName": "Fabrikam",
-    "name": "fabrikam",
-    "description": "This is fabrikam-theme theme.",
-    "type": "themeModule"
   },
   "gift-card-balance-check": {
     "friendlyName": "gift-card-balance-check",
@@ -1051,96 +1141,6 @@
       }
     },
     "type": "contentModule"
-  },
-  "footer-item": {
-    "friendlyName": "Footer item",
-    "name": "footer-item",
-    "description": "Footer with a heading a list of links.",
-    "categories": [
-      "footer"
-    ],
-    "moduleGroup": "footer",
-    "attributes": {
-      "private": true
-    },
-    "config": {
-      "heading": {
-        "friendlyName": "Heading",
-        "description": "Footer item title",
-        "type": "object",
-        "properties": {
-          "text": {
-            "type": "string",
-            "friendlyName": "Heading Text",
-            "description": "Heading Text",
-            "default": "Heading",
-            "required": true
-          },
-          "tag": {
-            "type": "string",
-            "friendlyName": "Heading Level",
-            "description": "Heading Tag",
-            "enum": {
-              "h1": "H1",
-              "h2": "H2",
-              "h3": "H3",
-              "h4": "H4",
-              "h5": "H5",
-              "h6": "H6"
-            },
-            "default": "h2"
-          }
-        }
-      },
-      "link": {
-        "friendlyName": "Link",
-        "description": "Footer item link",
-        "type": "object",
-        "properties": {
-          "linkText": {
-            "type": "string",
-            "friendlyName": "Link text",
-            "description": "Text for call to action link",
-            "default": "Link text "
-          },
-          "linkUrl": {
-            "type": "link",
-            "friendlyName": "Link target",
-            "description": "Destination url for link",
-            "required": true
-          },
-          "ariaLabel": {
-            "type": "string",
-            "friendlyName": "Link aria label",
-            "description": "Aria Label for link",
-            "default": ""
-          },
-          "openInNewTab": {
-            "type": "boolean",
-            "friendlyName": "Open in new tab",
-            "description": "Open the link in a new tab",
-            "default": false
-          }
-        }
-      },
-      "image": {
-        "friendlyName": "Image",
-        "description": "Footer item image",
-        "type": "image"
-      },
-      "text": {
-        "friendlyName": "Text",
-        "description": "Footer item text",
-        "type": "string"
-      },
-      "className": {
-        "friendlyName": "Custom CSS class name",
-        "description": "Provide a custom css class name defined in the theme pack to target the CSS for this module",
-        "type": "string",
-        "default": ""
-      }
-    },
-    "type": "moduleDefinition"
   },
   "iframe": {
     "friendlyName": "iframe",
@@ -1364,47 +1364,6 @@
     },
     "type": "contentModule"
   },
-  "place-holder-for-container-preview": {
-    "friendlyName": "Container Slot Placeholder",
-    "name": "place-holder-for-container-preview",
-    "description": "Placeholder used for previewing the container slot",
-    "categories": [
-      "sdk-modules"
-    ],
-    "attributes": {
-      "private": true
-    },
-    "config": {
-      "slotId": {
-        "type": "string",
-        "friendlyName": "Slot Id",
-        "description": "Slot Id",
-        "editable": false
-      },
-      "parent": {
-        "type": "string",
-        "friendlyName": "Parent module id",
-        "description": "Parent module id",
-        "editable": false
-      },
-      "parentType": {
-        "type": "string",
-        "friendlyName": "Parent module type",
-        "description": "Parent module type",
-        "editable": false
-      }
-    },
-    "tags": [
-      "sdk-modules"
-    ],
-    "resources": {
-      "clickToConfigure": {
-        "comment": "Localized 'click here to configure' string.",
-        "value": "Click here to configure"
-      }
-    },
-    "type": "contentModule"
-  },
   "password-reset-verification": {
     "friendlyName": "Password verification",
     "name": "password-reset-verification",
@@ -1545,6 +1504,47 @@
       "loadingMessage": {
         "value": "Please wait.",
         "comment": "Loading message."
+      }
+    },
+    "type": "contentModule"
+  },
+  "place-holder-for-container-preview": {
+    "friendlyName": "Container Slot Placeholder",
+    "name": "place-holder-for-container-preview",
+    "description": "Placeholder used for previewing the container slot",
+    "categories": [
+      "sdk-modules"
+    ],
+    "attributes": {
+      "private": true
+    },
+    "config": {
+      "slotId": {
+        "type": "string",
+        "friendlyName": "Slot Id",
+        "description": "Slot Id",
+        "editable": false
+      },
+      "parent": {
+        "type": "string",
+        "friendlyName": "Parent module id",
+        "description": "Parent module id",
+        "editable": false
+      },
+      "parentType": {
+        "type": "string",
+        "friendlyName": "Parent module type",
+        "description": "Parent module type",
+        "editable": false
+      }
+    },
+    "tags": [
+      "sdk-modules"
+    ],
+    "resources": {
+      "clickToConfigure": {
+        "comment": "Localized 'click here to configure' string.",
+        "value": "Click here to configure"
       }
     },
     "type": "contentModule"
@@ -1823,6 +1823,60 @@
       }
     },
     "type": "contentModule"
+  },
+  "script-injector": {
+    "friendlyName": "Script injector (Deprecated)",
+    "name": "script-injector",
+    "description": "This module is deprecated. Please use 'Inline Script' or 'External Script' modules instead",
+    "categories": [
+      "SEO",
+      "HTML head"
+    ],
+    "tags": [
+      "script",
+      "sdk-modules"
+    ],
+    "attributes": {
+      "private": true,
+      "allowInBodyBegin": true,
+      "allowInBodyEnd": true,
+      "allowInHead": true,
+      "deprecate": true
+    },
+    "config": {
+      "scriptSource": {
+        "friendlyName": "Script tags",
+        "description": "script source or inline script",
+        "type": "string",
+        "group": "script tag",
+        "editorStyle": "multiLineText",
+        "format": "multiLineText"
+      },
+      "async": {
+        "friendlyName": "execute script asynchronously",
+        "description": "specifies that the script is executed asynchronously",
+        "type": "boolean",
+        "default": false
+      },
+      "defer": {
+        "friendlyName": "defer script execution",
+        "description": "Specifies that the script is executed when the page has finished parsing",
+        "type": "boolean",
+        "default": false
+      },
+      "loadPoint": {
+        "friendlyName": "script load point",
+        "description": "load point in the html document where script tag should be loaded",
+        "type": "string",
+        "enum": {
+          "headStart": "headStart",
+          "headEnd": "headEnd",
+          "bodyStart": "bodyStart",
+          "bodyEnd": "bodyEnd"
+        }
+      }
+    },
+    "type": "scriptModule"
   },
   "sign-in": {
     "friendlyName": "Sign in",
@@ -2276,6 +2330,41 @@
     },
     "type": "contentModule"
   },
+  "spacer": {
+    "friendlyName": "Spacer",
+    "name": "spacer",
+    "description": "Spacer module is used to define space between modules",
+    "categories": [
+      "Promotions",
+      "Marketing"
+    ],
+    "config": {
+      "className": {
+        "friendlyName": "Custom CSS class name",
+        "description": "Provide a custom css class name defined in the theme pack to target the CSS for this module",
+        "type": "string"
+      },
+      "spacerHeight": {
+        "friendlyName": "Spacer height",
+        "description": "Provide height to the spacer",
+        "type": "string",
+        "enum": {
+          "spacer1x": "1x",
+          "spacer2x": "2x",
+          "spacer3x": "3x",
+          "spacer4x": "4x",
+          "spacer5x": "5x",
+          "spacer6x": "6x",
+          "spacer7x": "7x",
+          "spacer8x": "8x",
+          "spacer9x": "9x",
+          "spacer10x": "10x"
+        },
+        "scope": "module"
+      }
+    },
+    "type": "contentModule"
+  },
   "social-share": {
     "friendlyName": "SocialShare",
     "name": "social-share",
@@ -2355,47 +2444,6 @@
     },
     "type": "contentModule"
   },
-  "spacer": {
-    "friendlyName": "Spacer",
-    "name": "spacer",
-    "description": "Spacer module is used to define space between modules",
-    "categories": [
-      "Promotions",
-      "Marketing"
-    ],
-    "config": {
-      "className": {
-        "friendlyName": "Custom CSS class name",
-        "description": "Provide a custom css class name defined in the theme pack to target the CSS for this module",
-        "type": "string"
-      },
-      "spacerHeight": {
-        "friendlyName": "Spacer height",
-        "description": "Provide height to the spacer",
-        "type": "string",
-        "enum": {
-          "spacer1x": "1x",
-          "spacer2x": "2x",
-          "spacer3x": "3x",
-          "spacer4x": "4x",
-          "spacer5x": "5x",
-          "spacer6x": "6x",
-          "spacer7x": "7x",
-          "spacer8x": "8x",
-          "spacer9x": "9x",
-          "spacer10x": "10x"
-        },
-        "scope": "module"
-      }
-    },
-    "type": "contentModule"
-  },
-  "starter": {
-    "friendlyName": "Starter",
-    "name": "starter",
-    "description": "This is starter theme.",
-    "type": "themeModule"
-  },
   "text-block": {
     "friendlyName": "Text block",
     "name": "text-block",
@@ -2417,6 +2465,12 @@
       }
     },
     "type": "contentModule"
+  },
+  "starter": {
+    "friendlyName": "Starter",
+    "name": "starter",
+    "description": "This is starter theme.",
+    "type": "themeModule"
   },
   "video-player": {
     "friendlyName": "Video player",
@@ -2563,59 +2617,100 @@
     },
     "type": "contentModule"
   },
-  "script-injector": {
-    "friendlyName": "Script injector (Deprecated)",
-    "name": "script-injector",
-    "description": "This module is deprecated. Please use 'Inline Script' or 'External Script' modules instead",
+  "accordion": {
+    "friendlyName": "Accordion",
+    "name": "accordion",
+    "description": "An accordion module expands in place to show additional information. Any content can be placed inside this module.",
     "categories": [
-      "SEO",
-      "HTML head"
+      "Organize"
     ],
-    "tags": [
-      "script",
-      "sdk-modules"
-    ],
-    "attributes": {
-      "private": true,
-      "allowInBodyBegin": true,
-      "allowInBodyEnd": true,
-      "allowInHead": true,
-      "deprecate": true
-    },
-    "config": {
-      "scriptSource": {
-        "friendlyName": "Script tags",
-        "description": "script source or inline script",
-        "type": "string",
-        "group": "script tag",
-        "editorStyle": "multiLineText",
-        "format": "multiLineText"
-      },
-      "async": {
-        "friendlyName": "execute script asynchronously",
-        "description": "specifies that the script is executed asynchronously",
-        "type": "boolean",
-        "default": false
-      },
-      "defer": {
-        "friendlyName": "defer script execution",
-        "description": "Specifies that the script is executed when the page has finished parsing",
-        "type": "boolean",
-        "default": false
-      },
-      "loadPoint": {
-        "friendlyName": "script load point",
-        "description": "load point in the html document where script tag should be loaded",
-        "type": "string",
-        "enum": {
-          "headStart": "headStart",
-          "headEnd": "headEnd",
-          "bodyStart": "bodyStart",
-          "bodyEnd": "bodyEnd"
-        }
+    "slots": {
+      "accordionItems": {
+        "friendlyName": "Accordion item slot",
+        "description": "Accordion item slot",
+        "allowedTypes": [
+          "accordion-item"
+        ],
+        "min": 1,
+        "max": 99
       }
     },
-    "type": "scriptModule"
+    "config": {
+      "heading": {
+        "friendlyName": "Heading",
+        "description": "Module heading",
+        "type": "object",
+        "properties": {
+          "text": {
+            "type": "string",
+            "friendlyName": "Heading Text",
+            "description": "Heading Text",
+            "default": "Heading",
+            "required": true
+          },
+          "tag": {
+            "type": "string",
+            "friendlyName": "Heading Level",
+            "description": "Heading Tag",
+            "enum": {
+              "h1": "H1",
+              "h2": "H2",
+              "h3": "H3",
+              "h4": "H4",
+              "h5": "H5",
+              "h6": "H6"
+            },
+            "default": "h2"
+          }
+        }
+      },
+      "showToggleAll": {
+        "friendlyName": "Show expand all",
+        "description": "If true shows an option to expand or collapse all items in the Accordion",
+        "type": "boolean",
+        "default": true,
+        "required": false,
+        "scope": "module"
+      },
+      "interactionStyle": {
+        "friendlyName": "Interaction style",
+        "description": "Defines if accordion items can be expanded independently or if expanding one collapses the other",
+        "type": "string",
+        "enum": {
+          "Independent": "Independent",
+          "ExpandOneItemOnly": "Expand one item only"
+        },
+        "default": "Independent",
+        "scope": "module"
+      },
+      "className": {
+        "friendlyName": "Class name for the module",
+        "description": "Class name for the module",
+        "type": "string",
+        "default": ""
+      }
+    },
+    "resources": {
+      "collapseAllText": {
+        "value": "Close all",
+        "comment": "Collapse all text"
+      },
+      "expandAllText": {
+        "value": "Open all",
+        "comment": "Expand all text"
+      },
+      "toggleAllSeparator": {
+        "value": "|",
+        "comment": "Toggle all separator"
+      }
+    },
+    "dataActions": {
+      "accordionExpandedState": {
+        "path": "../../data-actions/accordion-state-data-action",
+        "runOn": "server"
+      }
+    },
+    "type": "moduleDefinition"
   },
   "accordion-item": {
     "friendlyName": "accordion-item",
@@ -2667,6 +2762,121 @@
       }
     },
     "type": "moduleDefinition"
+  },
+  "account-customer-balance-tile": {
+    "friendlyName": "account-customer-balance-tile",
+    "name": "account-customer-balance-tile",
+    "description": "The tile that displays customer balance and credit limit",
+    "categories": [
+      "account-customer-balance-tile"
+    ],
+    "tags": [
+      "tiles",
+      "balance",
+      "customer account"
+    ],
+    "dataActions": {
+      "balance": {
+        "path": "@msdyn365-commerce-modules/retail-actions/dist/lib/get-customer-balance",
+        "runOn": "server"
+      },
+      "customerInformation": {
+        "path": "@msdyn365-commerce-modules/retail-actions/dist/lib/get-customer"
+      }
+    },
+    "config": {
+      "heading": {
+        "friendlyName": "Heading",
+        "description": "Module heading",
+        "required": true,
+        "type": "object",
+        "properties": {
+          "text": {
+            "type": "string",
+            "friendlyName": "Heading Text",
+            "description": "Heading Text",
+            "default": "Heading",
+            "required": true
+          },
+          "tag": {
+            "type": "string",
+            "friendlyName": "Heading Level",
+            "description": "Heading Tag",
+            "enum": {
+              "h1": "H1",
+              "h2": "H2",
+              "h3": "H3",
+              "h4": "H4",
+              "h5": "H5",
+              "h6": "H6"
+            },
+            "default": "h2"
+          }
+        }
+      },
+      "links": {
+        "type": "array",
+        "friendlyName": "Links",
+        "description": "Configure link to customer account page",
+        "items": {
+          "type": "object",
+          "friendlyName": "Action Link",
+          "description": "Action Link property",
+          "properties": {
+            "linkText": {
+              "type": "string",
+              "friendlyName": "Link text",
+              "description": "Text for call to action link",
+              "default": "Link text "
+            },
+            "linkUrl": {
+              "type": "link",
+              "friendlyName": "Link target",
+              "description": "Destination url for link",
+              "required": true
+            },
+            "ariaLabel": {
+              "type": "string",
+              "friendlyName": "Link aria label",
+              "description": "Aria Label for link",
+              "default": ""
+            },
+            "openInNewTab": {
+              "type": "boolean",
+              "friendlyName": "Open in new tab",
+              "description": "Open the link in a new tab",
+              "default": false
+            }
+          }
+        },
+        "required": true
+      },
+      "className": {
+        "friendlyName": "Custom CSS class name",
+        "description": "Provide a custom css class name defined in the theme pack to target the CSS for this module",
+        "type": "string",
+        "default": ""
+      }
+    },
+    "resources": {
+      "accountCreditVerbagePrefix": {
+        "comment": "Prefix for the customer's account credit verbage",
+        "value": "You have"
+      },
+      "accountCreditVerbagePostfix": {
+        "comment": "Postfix for the customer's account credit verbage",
+        "value": "in account credit."
+      },
+      "apiGenericErrorMessage": {
+        "value": "There was an error retrieving your account balance.",
+        "comment": "API error notification text"
+      },
+      "noCreditErrorMessage": {
+        "value": "You do not have account credit established.",
+        "comment": "Lack of established credit error notification text"
+      }
+    },
+    "type": "contentModule"
   },
   "account-address-tile": {
     "friendlyName": "Account address tile",
@@ -2762,101 +2972,6 @@
       }
     },
     "type": "contentModule"
-  },
-  "accordion": {
-    "friendlyName": "Accordion",
-    "name": "accordion",
-    "description": "An accordion module expands in place to show additional information. Any content can be placed inside this module.",
-    "categories": [
-      "Organize"
-    ],
-    "slots": {
-      "accordionItems": {
-        "friendlyName": "Accordion item slot",
-        "description": "Accordion item slot",
-        "allowedTypes": [
-          "accordion-item"
-        ],
-        "min": 1,
-        "max": 99
-      }
-    },
-    "config": {
-      "heading": {
-        "friendlyName": "Heading",
-        "description": "Module heading",
-        "type": "object",
-        "properties": {
-          "text": {
-            "type": "string",
-            "friendlyName": "Heading Text",
-            "description": "Heading Text",
-            "default": "Heading",
-            "required": true
-          },
-          "tag": {
-            "type": "string",
-            "friendlyName": "Heading Level",
-            "description": "Heading Tag",
-            "enum": {
-              "h1": "H1",
-              "h2": "H2",
-              "h3": "H3",
-              "h4": "H4",
-              "h5": "H5",
-              "h6": "H6"
-            },
-            "default": "h2"
-          }
-        }
-      },
-      "showToggleAll": {
-        "friendlyName": "Show expand all",
-        "description": "If true shows an option to expand or collapse all items in the Accordion",
-        "type": "boolean",
-        "default": true,
-        "required": false,
-        "scope": "module"
-      },
-      "interactionStyle": {
-        "friendlyName": "Interaction style",
-        "description": "Defines if accordion items can be expanded independently or if expanding one collapses the other",
-        "type": "string",
-        "enum": {
-          "Independent": "Independent",
-          "ExpandOneItemOnly": "Expand one item only"
-        },
-        "default": "Independent",
-        "scope": "module"
-      },
-      "className": {
-        "friendlyName": "Class name for the module",
-        "description": "Class name for the module",
-        "type": "string",
-        "default": ""
-      }
-    },
-    "resources": {
-      "collapseAllText": {
-        "value": "Close all",
-        "comment": "Collapse all text"
-      },
-      "expandAllText": {
-        "value": "Open all",
-        "comment": "Expand all text"
-      },
-      "toggleAllSeparator": {
-        "value": "|",
-        "comment": "Toggle all separator"
-      }
-    },
-    "dataActions": {
-      "accordionExpandedState": {
-        "path": "../../data-actions/accordion-state-data-action",
-        "runOn": "server"
-      }
-    },
-    "type": "moduleDefinition"
   },
   "account-customer-balance": {
     "friendlyName": "Customer account balance",
@@ -3023,33 +3138,24 @@
     },
     "type": "contentModule"
   },
-  "account-customer-balance-tile": {
-    "friendlyName": "account-customer-balance-tile",
-    "name": "account-customer-balance-tile",
-    "description": "The tile that displays customer balance and credit limit",
+  "account-loyalty": {
+    "friendlyName": "Loyalty details",
+    "name": "account-loyalty",
+    "description": "Account loyalty details shows a summary of the loyalty rewards earned by the user.",
     "categories": [
-      "account-customer-balance-tile"
-    ],
-    "tags": [
-      "tiles",
-      "balance",
-      "customer account"
+      "Account management",
+      "Loyalty"
     ],
     "dataActions": {
-      "balance": {
-        "path": "@msdyn365-commerce-modules/retail-actions/dist/lib/get-customer-balance",
-        "runOn": "server"
-      },
-      "customerInformation": {
-        "path": "@msdyn365-commerce-modules/retail-actions/dist/lib/get-customer"
+      "loyaltyCard": {
+        "path": "@msdyn365-commerce-modules/retail-actions/dist/lib/get-loyalty-card"
       }
     },
     "config": {
       "heading": {
-        "friendlyName": "Heading",
-        "description": "Module heading",
-        "required": true,
         "type": "object",
+        "friendlyName": "Heading",
+        "description": "Heading property",
         "properties": {
           "text": {
             "type": "string",
@@ -3074,66 +3180,61 @@
           }
         }
       },
-      "links": {
-        "type": "array",
-        "friendlyName": "Links",
-        "description": "Configure link to customer account page",
-        "items": {
-          "type": "object",
-          "friendlyName": "Action Link",
-          "description": "Action Link property",
-          "properties": {
-            "linkText": {
-              "type": "string",
-              "friendlyName": "Link text",
-              "description": "Text for call to action link",
-              "default": "Link text "
-            },
-            "linkUrl": {
-              "type": "link",
-              "friendlyName": "Link target",
-              "description": "Destination url for link",
-              "required": true
-            },
-            "ariaLabel": {
-              "type": "string",
-              "friendlyName": "Link aria label",
-              "description": "Aria Label for link",
-              "default": ""
-            },
-            "openInNewTab": {
-              "type": "boolean",
-              "friendlyName": "Open in new tab",
-              "description": "Open the link in a new tab",
-              "default": false
-            }
-          }
-        },
-        "required": true
-      },
       "className": {
+        "type": "string",
         "friendlyName": "Custom CSS class name",
         "description": "Provide a custom css class name defined in the theme pack to target the CSS for this module",
-        "type": "string",
-        "default": ""
+        "default": "account-loyalty"
       }
     },
     "resources": {
-      "accountCreditVerbagePrefix": {
-        "comment": "Prefix for the customer's account credit verbage",
-        "value": "You have"
+      "loyaltyCardLabel": {
+        "comment": "Label for loyalty card",
+        "value": "Loyalty card"
       },
-      "accountCreditVerbagePostfix": {
-        "comment": "Postfix for the customer's account credit verbage",
-        "value": "in account credit."
+      "joinDateFormatted": {
+        "comment": "Format text to show when the user joined the program",
+        "value": "Member since {0}"
       },
-      "apiGenericErrorMessage": {
-        "value": "There was an error retrieving your account balance.",
-        "comment": "API error notification text"
+      "totalAvailablePointsLabel": {
+        "comment": "Label for total amount of available loyalty points",
+        "value": "Total available points"
       },
-      "noCreditErrorMessage": {
-        "value": "You do not have account credit established.",
-        "comment": "Lack of established credit error notification text"
+      "expiringPointsFormatLabel": {
+        "comment": "Format label for expirign points",
+        "value": "Expiring points within {0} days"
+      },
+      "availablePointsLabel": {
+        "comment": "Label to display avaialble loyalty points",
+        "value": "Total available points"
+      },
+      "loyaltyActivityDateLabel": {
+        "comment": "Label for loyalty activity dates",
+        "value": "Date"
+      },
+      "loyaltyActivityBalanceLabel": {
+        "comment": "Label for loyalty activity balance",
+        "value": "Balance"
+      },
+      "redeemedPointsLabel": {
+        "comment": "Label for redeemed points",
+        "value": "Redeemed"
+      },
+      "earnedPointsLabel": {
+        "comment": "Label for earned points",
+        "value": "Earned"
+      },
+      "pendingPointsLabel": {
+        "comment": "Label for pending points",
+        "value": "Pending"
+      },
+      "adjustedPointsLabel": {
+        "comment": "Label for adjusted points",
+        "value": "Adjusted"
+      },
+      "backToShoppingText": {
+        "comment": "Text for back to shopping button",
+        "value": "Back to shopping"
       }
     },
     "type": "contentModule"
@@ -3506,6 +3607,118 @@
       "addressIsPrimaryLabel": {
         "comment": "Label for the IsPrimary field",
         "value": "Set as primary address"
+      }
+    },
+    "type": "contentModule"
+  },
+  "account-order-templates-tile": {
+    "friendlyName": "Account order templates tile",
+    "name": "account-order-templates-tile",
+    "description": "Display a summary of account order templates.",
+    "categories": [
+      "Account management"
+    ],
+    "tags": [
+      "B2B"
+    ],
+    "dataActions": {
+      "featureState": {
+        "path": "@msdyn365-commerce-modules/retail-actions/dist/lib/get-feature-state",
+        "runOn": "client"
+      },
+      "orderTemplates": {
+        "path": "@msdyn365-commerce-modules/retail-actions/dist/lib/order-templates/get-order-templates",
+        "runOn": "client"
+      },
+      "customerInformation": {
+        "path": "@msdyn365-commerce-modules/retail-actions/dist/lib/get-customer",
+        "runOn": "client"
+      }
+    },
+    "config": {
+      "heading": {
+        "friendlyName": "Heading",
+        "description": "Module heading",
+        "required": true,
+        "type": "object",
+        "properties": {
+          "text": {
+            "type": "string",
+            "friendlyName": "Heading Text",
+            "description": "Heading Text",
+            "default": "Heading",
+            "required": true
+          },
+          "tag": {
+            "type": "string",
+            "friendlyName": "Heading Level",
+            "description": "Heading Tag",
+            "enum": {
+              "h1": "H1",
+              "h2": "H2",
+              "h3": "H3",
+              "h4": "H4",
+              "h5": "H5",
+              "h6": "H6"
+            },
+            "default": "h2"
+          }
+        }
+      },
+      "links": {
+        "type": "array",
+        "friendlyName": "Links",
+        "description": "Configure link to order templates page",
+        "items": {
+          "type": "object",
+          "friendlyName": "Action Link",
+          "description": "Action Link property",
+          "properties": {
+            "linkText": {
+              "type": "string",
+              "friendlyName": "Link text",
+              "description": "Text for call to action link",
+              "default": "Link text "
+            },
+            "linkUrl": {
+              "type": "link",
+              "friendlyName": "Link target",
+              "description": "Destination url for link",
+              "required": true
+            },
+            "ariaLabel": {
+              "type": "string",
+              "friendlyName": "Link aria label",
+              "description": "Aria Label for link",
+              "default": ""
+            },
+            "openInNewTab": {
+              "type": "boolean",
+              "friendlyName": "Open in new tab",
+              "description": "Open the link in a new tab",
+              "default": false
+            }
+          }
+        },
+        "required": true
+      },
+      "className": {
+        "friendlyName": "Custom CSS class name",
+        "description": "Provide a custom css class name defined in the theme pack to target the CSS for this module",
+        "type": "string",
+        "default": ""
+      },
+      "featureName": {
+        "friendlyName": "Enter the feature names that needs to be enabled.",
+        "description": "This feature tile, if enabled in HQ, will be rendered.",
+        "type": "string",
+        "default": "Dynamics.AX.Application.RetailB2BEcommerceFeature"
+      }
+    },
+    "resources": {
+      "accountOrderTemplatesTileDescription": {
+        "value": "You have {0} order templates.",
+        "comment": "The tile text that displays a summary of order templates."
       }
     },
     "type": "contentModule"
@@ -3907,28 +4120,17 @@
     },
     "type": "contentModule"
   },
-  "account-order-templates-tile": {
-    "friendlyName": "Account order templates tile",
-    "name": "account-order-templates-tile",
-    "description": "Display a summary of account order templates.",
+  "account-welcome-tile": {
+    "friendlyName": "Account welcome tile",
+    "name": "account-welcome-tile",
+    "description": "Account welcome item is used to show a welcome message to the user",
     "categories": [
       "Account management"
     ],
-    "tags": [
-      "B2B"
-    ],
     "dataActions": {
-      "featureState": {
-        "path": "@msdyn365-commerce-modules/retail-actions/dist/lib/get-feature-state",
-        "runOn": "client"
-      },
-      "orderTemplates": {
-        "path": "@msdyn365-commerce-modules/retail-actions/dist/lib/order-templates/get-order-templates",
-        "runOn": "client"
-      },
-      "customerInformation": {
+      "accountInformation": {
         "path": "@msdyn365-commerce-modules/retail-actions/dist/lib/get-customer",
-        "runOn": "client"
+        "runOn": "server"
       }
     },
     "config": {
@@ -3961,60 +4163,11 @@
           }
         }
       },
-      "links": {
-        "type": "array",
-        "friendlyName": "Links",
-        "description": "Configure link to order templates page",
-        "items": {
-          "type": "object",
-          "friendlyName": "Action Link",
-          "description": "Action Link property",
-          "properties": {
-            "linkText": {
-              "type": "string",
-              "friendlyName": "Link text",
-              "description": "Text for call to action link",
-              "default": "Link text "
-            },
-            "linkUrl": {
-              "type": "link",
-              "friendlyName": "Link target",
-              "description": "Destination url for link",
-              "required": true
-            },
-            "ariaLabel": {
-              "type": "string",
-              "friendlyName": "Link aria label",
-              "description": "Aria Label for link",
-              "default": ""
-            },
-            "openInNewTab": {
-              "type": "boolean",
-              "friendlyName": "Open in new tab",
-              "description": "Open the link in a new tab",
-              "default": false
-            }
-          }
-        },
-        "required": true
-      },
       "className": {
         "friendlyName": "Custom CSS class name",
         "description": "Provide a custom css class name defined in the theme pack to target the CSS for this module",
         "type": "string",
         "default": ""
-      },
-      "featureName": {
-        "friendlyName": "Enter the feature names that needs to be enabled.",
-        "description": "This feature tile, if enabled in HQ, will be rendered.",
-        "type": "string",
-        "default": "Dynamics.AX.Application.RetailB2BEcommerceFeature"
-      }
-    },
-    "resources": {
-      "accountOrderTemplatesTileDescription": {
-        "value": "You have {0} order templates.",
-        "comment": "The tile text that displays a summary of order templates."
       }
     },
     "type": "contentModule"
@@ -5093,6 +5246,191 @@
     },
     "type": "containerModule"
   },
+  "carousel": {
+    "friendlyName": "Carousel",
+    "name": "carousel",
+    "description": "A carousel is used to place multiple promotional items within a carousel view",
+    "categories": [
+      "Promotions",
+      "Marketing"
+    ],
+    "config": {
+      "keyboard": {
+        "friendlyName": "keyboard",
+        "description": "Shows keyboard controls to navigate items within the carousel",
+        "type": "boolean",
+        "default": true,
+        "scope": "module"
+      },
+      "pauseOnHover": {
+        "friendlyName": "Pause on mouse hover",
+        "description": "If set, pauses the cycling of the carousel on mouse enter and resumes the cycling of the carousel on mouse leave",
+        "type": "boolean",
+        "default": true,
+        "scope": "module"
+      },
+      "autoplay": {
+        "friendlyName": "Autoplay",
+        "description": "If true, autoplays the items within the carousel",
+        "type": "boolean",
+        "default": true,
+        "scope": "module"
+      },
+      "interval": {
+        "friendlyName": " Slide transition interval",
+        "description": "The interval at which the carousel automatically cycles (default: 5000 ms)",
+        "type": "number",
+        "default": 10000,
+        "scope": "module",
+        "minimum": 0
+      },
+      "transitionType": {
+        "friendlyName": "Transition type",
+        "description": "Animation effects for carousel",
+        "type": "string",
+        "enum": {
+          "slide": "slide effect",
+          "fade": "fade effect"
+        },
+        "default": "slide",
+        "scope": "module"
+      },
+      "hideFlipper": {
+        "friendlyName": "Hide carousel flipper",
+        "description": "If true, both flipper and sequence indicator are hidden",
+        "type": "boolean",
+        "default": false,
+        "scope": "module"
+      },
+      "dismissEnabled": {
+        "friendlyName": "Allows carousel dismiss",
+        "description": "If true, the carousel dismiss button will be displayed",
+        "type": "boolean",
+        "default": false,
+        "scope": "module"
+      },
+      "className": {
+        "friendlyName": "Custom CSS class name",
+        "description": "Provide a custom css class name defined in the theme pack to target the CSS for this module",
+        "type": "string",
+        "default": ""
+      }
+    },
+    "resources": {
+      "flipperNext": {
+        "comment": "flipperNext config value",
+        "value": "Next"
+      },
+      "flipperPrevious": {
+        "comment": "flipperPrevious config value",
+        "value": "Previous"
+      },
+      "ariaLabelForSlide": {
+        "comment": "Aria label for the Carousel Indicators",
+        "value": "Slide {0}"
+      },
+      "ariaLabelForDismissButton": {
+        "comment": "Aria label for the Carousel Dismiss Button",
+        "value": "Cancel"
+      }
+    },
+    "slots": {
+      "content": {
+        "friendlyName": "Content Slot",
+        "description": "Content slot",
+        "allowedTypes": [
+          "content-block"
+        ],
+        "min": 1,
+        "max": 20
+      }
+    },
+    "type": "containerModule"
+  },
+  "cart-icon": {
+    "friendlyName": "Cart Icon",
+    "name": "cart-icon",
+    "description": "Cart is used for viewing all the items added to the cart, allows user to proceed to checkout.",
+    "categories": [
+      "Purchase",
+      "Shopping bag"
+    ],
+    "dataActions": {
+      "cart": {
+        "path": "@msdyn365-commerce/global-state/dist/lib/data-actions/cart-state-data-action",
+        "runOn": "server"
+      },
+      "orgUnitLocations": {
+        "path": "@msdyn365-commerce-modules/retail-actions/dist/lib/search-org-unit-locations",
+        "runOn": "server"
+      }
+    },
+    "config": {
+      "imageSettings": {
+        "friendlyName": "Cart line item Image Settings",
+        "description": "Image settings for cart line item",
+        "type": "imageSettings"
+      },
+      "enableHoverCart": {
+        "friendlyName": "Show mini cart",
+        "description": "Show mini cart on mouse over on cart icon.",
+        "type": "boolean",
+        "default": true
+      }
+    },
+    "resources": {
+      "goToCartButtonTitle": {
+        "comment": "Label for go to cart button. Count = number of items in the cart",
+        "value": "View shopping bag ({count})"
+      },
+      "totalPriceFormatString": {
+        "comment": "String associated with total price to display. Price = formatted price",
+        "value": "Subtotal: {price}"
+      },
+      "guestCheckoutButtonTitle": {
+        "comment": "Label for guest checkout button",
+        "value": "Guest Checkout"
+      },
+      "checkoutButtonTitle": {
+        "comment": "Label for checkout button",
+        "value": "Checkout"
+      },
+      "productDimensionTypeColor": {
+        "comment": "String that corresponds to the Color Product Dimension Type (1)",
+        "value": "Color"
+      },
+      "productDimensionTypeSize": {
+        "comment": "String that corresponds to the Size Product Dimension Type (3)",
+        "value": "Size"
+      },
+      "productDimensionTypeStyle": {
+        "comment": "String that corresponds to the Style Product Dimension Type (4)",
+        "value": "Style"
+      },
+      "productDimensionTypeConfiguration": {
+        "comment": "String that corresponds to the Style Product Dimension Configuration (2)",
+        "value": "Configuration"
+      },
+      "quantityDisplayText": {
+        "comment": "String that corresponds to the quantity display text",
+        "value": "Quantity"
+      },
+      "removeCartButtonText": {
+        "comment": "Text for the remove button",
+        "value": "Remove"
+      },
+      "cartLabel": {
+        "comment": "string to be shown for cart or shopping bag tooltip",
+        "value": "Shopping bag, {0} items"
+      },
+      "flyoutTitle": {
+        "comment": "string to be shown for mini cart flyout",
+        "value": "Your shopping bag"
+      }
+    },
+    "slots": {},
+    "type": "containerModule"
+  },
   "cart": {
     "friendlyName": "Cart",
     "name": "cart",
@@ -5576,260 +5914,6 @@
         "allowedTypes": [
           "store-selector"
         ]
-      }
-    },
-    "type": "containerModule"
-  },
-  "account-welcome-tile": {
-    "friendlyName": "Account welcome tile",
-    "name": "account-welcome-tile",
-    "description": "Account welcome item is used to show a welcome message to the user",
-    "categories": [
-      "Account management"
-    ],
-    "dataActions": {
-      "accountInformation": {
-        "path": "@msdyn365-commerce-modules/retail-actions/dist/lib/get-customer",
-        "runOn": "server"
-      }
-    },
-    "config": {
-      "heading": {
-        "friendlyName": "Heading",
-        "description": "Module heading",
-        "required": true,
-        "type": "object",
-        "properties": {
-          "text": {
-            "type": "string",
-            "friendlyName": "Heading Text",
-            "description": "Heading Text",
-            "default": "Heading",
-            "required": true
-          },
-          "tag": {
-            "type": "string",
-            "friendlyName": "Heading Level",
-            "description": "Heading Tag",
-            "enum": {
-              "h1": "H1",
-              "h2": "H2",
-              "h3": "H3",
-              "h4": "H4",
-              "h5": "H5",
-              "h6": "H6"
-            },
-            "default": "h2"
-          }
-        }
-      },
-      "className": {
-        "friendlyName": "Custom CSS class name",
-        "description": "Provide a custom css class name defined in the theme pack to target the CSS for this module",
-        "type": "string",
-        "default": ""
-      }
-    },
-    "type": "contentModule"
-  },
-  "account-loyalty": {
-    "friendlyName": "Loyalty details",
-    "name": "account-loyalty",
-    "description": "Account loyalty details shows a summary of the loyalty rewards earned by the user.",
-    "categories": [
-      "Account management",
-      "Loyalty"
-    ],
-    "dataActions": {
-      "loyaltyCard": {
-        "path": "@msdyn365-commerce-modules/retail-actions/dist/lib/get-loyalty-card"
-      }
-    },
-    "config": {
-      "heading": {
-        "type": "object",
-        "friendlyName": "Heading",
-        "description": "Heading property",
-        "properties": {
-          "text": {
-            "type": "string",
-            "friendlyName": "Heading Text",
-            "description": "Heading Text",
-            "default": "Heading",
-            "required": true
-          },
-          "tag": {
-            "type": "string",
-            "friendlyName": "Heading Level",
-            "description": "Heading Tag",
-            "enum": {
-              "h1": "H1",
-              "h2": "H2",
-              "h3": "H3",
-              "h4": "H4",
-              "h5": "H5",
-              "h6": "H6"
-            },
-            "default": "h2"
-          }
-        }
-      },
-      "className": {
-        "type": "string",
-        "friendlyName": "Custom CSS class name",
-        "description": "Provide a custom css class name defined in the theme pack to target the CSS for this module",
-        "default": "account-loyalty"
-      }
-    },
-    "resources": {
-      "loyaltyCardLabel": {
-        "comment": "Label for loyalty card",
-        "value": "Loyalty card"
-      },
-      "joinDateFormatted": {
-        "comment": "Format text to show when the user joined the program",
-        "value": "Member since {0}"
-      },
-      "totalAvailablePointsLabel": {
-        "comment": "Label for total amount of available loyalty points",
-        "value": "Total available points"
-      },
-      "expiringPointsFormatLabel": {
-        "comment": "Format label for expirign points",
-        "value": "Expiring points within {0} days"
-      },
-      "availablePointsLabel": {
-        "comment": "Label to display avaialble loyalty points",
-        "value": "Total available points"
-      },
-      "loyaltyActivityDateLabel": {
-        "comment": "Label for loyalty activity dates",
-        "value": "Date"
-      },
-      "loyaltyActivityBalanceLabel": {
-        "comment": "Label for loyalty activity balance",
-        "value": "Balance"
-      },
-      "redeemedPointsLabel": {
-        "comment": "Label for redeemed points",
-        "value": "Redeemed"
-      },
-      "earnedPointsLabel": {
-        "comment": "Label for earned points",
-        "value": "Earned"
-      },
-      "pendingPointsLabel": {
-        "comment": "Label for pending points",
-        "value": "Pending"
-      },
-      "adjustedPointsLabel": {
-        "comment": "Label for adjusted points",
-        "value": "Adjusted"
-      },
-      "backToShoppingText": {
-        "comment": "Text for back to shopping button",
-        "value": "Back to shopping"
-      }
-    },
-    "type": "contentModule"
-  },
-  "carousel": {
-    "friendlyName": "Carousel",
-    "name": "carousel",
-    "description": "A carousel is used to place multiple promotional items within a carousel view",
-    "categories": [
-      "Promotions",
-      "Marketing"
-    ],
-    "config": {
-      "keyboard": {
-        "friendlyName": "keyboard",
-        "description": "Shows keyboard controls to navigate items within the carousel",
-        "type": "boolean",
-        "default": true,
-        "scope": "module"
-      },
-      "pauseOnHover": {
-        "friendlyName": "Pause on mouse hover",
-        "description": "If set, pauses the cycling of the carousel on mouse enter and resumes the cycling of the carousel on mouse leave",
-        "type": "boolean",
-        "default": true,
-        "scope": "module"
-      },
-      "autoplay": {
-        "friendlyName": "Autoplay",
-        "description": "If true, autoplays the items within the carousel",
-        "type": "boolean",
-        "default": true,
-        "scope": "module"
-      },
-      "interval": {
-        "friendlyName": " Slide transition interval",
-        "description": "The interval at which the carousel automatically cycles (default: 5000 ms)",
-        "type": "number",
-        "default": 10000,
-        "scope": "module",
-        "minimum": 0
-      },
-      "transitionType": {
-        "friendlyName": "Transition type",
-        "description": "Animation effects for carousel",
-        "type": "string",
-        "enum": {
-          "slide": "slide effect",
-          "fade": "fade effect"
-        },
-        "default": "slide",
-        "scope": "module"
-      },
-      "hideFlipper": {
-        "friendlyName": "Hide carousel flipper",
-        "description": "If true, both flipper and sequence indicator are hidden",
-        "type": "boolean",
-        "default": false,
-        "scope": "module"
-      },
-      "dismissEnabled": {
-        "friendlyName": "Allows carousel dismiss",
-        "description": "If true, the carousel dismiss button will be displayed",
-        "type": "boolean",
-        "default": false,
-        "scope": "module"
-      },
-      "className": {
-        "friendlyName": "Custom CSS class name",
-        "description": "Provide a custom css class name defined in the theme pack to target the CSS for this module",
-        "type": "string",
-        "default": ""
-      }
-    },
-    "resources": {
-      "flipperNext": {
-        "comment": "flipperNext config value",
-        "value": "Next"
-      },
-      "flipperPrevious": {
-        "comment": "flipperPrevious config value",
-        "value": "Previous"
-      },
-      "ariaLabelForSlide": {
-        "comment": "Aria label for the Carousel Indicators",
-        "value": "Slide {0}"
-      },
-      "ariaLabelForDismissButton": {
-        "comment": "Aria label for the Carousel Dismiss Button",
-        "value": "Cancel"
-      }
-    },
-    "slots": {
-      "content": {
-        "friendlyName": "Content Slot",
-        "description": "Content slot",
-        "allowedTypes": [
-          "content-block"
-        ],
-        "min": 1,
-        "max": 20
       }
     },
     "type": "containerModule"
@@ -6520,6 +6604,106 @@
     },
     "type": "contentModule"
   },
+  "checkout-delivery-options": {
+    "friendlyName": "Delivery options",
+    "name": "checkout-delivery-options",
+    "description": "Delivery options allows the user to choose a delivery option for the order",
+    "categories": [
+      "Purchase",
+      "Shipping"
+    ],
+    "attributes": {
+      "private": true
+    },
+    "dataActions": {
+      "checkout": {
+        "path": "@msdyn365-commerce/global-state/dist/lib/data-actions/checkout-state-data-action",
+        "runOn": "client"
+      }
+    },
+    "config": {
+      "heading": {
+        "friendlyName": "Heading",
+        "description": "Module heading",
+        "type": "object",
+        "properties": {
+          "text": {
+            "type": "string",
+            "friendlyName": "Heading Text",
+            "description": "Heading Text",
+            "default": "Heading",
+            "required": true
+          },
+          "tag": {
+            "type": "string",
+            "friendlyName": "Heading Level",
+            "description": "Heading Tag",
+            "enum": {
+              "h1": "H1",
+              "h2": "H2",
+              "h3": "H3",
+              "h4": "H4",
+              "h5": "H5",
+              "h6": "H6"
+            },
+            "default": "h2"
+          }
+        }
+      },
+      "className": {
+        "friendlyName": "Custom CSS class name",
+        "description": "Provide a custom css class name defined in the theme pack to target the CSS for this module",
+        "type": "string",
+        "default": ""
+      },
+      "filterDeliveryModeOption": {
+        "friendlyName": "Filter Delivery Mode Option",
+        "description": "Filter Delivery Mode Option",
+        "enum": {
+          "none": "Do not filter",
+          "filterOutNonCarrierDeliveryMode": "Non-shipping modes"
+        },
+        "type": "string",
+        "default": "filterOutNonCarrierDeliveryMode",
+        "required": false
+      }
+    },
+    "resources": {
+      "deliveryOptionsNotFound": {
+        "comment": "Erroe message if no delivery options found",
+        "value": "Sorry, no delivery options found. Please try different address."
+      },
+      "genericErrorMessage": {
+        "comment": "Generic error message for Address module",
+        "value": "Something went wrong. Please try again later"
+      },
+      "errorMessageTitle": {
+        "comment": "Localized text for error message title",
+        "value": "Error message"
+      },
+      "ariaLabelText": {
+        "comment": "Aria label for form",
+        "value": "Delivery options"
+      },
+      "priceFree": {
+        "comment": "Free text",
+        "value": "FREE"
+      },
+      "saveBtnLabel": {
+        "comment": "Save button label",
+        "value": "Save"
+      },
+      "editBtnLabel": {
+        "comment": "Edit button label",
+        "value": "Change"
+      },
+      "cancelBtnLabel": {
+        "comment": "Cancel button label",
+        "value": "Cancel"
+      }
+    },
+    "type": "contentModule"
+  },
   "checkout-gift-card": {
     "friendlyName": "Gift card",
     "name": "checkout-gift-card",
@@ -6710,102 +6894,77 @@
     },
     "type": "contentModule"
   },
-  "checkout-delivery-options": {
-    "friendlyName": "Delivery options",
-    "name": "checkout-delivery-options",
-    "description": "Delivery options allows the user to choose a delivery option for the order",
+  "checkout-loyalty": {
+    "friendlyName": "Checkout loyalty",
+    "name": "checkout-loyalty",
+    "description": "Loyalty allows the user to pay for the order using loyalty points",
     "categories": [
       "Purchase",
-      "Shipping"
+      "Payment",
+      "Loyalty"
     ],
-    "attributes": {
-      "private": true
-    },
     "dataActions": {
+      "loyaltyCard": {
+        "path": "@msdyn365-commerce-modules/retail-actions/dist/lib/get-loyalty-card",
+        "runOn": "client"
+      },
+      "loyaltyTransactionEstimation": {
+        "path": "@msdyn365-commerce-modules/retail-actions/dist/lib/get-loyalty-transaction-estimation",
+        "runOn": "client"
+      },
       "checkout": {
         "path": "@msdyn365-commerce/global-state/dist/lib/data-actions/checkout-state-data-action",
         "runOn": "client"
       }
     },
     "config": {
-      "heading": {
-        "friendlyName": "Heading",
-        "description": "Module heading",
-        "type": "object",
-        "properties": {
-          "text": {
-            "type": "string",
-            "friendlyName": "Heading Text",
-            "description": "Heading Text",
-            "default": "Heading",
-            "required": true
-          },
-          "tag": {
-            "type": "string",
-            "friendlyName": "Heading Level",
-            "description": "Heading Tag",
-            "enum": {
-              "h1": "H1",
-              "h2": "H2",
-              "h3": "H3",
-              "h4": "H4",
-              "h5": "H5",
-              "h6": "H6"
-            },
-            "default": "h2"
-          }
-        }
-      },
       "className": {
         "friendlyName": "Custom CSS class name",
         "description": "Provide a custom css class name defined in the theme pack to target the CSS for this module",
         "type": "string",
         "default": ""
-      },
-      "filterDeliveryModeOption": {
-        "friendlyName": "Filter Delivery Mode Option",
-        "description": "Filter Delivery Mode Option",
-        "enum": {
-          "none": "Do not filter",
-          "filterOutNonCarrierDeliveryMode": "Non-shipping modes"
-        },
-        "type": "string",
-        "default": "filterOutNonCarrierDeliveryMode",
-        "required": false
       }
     },
     "resources": {
-      "deliveryOptionsNotFound": {
-        "comment": "Erroe message if no delivery options found",
-        "value": "Sorry, no delivery options found. Please try different address."
+      "loyaltyHeadingText": {
+        "comment": "Text used for the loyalty section header of payment",
+        "value": "Loyalty card"
       },
-      "genericErrorMessage": {
-        "comment": "Generic error message for Address module",
-        "value": "Something went wrong. Please try again later"
+      "payWithLoyaltyText": {
+        "comment": "Text for pay with loyalty dialog and header",
+        "value": "Pay with loyalty rewards"
       },
-      "errorMessageTitle": {
-        "comment": "Localized text for error message title",
-        "value": "Error message"
+      "payWithLoyaltyAmountLabel": {
+        "comment": "Label for input where user enters in amount to pay with loyalty program",
+        "value": "Amount to use"
       },
-      "ariaLabelText": {
-        "comment": "Aria label for form",
-        "value": "Delivery options"
+      "selectLoyaltyProgramLabel": {
+        "comment": "Label paired with dropdown to select a loyalty program",
+        "value": "Select a loyalty program"
       },
-      "priceFree": {
-        "comment": "Free text",
-        "value": "FREE"
+      "totalLoyaltyDollarAmountText": {
+        "comment": "The text to display to the user to show their loyalty points in total dollar amount",
+        "value": "Total available dollar amount: "
       },
-      "saveBtnLabel": {
-        "comment": "Save button label",
-        "value": "Save"
+      "availablePointsLabel": {
+        "comment": "Label to show total avaiable points",
+        "value": "Total available points"
       },
-      "editBtnLabel": {
-        "comment": "Edit button label",
-        "value": "Change"
+      "expiringLoyaltyPointsLabel": {
+        "comment": "Label to show expiring loyalty points",
+        "value": "Expiring points within 30 days"
       },
-      "cancelBtnLabel": {
-        "comment": "Cancel button label",
-        "value": "Cancel"
+      "loyaltyCoveredAmountText": {
+        "comment": "Text to display next to dollar amount covered by applied loyalty points",
+        "value": "Amount covered by loyalty: "
+      },
+      "applyCheckoutLoyaltyPaymentText": {
+        "comment": "Text for button that applies the loyalty payment",
+        "value": "Apply"
+      },
+      "removeCheckoutLoyaltyPaymentText": {
+        "comment": "Text for button that removes the loyalty payment set",
+        "value": "Remove"
       }
     },
     "type": "contentModule"
@@ -7090,6 +7249,157 @@
       "discountStringText": {
         "comment": "String to show discount offer string",
         "value": "Savings "
+      }
+    },
+    "type": "contentModule"
+  },
+  "checkout-payment-instrument": {
+    "friendlyName": "Payment",
+    "name": "checkout-payment-instrument",
+    "description": "Allows the user to pay for the order using credit card",
+    "categories": [
+      "Purchase",
+      "Payment"
+    ],
+    "attributes": {
+      "private": true
+    },
+    "dataActions": {
+      "checkout": {
+        "path": "@msdyn365-commerce/global-state/dist/lib/data-actions/checkout-state-data-action",
+        "runOn": "client"
+      },
+      "cardPaymentAcceptPoint": {
+        "path": "./actions/get-card-payment-accept-point",
+        "runOn": "client"
+      }
+    },
+    "config": {
+      "heading": {
+        "friendlyName": "Heading",
+        "description": "Module heading",
+        "type": "object",
+        "properties": {
+          "text": {
+            "type": "string",
+            "friendlyName": "Heading Text",
+            "description": "Heading Text",
+            "default": "Heading",
+            "required": true
+          },
+          "tag": {
+            "type": "string",
+            "friendlyName": "Heading Level",
+            "description": "Heading Tag",
+            "enum": {
+              "h1": "H1",
+              "h2": "H2",
+              "h3": "H3",
+              "h4": "H4",
+              "h5": "H5",
+              "h6": "H6"
+            },
+            "default": "h2"
+          }
+        }
+      },
+      "iFrameHeightOverride": {
+        "friendlyName": "Height of the iFrame",
+        "description": "Override value for height of the iFrame",
+        "type": "number",
+        "default": 410,
+        "required": false,
+        "scope": "module"
+      },
+      "paymenTenderType": {
+        "friendlyName": "Supported tender types",
+        "description": "Input the supported tender types as defined in the payment connector in HQ. This field is required only if multiple payment connectors are configured, otherwise leave it as blank",
+        "type": "string",
+        "required": false,
+        "scope": "module"
+      },
+      "isPrimaryPayment": {
+        "friendlyName": "Is primary payment",
+        "description": "If multiple payment connectors are configured, this helps denote which one should be treated as primary during error handling and other cases",
+        "type": "boolean",
+        "default": true,
+        "required": false,
+        "scope": "module"
+      },
+      "showBillingAddress": {
+        "friendlyName": "Show billing address",
+        "description": "Show the billing address from payment connector",
+        "type": "boolean",
+        "default": false,
+        "required": false,
+        "scope": "module"
+      },
+      "paymentStyleOverride": {
+        "friendlyName": "Payment style override",
+        "description": "Override style of the payment connector",
+        "type": "string",
+        "required": false,
+        "scope": "module"
+      },
+      "className": {
+        "friendlyName": "Custom CSS class name",
+        "description": "Provide a custom css class name defined in the theme pack to target the CSS for this module",
+        "type": "string",
+        "default": ""
+      }
+    },
+    "resources": {
+      "cardTitle": {
+        "comment": "Card display title",
+        "value": "Payment information"
+      },
+      "cardNumberLabel": {
+        "comment": "Localized text for the last 4 digit of the card",
+        "value": "Card ending in"
+      },
+      "expiresDateLabel": {
+        "comment": "Localized text for the expires date",
+        "value": "Expires"
+      },
+      "changePaymentButtonText": {
+        "comment": "Localized text for the change payment button for Payment instrument module",
+        "value": "Change"
+      },
+      "cancelButtonText": {
+        "comment": "Localized text for the cancel button for Payment instrument module",
+        "value": "Cancel"
+      },
+      "submitButtonText": {
+        "comment": "Localized text for the submit button for Payment instrument module",
+        "value": "Submit"
+      },
+      "genericErrorMessage": {
+        "comment": "Localized generic error message for Payment instrument module",
+        "value": "Something went wrong. Please try again later."
+      },
+      "cardTypeErrorMessage": {
+        "comment": "Localized error message for Payment card type not found",
+        "value": "The specified card type is not supported."
+      },
+      "defaultSubmitErrorMessage": {
+        "comment": "Localized generic submit failure error message for Payment instrument module",
+        "value": "An error occurred in payment method details. Please try again."
+      },
+      "errorMessageTitle": {
+        "comment": "Localized text for error message title",
+        "value": "Error message"
+      },
+      "iframeAriaLabel": {
+        "comment": "Localized text for iframe aria label",
+        "value": "Payment iframe"
+      },
+      "loadingMessage": {
+        "comment": "Text of the loading message",
+        "value": "Loading..."
+      },
+      "addressTitle": {
+        "comment": "Text for billing address section",
+        "value": "Billing Address"
       }
     },
     "type": "contentModule"
@@ -7469,6 +7779,97 @@
     },
     "type": "contentModule"
   },
+  "default-container": {
+    "friendlyName": "Container",
+    "name": "default-container",
+    "description": "A container allows multiple modules to be hosted in it. Using the configuration properties various layouts can be achieved.",
+    "categories": [
+      "container"
+    ],
+    "config": {
+      "heading": {
+        "friendlyName": "Heading",
+        "description": "Container heading",
+        "type": "object",
+        "properties": {
+          "headingText": {
+            "friendlyName": "Heading Text",
+            "description": "The heading text",
+            "type": "string"
+          },
+          "tag": {
+            "friendlyName": "Heading Tag",
+            "description": "The heading tag to use",
+            "type": "string",
+            "enum": {
+              "h1": "H1",
+              "h2": "H2",
+              "h3": "H3",
+              "h4": "H4",
+              "h5": "H5",
+              "h6": "H6"
+            }
+          }
+        },
+        "group": "Layout"
+      },
+      "layout": {
+        "friendlyName": "Container Layout",
+        "description": "Controls the placement of the child elements within the container. Flow will place each child next to each other horizontally while stacked while stack the children within the container vertically.",
+        "type": "string",
+        "enum": {
+          "stacked": "Stacked",
+          "flow": "Flow"
+        },
+        "default": "stacked",
+        "group": "Layout"
+      },
+      "containerType": {
+        "friendlyName": "Width",
+        "description": "Choose from a fixed width container (Fill Container) which will resize at breakpoints or fluid container (Fill Screen) which has a max width of 100% and will continuously resize.",
+        "type": "string",
+        "enum": {
+          "fluid": "Fill Screen",
+          "container": "Fill Container"
+        },
+        "default": "fluid",
+        "group": "Layout"
+      },
+      "childrenWidth": {
+        "friendlyName": "children Shown",
+        "description": "Determines the number of children that will fit in the row, not applicable for stacked",
+        "type": "string",
+        "enum": {
+          "auto": "auto",
+          "one": "Twelve",
+          "two": "Six",
+          "three": "Four",
+          "four": "Three",
+          "six": "Two",
+          "twelve": "One"
+        },
+        "default": "four",
+        "group": "Layout"
+      },
+      "className": {
+        "friendlyName": "ClassName",
+        "description": "class properties",
+        "type": "string",
+        "default": "",
+        "group": "Layout"
+      }
+    },
+    "slots": {
+      "content": {
+        "friendlyName": "content Slot",
+        "description": "This is the content slot",
+        "max": 100,
+        "min": 0,
+        "allowedTypes": "*"
+      }
+    },
+    "type": "containerModule"
+  },
   "default-container-2-slots": {
     "friendlyName": "Container with 2 columns",
     "name": "default-container-2-slots",
@@ -7599,488 +8000,6 @@
       }
     },
     "type": "containerModule"
-  },
-  "checkout-payment-instrument": {
-    "friendlyName": "Payment",
-    "name": "checkout-payment-instrument",
-    "description": "Allows the user to pay for the order using credit card",
-    "categories": [
-      "Purchase",
-      "Payment"
-    ],
-    "attributes": {
-      "private": true
-    },
-    "dataActions": {
-      "checkout": {
-        "path": "@msdyn365-commerce/global-state/dist/lib/data-actions/checkout-state-data-action",
-        "runOn": "client"
-      },
-      "cardPaymentAcceptPoint": {
-        "path": "./actions/get-card-payment-accept-point",
-        "runOn": "client"
-      }
-    },
-    "config": {
-      "heading": {
-        "friendlyName": "Heading",
-        "description": "Module heading",
-        "type": "object",
-        "properties": {
-          "text": {
-            "type": "string",
-            "friendlyName": "Heading Text",
-            "description": "Heading Text",
-            "default": "Heading",
-            "required": true
-          },
-          "tag": {
-            "type": "string",
-            "friendlyName": "Heading Level",
-            "description": "Heading Tag",
-            "enum": {
-              "h1": "H1",
-              "h2": "H2",
-              "h3": "H3",
-              "h4": "H4",
-              "h5": "H5",
-              "h6": "H6"
-            },
-            "default": "h2"
-          }
-        }
-      },
-      "iFrameHeightOverride": {
-        "friendlyName": "Height of the iFrame",
-        "description": "Override value for height of the iFrame",
-        "type": "number",
-        "default": 410,
-        "required": false,
-        "scope": "module"
-      },
-      "paymenTenderType": {
-        "friendlyName": "Supported tender types",
-        "description": "Input the supported tender types as defined in the payment connector in HQ. This field is required only if multiple payment connectors are configured, otherwise leave it as blank",
-        "type": "string",
-        "required": false,
-        "scope": "module"
-      },
-      "isPrimaryPayment": {
-        "friendlyName": "Is primary payment",
-        "description": "If multiple payment connectors are configured, this helps denote which one should be treated as primary during error handling and other cases",
-        "type": "boolean",
-        "default": true,
-        "required": false,
-        "scope": "module"
-      },
-      "showBillingAddress": {
-        "friendlyName": "Show billing address",
-        "description": "Show the billing address from payment connector",
-        "type": "boolean",
-        "default": false,
-        "required": false,
-        "scope": "module"
-      },
-      "paymentStyleOverride": {
-        "friendlyName": "Payment style override",
-        "description": "Override style of the payment connector",
-        "type": "string",
-        "required": false,
-        "scope": "module"
-      },
-      "className": {
-        "friendlyName": "Custom CSS class name",
-        "description": "Provide a custom css class name defined in the theme pack to target the CSS for this module",
-        "type": "string",
-        "default": ""
-      }
-    },
-    "resources": {
-      "cardTitle": {
-        "comment": "Card display title",
-        "value": "Payment information"
-      },
-      "cardNumberLabel": {
-        "comment": "Localized text for the last 4 digit of the card",
-        "value": "Card ending in"
-      },
-      "expiresDateLabel": {
-        "comment": "Localized text for the expires date",
-        "value": "Expires"
-      },
-      "changePaymentButtonText": {
-        "comment": "Localized text for the change payment button for Payment instrument module",
-        "value": "Change"
-      },
-      "cancelButtonText": {
-        "comment": "Localized text for the cancel button for Payment instrument module",
-        "value": "Cancel"
-      },
-      "submitButtonText": {
-        "comment": "Localized text for the submit button for Payment instrument module",
-        "value": "Submit"
-      },
-      "genericErrorMessage": {
-        "comment": "Localized generic error message for Payment instrument module",
-        "value": "Something went wrong. Please try again later."
-      },
-      "cardTypeErrorMessage": {
-        "comment": "Localized error message for Payment card type not found",
-        "value": "The specified card type is not supported."
-      },
-      "defaultSubmitErrorMessage": {
-        "comment": "Localized generic submit failure error message for Payment instrument module",
-        "value": "An error occurred in payment method details. Please try again."
-      },
-      "errorMessageTitle": {
-        "comment": "Localized text for error message title",
-        "value": "Error message"
-      },
-      "iframeAriaLabel": {
-        "comment": "Localized text for iframe aria label",
-        "value": "Payment iframe"
-      },
-      "loadingMessage": {
-        "comment": "Text of the loading message",
-        "value": "Loading..."
-      },
-      "addressTitle": {
-        "comment": "Text for billing address section",
-        "value": "Billing Address"
-      }
-    },
-    "type": "contentModule"
-  },
-  "checkout-loyalty": {
-    "friendlyName": "Checkout loyalty",
-    "name": "checkout-loyalty",
-    "description": "Loyalty allows the user to pay for the order using loyalty points",
-    "categories": [
-      "Purchase",
-      "Payment",
-      "Loyalty"
-    ],
-    "dataActions": {
-      "loyaltyCard": {
-        "path": "@msdyn365-commerce-modules/retail-actions/dist/lib/get-loyalty-card",
-        "runOn": "client"
-      },
-      "loyaltyTransactionEstimation": {
-        "path": "@msdyn365-commerce-modules/retail-actions/dist/lib/get-loyalty-transaction-estimation",
-        "runOn": "client"
-      },
-      "checkout": {
-        "path": "@msdyn365-commerce/global-state/dist/lib/data-actions/checkout-state-data-action",
-        "runOn": "client"
-      }
-    },
-    "config": {
-      "className": {
-        "friendlyName": "Custom CSS class name",
-        "description": "Provide a custom css class name defined in the theme pack to target the CSS for this module",
-        "type": "string",
-        "default": ""
-      }
-    },
-    "resources": {
-      "loyaltyHeadingText": {
-        "comment": "Text used for the loyalty section header of payment",
-        "value": "Loyalty card"
-      },
-      "payWithLoyaltyText": {
-        "comment": "Text for pay with loyalty dialog and header",
-        "value": "Pay with loyalty rewards"
-      },
-      "payWithLoyaltyAmountLabel": {
-        "comment": "Label for input where user enters in amount to pay with loyalty program",
-        "value": "Amount to use"
-      },
-      "selectLoyaltyProgramLabel": {
-        "comment": "Label paired with dropdown to select a loyalty program",
-        "value": "Select a loyalty program"
-      },
-      "totalLoyaltyDollarAmountText": {
-        "comment": "The text to display to the user to show their loyalty points in total dollar amount",
-        "value": "Total available dollar amount: "
-      },
-      "availablePointsLabel": {
-        "comment": "Label to show total avaiable points",
-        "value": "Total available points"
-      },
-      "expiringLoyaltyPointsLabel": {
-        "comment": "Label to show expiring loyalty points",
-        "value": "Expiring points within 30 days"
-      },
-      "loyaltyCoveredAmountText": {
-        "comment": "Text to display next to dollar amount covered by applied loyalty points",
-        "value": "Amount covered by loyalty: "
-      },
-      "applyCheckoutLoyaltyPaymentText": {
-        "comment": "Text for button that applies the loyalty payment",
-        "value": "Apply"
-      },
-      "removeCheckoutLoyaltyPaymentText": {
-        "comment": "Text for button that removes the loyalty payment set",
-        "value": "Remove"
-      }
-    },
-    "type": "contentModule"
-  },
-  "cart-icon": {
-    "friendlyName": "Cart Icon",
-    "name": "cart-icon",
-    "description": "Cart is used for viewing all the items added to the cart, allows user to proceed to checkout.",
-    "categories": [
-      "Purchase",
-      "Shopping bag"
-    ],
-    "dataActions": {
-      "cart": {
-        "path": "@msdyn365-commerce/global-state/dist/lib/data-actions/cart-state-data-action",
-        "runOn": "server"
-      },
-      "orgUnitLocations": {
-        "path": "@msdyn365-commerce-modules/retail-actions/dist/lib/search-org-unit-locations",
-        "runOn": "server"
-      }
-    },
-    "config": {
-      "imageSettings": {
-        "friendlyName": "Cart line item Image Settings",
-        "description": "Image settings for cart line item",
-        "type": "imageSettings"
-      },
-      "enableHoverCart": {
-        "friendlyName": "Show mini cart",
-        "description": "Show mini cart on mouse over on cart icon.",
-        "type": "boolean",
-        "default": true
-      }
-    },
-    "resources": {
-      "goToCartButtonTitle": {
-        "comment": "Label for go to cart button. Count = number of items in the cart",
-        "value": "View shopping bag ({count})"
-      },
-      "totalPriceFormatString": {
-        "comment": "String associated with total price to display. Price = formatted price",
-        "value": "Subtotal: {price}"
-      },
-      "guestCheckoutButtonTitle": {
-        "comment": "Label for guest checkout button",
-        "value": "Guest Checkout"
-      },
-      "checkoutButtonTitle": {
-        "comment": "Label for checkout button",
-        "value": "Checkout"
-      },
-      "productDimensionTypeColor": {
-        "comment": "String that corresponds to the Color Product Dimension Type (1)",
-        "value": "Color"
-      },
-      "productDimensionTypeSize": {
-        "comment": "String that corresponds to the Size Product Dimension Type (3)",
-        "value": "Size"
-      },
-      "productDimensionTypeStyle": {
-        "comment": "String that corresponds to the Style Product Dimension Type (4)",
-        "value": "Style"
-      },
-      "productDimensionTypeConfiguration": {
-        "comment": "String that corresponds to the Style Product Dimension Configuration (2)",
-        "value": "Configuration"
-      },
-      "quantityDisplayText": {
-        "comment": "String that corresponds to the quantity display text",
-        "value": "Quantity"
-      },
-      "removeCartButtonText": {
-        "comment": "Text for the remove button",
-        "value": "Remove"
-      },
-      "cartLabel": {
-        "comment": "string to be shown for cart or shopping bag tooltip",
-        "value": "Shopping bag, {0} items"
-      },
-      "flyoutTitle": {
-        "comment": "string to be shown for mini cart flyout",
-        "value": "Your shopping bag"
-      }
-    },
-    "slots": {},
-    "type": "containerModule"
-  },
-  "default-metatags": {
-    "friendlyName": "Metatags",
-    "name": "default-metatags",
-    "description": "Metatag module supports entry of custom meta tags that can further enhance SEO",
-    "categories": [
-      "SEO",
-      "HTML head"
-    ],
-    "tags": [
-      "HTML Tags",
-      "Meta"
-    ],
-    "config": {
-      "metaTags": {
-        "friendlyName": "Meta Tags",
-        "description": "Allows input of meta tags into the page. One meta tag per entry",
-        "type": "array",
-        "items": {
-          "type": "string",
-          "friendlyName": "Meta Tag"
-        }
-      }
-    },
-    "type": "htmlHeadTagsModule"
-  },
-  "default-container": {
-    "friendlyName": "Container",
-    "name": "default-container",
-    "description": "A container allows multiple modules to be hosted in it. Using the configuration properties various layouts can be achieved.",
-    "categories": [
-      "container"
-    ],
-    "config": {
-      "heading": {
-        "friendlyName": "Heading",
-        "description": "Container heading",
-        "type": "object",
-        "properties": {
-          "headingText": {
-            "friendlyName": "Heading Text",
-            "description": "The heading text",
-            "type": "string"
-          },
-          "tag": {
-            "friendlyName": "Heading Tag",
-            "description": "The heading tag to use",
-            "type": "string",
-            "enum": {
-              "h1": "H1",
-              "h2": "H2",
-              "h3": "H3",
-              "h4": "H4",
-              "h5": "H5",
-              "h6": "H6"
-            }
-          }
-        },
-        "group": "Layout"
-      },
-      "layout": {
-        "friendlyName": "Container Layout",
-        "description": "Controls the placement of the child elements within the container. Flow will place each child next to each other horizontally while stacked while stack the children within the container vertically.",
-        "type": "string",
-        "enum": {
-          "stacked": "Stacked",
-          "flow": "Flow"
-        },
-        "default": "stacked",
-        "group": "Layout"
-      },
-      "containerType": {
-        "friendlyName": "Width",
-        "description": "Choose from a fixed width container (Fill Container) which will resize at breakpoints or fluid container (Fill Screen) which has a max width of 100% and will continuously resize.",
-        "type": "string",
-        "enum": {
-          "fluid": "Fill Screen",
-          "container": "Fill Container"
-        },
-        "default": "fluid",
-        "group": "Layout"
-      },
-      "childrenWidth": {
-        "friendlyName": "children Shown",
-        "description": "Determines the number of children that will fit in the row, not applicable for stacked",
-        "type": "string",
-        "enum": {
-          "auto": "auto",
-          "one": "Twelve",
-          "two": "Six",
-          "three": "Four",
-          "four": "Three",
-          "six": "Two",
-          "twelve": "One"
-        },
-        "default": "four",
-        "group": "Layout"
-      },
-      "className": {
-        "friendlyName": "ClassName",
-        "description": "class properties",
-        "type": "string",
-        "default": "",
-        "group": "Layout"
-      }
-    },
-    "slots": {
-      "content": {
-        "friendlyName": "content Slot",
-        "description": "This is the content slot",
-        "max": 100,
-        "min": 0,
-        "allowedTypes": "*"
-      }
-    },
-    "type": "containerModule"
-  },
-  "default-page-summary": {
-    "friendlyName": "Page summary",
-    "name": "default-page-summary",
-    "description": "Supports simplified entry of page summary metadata which can be used by search engines and social sharing sites, including the canonical link.",
-    "categories": [
-      "SEO",
-      "HTML head"
-    ],
-    "config": {
-      "title": {
-        "friendlyName": "title",
-        "description": "The title of the webpage",
-        "type": "string"
-      },
-      "description": {
-        "friendlyName": "description",
-        "description": "A brief description of the page contents",
-        "type": "string"
-      },
-      "keywords": {
-        "friendlyName": "keywords",
-        "description": "A series of comma separated keywords that are relevant to the page",
-        "type": "string"
-      },
-      "faviconUrl": {
-        "friendlyName": "favicon",
-        "description": "Link to the image used as your website's favicon",
-        "type": "string",
-        "editable": false
-      },
-      "disableTwitterTags": {
-        "friendlyName": "Disable Twitter Tags",
-        "description": "Disables rendering the Twitter tags",
-        "type": "boolean",
-        "default": false
-      },
-      "sharingImage": {
-        "friendlyName": "Sharing Image",
-        "description": "Image to use for sharing",
-        "type": "image"
-      },
-      "disableOgTags": {
-        "friendlyName": "Disable Facebook OG Tags",
-        "description": "Disables rendering the Facebook tags",
-        "type": "boolean",
-        "default": false
-      },
-      "ignoreTitleSuffixPrefix": {
-        "friendlyName": "Ignores the prefix and suffix specified in the application settings",
-        "description": "Ignores the prefix and suffix specified in the application settings",
-        "type": "boolean",
-        "default": false
-      }
-    },
-    "type": "htmlHeadTagsModule"
   },
   "default-container-3-slots": {
     "friendlyName": "Container with 3 columns",
@@ -8216,6 +8135,87 @@
       }
     },
     "type": "containerModule"
+  },
+  "default-metatags": {
+    "friendlyName": "Metatags",
+    "name": "default-metatags",
+    "description": "Metatag module supports entry of custom meta tags that can further enhance SEO",
+    "categories": [
+      "SEO",
+      "HTML head"
+    ],
+    "tags": [
+      "HTML Tags",
+      "Meta"
+    ],
+    "config": {
+      "metaTags": {
+        "friendlyName": "Meta Tags",
+        "description": "Allows input of meta tags into the page. One meta tag per entry",
+        "type": "array",
+        "items": {
+          "type": "string",
+          "friendlyName": "Meta Tag"
+        }
+      }
+    },
+    "type": "htmlHeadTagsModule"
+  },
+  "default-page-summary": {
+    "friendlyName": "Page summary",
+    "name": "default-page-summary",
+    "description": "Supports simplified entry of page summary metadata which can be used by search engines and social sharing sites, including the canonical link.",
+    "categories": [
+      "SEO",
+      "HTML head"
+    ],
+    "config": {
+      "title": {
+        "friendlyName": "title",
+        "description": "The title of the webpage",
+        "type": "string"
+      },
+      "description": {
+        "friendlyName": "description",
+        "description": "A brief description of the page contents",
+        "type": "string"
+      },
+      "keywords": {
+        "friendlyName": "keywords",
+        "description": "A series of comma separated keywords that are relevant to the page",
+        "type": "string"
+      },
+      "faviconUrl": {
+        "friendlyName": "favicon",
+        "description": "Link to the image used as your website's favicon",
+        "type": "string",
+        "editable": false
+      },
+      "disableTwitterTags": {
+        "friendlyName": "Disable Twitter Tags",
+        "description": "Disables rendering the Twitter tags",
+        "type": "boolean",
+        "default": false
+      },
+      "sharingImage": {
+        "friendlyName": "Sharing Image",
+        "description": "Image to use for sharing",
+        "type": "image"
+      },
+      "disableOgTags": {
+        "friendlyName": "Disable Facebook OG Tags",
+        "description": "Disables rendering the Facebook tags",
+        "type": "boolean",
+        "default": false
+      },
+      "ignoreTitleSuffixPrefix": {
+        "friendlyName": "Ignores the prefix and suffix specified in the application settings",
+        "description": "Ignores the prefix and suffix specified in the application settings",
+        "type": "boolean",
+        "default": false
+      }
+    },
+    "type": "htmlHeadTagsModule"
   },
   "header": {
     "friendlyName": "Header (COPY)",
@@ -8553,32 +8553,142 @@
     },
     "type": "containerModule"
   },
-  "order-confirmation": {
-    "friendlyName": "Order confirmation",
-    "name": "order-confirmation",
-    "description": "This module shows an order confirmation after the order is placed. It includes confirmation id and details about the order",
+  "media-gallery": {
+    "friendlyName": "Media gallery",
+    "name": "media-gallery",
+    "description": "Media gallery is used for showcasing images of a product in a product details page",
     "categories": [
-      "Account management",
-      "Order management"
+      "media-gallery"
     ],
     "dataActions": {
-      "orderHydration": {
-        "path": "../../actions/get-sales-order-with-hydrations",
-        "runOn": "server"
+      "product": {
+        "path": "@msdyn365-commerce-modules/retail-actions/dist/lib/get-selected-variant"
       },
-      "tenderTypes": {
-        "path": "../../actions/get-tender-types",
-        "runOn": "server"
+      "mediaLocations": {
+        "path": "@msdyn365-commerce-modules/retail-actions/dist/lib/get-media-locations-by-id"
+      }
+    },
+    "config": {
+      "imageSource": {
+        "friendlyName": "Image source",
+        "description": "Default will be Page context, it automatically picks images associated with a product on the buy box",
+        "type": "string",
+        "enum": {
+          "pageContext": "PageContext",
+          "productId": "ProductId"
+        },
+        "required": false,
+        "default": "pageContext"
       },
-      "loyaltyCard": {
-        "path": "@msdyn365-commerce-modules/retail-actions/dist/lib/get-loyalty-card",
-        "runOn": "client"
+      "productId": {
+        "type": "string",
+        "friendlyName": "Product id",
+        "description": "This field captures the product id for which you want to show images in a gallery. It should be used only when Image source is Product id",
+        "required": false
+      },
+      "imageZoom": {
+        "friendlyName": "Image zoom",
+        "description": "Image zoom",
+        "type": "string",
+        "enum": {
+          "inline": "Inline",
+          "container": "Container"
+        },
+        "default": "",
+        "scope": "module"
+      },
+      "dataScale": {
+        "friendlyName": "Zoom factor",
+        "description": "To enhance the zoom",
+        "type": "string",
+        "default": "1.5"
+      },
+      "allowFullScreen": {
+        "friendlyName": "Full screen",
+        "description": "Full screen",
+        "type": "boolean",
+        "default": false,
+        "required": false
+      },
+      "images": {
+        "friendlyName": "Images",
+        "description": "Allows images to be curated to the gallery from Media library",
+        "type": "array",
+        "items": {
+          "type": "image"
+        }
+      },
+      "thumbnailsOrientation": {
+        "friendlyName": "Thumbnails orientation",
+        "description": "Sets the desired orientation of the thumbnails strips",
+        "type": "string",
+        "enum": {
+          "vertical": "Vertical",
+          "horizontal": "Horizontal"
+        },
+        "default": "vertical",
+        "scope": "module"
+      },
+      "thumbnailImageSettings": {
+        "friendlyName": "Thumbnail image quality",
+        "description": "Image settings for the thumbnails",
+        "type": "imageSettings"
+      },
+      "galleryImageSettings": {
+        "friendlyName": "Gallery image quality",
+        "description": "Image settings for the main gallery",
+        "type": "imageSettings"
+      },
+      "showPaginationTooltip": {
+        "friendlyName": "Show Media Gallery pagination tooltip",
+        "description": "Enable/Disable the tooltip of the Media Gallery pagination indicators",
+        "type": "boolean",
+        "default": false,
+        "required": false
+      },
+      "className": {
+        "friendlyName": "Custom CSS class name",
+        "description": "Provide a custom css class name defined in the theme pack to target the CSS for this module",
+        "type": "string",
+        "default": ""
+      }
+    },
+    "resources": {
+      "nextScreenshotFlipperText": {
+        "comment": "The label for the 'next screenshot' flipper",
+        "value": "Next"
+      },
+      "previousScreenshotFlipperText": {
+        "comment": "The label which is shown on 'previous screenshot' flipper",
+        "value": "Previous"
+      },
+      "fullScreenTitleText": {
+        "comment": "To show the title on media gallery image fullscreen",
+        "value": "fullscreen"
+      }
+    },
+    "type": "contentModule"
+  },
+  "map": {
+    "friendlyName": "map",
+    "name": "map",
+    "description": "Map module displays a map and pinpoints locations that it subscribes to",
+    "categories": [
+      "map"
+    ],
+    "tags": [
+      "Additional tags go here"
+    ],
+    "dataActions": {
+      "storeSelectorStateManager": {
+        "path": "@msdyn365-commerce-modules/bopis-utilities/dist/lib/store-selector-state-manager/store-selector-state-manager-data-action",
+        "runOn": "server"
       }
     },
     "config": {
       "heading": {
         "friendlyName": "Heading",
-        "description": "Heading",
+        "description": "Module heading",
         "type": "object",
         "properties": {
           "text": {
@@ -8604,15 +8714,215 @@
           }
         }
       },
-      "contactNumber": {
-        "friendlyName": "Contact number",
-        "description": "Contact number for help",
-        "type": "string"
+      "pushpinOptions": {
+        "friendlyName": "Pushpin Options",
+        "description": "Provide additional data to create customized pushpin",
+        "type": "object",
+        "properties": {
+          "size": {
+            "friendlyName": "size",
+            "description": "Specifies the size of pushpin",
+            "type": "number",
+            "default": 1.5
+          },
+          "color": {
+            "friendlyName": "Color",
+            "description": "Specifies color of pushpin. Any color code including hex is supported",
+            "type": "string",
+            "default": "#616365"
+          },
+          "selectionColor": {
+            "friendlyName": "Selection color",
+            "description": "Specifies color of selected pushpin. Any color code including hex is supported",
+            "type": "string",
+            "default": "#4C833A"
+          },
+          "showIndex": {
+            "type": "boolean",
+            "friendlyName": "Show index",
+            "description": "Specifies whether or not to show numbers on the pushpin",
+            "default": true
+          }
+        }
       },
-      "imageSettings": {
-        "friendlyName": "Order confirmation Image Settings",
-        "description": "Image settings for order confirmation",
+      "className": {
+        "friendlyName": "Custom CSS class name",
+        "description": "Provide a custom css class name defined in the theme pack to target the CSS for this module",
+        "type": "string",
+        "default": ""
+      }
+    },
+    "type": "contentModule"
+  },
+  "navigation-menu": {
+    "friendlyName": "Navigation menu (COPY)",
+    "name": "navigation-menu",
+    "description": "Navigation menu items represent the product browsing hierarchy and other static links to pages  ",
+    "categories": [
+      "Header",
+      "Navigation"
+    ],
+    "dataActions": {
+      "categories": {
+        "path": "@msdyn365-commerce-modules/retail-actions/dist/lib/get-categories-hierarchy"
+      }
+    },
+    "config": {
+      "categoryImageSettings": {
+        "friendlyName": "category image quality",
+        "description": "Image settings category",
         "type": "imageSettings"
+      },
+      "displayCategoryImage": {
+        "friendlyName": "Show category images",
+        "description": "Show category images",
+        "type": "boolean",
+        "default": false,
+        "required": false
+      },
+      "navigationMenuSource": {
+        "friendlyName": "Source for navigation menu",
+        "description": "Shows navigation menu items from retail server or CMS tool or both",
+        "type": "string",
+        "enum": {
+          "retailServerOnly": "Retail Server",
+          "cmsOnly": "Manual Authoring",
+          "all": "From both Retail Server and Manual Authoring"
+        },
+        "default": "all",
+        "scope": "module"
+      },
+      "cmsNavItems": {
+        "type": "array",
+        "friendlyName": "Static menu items",
+        "description": "If source allows manual authoring, you can configure the menu items",
+        "items": {
+          "type": "object",
+          "friendlyName": "Menu item",
+          "description": "Menu item property",
+          "properties": {
+            "linkText": {
+              "type": "string",
+              "friendlyName": "Menu Item Text",
+              "description": "Text for Menu Item",
+              "default": "Menu Item Text "
+            },
+            "linkUrl": {
+              "type": "link",
+              "friendlyName": "Menu Item Link target",
+              "description": "Destination url for Menu Item Link",
+              "required": false
+            },
+            "image": {
+              "type": "image",
+              "friendlyName": "Menu Item Image",
+              "description": "Menu Item Image",
+              "required": false
+            },
+            "imageLink": {
+              "type": "link",
+              "friendlyName": "Menu Item Image Link",
+              "description": "Menu Item Image Link",
+              "required": false
+            },
+            "ariaLabel": {
+              "type": "string",
+              "friendlyName": "Menu item link aria label",
+              "description": "Aria Label for Menu Item Link",
+              "default": ""
+            },
+            "openInNewTab": {
+              "type": "boolean",
+              "friendlyName": "Open in new tab",
+              "description": "Open the link in a new tab",
+              "default": false
+            },
+            "subMenus": {
+              "type": "array",
+              "friendlyName": "List of Sub menus",
+              "description": "List of Sub menus",
+              "items": {
+                "type": "object",
+                "friendlyName": "Sub Menu Action Link",
+                "description": "Sub Menu Action Link property",
+                "properties": {
+                  "linkText": {
+                    "type": "string",
+                    "friendlyName": "Sub menu link text",
+                    "description": "Sub Menu Text for link",
+                    "default": "Sub Menu Link text "
+                  },
+                  "linkUrl": {
+                    "type": "link",
+                    "friendlyName": "Sub Menu Link target",
+                    "description": "Destination url for sub menu link",
+                    "required": true
+                  },
+                  "ariaLabel": {
+                    "type": "string",
+                    "friendlyName": "Sub menu link aria label",
+                    "description": "Aria Label for sub menu link",
+                    "default": ""
+                  },
+                  "image": {
+                    "type": "image",
+                    "friendlyName": "Menu Item Image",
+                    "description": "Menu Item Image",
+                    "required": false
+                  },
+                  "imageLink": {
+                    "type": "link",
+                    "friendlyName": "Menu Item Image Link",
+                    "description": "Menu Item Image Link",
+                    "required": false
+                  },
+                  "subMenus": {
+                    "type": "array",
+                    "friendlyName": "List of Sub menus",
+                    "description": "List of Sub menus",
+                    "items": {
+                      "type": "object",
+                      "friendlyName": "Sub Menu Action Link",
+                      "description": "Sub Menu Action Link property",
+                      "properties": {
+                        "linkText": {
+                          "type": "string",
+                          "friendlyName": "Sub menu link text",
+                          "description": "Sub Menu Text for link",
+                          "default": "Sub Menu Link text "
+                        },
+                        "linkUrl": {
+                          "type": "link",
+                          "friendlyName": "Sub menu link target",
+                          "description": "Destination url for sub menu link",
+                          "required": true
+                        },
+                        "ariaLabel": {
+                          "type": "string",
+                          "friendlyName": "Sub menu link aria label",
+                          "description": "Aria Label for sub menu link",
+                          "default": ""
+                        },
+                        "image": {
+                          "type": "image",
+                          "friendlyName": "Menu Item Image",
+                          "description": "Menu Item Image",
+                          "required": false
+                        },
+                        "imageLink": {
+                          "type": "link",
+                          "friendlyName": "Menu Item Image Link",
+                          "description": "Menu Item Image Link",
+                          "required": false
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
       },
       "className": {
         "friendlyName": "Custom CSS class name",
@@ -8622,233 +8932,17 @@
       }
     },
     "resources": {
-      "loadingLabel": {
-        "comment": "Loading message",
-        "value": "Loading..."
+      "menuAriaLabel": {
+        "comment": "aria label for main menu",
+        "value": "Menu"
       },
-      "genericErrorMessage": {
-        "comment": "Localized generic error message for Payment instrument module",
-        "value": "Something went wrong. Please try again later."
+      "backButtonAriaLabel": {
+        "comment": "aria label for back button",
+        "value": "Back"
       },
-      "orderItemLabel": {
-        "comment": "total items in order",
-        "value": "item"
-      },
-      "orderItemsLabel": {
-        "comment": "total items in order",
-        "value": "items"
-      },
-      "orderIdLabel": {
-        "comment": "Order ID label",
-        "value": "Order#"
-      },
-      "confirmationIdLabel": {
-        "comment": "Confirmation ID label",
-        "value": "Confirmation ID:"
-      },
-      "orderSummaryTitle": {
-        "comment": "Title for order summary",
-        "value": "Order summary"
-      },
-      "paymentMethodsTitle": {
-        "comment": "Title for payment methods",
-        "value": "Payment method"
-      },
-      "shippingAddressTitle": {
-        "comment": "Title for shipping address",
-        "value": "Shipping address"
-      },
-      "noSalesOrderText": {
-        "comment": "Text describes no sales order found",
-        "value": "No order confirmation found"
-      },
-      "creditCardEndingLabel": {
-        "comment": "Credit card ending label",
-        "value": "card ending in"
-      },
-      "giftCardEndingLabel": {
-        "comment": "Gift card ending label",
-        "value": "Gift card ending in"
-      },
-      "amountCoveredLabel": {
-        "comment": "Amount covered label",
-        "value": "Amount covered:"
-      },
-      "loyaltyCardUsedLabel": {
-        "comment": "Loyalty card used label",
-        "value": "Loyalty card used "
-      },
-      "cashUsedLabel": {
-        "comment": "Cash used label",
-        "value": "Cash"
-      },
-      "customerAccountUsedLabel": {
-        "comment": "Customer Account used label",
-        "value": "Customer Account"
-      },
-      "freePriceText": {
-        "comment": "Free price text",
-        "value": "FREE"
-      },
-      "orderSummaryItemsTotalLabel": {
-        "comment": "Order summary items total label",
-        "value": "Subtotal"
-      },
-      "orderSummaryShippingFeeLabel": {
-        "comment": "Order summary shipping fee label",
-        "value": "Shipping"
-      },
-      "orderSummaryTaxLabel": {
-        "comment": "Order summary tax label",
-        "value": "Tax"
-      },
-      "orderSummaryGrandTotalLabel": {
-        "comment": "Order summary grand total label",
-        "value": "Total"
-      },
-      "salesLineQuantityText": {
-        "comment": "Sales line quantity label",
-        "value": "Qty"
-      },
-      "processingLabel": {
-        "comment": "Text for order in processing state",
-        "value": "Processing"
-      },
-      "needHelpLabel": {
-        "comment": "Need help label",
-        "value": "Need help?"
-      },
-      "helpLineNumberLabel": {
-        "comment": "Help line number label",
-        "value": "Contact us at"
-      },
-      "helpLineContactAriaLabel": {
-        "comment": "Localized text for contact link aria label",
-        "value": "Need help, call"
-      },
-      "pickedUpSalesLines": {
-        "comment": "Store pickup title",
-        "value": "Store pickup"
-      },
-      "deliveredSalesLines": {
-        "comment": "Delivery at home",
-        "value": "Delivery"
-      },
-      "carryOutSalesLines": {
-        "comment": "Customer carry out",
-        "value": "Purchased"
-      },
-      "orderStatusReadyForPickup": {
-        "comment": "Order status for order pickup",
-        "value": "Ready for pickup"
-      },
-      "orderStatusProcessing": {
-        "comment": "Order status for order processing",
-        "value": "Processing"
-      },
-      "orderStatusShipped": {
-        "comment": "Order status for order shipped",
-        "value": "Shipped"
-      },
-      "orderStatusPickedUp": {
-        "comment": "Order status for order picked up",
-        "value": "Picked up"
-      },
-      "orderStatusCanceled": {
-        "comment": "Order status for order canceled",
-        "value": "Canceled"
-      },
-      "phoneAriaLabel": {
-        "comment": "Aria label for phone",
-        "value": "phone"
-      },
-      "buyItAgainLabel": {
-        "comment": "text for buy it again link",
-        "value": "Buy it again"
-      },
-      "buyItAgainAriaLabel": {
-        "comment": "text for buy it again aria label",
-        "value": "Buy it again for {productName}"
-      },
-      "shipToLabel": {
-        "comment": "Ship to label",
-        "value": "Ship to"
-      },
-      "storeLabel": {
-        "comment": "Store label",
-        "value": "Store"
-      },
-      "productDimensionTypeColor": {
-        "comment": "String that corresponds to the Color Product Dimension Type (1)",
-        "value": "Color"
-      },
-      "productDimensionTypeSize": {
-        "comment": "String that corresponds to the Size Product Dimension Type (3)",
-        "value": "Size"
-      },
-      "productDimensionTypeStyle": {
-        "comment": "String that corresponds to the Style Product Dimension Type (4)",
-        "value": "Style"
-      },
-      "trackingLabel": {
-        "comment": "tracking number label for orders",
-        "value": "Tracking number: "
-      },
-      "trackingComingSoonLabel": {
-        "comment": "tracking number coming soon",
-        "value": "Not yet available"
-      },
-      "trackingAriaLabel": {
-        "comment": "aria label for tracking number link",
-        "value": "track your order"
-      },
-      "pointsEarnedLabel": {
-        "comment": "Label for the amount of loyalty points earned",
-        "value": "Points earned"
-      },
-      "receiptEmailMessage": {
-        "comment": "Label for reciept email",
-        "value": "Confirmation email sent to "
-      },
-      "receiptIdLabel": {
-        "comment": "Receipt id label",
-        "value": "Receipt#"
-      },
-      "backToShopping": {
-        "comment": "Back to shopping label",
-        "value": "Back to shopping"
-      },
-      "configString": {
-        "comment": "Configuration text",
-        "value": "Configuration"
-      },
-      "phoneLabel": {
-        "comment": "Phone label",
-        "value": "Phone: "
-      },
-      "orderSummaryHeading": {
-        "comment": "Order summary heading",
-        "value": "Order summary"
-      },
-      "discountStringText": {
-        "comment": "String to show discount offer string",
-        "value": "Savings "
-      },
-      "pickupItemsHeader": {
-        "comment": "Header for pickup items group",
-        "value": "Pickup address"
-      },
-      "pickingItemsLabel": {
-        "comment": "Picking items label ",
-        "value": "Picking up {0} {1}"
-      },
-      "shippingItemToYouLabel": {
-        "comment": "Shipping items to you label",
-        "value": "Shipping {0} {1} to you"
-      },
-      "orderPlacedOnLabel": {
-        "comment": "label for order created date",
-        "value": "Order placed on:"
+      "allCategoryMenuText": {
+        "comment": "Menu text for all categories",
+        "value": "All"
       }
     },
     "type": "contentModule"
@@ -9170,199 +9264,6 @@
     },
     "type": "contentModule"
   },
-  "navigation-menu": {
-    "friendlyName": "Navigation menu (COPY)",
-    "name": "navigation-menu",
-    "description": "Navigation menu items represent the product browsing hierarchy and other static links to pages  ",
-    "categories": [
-      "Header",
-      "Navigation"
-    ],
-    "dataActions": {
-      "categories": {
-        "path": "@msdyn365-commerce-modules/retail-actions/dist/lib/get-categories-hierarchy"
-      }
-    },
-    "config": {
-      "categoryImageSettings": {
-        "friendlyName": "category image quality",
-        "description": "Image settings category",
-        "type": "imageSettings"
-      },
-      "displayCategoryImage": {
-        "friendlyName": "Show category images",
-        "description": "Show category images",
-        "type": "boolean",
-        "default": false,
-        "required": false
-      },
-      "navigationMenuSource": {
-        "friendlyName": "Source for navigation menu",
-        "description": "Shows navigation menu items from retail server or CMS tool or both",
-        "type": "string",
-        "enum": {
-          "retailServerOnly": "Retail Server",
-          "cmsOnly": "Manual Authoring",
-          "all": "From both Retail Server and Manual Authoring"
-        },
-        "default": "all",
-        "scope": "module"
-      },
-      "cmsNavItems": {
-        "type": "array",
-        "friendlyName": "Static menu items",
-        "description": "If source allows manual authoring, you can configure the menu items",
-        "items": {
-          "type": "object",
-          "friendlyName": "Menu item",
-          "description": "Menu item property",
-          "properties": {
-            "linkText": {
-              "type": "string",
-              "friendlyName": "Menu Item Text",
-              "description": "Text for Menu Item",
-              "default": "Menu Item Text "
-            },
-            "linkUrl": {
-              "type": "link",
-              "friendlyName": "Menu Item Link target",
-              "description": "Destination url for Menu Item Link",
-              "required": false
-            },
-            "image": {
-              "type": "image",
-              "friendlyName": "Menu Item Image",
-              "description": "Menu Item Image",
-              "required": false
-            },
-            "imageLink": {
-              "type": "link",
-              "friendlyName": "Menu Item Image Link",
-              "description": "Menu Item Image Link",
-              "required": false
-            },
-            "ariaLabel": {
-              "type": "string",
-              "friendlyName": "Menu item link aria label",
-              "description": "Aria Label for Menu Item Link",
-              "default": ""
-            },
-            "openInNewTab": {
-              "type": "boolean",
-              "friendlyName": "Open in new tab",
-              "description": "Open the link in a new tab",
-              "default": false
-            },
-            "subMenus": {
-              "type": "array",
-              "friendlyName": "List of Sub menus",
-              "description": "List of Sub menus",
-              "items": {
-                "type": "object",
-                "friendlyName": "Sub Menu Action Link",
-                "description": "Sub Menu Action Link property",
-                "properties": {
-                  "linkText": {
-                    "type": "string",
-                    "friendlyName": "Sub menu link text",
-                    "description": "Sub Menu Text for link",
-                    "default": "Sub Menu Link text "
-                  },
-                  "linkUrl": {
-                    "type": "link",
-                    "friendlyName": "Sub Menu Link target",
-                    "description": "Destination url for sub menu link",
-                    "required": true
-                  },
-                  "ariaLabel": {
-                    "type": "string",
-                    "friendlyName": "Sub menu link aria label",
-                    "description": "Aria Label for sub menu link",
-                    "default": ""
-                  },
-                  "image": {
-                    "type": "image",
-                    "friendlyName": "Menu Item Image",
-                    "description": "Menu Item Image",
-                    "required": false
-                  },
-                  "imageLink": {
-                    "type": "link",
-                    "friendlyName": "Menu Item Image Link",
-                    "description": "Menu Item Image Link",
-                    "required": false
-                  },
-                  "subMenus": {
-                    "type": "array",
-                    "friendlyName": "List of Sub menus",
-                    "description": "List of Sub menus",
-                    "items": {
-                      "type": "object",
-                      "friendlyName": "Sub Menu Action Link",
-                      "description": "Sub Menu Action Link property",
-                      "properties": {
-                        "linkText": {
-                          "type": "string",
-                          "friendlyName": "Sub menu link text",
-                          "description": "Sub Menu Text for link",
-                          "default": "Sub Menu Link text "
-                        },
-                        "linkUrl": {
-                          "type": "link",
-                          "friendlyName": "Sub menu link target",
-                          "description": "Destination url for sub menu link",
-                          "required": true
-                        },
-                        "ariaLabel": {
-                          "type": "string",
-                          "friendlyName": "Sub menu link aria label",
-                          "description": "Aria Label for sub menu link",
-                          "default": ""
-                        },
-                        "image": {
-                          "type": "image",
-                          "friendlyName": "Menu Item Image",
-                          "description": "Menu Item Image",
-                          "required": false
-                        },
-                        "imageLink": {
-                          "type": "link",
-                          "friendlyName": "Menu Item Image Link",
-                          "description": "Menu Item Image Link",
-                          "required": false
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          }
-        }
-      },
-      "className": {
-        "friendlyName": "Custom CSS class name",
-        "description": "Provide a custom css class name defined in the theme pack to target the CSS for this module",
-        "type": "string",
-        "default": ""
-      }
-    },
-    "resources": {
-      "menuAriaLabel": {
-        "comment": "aria label for main menu",
-        "value": "Menu"
-      },
-      "backButtonAriaLabel": {
-        "comment": "aria label for back button",
-        "value": "Back"
-      },
-      "allCategoryMenuText": {
-        "comment": "Menu text for all categories",
-        "value": "All"
-      }
-    },
-    "type": "contentModule"
-  },
   "order-history": {
     "friendlyName": "Order history",
     "name": "order-history",
@@ -9606,207 +9507,6 @@
       "onlineStoreChannelNameText": {
         "comment": "String to show online store channel name",
         "value": "Online purchase"
-      }
-    },
-    "type": "contentModule"
-  },
-  "map": {
-    "friendlyName": "map",
-    "name": "map",
-    "description": "Map module displays a map and pinpoints locations that it subscribes to",
-    "categories": [
-      "map"
-    ],
-    "tags": [
-      "Additional tags go here"
-    ],
-    "dataActions": {
-      "storeSelectorStateManager": {
-        "path": "@msdyn365-commerce-modules/bopis-utilities/dist/lib/store-selector-state-manager/store-selector-state-manager-data-action",
-        "runOn": "server"
-      }
-    },
-    "config": {
-      "heading": {
-        "friendlyName": "Heading",
-        "description": "Module heading",
-        "type": "object",
-        "properties": {
-          "text": {
-            "type": "string",
-            "friendlyName": "Heading Text",
-            "description": "Heading Text",
-            "default": "Heading",
-            "required": true
-          },
-          "tag": {
-            "type": "string",
-            "friendlyName": "Heading Level",
-            "description": "Heading Tag",
-            "enum": {
-              "h1": "H1",
-              "h2": "H2",
-              "h3": "H3",
-              "h4": "H4",
-              "h5": "H5",
-              "h6": "H6"
-            },
-            "default": "h2"
-          }
-        }
-      },
-      "pushpinOptions": {
-        "friendlyName": "Pushpin Options",
-        "description": "Provide additional data to create customized pushpin",
-        "type": "object",
-        "properties": {
-          "size": {
-            "friendlyName": "size",
-            "description": "Specifies the size of pushpin",
-            "type": "number",
-            "default": 1.5
-          },
-          "color": {
-            "friendlyName": "Color",
-            "description": "Specifies color of pushpin. Any color code including hex is supported",
-            "type": "string",
-            "default": "#616365"
-          },
-          "selectionColor": {
-            "friendlyName": "Selection color",
-            "description": "Specifies color of selected pushpin. Any color code including hex is supported",
-            "type": "string",
-            "default": "#4C833A"
-          },
-          "showIndex": {
-            "type": "boolean",
-            "friendlyName": "Show index",
-            "description": "Specifies whether or not to show numbers on the pushpin",
-            "default": true
-          }
-        }
-      },
-      "className": {
-        "friendlyName": "Custom CSS class name",
-        "description": "Provide a custom css class name defined in the theme pack to target the CSS for this module",
-        "type": "string",
-        "default": ""
-      }
-    },
-    "type": "contentModule"
-  },
-  "media-gallery": {
-    "friendlyName": "Media gallery",
-    "name": "media-gallery",
-    "description": "Media gallery is used for showcasing images of a product in a product details page",
-    "categories": [
-      "media-gallery"
-    ],
-    "dataActions": {
-      "product": {
-        "path": "@msdyn365-commerce-modules/retail-actions/dist/lib/get-selected-variant"
-      },
-      "mediaLocations": {
-        "path": "@msdyn365-commerce-modules/retail-actions/dist/lib/get-media-locations-by-id"
-      }
-    },
-    "config": {
-      "imageSource": {
-        "friendlyName": "Image source",
-        "description": "Default will be Page context, it automatically picks images associated with a product on the buy box",
-        "type": "string",
-        "enum": {
-          "pageContext": "PageContext",
-          "productId": "ProductId"
-        },
-        "required": false,
-        "default": "pageContext"
-      },
-      "productId": {
-        "type": "string",
-        "friendlyName": "Product id",
-        "description": "This field captures the product id for which you want to show images in a gallery. It should be used only when Image source is Product id",
-        "required": false
-      },
-      "imageZoom": {
-        "friendlyName": "Image zoom",
-        "description": "Image zoom",
-        "type": "string",
-        "enum": {
-          "inline": "Inline",
-          "container": "Container"
-        },
-        "default": "",
-        "scope": "module"
-      },
-      "dataScale": {
-        "friendlyName": "Zoom factor",
-        "description": "To enhance the zoom",
-        "type": "string",
-        "default": "1.5"
-      },
-      "allowFullScreen": {
-        "friendlyName": "Full screen",
-        "description": "Full screen",
-        "type": "boolean",
-        "default": false,
-        "required": false
-      },
-      "images": {
-        "friendlyName": "Images",
-        "description": "Allows images to be curated to the gallery from Media library",
-        "type": "array",
-        "items": {
-          "type": "image"
-        }
-      },
-      "thumbnailsOrientation": {
-        "friendlyName": "Thumbnails orientation",
-        "description": "Sets the desired orientation of the thumbnails strips",
-        "type": "string",
-        "enum": {
-          "vertical": "Vertical",
-          "horizontal": "Horizontal"
-        },
-        "default": "vertical",
-        "scope": "module"
-      },
-      "thumbnailImageSettings": {
-        "friendlyName": "Thumbnail image quality",
-        "description": "Image settings for the thumbnails",
-        "type": "imageSettings"
-      },
-      "galleryImageSettings": {
-        "friendlyName": "Gallery image quality",
-        "description": "Image settings for the main gallery",
-        "type": "imageSettings"
-      },
-      "showPaginationTooltip": {
-        "friendlyName": "Show Media Gallery pagination tooltip",
-        "description": "Enable/Disable the tooltip of the Media Gallery pagination indicators",
-        "type": "boolean",
-        "default": false,
-        "required": false
-      },
-      "className": {
-        "friendlyName": "Custom CSS class name",
-        "description": "Provide a custom css class name defined in the theme pack to target the CSS for this module",
-        "type": "string",
-        "default": ""
-      }
-    },
-    "resources": {
-      "nextScreenshotFlipperText": {
-        "comment": "The label for the 'next screenshot' flipper",
-        "value": "Next"
-      },
-      "previousScreenshotFlipperText": {
-        "comment": "The label which is shown on 'previous screenshot' flipper",
-        "value": "Previous"
-      },
-      "fullScreenTitleText": {
-        "comment": "To show the title on media gallery image fullscreen",
-        "value": "fullscreen"
       }
     },
     "type": "contentModule"
@@ -10173,103 +9873,6 @@
     },
     "type": "contentModule"
   },
-  "organization-users-tile": {
-    "friendlyName": "organization-users-tile",
-    "name": "organization-users-tile",
-    "description": "Display summary for organizations users",
-    "categories": [
-      "Account-management"
-    ],
-    "tags": [
-      "B2B"
-    ],
-    "dataActions": {
-      "users": {
-        "path": "@msdyn365-commerce-modules/retail-actions/dist/lib/get-organization-users-count"
-      }
-    },
-    "config": {
-      "heading": {
-        "friendlyName": "Heading",
-        "description": "Module heading",
-        "required": true,
-        "type": "object",
-        "properties": {
-          "text": {
-            "type": "string",
-            "friendlyName": "Heading Text",
-            "description": "Heading Text",
-            "default": "Heading",
-            "required": true
-          },
-          "tag": {
-            "type": "string",
-            "friendlyName": "Heading Level",
-            "description": "Heading Tag",
-            "enum": {
-              "h1": "H1",
-              "h2": "H2",
-              "h3": "H3",
-              "h4": "H4",
-              "h5": "H5",
-              "h6": "H6"
-            },
-            "default": "h2"
-          }
-        }
-      },
-      "links": {
-        "type": "array",
-        "friendlyName": "Links",
-        "description": "Configure link to organization user page",
-        "items": {
-          "type": "object",
-          "friendlyName": "Action Link",
-          "description": "Action Link property",
-          "properties": {
-            "linkText": {
-              "type": "string",
-              "friendlyName": "Link text",
-              "description": "Text for call to action link",
-              "default": "Link text "
-            },
-            "linkUrl": {
-              "type": "link",
-              "friendlyName": "Link target",
-              "description": "Destination url for link",
-              "required": true
-            },
-            "ariaLabel": {
-              "type": "string",
-              "friendlyName": "Link aria label",
-              "description": "Aria Label for link",
-              "default": ""
-            },
-            "openInNewTab": {
-              "type": "boolean",
-              "friendlyName": "Open in new tab",
-              "description": "Open the link in a new tab",
-              "default": false
-            }
-          }
-        },
-        "required": true
-      },
-      "className": {
-        "friendlyName": "Custom CSS class name",
-        "description": "Provide a custom css class name defined in the theme pack to target the CSS for this module",
-        "type": "string",
-        "default": ""
-      }
-    },
-    "resources": {
-      "accountOrganizationUsersTileDescription": {
-        "value": "You have {0} organization user. ",
-        "comment": "Text display as summary for business partners."
-      }
-    },
-    "type": "contentModule"
-  },
   "order-template-list": {
     "friendlyName": "OrderTemplateList",
     "name": "order-template-list",
@@ -10441,25 +10044,125 @@
     },
     "type": "contentModule"
   },
-  "product-specification": {
-    "friendlyName": "Product details",
-    "name": "product-specification",
-    "description": "Product details is used to display additional information about the product in the product details page",
+  "organization-users-tile": {
+    "friendlyName": "organization-users-tile",
+    "name": "organization-users-tile",
+    "description": "Display summary for organizations users",
     "categories": [
-      "Product details "
+      "Account-management"
+    ],
+    "tags": [
+      "B2B"
     ],
     "dataActions": {
-      "product": {
-        "path": "@msdyn365-commerce-modules/retail-actions/dist/lib/get-selected-variant"
-      },
-      "productSpecificationData": {
-        "path": "../../dataActions/get-attributes-for-selected-variant"
+      "users": {
+        "path": "@msdyn365-commerce-modules/retail-actions/dist/lib/get-organization-users-count"
       }
     },
     "config": {
       "heading": {
         "friendlyName": "Heading",
-        "description": "Heading for product details",
+        "description": "Module heading",
+        "required": true,
+        "type": "object",
+        "properties": {
+          "text": {
+            "type": "string",
+            "friendlyName": "Heading Text",
+            "description": "Heading Text",
+            "default": "Heading",
+            "required": true
+          },
+          "tag": {
+            "type": "string",
+            "friendlyName": "Heading Level",
+            "description": "Heading Tag",
+            "enum": {
+              "h1": "H1",
+              "h2": "H2",
+              "h3": "H3",
+              "h4": "H4",
+              "h5": "H5",
+              "h6": "H6"
+            },
+            "default": "h2"
+          }
+        }
+      },
+      "links": {
+        "type": "array",
+        "friendlyName": "Links",
+        "description": "Configure link to organization user page",
+        "items": {
+          "type": "object",
+          "friendlyName": "Action Link",
+          "description": "Action Link property",
+          "properties": {
+            "linkText": {
+              "type": "string",
+              "friendlyName": "Link text",
+              "description": "Text for call to action link",
+              "default": "Link text "
+            },
+            "linkUrl": {
+              "type": "link",
+              "friendlyName": "Link target",
+              "description": "Destination url for link",
+              "required": true
+            },
+            "ariaLabel": {
+              "type": "string",
+              "friendlyName": "Link aria label",
+              "description": "Aria Label for link",
+              "default": ""
+            },
+            "openInNewTab": {
+              "type": "boolean",
+              "friendlyName": "Open in new tab",
+              "description": "Open the link in a new tab",
+              "default": false
+            }
+          }
+        },
+        "required": true
+      },
+      "className": {
+        "friendlyName": "Custom CSS class name",
+        "description": "Provide a custom css class name defined in the theme pack to target the CSS for this module",
+        "type": "string",
+        "default": ""
+      }
+    },
+    "resources": {
+      "accountOrganizationUsersTileDescription": {
+        "value": "You have {0} organization user. ",
+        "comment": "Text display as summary for business partners."
+      }
+    },
+    "type": "contentModule"
+  },
+  "ratings-histogram": {
+    "friendlyName": "Ratings histogram",
+    "name": "ratings-histogram",
+    "description": "Ratings histogram shows product ratings in a histogram view",
+    "categories": [
+      "Product details",
+      "Ratings",
+      "Reviews"
+    ],
+    "dataActions": {
+      "ratingsSummary": {
+        "path": "@msdyn365-commerce-modules/retail-actions/dist/lib/get-ratings-summary"
+      },
+      "ratingsReviewsState": {
+        "path": "../../actions/ratings-reviews-state-data-action",
+        "runOn": "client"
+      }
+    },
+    "config": {
+      "heading": {
+        "friendlyName": "Heading",
+        "description": "Heading for histogram",
         "type": "object",
         "properties": {
           "text": {
@@ -10493,131 +10196,25 @@
       }
     },
     "resources": {
-      "trueValueText": {
-        "value": "Yes",
-        "comment": "Text to show for boolean fields whose value is true"
+      "barItemAriaLabel": {
+        "comment": "The aria label used for the histgram values",
+        "value": "{0} stars, {1}% of users gave {0} stars"
       },
-      "falseValueText": {
-        "value": "No",
-        "comment": "Text to show for boolean fields whose value is false"
-      }
-    },
-    "type": "contentModule"
-  },
-  "search": {
-    "friendlyName": "Search (COPY)",
-    "name": "search",
-    "description": "Search allows to find products across the ecommerce site catalog",
-    "categories": [
-      "Header",
-      "Search"
-    ],
-    "dataActions": {
-      "searchState": {
-        "path": "@msdyn365-commerce-modules/search-utilities/dist/lib/search-state-data-action",
-        "runOn": "client"
-      }
-    },
-    "config": {
-      "suggestionTypeCriterion": {
-        "friendlyName": "Search suggestion types.",
-        "description": "Allows product, keyword and category search results, choose default if you want all options",
-        "type": "array",
-        "items": {
-          "type": "object",
-          "friendlyName": "Suggestion Type",
-          "description": "Suggestion Type property",
-          "properties": {
-            "SuggestionType": {
-              "type": "string",
-              "friendlyName": "Suggestion Type Item",
-              "description": "Suggestion type for suggestions",
-              "enum": {
-                "product": "Product",
-                "keyword": "Keyword",
-                "scopedCategory": "ScopedCategory"
-              }
-            }
-          }
-        }
+      "averageRatingAriaLabel": {
+        "comment": "The aria label used for the average rating value",
+        "value": "Ratings and reviews section. Average {0} of {1} stars"
       },
-      "topResultsCount": {
-        "friendlyName": "Number of results",
-        "description": "Fetch top n number of results for earch search type",
-        "type": "number",
-        "default": 5,
-        "minimum": 0,
-        "maximum": 30,
-        "scope": "module"
+      "ratingCountAriaLabel": {
+        "comment": "The aria label used for the number of ratings made for this product",
+        "value": "{0} users rated this product."
       },
-      "imageSettings": {
-        "friendlyName": "Auto suggest Image Settings",
-        "description": "Image settings for auto suggest",
-        "type": "imageSettings"
+      "ratingReviewText": {
+        "comment": "The text review for rating count one",
+        "value": "review"
       },
-      "hideSearchLabel": {
-        "friendlyName": "Hide search label",
-        "description": "Hides the search label on the search box",
-        "type": "boolean",
-        "default": false,
-        "scope": "module"
-      },
-      "disableSubmitSearch": {
-        "friendlyName": "Hide search button",
-        "description": "Hides the search button on the search box",
-        "type": "boolean",
-        "default": false,
-        "scope": "module"
-      },
-      "searchplaceholderText": {
-        "friendlyName": "Search place holder",
-        "description": "Text for search place holder",
-        "type": "string",
-        "scope": "module"
-      },
-      "className": {
-        "friendlyName": "Custom CSS class name",
-        "description": "Provide a custom css class name defined in the theme pack to target the CSS for this module",
-        "type": "string",
-        "default": ""
-      }
-    },
-    "resources": {
-      "searchtext": {
-        "comment": "Search label text",
-        "value": "Search"
-      },
-      "searchLabelArialLabel": {
-        "comment": "Text for search label aria label",
-        "value": "Search collapsed"
-      },
-      "cancelBtnAriaLabel": {
-        "comment": "Text for cancel button aria label",
-        "value": "Cancel"
-      },
-      "searchBtnAriaLabel": {
-        "comment": "Text for search button aria label",
-        "value": "Search"
-      },
-      "submitBtnAriaLabel": {
-        "comment": "Text for submit button aria label",
-        "value": "Submit search"
-      },
-      "autoSuggestFoundMessage": {
-        "comment": "Autosuggest response message for aria label",
-        "value": "Autosuggest results are available"
-      },
-      "noAutoSuggestionMessage": {
-        "comment": "Empty autosuggest response message for aria label",
-        "value": "No autosuggest results are available"
-      },
-      "productSuggestionHeading": {
-        "comment": "Product suggestion type search results list heading title",
-        "value": "Go to products"
-      },
-      "categorySuggestionHeading": {
-        "comment": "Category suggestion type search results list heading title",
-        "value": "Search {0} in categories"
+      "ratingReviewsText": {
+        "comment": "The text reviews for rating count more than one",
+        "value": "reviews"
       }
     },
     "type": "contentModule"
@@ -10889,6 +10486,124 @@
     },
     "type": "contentModule"
   },
+  "search": {
+    "friendlyName": "Search (COPY)",
+    "name": "search",
+    "description": "Search allows to find products across the ecommerce site catalog",
+    "categories": [
+      "Header",
+      "Search"
+    ],
+    "dataActions": {
+      "searchState": {
+        "path": "@msdyn365-commerce-modules/search-utilities/dist/lib/search-state-data-action",
+        "runOn": "client"
+      }
+    },
+    "config": {
+      "suggestionTypeCriterion": {
+        "friendlyName": "Search suggestion types.",
+        "description": "Allows product, keyword and category search results, choose default if you want all options",
+        "type": "array",
+        "items": {
+          "type": "object",
+          "friendlyName": "Suggestion Type",
+          "description": "Suggestion Type property",
+          "properties": {
+            "SuggestionType": {
+              "type": "string",
+              "friendlyName": "Suggestion Type Item",
+              "description": "Suggestion type for suggestions",
+              "enum": {
+                "product": "Product",
+                "keyword": "Keyword",
+                "scopedCategory": "ScopedCategory"
+              }
+            }
+          }
+        }
+      },
+      "topResultsCount": {
+        "friendlyName": "Number of results",
+        "description": "Fetch top n number of results for earch search type",
+        "type": "number",
+        "default": 5,
+        "minimum": 0,
+        "maximum": 30,
+        "scope": "module"
+      },
+      "imageSettings": {
+        "friendlyName": "Auto suggest Image Settings",
+        "description": "Image settings for auto suggest",
+        "type": "imageSettings"
+      },
+      "hideSearchLabel": {
+        "friendlyName": "Hide search label",
+        "description": "Hides the search label on the search box",
+        "type": "boolean",
+        "default": false,
+        "scope": "module"
+      },
+      "disableSubmitSearch": {
+        "friendlyName": "Hide search button",
+        "description": "Hides the search button on the search box",
+        "type": "boolean",
+        "default": false,
+        "scope": "module"
+      },
+      "searchplaceholderText": {
+        "friendlyName": "Search place holder",
+        "description": "Text for search place holder",
+        "type": "string",
+        "scope": "module"
+      },
+      "className": {
+        "friendlyName": "Custom CSS class name",
+        "description": "Provide a custom css class name defined in the theme pack to target the CSS for this module",
+        "type": "string",
+        "default": ""
+      }
+    },
+    "resources": {
+      "searchtext": {
+        "comment": "Search label text",
+        "value": "Search"
+      },
+      "searchLabelArialLabel": {
+        "comment": "Text for search label aria label",
+        "value": "Search collapsed"
+      },
+      "cancelBtnAriaLabel": {
+        "comment": "Text for cancel button aria label",
+        "value": "Cancel"
+      },
+      "searchBtnAriaLabel": {
+        "comment": "Text for search button aria label",
+        "value": "Search"
+      },
+      "submitBtnAriaLabel": {
+        "comment": "Text for submit button aria label",
+        "value": "Submit search"
+      },
+      "autoSuggestFoundMessage": {
+        "comment": "Autosuggest response message for aria label",
+        "value": "Autosuggest results are available"
+      },
+      "noAutoSuggestionMessage": {
+        "comment": "Empty autosuggest response message for aria label",
+        "value": "No autosuggest results are available"
+      },
+      "productSuggestionHeading": {
+        "comment": "Product suggestion type search results list heading title",
+        "value": "Go to products"
+      },
+      "categorySuggestionHeading": {
+        "comment": "Category suggestion type search results list heading title",
+        "value": "Search {0} in categories"
+      }
+    },
+    "type": "contentModule"
+  },
   "search-result-container": {
     "friendlyName": "Search results (COPY)",
     "name": "search-result-container",
@@ -11128,28 +10843,25 @@
     },
     "type": "contentModule"
   },
-  "ratings-histogram": {
-    "friendlyName": "Ratings histogram",
-    "name": "ratings-histogram",
-    "description": "Ratings histogram shows product ratings in a histogram view",
+  "product-specification": {
+    "friendlyName": "Product details",
+    "name": "product-specification",
+    "description": "Product details is used to display additional information about the product in the product details page",
     "categories": [
-      "Product details",
-      "Ratings",
-      "Reviews"
+      "Product details "
     ],
     "dataActions": {
-      "ratingsSummary": {
-        "path": "@msdyn365-commerce-modules/retail-actions/dist/lib/get-ratings-summary"
+      "product": {
+        "path": "@msdyn365-commerce-modules/retail-actions/dist/lib/get-selected-variant"
       },
-      "ratingsReviewsState": {
-        "path": "../../actions/ratings-reviews-state-data-action",
-        "runOn": "client"
+      "productSpecificationData": {
+        "path": "../../dataActions/get-attributes-for-selected-variant"
       }
     },
     "config": {
       "heading": {
         "friendlyName": "Heading",
-        "description": "Heading for histogram",
+        "description": "Heading for product details",
         "type": "object",
         "properties": {
           "text": {
@@ -11183,25 +10895,313 @@
       }
     },
     "resources": {
-      "barItemAriaLabel": {
-        "comment": "The aria label used for the histgram values",
-        "value": "{0} stars, {1}% of users gave {0} stars"
+      "trueValueText": {
+        "value": "Yes",
+        "comment": "Text to show for boolean fields whose value is true"
       },
-      "averageRatingAriaLabel": {
-        "comment": "The aria label used for the average rating value",
-        "value": "Ratings and reviews section. Average {0} of {1} stars"
+      "falseValueText": {
+        "value": "No",
+        "comment": "Text to show for boolean fields whose value is false"
+      }
+    },
+    "type": "contentModule"
+  },
+  "order-confirmation": {
+    "friendlyName": "Order confirmation",
+    "name": "order-confirmation",
+    "description": "This module shows an order confirmation after the order is placed. It includes confirmation id and details about the order",
+    "categories": [
+      "Account management",
+      "Order management"
+    ],
+    "dataActions": {
+      "orderHydration": {
+        "path": "../../actions/get-sales-order-with-hydrations",
+        "runOn": "server"
       },
-      "ratingCountAriaLabel": {
-        "comment": "The aria label used for the number of ratings made for this product",
-        "value": "{0} users rated this product."
+      "tenderTypes": {
+        "path": "../../actions/get-tender-types",
+        "runOn": "server"
       },
-      "ratingReviewText": {
-        "comment": "The text review for rating count one",
-        "value": "review"
+      "loyaltyCard": {
+        "path": "@msdyn365-commerce-modules/retail-actions/dist/lib/get-loyalty-card",
+        "runOn": "client"
+      }
+    },
+    "config": {
+      "heading": {
+        "friendlyName": "Heading",
+        "description": "Heading",
+        "type": "object",
+        "properties": {
+          "text": {
+            "type": "string",
+            "friendlyName": "Heading Text",
+            "description": "Heading Text",
+            "default": "Heading",
+            "required": true
+          },
+          "tag": {
+            "type": "string",
+            "friendlyName": "Heading Level",
+            "description": "Heading Tag",
+            "enum": {
+              "h1": "H1",
+              "h2": "H2",
+              "h3": "H3",
+              "h4": "H4",
+              "h5": "H5",
+              "h6": "H6"
+            },
+            "default": "h2"
+          }
+        }
       },
-      "ratingReviewsText": {
-        "comment": "The text reviews for rating count more than one",
-        "value": "reviews"
+      "contactNumber": {
+        "friendlyName": "Contact number",
+        "description": "Contact number for help",
+        "type": "string"
+      },
+      "imageSettings": {
+        "friendlyName": "Order confirmation Image Settings",
+        "description": "Image settings for order confirmation",
+        "type": "imageSettings"
+      },
+      "className": {
+        "friendlyName": "Custom CSS class name",
+        "description": "Provide a custom css class name defined in the theme pack to target the CSS for this module",
+        "type": "string",
+        "default": ""
+      }
+    },
+    "resources": {
+      "loadingLabel": {
+        "comment": "Loading message",
+        "value": "Loading..."
+      },
+      "genericErrorMessage": {
+        "comment": "Localized generic error message for Payment instrument module",
+        "value": "Something went wrong. Please try again later."
+      },
+      "orderItemLabel": {
+        "comment": "total items in order",
+        "value": "item"
+      },
+      "orderItemsLabel": {
+        "comment": "total items in order",
+        "value": "items"
+      },
+      "orderIdLabel": {
+        "comment": "Order ID label",
+        "value": "Order#"
+      },
+      "confirmationIdLabel": {
+        "comment": "Confirmation ID label",
+        "value": "Confirmation ID:"
+      },
+      "orderSummaryTitle": {
+        "comment": "Title for order summary",
+        "value": "Order summary"
+      },
+      "paymentMethodsTitle": {
+        "comment": "Title for payment methods",
+        "value": "Payment method"
+      },
+      "shippingAddressTitle": {
+        "comment": "Title for shipping address",
+        "value": "Shipping address"
+      },
+      "noSalesOrderText": {
+        "comment": "Text describes no sales order found",
+        "value": "No order confirmation found"
+      },
+      "creditCardEndingLabel": {
+        "comment": "Credit card ending label",
+        "value": "card ending in"
+      },
+      "giftCardEndingLabel": {
+        "comment": "Gift card ending label",
+        "value": "Gift card ending in"
+      },
+      "amountCoveredLabel": {
+        "comment": "Amount covered label",
+        "value": "Amount covered:"
+      },
+      "loyaltyCardUsedLabel": {
+        "comment": "Loyalty card used label",
+        "value": "Loyalty card used "
+      },
+      "cashUsedLabel": {
+        "comment": "Cash used label",
+        "value": "Cash"
+      },
+      "customerAccountUsedLabel": {
+        "comment": "Customer Account used label",
+        "value": "Customer Account"
+      },
+      "freePriceText": {
+        "comment": "Free price text",
+        "value": "FREE"
+      },
+      "orderSummaryItemsTotalLabel": {
+        "comment": "Order summary items total label",
+        "value": "Subtotal"
+      },
+      "orderSummaryShippingFeeLabel": {
+        "comment": "Order summary shipping fee label",
+        "value": "Shipping"
+      },
+      "orderSummaryTaxLabel": {
+        "comment": "Order summary tax label",
+        "value": "Tax"
+      },
+      "orderSummaryGrandTotalLabel": {
+        "comment": "Order summary grand total label",
+        "value": "Total"
+      },
+      "salesLineQuantityText": {
+        "comment": "Sales line quantity label",
+        "value": "Qty"
+      },
+      "processingLabel": {
+        "comment": "Text for order in processing state",
+        "value": "Processing"
+      },
+      "needHelpLabel": {
+        "comment": "Need help label",
+        "value": "Need help?"
+      },
+      "helpLineNumberLabel": {
+        "comment": "Help line number label",
+        "value": "Contact us at"
+      },
+      "helpLineContactAriaLabel": {
+        "comment": "Localized text for contact link aria label",
+        "value": "Need help, call"
+      },
+      "pickedUpSalesLines": {
+        "comment": "Store pickup title",
+        "value": "Store pickup"
+      },
+      "deliveredSalesLines": {
+        "comment": "Delivery at home",
+        "value": "Delivery"
+      },
+      "carryOutSalesLines": {
+        "comment": "Customer carry out",
+        "value": "Purchased"
+      },
+      "orderStatusReadyForPickup": {
+        "comment": "Order status for order pickup",
+        "value": "Ready for pickup"
+      },
+      "orderStatusProcessing": {
+        "comment": "Order status for order processing",
+        "value": "Processing"
+      },
+      "orderStatusShipped": {
+        "comment": "Order status for order shipped",
+        "value": "Shipped"
+      },
+      "orderStatusPickedUp": {
+        "comment": "Order status for order picked up",
+        "value": "Picked up"
+      },
+      "orderStatusCanceled": {
+        "comment": "Order status for order canceled",
+        "value": "Canceled"
+      },
+      "phoneAriaLabel": {
+        "comment": "Aria label for phone",
+        "value": "phone"
+      },
+      "buyItAgainLabel": {
+        "comment": "text for buy it again link",
+        "value": "Buy it again"
+      },
+      "buyItAgainAriaLabel": {
+        "comment": "text for buy it again aria label",
+        "value": "Buy it again for {productName}"
+      },
+      "shipToLabel": {
+        "comment": "Ship to label",
+        "value": "Ship to"
+      },
+      "storeLabel": {
+        "comment": "Store label",
+        "value": "Store"
+      },
+      "productDimensionTypeColor": {
+        "comment": "String that corresponds to the Color Product Dimension Type (1)",
+        "value": "Color"
+      },
+      "productDimensionTypeSize": {
+        "comment": "String that corresponds to the Size Product Dimension Type (3)",
+        "value": "Size"
+      },
+      "productDimensionTypeStyle": {
+        "comment": "String that corresponds to the Style Product Dimension Type (4)",
+        "value": "Style"
+      },
+      "trackingLabel": {
+        "comment": "tracking number label for orders",
+        "value": "Tracking number: "
+      },
+      "trackingComingSoonLabel": {
+        "comment": "tracking number coming soon",
+        "value": "Not yet available"
+      },
+      "trackingAriaLabel": {
+        "comment": "aria label for tracking number link",
+        "value": "track your order"
+      },
+      "pointsEarnedLabel": {
+        "comment": "Label for the amount of loyalty points earned",
+        "value": "Points earned"
+      },
+      "receiptEmailMessage": {
+        "comment": "Label for reciept email",
+        "value": "Confirmation email sent to "
+      },
+      "receiptIdLabel": {
+        "comment": "Receipt id label",
+        "value": "Receipt#"
+      },
+      "backToShopping": {
+        "comment": "Back to shopping label",
+        "value": "Back to shopping"
+      },
+      "configString": {
+        "comment": "Configuration text",
+        "value": "Configuration"
+      },
+      "phoneLabel": {
+        "comment": "Phone label",
+        "value": "Phone: "
+      },
+      "orderSummaryHeading": {
+        "comment": "Order summary heading",
+        "value": "Order summary"
+      },
+      "discountStringText": {
+        "comment": "String to show discount offer string",
+        "value": "Savings "
+      },
+      "pickupItemsHeader": {
+        "comment": "Header for pickup items group",
+        "value": "Pickup address"
+      },
+      "pickingItemsLabel": {
+        "comment": "Picking items label ",
+        "value": "Picking up {0} {1}"
+      },
+      "shippingItemToYouLabel": {
+        "comment": "Shipping items to you label",
+        "value": "Shipping {0} {1} to you"
+      },
+      "orderPlacedOnLabel": {
+        "comment": "label for order created date",
+        "value": "Order placed on:"
       }
     },
     "type": "contentModule"
@@ -11538,50 +11538,6 @@
     },
     "type": "contentModule"
   },
-  "tab-item": {
-    "friendlyName": "tab-item",
-    "name": "tab-item",
-    "description": "Tab item represents each tab within a Tab module. Any module can be configured within a tab item.",
-    "categories": [
-      "tab-item"
-    ],
-    "tags": [
-      "Additional tags go here"
-    ],
-    "dataActions": {
-      "activeTabState": {
-        "path": "../../data-actions/tab-state-data-action",
-        "runOn": "server"
-      }
-    },
-    "attributes": {
-      "private": true
-    },
-    "slots": {
-      "tabItemContent": {
-        "friendlyName": "Tab item slot",
-        "description": "Tab item slot",
-        "allowedTypes": "*",
-        "min": 1,
-        "max": 100
-      }
-    },
-    "config": {
-      "tabItemTitle": {
-        "friendlyName": "Title",
-        "description": "tab item title",
-        "type": "string",
-        "required": true
-      },
-      "className": {
-        "friendlyName": "Class name for the module",
-        "description": "Class name for the module",
-        "type": "string",
-        "default": ""
-      }
-    },
-    "type": "moduleDefinition"
-  },
   "tab": {
     "friendlyName": "Tab",
     "name": "tab",
@@ -11647,6 +11603,50 @@
       "activeTabState": {
         "path": "../../data-actions/tab-state-data-action",
         "runOn": "server"
+      }
+    },
+    "type": "moduleDefinition"
+  },
+  "tab-item": {
+    "friendlyName": "tab-item",
+    "name": "tab-item",
+    "description": "Tab item represents each tab within a Tab module. Any module can be configured within a tab item.",
+    "categories": [
+      "tab-item"
+    ],
+    "tags": [
+      "Additional tags go here"
+    ],
+    "dataActions": {
+      "activeTabState": {
+        "path": "../../data-actions/tab-state-data-action",
+        "runOn": "server"
+      }
+    },
+    "attributes": {
+      "private": true
+    },
+    "slots": {
+      "tabItemContent": {
+        "friendlyName": "Tab item slot",
+        "description": "Tab item slot",
+        "allowedTypes": "*",
+        "min": 1,
+        "max": 100
+      }
+    },
+    "config": {
+      "tabItemTitle": {
+        "friendlyName": "Title",
+        "description": "tab item title",
+        "type": "string",
+        "required": true
+      },
+      "className": {
+        "friendlyName": "Class name for the module",
+        "description": "Class name for the module",
+        "type": "string",
+        "default": ""
       }
     },
     "type": "moduleDefinition"
@@ -11986,35 +11986,6 @@
     },
     "type": "contentModule"
   },
-  "sale": {
-    "friendlyName": "sale",
-    "name": "sale",
-    "description": "Please add meaningful description for authoring",
-    "categories": [
-      "sale"
-    ],
-    "tags": [
-      "Additional tags go here"
-    ],
-    "dataActions": {},
-    "config": {
-      "showText": {
-        "friendlyName": "showText",
-        "description": "example config value",
-        "type": "string",
-        "default": "Example Config Value",
-        "scope": "module",
-        "group": "Layout Properties"
-      }
-    },
-    "resources": {
-      "resourceKey": {
-        "comment": "resource description",
-        "value": "resource value"
-      }
-    },
-    "type": "contentModule"
-  },
   "index-product": {
     "friendlyName": "index-product",
     "name": "index-product",
@@ -12046,6 +12017,35 @@
         "type": "string",
         "scope": "module",
         "group": "Content Properties"
+      }
+    },
+    "resources": {
+      "resourceKey": {
+        "comment": "resource description",
+        "value": "resource value"
+      }
+    },
+    "type": "contentModule"
+  },
+  "sale": {
+    "friendlyName": "sale",
+    "name": "sale",
+    "description": "Please add meaningful description for authoring",
+    "categories": [
+      "sale"
+    ],
+    "tags": [
+      "Additional tags go here"
+    ],
+    "dataActions": {},
+    "config": {
+      "showText": {
+        "friendlyName": "showText",
+        "description": "example config value",
+        "type": "string",
+        "default": "Example Config Value",
+        "scope": "module",
+        "group": "Layout Properties"
       }
     },
     "resources": {
