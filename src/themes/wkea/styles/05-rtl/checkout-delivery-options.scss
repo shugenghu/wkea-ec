@@ -1,0 +1,10 @@
+$msv-checkout-rtl-radio-margin-left: 15px;
+
+[dir="rtl"] {
+  .ms-checkout-delivery-options {
+
+    &__input-radio {
+      margin-left: $msv-checkout-rtl-radio-margin-left;
+    }
+  }
+}

@@ -1,7 +1,19 @@
 {
   "id": "R1Module1",
   "config": {
-    "showText": "Example Config Value"
+    "showText": "Example Config Value",
+    "productIds": [
+      "5637146901",
+      "5637150867",
+      "5637150588",
+      "5637150589",
+      "5637150592",
+      "5637150617",
+      "5637150618",
+      "5637150593",
+      "5637147649",
+      "5637150590"
+    ]
   },
   "data": {
     "actionResponse": {

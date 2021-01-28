@@ -5,10 +5,50 @@
 
 import * as React from 'react';
 import { IIndexProductViewProps } from './index-product';
+import { getProductPageUrlSync } from '@msdyn365-commerce-modules/retail-actions';
 
 export default (props: IIndexProductViewProps) => {
+    const {
+        context
+    } = props
+    var products = [];
+    var productshow =[];
+    for (let index = 0; index < props.data.products.length; index++) {
+        const number = Number(props.data.products[index].result?.RecordId)
+        const href = getProductPageUrlSync(props.data.products[index].result?.Name || '', number , context && context.actionContext, undefined)
+        if (index<5) {
+            products.push(
+                <td>
+                    <div>
+                        <a href={href}>
+                            <img src={props.data.products[index].result?.PrimaryImageUrl} alt="" />
+                        </a>
+                        <div className="wkea-index-product-product">
+                            <a href={href}>{props.data.products[index].result?.Name}</a>
+                            <span className="wkea-index-product-product-symbol">¥ <span className="wkea-index-product-product-money">{props.data.products[index].result?.Price}</span></span>
+                        </div>
+                    </div>
+                </td>
+            )
+        }
+        if (5<=index&&index<10) {
+            productshow.push(
+                <td>
+                    <div>
+                        <a href={href}>
+                            <img src={props.data.products[index].result?.PrimaryImageUrl} alt="" />
+                        </a>
+                        <div className="wkea-index-product-product">
+                            <a href={href}>{props.data.products[index].result?.Name}</a>
+                            <span className="wkea-index-product-product-symbol">¥ <span className="wkea-index-product-product-money">{props.data.products[index].result?.Price}</span></span>
+                        </div>
+                    </div>
+                </td>
+            )
+        }
+    }
     return (
-        <div className="centre">
+        <div className="centre clearboth">
             <div className="wkea-index-product-content-content-product">
                 <div className="wkea-index-product-content-content-product-top">
                     <hr /><span>工厂自动化零件</span>
@@ -25,117 +65,8 @@ export default (props: IIndexProductViewProps) => {
                 </div>
                 <div className="wkea-index-product-content-content-product-product">
                     <table>
-                        <tr>
-                            <td>
-                                <div>
-                                    <a href="">
-                                        <img src="../images/text.png" alt="" />
-                                    </a>
-                                    <div className="wkea-index-product-product">
-                                        <a href="">史丹利 1650W 185mm 电圆锯</a>
-                                        <span className="wkea-index-product-product-symbol">¥ <span className="wkea-index-product-product-money">475.00</span></span>
-                                    </div>
-                                </div>
-                            </td>
-                            <td>
-                                <div>
-                                    <a href="">
-                                        <img src="../images/text.png" alt="" />
-                                    </a>
-                                    <div className="wkea-index-product-product">
-                                        <a href="">史丹利 1650W 185mm 电圆锯</a>
-                                        <span className="wkea-index-product-product-symbol">¥ <span className="wkea-index-product-product-money">475.00</span></span>
-                                    </div>
-                                </div>
-                            </td>
-                            <td>
-                                <div>
-                                    <a href="">
-                                        <img src="../images/text.png" alt="" />
-                                    </a>
-                                    <div className="wkea-index-product-product">
-                                        <a href="">史丹利 1650W 185mm 电圆锯</a>
-                                        <span className="wkea-index-product-product-symbol">¥ <span className="wkea-index-product-product-money">475.00</span></span>
-                                    </div>
-                                </div>
-                            </td>
-                            <td>
-                                <div>
-                                    <a href="">
-                                        <img src="../images/text.png" alt="" />
-                                    </a>
-                                    <div className="wkea-index-product-product">
-                                        <a href="">史丹利 1650W 185mm 电圆锯</a>
-                                        <span className="wkea-index-product-product-symbol">¥ <span className="wkea-index-product-product-money">475.00</span></span>
-                                    </div>
-                                </div>
-                            </td>
-                            <td>
-                                <div>
-                                    <a href="">
-                                        <img src="../images/text.png" alt="" />
-                                    </a>
-                                    <div className="wkea-index-product-product">
-                                        <a href="">史丹利 1650W 185mm 电圆锯</a>
-                                        <span className="wkea-index-product-product-symbol">¥ <span className="wkea-index-product-product-money">475.00</span></span>
-                                    </div>
-                                </div>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <div>
-                                    <a href="">
-                                        <img src="../images/text.png" alt="" />
-                                    </a>
-                                    <div className="wkea-index-product-product">
-                                        <a href="">史丹利 1650W 185mm 电圆锯</a>
-                                        <span className="wkea-index-product-product-symbol">¥ <span className="wkea-index-product-product-money">475.00</span></span>
-                                    </div>
-                                </div>
-                            </td>
-                            <td>
-                                <div>
-                                    <a href="">
-                                        <img src="../images/text.png" alt="" />
-                                    </a>
-                                    <div className="wkea-index-product-product">
-                                        <span className="wkea-index-product-product-symbol">¥ <span className="wkea-index-product-product-money">475.00</span></span>
-                                    </div>
-                                </div>
-                            </td>
-                            <td>
-                                <div>
-                                    <a href="">
-                                        <img src="../images/text.png" alt="" />
-                                    </a>
-                                    <div className="wkea-index-product-product">
-                                        <a href="">史丹利 1650W 185mm 电圆锯</a>
-                                        <span className="wkea-index-product-product-symbol">¥ <span className="wkea-index-product-product-money">475.00</span></span>
-                                    </div>
-                                </div>
-                            </td>
-                            <td>
-                                <div>
-                                    <a href="">
-                                        <img src="../images/text.png" alt="" />
-                                    </a>
-                                    <div className="wkea-index-product-product">
-                                        <a href="">史丹利 1650W 185mm 电圆锯</a>
-                                        <span className="wkea-index-product-product-symbol">¥ <span className="wkea-index-product-product-money">475.00</span></span>
-                                    </div>
-                                </div>
-                            </td>
-                            <td>
-                                <a href="">
-                                    <img src="../images/text.png" alt="" />
-                                </a>
-                                <div className="wkea-index-product-product">
-                                    <a href="">史丹利 1650W 185mm 电圆锯</a>
-                                    <span className="wkea-index-product-product-symbol">¥ <span className="wkea-index-product-product-money">475.00</span></span>
-                                </div>
-                            </td>
-                        </tr>
+                        <tr>{products}</tr>
+                        <tr>{productshow}</tr>
                     </table>
                 </div>
             </div>

@@ -7,7 +7,6 @@
 *.userosscache
 *.sln.docstates
 integration-test-report.trx
-
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
@@ -289,3 +288,16 @@ integration-test-report.xml
 *.lock
 # permission
 *.pem
+node_modules
+node_modules
+node_modules
+node_modules
+node_modules
+node_modules
+node_modules
+node_modules
+node_modules
+node_modules
+node_modules
+node_modules
+node_modules

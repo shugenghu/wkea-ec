@@ -8,6 +8,7 @@ import * as Msdyn365 from '@msdyn365-commerce/core';
 
 export interface IIndexProductConfig extends Msdyn365.IModuleConfig {
     showText?: string;
+    productIds?: string;
 }
 
 export interface IIndexProductResources {

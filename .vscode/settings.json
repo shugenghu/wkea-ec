@@ -40,5 +40,6 @@
             "url": "/packages/cli-internal/module-mock-schema.json"
         },
     ],
-    "debug.node.autoAttach": "on"
+    "debug.node.autoAttach": "on",
+    "git.ignoreLimitWarning": true
 }

@@ -7,6 +7,7 @@ import { ICategoryHierarchyViewProps, IRefineMenuViewProps, ISearchResultContain
 const SearchResultContainerView: React.FC<ISearchResultContainerViewProps> = props => {
     const { SearchResultContainer, products, pagination, ProductsContainer, ProductSectionContainer, choiceSummary, isMobile, modalToggle, searchResultModal, TitleViewProps,
         refineMenu, categoryHierarchy, sortByOptions, CategoryNavContainer, RefineAndProductSectionContainer, errorMessage, FeatureSearchContainer, similarLookProduct } = props;
+    // 是否有模块，上面的是找到了文件，下面的是没有找到文件
     if (isMobile) {
         return (
             <Module {...SearchResultContainer}>
@@ -28,29 +29,28 @@ const SearchResultContainerView: React.FC<ISearchResultContainerViewProps> = pro
     }
     return (
         <Module {...SearchResultContainer}>
-        <Node {...CategoryNavContainer}>
-        {categoryHierarchy && renderCategoryHierarchy(categoryHierarchy)}
-        {TitleViewProps && renderTitleCount(TitleViewProps)}
-        </Node>
-        <Node {...RefineAndProductSectionContainer}>
-        {refineMenu && renderRefiner(refineMenu)}
-        <Node {...ProductSectionContainer}>
-            {TitleViewProps && renderTitle(TitleViewProps)}
-            {choiceSummary}
-            {sortByOptions && renderSort(sortByOptions)}
-            <Node {...FeatureSearchContainer}>
-                    {similarLookProduct}
-                </Node>
-            <Node {...ProductsContainer}>
-               {errorMessage}
-                {products}
+            <Node {...CategoryNavContainer}>
+                {categoryHierarchy && renderCategoryHierarchy(categoryHierarchy)}
+                {TitleViewProps && renderTitleCount(TitleViewProps)}
             </Node>
-            {pagination}
-        </Node>
-        </Node>
-    </Module>
+            <Node {...RefineAndProductSectionContainer}>
+                {refineMenu && renderRefiner(refineMenu)}
+                <Node {...ProductSectionContainer}>
+                    {TitleViewProps && renderTitle(TitleViewProps)}
+                    {choiceSummary}
+                    {sortByOptions && renderSort(sortByOptions)}
+                    <Node {...FeatureSearchContainer}>
+                        {similarLookProduct}
+                    </Node>
+                    <Node {...ProductsContainer}>
+                        {errorMessage}
+                        {products}
+                    </Node>
+                    {pagination}
+                </Node>
+            </Node>
+        </Module>
     );
-
 };
 
 const createSearchResultModal = (modalProps: ISearchResultModalViewProps, refineMenu: IRefineMenuViewProps, sortByDropDown: ISortByViewProps): JSX.Element => {

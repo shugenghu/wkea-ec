@@ -4315,7 +4315,28 @@
     "type": "themeModule",
     "pages": {},
     "segments": {},
-    "definitionExtensions": {},
+    "definitionExtensions": {
+      "buybox": {
+        "$type": "definitionExtension",
+        "resources": {
+          "decrementButtonAriaLabel": {
+            "value": "Decrease the quantity by 1",
+            "comment": "Aria Label / tooltop for the quantity decrease button"
+          },
+          "incrementButtonAriaLabel": {
+            "value": "Increase quantity by 1",
+            "comment": "Aria Label / tooltop for the quantity increase button"
+          }
+        },
+        "config": {
+          "className": {
+            "friendlyName": "Default CSS Class Name(s)",
+            "description": "Provides a way to set configurable default css class(es) to apply to your module.",
+            "type": "css"
+          }
+        }
+      }
+    },
     "styles": {
       "definition": {
         "$type": "styleDefinition",

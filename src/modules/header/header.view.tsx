@@ -24,6 +24,7 @@ const headerView: React.FC<IHeaderViewProps> = props => {
 
     return (
         <Module {...HeaderTag}>
+            <script id="Microsoft_Omnichannel_LCWidget" src="https://oc-cdn-public-apj.azureedge.net/livechatwidget/scripts/LiveChatBootstrapper.js" data-app-id="9d52e637-43ad-4d79-9dde-91a2a678c4bc" data-lcw-version="prod" data-org-id="28b274e4-25b3-47dd-bdff-37a341333ec8" data-org-url="https://28b274e425b347ddbdff37a341333ec8-crm5.omnichannelengagementhub.com"></script>
             <Node {...HeaderContainer}>
                 <div className="wkea-header-top">
                     <Node {...HeaderTopBarContainer}>

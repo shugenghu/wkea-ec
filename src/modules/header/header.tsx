@@ -220,7 +220,7 @@ class Header extends React.PureComponent<IHeaderProps<IHeaderData>, IHeaderState
         const payLoad = getPayloadObject('click', this.telemetryContent, TelemetryConstant.SignIn);
         const attributes = getTelemetryAttributes(this.telemetryContent, payLoad);
         return !customer && (
-            <Button
+            <a
                 className='ms-header__signin-button'
                 title={resources.signInLinkText}
                 href={user && user.signInUrl}
@@ -229,7 +229,7 @@ class Header extends React.PureComponent<IHeaderProps<IHeaderData>, IHeaderState
                 {...attributes}
             >
                 <span className='ms-header__signin-button-text' aria-hidden={true}>{resources.signInLinkText}</span>
-            </Button>
+            </a>
         );
     }
 

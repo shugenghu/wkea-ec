@@ -46,78 +46,20 @@ export class NavigationMenuView extends React.PureComponent<INavigationMenuViewP
     }
     return (
       <div className="wkea-index-nav">
-            <div className="centre">
-                <ul className="clear">
-                    <li className="wkea-index-nav-li" 
-                    onMouseEnter={() => this._onMouseEnterHandle(menuItemData[0].id!)}
-                    onMouseLeave={() => this._onMouseLeaveHandle(menuItemData[0].id!)}>
-                        <a href={menuItemData[0].linkURL}>{menuItemData[0].linkText}</a>
-                        <ul className="wkea-index-nav-ul-ul">
-                            {/* <li className="wkea-index-nav-ul-ul-li">
-                                <ul className="clear">
-                                    <li><a href="">三级分类1</a></li>
-                                    <li><a href="">三级分类2</a></li>
-                                </ul>
-                                <a href="">
-                                    <div className="clearfix">
-                                        <div className="float-left">商品1</div>
-                                        <div className="float-right">tu1</div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li className="wkea-index-nav-ul-ul-li">
-                                <a href="">
-                                    <div className="clearfix">
-                                        <div className="float-left">商品2</div>
-                                        <div className="float-right">tu2</div>
-                                    </div>
-                                </a>
-                            </li> */}
-                            {this._getFullMenu(menuItemData[0].subMenu, 0)}
-                        </ul>
-                    </li>
-                    <li className="wkea-index-nav-item"
-                    onMouseEnter={() => this._onMouseEnterHandle(menuItemData[1].id!)}
-                    onMouseLeave={() => this._onMouseLeaveHandle(menuItemData[1].id!)}>
-                      <a href={menuItemData[0].linkURL}>{menuItemData[1].linkText}</a>
-                        <ul className="wkea-index-nav-item-ul">
-                            {/* <li><a href="品牌" className="wkea-index-nav-item-li-a">品牌</a>
-                                <ul>
-                                    <li>
-                                        <a href="">test</a>
-                                    </li>
-                                    <li><a href="">test</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="品牌" className="wkea-index-nav-item-li-a">品牌</a>
-                            </li> */}
-                            {this._getFullMenu(menuItemData[1].subMenu, 0)}
-                        </ul>
-                    </li>
-                    <li className="wkea-index-nav-item"
-                    onMouseEnter={() => this._onMouseEnterHandle(menuItemData[2].id!)}
-                    onMouseLeave={() => this._onMouseLeaveHandle(menuItemData[2].id!)}>
-                      <a href={menuItemData[0].linkURL}>{menuItemData[2].linkText}</a>
-                        <ul className="wkea-index-nav-item-ul">
-                            {this._getFullMenu(menuItemData[2].subMenu, 0)}
-                        </ul>
-                    </li>
-                    <li><a href="">供应商合作</a></li>
-                    <li><a href="wkea-sale.html">售后服务</a></li>
-                </ul>
-            </div>
+        <div className="centre">
+          <ul className="clear wkea-index-nav-ul">
+            {this._getListMenu(menuItemData, 0)}
+          </ul>
         </div>
+      </div>
     );
   }
-
-  private _getFullMenu (menu: IMenuItemData[] | undefined, count: number = 0):JSX.Element[] | null {
+  private _getListMenu(menu: IMenuItemData[] | undefined, count: number = 0): JSX.Element[] | null {
     if (!menu) {
       return ([
-        <li className="wkea-index-nav-ul-ul-li">
-          <a href="javascropt:void(0)">暂无内容</a>
-        </li>
+        <div className="wkea-nav-menu-item">
+          <a href="javascropt:void(0)" className="nodata">暂无内容</a>
+        </div>
       ])
     }
     const result = [];
@@ -125,31 +67,59 @@ export class NavigationMenuView extends React.PureComponent<INavigationMenuViewP
     menu = menu.filter(v => v.id);
     for (let i = 0; i < menu.length; i++) {
       const v = menu[i];
-      if(v.subMenu)
-      {
-        ((count) => {
-          result.push(
-            <li className={`wkea-index-nav-ul-ul-li${this.state.activeIds.find(n => n === v.id) ? ' act' : ''}`}
+      ((count) => {
+        result.push(
+          <li className={`${this.state.activeIds.find(n => n === v.id) ? 'wkea-index-nav-active' : ''}`}
             onMouseEnter={() => this._onMouseEnterHandle(v.id!)}
             onMouseLeave={() => this._onMouseLeaveHandle(v.id!)}>
-              <ul className="clear">
-                {this._getFullMenu2(v.subMenu, count)}
-              </ul>
-              <a href={v.linkURL}>
-                  <div className="clearfix">
-                      <div className="float-left">{v.linkText}</div>
-                      {/* <div className="float-right">tu1</div> */}
-                  </div>
-              </a>
+            {
+              i === 0 ? <a className="wkea-index-nav-a" href={v.linkURL}>{v.linkText}</a> : <a className="" href={v.linkURL}>{v.linkText}</a>
+            }
+            {v.subMenu && v.subMenu.length && <ul className="clearboth">
+              {this._getFullMenu(v.subMenu, count)}
+            </ul>
+              || ''}
           </li>
-          )
-        })(count)
-      }
-      else
-      {
+        )
+      })(count)
+    }
+    return result
+  }
+  private _getFullMenu(menu: IMenuItemData[] | undefined, count: number = 0): JSX.Element[] | null {
+    if (!menu) {
+      return ([
+        <div className="wkea-nav-menu-item">
+          <a href="javascropt:void(0)" className="nodata">暂无内容</a>
+        </div>
+      ])
+    }
+    const result = [];
+    count++;
+    menu = menu.filter(v => v.id);
+    for (let i = 0; i < menu.length; i++) {
+      const v = menu[i];
+      if (v.subMenu) {
+        if ( String(v.linkText).replace(/(^\s*)|(\s*$)/g, '').replace(/[\r\n]/g, '') === '') {
+         
+        }else{
+          ((count) => {
+            result.push(
+              <li className={`${this.state.activeIds.find(n => n === v.id) ? 'wkea-index-nav-active' : ''}`}
+                onMouseEnter={() => this._onMouseEnterHandle(v.id!)}
+                onMouseLeave={() => this._onMouseLeaveHandle(v.id!)}>
+                <a className="" href={v.linkURL}>{v.linkText}</a>
+                {v.subMenu && v.subMenu.length && <ul>
+                  {this._getFullMenu(v.subMenu, count)}
+                </ul>
+                  || ''}
+              </li>
+            )
+          })(count)
+        }
+      } else {
         ((count) => {
           result.push(
-            <li className={`wkea-index-nav-ul-ul-li${this.state.activeIds.find(n => n === v.id) ? ' act' : ''}`}
+            <li className={`${this.state.activeIds.find(n => n === v.id) ? 'wkea-index-nav-activect' : ''}`}
             onMouseEnter={() => this._onMouseEnterHandle(v.id!)}
             onMouseLeave={() => this._onMouseLeaveHandle(v.id!)}>
               <a href={v.linkURL}>{v.linkText}
@@ -158,40 +128,12 @@ export class NavigationMenuView extends React.PureComponent<INavigationMenuViewP
           )
         })(count)
       }
-    }
-    return result
-  }
-  
-  private _getFullMenu2 (menu: IMenuItemData[] | undefined, count: number = 0):JSX.Element[] | null {
-    if (!menu) {
-      return ([
-        <a href="javascropt:void(0)">暂无内容</a>
-      ])
-    }
-    const result = [];
-    count++;
-    menu = menu.filter(v => v.id);
-    for (let i = 0; i < menu.length; i++) {
-      const v = menu[i];
 
-      if(v.linkText)
-      {
-        ((count) => {
-          result.push(
-            
-            <li className={`wkea${this.state.activeIds.find(n => n === v.id) ? ' act' : ''}`}
-            onMouseEnter={() => this._onMouseEnterHandle(v.id!)}
-            onMouseLeave={() => this._onMouseLeaveHandle(v.id!)}>
-              <a href={v.linkURL}>{v.linkText}</a>
-            </li>
-          )
-        })(count)
-      }
     }
     return result
   }
-  
-  private _onMouseEnterHandle (id: number) {
+
+  private _onMouseEnterHandle(id: number) {
     const timer = this.state.closeTimeOut.find(v => v.id === id)
     if (timer) {
       // @ts-ignore
@@ -219,21 +161,21 @@ export class NavigationMenuView extends React.PureComponent<INavigationMenuViewP
     this.setState(state)
   }
 
-  private _onMouseLeaveHandle (id: number) {
+  private _onMouseLeaveHandle(id: number) {
     const timer = setTimeout(() => {
       const _activeIds = this.state.activeIds.filter(v => v !== id)
       let state
       if (_activeIds.length) {
-        state = { activeIds: _activeIds} 
+        state = { activeIds: _activeIds }
       } else {
         state = { activeIds: _activeIds, itemIndexs: [], currentIndex: 20 }
       }
       // @ts-ignore
       this.setState(state)
     }, 150)
-    this.setState({closeTimeOut: [...this.state.closeTimeOut, { id: id, timer: timer}]})
+    this.setState({ closeTimeOut: [...this.state.closeTimeOut, { id: id, timer: timer }] })
   }
-  
+
   // private _isAlwaysShow () {
   //   // const result = document.location.pathname === '/' || (document.location.pathname === '/page' && document.location.search.includes('mock')) 
   //   // return result
