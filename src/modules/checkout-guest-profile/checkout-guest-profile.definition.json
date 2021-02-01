@@ -1,0 +1,54 @@
+{
+	"$type": "contentModule",
+	"friendlyName": "Contact information (COPY)",
+	"name": "checkout-guest-profile",
+	"description": "Contact information allows the user to provide contact information for the order",
+	"categories": [
+		"Purchase",
+		"Payment"
+	],
+	"attributes": {
+		"private": true
+	},
+	"dataActions": {
+		"checkout": {
+			"path": "@msdyn365-commerce/global-state/dist/lib/data-actions/checkout-state-data-action",
+			"runOn": "client"
+		}
+	},
+	"config": {
+		"heading": {
+			"friendlyName": "Heading",
+			"description": "Module heading",
+			"$ref": "@msdyn365-commerce-modules/definitions/dist/src/Heading.json#/definitions/heading"
+		},
+		"className": {
+			"friendlyName": "Custom CSS class name",
+			"description": "Provide a custom css class name defined in the theme pack to target the CSS for this module",
+			"type": "string",
+			"default": ""
+		}
+	},
+	"resources": {
+		"emailLabel": {
+			"comment": "Email label",
+			"value": "Email address for order questions"
+		},
+		"emailErrortext": {
+			"comment": "Email error text",
+			"value": "Please enter a valid email"
+		},
+		"saveBtnLabel": {
+			"comment": "Save button label",
+			"value": "Save"
+		},
+		"editBtnLabel": {
+			"comment": "Edit button label",
+			"value": "Change"
+		},
+		"cancelBtnLabel": {
+			"comment": "Cancel button label",
+			"value": "Cancel"
+		}
+	}
+}

@@ -41,6 +41,7 @@ export default class Quantity extends React.PureComponent<IQuantityProps, IQuant
 
         return (
             <>
+
                 <div className='quantity' id={this.props.id}>
                     <button
                         disabled={disabled}
@@ -80,6 +81,7 @@ export default class Quantity extends React.PureComponent<IQuantityProps, IQuant
                         <span className={glyphPlusClassName} />
                     </button>
                 </div>
+
                 {/* {(this.state.currentInput > this.props.invent!) &&<p className="wkea-exceed-invent">请注意，如果当您购买的数量超过了当前库存，会存在 {this.props.leadtime} 个工作日左右的货期。</p>} */}
             </>
         );
