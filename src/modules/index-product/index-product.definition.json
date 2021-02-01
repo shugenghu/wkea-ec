@@ -14,18 +14,24 @@
     "config": {
         "showText": {
             "friendlyName": "showText",
-            "description": "example config value",
+            "description": "填写它的li标签,需要','来作为分隔符",
             "type": "string",
-            "default": "Example Config Value",
             "scope": "module",
             "group": "Layout Properties"
         },
         "productIds": {
-            "friendlyName": "Product ID",
-            "description": "Provide a Product Id that the module will display",
+            "friendlyName": "显示的产品",
+            "description": "请填写12个产品",
             "type": "string",
             "scope": "module",
             "group": "Content Properties"
+        },
+        "showtypemodule":{
+            "friendlyName": "showtypemodule",
+            "description": "填写它的li上级标签",
+            "type": "string",
+            "scope": "module",
+            "group": "Layout Properties"
         }
     },
     "resources": {
