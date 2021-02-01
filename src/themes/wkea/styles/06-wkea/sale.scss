@@ -1,0 +1,213 @@
+// .top .top-nav ul li:nth-child(3) a {
+//     color: #009CE1;
+//     border-bottom: 4px solid #009CE1;
+//     padding: 15px 0;
+// }
+.wk-sale-content {
+    width: 100%;
+    background-color: white;
+    height: auto;
+}
+/* 内容头部样式 */
+.wk-sale-content-top-p {
+    color: #97A6AE;
+    margin: 0;
+}
+
+.wk-sale-content-top-p a {
+    color: #97A6AE;
+    font-size: 14px;
+}
+
+.wk-sale-content-top-p a:first-child {
+    padding-right: 5px;
+}
+
+.wk-sale-content-top-p a:last-child {
+    padding-left: 5px;
+}
+
+.wk-sale-content-top-p a:not(:first-child) {
+    padding: 0 5px;
+}
+
+.wk-sale-content-top-p span a {
+    color: #34495E;
+}
+
+.wk-sale-content-sale {
+    width: 1290px;
+    height: 1350px;
+    background-color: white;
+}
+
+/* 内容左 */
+.wk-sale-sale-left {
+    width: 251px;
+    height: auto;
+    float: left;
+}
+
+
+.wk-sale-sale-left .wk-sale-left-ul {
+    width: 100%;
+    height: 273px;
+    border: 1px solid #EFF3F6;
+
+}
+
+.wk-sale-sale-left .wk-sale-left-ul li {
+    margin-left: -40px;
+    width: 251px;
+    display: block;
+    list-style-type: none;
+
+}
+
+.wk-sale-sale-left .wk-sale-left-ul li span {
+    margin: 0 5px;
+}
+
+.wk-sale-sale-left .wk-sale-left-ul li:first-child {
+    height: 79px;
+    line-height: 79px;
+    font-size: 24px;
+    color: #34495E;
+    background-color: #FBFBFB;
+    text-align: center;
+}
+
+.wk-sale-sale-left .wk-sale-left-ul .wk-sale-second a {
+    color: #009CE1 !important;
+    padding: 3px 0;
+    border-bottom: 1px solid #009CE1;
+}
+
+.wk-sale-sale-left .wk-sale-left-ul .wk-sale-second a:hover {
+    color: #009CE1 !important;
+}
+
+.wk-sale-sale-left .wk-sale-left-ul li:not(:first-child) {
+    margin: 30px -35px;
+}
+
+.wk-sale-sale-left .wk-sale-left-ul li:not(:first-child) a {
+    color: #72899B;
+    font-size: 16px;
+}
+
+.wk-sale-sale-left .wk-sale-left-ul li:not(:first-child) a:hover {
+    color: #72899B;
+    text-decoration: none;
+}
+
+.wk-sale-sale-left .wk-sale-left-ul li:not(:first-child) span:first-child {
+    margin-left: 35px;
+}
+
+/* 内容右 */
+.wk-sale-sale-right {
+    float: left;
+    width: 900px;
+    height: auto;
+    margin: -24px 26px 90px;
+}
+
+.wk-sale-content-sale-top {
+    padding-top: 12px;
+    height: 250px;
+}
+
+.wk-sale-content-sale-top p {
+    color: #a19e9e;
+    font-size: 14px;
+    margin: 12px 0;
+}
+
+.wk-sale-content-sale-top p span {
+    color: black;
+}
+
+.wk-sale-content-sale-top .wk-sale-content-sale-pic p:last-child {
+    margin-top: -210px;
+}
+
+.wk-sale-content-sale-top .wk-sale-content-sale-word {
+    margin-top: -174px;
+    margin-left: 20px;
+}
+
+.wk-sale-content-sale-top .wk-sale-content-sale-word p {
+    width: 970px;
+    color: white;
+}
+
+.wk-sale-content-sale-top .wk-sale-content-sale-word p:first-child {
+    font-size: 38px;
+    text-align: center;
+}
+
+.wk-sale-content-sale-top .wk-sale-content-sale-word p:last-child {
+    font-size: 16px;
+    text-align: center;
+    width: 955px;
+    margin: auto;
+    font-weight: 300;
+}
+
+.wk-sale-content-sale-content {
+    clear: both;
+}
+
+.wk-sale-content-sale-content .wk-sale-how .wk-sale-how-info p:first-child {
+    padding: 5px 0;
+    border-bottom: 1px solid #EFF3F6;
+}
+
+.wk-sale-content-sale-content .wk-sale-how .wk-sale-how-info p:first-child span {
+    color: #34495E;
+    font-size: 32px;
+    font-weight: bold;
+    padding: 5px 0;
+    border-bottom: 4px solid #009CE1;
+}
+
+.wk-sale-content-sale-content .wk-sale-how .wk-sale-how-info p:last-child {
+    margin: 30px 0;
+}
+
+.wk-sale-content-sale-content .wk-sale-how .wk-sale-how-info p:last-child span {
+    color: #526A7D;
+    font-size: 16px;
+    width: 1010px;
+    margin: auto;
+    display: block;
+
+}
+
+.wk-sale-content-sale-content .wk-sale-how .wk-sale-step {
+    margin: 5px 50px;
+}
+
+.wk-sale-content-sale-content .wk-sale-how .wk-sale-step ul li {
+    list-style-type: disc;
+}
+
+.wk-sale-content-sale-content .wk-sale-how .wk-sale-step p span {
+    color: #34495E;
+    font-size: 20px;
+}
+
+.wk-sale-content-sale-content .wk-sale-how .wk-sale-step .wk-sale-step-ul-last {
+    margin-top: 5px;
+}
+
+.wk-sale-content-sale-content .wk-sale-how .wk-sale-step ul li {
+    font-size: 14px;
+    color: #72899B;
+    padding: 8px 0;
+}
+
+.wk-sale-content-sale-content .wk-sale-how .wk-sale-step div {
+    margin: 30px 0;
+}

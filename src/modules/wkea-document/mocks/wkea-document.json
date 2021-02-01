@@ -1,0 +1,34 @@
+{
+  "id": "R1Module1",
+  "config": {
+    "showText": "Example Config Value"
+  },
+  "slots": {
+    "wkeaFaq": [{
+      "id": "wkeaFaq0",
+      "typeName": "wkea-faq"
+    }],
+    "wkeaIntroduction": [{
+      "id": "wkeaIntroduction__0",
+      "typeName": "wkea-introduction"
+    }],
+    "wkeaSupplier": [{
+      "id": "wkeaSupplier__0",
+      "typeName": "wkea-supplier"
+    }],
+    "wkeaCulture": [{
+      "id": "wkeaCulture__0",
+      "typeName": "wkea-culture"
+    }],
+    "wkeaWarranty": [{
+      "id": "wkeaWarranty__0",
+      "typeName": "wkea-warranty"
+    }],
+  },
+  "data": {
+    "actionResponse": {
+      "text": "Sample Action Response"
+    }
+  },
+  "typeName": "wkea-document"
+}

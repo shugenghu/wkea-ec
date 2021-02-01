@@ -1,0 +1,327 @@
+#myorder_all{
+    position: relative;
+}
+.wk-myorder-content{
+    background-color: white;
+    padding-bottom: 130px;
+}
+.wk-myorder-middle-top .toppage{
+    color: #72899B;
+    text-decoration: none;
+    font-family: "微软雅黑";
+}
+.wk-myorder-middle-top .active{
+     color: #34495E;
+     text-decoration: none;
+     font-family: "微软雅黑";
+}
+.wk-myorder-content-top{
+    padding-top: 65px;
+    height: 200px;
+}
+.myorder-content-top-choose hr{
+    border-radius: 5px;
+    border: 1px #EFF3F5 solid;
+    background-color: #EFF3F5;
+    width: 410px;
+    height: 10px;
+    margin: 0px;
+    margin-left: 0px;
+    z-index: 1;
+}
+.myorder-content-top-choose .hractive{
+    background-color: #009CE1;
+    border: 1px #009CE1 solid;
+}
+.myorder-content-top-choose {
+    float: left;
+    text-align: center;
+    width: 430px;
+    text-align: center;
+}
+.wk-myorder-content-top div .choose{
+    position:relative;
+    top: -25px;    
+    z-index: 2;
+    width: 40px;
+    height:40px;
+    line-height: 40px;
+    display:inline-block;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'TitilliumWeb';
+    color: white;
+    background-color: #019be1;
+}
+.myorder-content-top-choose span + span{
+    font-size: 16px;
+    font-family: "微软雅黑";
+    color: #019be1;
+    display: block;
+}
+.myorder-content-top-choose +.myorder-content-top-choose span +span{
+    color: #72899B;
+}
+.myorder-item-info{
+    height: 70px;
+    width:1290px;
+    border: 1px solid #E5E5E5;
+    background-color: #EFF3F6;
+    line-height: 70px;
+}
+.myorder-item-info-2{
+    height: 70px;
+    width:1290px;
+    border: 1px solid #E5E5E5;
+    background-color: #EFF3F6;
+    line-height: 70px;
+    margin-top: 30px;
+}
+.title{
+    color: #34495E;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 40px;
+}
+.title .hua{
+    margin-right: 10px;
+    margin-left: -20px;
+    color: red;
+}
+.title .must{
+    color: #BDC7CE;
+    font-size: 18px;
+    margin: 0 10px;
+    font-weight: 300;
+}
+.address{
+    color: #72899B;
+    font-size: 14px;
+    margin-left: 15px;
+}
+.address a{
+    color: #009CE1;
+    text-decoration: none;
+    margin-left: 60px;
+}
+.myorder-item-info-3 table{
+    border: 1px solid #E5E5E5;
+    width: 1290px;
+    margin-top:30px ;
+}
+.myorder-item-info-3 table tr:first-child{
+    height: 72px;
+    background-color: #EFF3F6;
+    font-weight: 100px;
+}
+.myorder-item-info-3 table tr:last-child{
+    background-color:white;
+}
+.myorder-item-info-3 table tr td:first-child {
+    width: 70px;
+}
+.myorder-item-info-3 div table tr td .cxbox{
+    display: inline-block;
+    margin-left: 40px;
+}
+.myorder-item-info-3 div table tr +tr {
+    height: 210px;
+}
+.myorder-item-info-3 div table tr .table-1{
+    width: 180px;
+    padding-left: 40px;
+    color: #34495E;
+}
+.myorder-item-info-3 div table tr .table-2{
+    width: 400px;
+    font-weight: 350;
+    font-size: 16px;
+    color: #34495E;
+    padding-left: 20px;
+}
+.myorder-item-info-3 div table tr .table-3{
+    font-size: 16px;
+    font-weight: 350;
+    color: #34495E;
+    padding-left: 80px;
+}
+.myorder-item-info-3 div table tr .table-4{
+    font-weight: 350;
+    font-size: 16px;
+    color: #34495E;
+    padding-left: 130px;
+}
+.myorder-item-info-3 div table tr .table-5{
+    font-weight: 350;
+    font-size: 16px;
+    color: #34495E;
+}
+.myorder-item-info-3 .product-img{
+    width: 160px;
+    height: 160px;
+    line-height: 160px;
+    border: 1px solid #E8E8E8;
+    text-align: center;
+    margin-left: 40px;
+}
+.myorder-item-info-3 .product-message{
+    height: 160px;
+    margin-left: 20px;
+}
+.myorder-item-info-3 .product-message span{
+    font-family: "微软雅黑";
+    font-size: 14px;
+    font-weight: bold;
+    color:#34495E ;
+}
+.myorder-item-info-3 .product-message div ul{
+    margin-top: 30px;
+    padding: 0;
+    list-style: none;
+}
+.myorder-item-info-3 .product-message div ul li{
+    color: #72899B;
+    font-size: 12px;
+    font-family: "微软雅黑";
+    padding-top: 5px;
+}
+.myorder-item-info-3 .table-3{
+    text-align: center;
+    width: 180px;
+}
+.myorder-item-info-3 .product-price{
+    text-align: center;
+    font-family: "TitilliumWeb";
+    font-size: 20px;
+    color: #FF1818;
+    padding-left: 80px;
+    padding-top: -10px;
+}
+.myorder-item-info-3 .product-price span{
+    font-family: "Titillium Web";
+    /* font-size: 14px; */
+}
+.myorder-item-info-3 .table-4{
+    width: 170px;
+    text-align: center;
+    margin-left: 40px;
+}
+.myorder-item-info-3 .product-number{
+    text-align: center;
+    font-family: "Titillium Web";
+    font-size: 24px;
+    color: #72899B;
+    padding-left: 130px;
+}
+.myorder-item-info-3 .product-number .reduce{
+    width: 16px;
+    height:16px;
+    line-height: 10px;
+    display:inline-block;
+    border-radius: 100%;
+    border: 1px solid #E8E8E8;
+    text-align: center;
+    font-family: "微软雅黑";
+    font-size: 20px;
+    margin-right: 10px;
+    font-weight: bold;
+    color: #E8E8E8;
+    background-color: white;
+}
+.myorder-item-info-3 .product-number .up{
+    width: 16px;
+    height:16px;
+    line-height: 11px;
+    display:inline-block;
+    border-radius: 100%;
+    border: 1px solid #34495E;
+    text-align: center;
+    font-family: "微软雅黑";
+    font-size: 16px;
+    margin-left: 10px;
+    font-weight: bold;
+    color: white;
+    background-color:#34495E;
+}
+.myorder-item-info-3 .product-number a:hover{
+    text-decoration: none;
+}
+.myorder-item-info-3 .table-5{
+    text-align: center;
+}
+.myorder-item-info-3 .table-6{
+    width: 120px;
+    text-align: center;
+}
+.myorder-item-info-3 .product-amount{
+    text-align: center;
+    font-family: "Titillium Web";
+    font-size: 20px;
+    color: #FF1818;
+}
+.myorder-item-info-3 .product-amount span{
+    font-family: "Titillium Web";
+    /* font-size: 14px; */
+}
+.myorder-item-info-3 .product-del{
+    text-align: center;
+}
+.myorder-item-info-3 .product-del a{
+    color: #72899B;
+    font-size: 14px;
+    font-family: "微软雅黑";
+}
+.myorder-item-info-3 .product-del a{
+    text-decoration: none;
+}
+.myorder-item-info-3 .info-3-message{
+    height: 140px;
+    width:1270px;
+    padding-top: 15px;
+}
+.myorder-item-info-3 .info-3-message div{
+    margin-left: 1020px;
+    margin-top: 15px;
+}
+.myorder-item-info-3 .info-3-message div label{
+    font-size: 14px;
+    color: #72899B;
+    font-family: "微软雅黑";
+}
+.myorder-item-info-3 .info-3-message div label span{
+    color: #FF1818;
+    font-family: "Titillium Web";
+}
+.myorder-item-info-4{
+    height: 133px;
+    width:1290px;
+    border: 1px solid #E5E5E5;
+    background-color: #EFF3F6;
+    margin-top: 40px;
+    line-height: 55px;
+}
+.myorder-item-info-4 div{
+    height: 50px;
+    margin-left: 1045px;
+    font-size: 14px;
+    color: #72899B;
+    font-family: "微软雅黑";
+    padding-top: 5px;
+}
+.myorder-item-info-4 div label span{
+    font-size: 24px;
+    color: #FF1818;
+    font-weight: 600;
+}
+.myorder-item-info-4 input[type=button]{
+    width: 170px;
+    height: 50px;
+    background-color: #009CE1;
+    border: 1px solid #2289C2;
+    border-radius: 5px;
+    color: white;
+    line-height: 40px;
+    margin-top: 10px;
+}

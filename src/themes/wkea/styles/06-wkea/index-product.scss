@@ -1,0 +1,97 @@
+.wkea-index-product-content-content-product{
+    margin-top: 20px;
+    height: 765px;
+    background-color: white;
+}
+.wkea-index-product-content-content-product-top{
+    padding-top: 25px;
+}
+.wkea-index-product-content-content-product-top hr{
+    display: inline;
+    border: 3px solid #1296db;
+}
+.wkea-index-product-content-content-product-top span{
+    font-size: 18px;
+    font-family: "微软雅黑";
+    color: #34495E;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.wkea-index-product-content-content-product-list{
+    height: 63px;
+}
+.wkea-index-product-content-content-product-list ul li a {
+    height: 42px;
+    font-family: "微软雅黑";
+    font-size: 12px;
+    color: #34495E;
+}
+.wkea-index-product-content-content-product-list ul{
+    margin:0;
+    padding:0;
+    padding-top: 25px;
+}
+.wkea-index-product-content-content-product-list ul li {
+    height: 14px;
+    line-height: 12px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-right: 1px solid #919CA8;
+}
+.wkea-index-product-content-content-product-list ul li:last-child{
+    border-right: none;
+}
+.wkea-index-product-content-content-product-product {
+    height: 650px;
+}
+.wkea-index-product-content-content-product-product table{
+    margin-left: 20px;
+    margin-top: 17px;
+    width: 1250px;
+    height: 616px;
+}
+.wkea-index-product-content-content-product-product table tr td{
+    text-align: center;
+    border-bottom: 1px solid #eff3f6;
+    border-left: 1px solid #eff3f6;
+}
+.wkea-index-product-content-content-product-product table tr td:first-child{
+    border-left:none;
+}
+.wkea-index-product-content-content-product-product table tr +tr td{
+    width: 250px;
+    height: 308px;
+    border-bottom: none;
+}
+.wkea-index-product-content-content-product-product img{
+    width: 193px;
+    height: 193px;
+}
+.wkea-index-product-product{
+    padding-left: 15px;
+}
+.wkea-index-product-product a{
+    height: 42px;
+    font-family: "微软雅黑";
+    font-size: 14px;
+    color: #34495e;
+    display: block;
+}
+.wkea-index-product-content-content-product-product table tr td a:hover +div a{
+    text-decoration: none;
+    color: red;
+}
+.wkea-index-product-product a:hover{
+    text-decoration: none;
+    color: red;
+}
+.wkea-index-product-product .wkea-index-product-product-symbol{
+    font-size: 14px;
+    color: red;
+    font-family: 'TitilliumWeb';
+}
+.wkea-index-product-product .wkea-index-product-product-money{
+    font-size: 20px;
+    color: red;
+    font-family: 'TitilliumWeb';
+}
