@@ -3,7 +3,7 @@
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 import { IOrderSummaryLines } from '@msdyn365-commerce-modules/order-summary-utilities';
-import { INodeProps, Node } from '@msdyn365-commerce-modules/utilities';
+import { INodeProps } from '@msdyn365-commerce-modules/utilities';
 import * as React from 'react';
 import { ICartViewProps } from './cart';
 import { ICartlinesViewProps } from './components/cart-line-items';
@@ -17,11 +17,10 @@ const _renderCartlines = (cartLines: ICartlinesViewProps[] | undefined, cartEmpt
     if (cartLines) {
         return cartLines.map((cartLine, index) => {
             return (
-                <div className="centre">
-                    <div className='msc-cart-lines-item' key={index}>
-                        {cartLine.cartline}
-                        {cartLine.remove}
-                        {/* {
+                <tr key={index}>
+                    {cartLine.cartline}
+                    {cartLine.remove}
+                    {/* {
                         storeSelector && cartLine.pickUpInStore ?
                             <Node {...cartLine.pickUpInStore.ContainerProps}>
                                 {cartLine.pickUpInStore.defaultComponent}
@@ -42,12 +41,10 @@ const _renderCartlines = (cartLines: ICartlinesViewProps[] | undefined, cartEmpt
                             </>
                         )
                     } */}
-                        {/* <div className="msc-cart-line-oprate"> */}
-                            {cartLine.addToWishlist}
-                            
-                        {/* </div> */}
-                    </div>
-                </div>
+                    {/* <div className="msc-cart-line-oprate"> */}
+                    {/* {cartLine.addToWishlist} */}
+                    {/* </div> */}
+                </tr>
             );
         });
     }
@@ -55,16 +52,12 @@ const _renderCartlines = (cartLines: ICartlinesViewProps[] | undefined, cartEmpt
         return (cartDataResult ?
             (
                 <div className='msc-cart__empty-cart'>
-                    <div>
-                        <div className="centre">
-                            <div className="wk-shoppingcart-content-null">
-                                <div>
-                                    <p>您的购物车还是空的哦~</p>
-                                </div>
+                    <div className="centre">
+                        <div className="wk-shoppingcart-content-null">
+                            <div>
+                                <p>您的购物车还是空的哦~</p>
                             </div>
                         </div>
-                    </div>
-                    <div>
                     </div>
                     {/* <p className='msc-cart-line'>{cartEmptyText}</p>
                     {backToShoppingButton} */}
@@ -114,19 +107,19 @@ const _renderOrderSummarylines = (orderSummaryLines: IOrderSummaryLines | undefi
         //     {orderSummaryLines.totalDiscounts ? orderSummaryLines.totalDiscounts : null}
         //     {orderSummaryLines.orderTotal}
         // </Node>
-        props.data.cart.result && <div className={`wkea-order checkout`}>
-            <div className="wkea-order-info">
-                <div><input type="checkbox" className="cxbox" name="" id="" /></div>
-                <div className="delectAllProduct">全选<a href="">删除选中的商品</a></div>
-                <div className="settlement">
-                    <div>
-                        <span className="wkea-order-price">总金额: {props.data.cart.result.cart.SubtotalSalesAmount}（元）</span>
-                        <span className="wkea-order-items">已选 {props.data.cart.result.cart.TotalItems} 件商品</span>
-                    </div>
+        props.data.cart.result && <tr className={`wkea-order`}>
+            <td>
+                <input type="checkbox" className="cxbox" name="" id="" />
+                <div className="delectAllProduct">
+                    全选<a href="">删除选中的商品</a>
                 </div>
-            </div>
-            {props.checkoutAsSignInUserButton}
-        </div> || null
+                <div className="settlement">
+                    <p className="price">总金额: {props.data.cart.result.cart.SubtotalSalesAmount}（元）
+                    已选 {props.data.cart.result.cart.TotalItems} 件商品</p>
+                    {props.checkoutAsSignInUserButton}
+                </div>
+            </td>
+        </tr> || null
     );
 };
 
@@ -134,27 +127,24 @@ const CartView: React.FC<ICartViewProps> = (props: ICartViewProps) => (
     <div className={props.className} id={props.id} {...props.renderModuleAttributes(props)}>
         {props.title}
         <div className="wk-shoppingcart-content-content">
-            <div>
-                <table>
-                    <tr>
-                        {/* <!-- table页的表头 --> */}
-                        <td><input type="checkbox" className="cxbox" /></td>
-                        <td className="table-1">商品图片</td>
-                        <td className="table-2">商品信息</td>
-                        <td className="table-3">单价</td>
-                        <td className="table-4">数量</td>
-                        <td className="table-5">小计</td>
-                        <td className="table-6">操作</td>
-                    </tr>
-                </table>
-            </div>
-            <Node {...props.CartlinesWrapper}>
+            <table>
+                <tr className="tr-infos">
+                    {/* <!-- table页的表头 --> */}
+                    <td>
+                        <div className="table-1"><input type="checkbox" className="cxbox" /></div>
+                        <div className="table-2">商品图片</div>
+                        <div className="table-3">商品信息</div>
+                        <div className="table-4">单价</div>
+                        <div className="table-5">数量</div>
+                        <div className="table-6">小计</div>
+                        <div className="table-7">操作</div>
+                    </td>
+                </tr>
                 {_renderCartlines(props.cartlines, props.resources.emptyCartText, props.CartlinesWrapper, props.storeSelector, props.backToShoppingButton, props.waitingComponent, props.cartLoadingStatus, props.cartDataResult)}
-            </Node>
-            {props.orderSummaryHeading && _renderOrderSummarylines(props.orderSummaryLineitems, props.OrderSummaryItems, props)}
-            {props.storeSelector}
-            {props.storeSelector}
-
+                {props.orderSummaryHeading && _renderOrderSummarylines(props.orderSummaryLineitems, props.OrderSummaryItems, props)}
+                {props.storeSelector}
+                {props.storeSelector}
+            </table>
         </div>
     </div>
 );

@@ -1,6 +1,4 @@
-@import "bootstrap/scss/bootstrap";
-
-.msc-cart-line__product-image{
+.msc-cart-line__product-image1{
     margin: 0;
 }
 .msc-cart-lines-item{
@@ -46,7 +44,10 @@
     font-weight: 600;
     text-decoration: none;
 }
-
+.ms-cart .msc-cartline-wraper{
+    margin-bottom: 0;
+    margin-right: 0;
+}
 .msc-cartline-wraper{
     width: 1290px;
     min-height: 220px;
@@ -104,6 +105,9 @@
     text-align: center;
     width: 430px;
 }
+.cart-content-top-choose:last-child{
+    width: 420px;
+}
 .cart-content-top div .choose{
     position:relative;
     top: -25px;    
@@ -129,7 +133,9 @@
 .cart-content-top-choose +.cart-content-top-choosespan +span{
     color: #72899B;
 }
-
+.wk-shoppingcart-content-content .wk-shoppingcart-infos{
+    width: 1290px;
+}
 .wk-shoppingcart-content-content table{
     width: 100%;
 }
@@ -141,7 +147,6 @@
     border: 1px solid #E5E5E5;
     height: 72px;
     background-color: #EFF3F6;
-
 }
 .wk-shoppingcart-content-content table tr:last-child{
     height: 133px;
@@ -150,47 +155,98 @@
     background-color: #EFF3F6;
 
 }
-
 .wk-shoppingcart-content-contenttable tr td:first-child {
-    width: 70px;
-    
+    width: 50px;
 }
-.wk-shoppingcart-content-content div table tr td .cxbox{
+
+.msc-cart-line .product-cx{
+    width: 50px;
+    line-height: 220px;
+}
+.product-cx .cxbox{
+    display: none;
+}
+.wk-shoppingcart-content-content table tr +tr {
+    height: 210px;
+}
+.wk-shoppingcart-content-content table .tr-infos td div{
+    float: left;
+    height: 72px;
+    line-height: 72px;
+}
+.wk-shoppingcart-content-content table tr td .table-1 .cxbox{
     // display: inline-block;
     display: none;
     margin: 0 15px;
     width: 18px;
     height:18px;
 }
-.msc-cart-line .product-cx{
-    width: 50px;
-    line-height: 220px;
-}
-.wk-shoppingcart-content-content .product-cx .cxbox{
-    display: none;
-}
-.wk-shoppingcart-content-content div table tr +tr {
-    height: 210px;
-}
-.wk-shoppingcart-content-content div table tr .table-1{
+.wk-shoppingcart-content-content table tr td .table-2{
     width: 210px;
+    height: 72px;
     padding-left: 50px;
+    // border: 1px solid red;
 }
-.wk-shoppingcart-content-content div table tr .table-2{
-    padding-left: 50px;
+.wk-shoppingcart-content-content table tr td .table-3{
+    padding-left: 40px;
     width: 300px;
+    height: 72px;
+    // border: 1px solid red;
+}
+.wk-shoppingcart-content-content table tr td .table-4{
+    text-align: center;
+    width: 205px;
+    height: 72px;
+    padding-left: 20px;
+    // border: 1px solid red;
+}
+.wk-shoppingcart-content-content table tr td .table-5{
+    width: 205px;
+    height: 72px;
+    text-align: center;
+    padding-left: 20px;
+    // border: 1px solid red;
+}
+.wk-shoppingcart-content-content table tr td .table-6{
+    text-align: center;
+    width: 205px;
+    height: 72px;
+    padding-left: 20px;
+    // border: 1px solid red;
+}
+.wk-shoppingcart-content-content table tr td .table-7{
+    width: 160px;
+    height: 72px;
+    // border: 1px solid red;
+    padding-left: 20px;
+    text-align: center;
 }
 .wk-shoppingcart-content-content .product-img{
     position: relative;
     width: 200px;
     height: 220px;
     padding-top: 30px;
+    // border: 1px solid #E8E8E8;
 }
-.wk-shoppingcart-content-content .product-img .msc-cart-line__product-image{
+// .wk-shoppingcart-content-content .product-img .msc-cart-line__product-image1{
+//     width: 160px;
+//     height: 160px;
+//     line-height: 160px;
+//     text-align: center;
+// }
+.wk-shoppingcart-content-content .product-img .msc-empty_image{
+    border: 1px solid #E8E8E8;
     width: 160px;
     height: 160px;
     line-height: 160px;
+    text-align: center;
+}
+.wk-shoppingcart-content-content .product-img .msc-cart-line__product-image{
     border: 1px solid #E8E8E8;
+    width: 160px;
+    height: 160px;
+    line-height: 160px;
+    display: block;
     text-align: center;
 }
 .wk-shoppingcart-content-content .product-img picture img{
@@ -208,15 +264,15 @@
     width: 160px;
     display: none;
 }
-.wk-shoppingcart-content-content .product-img .show{
+.product-img .show{
     display: inline-block;
 }
-.wk-shoppingcart-content-content .product-message{
+.product-message{
     height: 220px;
     width: 265px;
     padding-top:30px;
 }
-.wk-shoppingcart-content-content .product-message .msc-cart-line__product-title{
+.product-message .msc-cart-line__product-title{
     font-family: "微软雅黑";
     font-size: 14px;
     font-weight: bold;
@@ -226,11 +282,8 @@
     color: #34495E;
 }
 
-.wk-shoppingcart-content-content .table-3{
-    text-align: center;
-    width: 225px;
-}
-.wk-shoppingcart-content-content .product-price{
+
+.product-price{
     text-align: center;
     font-family: "TitilliumWeb";
     font-size: 20px;
@@ -239,15 +292,12 @@
     height: 220px;
     line-height: 220px;
 }
-.wk-shoppingcart-content-content .product-price span{
+.product-price span{
     font-family: "微软雅黑";
     font-size: 16px;
 }
-.wk-shoppingcart-content-content .table-4{
-    width: 225px;
-    text-align: center;
-}
-.wk-shoppingcart-content-content .product-number{
+
+.product-number{
     text-align: center;
     font-family: "TitilliumWeb";
     font-size: 20px;
@@ -256,7 +306,7 @@
     height: 220px;
     line-height: 220px;
 }
-.wk-shoppingcart-content-content .quantity {
+.product-number .quantity {
     // display: flex;
     .quantity-input {
       width: 48px;
@@ -317,28 +367,18 @@
       }
     }
   }
-
-.table-5{
+.wk-shoppingcart-content-content .product-amount{
     text-align: center;
-    width: 225px;
-}
-.table-6{
-    width: 150px;
-    text-align: center;
-}
-.product-amount{
-    text-align: center;
-   
     font-size: 20px;
     color: #FF1818;
     width: 225px;
     line-height: 220px;
 }
-.product-amount span{
+.wk-shoppingcart-content-content .product-amount span{
     font-family: "TitilliumWeb";
     font-size: 20px;
 }
-.product-del{
+.wk-shoppingcart-content-content .product-del{
     text-align: center;
     width: 125px;
     height: 220px;
@@ -347,40 +387,51 @@
     display: block;
     line-height: 220px;
 }
-.product-del .msc-cart-line__remove-item{
+.wk-shoppingcart-content-content .product-del .msc-cart-line__remove-item{
     color: #72899B;
     font-size: 14px;
     font-family: "微软雅黑";
     text-decoration: none;
 }
-
-
 /* 删除商品 */
-.delectAllProduct a{
+.wk-shoppingcart-content-content .delectAllProduct a{
     margin-left: 28px;
     color: #72899B;
 }
-.delectAllProduct a:hover{
+.wk-shoppingcart-content-content .delectAllProduct a:hover{
     text-decoration: none;
 }
-/* 结算 */
-.wkea-order .settlement div{
-    font-family: "微软雅黑";
-    font-size: 12px;
-    color: #72899B;
-    margin-left: 700px;
-    margin-top: -30px;
+.wkea-order .cxbox{
+    // display: inline-block;
+    display: none;
+    // margin-left: 18px;
+    width: 18px;
+    height:18px;
+    // margin-top: 65px;
 }
-.wkea-order .settlement div span{
+.wkea-order .delectAllProduct{
+    color: #72899B;
+    display: none;
+}
+/* 结算 */
+.wkea-order td .settlement{
+    width: 1289px;
+    height: 133px;
+    // border: 1px solid red;
+    padding-left: 480px;
+}
+.wkea-order td .settlement p{
+    width: 600px;
+    height: 130px;
+    font-size: 24px;
     color: #FF1818;
     font-size: 20px;
-}
-.wkea-order .settlement div span + span{
-    font-size: 24px;
-    margin-left: 3px;
     font-family: "TitilliumWeb";
+    // border: 1px solid black;
+    display: inline-block;
+    padding-left: 240px;
 }
-.msc-cart__btn-checkout{
+.wkea-order td .settlement .msc-cart__btn-checkout{
     margin-top: 10px;
     font-size: 18px; 
     color: white;
@@ -389,39 +440,4 @@
     background-color: #009CE1;
     border: 1px solid #2289C2;
     border-radius: 5px;
-    margin-left: 1060px;
-    margin-top: -50px;
-    display: block;
-    text-align: center;
-    line-height: 25px;
 }
-.wkea-order-info .msc-cart__btn-checkout:hover{
-    text-decoration: none;
-    color: white;
-}
-.wkea-order{
-    width: 1290px;
-    height: 133px;
-    margin: 0 auto;
-    border: 1px solid #E5E5E5;
-    border-top: 0;
-    background-color: #EFF3F6;
-}
-.wkea-order .cxbox{
-    // display: inline-block;
-    display: none;
-    margin-left: 18px;
-    width: 18px;
-    height:18px;
-    margin-top: 65px;
-}
-.wkea-order .delectAllProduct{
-    margin-left: 55px;
-    margin-top: -25px;
-    color: #72899B;
-    display: none;
-}
-.wkea-order .wkea-order-info{
-    padding-top: 85px;
-}
-

@@ -285,16 +285,16 @@ const CartLine: React.FC<ICartLineProps> = (props: ICartLineProps) => {
     };
 
     return (
-        <div className='msc-cart-line'>
-            <td className="product-cx">
+        <td className='cart_infos msc-cart-line'>
+            <div className="product-cx">
                 <input type="checkbox" className="cxbox" name="" id="" />
-            </td>
-            <td className="product-img">
+            </div>
+            <div className="product-img">
                 <div className="msc-cart-line__product-image">
                     <Image src={props.primaryImageUrl || ''} altText={product.Name} gridSettings={props.gridSettings} imageSettings={props.imageSettings} loadFailureBehavior='empty' />
                 </div>
-            </td>
-            <td className="product-message">
+            </div>
+            <div className="product-message">
                 {/* <div className='msc-cart-line__content'>
                     <div className='msc-cart-line__product'> */}
                 <a className='msc-cart-line__product-title' href={productUrl}>{product.Name}</a>
@@ -305,17 +305,18 @@ const CartLine: React.FC<ICartLineProps> = (props: ICartLineProps) => {
                 {renderDisountLines}
                 {/* </div>
                 </div> */}
-            </td>
-            <td className="product-price">
+            </div>
+            <div className="product-price">
                 <div className='msc-cart-line__single-price'>
                     {/* @ts-ignore */}
                     {props.context.cultureFormatter.formatCurrency(props.data.cartLine.Price)}
                 </div>
-            </td>
+            </div>
+        
             {
                 _generateQuantityAndPrice()
             }
-        </div>
+        </td>
     );
 };
 

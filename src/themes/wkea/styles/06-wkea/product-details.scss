@@ -283,3 +283,12 @@ $msv-dialog-msc-empty_image-size: 240px;
 .product-details-right .p-right-last span img {
     margin-left: 3px;
 }
+.msc-ss-carousel-vert-strip ul li picture img {
+    width: 100px;
+}
+.ms-media-gallery__carousel .msc-carousel__inner .msc-carousel__item .ms-inline-zoom picture +picture{
+    display: none;
+}
+.product-details-right{
+    padding-left: 58px;
+}
