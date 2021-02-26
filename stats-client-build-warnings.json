@@ -1,0 +1,14 @@
+{
+    "errors": [],
+    "warnings": [
+        "asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).\nThis can impact web performance.\nAssets: \n  static/js/0.3711739ed9e9a07e.chunk.js (1.52 MiB)\n  static/js/2.c0d67d474b949cf7.chunk.js (419 KiB)\n  static/js/3.cb2f043da786c244.chunk.js (510 KiB)\n  static/js/10.91b0a608aa787e74.chunk.js (441 KiB)",
+        "entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.\nEntrypoints:\n  client (1.95 MiB)\n      static/js/bundle.44a20c26.js\n      static/js/0.3711739ed9e9a07e.chunk.js\n      static/js/10.91b0a608aa787e74.chunk.js\n"
+    ],
+    "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+            "entries": [],
+            "filteredEntries": 5,
+            "debug": false
+        }
+    }
+}

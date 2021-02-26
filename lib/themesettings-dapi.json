@@ -1050,14 +1050,71 @@
             }
           }
         }
+      },
+      "media-gallery": {
+        "properties": {
+          "vertical": {
+            "friendlyName": "Vertical",
+            "description": "Vertical",
+            "type": "layout",
+            "properties": {
+              "thumbnailImageSettings": {
+                "friendlyName": "Thumbnail Image Settings",
+                "description": "Image settings for the thumbnails",
+                "type": "imageSizes",
+                "properties": {
+                  "sm": {
+                    "width": 100,
+                    "height": 0
+                  },
+                  "lg": {
+                    "width": 100,
+                    "height": 0
+                  },
+                  "xl": {
+                    "width": 100,
+                    "height": 0
+                  }
+                }
+              },
+              "galleryImageSettings": {
+                "friendlyName": "Gallery Image Settings",
+                "description": "Image settings for the main gallery",
+                "type": "imageSizes",
+                "properties": {
+                  "xs": {
+                    "width": 767,
+                    "height": 767
+                  },
+                  "sm": {
+                    "width": 600,
+                    "height": 600
+                  },
+                  "md": {
+                    "width": 600,
+                    "height": 772
+                  },
+                  "lg": {
+                    "width": 528,
+                    "height": 528
+                  },
+                  "xl": {
+                    "width": 0,
+                    "height": 772
+                  }
+                }
+              }
+            }
+          }
+        }
       }
     },
     "gridSettings": {
-      "xs": 576,
-      "sm": 576,
-      "md": 768,
-      "lg": 992,
-      "xl": 1200
+      "xs": 767,
+      "sm": 991,
+      "md": 1199,
+      "lg": 1599,
+      "xl": 1600
     }
   }
 }

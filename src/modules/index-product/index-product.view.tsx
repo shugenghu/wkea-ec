@@ -8,6 +8,7 @@ import { IIndexProductViewProps } from './index-product';
 import { getProductPageUrlSync } from '@msdyn365-commerce-modules/retail-actions';
 
 export default (props: IIndexProductViewProps) => {
+
     if (!props.config.productIds) {
         console.error('请填写products-container的productIds')
         return (<div>暂无数据</div>)
@@ -26,7 +27,9 @@ export default (props: IIndexProductViewProps) => {
                 <td>
                     <div>
                         <a href={href}>
+                            {/* <img src={props.data.products[index].result?.PrimaryImageUrl} alt="" /> */}
                             <img src={props.data.products[index].result?.PrimaryImageUrl} alt="" />
+                            {/* <img src="https://images-ap-prod.cms.commerce.dynamics.com/cms/api/nmmnlvcthh/imageFileData/MFkOH?pubver=1" alt=""/> */}
                         </a>
                         <div className="wkea-index-product-product">
                             <a href={href}>{props.data.products[index].result?.Name}</a>
@@ -42,6 +45,7 @@ export default (props: IIndexProductViewProps) => {
                     <div>
                         <a href={href}>
                             <img src={props.data.products[index].result?.PrimaryImageUrl} alt="" />
+                            {/* <img src="https://images-ap-prod.cms.commerce.dynamics.com/cms/api/nmmnlvcthh/imageFileData/MFkOH?pubver=1" alt=""/> */}
                         </a>
                         <div className="wkea-index-product-product">
                             <a href={href}>{props.data.products[index].result?.Name}</a>
@@ -59,7 +63,7 @@ export default (props: IIndexProductViewProps) => {
                     <hr /><span>{props.config.showtypemodule}</span>
                 </div>
                 <div className="wkea-index-product-content-content-product-list">
-                    <ul className="clear">
+                    <ul className="clear clearboth">
                         {listshow && listshow.length > 0 &&
                             listshow?.map(v =>  <li>
                                     <a href="">{v}</a>

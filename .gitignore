@@ -289,15 +289,4 @@ integration-test-report.xml
 # permission
 *.pem
 node_modules
-node_modules
-node_modules
-node_modules
-node_modules
-node_modules
-node_modules
-node_modules
-node_modules
-node_modules
-node_modules
-node_modules
-node_modules
+/secrets/

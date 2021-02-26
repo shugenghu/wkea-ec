@@ -3,19 +3,44 @@
     width: 230px;
     height: 507px;
     float: left;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-left: 10px;
 }
 .wkea-index-person-content-top-right-top{
+    padding-top: 26px;
     text-align: center;
     width: 230px;
-    line-height: 80px;
-    height: 80px;
+    height: 70px;
 }
+
 .wkea-index-person-content-top-right-welcome a{
+    border-radius: 3px;
+    width: 86px;
+    height: 34px;
+    border: 1px solid #009CE1;
     display: inline-block;
-    margin-left: 20px;
-    margin-right: 20px;
+}
+.wkea-index-person-content-top-right-welcome a:first-child :hover{
+    background-color: rgba($color:  #009CE1, $alpha: 0.14);
+    -webkit-transition: all 150ms linear;
+    transition: all 250ms linear;
+}
+
+.wkea-index-person-content-top-right-welcome a:last-child :focus{
+    box-shadow: rgba($color: red, $alpha: 0.15);
+}
+.wkea-index-person-content-top-right-welcome a:hover{
+    text-decoration: none;
+}
+.wkea-index-person-content-top-right-welcome a:last-child {
+    font-size: 14px;
+    line-height: 20px;
+    font-family: "微软雅黑";
+    margin:0px;
+    background-color: #009CE1;
+}
+.wkea-index-person-content-top-right-welcome a:first-child{
+    margin-right: 22px;
 }
 .wkea-index-person-content-top-right-pay{
     display: none;
@@ -23,14 +48,16 @@
 .wkea-index-person-content-top-right-welcome{
     text-align: center;
     width: 230px;
-    height: 40px;
+    height: 35px;
     color: #34495E;
+    margin-bottom: 30px;
 }
 .wkea-index-person-content-top-right-welcome span{
     display: block;
-    color: #939EA9;
-    font-size: 12px;
-    font-family: 'TitilliumWeb';
+    color: #009CE1;
+    font-size: 14px;
+    line-height: 32px;
+    font-family: '微软雅黑';
 }
 .wkea-index-person-content-top-right-pay{
     height: 80px;
@@ -64,6 +91,10 @@
     border: none;
     outline: none;
     color: #34495E;
+    font-size: 14px;
+}
+.wkea-index-person-content-top-right .wkea-index-person-content-top-right-btn:hover{
+    color: #019be1;
 }
 .wkea-index-person-content-top-right hr{
     background-color: #EFF3F6;
@@ -74,9 +105,31 @@
 .wkea-index-person-content-top-right-need{
     padding-left: 20px;
     padding-right: 20px;
-    height: 110px;
+}
+.wkea-index-person-content-top-right-need a{
+    margin:0px;
+    font-size: 14px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-family: "微软雅黑";
+}
+.wkea-index-person-content-top-right-need button:hover {
+    background-color: #0AA3E6;
+}
+.wkea-index-person-content-top-right-need +.wkea-index-person-content-top-right-need{
+    margin-top: 28px;
+}
+.wkea-index-person-content-top-right-need +.wkea-index-person-content-top-right-need button:hover{
+    // box-shadow:1px 2px 6px rgba($color:  #009CE1, $alpha: 0.3) ;
+    background-color: rgba($color:  #009CE1, $alpha: 0.14);
+    -webkit-transition: all 150ms linear;
+    transition: all 250ms linear;
 }
 .wkea-index-person-content-top-right-need +.wkea-index-person-content-top-right-need button{
+    width: 190px;
+    padding-left: 12px;
+    padding-right: 12px;
+    height: 47px;
     color: #34495e;
     background-color: white;
     border: 1px solid #009ce1;
@@ -96,6 +149,7 @@
     outline: none;
 }
 .wkea-index-person-content-top-right-need span{
+    letter-spacing: 0.5px;
     padding-top: 10px;
     display: block;
     font-size: 12px;
@@ -103,5 +157,38 @@
     color: #a2acb5;
 }
 .wkea-index-person-content-top-right .wkea-index-person-division{
+    margin-bottom: 30px;
+}
+
+// 审核添加
+.wkea-index-person-content-top-right-come{
+    text-align: center;
+    padding-top: 14px;
     margin-bottom: 20px;
+}
+.wkea-index-person-content-top-right-come p{
+    height: 30px;
+    margin-bottom: 8px;
+    font-size: 24px;
+    font-family: "微软雅黑";
+    color: #34495E;
+    text-align: center;
+}
+.wkea-index-person-content-top-right-come span{
+    font-size: 18px;
+    font-family: "微软雅黑";
+    color: #939EA9;
+}
+.wkea-index-person-content-top-right-username{
+    text-align: center;
+    margin-bottom: 31px;
+}
+.wkea-index-person-content-top-right-username span{
+    font-family: "微软雅黑";
+    font-size: 16px;
+    color: #939EA9;
+}
+//隐藏了在线客服按钮
+.wkea-index-person-content-top-right-btn{
+    display: none;
 }

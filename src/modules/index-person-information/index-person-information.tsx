@@ -225,10 +225,10 @@ class Header extends React.PureComponent<IIndexPersonInformationProps<IIndexPers
                 title={resources.signInLinkText}
                 href={user && user.signInUrl}
                 aria-label={resources.signInLinkAriaText}
-                onClick={onTelemetryClick(this.telemetryContent, payLoad, 'Sign in')}
+                onClick={onTelemetryClick(this.telemetryContent, payLoad, '登录')}
                 {...attributes}
             >
-                <span className='ms-header__signin-button-text' aria-hidden={true}>{resources.signInLinkText}</span>
+                <span className='ms-header__signin-button-text' aria-hidden={true}>登录</span>
             </a>
         );
     }

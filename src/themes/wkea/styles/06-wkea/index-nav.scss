@@ -1,6 +1,23 @@
+.wkea-index-nav-all:hover >ul{
+    display: block;
+}
+.wkea-index-nav .wkea-index-nav-all > a{
+    color: white;
+}
+.wkea-index-nav .wkea-index-nav-ul>li:first-child:hover{
+    background-color: #0AA3E6;
+    -webkit-transition: all 150ms linear;
+    transition: all 250ms linear;
+}
+.wkea-index-nav-all ul {
+    display: none;
+}
 .wkea-index-nav .wkea-index-nav-ul>.wkea-index-nav-active {
     background-color: #009CE1 !important;
+    -webkit-transition: all 150ms linear;
+    transition: all 250ms linear;
 }
+
 .wkea-index-nav ul li a:hover{
     text-decoration: none;
 }
@@ -8,7 +25,6 @@
     text-decoration: none;
     display: block;
     float: left;
-    width: 175px;
     /*定义宽度*/
     overflow: hidden;
     /*超出部分隐藏*/
@@ -21,35 +37,40 @@
     -moz-binding: url('ellipsis.xml#ellipsis');
     /*适用火狐(firefox通过XUL实现效果)*/
 }
-
-.wkea-index-nav .wkea-index-nav-ul>li:first-child ul a {
-    width: 230px;
-    /*定义宽度*/
-}
-
+// .wkea-index-nav .wkea-index-nav-ul>li:first-child ul a {
+//     // width: 209px;
+//     /*定义宽度*/
+// }
 .wkea-index-nav .wkea-index-nav-ul>.wkea-index-nav-active>a {
     color: white;
 }
-
+.wkea-index-nav .wkea-index-nav-ul>li +li a:hover{
+    color: #009CE1;
+    -webkit-transition: all 150ms linear;
+    transition: all 250ms linear;
+}
 .wkea-index-nav .wkea-index-nav-active>a {
     color: #009CE1;
 }
-
 .wkea-index-nav .wkea-index-nav-active>ul {
     display: block;
 }
-
 .wkea-index-nav .wkea-index-nav-active {
     background-color: rgba(0, 156, 225, 0.17) !important;
+    -webkit-transition: all 150ms linear;
+    transition: all 250ms linear;
 }
-
+// 内容距离修改
+.wkea-index-nav .wkea-index-nav-active .wkea-index-nav-active{
+    background-color: white !important;
+}
 .wkea-index-nav ul li ul {
     display: none;
 }
 
 .wkea-index-nav {
     background-color: white;
-    height: 58px;
+    height: 43px;
 }
 
 .wkea-index-nav ul {
@@ -57,7 +78,7 @@
 }
 
 .wkea-index-nav ul li {
-    width: 250px;
+    width: 209px;
 }
 
 .wkea-index-nav ul {
@@ -69,36 +90,43 @@
 
 .wkea-index-nav .wkea-index-nav-a {
     color: white;
+    font-weight: bold;
+    font-size: 16px;
 }
 
 .wkea-index-nav a {
     text-decoration: none;
     font-family: "微软雅黑";
-    font-size: 18px;
+    font-size: 16px;
     color: #34495E;
 }
 
 .wkea-index-nav .wkea-index-nav-ul>li:first-child ul li {
     background-color: white;
-    width: 230px;
+    width: 209px;
 }
-
+.wkea-index-nav-ul > li{
+    margin-right: 86px;
+}
 .wkea-index-nav ul li {
     background-color: white;
     text-align: center;
-    width: 175px;
-    height: 58px;
-    line-height: 58px;
+    width: auto;
+    height: 43px;
+    line-height: 43px;
+}
+.wkea-index-nav ul li ul{
+    width: 209px;
 }
 
 .wkea-index-nav .wkea-index-nav-ul>li:first-child {
-    width: 230px;
+    width: 209px;
     text-align: center;
     background-color: #009CE1;
 }
 
 .wkea-index-nav .wkea-index-nav-ul>li:first-child ul li ul {
-    left: 230px;
+    left: 209px;
 }
 
 .wkea-index-nav ul li ul li ul {
@@ -106,15 +134,61 @@
     left: 175px;
     list-style: none;
 }
-
-.wkea-index-nav ul li {
-    position: relative;
-}
-
 .wkea-index-nav ul li ul {
     position: absolute;
 }
-
+.wkea-index-nav ul li ul li ul{
+    padding-top: 25px ;
+    min-height: 517px;
+    width: 838px;
+    border: 2px solid #009CE1;
+}
+.wkea-index-nav .wkea-index-nav-ul>li:first-child ul li ul li {
+    margin-bottom: 20px;
+    line-height: 50px;
+    padding-left: 30px;
+    text-align: left;
+    width: 268px;
+    height: 50px;
+}
 .wkea-index-nav ul li ul li a {
     font-size: 10px;
+}
+.wkea-index-nav ul li ul li ul li img{
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-right: 15px;
+}
+.wkea-index-nav .wkea-index-nav-active-select{
+    color:#009CE1 ;
+}
+
+.wkea-index-nav-all >svg{
+    margin-right: 13px;
+    margin-bottom: 3px;
+}
+.wkea-index-nav-all >ul li a .clearfix .float-left svg{
+    width: 14px;
+    height: 14px;
+    margin-right: 10px;
+    margin-left: 16px;
+}
+.wkea-index-nav-all >ul li:hover a .clearfix .float-left svg{
+    filter: drop-shadow(#009CE1 80px 0);
+    transform: translateX(-80px);
+}
+.wkea-index-nav-all >ul li:hover a .clearfix .float-left {
+    overflow: hidden;
+}
+.wkea-index-nav-all >ul li a .clearfix .float-left{
+    font-size: 12px;
+}
+.wkea-index-nav-all >ul li a .clearfix .float-right{
+    padding-right: 22px;
+}
+// 导航两边距
+.wkea-index-nav-all > ul{
+    padding-top: 10px;
+    padding-bottom: 10px;
 }

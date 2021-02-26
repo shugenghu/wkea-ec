@@ -124,7 +124,7 @@ const _mapProductDimensionFullToDropdownViewProps =
             </span>
         ),
         heading: (
-            <div>{dropdownName}</div>
+            <div>购买数量</div>
         ),
         select: (
             <Dropdown

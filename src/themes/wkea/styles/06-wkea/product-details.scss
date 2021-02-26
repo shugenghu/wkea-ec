@@ -18,63 +18,6 @@ $msv-dialog-modal-content-button-margin: 6px 0;
 $msv-dialog-button-width: 100%;
 $msv-dialog-msc-empty_image-size: 240px;
 
-.product-details {
-    .quantity {
-        .quantity-input {
-            @include form-control();
-            width: 80px;
-            display: inline-block;
-            margin-left: 8px;
-            margin-right: 8px;
-            -moz-appearance: textfield;
-            padding: $buybox-quantity-input;
-            vertical-align: bottom;
-
-            &::-webkit-inner-spin-button,
-            &::-webkit-outer-spin-button {
-                -webkit-appearance: none;
-            }
-        }
-        .quantity__controls {
-            padding: 5px;
-            padding-left: 0px;
-            padding-right: 0px;
-            background: var(--msv-buybox-btn-bg);
-            background-position: center;
-            background-repeat: no-repeat;
-            border: 1px solid var(--msv-buybox-btn-border-color);
-            min-width: auto;
-            width: 48px;
-            height: 48px;
-            cursor: pointer;
-            &:disabled {
-                color: $msv-gray-300;
-            }
-        }
-        .increment {
-            @include add-icon($msv-Add, after);
-            color: var(--msv-buybox-btn-font-color);
-            &.disabled {
-                color: $msv-gray-300;
-            }
-            &:not(:disabled):not(.disabled):active,
-            &:not(:disabled):not(.disabled):active:focus {
-                color: var(--msv-buybox-btn-font-color);
-            }
-        }
-        .decrement {
-            @include add-icon($msv-Remove, after);
-            color: var(--msv-buybox-btn-font-color);
-            &.disabled {
-                color: $msv-gray-300;
-            }
-            &:not(:disabled):not(.disabled):active,
-            &:not(:disabled):not(.disabled):active:focus {
-                color: var(--msv-buybox-btn-font-color);
-            }
-        }
-    }
-}
 
 .product-details>div {
     float: left;
@@ -83,6 +26,10 @@ $msv-dialog-msc-empty_image-size: 240px;
 .Inventory-quantity {
     color: #72899B;
     font-size: 18px;
+}
+
+.msc-ss-carousel button {
+    display: none;
 }
 
 .buy-num {
@@ -140,48 +87,38 @@ $msv-dialog-msc-empty_image-size: 240px;
     margin-bottom: 16px;
 }
 
-.product-details-left .product-details-left-bottom {
+.product-details-left .msc-ss-carousel-slide {
     height: 96px;
     width: 100%;
-    margin-left: -18px;
 }
 
-.product-details-left .product-details-left-bottom li {
+.product-details-left .msc-ss-carousel-slide li {
     float: left;
     list-style-type: none;
-    margin: 0 5px;
+    margin-right: 2px;
 }
 
-.product-details-left .product-details-left-bottom li:first-child {
-    margin: 30px 10px 30px 0;
-}
-
-.product-details-left .product-details-left-bottom li:last-child {
-    margin: 30px 0 30px 10px;
-}
-
-.product-details-left .product-details-left-bottom li:not(:first-child) p svg:first-child {
+.product-details-left .msc-ss-carousel-slide li:not(:first-child) p svg:first-child {
     float: left;
 }
 
-.product-details-left .product-details-left-bottom li:not(:first-child) p svg:last-child {
+.product-details-left .msc-ss-carousel-slide li:not(:first-child) p svg:last-child {
     margin-left: -96px;
 }
 
 /* 内容右部 */
 .product-details-right {
-    width: 699px;
+    width: 760px;
     height: 642px;
 }
 
-.product-details-right p:first-child {
-    margin-top: 10px;
+.product-details .product-details-right p:first-child {
+    margin-top: 2px;
+    padding-left: 0px;
 }
-
-.product-details-right p {
-    margin-top: 30px;
-    font-size: 18px;
-    color: #34495E;
+body .container{
+    padding-left:0px;
+    padding-right:0px;
 }
 
 // .product-details-right p span:first-child {
@@ -193,35 +130,48 @@ $msv-dialog-msc-empty_image-size: 240px;
 // .product-details-right p:nth-child(7) span:first-child {
 //     margin-left: 20px;
 // }
-.product-details-right >p{
-    padding-left: 10px;
-}
 .product-details-right p:first-child {
     color: #34495E;
     font-size: 26px;
 }
 
 .product-details-right p:nth-child(2) {
+    margin-top: 36px;
     background-color: #EFF3F6;
     width: 100%;
     height: 86px;
-
 }
 
-.product-details-right p:nth-child(2) label {
+.product-details-right label {
+    position: relative;
+    padding-right: 20px;
+    text-align-last: justify;
+    width: 113px;
+    margin-bottom: 0px;
+    font-size: 16px;
+    font-family: "微软雅黑";
     color: #34495E;
-    font-size: 18px;
-    line-height: 86px;
 }
-
 .product-details-right p:nth-child(2) label span:last-child {
     color: #FF4848;
     font-size: 22px;
 }
 
-.product-details-right p:nth-child(7) label {
-    margin: 0 15px 0 15px;
+.text-justify:after {
+    margin-left: 3px;
+    content: ":";
+    position: absolute;
 }
+.ms-buybox__product-quantity-label{
+    font-weight: 400;
+}
+.ms-buybox__product-quantity-label:after{
+    margin-left: 3px;
+    content: ":";
+    position: absolute;
+}
+// .product-details-right p:nth-child(7) label {
+// }
 
 .product-details-right p:nth-child(7) .minus-sign {
     width: 24px;
@@ -282,4 +232,146 @@ $msv-dialog-msc-empty_image-size: 240px;
 
 .product-details-right .p-right-last span img {
     margin-left: 3px;
+}
+
+.msc-ss-carousel-vert-strip ul li picture img {
+    width: 100px;
+}
+
+.ms-media-gallery__carousel .msc-carousel__inner .msc-carousel__item .ms-inline-zoom picture+picture {
+    display: none;
+}
+
+.product-details-right {
+    padding-left: 58px;
+}
+
+.product-details-right>div:nth-child(1) {
+    width: 699px;
+    line-height: 86px;
+    height: 86px;
+    background-color: #EFF3F6;
+}
+.product-details-right p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.ms-buybox__product-quantity-label {
+    display: inline-block;
+}
+.ms-buybox__product-quantity-label-heading{
+    display: inline;
+    font-weight: 400;
+    font-family: "微软雅黑";
+    color: #34495E;
+}
+
+.ms-buybox__quantity .quantity {
+    width: 80px;
+    height: 33px;
+    line-height: 0px;
+    display: inline-block;
+}
+.product-details-right >p:nth-child(2){
+    label{
+        height: 86px;
+        line-height: 86px;
+    }
+    span{
+        
+        display: inline-block;
+        color:#FF4848;
+        height: 86px;
+        line-height: 86px;
+    }
+    span +span{
+        font-family: 'TitilliumWeb';
+        font-size: 32px;
+    }
+}
+.product-details-right p{
+    padding-left: 24px;
+    margin-top: 38px;
+}
+// 加入购物车
+.product-add-to-cart {
+    div {
+        button:first-child {
+            width: 278px;
+            height: 74px;
+            border: 2px solid #2289C2;
+            background-color: #009CE1;
+            color: white;
+            font-size: 24px;
+            font-family: "微软雅黑";
+            border-radius: 10px;
+        }
+
+        button:last-child {
+            background-color: white;
+            border: 1px solid #8BA1B2;
+            width: 69px;
+            height: 74px;
+            border-radius: 10px;
+        }
+    }
+}
+//产品图片区域
+.ms-media-gallery__carousel{
+    text-align: center;
+}
+// 按钮
+.ms-media-gallery__carousel{
+    a{
+        margin-top: 310px;
+    }
+}
+.msc-ss-carousel-vert-slide{
+    .ms-media-gallery__thumbnail-item{
+        picture{
+            img{
+                width: 78px;
+                height: 78px;
+            }
+        }
+    }
+}
+.msc-ss-carousel-vert-strip ul li picture img{
+    filter: brightness(60%);
+}
+.msc-ss-carousel-vert-strip ul .ms-media-gallery__thumbnail-item-active picture img{
+    border: 1px solid #72899B;
+    filter: brightness(100%);
+}
+// 加入购物车投影
+.product-details-right p:last-child button:first-child{
+    background: #009CE1;
+    box-shadow: 0px 1px 0 hsl(198, 100%, 44%), 1px 2px 6px rgba($color:  #009CE1, $alpha: 0.5);
+    letter-spacing: 1px;
+    -webkit-transition: all 150ms linear;
+    transition: all 150ms linear;
+}
+.product-details-right p:last-child button:first-child:hover{
+    background: #0096D8;
+    box-shadow: 1px 1px 2px rgba(255, 255, 255, 0.2);
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    text-shadow: -1px -1px 0 #2289C2;
+    -webkit-transition: all 250ms linear;
+    transition: all 250ms linear;
+}
+// 收藏
+.msc-add-to-wishlist:after{
+    content: "收藏";
+}
+.product-details-right p:last-child button+button:hover{
+    background-color: rgba($color: #019be1, $alpha: 0.14);
+    border: 1px solid #019be1;
+    color: #019be1;
+    -webkit-transition: all 150ms linear;
+    transition: all 250ms linear;
+}
+.ms-media-gallery__carousel{
+    margin-bottom: 10px;
+    border: 1px solid #E1E6EB ;
 }

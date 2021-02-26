@@ -43,7 +43,9 @@
     "@msdyn365-commerce-modules/starter-pack": "9.24",
     "@msdyn365-commerce/bootloader": "^1.0.0",
     "@msdyn365-commerce/retail-proxy": "9.24",
-    "antd": "^4.11.1",
+    "antd": "^4.12.3",
+    "qrcode.react": "^1.0.1",
+    "react-toastify": "^7.0.3",
     "reactstrap": "^6.5.0",
     "stack-trace": "^0.0.10",
     "tslib": "^1.9.3"

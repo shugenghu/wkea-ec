@@ -1,0 +1,17 @@
+{
+    "$type": "contentModule",
+    "friendlyName": "wkea-about",
+    "name": "wkea-about",
+    "description": "Please add meaningful description for authoring",
+    "categories": [
+		"document",
+		"static"
+	],
+    "tags": ["Additional tags go here"],
+    "dataActions": {        
+    },    
+    "config": {
+    },
+    "resources": {
+    }
+}

@@ -107,7 +107,7 @@ class Cart extends React.Component<ICartProps<ICartData>> {
             ...this.props,
             className: classnames('ms-cart'),
             title: <div className={'msc-cart__heading'}>
-                <div className="content">
+                <div className="content wk-content">
                     <div className="shoppingcart-content-top wk-nav-top">
                         <a href="wkea-index.html">首页</a> <span className="left">{'>'}</span> <a href="" className="active">我的购物车</a>
                     </div>

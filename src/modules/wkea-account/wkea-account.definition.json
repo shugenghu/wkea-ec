@@ -1,0 +1,53 @@
+{
+    "$type": "contentModule",
+    "friendlyName": "wkea-account",
+    "name": "wkea-account",
+    "description": "Please add meaningful description for authoring",
+    "categories": [
+        "Account management",
+        "Order management",
+        "User profile",
+        "address"
+    ],
+    "tags": ["account"],
+    "dataActions": {        
+    },    
+    "config": {
+    },
+    "slots": {
+		"orderHistory": {
+			"friendlyName": "order history",
+			"description": "order history",
+			"max": 1,
+			"min": 0,
+			"allowedTypes": ["order-history"]
+		},
+		"myProfile": {
+			"friendlyName": "my profile",
+			"description": "my profile",
+			"max": 1,
+			"min": 0,
+			"allowedTypes": ["account-profile"]
+		},
+		"wishList": {
+			"friendlyName": "wish list",
+			"description": "wish list",
+			"max": 1,
+			"min": 0,
+			"allowedTypes": ["wishlist-items"]
+        },
+        "address": {
+			"friendlyName": "address",
+			"description": "address",
+			"max": 1,
+			"min": 0,
+			"allowedTypes": ["account-management-address"]
+        }
+	},
+    "resources": {
+        "resourceKey": {
+            "comment": "resource description",
+            "value": "resource value"
+        }
+    }
+}

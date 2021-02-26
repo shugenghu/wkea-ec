@@ -82,17 +82,22 @@ export interface IBuyboxState {
 
 export interface IBuyboxViewProps extends IBuyboxProps<IBuyboxData> {
     state: IBuyboxState;
+
     ModuleProps: IModuleProps;
     ProductInfoContainerProps: INodeProps;
     MediaGalleryContainerProps: INodeProps;
+
     callbacks: IBuyboxCallbacks;
+
     mediaGallery?: React.ReactNode;
+
     title?: React.ReactNode;
     description?: React.ReactNode;
     rating?: React.ReactNode;
     price?: React.ReactNode;
     addToOrderTemplate?: IBuyboxAddToOrderTemplateViewProps;
     addToWishlist?: IBuyboxAddToWishlistViewProps;
+
     addToCart: IBuyboxAddToCartViewProps;
     findInStore?: IBuyboxFindInStoreViewProps;
     quantity?: IBuyboxProductQuantityViewProps;
@@ -207,13 +212,13 @@ class Buybox extends React.PureComponent<IBuyboxProps<IBuyboxData>, IBuyboxState
             mediaGallery: mediaGallery && mediaGallery.length > 0 ? mediaGallery[0] : undefined,
             ModuleProps: {
                 moduleProps: this.props,
-                className: classnames('product-details', className)
+                className: classnames('ms-buybox', className)
             },
             ProductInfoContainerProps: {
-                className: 'product-details-right'
+                className: 'ms-buybox__content'
             },
             MediaGalleryContainerProps: {
-                className: 'product-details-left'
+                className: 'ms-buybox__media-gallery'
             },
             telemetryContent: this.telemetryContent,
             callbacks: this.buyboxCallbacks,
@@ -230,6 +235,7 @@ class Buybox extends React.PureComponent<IBuyboxProps<IBuyboxData>, IBuyboxState
             inventoryLabel: getBuyBoxInventoryLabel(this.props),
             shopSimilarLook: this.props.config.enableShopSimilarLooks ? getBuyboxShopSimilarLook(this.props, this.state, this.buyboxCallbacks) : undefined,
             availableQuantity: this.state.availableQuantity
+
 
         };
 
@@ -392,3 +398,4 @@ class Buybox extends React.PureComponent<IBuyboxProps<IBuyboxData>, IBuyboxState
 }
 
 export default Buybox;
+

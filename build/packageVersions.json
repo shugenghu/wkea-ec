@@ -3,15 +3,15 @@
   "version": "1.0.0",
   "submissionId": "unknown",
   "build": {},
-  "buildTime": "2021-02-01 08:13:57",
-  "buildVersion": "37a5df",
+  "buildTime": "2021-02-25 09:55:07",
+  "buildVersion": "2f1134",
   "MSDyn365-Commerce": [
     {
       "packageName": "action-internal",
       "versionDetails": [
         {
           "rootPackageVersion": "--",
-          "hoistedVersion": "1.25.17"
+          "hoistedVersion": "1.27.15"
         }
       ]
     },
@@ -20,7 +20,7 @@
       "versionDetails": [
         {
           "rootPackageVersion": "^1.0.0",
-          "hoistedVersion": "1.25.17"
+          "hoistedVersion": "1.27.15"
         }
       ]
     },
@@ -29,9 +29,9 @@
       "versionDetails": [
         {
           "rootPackageVersion": "--",
-          "hoistedVersion": "1.25.17",
-          "@msdyn365-commerce-bootloader-package-json-version": "1.25.17",
-          "@msdyn365-commerce-bootloader-node-modules-version": "HOISTED: Using version 1.25.17"
+          "hoistedVersion": "1.27.15",
+          "@msdyn365-commerce-bootloader-package-json-version": "1.27.15",
+          "@msdyn365-commerce-bootloader-node-modules-version": "HOISTED: Using version 1.27.15"
         }
       ]
     },
@@ -40,7 +40,7 @@
       "versionDetails": [
         {
           "rootPackageVersion": "--",
-          "hoistedVersion": "1.25.17"
+          "hoistedVersion": "1.27.15"
         }
       ]
     },
@@ -49,9 +49,9 @@
       "versionDetails": [
         {
           "rootPackageVersion": "--",
-          "hoistedVersion": "1.25.17",
-          "@msdyn365-commerce-bootloader-package-json-version": "1.25.17",
-          "@msdyn365-commerce-bootloader-node-modules-version": "HOISTED: Using version 1.25.17"
+          "hoistedVersion": "1.27.15",
+          "@msdyn365-commerce-bootloader-package-json-version": "1.27.15",
+          "@msdyn365-commerce-bootloader-node-modules-version": "HOISTED: Using version 1.27.15"
         }
       ]
     },
@@ -60,7 +60,7 @@
       "versionDetails": [
         {
           "rootPackageVersion": "--",
-          "hoistedVersion": "1.25.17"
+          "hoistedVersion": "1.27.15"
         }
       ]
     },
@@ -69,7 +69,7 @@
       "versionDetails": [
         {
           "rootPackageVersion": "--",
-          "hoistedVersion": "9.24.14"
+          "hoistedVersion": "9.24.16"
         }
       ]
     },
@@ -78,7 +78,7 @@
       "versionDetails": [
         {
           "rootPackageVersion": "--",
-          "hoistedVersion": "9.24.14"
+          "hoistedVersion": "9.24.16"
         }
       ]
     },
@@ -87,9 +87,9 @@
       "versionDetails": [
         {
           "rootPackageVersion": "--",
-          "hoistedVersion": "1.25.17",
-          "@msdyn365-commerce-bootloader-package-json-version": "1.25.17",
-          "@msdyn365-commerce-bootloader-node-modules-version": "HOISTED: Using version 1.25.17"
+          "hoistedVersion": "1.27.15",
+          "@msdyn365-commerce-bootloader-package-json-version": "1.27.15",
+          "@msdyn365-commerce-bootloader-node-modules-version": "HOISTED: Using version 1.27.15"
         }
       ]
     },
@@ -98,7 +98,7 @@
       "versionDetails": [
         {
           "rootPackageVersion": "--",
-          "hoistedVersion": "1.25.17"
+          "hoistedVersion": "1.27.15"
         }
       ]
     },
@@ -107,9 +107,9 @@
       "versionDetails": [
         {
           "rootPackageVersion": "--",
-          "hoistedVersion": "1.25.17",
-          "@msdyn365-commerce-bootloader-package-json-version": "1.25.17",
-          "@msdyn365-commerce-bootloader-node-modules-version": "HOISTED: Using version 1.25.17"
+          "hoistedVersion": "1.27.15",
+          "@msdyn365-commerce-bootloader-package-json-version": "1.27.15",
+          "@msdyn365-commerce-bootloader-node-modules-version": "HOISTED: Using version 1.27.15"
         }
       ]
     },
@@ -118,7 +118,7 @@
       "versionDetails": [
         {
           "rootPackageVersion": "--",
-          "hoistedVersion": "9.24.14"
+          "hoistedVersion": "9.24.16"
         }
       ]
     },
@@ -127,9 +127,9 @@
       "versionDetails": [
         {
           "rootPackageVersion": "--",
-          "hoistedVersion": "1.25.17",
-          "@msdyn365-commerce-bootloader-package-json-version": "1.25.17",
-          "@msdyn365-commerce-bootloader-node-modules-version": "HOISTED: Using version 1.25.17"
+          "hoistedVersion": "1.27.15",
+          "@msdyn365-commerce-bootloader-package-json-version": "1.27.15",
+          "@msdyn365-commerce-bootloader-node-modules-version": "HOISTED: Using version 1.27.15"
         }
       ]
     },
@@ -147,9 +147,9 @@
       "versionDetails": [
         {
           "rootPackageVersion": "--",
-          "hoistedVersion": "1.25.17",
-          "@msdyn365-commerce-bootloader-package-json-version": "1.25.17",
-          "@msdyn365-commerce-bootloader-node-modules-version": "HOISTED: Using version 1.25.17"
+          "hoistedVersion": "1.27.15",
+          "@msdyn365-commerce-bootloader-package-json-version": "1.27.15",
+          "@msdyn365-commerce-bootloader-node-modules-version": "HOISTED: Using version 1.27.15"
         }
       ]
     },
@@ -158,7 +158,7 @@
       "versionDetails": [
         {
           "rootPackageVersion": "--",
-          "hoistedVersion": "1.25.17"
+          "hoistedVersion": "1.27.15"
         }
       ]
     },
@@ -167,7 +167,7 @@
       "versionDetails": [
         {
           "rootPackageVersion": "--",
-          "hoistedVersion": "1.25.17"
+          "hoistedVersion": "1.27.15"
         }
       ]
     },
@@ -176,9 +176,9 @@
       "versionDetails": [
         {
           "rootPackageVersion": "--",
-          "hoistedVersion": "1.25.17",
-          "@msdyn365-commerce-bootloader-package-json-version": "1.25.17",
-          "@msdyn365-commerce-bootloader-node-modules-version": "HOISTED: Using version 1.25.17"
+          "hoistedVersion": "1.27.15",
+          "@msdyn365-commerce-bootloader-package-json-version": "1.27.15",
+          "@msdyn365-commerce-bootloader-node-modules-version": "HOISTED: Using version 1.27.15"
         }
       ]
     },
@@ -187,9 +187,9 @@
       "versionDetails": [
         {
           "rootPackageVersion": "--",
-          "hoistedVersion": "1.25.17",
-          "@msdyn365-commerce-bootloader-package-json-version": "1.25.17",
-          "@msdyn365-commerce-bootloader-node-modules-version": "HOISTED: Using version 1.25.17"
+          "hoistedVersion": "1.27.15",
+          "@msdyn365-commerce-bootloader-package-json-version": "1.27.15",
+          "@msdyn365-commerce-bootloader-node-modules-version": "HOISTED: Using version 1.27.15"
         }
       ]
     }
@@ -200,9 +200,9 @@
       "versionDetails": [
         {
           "rootPackageVersion": "--",
-          "hoistedVersion": "9.24.14",
-          "starter-pack-package-json-version": "9.24.14",
-          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.14"
+          "hoistedVersion": "9.24.16",
+          "starter-pack-package-json-version": "9.24.16",
+          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.16"
         }
       ]
     },
@@ -211,9 +211,9 @@
       "versionDetails": [
         {
           "rootPackageVersion": "--",
-          "hoistedVersion": "9.24.14",
-          "starter-pack-package-json-version": "9.24.14",
-          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.14"
+          "hoistedVersion": "9.24.16",
+          "starter-pack-package-json-version": "9.24.16",
+          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.16"
         }
       ]
     },
@@ -222,9 +222,9 @@
       "versionDetails": [
         {
           "rootPackageVersion": "--",
-          "hoistedVersion": "9.24.14",
-          "starter-pack-package-json-version": "9.24.14",
-          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.14"
+          "hoistedVersion": "9.24.16",
+          "starter-pack-package-json-version": "9.24.16",
+          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.16"
         }
       ]
     },
@@ -233,9 +233,9 @@
       "versionDetails": [
         {
           "rootPackageVersion": "--",
-          "hoistedVersion": "9.24.14",
-          "starter-pack-package-json-version": "9.24.14",
-          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.14"
+          "hoistedVersion": "9.24.16",
+          "starter-pack-package-json-version": "9.24.16",
+          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.16"
         }
       ]
     },
@@ -244,7 +244,7 @@
       "versionDetails": [
         {
           "rootPackageVersion": "--",
-          "hoistedVersion": "9.24.14"
+          "hoistedVersion": "9.24.16"
         }
       ]
     },
@@ -253,9 +253,9 @@
       "versionDetails": [
         {
           "rootPackageVersion": "--",
-          "hoistedVersion": "9.24.14",
-          "starter-pack-package-json-version": "9.24.14",
-          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.14"
+          "hoistedVersion": "9.24.16",
+          "starter-pack-package-json-version": "9.24.16",
+          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.16"
         }
       ]
     },
@@ -264,9 +264,9 @@
       "versionDetails": [
         {
           "rootPackageVersion": "--",
-          "hoistedVersion": "9.24.14",
-          "starter-pack-package-json-version": "9.24.14",
-          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.14"
+          "hoistedVersion": "9.24.16",
+          "starter-pack-package-json-version": "9.24.16",
+          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.16"
         }
       ]
     },
@@ -275,9 +275,9 @@
       "versionDetails": [
         {
           "rootPackageVersion": "--",
-          "hoistedVersion": "9.24.14",
-          "starter-pack-package-json-version": "9.24.14",
-          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.14"
+          "hoistedVersion": "9.24.16",
+          "starter-pack-package-json-version": "9.24.16",
+          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.16"
         }
       ]
     },
@@ -286,9 +286,9 @@
       "versionDetails": [
         {
           "rootPackageVersion": "--",
-          "hoistedVersion": "9.24.14",
-          "starter-pack-package-json-version": "9.24.14",
-          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.14"
+          "hoistedVersion": "9.24.16",
+          "starter-pack-package-json-version": "9.24.16",
+          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.16"
         }
       ]
     },
@@ -297,9 +297,9 @@
       "versionDetails": [
         {
           "rootPackageVersion": "--",
-          "hoistedVersion": "9.24.14",
-          "starter-pack-package-json-version": "9.24.14",
-          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.14"
+          "hoistedVersion": "9.24.16",
+          "starter-pack-package-json-version": "9.24.16",
+          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.16"
         }
       ]
     },
@@ -308,9 +308,9 @@
       "versionDetails": [
         {
           "rootPackageVersion": "--",
-          "hoistedVersion": "9.24.14",
-          "starter-pack-package-json-version": "9.24.14",
-          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.14"
+          "hoistedVersion": "9.24.16",
+          "starter-pack-package-json-version": "9.24.16",
+          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.16"
         }
       ]
     },
@@ -319,9 +319,9 @@
       "versionDetails": [
         {
           "rootPackageVersion": "--",
-          "hoistedVersion": "9.24.14",
-          "starter-pack-package-json-version": "9.24.14",
-          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.14"
+          "hoistedVersion": "9.24.16",
+          "starter-pack-package-json-version": "9.24.16",
+          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.16"
         }
       ]
     },
@@ -330,9 +330,9 @@
       "versionDetails": [
         {
           "rootPackageVersion": "--",
-          "hoistedVersion": "9.24.14",
-          "starter-pack-package-json-version": "9.24.14",
-          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.14"
+          "hoistedVersion": "9.24.16",
+          "starter-pack-package-json-version": "9.24.16",
+          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.16"
         }
       ]
     },
@@ -341,9 +341,9 @@
       "versionDetails": [
         {
           "rootPackageVersion": "--",
-          "hoistedVersion": "9.24.14",
-          "starter-pack-package-json-version": "9.24.14",
-          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.14"
+          "hoistedVersion": "9.24.16",
+          "starter-pack-package-json-version": "9.24.16",
+          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.16"
         }
       ]
     },
@@ -352,9 +352,9 @@
       "versionDetails": [
         {
           "rootPackageVersion": "--",
-          "hoistedVersion": "9.24.14",
-          "starter-pack-package-json-version": "9.24.14",
-          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.14"
+          "hoistedVersion": "9.24.16",
+          "starter-pack-package-json-version": "9.24.16",
+          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.16"
         }
       ]
     },
@@ -363,7 +363,7 @@
       "versionDetails": [
         {
           "rootPackageVersion": "--",
-          "hoistedVersion": "1.25.17"
+          "hoistedVersion": "1.27.15"
         }
       ]
     },
@@ -372,9 +372,9 @@
       "versionDetails": [
         {
           "rootPackageVersion": "--",
-          "hoistedVersion": "9.24.14",
-          "starter-pack-package-json-version": "9.24.14",
-          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.14"
+          "hoistedVersion": "9.24.16",
+          "starter-pack-package-json-version": "9.24.16",
+          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.16"
         }
       ]
     },
@@ -383,7 +383,7 @@
       "versionDetails": [
         {
           "rootPackageVersion": "--",
-          "hoistedVersion": "9.24.14"
+          "hoistedVersion": "9.24.16"
         }
       ]
     },
@@ -392,7 +392,7 @@
       "versionDetails": [
         {
           "rootPackageVersion": "9.24",
-          "hoistedVersion": "9.24.14"
+          "hoistedVersion": "9.24.16"
         }
       ]
     },
@@ -401,9 +401,9 @@
       "versionDetails": [
         {
           "rootPackageVersion": "--",
-          "hoistedVersion": "9.24.14",
-          "starter-pack-package-json-version": "9.24.14",
-          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.14"
+          "hoistedVersion": "9.24.16",
+          "starter-pack-package-json-version": "9.24.16",
+          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.16"
         }
       ]
     },
@@ -412,9 +412,9 @@
       "versionDetails": [
         {
           "rootPackageVersion": "--",
-          "hoistedVersion": "9.24.14",
-          "starter-pack-package-json-version": "9.24.14",
-          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.14"
+          "hoistedVersion": "9.24.16",
+          "starter-pack-package-json-version": "9.24.16",
+          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.16"
         }
       ]
     },
@@ -423,9 +423,9 @@
       "versionDetails": [
         {
           "rootPackageVersion": "--",
-          "hoistedVersion": "9.24.14",
-          "starter-pack-package-json-version": "9.24.14",
-          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.14"
+          "hoistedVersion": "9.24.16",
+          "starter-pack-package-json-version": "9.24.16",
+          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.16"
         }
       ]
     },
@@ -434,9 +434,9 @@
       "versionDetails": [
         {
           "rootPackageVersion": "--",
-          "hoistedVersion": "9.24.14",
-          "starter-pack-package-json-version": "9.24.14",
-          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.14"
+          "hoistedVersion": "9.24.16",
+          "starter-pack-package-json-version": "9.24.16",
+          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.16"
         }
       ]
     },
@@ -445,9 +445,9 @@
       "versionDetails": [
         {
           "rootPackageVersion": "--",
-          "hoistedVersion": "9.24.14",
-          "starter-pack-package-json-version": "9.24.14",
-          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.14"
+          "hoistedVersion": "9.24.16",
+          "starter-pack-package-json-version": "9.24.16",
+          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.16"
         }
       ]
     },
@@ -456,9 +456,9 @@
       "versionDetails": [
         {
           "rootPackageVersion": "--",
-          "hoistedVersion": "9.24.14",
-          "starter-pack-package-json-version": "9.24.14",
-          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.14"
+          "hoistedVersion": "9.24.16",
+          "starter-pack-package-json-version": "9.24.16",
+          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.16"
         }
       ]
     },
@@ -467,9 +467,9 @@
       "versionDetails": [
         {
           "rootPackageVersion": "--",
-          "hoistedVersion": "9.24.14",
-          "starter-pack-package-json-version": "9.24.14",
-          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.14"
+          "hoistedVersion": "9.24.16",
+          "starter-pack-package-json-version": "9.24.16",
+          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.16"
         }
       ]
     },
@@ -478,7 +478,7 @@
       "versionDetails": [
         {
           "rootPackageVersion": "--",
-          "hoistedVersion": "9.24.14"
+          "hoistedVersion": "9.24.16"
         }
       ]
     },
@@ -487,9 +487,9 @@
       "versionDetails": [
         {
           "rootPackageVersion": "--",
-          "hoistedVersion": "9.24.14",
-          "starter-pack-package-json-version": "9.24.14",
-          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.14"
+          "hoistedVersion": "9.24.16",
+          "starter-pack-package-json-version": "9.24.16",
+          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.16"
         }
       ]
     },
@@ -498,9 +498,9 @@
       "versionDetails": [
         {
           "rootPackageVersion": "--",
-          "hoistedVersion": "9.24.14",
-          "starter-pack-package-json-version": "9.24.14",
-          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.14"
+          "hoistedVersion": "9.24.16",
+          "starter-pack-package-json-version": "9.24.16",
+          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.16"
         }
       ]
     },
@@ -509,9 +509,9 @@
       "versionDetails": [
         {
           "rootPackageVersion": "--",
-          "hoistedVersion": "9.24.14",
-          "starter-pack-package-json-version": "9.24.14",
-          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.14"
+          "hoistedVersion": "9.24.16",
+          "starter-pack-package-json-version": "9.24.16",
+          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.16"
         }
       ]
     },
@@ -520,9 +520,9 @@
       "versionDetails": [
         {
           "rootPackageVersion": "--",
-          "hoistedVersion": "9.24.14",
-          "starter-pack-package-json-version": "9.24.14",
-          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.14"
+          "hoistedVersion": "9.24.16",
+          "starter-pack-package-json-version": "9.24.16",
+          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.16"
         }
       ]
     },
@@ -531,9 +531,9 @@
       "versionDetails": [
         {
           "rootPackageVersion": "--",
-          "hoistedVersion": "9.24.14",
-          "starter-pack-package-json-version": "9.24.14",
-          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.14"
+          "hoistedVersion": "9.24.16",
+          "starter-pack-package-json-version": "9.24.16",
+          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.16"
         }
       ]
     },
@@ -542,9 +542,9 @@
       "versionDetails": [
         {
           "rootPackageVersion": "--",
-          "hoistedVersion": "9.24.14",
-          "starter-pack-package-json-version": "9.24.14",
-          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.14"
+          "hoistedVersion": "9.24.16",
+          "starter-pack-package-json-version": "9.24.16",
+          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.16"
         }
       ]
     },
@@ -553,9 +553,9 @@
       "versionDetails": [
         {
           "rootPackageVersion": "--",
-          "hoistedVersion": "9.24.14",
-          "starter-pack-package-json-version": "9.24.14",
-          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.14"
+          "hoistedVersion": "9.24.16",
+          "starter-pack-package-json-version": "9.24.16",
+          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.16"
         }
       ]
     },
@@ -564,9 +564,9 @@
       "versionDetails": [
         {
           "rootPackageVersion": "--",
-          "hoistedVersion": "9.24.14",
-          "starter-pack-package-json-version": "9.24.14",
-          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.14"
+          "hoistedVersion": "9.24.16",
+          "starter-pack-package-json-version": "9.24.16",
+          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.16"
         }
       ]
     },
@@ -575,9 +575,9 @@
       "versionDetails": [
         {
           "rootPackageVersion": "--",
-          "hoistedVersion": "9.24.14",
-          "starter-pack-package-json-version": "9.24.14",
-          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.14"
+          "hoistedVersion": "9.24.16",
+          "starter-pack-package-json-version": "9.24.16",
+          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.16"
         }
       ]
     },
@@ -586,9 +586,9 @@
       "versionDetails": [
         {
           "rootPackageVersion": "--",
-          "hoistedVersion": "9.24.14",
-          "starter-pack-package-json-version": "9.24.14",
-          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.14"
+          "hoistedVersion": "9.24.16",
+          "starter-pack-package-json-version": "9.24.16",
+          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.16"
         }
       ]
     },
@@ -597,7 +597,7 @@
       "versionDetails": [
         {
           "rootPackageVersion": "--",
-          "hoistedVersion": "9.24.14"
+          "hoistedVersion": "9.24.16"
         }
       ]
     },
@@ -606,9 +606,9 @@
       "versionDetails": [
         {
           "rootPackageVersion": "--",
-          "hoistedVersion": "9.24.14",
-          "starter-pack-package-json-version": "9.24.14",
-          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.14"
+          "hoistedVersion": "9.24.16",
+          "starter-pack-package-json-version": "9.24.16",
+          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.16"
         }
       ]
     },
@@ -617,9 +617,9 @@
       "versionDetails": [
         {
           "rootPackageVersion": "--",
-          "hoistedVersion": "9.24.14",
-          "starter-pack-package-json-version": "9.24.14",
-          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.14"
+          "hoistedVersion": "9.24.16",
+          "starter-pack-package-json-version": "9.24.16",
+          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.16"
         }
       ]
     },
@@ -628,9 +628,9 @@
       "versionDetails": [
         {
           "rootPackageVersion": "--",
-          "hoistedVersion": "9.24.14",
-          "starter-pack-package-json-version": "9.24.14",
-          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.14"
+          "hoistedVersion": "9.24.16",
+          "starter-pack-package-json-version": "9.24.16",
+          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.16"
         }
       ]
     },
@@ -639,7 +639,7 @@
       "versionDetails": [
         {
           "rootPackageVersion": "9.24",
-          "hoistedVersion": "9.24.14"
+          "hoistedVersion": "9.24.16"
         }
       ]
     },
@@ -648,9 +648,9 @@
       "versionDetails": [
         {
           "rootPackageVersion": "--",
-          "hoistedVersion": "9.24.14",
-          "starter-pack-package-json-version": "9.24.14",
-          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.14"
+          "hoistedVersion": "9.24.16",
+          "starter-pack-package-json-version": "9.24.16",
+          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.16"
         }
       ]
     },
@@ -659,9 +659,9 @@
       "versionDetails": [
         {
           "rootPackageVersion": "--",
-          "hoistedVersion": "9.24.14",
-          "starter-pack-package-json-version": "9.24.14",
-          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.14"
+          "hoistedVersion": "9.24.16",
+          "starter-pack-package-json-version": "9.24.16",
+          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.16"
         }
       ]
     },
@@ -670,9 +670,9 @@
       "versionDetails": [
         {
           "rootPackageVersion": "--",
-          "hoistedVersion": "9.24.14",
-          "starter-pack-package-json-version": "9.24.14",
-          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.14"
+          "hoistedVersion": "9.24.16",
+          "starter-pack-package-json-version": "9.24.16",
+          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.16"
         }
       ]
     },
@@ -681,9 +681,9 @@
       "versionDetails": [
         {
           "rootPackageVersion": "--",
-          "hoistedVersion": "9.24.14",
-          "starter-pack-package-json-version": "9.24.14",
-          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.14"
+          "hoistedVersion": "9.24.16",
+          "starter-pack-package-json-version": "9.24.16",
+          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.16"
         }
       ]
     },
@@ -692,9 +692,9 @@
       "versionDetails": [
         {
           "rootPackageVersion": "--",
-          "hoistedVersion": "9.24.14",
-          "starter-pack-package-json-version": "9.24.14",
-          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.14"
+          "hoistedVersion": "9.24.16",
+          "starter-pack-package-json-version": "9.24.16",
+          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.16"
         }
       ]
     },
@@ -703,9 +703,9 @@
       "versionDetails": [
         {
           "rootPackageVersion": "--",
-          "hoistedVersion": "9.24.14",
-          "starter-pack-package-json-version": "9.24.14",
-          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.14"
+          "hoistedVersion": "9.24.16",
+          "starter-pack-package-json-version": "9.24.16",
+          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.16"
         }
       ]
     },
@@ -714,9 +714,9 @@
       "versionDetails": [
         {
           "rootPackageVersion": "--",
-          "hoistedVersion": "9.24.14",
-          "starter-pack-package-json-version": "9.24.14",
-          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.14"
+          "hoistedVersion": "9.24.16",
+          "starter-pack-package-json-version": "9.24.16",
+          "starter-pack-node-modules-version": "HOISTED: Using version 9.24.16"
         }
       ]
     }

@@ -1,0 +1,16 @@
+{
+    "errors": [
+        "D:/weka/Msdyn365.Commerce.Online/src/modules/index-person-information/index-person-information.view.tsx\n\u001b[1m\u001b[31mERROR in \u001b[39m\u001b[22m\u001b[1m\u001b[36mD:/weka/Msdyn365.Commerce.Online/src/modules/index-person-information/index-person-information.view.tsx(110,11)\u001b[39m\u001b[22m\u001b[1m\u001b[31m:\u001b[39m\u001b[22m\r\n\u001b[90mTS6133: \u001b[39m'telphone' is declared but its value is never read."
+    ],
+    "warnings": [
+        "asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).\nThis can impact web performance.\nAssets: \n  static/js/0.2d9c5b9898dd67e5.chunk.js (1.5 MiB)\n  static/js/2.a6d201fe0882dcd1.chunk.js (410 KiB)\n  static/js/3.11e2311d35a5e9cf.chunk.js (510 KiB)\n  static/js/8.ad3389f872db1506.chunk.js (426 KiB)",
+        "entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.\nEntrypoints:\n  client (1.92 MiB)\n      static/js/bundle.c97d393b.js\n      static/js/0.2d9c5b9898dd67e5.chunk.js\n      static/js/8.ad3389f872db1506.chunk.js\n"
+    ],
+    "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+            "entries": [],
+            "filteredEntries": 5,
+            "debug": false
+        }
+    }
+}

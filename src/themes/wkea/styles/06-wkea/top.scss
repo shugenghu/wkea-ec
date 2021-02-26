@@ -1,11 +1,10 @@
 .wkea-header-top {
     background-color: white;
-    height: 189px;
+    height: 122px;
 }
 
 .wkea-header-top-top-left ul li:first-child {
     font-size: 12px;
-    font-weight: bold;
     color: #34495e;
 }
 
@@ -20,19 +19,28 @@
 }
 
 .wkea-header-top-top-right ul li {
+    padding-top: 7px;
+    line-height: 15px;
     padding-right: 5px;
+}
+
+.wkea-header-top-top-right ul li:last-child svg {
+    margin-top: 2px;
 }
 
 .twkea-header-op-top-right ul li a:hover {
     text-decoration: none;
 }
-
+.wkea-header-top-top-right ul li:first-child a{
+    padding-right: 14px;
+}
 .wkea-header-top-top-right ul li .wkea-header-top-top-right-number {
-    width: 15px;
+    margin-top: 0px;
+    position: absolute;
+    width: 14px;
     margin-top: 3px;
-    margin-left: 8px;
-    height: 15px;
-    line-height: 15px;
+    height: 14px;
+    line-height: 14px;
     display: inline-block;
     border-radius: 100%;
     text-align: center;
@@ -44,12 +52,12 @@
 
 .wkea-header-top .wkea-header-top-top .wkea-header-top-top-right hr {
     position: relative;
-    top: 6px;
+    top: 3px;
     margin-left: 15px;
     margin-right: 15px;
-    height: 21px;
+    height: 14px;
     width: 1px;
-    background-color: #EFF3F6;
+    background-color: #DFE4E8;
     display: inline-block;
 }
 
@@ -60,14 +68,20 @@
 .wkea-header-top-top-right ul li a {
     font-size: 12px;
     font-family: '微软雅黑';
-    line-height: 50px;
     color: #34495e;
+}
+
+.wkea-header-top-top-right ul li a:hover {
+    text-decoration: none;
+    color: #009CE1;
+    -webkit-transition: all 150ms linear;
+    transition: all 250ms linear;
 }
 
 .wkea-header-top-top-left ul li {
     font-size: 12px;
     font-family: '微软雅黑';
-    line-height: 50px;
+    line-height: 34px;
     padding-right: 15px;
 }
 
@@ -75,20 +89,40 @@
     margin-right: 5px;
 }
 
+.wkea-header-top-content-logo a {
+    text-decoration: none;
+}
+
 .wkea-header-top-top-left ul li a {
     color: #019be1;
 }
 
+.wkea-header-top-top-left ul li a:hover {
+    text-decoration: none;
+    color: #2AB3F0;
+    -webkit-transition: all 150ms linear;
+    transition: all 250ms linear;
+}
+
 .wkea-header-top-top-right {
-    height: 50px;
-    line-height: 50px;
+    height: 34px;
+    line-height: 34px;
 }
 
 .wkea-header-top-top-right span {
-    font-family: 'TitilliumWeb';
+    font-size: 12px;
+    font-family: '微软雅黑';
     color: #34495e;
 }
 
+.wkea-header-top-top-right span+span {
+    font-size: 14px;
+    font-family: 'TitilliumWeb';
+    color: #34495e;
+}
+.wkea-header-top-top-right ul li:last-child{
+    padding-top: 8px;
+}
 .wkea-header-top hr {
     padding: 0;
     margin: 0;
@@ -96,7 +130,7 @@
 
 /* input输入框 logo 购物车 */
 .wkea-header-top-content {
-    padding-top: 25px;
+    padding-top: 18px;
     height: 95px;
 }
 
@@ -105,33 +139,41 @@
 }
 
 .wkea-header-top-content-logo {
-    margin-top: 5px;
-    margin-right: 150px;
+    margin-right: 130px;
+}
+
+.wkea-header-top-content-logo img {
+    width: 209px;
+}
+
+.wkea-header-top-content .ms-search {
+    width: 670px;
 }
 
 .wkea-header-top-content-logo p {
-    margin-top: 10px;
+    margin-top: 7px;
     margin-bottom: 0px;
     display: block;
-    font-size: 16px;
+    font-size: 14px;
     color: #34495E;
     text-align-last: justify;
     font-family: "微软雅黑";
-    width: 250px;
+    width: 209px;
 }
 
 .wkea-header-top-content-input {
     background-color: white;
     border-radius: 3px;
     border: 2px solid #019be1;
-    height: 50px;
-    width: 670px;
+    border-right-width: 0px;
+    height: 40px;
+    width: 638px;
     margin-right: 30px;
 }
 
 .wkea-header-top-content-input svg {
     float: left;
-    margin-top: 15px;
+    margin-top: 10px;
     margin-left: 15px;
     margin-bottom: 5px;
     margin-right: 15px;
@@ -141,33 +183,75 @@
     float: left;
     width: 475px;
     padding: 0;
-    height: 46px;
-    line-height: 46px;
+    height: 36px;
+    line-height: 36px;
     border: none;
     outline: none;
 }
 
 .wkea-header-top-content-input button {
+    font-family: "微软雅黑";
+    border-radius: 0px;
     float: left;
-    width: 145px;
+    width: 115px;
     background-color: #019be1;
     padding: 0;
     color: white;
     border: none;
     outline: none;
-    height: 46px;
+    height: 36px;
+}
+
+.wkea-header-top-content-input .ms-search__form-submitSearch:focus {
+    outline: none;
+
+    ::-moz-focus-inner {
+        border: 0;
+    }
+}
+
+.wkea-header-top-content-input .ms-search__form-submitSearch:hover {
+    background-color: #0AA3E6;
+    -webkit-transition: all 150ms linear;
+    transition: all 250ms linear;
 }
 
 .wkea-header-top-content-cart {
     border-radius: 3px;
     border: 1px solid #ebebeb;
-    width: 150px;
-    height: 50px;
+    width: 143px;
+    height: 40px;
     line-height: 25px;
-    padding-top: 10px;
+    padding-top: 6px;
+}
+
+.wkea-header-top-content-cart:hover {
+    background-color: rgba($color: #019be1, $alpha: 0.14);
+    border: 1px solid #019be1;
+    -webkit-transition: all 150ms linear;
+    transition: all 250ms linear;
+}
+
+.wkea-header-top-content-cart:hover div {
+    overflow: hidden;
+}
+
+.wkea-header-top-content-cart a {
+    color: #34495e;
+}
+
+.wkea-header-top-content-cart:hover svg {
+    filter: drop-shadow(#019be1 80px 0);
+    transform: translateX(-80px);
+}
+
+.wkea-header-top-content-cart:hover a {
+    text-decoration: none;
+    color: #019be1;
 }
 
 .wkea-header-top-content-cart svg {
+    margin-bottom: 2px;
     margin-left: 20px;
     margin-right: 3px;
 }
@@ -176,18 +260,20 @@
     font-family: "微软雅黑";
     font-size: 16px;
 }
-
+.wkea-header-top-top-left ul li .ms-header__signout-button{
+    color: #34495e;
+}
 .wkea-header-numberCircle {
     position: absolute;
-    width: 20px;
-    margin-top: 3px;
+    width: 19px;
+    margin-top: 4px;
     margin-left: 8px;
-    height: 20px;
-    line-height: 20px;
+    height: 19px;
+    line-height: 18px;
     display: inline-block;
     border-radius: 100%;
     text-align: center;
-    font-size: 2px;
+    font-size: 14px;
     font-family: 'TitilliumWeb';
     color: white;
     background-color: #019be1;
@@ -211,6 +297,7 @@
     line-height: 58px;
     background-color: #009ce1;
 }
+
 .wkea-header-top .wkea-header-top-nav ul li a:hover {
     text-decoration: none;
 }
@@ -232,20 +319,41 @@
     width: 120px;
     background-color: white;
 }
-.top-content-recommended{
-    margin-top: 5px;
+
+.top-content-recommended {
+    margin-top: 2px;
 }
-.top-content-recommended ul{
+
+.top-content-recommended ul {
     padding: 0px;
 }
-.top-content-recommended ul li{
+
+.top-content-recommended ul li {
     padding-left: 15px;
     padding-right: 15px;
 }
-.top-content-recommended  ul li a{
-    font-size: 14px;
+
+.top-content-recommended ul li a {
+    font-size: 13px;
     color: #72899B;
 }
-.top-content-recommended ul li a:hover{
+
+.top-content-recommended ul li a:hover {
     text-decoration: none;
+    color: #009CE1;
+    -webkit-transition: all 150ms linear;
+    transition: all 250ms linear;
+}
+
+// 审核更改
+.wkea-header-top {
+    margin-bottom: 8px;
+}
+
+.ms-header__topbar {
+    background-color: #F4F6FA;
+}
+
+.ms-header {
+    border-bottom: 1px solid #009CE1;
 }

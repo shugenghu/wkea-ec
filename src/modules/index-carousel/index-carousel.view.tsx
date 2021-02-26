@@ -14,35 +14,10 @@ import {
 } from 'reactstrap';
 const items = [
     {
-        src: 'https://images-ap-prod.cms.commerce.dynamics.com/cms/api/nmmnlvcthh/imageFileData/MF7Oh?pubver=1',
-        altText: 'Slide 1',
-        key: '1'
-    },
-    {
-        src: 'https://images-ap-prod.cms.commerce.dynamics.com/cms/api/nmmnlvcthh/imageFileData/MF2Cl?pubver=1',
-        altText: 'Slide 2',
-        key: '2'
-    },
-    {
-        src: 'https://images-ap-prod.cms.commerce.dynamics.com/cms/api/nmmnlvcthh/imageFileData/MF7Ol?pubver=1',
-        altText: 'Slide 3',
-        key: '3'
-    },
-    {
-      src: 'https://images-ap-prod.cms.commerce.dynamics.com/cms/api/nmmnlvcthh/imageFileData/MF2Cm?pubver=1',
-      altText: 'Slide 4',
-      key: '4'
-    },
-    {
-      src: 'https://images-ap-prod.cms.commerce.dynamics.com/cms/api/nmmnlvcthh/imageFileData/MF5dq?pubver=1',
-      altText: 'Slide 5',
-      key: '5'
-    },
-    {
-      src: 'https://images-ap-prod.cms.commerce.dynamics.com/cms/api/nmmnlvcthh/imageFileData/MF5dt?pubver=1',
-      altText: 'Slide 6',
-      key: '6'
-    }
+      src: 'https://images-ap-prod.cms.commerce.dynamics.com/cms/api/nmmnlvcthh/imageFileData/MFFDv?pubver=1',
+      altText: 'Slide 1',
+      key: '1'
+  }
 ];
 const Example = () => {
     const [activeIndex, setActiveIndex] = useState(0);
@@ -72,7 +47,7 @@ const Example = () => {
           onExited={() => setAnimating(false)}
           key={item.src}
         >
-          <a href="连接地址在上面修改"><img src={item.src} alt={item.altText} /></a>
+          <a href="/"><img src={item.src} alt={item.altText} /></a>
         </CarouselItem>
       );
     });

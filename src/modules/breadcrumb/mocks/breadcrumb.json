@@ -1,0 +1,29 @@
+{
+	"id": "R1Module1",
+	"config": {
+		"root": {
+			"linkText": "Home",
+			"linkUrl": {
+				"destinationUrl": "/"
+			},
+			"ariaLabel": "Home"
+		},
+		"links": [
+			{
+				"linkText": "My account",
+				"linkUrl": {
+					"destinationUrl": "/myaccount"
+				},
+				"ariaLabel": "My account"
+			},
+			{
+				"linkText": "Order history",
+				"linkUrl": {
+					"destinationUrl": "/orderhistory"
+				},
+				"ariaLabel": "Order history"
+			}
+		]
+	},
+	"typeName": "breadcrumb"
+}

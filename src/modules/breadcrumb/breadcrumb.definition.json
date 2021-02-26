@@ -1,0 +1,53 @@
+{
+	"$type": "contentModule",
+	"friendlyName": "Breadcrumb (COPY)",
+	"name": "breadcrumb",
+	"description": "Navigation structure that provides an alternative way to navigate around the website",
+	"categories": [
+		"breadcrumb"
+	],
+	"tags": [
+		"Additional tags go here"
+	],
+	"dataActions": {
+		"categoryHierarchy": {
+			"path": "@msdyn365-commerce-modules/retail-actions/dist/lib/get-current-category-hierarchy",
+			"runOn": "server"
+		},
+		"categoryPaths": {
+			"path": "@msdyn365-commerce-modules/retail-actions/dist/lib/get-category-paths",
+			"runOn": "server"
+		},
+		"product": {
+			"path": "@msdyn365-commerce-modules/retail-actions/dist/lib/get-selected-variant"
+		}
+	},
+	"config": {
+		"root": {
+			"friendlyName": "Root",
+			"description": "Root or start of the link",
+			"$ref": "@msdyn365-commerce-modules/definitions/dist/src/BreadcrumbLink.json#/definitions/breadcrumbLink"
+		},
+		"links": {
+			"type": "array",
+			"friendlyName": "Breadcrumb links",
+			"description": "Links to be displayed in breadcrumb after root",
+			"items": {
+				"$ref": "@msdyn365-commerce-modules/definitions/dist/src/BreadcrumbLink.json#/definitions/breadcrumbLink"
+			}
+		},
+		"hideProductName": {
+			"friendlyName": "Hide product name in breadcrumb",
+			"description": "If true, breadcrumb will not display the product name on product page",
+			"type": "boolean",
+			"default": false,
+			"required": false
+		}
+	},
+	"resources": {
+		"backToResultsText": {
+			"comment": "Button text to be displayed to go back to previous page",
+			"value": "Back to results"
+		}
+	}
+}

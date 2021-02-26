@@ -232,25 +232,23 @@ const CartLine: React.FC<ICartLineProps> = (props: ICartLineProps) => {
             }
 
             nodes.push(
-                <td className="product-number">
-                    <Quantity
-                        id='ms-buybox__product-quantity-input'
-                        // @ts-ignore
-                        max={+props.data.product?.ExtensionProperties?.HIGHESTQTY?.StringValue || maxQuantityForCartLineItem}
-                        // @ts-ignore
-                        min={+props.data.product?.ExtensionProperties?.LOWESTQTY?.StringValue || 1}
-                        step={1}
-                        // @ts-ignore
-                        invent={+props.data.product?.ExtensionProperties?.InventQty?.StringValue || 0}
-                        // @ts-ignore
-                        leadtime={+props.data.product?.ExtensionProperties?.LEADTIME?.StringValue || 14}
-                        currentCount={props.currentQuantity}
-                        onChange={onChange}
-                        inputQuantityAriaLabel={resources.inputQuantityAriaLabel}
-                        decrementButtonAriaLabel={resources.decrementButtonAriaLabel}
-                        incrementButtonAriaLabel={resources.incrementButtonAriaLabel}
-                    />
-                </td>
+                <Quantity
+                    id='ms-buybox__product-quantity-input'
+                    // @ts-ignore
+                    max={+props.data.product?.ExtensionProperties?.HIGHESTQTY?.StringValue || maxQuantityForCartLineItem}
+                    // @ts-ignore
+                    min={+props.data.product?.ExtensionProperties?.LOWESTQTY?.StringValue || 1}
+                    step={1}
+                    // @ts-ignore
+                    invent={+props.data.product?.ExtensionProperties?.InventQty?.StringValue || 0}
+                    // @ts-ignore
+                    leadtime={+props.data.product?.ExtensionProperties?.LEADTIME?.StringValue || 14}
+                    currentCount={props.currentQuantity}
+                    onChange={onChange}
+                    inputQuantityAriaLabel={resources.inputQuantityAriaLabel}
+                    decrementButtonAriaLabel={resources.decrementButtonAriaLabel}
+                    incrementButtonAriaLabel={resources.incrementButtonAriaLabel}
+                />
             );
         } else {
             nodes.push(
@@ -287,16 +285,16 @@ const CartLine: React.FC<ICartLineProps> = (props: ICartLineProps) => {
     };
 
     return (
-        <div className='msc-cart-line'>
-            <td className="product-cx">
+        <td className='cart_infos msc-cart-line'>
+            <div className="product-cx">
                 <input type="checkbox" className="cxbox" name="" id="" />
-            </td>
-            <td className="product-img">
-                <div className="msc-cart-line__product-image1">
+            </div>
+            <div className="product-img">
+                <div className="msc-cart-line__product-image">
                     <Image src={props.primaryImageUrl || ''} altText={product.Name} gridSettings={props.gridSettings} imageSettings={props.imageSettings} loadFailureBehavior='empty' />
                 </div>
-            </td>
-            <td className="product-message">
+            </div>
+            <div className="product-message">
                 {/* <div className='msc-cart-line__content'>
                     <div className='msc-cart-line__product'> */}
                 <a className='msc-cart-line__product-title' href={productUrl}>{product.Name}</a>
@@ -307,17 +305,18 @@ const CartLine: React.FC<ICartLineProps> = (props: ICartLineProps) => {
                 {renderDisountLines}
                 {/* </div>
                 </div> */}
-            </td>
-            <td className="product-price">
+            </div>
+            <div className="product-price">
                 <div className='msc-cart-line__single-price'>
                     {/* @ts-ignore */}
                     {props.context.cultureFormatter.formatCurrency(props.data.cartLine.Price)}
                 </div>
-            </td>
+            </div>
+        
             {
                 _generateQuantityAndPrice()
             }
-        </div>
+        </td>
     );
 };
 

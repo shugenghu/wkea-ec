@@ -1,0 +1,29 @@
+{
+    "$type": "contentModule",
+    "friendlyName": "wkea-supplier",
+    "name": "wkea-supplier",
+    "description": "wkea-supplier",
+    "categories": [
+		"document",
+		"static"
+	],
+    "tags": ["wkea-supplier"],
+    "dataActions": {        
+    },    
+    "config": {
+        "showText": {
+            "friendlyName": "showText",
+            "description": "example config value",
+            "type": "string",
+            "default": "Example Config Value",
+            "scope": "module",
+            "group": "Layout Properties"
+        }
+    },
+    "resources": {
+        "resourceKey": {
+            "comment": "resource description",
+            "value": "resource value"
+        }
+    }
+}

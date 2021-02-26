@@ -228,7 +228,7 @@ class Header extends React.PureComponent<IHeaderProps<IHeaderData>, IHeaderState
                 onClick={onTelemetryClick(this.telemetryContent, payLoad, '请登录')}
                 {...attributes}
             >
-                <span className='ms-header__signin-button-text' aria-hidden={true}>{resources.signInLinkText}</span>
+                <span className='ms-header__signin-button-text' aria-hidden={true}>请登录</span>
             </a>
         );
     }
@@ -237,16 +237,16 @@ class Header extends React.PureComponent<IHeaderProps<IHeaderData>, IHeaderState
         const payLoad = getPayloadObject('click', this.telemetryContent, TelemetryConstant.SignOut);
         const attributes = getTelemetryAttributes(this.telemetryContent, payLoad);
         return customer && this.displayName && (
-            <Button
+            <a
                 className={'ms-header__signout-button'}
                 title={resources.signOutLinkText}
                 href={user && user.signOutUrl || ''}
                 aria-label={resources.signOutLinkAriaText}
-                onClick={onTelemetryClick(this.telemetryContent, payLoad, 'Sign out')}
+                onClick={onTelemetryClick(this.telemetryContent, payLoad, '退出')}
                 {...attributes}
             >
-                <span className='ms-header__signout-button-text' aria-hidden={true}>{resources.signOutLinkText}</span>
-            </Button>
+                <span className='ms-header__signout-button-text' aria-hidden={true}>退出</span>
+            </a>
         );
     }
 

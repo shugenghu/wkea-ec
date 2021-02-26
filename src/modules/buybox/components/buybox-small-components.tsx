@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import { Alert, Button, format, getPayloadObject, getTelemetryAttributes, getTelemetryObject,Heading, INodeProps, ITelemetryContent, Quantity, TelemetryConstant } from '@msdyn365-commerce-modules/utilities';
+import { Alert, Button, format, getPayloadObject, getTelemetryAttributes, getTelemetryObject, INodeProps, ITelemetryContent, Quantity, TelemetryConstant } from '@msdyn365-commerce-modules/utilities';
 import {
     AddToCartComponent,
     AddToOrderTemplateComponent,
@@ -41,7 +41,7 @@ export function getBuyBoxInventoryLabel(props: IBuyboxProps<IBuyboxData>): React
 export function getBuyboxProductTitle(props: IBuyboxProps<IBuyboxData>): React.ReactElement | undefined {
     const {
         data: { product: { result: product } },
-        config: { titleHeadingTag = 'h6' }
+        // config: { titleHeadingTag = 'h6' }
     } = props;
 
     return product && (
@@ -463,7 +463,7 @@ export function getBuyboxProductQuantity(props: IBuyboxProps<IBuyboxData>, state
             htmlFor: 'ms-buybox__product-quantity-input'
         },
         heading: (
-            <div className='ms-buybox__product-quantity-label-heading'>{resources.productQuantityHeading}</div>
+            <div className='ms-buybox__product-quantity-label-heading'>购买数量:</div>
         ),
         errors: quantityError && (
             <span className='msc-alert msc-alert-noborder msc-alert-danger'>

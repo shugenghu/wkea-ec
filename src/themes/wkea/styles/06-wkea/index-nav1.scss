@@ -1,0 +1,120 @@
+.wkea-index-nav .wkea-index-nav-ul>.wkea-index-nav-active {
+    background-color: #009CE1 !important;
+}
+.wkea-index-nav ul li a:hover{
+    text-decoration: none;
+}
+.wkea-index-nav ul li ul a {
+    text-decoration: none;
+    display: block;
+    float: left;
+    width: 175px;
+    /*定义宽度*/
+    overflow: hidden;
+    /*超出部分隐藏*/
+    white-space: nowrap;
+    /*文本溢出用"..."表示*/
+    text-overflow: ellipsis;
+    /*适用IE*/
+    -o-text-overflow: ellipsis;
+    /*适用opera*/
+    -moz-binding: url('ellipsis.xml#ellipsis');
+    /*适用火狐(firefox通过XUL实现效果)*/
+}
+
+.wkea-index-nav .wkea-index-nav-ul>li:first-child ul a {
+    width: 230px;
+    /*定义宽度*/
+}
+
+.wkea-index-nav .wkea-index-nav-ul>.wkea-index-nav-active>a {
+    color: white;
+}
+
+.wkea-index-nav .wkea-index-nav-active>a {
+    color: #009CE1;
+}
+
+.wkea-index-nav .wkea-index-nav-active>ul {
+    display: block;
+}
+
+.wkea-index-nav .wkea-index-nav-active {
+    background-color: rgba(0, 156, 225, 0.17) !important;
+}
+
+.wkea-index-nav ul li ul {
+    display: none;
+}
+
+.wkea-index-nav {
+    background-color: white;
+    height: 43px;
+}
+
+.wkea-index-nav ul {
+    background-color: white;
+}
+
+.wkea-index-nav ul li {
+    width: 250px;
+}
+
+.wkea-index-nav ul {
+    list-style: none;
+    z-index: 10000;
+    padding: 0px;
+    margin: 0px;
+}
+
+.wkea-index-nav .wkea-index-nav-a {
+    color: white;
+}
+
+.wkea-index-nav a {
+    text-decoration: none;
+    font-family: "微软雅黑";
+    font-size: 16px;
+    color: #34495E;
+}
+
+.wkea-index-nav .wkea-index-nav-ul>li:first-child ul li {
+    background-color: white;
+    width: 209px;
+}
+
+.wkea-index-nav ul li {
+    background-color: white;
+    text-align: center;
+    width: 175px;
+    height: 43px;
+    line-height: 43px;
+}
+
+.wkea-index-nav .wkea-index-nav-ul>li:first-child {
+    width: 209px;
+    text-align: center;
+    background-color: #009CE1;
+}
+
+.wkea-index-nav .wkea-index-nav-ul>li:first-child ul li ul {
+    left: 209px;
+}
+
+.wkea-index-nav ul li ul li ul {
+    top: 0px;
+    left: 175px;
+    list-style: none;
+}
+
+.wkea-index-nav ul li {
+    position: relative;
+}
+
+.wkea-index-nav ul li ul {
+    position: absolute;
+}
+
+.wkea-index-nav ul li ul li a {
+    font-size: 10px;
+}

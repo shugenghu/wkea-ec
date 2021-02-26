@@ -1,7 +1,7 @@
 
 /* 头部边框样式 */
-.wk-content {
-    border-top: 2px solid #009CE1;
+.wk-header {
+    border-bottom: 2px solid #009CE1;
 }
 
 /* 头部导航样式
@@ -15,7 +15,6 @@
 }
 /* 清除浮动样式 */
 .clearboth:after{
-    content: "020"; 
     display: block; 
     height: 0; 
     clear: both; 

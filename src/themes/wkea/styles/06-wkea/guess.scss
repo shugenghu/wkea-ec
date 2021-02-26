@@ -1,0 +1,83 @@
+.wkea-guess {
+    margin-left: 13px;
+    width: 640px;
+    height: 313px;
+    background-color: white;
+}
+.wkea-guess-listname{
+    padding-left:24px;
+    padding-top: 21px;
+    padding-bottom: 15px;
+}
+.wkea-guess-listname a:hover{
+    text-decoration: none;
+}
+.wkea-guess-listname a{
+    padding-top: 7px;
+    color: #009CE1;
+    font-size: 16px;
+    font-family: "微软雅黑";
+    float: right;
+    margin-right: 25px;
+}
+.wkea-guess-listname span{
+    font-family: "微软雅黑";
+    color: #34495E;
+    font-size: 20px;
+    font-weight: bold;
+}
+.wkea-guess-product .card {
+    border: none;
+    background-color: #F8F8F8;
+}
+
+.wkea-guess-pro a {
+    margin-right: 11px;
+    display: inline-block;
+    width: 190px;
+    height: 228px;
+    background-color: #F8F8F8;
+}
+
+.wkea-guess-pro a:first-child {
+    margin-left: 24px;
+}
+
+.wkea-guess-product div img {
+    margin-top: 10px;
+    margin-left: 25px;
+    width: 140px;
+    height: 140px;
+}
+
+.wkea-guess-product .text1 {
+    font-family: "微软雅黑";
+    font-size: 12px;
+    color: #72899B;
+}
+
+.wkea-guess-product .text2 {
+    font-family: "微软雅黑";
+    font-size: 14px;
+    color: #34495E;
+}
+
+.wkea-guess-product .card-text span {
+    font-family: "Titillium Web";
+    font-size: 20px;
+    color: #FF1818;
+}
+
+.wkea-guess-product .card-body{
+    padding: 0px;
+    padding-left: 16px;
+}
+.wkea-guess-product .card-text {
+    font-family: "微软雅黑";
+    font-size: 14px;
+    color: #FF1818;
+}
+
+.wkea-guess-product:hover {
+    text-decoration: none;
+}

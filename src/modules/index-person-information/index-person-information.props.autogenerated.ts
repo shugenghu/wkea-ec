@@ -1,6 +1,6 @@
 /**
  * Copyright (c) 2018 Microsoft Corporation
- * IIndexPersonInformation containerModule Interface Properties
+ * IIndexPersonInformation contentModule Interface Properties
  * THIS FILE IS AUTO-GENERATED - MANUAL MODIFICATIONS WILL BE LOST
  */
 

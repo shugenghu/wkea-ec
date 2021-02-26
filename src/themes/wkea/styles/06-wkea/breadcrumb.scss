@@ -1,0 +1,31 @@
+//面包屑
+//用来控制页面头部的跳转名称
+//隐藏返回上一级
+.ms-breadcrumb_list li:first-child{
+    display: none;
+}
+.ms-breadcrumb_list li:first-child a{
+    display: none;
+}
+.ms-breadcrumb .ms-breadcrumb_list {
+    .ms-breadcrumb_item {
+        color: #97A6AE;
+        .ms-breadcrumb_link{
+            text-decoration: none;
+            color: #97A6AE;
+        }
+    }
+    .breadcrumb_item-current{
+        .ms-breadcrumb_link{
+            span{
+                color: #34495E;
+            }
+        }
+    }
+}
+// 感应变色
+.ms-breadcrumb_list .ms-breadcrumb_item .ms-breadcrumb_link:hover{
+    color: #009CE1;
+    -webkit-transition: all 150ms linear;
+    transition: all 250ms linear;
+}

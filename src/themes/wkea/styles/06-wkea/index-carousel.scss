@@ -4,7 +4,20 @@
     width: 1047px;
     height: 507px;
 }
+.wkea-index-carousel-content-top-content .wkea-index-carousel-content-top-content{
+    margin-top: 0px;
+}
 .wkea-index-carousel-content-top-content img{
     width: 1047px;
     height: 507px;
+}
+// 审核添加
+.carousel-indicators{
+    display: none;
+}
+.carousel-control-prev{
+    display: none;
+} 
+.carousel-control-next{
+    display: none;
 }

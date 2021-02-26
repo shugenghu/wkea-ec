@@ -1,6 +1,6 @@
 {
-	"$type": "containerModule",
-	"friendlyName": "Header (COPY)",
+	"$type": "contentModule",
+	"friendlyName": "index-person-information",
 	"name": "index-person-information",
 	"description": " Header is shown on the top of the page and allows the user to browse products via navigation hierarchy. It also support links to specific pages in the site that author wants to promote.",
 	"categories": [

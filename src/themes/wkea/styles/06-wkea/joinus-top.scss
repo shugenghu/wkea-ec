@@ -1,0 +1,79 @@
+.joinus-top{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    border: 1px solid #EFF3F6;
+}
+.joinus-top-content{
+    /* border: 1px solid red; */
+    height: 118px;
+}
+.joinus-top-logo .logo-svg{
+    width: 130px;
+    height: 118px;
+    /* border: 1px solid green; */
+    text-align: center;
+    /* float: left; */
+    line-height: 118px;
+}
+.joinus-top-logo p{
+    font-family: "圆体-简";
+    font-size: 35px;
+    color: #009CE1;
+    display: block;
+    padding-left: 130px;
+    margin-top: -85px;
+}
+.joinus-top-right{
+    padding-left: 855px;
+    margin-top: -102px;
+    line-height: 118px;
+}
+.joinus-top-right ul{
+    list-style: none;
+    width: 435px;
+    height: 118px;
+    /* border: 1px solid blue; */
+    margin: 0;
+    padding: 0;
+}
+.joinus-top-right ul li{
+    /* float: left; */
+    display: inline-block;
+    /* border:1px solid red; */
+    margin-right: 30px;
+    height: 40px;
+    /* width: 72px; */
+    line-height: 40px;
+   
+}
+.joinus-top-right ul li a{
+    color:  #34495E;
+    font-size: 18px;
+    font-family: "微软雅黑";
+}
+.joinus-top-right ul .socal{
+    border-bottom: 2px solid #009CE1;
+}
+.joinus-top-right ul .socal a{
+    color: #009CE1;
+    font-size: 18px;
+    font-family: "微软雅黑";
+}
+.joinus-top-right ul .login{
+    width: 89px;
+    height: 40px;
+    background-color: #009CE1;
+    text-align: center;
+    line-height: 45px;
+    margin: 0;
+    border-radius: 3px;
+    // border: 1px solid red;
+}
+.joinus-top-right ul .login a{
+    color: white;
+    font-size: 18px;
+    font-family: "微软雅黑";
+    line-height: 40px;
+    text-decoration: none;
+}
